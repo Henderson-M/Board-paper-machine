@@ -1,23 +1,33 @@
 {
   "_notes": "Map correspondent names (as they appear in trust_urls.json / icb_urls.json) to email addresses. Names without an email get logged but no alert is sent. 'TBC' is used in the org files for unassigned orgs and is intentionally absent from this map.",
-  "_open_questions": [
-    "'Matt D' and 'Matt Discombe' both appear in the org files. Likely the same person — decide a canonical name and update the org JSONs to use only one.",
-    "'Matt M' — same person as Matt D / Matt Discombe, or a different Matt?"
-  ],
+  "_full_names": {
+    "Alison": "Alison Moore",
+    "Annabelle": "Annabelle Collins",
+    "Caitlin": "Caitlin Tilley",
+    "Ella": "Ella Devereux",
+    "Emily": "Emily Townsend",
+    "Henry": "Henry Anderson",
+    "James": "James Illman",
+    "Joe": "Joe Talora",
+    "Matt Discombe": "Matt Discombe",
+    "Matt Mathers": "Matt Mathers",
+    "Mimi": "Mimi Launder",
+    "Nick": "Nick Kituno",
+    "Zoe": "Zoe Tidman"
+  },
   "correspondents": {
-    "Alison": "",
-    "Annabelle": "",
-    "Caitlin": "",
-    "Ella": "",
-    "Emily": "",
+    "Alison": "alison.moore@hsj.co.uk",
+    "Annabelle": "annabelle.collins@hsj.co.uk",
+    "Caitlin": "caitlin.tilley@hsj.co.uk",
+    "Ella": "ella.devereux@hsj.co.uk",
+    "Emily": "emily.townsend@hsj.co.uk",
     "Henry": "henry.anderson@hsj.co.uk",
-    "James": "",
-    "Joe": "",
-    "Matt D": "",
-    "Matt Discombe": "",
-    "Matt M": "",
-    "Mimi": "",
-    "Nick": "",
-    "Zoe": ""
+    "James": "james.illman@hsj.co.uk",
+    "Joe": "joe.talora@hsj.co.uk",
+    "Matt Discombe": "matt.discombe@hsj.co.uk",
+    "Matt Mathers": "matt.mathers@hsj.co.uk",
+    "Mimi": "mimi.launder@hsj.co.uk",
+    "Nick": "nick.kituno@hsj.co.uk",
+    "Zoe": "zoe.tidman@hsj.co.uk"
   }
 }
