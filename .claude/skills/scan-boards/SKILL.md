@@ -111,7 +111,7 @@ END:VCALENDAR
 
 Where `{date_compact}` is `YYYYMMDD` and `{date_plus_one_compact}` is the day after (all-day event convention).
 
-The .ics file will be served from `https://henderson-m.github.io/Board-paper-machine/ics/{ods_code}_{date}.ics` once GitHub Pages is configured. For now, just write the file.
+The `.ics` file is **attached** to the alert email as a MIME part with content-type `text/calendar; method=PUBLISH` (set via the `send_email.py` helper in Phase 2). Outlook recognises calendar attachments and renders an "Add to calendar" button inline — no public URL or GitHub Pages required. The file is still committed to the repo as an audit trail of what was generated and so anyone can grab it manually if the email is missed.
 
 ### Step 7 — Compose alerts
 
@@ -129,16 +129,17 @@ Hi {correspondent_first_name},
 The board paper machine found {N} new meeting date(s) for orgs you cover:
 
 - {org_name} ({ods_code}) — {date_human} — {title}
-  Add to Outlook: https://henderson-m.github.io/Board-paper-machine/ics/{ods_code}_{date}.ics
   Source: {source_url}
 
 […repeat for each meeting…]
 
+A `.ics` calendar file is attached for each meeting — open it from Outlook to add the date.
+
 — Board paper machine
 ```
 
-3. **Dry-run mode (default):** write this email as a markdown file to `dry_run_output/{timestamp}_{correspondent}.md`. Do NOT actually send.
-4. **Live mode (`--live-emails`):** send via the `send_email.py` helper (not yet implemented; in Phase 1 this flag should fail gracefully with "SMTP not yet configured").
+3. **Dry-run mode (default):** write this email as a markdown file to `dry_run_output/{timestamp}_{correspondent}.md`. Include a list of the `.ics` file paths that *would* be attached so the user can verify. Do NOT actually send.
+4. **Live mode (`--live-emails`):** send via the `send_email.py` helper (not yet implemented; in Phase 1 this flag should fail gracefully with "SMTP not yet configured"). The helper attaches each meeting's `.ics` file as a MIME part with content-type `text/calendar; method=PUBLISH` and filename matching the file in `ics/`.
 
 ### Step 8 — Update state and persist
 

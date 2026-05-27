@@ -17,7 +17,7 @@ State is held in `state/meetings.json` and pushed to GitHub after every run, so 
 | `data/correspondents.json` | Maps correspondent name → email. |
 | `state/meetings.json` | Known meetings + their status (date_found / papers_found / analysed). |
 | `summaries/` | Markdown summaries of analysed board packs (one per meeting). |
-| `ics/` | `.ics` calendar files, one per detected meeting. Served via GitHub Pages so email recipients can click "Add to Outlook". |
+| `ics/` | `.ics` calendar files, one per detected meeting. Attached to the alert email as a MIME part (`text/calendar`) so recipients can add to Outlook in one click — no GitHub Pages needed. |
 | `context/hsj_editorial_context.md` | Editorial guidance loaded by the pack analyser. |
 | `.claude/skills/scan-boards/` | The skill itself — invoked as `/scan-boards` when Claude Code runs from this directory. |
 
