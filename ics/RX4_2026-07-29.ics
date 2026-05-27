@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RX4-2026-07-29@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Cumbria\, Northumberland\, Tyne and Wear NHS Foundation Trust — Board Meeting 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cntw.nhs.uk/events/
+URL:https://www.cntw.nhs.uk/events/
+END:VEVENT
+END:VCALENDAR

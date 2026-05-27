@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJR-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Countess of Chester Hospital NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meetings.aspx
+URL:https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meetings.aspx
+END:VEVENT
+END:VCALENDAR

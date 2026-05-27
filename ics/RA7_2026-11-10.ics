@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RA7-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
+URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
+END:VEVENT
+END:VCALENDAR

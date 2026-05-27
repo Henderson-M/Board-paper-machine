@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RX6-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+END:VCALENDAR

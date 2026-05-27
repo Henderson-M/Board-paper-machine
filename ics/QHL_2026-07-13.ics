@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QHL-2026-07-13@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Birmingham and Solihull ICB — Joint ICB Cluster Board Meeting - July 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events
+URL:https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXK-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Sandwell and West Birmingham Hospitals NHS Trust — Trust Board (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swbh.nhs.uk/our-trust/trust-board/board-meeting-dates/
+URL:https://www.swbh.nhs.uk/our-trust/trust-board/board-meeting-dates/
+END:VEVENT
+END:VCALENDAR

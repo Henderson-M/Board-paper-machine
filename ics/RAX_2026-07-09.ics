@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAX-2026-07-09@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Kingston Hospital NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+END:VCALENDAR

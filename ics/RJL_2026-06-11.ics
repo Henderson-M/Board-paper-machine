@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJL-2026-06-11@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:Northern Lincolnshire and Goole NHS Foundation Trust — Trust Boards-in-Common meeting June 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nlg.nhs.uk/about/events/?cat=board-meetings
+URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXL-2027-02-04@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/upcoming-meetings
+URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/upcoming-meetings
+END:VEVENT
+END:VCALENDAR

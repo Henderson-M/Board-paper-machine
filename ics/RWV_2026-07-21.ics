@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWV-2026-07-21@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Devon Partnership NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dpt.nhs.uk/our-board/
+URL:https://www.dpt.nhs.uk/our-board/
+END:VEVENT
+END:VCALENDAR

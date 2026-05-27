@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:S0E4D-2026-07-22@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+END:VEVENT
+END:VCALENDAR

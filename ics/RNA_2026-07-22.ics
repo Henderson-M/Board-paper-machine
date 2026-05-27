@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNA-2026-07-22@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:The Dudley Group NHS Foundation Trust — Board of Directors Meeting (Public session)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dgft.nhs.uk/about-our-trust/our-board/board-meetings/
+URL:https://www.dgft.nhs.uk/about-our-trust/our-board/board-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAS-2026-07-28@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:The Hillingdon Hospitals NHS Foundation Trust — Board in Common - Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nwl-acute-provider-group.nhs.uk/events
+URL:https://www.nwl-acute-provider-group.nhs.uk/events
+END:VEVENT
+END:VCALENDAR

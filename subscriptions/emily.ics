@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+X-WR-CALNAME:HSJ board meetings — Emily
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:D7T5G-2026-07-16@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Essex ICB — Essex ICB Board meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:D7T5G-2026-10-15@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Essex ICB — Essex ICB Board meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:D7T5G-2027-01-21@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Essex ICB — Essex ICB Board meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+END:VEVENT
+END:VCALENDAR

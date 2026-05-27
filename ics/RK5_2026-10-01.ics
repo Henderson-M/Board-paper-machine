@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RK5-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Sherwood Forest Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+URL:https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RN5-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Hampshire Hospitals NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXQ-2026-05-28@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+END:VEVENT
+END:VCALENDAR

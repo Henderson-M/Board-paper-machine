@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RM1-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+END:VEVENT
+END:VCALENDAR

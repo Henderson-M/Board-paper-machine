@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:D7T5G-2026-10-15@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Essex ICB — Essex ICB Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
+END:VEVENT
+END:VCALENDAR

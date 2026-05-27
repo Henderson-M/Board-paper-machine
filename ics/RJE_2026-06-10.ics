@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJE-2026-06-10@board-paper-machine.hsj
+DTSTAMP:20260527T150201Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:University Hospitals of North Midlands NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhnm.nhs.uk/about-us/our-board/trust-board-papers/
+URL:https://www.uhnm.nhs.uk/about-us/our-board/trust-board-papers/
+END:VEVENT
+END:VCALENDAR
