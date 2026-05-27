@@ -31,10 +31,8 @@ By default everything is **dry-run** — emails are written as markdown files to
 
 ## Setup
 
-1. `git clone https://github.com/Henderson-M/Board-paper-machine.git`
-2. Open the folder in Claude Code.
-3. Verify your name appears in `data/correspondents.json` with the right email.
-4. Create a local `.env.local` with the Gmail credentials (ask Henry):
+1. `git clone https://github.com/Henderson-M/Board-paper-machine.git` into a folder of your choice.
+2. Create a local `.env.local` in the repo root with the Gmail credentials (ask Henry):
 
    ```
    GMAIL_USER=hsjboardpapers@gmail.com
@@ -42,8 +40,25 @@ By default everything is **dry-run** — emails are written as markdown files to
    HSJ_API_TOKEN=...
    ```
 
-5. Run `/scan-boards` — dry-run by default. Emails are written to `dry_run_output/`.
-6. When satisfied, run `/scan-boards --live-emails` to actually send.
+3. Verify your name appears in `data/correspondents.json` with the right email.
+4. Install the skills at user-level (recommended — makes `/scan-boards` available from any Claude Code session, not just one started inside the repo):
+
+   ```powershell
+   $repo = "C:\path\to\your\Board-paper-machine"   # adjust to where you cloned
+   New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\scan-boards" -Target "$repo\.claude\skills\scan-boards"
+   New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\pack-analyser" -Target "$repo\.claude\skills\pack-analyser"
+   ```
+
+5. If your repo isn't in the default location (Henry's machine path is baked into the skill), set an env var so the skill can find it:
+
+   ```powershell
+   [Environment]::SetEnvironmentVariable("BOARD_PAPER_MACHINE_REPO", "C:\path\to\your\Board-paper-machine", "User")
+   ```
+
+   Restart Claude Code after setting an env var.
+
+6. Run `/scan-boards` — dry-run by default. Emails are written to `dry_run_output/`.
+7. When satisfied, run `/scan-boards --live-emails` to actually send.
 
 ## Common commands
 

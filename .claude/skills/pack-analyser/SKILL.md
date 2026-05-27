@@ -28,6 +28,30 @@ If inputs are ambiguous, ask the user once to clarify, then proceed.
 
 ## Workflow
 
+### Step 0 — Locate the repo and cd into it
+
+The skill is installed at user-level (`~/.claude/skills/pack-analyser/`) via a Windows directory junction back to the repo, so it's discoverable from any Claude Code session. But every path referenced by this skill (context/, summaries/, data/, state/) is relative to the **repo root**, not your current cwd.
+
+Resolve the repo path in this order:
+
+1. If `BOARD_PAPER_MACHINE_REPO` is set, use it.
+2. Else, use the default: `C:\Users\henry.anderson\OneDrive - HSJ Information Ltd\Documents\My assistant\projects\Board-paper-machine`
+3. If neither exists, surface an error and ask the user.
+
+```powershell
+$repo = if ($env:BOARD_PAPER_MACHINE_REPO) { $env:BOARD_PAPER_MACHINE_REPO } else { "C:\Users\henry.anderson\OneDrive - HSJ Information Ltd\Documents\My assistant\projects\Board-paper-machine" }
+Set-Location -Path $repo
+```
+
+```bash
+REPO="${BOARD_PAPER_MACHINE_REPO:-/c/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine}"
+cd "$REPO"
+```
+
+All subsequent steps assume cwd = repo root.
+
+If invoked by `/scan-boards`, it has already done this — but doing it again is harmless and makes the skill safe to call standalone.
+
 ### Step 1 — Load the editorial context
 
 Read `context/hsj_editorial_context.md` from the repo root. This file contains:

@@ -46,9 +46,33 @@ If no arguments, scan every org in both files (all 233 in-scope orgs) and run th
 
 ## Workflow
 
-### Step 1 — Sync state
+### Step 0 — Locate the repo and cd into it
 
-Run from the repo root (`projects/Board-paper-machine/`):
+The skill is installed at user-level (`~/.claude/skills/scan-boards/`) via a Windows directory junction back to the repo, so it's discoverable from any Claude Code session. But every path referenced by this skill (data/, state/, ics/, summaries/, send_email.py) is relative to the **repo root**, not your current cwd. So the first thing to do is `cd` into the repo.
+
+Resolve the repo path in this order:
+
+1. If the environment variable `BOARD_PAPER_MACHINE_REPO` is set, use it.
+2. Else, use this default (Henry's machine): `C:\Users\henry.anderson\OneDrive - HSJ Information Ltd\Documents\My assistant\projects\Board-paper-machine`
+3. If neither resolves to an existing folder, surface a clear error and ask the user for the repo path before continuing.
+
+Then change directory:
+
+```powershell
+$repo = if ($env:BOARD_PAPER_MACHINE_REPO) { $env:BOARD_PAPER_MACHINE_REPO } else { "C:\Users\henry.anderson\OneDrive - HSJ Information Ltd\Documents\My assistant\projects\Board-paper-machine" }
+Set-Location -Path $repo
+```
+
+```bash
+REPO="${BOARD_PAPER_MACHINE_REPO:-/c/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine}"
+cd "$REPO"
+```
+
+(For team members on different machines: set `BOARD_PAPER_MACHINE_REPO` in your user environment once, then never touch the skill.)
+
+All subsequent steps assume cwd = repo root.
+
+### Step 1 — Sync state
 
 ```bash
 git pull --rebase
