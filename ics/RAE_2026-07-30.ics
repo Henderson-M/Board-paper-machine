@@ -1,0 +1,14 @@
+﻿BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAE-2026-07-30@board-paper-machine.hsj
+DTSTAMP:20260527T124648Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+END:VCALENDAR
