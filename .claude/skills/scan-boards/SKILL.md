@@ -165,9 +165,11 @@ Do:
 
 3. If page needs Playwright, fall back via `webapp-testing` skill.
 
-4. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+4. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
 
-5. **If new files found:**
+5. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+
+6. **If new files found:**
    - Append to `pack_files` in state.
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.

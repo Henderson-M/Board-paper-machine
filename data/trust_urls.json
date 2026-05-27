@@ -849,7 +849,7 @@
     "ics": "Humber and North Yorkshire",
     "correspondent": "Henry",
     "url": "https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/",
-    "notes": "WebFetch on the board-papers page hallucinates PDF URLs at yorkscarborough.nhs.uk (non-existent domain). Correct domain is yorkhospitals.nhs.uk. When enumerating pack files for this trust, replace yorkscarborough.nhs.uk -> yorkhospitals.nhs.uk before downloading. Trust publishes 'Agenda' first then a combined 'Agenda and Papers' PDF later; the combined pack is the high-signal target. Confirmed 2026-05-27."
+    "notes": "WebFetch on the board-papers page hallucinates PDF URLs at yorkscarborough.nhs.uk (non-existent domain). Correct domain is yorkhospitals.nhs.uk. When enumerating pack files for this trust, replace yorkscarborough.nhs.uk -> yorkhospitals.nhs.uk before downloading. File titles are unreliable: a file titled '... Board of Directors Agenda' may actually be the full combined pack (~12MB, ~300 pages) for that meeting. ALWAYS download the candidate file and check size/page count before deciding it's just an agenda. Confirmed 2026-05-27 — 27 May meeting's 'Agenda' file was actually a 298-page combined pack."
   },
   {
     "ods_code": "RCD",

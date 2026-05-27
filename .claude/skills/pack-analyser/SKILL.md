@@ -69,19 +69,35 @@ If `pack_files` was passed in, use it. Otherwise WebFetch the `papers_url` with 
 
 > Return JSON ONLY: `{"pack_files":[{"url":"absolute URL","title":"title or filename","kind":"pdf|other"}]}`. List every PDF or document on this page that is part of the pack for the {date} meeting.
 
-### Step 3 — Download and read each PDF
+### Step 3 — Download and **verify** each PDF before deciding what's in scope
 
 For each file in the pack:
 
 1. Use `Bash` (or PowerShell `Invoke-WebRequest`) to download the PDF into a temporary folder, e.g.:
 
    ```bash
-   curl -L -o /c/tmp/pack/{filename}.pdf "{url}"
+   curl -sL -o /c/tmp/pack/{filename}.pdf -w "Size: %{size_download} bytes\n" "{url}"
    ```
 
-2. Use the `Read` tool on the downloaded PDF. For packs >10 pages, use the `pages` argument to read in chunks (e.g. `pages: "1-10"`, `pages: "11-20"`).
+2. **CRITICAL — verify before deciding what's "the" pack.** Trusts use inconsistent file titles. A file titled "Agenda" may be a 5-page agenda *or* a 300-page combined pack — the title is not a reliable signal. Always check file size and page count:
 
-3. As you read, take notes — but only on items that match the signals in Part D of the editorial context (financial, regulatory, workforce, policy, patient safety) AND pass the "north star" test in Part A.
+   ```bash
+   # Page count via pdfinfo (if available) or qpdf
+   pdfinfo /c/tmp/pack/{filename}.pdf | grep Pages
+   ```
+
+   Rules of thumb (use these, not the filename):
+   - **Full combined pack:** typically >5 MB AND >100 pages.
+   - **Agenda only / cover page only:** typically <1 MB AND <20 pages.
+   - **Single-paper extract:** between the two.
+
+   If the file for the most recent meeting is large enough to be a full pack, **use it as the pack** regardless of what the title says. If unsure, read the first 5 pages — a full pack opens with an agenda that has page references like "p.38", "p.137", "p.223" pointing to substantive reports. An agenda-only file ends after a few pages.
+
+   **Never** decide "this meeting's papers aren't out yet" purely because the title doesn't include words like "Papers" or "Pack". Always download and measure.
+
+3. Use the `Read` tool on the downloaded PDF. The Read tool caps at 20 pages per call, so chunk longer reads (e.g. `pages: "1-20"`, `pages: "21-40"`).
+
+4. As you read, take notes — but only on items that match the signals in Part D of the editorial context (financial, regulatory, workforce, policy, patient safety) AND pass the "north star" test in Part A.
 
 **On large packs:** packs can be 200+ pages. Don't try to read everything at full depth. Use the agenda or table of contents (usually paper 1 or 2) to identify the high-signal papers (CEO report, integrated performance report, finance report, risk register, any external reviews). Read those in full. Skim the routine items.
 
