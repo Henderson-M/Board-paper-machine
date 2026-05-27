@@ -285,12 +285,12 @@
     ],
     "merger_date": "2026-04-01",
     "region": "East of England",
-    "correspondent": "Emily",
+    "correspondent": "James",
     "url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
     "url_root": "https://www.centraleast.icb.nhs.uk",
     "cluster_id": null,
     "cluster_meeting_url": null,
-    "notes": "Formed 1 April 2026 from merger of Bedfordshire, Luton and Milton Keynes (QHG, bedfordshirelutonandmiltonkeynes.icb.nhs.uk), Cambridgeshire and Peterborough (QUE, cpics.org.uk), and Hertfordshire and West Essex (QM7, hertsandwestessex.ics.nhs.uk). Predecessor sites still host historical packs. | Correspondent set to Emily (covered 2 of 3 predecessor ICBs: Beds/Luton/MK and Herts/West Essex). Cambridgeshire and Peterborough was previously James — confirm with team if assignment should be split or shared."
+    "notes": "Formed 1 April 2026 from merger of Bedfordshire, Luton and Milton Keynes (QHG, bedfordshirelutonandmiltonkeynes.icb.nhs.uk), Cambridgeshire and Peterborough (QUE, cpics.org.uk), and Hertfordshire and West Essex (QM7, hertsandwestessex.ics.nhs.uk). Predecessor sites still host historical packs. if assignment should be split or shared. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Beds/Luton/MK (Emily), Cambs/Peterborough (James), Herts/West Essex (Emily) — team decision: James."
   },
   {
     "ods_code": "D7T5G",
@@ -309,7 +309,7 @@
     "url_root": "https://www.essex.icb.nhs.uk",
     "cluster_id": null,
     "cluster_meeting_url": null,
-    "notes": "Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent set to Emily (covered Mid and South Essex, the larger predecessor). The NE Essex portion of former QJG was previously James — confirm with team."
+    "notes": "Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) — team decision: Emily."
   },
   {
     "ods_code": "T6Y0W",
@@ -462,7 +462,7 @@
     "url_root": "https://www.surreysussex.icb.nhs.uk",
     "cluster_id": null,
     "cluster_meeting_url": null,
-    "notes": "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent set to Alison (covered 2 of 3 predecessors: Surrey Heartlands and Sussex). The Surrey portion of former Frimley was previously Mimi — confirm with team."
+    "notes": "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Surrey Heartlands (Alison), Sussex (Alison), Surrey part of former Frimley (Mimi) — team decision: Alison."
   },
   {
     "ods_code": "QOX",
