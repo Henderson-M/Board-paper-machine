@@ -22,11 +22,20 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 4. Generate `.ics` files for new meetings.
 5. For meetings with a date in the next 10 days, check the papers page for new pack files.
 6. For each newly detected pack, invoke the `pack-analyser` sub-skill — applies HSJ editorial context, writes a markdown summary to `summaries/`, returns top lines.
-7. Compose two kinds of email per correspondent:
-   - **Date alerts** — batched, one per correspondent per scan, listing all new meetings detected for orgs they cover. `.ics` files attached.
+7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan).
+8. Compose two kinds of email per correspondent:
+   - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. The combined `subscriptions/{firstname}.ics` is attached. The recipient clicks the attachment → Outlook opens → "Save & Close" / "Save to Calendar" imports all events. Outlook deduplicates by UID, so re-importing on later scans only adds the new ones.
    - **Papers alerts** — one per analysed pack, with the pack-analyser summary inline + summary markdown attached.
-8. Send via `send_email.py` if `--live-emails`, otherwise write to `dry_run_output/`.
-9. Update state, commit, push.
+9. Send via `send_email.py` if `--live-emails`, otherwise write to `dry_run_output/`.
+10. Update state, commit, push.
+
+## Helper scripts in the repo
+
+| Script | Purpose |
+|---|---|
+| `send_email.py` | Send Gmail SMTP alerts. Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
+| `fetch_with_playwright.py` | Headless Chromium fetcher with stealth-lite. Used as the fallback when WebFetch hits Cloudflare/UA blocks or JS-rendered pages. `--text` for visible text, `--html` for full DOM, `--download --out FILE` for binary downloads. |
+| `fetch_pdf_text.py` | Download a PDF and extract its text with pypdf. Use when an org publishes board dates inside an annual calendar PDF rather than on a webpage. Try `requests` mode first; pass `--playwright` if the host blocks direct downloads. |
 
 ## Arguments
 
@@ -102,19 +111,52 @@ In `icb_urls.json`, some ICBs share a board meeting via `cluster_id` and `cluste
 
 (Skip if `--packs-only`.)
 
-For each org:
+There is a **three-step fallback ladder**. Try cheap fetchers first, escalate only on failure.
 
-1. **First attempt — WebFetch** the `url` with this prompt:
+#### 4a — WebFetch (default)
 
-   > Today is {today}. Return JSON ONLY (no prose, no markdown fences). Schema: `{"meetings":[{"date":"YYYY-MM-DD","title":"...","papers_url":"URL or null"}]}`. List every upcoming PUBLIC board meeting in the next 12 months. Exclude past meetings, committee meetings, private/closed sessions. UK dates may be DD/MM/YYYY. If you find no future meeting dates return `{"meetings":[]}`. If the page needs JavaScript return `{"meetings":[],"_error":"needs_js"}`.
+For each org, **WebFetch** the `url` with this prompt:
 
-2. **If WebFetch returns nothing useful** (no dates, `_error: needs_js`, or content suggests JS-rendering): escalate to Playwright via the `webapp-testing` skill.
+> Today is {today}. Return JSON ONLY (no prose, no markdown fences). Schema: `{"meetings":[{"date":"YYYY-MM-DD","title":"...","papers_url":"URL or null"}]}`. List every upcoming PUBLIC board meeting in the next 12 months. Exclude past meetings, committee meetings, private/closed sessions. UK dates may be DD/MM/YYYY. If you find no future meeting dates return `{"meetings":[]}`. If the page needs JavaScript return `{"meetings":[],"_error":"needs_js"}`.
 
-3. **If Playwright also returns nothing:** log a `_scan_errors` entry in state and move on. Do NOT crash the whole run.
+A WebFetch is considered to have **failed** when:
+- It returns `_error: needs_js`
+- It returns HTTP 403 (Cloudflare / UA block — affects ~12 big trusts including Sheffield Teaching, Imperial, Royal Marsden, Royal Free, Royal Devon, UHCW, Mersey Care, CWP, Sussex Community, Liverpool UH group, London North West, Clatterbridge)
+- It returns content that looks like a cookie banner or nav-only shell (<200 chars after stripping)
+- It returns valid JSON with `meetings: []` AND the org's notes field flags "needs Playwright" or similar
 
-4. **Normalise dates** to ISO `YYYY-MM-DD`. Be careful with UK ambiguous formats.
+#### 4b — Playwright fallback (escalation 1)
 
-5. **Validate** — reject anything >18 months in the future, in the past, or that fails as a real date (e.g. "TBC", "2026-13-45").
+When WebFetch fails, escalate to `fetch_with_playwright.py`:
+
+```bash
+python fetch_with_playwright.py URL --text > c:/tmp/render.txt
+```
+
+This launches headless Chromium with stealth-lite settings (real Chrome UA, `navigator.webdriver` hidden, GB locale). It bypasses the WAF/UA blocks that defeat WebFetch.
+
+Then process the rendered text the same way (extract dates manually or via a subagent with the same prompt as 4a).
+
+Record in the org's `notes` that Playwright was used (e.g. `"detected via playwright"`) so future runs go straight to step 4b instead of wasting a WebFetch call.
+
+#### 4c — PDF fallback (escalation 2)
+
+When both 4a and 4b return no dates (the page renders but lists no forward schedule — common when the trust publishes an annual board calendar PDF rather than HTML dates), escalate to `fetch_pdf_text.py`:
+
+1. Look in the rendered HTML (from 4b) for PDF links whose text suggests forward dates: "Schedule of meetings", "Annual board calendar", "Board dates 2026/27", "Forward plan". Or pick the most recent board agenda PDF — it usually states the next meeting date on page 1. AGM packs often list the year's full schedule.
+2. Download + extract: `python fetch_pdf_text.py PDF_URL [--playwright] > c:/tmp/pdf.txt`. Use `--playwright` if the host blocks requests-based downloads.
+3. Process the extracted text the same way (find dates 2026–2027, normalise to ISO).
+
+Time-box: 1–2 candidate PDFs per org. Don't drain the budget on speculative downloads.
+
+#### 4d — Give up gracefully
+
+If all three steps fail, log a `_scan_errors` entry in state and move on. Do NOT crash the whole run. Update the org's `notes` field with what was tried so the next session knows.
+
+#### After extraction
+
+- **Normalise dates** to ISO `YYYY-MM-DD`. UK ambiguous formats (DD/MM/YYYY vs MM/DD/YYYY) — always interpret as DD/MM/YYYY for NHS sites.
+- **Validate** — reject anything >18 months in the future, in the past, or that fails as a real date (e.g. "TBC", "2026-13-45").
 
 ### Step 5 — Diff dates against state
 
@@ -163,13 +205,15 @@ Do:
 
    > Today is {today}. The page is the board papers page for a meeting on {date}. Return JSON ONLY: `{"pack_files":[{"url":"...","title":"...","kind":"pdf|other"}]}`. List every PDF or document linked from this page that appears to be a paper for the {date} meeting (agenda, finance report, performance report, CEO report, minutes, action tracker, risk register, etc.). Exclude documents from other meetings. Make URLs absolute. If nothing found return `{"pack_files":[]}`.
 
-3. If page needs Playwright, fall back via `webapp-testing` skill.
+3. If WebFetch fails (same conditions as Step 4a — 403, needs_js, empty), fall back to `python fetch_with_playwright.py URL --html` and parse the HTML for `<a href="*.pdf">` links yourself. Apply the same "is this for the {date} meeting?" filter.
 
-4. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
+4. When downloading the actual PDFs (for the pack-analyser sub-skill), use `python fetch_pdf_text.py PDF_URL [--playwright]` — many trust sites that allow WebFetch on HTML still block direct PDF GETs from non-browser UAs.
 
-5. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+5. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
 
-6. **If new files found:**
+6. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+
+7. **If new files found:**
    - Append to `pack_files` in state.
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.
@@ -209,13 +253,22 @@ Group `new_meetings` by correspondent. For each correspondent with new meetings:
    | {Day} {DD Mon YYYY} | {title} | [board page]({source_url}) |
    ...
 
-   A .ics calendar file is attached for each meeting — open it in Outlook
-   to add the date to your calendar.
+   ## Add to your calendar
+
+   A calendar file ({firstname}.ics) is attached. It contains every board
+   meeting the tool has detected for the orgs you cover ({total} events).
+
+   **To import all dates at once:** click the attachment → Outlook opens →
+   'Save & Close' or 'Save to Calendar'. Re-importing on later scans
+   doesn't duplicate (Outlook dedupes by UID).
 
    — Board paper machine
    ```
 
 3. Subject: `[Board paper machine] {N} new meeting date(s) detected`
+4. Attach `subscriptions/{firstname}.ics` (the single combined file rebuilt in Step 9, not the per-meeting `ics/*.ics` files).
+
+Note on the calendar file: a combined `subscriptions/{firstname}.ics` is rebuilt from state on every scan (see Step 9). Per-meeting `ics/{ods_code}_{date}.ics` files are still written for audit but no longer attached to alert emails.
 
 ### Step 10 — Compose papers alerts (one per analysed pack)
 
@@ -258,9 +311,11 @@ python send_email.py \
   --to {email} \
   --subject "{subject}" \
   --body-file {body_path} \
-  --attach {ics_paths...}        # for date alerts
-  --attach {summary_path}        # for papers alerts
+  --attach subscriptions/{firstname}.ics    # for date alerts (one combined file)
+  --attach {summary_path}                   # for papers alerts (the markdown summary)
 ```
+
+Also remember to update `ACTIVITY_LOG.md` at the repo root with a plain-English entry covering what changed this run — what was scanned, what was found, what failed, what's still pending. This log is for Henry to skim across sessions; treat it like commit notes but in non-technical language.
 
 `send_email.py` reads `GMAIL_USER` / `GMAIL_APP_PASSWORD` from `.env.local` (gitignored) and sends via Gmail SMTP. `.ics` files are attached as `text/calendar; method=PUBLISH` so Outlook renders the inline add-to-calendar button.
 
@@ -291,7 +346,8 @@ In chat, give a terse summary:
 - **Never delete `state/meetings.json` entries.** Even past meetings stay (audit trail).
 - **Be careful with UK dates.** `12/06/2026` is 12 June, not 6 December.
 - **De-duplicate cluster meetings.** Hull + NLAG share a board; some ICBs share via `cluster_id`. Don't send the same alert twice.
-- **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage", read and act on it.
+- **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage" or "PDF schedule", read it and skip cheaper fetchers that have already failed. Don't burn budget re-discovering known failures.
+- **Trust `cluster_id`.** Trust and ICB records can both carry `cluster_id` (e.g. `NWUHG`, `DLN`, `STW-SSOT`). When set, all members share the same `url` and meeting dates. Dedupe at the email/subscription layer, but keep one state entry per ods_code for audit.
 - **Self-improving.** If you discover an org's `url` has moved, update it. If you discover a quirk worth recording, write to `notes`.
 - **Editorial caution.** This tool produces *leads*, not facts. Phrasing in alerts must not assert anything beyond what the source page or pack literally says — see `context/hsj_editorial_context.md` for the full rules.
 - **One commit per scan.** Don't make multiple commits for a single run; aggregate all state changes into one.

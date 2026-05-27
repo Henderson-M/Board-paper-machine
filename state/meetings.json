@@ -12923,6 +12923,1165 @@
         "summary": null
       },
       "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "QK1:2026-06-18",
+      "ods_code": "QK1",
+      "org_type": "icb",
+      "date": "2026-06-18",
+      "title": "ICB Board meeting (in common with Northamptonshire ICB)",
+      "source_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QK1:2026-08-20",
+      "ods_code": "QK1",
+      "org_type": "icb",
+      "date": "2026-08-20",
+      "title": "ICB Board meeting",
+      "source_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QK1:2026-10-15",
+      "ods_code": "QK1",
+      "org_type": "icb",
+      "date": "2026-10-15",
+      "title": "ICB Board meeting",
+      "source_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QK1:2026-12-17",
+      "ods_code": "QK1",
+      "org_type": "icb",
+      "date": "2026-12-17",
+      "title": "ICB Board meeting",
+      "source_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QPM:2026-06-18",
+      "ods_code": "QPM",
+      "org_type": "icb",
+      "date": "2026-06-18",
+      "title": "Integrated Care Board meeting (in common with LLR ICB)",
+      "source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QPM:2026-08-20",
+      "ods_code": "QPM",
+      "org_type": "icb",
+      "date": "2026-08-20",
+      "title": "Integrated Care Board meeting",
+      "source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QPM:2026-10-15",
+      "ods_code": "QPM",
+      "org_type": "icb",
+      "date": "2026-10-15",
+      "title": "Integrated Care Board meeting",
+      "source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QPM:2026-12-17",
+      "ods_code": "QPM",
+      "org_type": "icb",
+      "date": "2026-12-17",
+      "title": "Integrated Care Board meeting",
+      "source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QUY:2026-05-27",
+      "ods_code": "QUY",
+      "org_type": "icb",
+      "date": "2026-05-27",
+      "title": "Joint Cluster Integrated Care Board (ICB) Board meeting",
+      "source_url": "https://bnssghealthiertogether.org.uk/events/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RAL:2026-06-03",
+      "ods_code": "RAL",
+      "org_type": "trust",
+      "date": "2026-06-03",
+      "title": "Trust board meeting",
+      "source_url": "https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RBT:2026-06-02",
+      "ods_code": "RBT",
+      "org_type": "trust",
+      "date": "2026-06-02",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RBT:2026-07-30",
+      "ods_code": "RBT",
+      "org_type": "trust",
+      "date": "2026-07-30",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RBT:2026-09-24",
+      "ods_code": "RBT",
+      "org_type": "trust",
+      "date": "2026-09-24",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2026-05-28",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2026-05-28",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2026-07-30",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2026-07-30",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2026-09-24",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2026-09-24",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2026-11-26",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2026-11-26",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2027-01-28",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2027-01-28",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RDR:2027-03-25",
+      "ods_code": "RDR",
+      "org_type": "trust",
+      "date": "2027-03-25",
+      "title": "Board meeting",
+      "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "REM:2026-07-16",
+      "ods_code": "REM",
+      "org_type": "trust",
+      "date": "2026-07-16",
+      "title": "Group Board Meeting",
+      "source_url": "https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2026-06-04",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2026-06-04",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2026-06-23",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2026-06-23",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2026-08-06",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2026-08-06",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2026-10-01",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2026-10-01",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2026-12-03",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2026-12-03",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RET:2027-02-04",
+      "ods_code": "RET",
+      "org_type": "trust",
+      "date": "2027-02-04",
+      "title": "Trust Board",
+      "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RH8:2026-05-27",
+      "ods_code": "RH8",
+      "org_type": "trust",
+      "date": "2026-05-27",
+      "title": "Board meeting in public",
+      "source_url": "https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-papers-minutes/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RH8:2026-07-29",
+      "ods_code": "RH8",
+      "org_type": "trust",
+      "date": "2026-07-29",
+      "title": "Board meeting in public",
+      "source_url": "https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-papers-minutes/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RH8:2026-09-30",
+      "ods_code": "RH8",
+      "org_type": "trust",
+      "date": "2026-09-30",
+      "title": "Board meeting in public",
+      "source_url": "https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-papers-minutes/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RH8:2026-11-25",
+      "ods_code": "RH8",
+      "org_type": "trust",
+      "date": "2026-11-25",
+      "title": "Board meeting in public",
+      "source_url": "https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-papers-minutes/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RHQ:2026-07-21",
+      "ods_code": "RHQ",
+      "org_type": "trust",
+      "date": "2026-07-21",
+      "title": "Board meeting",
+      "source_url": "https://www.sth.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RHQ:2026-09-08",
+      "ods_code": "RHQ",
+      "org_type": "trust",
+      "date": "2026-09-08",
+      "title": "Board meeting",
+      "source_url": "https://www.sth.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RHQ:2026-11-03",
+      "ods_code": "RHQ",
+      "org_type": "trust",
+      "date": "2026-11-03",
+      "title": "Board meeting",
+      "source_url": "https://www.sth.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RKB:2026-06-04",
+      "ods_code": "RKB",
+      "org_type": "trust",
+      "date": "2026-06-04",
+      "title": "Trust Board meeting",
+      "source_url": "https://www.uhcw.nhs.uk/our-organisation/trust-board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RPY:2026-07-21",
+      "ods_code": "RPY",
+      "org_type": "trust",
+      "date": "2026-07-21",
+      "title": "Public Board of Directors meeting",
+      "source_url": "https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RPY:2026-09-30",
+      "ods_code": "RPY",
+      "org_type": "trust",
+      "date": "2026-09-30",
+      "title": "Public Board of Directors meeting",
+      "source_url": "https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RPY:2026-11-25",
+      "ods_code": "RPY",
+      "org_type": "trust",
+      "date": "2026-11-25",
+      "title": "Public Board of Directors meeting",
+      "source_url": "https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RR7:2026-05-27",
+      "ods_code": "RR7",
+      "org_type": "trust",
+      "date": "2026-05-27",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.gatesheadhealth.nhs.uk/news/resources_type/board-papers/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RRV:2026-06-25",
+      "ods_code": "RRV",
+      "org_type": "trust",
+      "date": "2026-06-25",
+      "title": "Board meeting",
+      "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RRV:2026-07-23",
+      "ods_code": "RRV",
+      "org_type": "trust",
+      "date": "2026-07-23",
+      "title": "Board meeting",
+      "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RRV:2026-09-24",
+      "ods_code": "RRV",
+      "org_type": "trust",
+      "date": "2026-09-24",
+      "title": "Board meeting",
+      "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RRV:2026-11-26",
+      "ods_code": "RRV",
+      "org_type": "trust",
+      "date": "2026-11-26",
+      "title": "Board meeting",
+      "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2026-07-23",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2026-07-23",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2026-09-17",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2026-09-17",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2026-11-19",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2026-11-19",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2027-01-21",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2027-01-21",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2027-03-18",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2027-03-18",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "RW4:2027-05-20",
+      "ods_code": "RW4",
+      "org_type": "trust",
+      "date": "2027-05-20",
+      "title": "Board of Directors meeting",
+      "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "S0E4D:2026-05-27",
+      "ods_code": "S0E4D",
+      "org_type": "icb",
+      "date": "2026-05-27",
+      "title": "Board meeting in public (first)",
+      "source_url": "https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-27T15:20:55Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+    },
+    {
+      "id": "QOP:2026-07-15",
+      "ods_code": "QOP",
+      "org_type": "icb",
+      "date": "2026-07-15",
+      "title": "NHS Greater Manchester ICB Board",
+      "source_url": "https://gmintegratedcare.org.uk/meetings-and-events/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://gmintegratedcare.org.uk/wp-content/uploads/2026/05/20260520-nhs-gm-board)."
+    },
+    {
+      "id": "R1H:2026-07-08",
+      "ods_code": "R1H",
+      "org_type": "trust",
+      "date": "2026-07-08",
+      "title": "Trust Board (Part 1, public)",
+      "source_url": "https://www.bartshealth.nhs.uk/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://www.bartshealth.nhs.uk/download/trust-board-part-1-papers-13-may-2026-v3)."
+    },
+    {
+      "id": "RAT:2026-06-02",
+      "ods_code": "RAT",
+      "org_type": "trust",
+      "date": "2026-06-02",
+      "title": "Board of Directors (public)",
+      "source_url": "https://www.nelft.nhs.uk/about-us-board-papers/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://www.nelft.nhs.uk/download/public-trust-board-papers-31-mar-2026.pdf)."
+    },
+    {
+      "id": "RBV:2026-06-25",
+      "ods_code": "RBV",
+      "org_type": "trust",
+      "date": "2026-06-25",
+      "title": "Board of Directors (public)",
+      "source_url": "https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://www.christie.nhs.uk/media/203bwit0/christie-public-board-of-director-pap)."
+    },
+    {
+      "id": "RJ2:2026-07-28",
+      "ods_code": "RJ2",
+      "org_type": "trust",
+      "date": "2026-07-28",
+      "title": "Trust Board (Part 1, public)",
+      "source_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://www.lewishamandgreenwich.nhs.uk/download/trust-board-part-1-28-apr-2026-)."
+    },
+    {
+      "id": "RJZ:2026-07-15",
+      "ods_code": "RJZ",
+      "org_type": "trust",
+      "date": "2026-07-15",
+      "title": "Board of Directors (public)",
+      "source_url": "https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://www.kch.nhs.uk/wp-content/uploads/2026/05/KCH-PUBLIC-Board-meeting-pack-)."
+    },
+    {
+      "id": "RVJ:2026-07-14",
+      "ods_code": "RVJ",
+      "org_type": "trust",
+      "date": "2026-07-14",
+      "title": "Group Board (NBT/UHBW in common, public)",
+      "source_url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (agenda PDF)."
+    },
+    {
+      "id": "RVJ:2026-09-08",
+      "ods_code": "RVJ",
+      "org_type": "trust",
+      "date": "2026-09-08",
+      "title": "Group Board (NBT/UHBW in common, public)",
+      "source_url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (agenda PDF)."
+    },
+    {
+      "id": "RVJ:2026-11-10",
+      "ods_code": "RVJ",
+      "org_type": "trust",
+      "date": "2026-11-10",
+      "title": "Group Board (NBT/UHBW in common, public)",
+      "source_url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (agenda PDF)."
+    },
+    {
+      "id": "RVJ:2027-01-12",
+      "ods_code": "RVJ",
+      "org_type": "trust",
+      "date": "2027-01-12",
+      "title": "Group Board (NBT/UHBW in common, public)",
+      "source_url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (agenda PDF)."
+    },
+    {
+      "id": "RVJ:2027-03-09",
+      "ods_code": "RVJ",
+      "org_type": "trust",
+      "date": "2027-03-09",
+      "title": "Group Board (NBT/UHBW in common, public)",
+      "source_url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (agenda PDF)."
+    },
+    {
+      "id": "RY3:2026-07-22",
+      "ods_code": "RY3",
+      "org_type": "trust",
+      "date": "2026-07-22",
+      "title": "Trust Board meeting in public",
+      "source_url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:42:22Z",
+      "last_checked": "2026-05-27T15:42:22Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Detected via PDF fallback (https://eastofenglandcommunityhealthandcare.nhs.uk/media/ayklsk2l/00-2026-05-20-)."
     }
   ],
   "_scan_errors": [

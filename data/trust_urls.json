@@ -1500,8 +1500,8 @@
     "region": "South West",
     "ics": "Bristol, North Somerset and South Gloucestershire",
     "correspondent": "Joe",
-    "url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20252026",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL does list 2026 dates (13 Jan, 10 Mar 2026). These are past now; trust likely publishes a new URL for 2026/27 (search did not surface it). Scanner may need an updated URL once 2026/27 dates are posted, e.g. trust-board-meetings-20262027."
+    "url": "https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027",
+    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL does list 2026 dates (13 Jan, 10 Mar 2026). These are past now; trust likely publishes a new URL for 2026/27 (search did not surface it). Scanner may need an updated URL once 2026/27 dates are posted, e.g. trust-board-meetings-20262027. | [2026-05-27] URL updated via PDF fallback to forward-year page."
   },
   {
     "ods_code": "RVN",

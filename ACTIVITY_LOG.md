@@ -4,6 +4,57 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-05-27 (afternoon session continued — Playwright + PDF fallback wired in)
+
+### Headline
+Playwright fallback now actually integrated, plus a PDF-extraction fallback for orgs that publish dates inside annual calendars / agendas. State grew from 667 → 728 meetings in this push. NWUHG group (James Paget + NNUH + QEHKL) consolidated. SKILL.md rewritten to document the three-step fetch ladder (WebFetch → Playwright → PDF). Total **740 new dates added this session**.
+
+### What changed
+
+**1. Built `fetch_with_playwright.py` and ran it on 44 problem orgs.**
+- Headless Chromium with stealth-lite settings — real-Chrome UA, `navigator.webdriver` hidden, GB locale, networkidle wait. Bypasses Cloudflare/UA blocks that defeat WebFetch on a dozen big trusts (Sheffield Teaching, Imperial, Royal Marsden, Royal Free, Royal Devon, UHCW, Mersey Care, CWP, Sussex Community, Liverpool UH Group, London NW, Clatterbridge).
+- Test confirmed Sheffield Teaching (was 403 to WebFetch) renders correctly with dates visible.
+- Batch-rendered the 44 candidates → 43 OK, 1 tiny render (East Lancashire).
+- Date extraction by a subagent harvested **49 meetings across 18 orgs**. Sussex Community (6 dates), Mersey Care (6), Royal Devon (4), UCLH (4), Walton (6), LLR ICB (4), Northants ICB (4) etc.
+
+**2. Built `fetch_pdf_text.py` for the orgs where the page rendered but no dates were visible (annual schedule lives in a PDF).**
+- Uses `pypdf` for text extraction. `requests` fetcher by default, falls back to Playwright's request context when sites block direct downloads.
+- Subagent ran it on the 26 zero-date orgs from the Playwright pass. Recovered **12 dates across 9 orgs** by pulling the "next meeting" line from the most recent board agenda PDF, plus North Bristol's full 2026/27 calendar from a sister webpage:
+  - R1H Barts → 8 Jul 2026
+  - RAT NELFT → 2 Jun 2026
+  - RBV Christie → 25 Jun 2026
+  - RJ2 Lewisham & Greenwich → 28 Jul 2026
+  - RJZ King's College → 15 Jul 2026
+  - RY3 East of England Community → 22 Jul 2026
+  - RVJ North Bristol → 5 dates through Mar 2027 (URL also updated to forward-year page)
+  - QOP Greater Manchester ICB → 15 Jul 2026
+
+**3. James Paget (RGP) + QEHKL (RCX) consolidated under NWUHG cluster.**
+- Both now point to `nw-uhg.org.uk/p/about-us/meetings-and-agendas` with `cluster_id: NWUHG`.
+- 6 confirmed group-board dates (Jun 26 → Apr 27) added to all three NWUHG members.
+
+**4. SKILL.md rewritten.** Step 4 (date scan) now documents the three-step fallback ladder explicitly: WebFetch first, escalate to `fetch_with_playwright.py` on 403/needs_js/empty, escalate to `fetch_pdf_text.py` if the page renders but lists no forward dates. Step 7 (pack detection) uses the same ladder. Helper-scripts table added. Note on cluster_id added. Reminder to update ACTIVITY_LOG added to the persistence step.
+
+### Still-empty orgs after this push (17)
+
+In three buckets:
+- **JS-rendered tabs Playwright couldn't fully load** — REN Clatterbridge, RN3 Great Western, RXA CWP, RXR East Lancs, RWF Maidstone (404). Could try with longer `wait_for_load_state` or clicking tabs.
+- **Stale Board-in-Common dependencies** — R1K London NW and RYJ Imperial both depend on the NWL Acute Provider Collaborative page, whose forward dates page 404s.
+- **Genuinely no forward schedule published yet** — QF7 South Yorks ICB, QVV Dorset ICB, QWU Coventry & Warks ICB, QYG Cheshire & Merseyside ICB, RBQ LHCH, RDY Dorset Healthcare, RJ1 Guy's & St Thomas', RJ7 St George's, RTF Northumbria, RW5 LSCFT, RY7 Wirral Community. Probably need a re-check in 4–6 weeks.
+
+### State + git
+- State now: **128 orgs / 728 meetings**.
+- 740 first-seen-today meetings across all passes (some are cluster duplicates that get deduped at subscription level).
+- Dry-run emails refreshed; live email only sent to Henry earlier this session.
+
+### Followups for next session
+- The 5 JS-tab orgs deserve a more-aggressive Playwright pass (click "2026" tab, wait for AJAX). Probably worth a small dedicated agent.
+- Address SHSC "Sun 24 Jan 2027" data error noted earlier — manual check or re-fetch.
+- 11 ICBs / trusts in "no forward schedule yet" — schedule a recheck for ~mid-July when boards typically publish their next year's calendar.
+- Consider whether to broadcast the refreshed dry-run emails to the other 12 correspondents. Henry tested his attachment; format works. Awaiting go-ahead.
+
+---
+
 ## 2026-05-27 (afternoon session, Henry + Claude)
 
 ### Headline
