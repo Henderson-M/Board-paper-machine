@@ -1,0 +1,405 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+X-WR-CALNAME:HSJ board meetings — Matt Discombe
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:RKL-2026-06-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:West London NHS Trust — Trust Board papers Part 1 - June 2026
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RP4-2026-06-18@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-06-18@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2026-06-23@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting - Year-End
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2026-06-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Central and North West London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RF4-2026-06-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Barking\, Havering and Redbridge University Hospitals NHS Trust — Extraordinary Trust Board (Public) - 2025-26 Annual Report and Accounts Presentation
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.bhrhospitals.nhs.uk/papers-minutes/
+URL:https://www.bhrhospitals.nhs.uk/papers-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQX-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Homerton Healthcare NHS Foundation Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RF4-2026-07-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Barking\, Havering and Redbridge University Hospitals NHS Trust — Trust Board (Public)
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.bhrhospitals.nhs.uk/papers-minutes/
+URL:https://www.bhrhospitals.nhs.uk/papers-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2026-07-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RP4-2026-07-16@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:Z9B2Z-2026-07-22@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:West and North London ICB — NHS West and North London Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RKE-2026-07-23@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:Whittington Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.whittington.nhs.uk/default.asp?c=20208
+URL:https://www.whittington.nhs.uk/default.asp?c=20208
+END:VEVENT
+BEGIN:VEVENT
+UID:RWK-2026-07-23@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:East London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2026-07-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQX-2026-09-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Homerton Healthcare NHS Foundation Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-09-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:West London NHS Trust — Trust Board papers Part 1 - September 2026
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2026-09-22@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Annual General Meeting (AGM)
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RWK-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:East London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RKE-2026-09-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Whittington Health NHS Trust — Trust Board Meeting (2025-26 AGM)
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.whittington.nhs.uk/default.asp?c=20208
+URL:https://www.whittington.nhs.uk/default.asp?c=20208
+END:VEVENT
+BEGIN:VEVENT
+UID:RP4-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Central and North West London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:West London NHS Trust — Board in Common papers - October 2026
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:Z9B2Z-2026-10-21@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:West and North London ICB — NHS West and North London Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RQX-2026-11-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Homerton Healthcare NHS Foundation Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RP4-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RKE-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Whittington Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.whittington.nhs.uk/default.asp?c=20208
+URL:https://www.whittington.nhs.uk/default.asp?c=20208
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-12-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:West London NHS Trust — Trust Board papers Part 1 - December 2026
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RWK-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:East London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2026-12-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Central and North West London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-12-10@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:Z9B2Z-2027-01-13@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:West and North London ICB — NHS West and North London Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RWK-2027-01-26@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:East London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2027-01-26@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RKE-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Whittington Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.whittington.nhs.uk/default.asp?c=20208
+URL:https://www.whittington.nhs.uk/default.asp?c=20208
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:G6V2S-2027-03-23@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:North London NHS Foundation Trust — NLFT Board (in Public) Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RKE-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Whittington Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.whittington.nhs.uk/default.asp?c=20208
+URL:https://www.whittington.nhs.uk/default.asp?c=20208
+END:VEVENT
+BEGIN:VEVENT
+UID:RAN-2027-05-06@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Royal National Orthopaedic Hospital NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+END:VEVENT
+END:VCALENDAR

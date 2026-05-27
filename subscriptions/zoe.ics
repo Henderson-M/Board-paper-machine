@@ -1,0 +1,225 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+X-WR-CALNAME:HSJ board meetings — Zoe
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:RBL-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RWW-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY2-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2026-06-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RTX-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:University Hospitals of Morecambe Bay NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.uhmb.nhs.uk/our-trust/trust-board-and-council-governor-meetings
+URL:https://www.uhmb.nhs.uk/our-trust/trust-board-and-council-governor-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2026-07-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Lancashire and South Cumbria ICB — 9 July 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2026-07-29@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RWW-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY2-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBL-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2026-09-17@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Lancashire and South Cumbria ICB — 17 September 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RWW-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY2-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RBL-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RWW-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY2-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2027-01-27@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RWW-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY2-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+URL:https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2027-02-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RBN-2027-03-31@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
+END:VEVENT
+END:VCALENDAR

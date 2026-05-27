@@ -1,0 +1,279 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+X-WR-CALNAME:HSJ board meetings — Joe
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:RK9-2026-05-27@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-05-27@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — May 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2026-05-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RD1-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Royal United Hospitals Bath NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ruh.nhs.uk/about/trustboard/index.asp
+URL:https://www.ruh.nhs.uk/about/trustboard/index.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:RNZ-2026-06-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Salisbury NHS Foundation Trust — Public Trust Board meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/
+URL:https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QSL-2026-06-15@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:Bath and North East Somerset\, Swindon and Wiltshire ICB + Dorset ICB + Somerset ICB — NHS Somerset Integrated Care Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://nhssomerset.nhs.uk/publications/board-papers/
+URL:https://nhssomerset.nhs.uk/publications/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RK9-2026-06-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — July 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RA9-2026-07-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2026-07-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RH5-2026-07-14@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RK9-2026-07-29@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2026-07-30@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-09-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — September 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RA9-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RH5-2026-09-08@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RK9-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RK9-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-11-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — November 2026 Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RA9-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RH5-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RK9-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RH5-2027-01-12@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RH5-2027-03-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+END:VCALENDAR

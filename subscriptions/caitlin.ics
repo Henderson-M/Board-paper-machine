@@ -1,0 +1,477 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+X-WR-CALNAME:HSJ board meetings — Caitlin
+X-WR-TIMEZONE:Europe/London
+X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:R1D-2026-06-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:Shropshire Community Health NHS Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+URL:https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJC-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:South Warwickshire University NHS Foundation Trust — Joint Board of South Warwickshire University NHS Foundation Trust and George Eliot Hospital NHS Trust
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-06-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RLQ-2026-06-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Wye Valley NHS Trust — Wye Valley NHS Trust Board Meeting Held in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+URL:https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RRE-2026-06-11@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:Midlands Partnership University NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.mpft.nhs.uk/about-us/board-papers/
+URL:https://www.mpft.nhs.uk/about-us/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOC-2026-06-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Shropshire\, Telford and Wrekin ICB + Staffordshire and Stoke-on-Trent ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:TAJ-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Black Country Healthcare NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+URL:https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+END:VEVENT
+BEGIN:VEVENT
+UID:RLQ-2026-07-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Wye Valley NHS Trust — Wye Valley NHS Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+URL:https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RLY-2026-07-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:North Staffordshire Combined Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.combined.nhs.uk/about/our-board/board-meetings/
+URL:https://www.combined.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QUA-2026-07-13@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Birmingham and Solihull ICB + Black Country ICB — Joint ICB Cluster Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+URL:https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+END:VEVENT
+BEGIN:VEVENT
+UID:R1A-2026-07-16@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Herefordshire and Worcestershire Health and Care NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.hacw.nhs.uk/board-papers/
+URL:https://www.hacw.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBK-2026-07-21@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Walsall Healthcare NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+URL:https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RL4-2026-07-21@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:The Royal Wolverhampton NHS Trust — Joint Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+URL:https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2026-07-21@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:R1D-2026-08-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Shropshire Community Health NHS Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+URL:https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:TAJ-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Black Country Healthcare NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+URL:https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+END:VEVENT
+BEGIN:VEVENT
+UID:RLQ-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Wye Valley NHS Trust — Wye Valley NHS Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+URL:https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RLY-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:North Staffordshire Combined Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.combined.nhs.uk/about/our-board/board-meetings/
+URL:https://www.combined.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QUA-2026-09-14@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Birmingham and Solihull ICB + Black Country ICB — Joint ICB Cluster Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+URL:https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+END:VEVENT
+BEGIN:VEVENT
+UID:RBK-2026-09-15@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Walsall Healthcare NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+URL:https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RL4-2026-09-15@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:The Royal Wolverhampton NHS Trust — Joint Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+URL:https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2026-09-15@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:R1A-2026-09-17@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Herefordshire and Worcestershire Health and Care NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.hacw.nhs.uk/board-papers/
+URL:https://www.hacw.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOC-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Shropshire\, Telford and Wrekin ICB + Staffordshire and Stoke-on-Trent ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:R1D-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Shropshire Community Health NHS Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+URL:https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RLQ-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Wye Valley NHS Trust — Wye Valley NHS Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+URL:https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:TAJ-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Black Country Healthcare NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+URL:https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+END:VEVENT
+BEGIN:VEVENT
+UID:QUA-2026-11-09@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Birmingham and Solihull ICB + Black Country ICB — Joint ICB Cluster Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+URL:https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+END:VEVENT
+BEGIN:VEVENT
+UID:RLY-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:North Staffordshire Combined Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.combined.nhs.uk/about/our-board/board-meetings/
+URL:https://www.combined.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RBK-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Walsall Healthcare NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+URL:https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RL4-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:The Royal Wolverhampton NHS Trust — Joint Trust Board Meeting in Public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+URL:https://www.royalwolverhampton.nhs.uk/about-us/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:R1A-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Herefordshire and Worcestershire Health and Care NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.hacw.nhs.uk/board-papers/
+URL:https://www.hacw.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOC-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Shropshire\, Telford and Wrekin ICB + Staffordshire and Stoke-on-Trent ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:R1D-2026-12-01@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Shropshire Community Health NHS Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+URL:https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RLQ-2026-12-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Wye Valley NHS Trust — Wye Valley NHS Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+URL:https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:QUA-2026-12-08@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Birmingham and Solihull ICB + Black Country ICB — Joint ICB Cluster Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+URL:https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2027-01-06@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:TAJ-2027-01-06@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Black Country Healthcare NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+URL:https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+END:VEVENT
+BEGIN:VEVENT
+UID:RLY-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:North Staffordshire Combined Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.combined.nhs.uk/about/our-board/board-meetings/
+URL:https://www.combined.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOC-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Shropshire\, Telford and Wrekin ICB + Staffordshire and Stoke-on-Trent ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2027-03-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:TAJ-2027-03-03@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Black Country Healthcare NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+URL:https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors
+END:VEVENT
+BEGIN:VEVENT
+UID:RLY-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:North Staffordshire Combined Healthcare NHS Trust — Trust Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.combined.nhs.uk/about/our-board/board-meetings/
+URL:https://www.combined.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOC-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260527T142615Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Shropshire\, Telford and Wrekin ICB + Staffordshire and Stoke-on-Trent ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+END:VCALENDAR
