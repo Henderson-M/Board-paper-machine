@@ -206,18 +206,35 @@ When reviewing documents, data, or reports for HSJ-relevant material, look for t
 
 ## Part E: Common HSJ story templates
 
-These recurring story shapes account for a large proportion of HSJ news content.
+These recurring story shapes account for a large proportion of HSJ news content. Each template is shown with a recent real HSJ example for orientation.
 
 1. **The data outlier.** HSJ analyses an official dataset (NHSE, CQC, ONS) and identifies named trusts / systems at the worst end. Lead names the organisation and the metric.
+   - *Example (Mar 2025):* [Revealed: The best and worst trusts to work at](https://www.hsj.co.uk/workforce/revealed-the-best-and-worst-trusts-to-work-at/7038863.article) — HSJ ranks all trusts on the staff-recommend-as-place-to-work measure from the 2024 NHS Staff Survey.
+
 2. **The document exclusive.** HSJ has obtained an internal document (board paper, NHSE letter, court filing, leaked strategy). Lead states what the document reveals.
+   - *Example (May 2026):* [Exclusive: No 10 sets new GP access target](https://www.hsj.co.uk/policy-and-regulation/exclusive-no-10-sets-new-gp-access-target/7041625.article) — HSJ reveals a new PM-set GP appointment target among three top NHS priorities for the year, not previously announced.
+
 3. **The leadership departure.** A named CEO, chair, or other executive has left or is leaving a named trust / ICB. Lead states the departure.
+   - *Example (Mar 2026):* [CEO steps down after stint at second trust](https://www.hsj.co.uk/leadership/ceo-steps-down-after-stint-at-second-trust/7041305.article) — Jon Wade to leave Dartford and Gravesham and the interim Medway role; named trusts now have to recruit replacements.
+
 4. **The regulatory action story.** CQC has published an inspection report; NHSE has announced oversight action; IPCPP has ruled on a procurement complaint. Lead states the finding and the named organisation.
+   - *Example (Mar 2026):* ['Inadequate' provider threatens CQC with legal action](https://www.hsj.co.uk/patient-safety/inadequate-provider-threatens-cqc-with-legal-action/7041370.article) — Patient transport company rated inadequate for safety and leadership; CEO accuses inspectors of "going rogue".
+
 5. **The pay / workforce policy story.** A new pay award, workforce policy, or employment conditions change has been announced. Lead states the headline (% award, total cost, government vs affordability gap).
+   - *Example (Mar 2026):* [Mackey: prepare for long period of strike action](https://www.hsj.co.uk/workforce/mackey-prepare-for-long-period-of-strike-action/7041387.article) — NHSE CEO warns the service to expect prolonged industrial action.
+
 6. **The policy gap story.** A government / NHSE policy or programme has failed to deliver, been delayed, or is running significantly off-track. Lead states the gap between promise and reality.
+
 7. **The culture / governance investigation story.** An external review, tribunal, or investigation has found significant problems at a named trust or ICB (bullying, discrimination, governance failure, sexual misconduct). Lead states the finding and the named organisation.
+   - *Example (May 2026):* [Controversial group model could be scrapped](https://www.hsj.co.uk/hull-university-teaching-hospitals-trust/controversial-group-model-could-be-scrapped/7041720.article) — Hull and NLAG trusts to review shared structure; full merger to "separate organisations" among options on the table.
+
 8. **The procurement story.** An NHS body has awarded a contract controversially, had a procurement challenged, or been found to have breached procurement rules. Lead names the body, the contract value, and the issue.
+   - *Example (Feb 2025):* [Judge clears way for major national logistics contract award](https://www.hsj.co.uk/finance-and-efficiency/judge-clears-way-for-major-national-logistics-contract-award/7038720.article) — NHS Supply Chain can proceed with logistics contract after a judge lifts the suspension following a multi-party challenge.
+
 9. **The NHS leadership accountability interview.** A named CEO or senior NHS leader talks to HSJ about their organisation's performance, challenges, and strategy — often in the context of regulatory findings or recent difficulties.
-10. **The insider intelligence story.** The Integrator, The Download, or similar briefings provide context and analysis beyond publicly available information — interpreting what NHSE or DHSC is actually trying to do, what it means for ICB executives or digital leaders, and where the bodies are buried in policy announcements.
+
+10. **The insider intelligence story.** The Integrator, The Download, Daily Insight, or similar briefings provide context and analysis beyond publicly available information — interpreting what NHSE or DHSC is actually trying to do, what it means for ICB executives or digital leaders, and where the bodies are buried in policy announcements.
+    - *Example (May 2026):* [Daily Insight: Prognosis negative](https://www.hsj.co.uk/daily-insight/daily-insight-prognosis-negative/7041650.article) — short-form daily briefing format covering "the must-read stories and debates in health policy and leadership".
 
 ## A note on editorial judgement
 
