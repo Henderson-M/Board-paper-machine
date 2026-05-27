@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RKL-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:West London NHS Trust — Board in Common papers - October 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+END:VCALENDAR

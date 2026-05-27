@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QOC-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Shropshire\, Telford and Wrekin ICB — NHS Shropshire\, Telford and Wrekin Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+URL:https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,4 +1,4 @@
-﻿BEGIN:VCALENDAR
+ï»¿BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
@@ -7,7 +7,7 @@ UID:RFF-2026-08-06@board-paper-machine.hsj
 DTSTAMP:20260527T124648Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
-SUMMARY:Barnsley Hospital NHS Foundation Trust — Board of Directors
+SUMMARY:Barnsley Hospital NHS Foundation Trust â€” Board of Directors
 DESCRIPTION:Detected by Board paper machine. Source: https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers
 URL:https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers
 END:VEVENT

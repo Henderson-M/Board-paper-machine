@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RBL-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
+END:VEVENT
+END:VCALENDAR

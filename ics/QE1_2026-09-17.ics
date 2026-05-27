@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QE1-2026-09-17@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Lancashire and South Cumbria ICB — 17 September 2026 Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+END:VCALENDAR

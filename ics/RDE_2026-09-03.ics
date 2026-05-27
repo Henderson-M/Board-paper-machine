@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RDE-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+END:VEVENT
+END:VCALENDAR

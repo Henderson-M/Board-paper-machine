@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWY-2026-07-09@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Calderdale and Huddersfield NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cht.nhs.uk/publications/board-of-directors-meeting-dates-and-papers
+URL:https://www.cht.nhs.uk/publications/board-of-directors-meeting-dates-and-papers
+END:VEVENT
+END:VCALENDAR

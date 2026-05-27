@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QKS-2027-03-23@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Kent and Medway ICB — Board meeting March 2027
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentandmedway.icb.nhs.uk/events-calender
+URL:https://www.kentandmedway.icb.nhs.uk/events-calender
+END:VEVENT
+END:VCALENDAR

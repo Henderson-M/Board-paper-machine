@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RCB-2026-06-24@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
+URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:S9B9J-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
+URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
+END:VEVENT
+END:VCALENDAR

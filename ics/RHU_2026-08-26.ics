@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RHU-2026-08-26@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:Portsmouth Hospitals University National Health Service Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
+URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
+END:VEVENT
+END:VCALENDAR

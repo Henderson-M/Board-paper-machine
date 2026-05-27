@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QUA-2026-11-09@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Black Country ICB — Joint ICB Cluster Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+URL:https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions
+END:VEVENT
+END:VCALENDAR

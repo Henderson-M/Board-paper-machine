@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RLT-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:George Eliot Hospital NHS Trust — Public Joint Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+END:VCALENDAR

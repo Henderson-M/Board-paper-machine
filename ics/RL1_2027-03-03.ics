@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RL1-2027-03-03@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+END:VEVENT
+END:VCALENDAR

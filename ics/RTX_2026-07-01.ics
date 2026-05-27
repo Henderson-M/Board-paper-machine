@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTX-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:University Hospitals of Morecambe Bay NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhmb.nhs.uk/our-trust/trust-board-and-council-governor-meetings
+URL:https://www.uhmb.nhs.uk/our-trust/trust-board-and-council-governor-meetings
+END:VEVENT
+END:VCALENDAR

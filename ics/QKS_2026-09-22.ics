@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QKS-2026-09-22@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Kent and Medway ICB — Board meeting September 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentandmedway.icb.nhs.uk/events-calender
+URL:https://www.kentandmedway.icb.nhs.uk/events-calender
+END:VEVENT
+END:VCALENDAR

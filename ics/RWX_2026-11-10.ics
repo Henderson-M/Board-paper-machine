@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWX-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Berkshire Healthcare NHS Foundation Trust — Trust Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
+URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
+END:VEVENT
+END:VCALENDAR

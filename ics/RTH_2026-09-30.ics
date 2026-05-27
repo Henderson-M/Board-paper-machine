@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTH-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+END:VEVENT
+END:VCALENDAR

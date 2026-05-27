@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RMP-2026-08-06@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Tameside and Glossop Integrated Care NHS Foundation Trust — Joint Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
+URL:https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
+END:VEVENT
+END:VCALENDAR

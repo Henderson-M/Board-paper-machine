@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QJ2-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Derby and Derbyshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+END:VEVENT
+END:VCALENDAR

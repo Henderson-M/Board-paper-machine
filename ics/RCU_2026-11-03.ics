@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RCU-2026-11-03@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Sheffield Children's NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/
+URL:https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/
+END:VEVENT
+END:VCALENDAR

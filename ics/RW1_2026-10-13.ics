@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RW1-2026-10-13@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Southern Health NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+END:VEVENT
+END:VCALENDAR

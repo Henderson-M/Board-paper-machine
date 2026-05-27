@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ6-2027-01-13@board-paper-machine.hsj
+DTSTAMP:20260527T141611Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+END:VCALENDAR
