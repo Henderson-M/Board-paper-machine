@@ -206,35 +206,88 @@ When reviewing documents, data, or reports for HSJ-relevant material, look for t
 
 ## Part E: Common HSJ story templates
 
-These recurring story shapes account for a large proportion of HSJ news content. Each template is shown with a recent real HSJ example for orientation.
+These are recurring story shapes that account for a large proportion of HSJ news content. They are general orientation; for examples specifically drawn from board papers, see Part F.
 
 1. **The data outlier.** HSJ analyses an official dataset (NHSE, CQC, ONS) and identifies named trusts / systems at the worst end. Lead names the organisation and the metric.
-   - *Example (Mar 2025):* [Revealed: The best and worst trusts to work at](https://www.hsj.co.uk/workforce/revealed-the-best-and-worst-trusts-to-work-at/7038863.article) — HSJ ranks all trusts on the staff-recommend-as-place-to-work measure from the 2024 NHS Staff Survey.
-
 2. **The document exclusive.** HSJ has obtained an internal document (board paper, NHSE letter, court filing, leaked strategy). Lead states what the document reveals.
-   - *Example (May 2026):* [Exclusive: No 10 sets new GP access target](https://www.hsj.co.uk/policy-and-regulation/exclusive-no-10-sets-new-gp-access-target/7041625.article) — HSJ reveals a new PM-set GP appointment target among three top NHS priorities for the year, not previously announced.
-
 3. **The leadership departure.** A named CEO, chair, or other executive has left or is leaving a named trust / ICB. Lead states the departure.
-   - *Example (Mar 2026):* [CEO steps down after stint at second trust](https://www.hsj.co.uk/leadership/ceo-steps-down-after-stint-at-second-trust/7041305.article) — Jon Wade to leave Dartford and Gravesham and the interim Medway role; named trusts now have to recruit replacements.
-
 4. **The regulatory action story.** CQC has published an inspection report; NHSE has announced oversight action; IPCPP has ruled on a procurement complaint. Lead states the finding and the named organisation.
-   - *Example (Mar 2026):* ['Inadequate' provider threatens CQC with legal action](https://www.hsj.co.uk/patient-safety/inadequate-provider-threatens-cqc-with-legal-action/7041370.article) — Patient transport company rated inadequate for safety and leadership; CEO accuses inspectors of "going rogue".
-
 5. **The pay / workforce policy story.** A new pay award, workforce policy, or employment conditions change has been announced. Lead states the headline (% award, total cost, government vs affordability gap).
-   - *Example (Mar 2026):* [Mackey: prepare for long period of strike action](https://www.hsj.co.uk/workforce/mackey-prepare-for-long-period-of-strike-action/7041387.article) — NHSE CEO warns the service to expect prolonged industrial action.
-
 6. **The policy gap story.** A government / NHSE policy or programme has failed to deliver, been delayed, or is running significantly off-track. Lead states the gap between promise and reality.
-
 7. **The culture / governance investigation story.** An external review, tribunal, or investigation has found significant problems at a named trust or ICB (bullying, discrimination, governance failure, sexual misconduct). Lead states the finding and the named organisation.
-   - *Example (May 2026):* [Controversial group model could be scrapped](https://www.hsj.co.uk/hull-university-teaching-hospitals-trust/controversial-group-model-could-be-scrapped/7041720.article) — Hull and NLAG trusts to review shared structure; full merger to "separate organisations" among options on the table.
-
 8. **The procurement story.** An NHS body has awarded a contract controversially, had a procurement challenged, or been found to have breached procurement rules. Lead names the body, the contract value, and the issue.
-   - *Example (Feb 2025):* [Judge clears way for major national logistics contract award](https://www.hsj.co.uk/finance-and-efficiency/judge-clears-way-for-major-national-logistics-contract-award/7038720.article) — NHS Supply Chain can proceed with logistics contract after a judge lifts the suspension following a multi-party challenge.
-
 9. **The NHS leadership accountability interview.** A named CEO or senior NHS leader talks to HSJ about their organisation's performance, challenges, and strategy — often in the context of regulatory findings or recent difficulties.
-
 10. **The insider intelligence story.** The Integrator, The Download, Daily Insight, or similar briefings provide context and analysis beyond publicly available information — interpreting what NHSE or DHSC is actually trying to do, what it means for ICB executives or digital leaders, and where the bodies are buried in policy announcements.
-    - *Example (May 2026):* [Daily Insight: Prognosis negative](https://www.hsj.co.uk/daily-insight/daily-insight-prognosis-negative/7041650.article) — short-form daily briefing format covering "the must-read stories and debates in health policy and leadership".
+
+## Part F: Worked examples — board paper to HSJ headline
+
+Real recent HSJ stories whose source was a public board paper. Each shows the specific lift — the quote, data point, or document item — that made it a story. These are the patterns the pack analyser should learn to recognise.
+
+### York and Scarborough Teaching — KPMG called in as £30m gap opens
+
+- **Pack item:** Board papers, early 2026
+- **Lift:** Papers revealed "a £20m gap in its cost improvement plan and the loss of deficit support funding for the final quarter of the financial year"
+- **Why HSJ ran it:** External firm engaged for wide-ranging review; £28.5m year-end deficit forecast against a planned breakeven; trust already in NHSE's lowest performance segment.
+- **HSJ:** [Trust calls in KPMG as £30m gap opens](https://www.hsj.co.uk/finance-and-efficiency/trust-calls-in-kpmg-as-30m-gap-opens/7041195.article) (3 Mar 2026)
+
+### South Tees — CEO rejects NHSE's 10% savings target
+
+- **Pack item:** January 2026 board paper, CEO's report
+- **Lift:** CEO wrote in the paper: *"I have written to the regional director indicating this and outlining a high-level opportunity to deliver financial balance for South Tees over three years (this still needs more work and board agreement)."* Paired with the line *"there isn't a credible path to this in one year"*.
+- **Why HSJ ran it:** Colour quote from a sitting CEO publicly rejecting NHSE's mandated 10% CIP target; signals a wider trust pushback.
+- **HSJ:** ['No credible path' to deliver 10% savings target, says CEO](https://www.hsj.co.uk/finance-and-efficiency/no-credible-path-to-deliver-10-savings-target-says-ceo/7040790.article) (14 Jan 2026)
+
+### HUTH and NLAG — interim CEO admits group model failed
+
+- **Pack item:** Joint board meeting papers, March 2026; interim chief Lyn Simpson's report
+- **Lift:** Simpson wrote the group model *"evolved in practice closer to a de-facto merger than a traditional NHS group arrangement, without the accompanying clarity, simplification or maturity of governance typically required to make such models effective"*. Also confirmed new substantive chair appointment.
+- **Why HSJ ran it:** Sitting interim CEO publicly admitting governance failure of the group model; coincides with NHSE placing both trusts in a new turnaround regime.
+- **HSJ:** [CEO blames group model for trusts' collapse](https://www.hsj.co.uk/hull-university-teaching-hospitals-trust/ceo-blames-group-model-for-trusts-collapse/7041245.article) (10 Mar 2026)
+
+### NW London Acute Provider Collaborative — £15m incinerator waste
+
+- **Pack item:** NW London APC board papers, late April 2026; review report
+- **Lift:** Review concluded *"the project suffered from systemic governance and control failures, with significant failings across project management, procurement, financial controls, [and] technical [oversight]"*. Hillingdon had spent £15m trying to restart an incinerator before it was scrapped.
+- **Why HSJ ran it:** Named systemic governance failure; £15m wasted on an asset that became unusable; lands ahead of NHP wave one decisions.
+- **HSJ:** [Trust wasted £15m restoring unusable incinerator](https://www.hsj.co.uk/london/trust-wasted-15m-restoring-unusable-incinerator/7041584.article) (29 Apr 2026)
+
+### Doncaster and Bassetlaw — bullying culture revealed in well-led review
+
+- **Pack item:** Well-led review and culture review (by Thevaluecircle); completed Nov 2025, published Jan 2026
+- **Lift:** Well-led review found non-executive challenge was *"variable"*, and the board *"accepted assurances about risks without much challenge, even when there was no evidence of mitigation or actions"*. Almost half of staff survey respondents reported being bullied.
+- **Why HSJ ran it:** External review of governance + a culture finding with a named scale; interim chair and acting CEO already in place; published months after completion — itself a story signal.
+- **HSJ:** ['Disconnected' staff report bullying and blame culture](https://www.hsj.co.uk/leadership/disconnected-staff-report-bullying-and-blame-culture/7040984.article) (28 Jan 2026)
+
+### Northumbria — senior churn stifling Great North alliance
+
+- **Pack item:** Northumbria board paper, May 2026
+- **Lift:** All four alliance members *"agreed the progress of the Great North Healthcare Alliance had been 'fair, but not great'"*. Same paper unveiled a refreshed strategy to set shared clinical plans and reconfigure acute services.
+- **Why HSJ ran it:** A top-rated trust admitting its flagship alliance is underperforming, with named drivers (CEO turnover, national policy shift); the strategy reset is itself a separate news event.
+- **HSJ:** [Senior churn stifling hospital group, warns leading CEO](https://www.hsj.co.uk/leadership/senior-churn-stifling-hospital-group-warns-leading-ceo/7041780.article) (27 May 2026)
+
+### University Hospitals Dorset — £50m private patient cancer deal
+
+- **Pack item:** UH Dorset FT board paper, April 2026
+- **Lift:** Trust proposes leasing two empty radiotherapy treatment rooms to an external provider for private-patient use; deal valued at £50m, with income said to be reinvested in NHS care.
+- **Why HSJ ran it:** Unusual commercial structure; named think tank line accusing the trust of *"effectively subsidising the growth of private pay cancer care in Dorset"*; raises wider policy questions about NHS capacity vs private use.
+- **HSJ:** [Hospitals seek £50m from renting out cancer capacity](https://www.hsj.co.uk/finance-and-efficiency/hospitals-seek-50m-from-renting-out-cancer-capacity/7041372.article) (14 Apr 2026)
+
+### North East London ICB — 70-day A&E stay for a child
+
+- **Pack item:** NE London ICB board paper, April 2026
+- **Lift:** Paper said A&Es *"are increasingly being seen as a place of last resort for children who may have complex mental health needs, neurodiversity and behaviours that challenge"*. Specific case: a child in A&E for more than 70 days after a care placement broke down.
+- **Why HSJ ran it:** Striking specific data point (70 days) embedded in a systemic accountability story about cross-sector children's services; treated as a system-failure story, not a patient-experience story.
+- **HSJ:** [Child spent two months in A&E](https://www.hsj.co.uk/emergency-care/child-spent-two-months-in-aande/7041461.article) (9 Apr 2026)
+
+### What these examples have in common
+
+Read them as a group and a few patterns are visible — the kinds of things the pack analyser should be tuned to detect:
+
+- **Named external firm in the pack** (KPMG, Thevaluecircle) → almost always a lead.
+- **Sitting CEO or interim CEO admitting / quoting / writing something quotable** → strong colour, often a publishable lead in its own right.
+- **A specific number with a named trust** (£15m, £30m, £50m, 70 days) → lifts a routine pack item into a story.
+- **A review or letter to NHSE / from NHSE** that exists in the pack but isn't summarised externally → almost always worth flagging.
+- **Verbatim language** matters: phrases like *"de-facto merger"*, *"variable challenge"*, *"systemic governance failures"*, *"place of last resort"* are exactly the lift HSJ needs — not paraphrased.
 
 ## A note on editorial judgement
 
