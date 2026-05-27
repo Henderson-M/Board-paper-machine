@@ -8,7 +8,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:RK9-2026-05-27@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -17,7 +17,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTE-2026-05-27@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — May 2026 Board Meeting
@@ -26,7 +26,7 @@ URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:QUY-2026-05-27@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Integrated Care Board (ICB) Board meeting
@@ -35,7 +35,7 @@ URL:https://bnssghealthiertogether.org.uk/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH8-2026-05-27@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:Royal Devon University Healthcare NHS Foundation Trust — Board meeting in public
@@ -44,7 +44,7 @@ URL:https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:RTQ-2026-05-28@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
@@ -53,7 +53,7 @@ URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RD1-2026-06-03@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Royal United Hospitals Bath NHS Foundation Trust — Board of Directors Meeting
@@ -62,7 +62,7 @@ URL:https://www.ruh.nhs.uk/about/trustboard/index.asp
 END:VEVENT
 BEGIN:VEVENT
 UID:RNZ-2026-06-04@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:Salisbury NHS Foundation Trust — Public Trust Board meeting
@@ -71,7 +71,7 @@ URL:https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QSL-2026-06-15@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:Bath and North East Somerset\, Swindon and Wiltshire ICB + Dorset ICB + Somerset ICB — NHS Somerset Integrated Care Board Meeting
@@ -80,7 +80,7 @@ URL:https://nhssomerset.nhs.uk/publications/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RK9-2026-06-24@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -89,7 +89,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTE-2026-07-01@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — July 2026 Board Meeting
@@ -98,7 +98,7 @@ URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA9-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
@@ -107,7 +107,7 @@ URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REF-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public Meeting
@@ -116,7 +116,7 @@ URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:R0D-2026-07-08@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:University Hospitals Dorset NHS Foundation Trust — Board of Directors Meeting
@@ -125,7 +125,7 @@ URL:https://www.uhd.nhs.uk/about-us/our-performance
 END:VEVENT
 BEGIN:VEVENT
 UID:RJ8-2026-07-09@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -134,7 +134,7 @@ URL:https://www.cornwallft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH5-2026-07-14@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
 SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
@@ -143,7 +143,7 @@ URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA7-2026-07-14@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
 SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
@@ -152,7 +152,7 @@ URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RVJ-2026-07-14@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
 SUMMARY:North Bristol NHS Trust — Group Board (NBT/UHBW in common\, public)
@@ -161,7 +161,7 @@ URL:https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027
 END:VEVENT
 BEGIN:VEVENT
 UID:RVN-2026-07-15@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Board Meeting
@@ -170,7 +170,7 @@ URL:https://www.awp.nhs.uk/about-us/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWV-2026-07-21@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Devon Partnership NHS Trust — Board Meeting
@@ -179,7 +179,7 @@ URL:https://www.dpt.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RK9-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -188,7 +188,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:QR1-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Board Meeting
@@ -197,7 +197,7 @@ URL:https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH8-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Royal Devon University Healthcare NHS Foundation Trust — Board meeting in public
@@ -206,7 +206,7 @@ URL:https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:RTQ-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
@@ -215,7 +215,7 @@ URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
 END:VEVENT
 BEGIN:VEVENT
 UID:QJK-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:Cornwall and the Isles of Scilly ICB + Devon ICB — Board meeting
@@ -224,7 +224,7 @@ URL:https://swpboard.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RBD-2026-08-11@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:Dorset County Hospital NHS Foundation Trust — Trust Board Meeting (Board in Common)
@@ -233,7 +233,7 @@ URL:https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTE-2026-09-01@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — September 2026 Board Meeting
@@ -242,7 +242,7 @@ URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA9-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
@@ -251,7 +251,7 @@ URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REF-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public Meeting
@@ -260,7 +260,7 @@ URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH5-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
@@ -269,7 +269,7 @@ URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA7-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
@@ -278,7 +278,7 @@ URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RVJ-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:North Bristol NHS Trust — Group Board (NBT/UHBW in common\, public)
@@ -287,7 +287,7 @@ URL:https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027
 END:VEVENT
 BEGIN:VEVENT
 UID:R0D-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:University Hospitals Dorset NHS Foundation Trust — Board of Directors Meeting
@@ -296,7 +296,7 @@ URL:https://www.uhd.nhs.uk/about-us/our-performance
 END:VEVENT
 BEGIN:VEVENT
 UID:RJ8-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -305,7 +305,7 @@ URL:https://www.cornwallft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWV-2026-09-15@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Devon Partnership NHS Trust — Board Meeting
@@ -314,7 +314,7 @@ URL:https://www.dpt.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RVN-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Board Meeting
@@ -323,7 +323,7 @@ URL:https://www.awp.nhs.uk/about-us/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RTQ-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
@@ -332,7 +332,7 @@ URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
 END:VEVENT
 BEGIN:VEVENT
 UID:QJK-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Cornwall and the Isles of Scilly ICB + Devon ICB — Board meeting
@@ -341,7 +341,7 @@ URL:https://swpboard.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RK9-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -350,7 +350,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:QR1-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Board Meeting
@@ -359,7 +359,7 @@ URL:https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH8-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Royal Devon University Healthcare NHS Foundation Trust — Board meeting in public
@@ -368,7 +368,7 @@ URL:https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:RK9-2026-10-28@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -377,7 +377,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTE-2026-11-01@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Gloucestershire Hospitals NHS Foundation Trust — November 2026 Board Meeting
@@ -386,7 +386,7 @@ URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA9-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Torbay and South Devon NHS Foundation Trust — Public Board
@@ -395,7 +395,7 @@ URL:https://www.torbayandsouthdevon.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REF-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public Meeting
@@ -404,7 +404,7 @@ URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH5-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
@@ -413,7 +413,7 @@ URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA7-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
@@ -422,7 +422,7 @@ URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RVJ-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:North Bristol NHS Trust — Group Board (NBT/UHBW in common\, public)
@@ -431,7 +431,7 @@ URL:https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027
 END:VEVENT
 BEGIN:VEVENT
 UID:R0D-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:University Hospitals Dorset NHS Foundation Trust — Board of Directors Meeting
@@ -440,7 +440,7 @@ URL:https://www.uhd.nhs.uk/about-us/our-performance
 END:VEVENT
 BEGIN:VEVENT
 UID:RJ8-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -449,7 +449,7 @@ URL:https://www.cornwallft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWV-2026-11-17@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Devon Partnership NHS Trust — Board Meeting
@@ -458,7 +458,7 @@ URL:https://www.dpt.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RVN-2026-11-18@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Board Meeting
@@ -467,7 +467,7 @@ URL:https://www.awp.nhs.uk/about-us/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RK9-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:University Hospitals Plymouth NHS Trust — Trust Board Public Meeting
@@ -476,7 +476,7 @@ URL:https://www.plymouthhospitals.nhs.uk/trust-board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:QR1-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Board Meeting
@@ -485,7 +485,7 @@ URL:https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH8-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Royal Devon University Healthcare NHS Foundation Trust — Board meeting in public
@@ -494,7 +494,7 @@ URL:https://www.royaldevon.nhs.uk/about-us/board-of-directors/board-meetings-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:RTQ-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board PUBLIC Meeting
@@ -503,7 +503,7 @@ URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
 END:VEVENT
 BEGIN:VEVENT
 UID:QJK-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Cornwall and the Isles of Scilly ICB + Devon ICB — Board meeting
@@ -512,7 +512,7 @@ URL:https://swpboard.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REF-2027-01-07@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public Meeting
@@ -521,7 +521,7 @@ URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH5-2027-01-12@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
@@ -530,7 +530,7 @@ URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA7-2027-01-12@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
@@ -539,7 +539,7 @@ URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RVJ-2027-01-12@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:North Bristol NHS Trust — Group Board (NBT/UHBW in common\, public)
@@ -548,7 +548,7 @@ URL:https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027
 END:VEVENT
 BEGIN:VEVENT
 UID:RVN-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Board Meeting
@@ -557,7 +557,7 @@ URL:https://www.awp.nhs.uk/about-us/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RJ8-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -566,7 +566,7 @@ URL:https://www.cornwallft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWV-2027-01-19@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Devon Partnership NHS Trust — Board Meeting
@@ -575,7 +575,7 @@ URL:https://www.dpt.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:QR1-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Board Meeting
@@ -584,7 +584,7 @@ URL:https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:QJK-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Cornwall and the Isles of Scilly ICB + Devon ICB — Board meeting
@@ -593,7 +593,7 @@ URL:https://swpboard.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REF-2027-03-07@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public Meeting
@@ -602,7 +602,7 @@ URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RH5-2027-03-09@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Somerset NHS Foundation Trust — Trust Board Meeting
@@ -611,7 +611,7 @@ URL:https://www.somersetft.nhs.uk/about-us/trust-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA7-2027-03-09@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:University Hospitals Bristol and Weston NHS Foundation Trust — Group Board Meeting in Public
@@ -620,7 +620,7 @@ URL:https://www.uhbw.nhs.uk/p/about-us/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RVJ-2027-03-09@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:North Bristol NHS Trust — Group Board (NBT/UHBW in common\, public)
@@ -629,7 +629,7 @@ URL:https://www.nbt.nhs.uk/about-us/meet-our-board/trust-board-meetings-20262027
 END:VEVENT
 BEGIN:VEVENT
 UID:RJ8-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Cornwall Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -638,7 +638,7 @@ URL:https://www.cornwallft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RVN-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Board Meeting
@@ -647,7 +647,7 @@ URL:https://www.awp.nhs.uk/about-us/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:QJK-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Cornwall and the Isles of Scilly ICB + Devon ICB — Board meeting
@@ -656,7 +656,7 @@ URL:https://swpboard.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QR1-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260527T154222Z
+DTSTAMP:20260527T160414Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Bristol\, North Somerset and South Gloucestershire ICB + Gloucestershire ICB — Joint Cluster Board Meeting

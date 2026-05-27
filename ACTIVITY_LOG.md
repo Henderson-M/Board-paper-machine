@@ -4,6 +4,54 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-05-27 (afternoon session continued — Group C second pass + papers watchlist)
+
+### Headline
+Re-ran a smarter Playwright pass on the 26 orgs where the first pass found nothing — recovered another 39 dates across 10 of them. Brought 7 more URLs in line. **Built the papers watchlist**: 26 orgs without confirmed dates now have their papers pages baselined (388 PDFs recorded), so on every future scan a newly published pack triggers an alert even if we don't yet know the meeting date.
+
+### What changed
+
+**1. Group C re-extraction (26 orgs, 39 dates).**
+Previous pass extracted from rendered visible text only. New pass reads the full HTML (anchor `href` values + link text + visible text + supporting PDFs). Wins:
+- **REN Clatterbridge** — 8 dates Jun 2026 → Mar 2027 (was completely blocked by 403 to WebFetch)
+- **R1K London NW / RYJ Imperial / RQM Chelwest** — 3 NWL Board-in-Common dates each
+- **RJ1 Guy's & St Thomas'** — 2 dates via WebSearch fallback
+- **QWE SW London ICB** — 3 dates
+- **QF7 South Yorkshire ICB** — 5 dates from a board-approved schedule PDF
+- **RWF Maidstone & TW** — 6 dates via WebSearch (their own URL still 404s)
+- **RXR East Lancashire** — 5 dates (URL path corrected to `/our-trust-board/`)
+- **RRK UHB** — AGM date only
+
+URL corrections applied for R1K, RYJ, RQM, RJ1, QWE, RXR, RRK.
+
+**2. Papers watchlist (new mechanism).**
+- `state/papers_watchlist.json` — orgs without confirmed forward meeting dates whose papers pages we still poll on every scan.
+- 26 orgs baselined with 388 PDFs visible today.
+- On the next `/scan-boards` run, any new PDF appearing on these pages → alert correspondent + try to infer the meeting date from filename/contents. If date inferred → graduate the org from watchlist into the normal state pipeline.
+- Behaviour documented in `SKILL.md` Step 7b.
+
+**3. SKILL.md updated** with Step 7b workflow.
+
+### Still empty after this push (16 orgs)
+These genuinely publish nothing forward-looking online — only past meetings or "Next meeting: TBC":
+
+- **No forward schedule** (recheck mid-July): RJ7 St George's, RN3 Great Western, RDY Dorset Healthcare, RBQ LHCH, RJN East Cheshire, RW5 LSCFT, RXA CWP, RXN Lancs Teaching, RY7 Wirral Community, RTF Northumbria, RTR South Tees, RVW North Tees, RP6 Moorfields, TAD Bradford District Care, RN7 Dartford & Gravesham
+- **No URL at all**: K0N6A The Online NHS Trust (was this a real entity in the org file or a stub?)
+
+All of these are now in the papers watchlist, so we'll catch new packs as soon as they drop.
+
+### State + git
+- **State now: 779 meetings across 202 orgs** (up from 728 / 128 this morning)
+- Watchlist: 26 orgs / 388 baseline PDFs
+- Dry-run emails refreshed
+
+### Followups for next session
+- Sanity-check K0N6A The Online NHS Trust (no URL, no correspondent presumably) — drop or update.
+- The first papers-watchlist-active run will be the next `/scan-boards`. Should be useful for finding mid-summer pack drops at orgs with TBC schedules.
+- SHSC Sunday date still flagged unresolved.
+
+---
+
 ## 2026-05-27 (afternoon session continued — Playwright + PDF fallback wired in)
 
 ### Headline

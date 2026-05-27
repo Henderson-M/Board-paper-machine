@@ -371,11 +371,11 @@
     "merger_date": null,
     "region": "London",
     "correspondent": "Ella",
-    "url": "https://www.southwestlondon.icb.nhs.uk/about/board/",
+    "url": "https://www.southwestlondon.icb.nhs.uk/events/",
     "url_root": "https://www.southwestlondon.icb.nhs.uk",
     "cluster_id": null,
     "cluster_meeting_url": null,
-    "notes": "[2026-05-27] URL updated: Publications page is a generic publications list. The 'about/board' subpage referenced in nav should host the board meeting schedule; April 2026 board papers exist as a separate publication. Could not (MEDIUM-confidence fix — verify on next scan) Board papers are filed as discrete publications by month (e.g. 'Board papers - April 2026') so checking the publications index for the next-month posting may also work."
+    "notes": "[2026-05-27] URL updated: Publications page is a generic publications list. The 'about/board' subpage referenced in nav should host the board meeting schedule; April 2026 board papers exist as a separate publication. Could not (MEDIUM-confidence fix — verify on next scan) Board papers are filed as discrete publications by month (e.g. 'Board papers - April 2026') so checking the publications index for the next-month posting may also work. | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "Z9B2Z",

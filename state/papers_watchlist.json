@@ -1,0 +1,2151 @@
+{
+  "_format_version": 1,
+  "_description": "Papers watchlist: orgs with no future-dated meeting in state. On every /scan-boards run, we still poll their papers/board page so a newly published pack triggers an alert even before we know the meeting date. See SKILL.md Step 7b for the full workflow.",
+  "_entry_schema": {
+    "ods_code": "RXG",
+    "papers_url": "URL to scan",
+    "last_checked": "ISO timestamp",
+    "known_files": [
+      {
+        "url": "absolute URL of the PDF",
+        "title": "link text on the page",
+        "first_seen": "ISO timestamp when we first saw this file"
+      }
+    ],
+    "notes": "anything worth remembering about how this org publishes papers"
+  },
+  "orgs": [
+    {
+      "ods_code": "RN7",
+      "papers_url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: No dedicated dates page found. Site only links to a downloadable PDF 'Trust Board Dates 2025-26' (https://www.dgt.nhs.uk/download_file/view/23660/"
+    },
+    {
+      "ods_code": "RRJ",
+      "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo"
+    },
+    {
+      "ods_code": "RJ7",
+      "papers_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/8-May-2026-2.pdf",
+          "title": "8 May 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/03/export-2026-03-04-11-26-40.pdf",
+          "title": "05 March 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/01/8-January-2026-2.pdf",
+          "title": "8 January 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/11/6-November-2025.pdf",
+          "title": "6 November 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/09/5-September-2025-1.pdf",
+          "title": "5 September 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/07/3-July-2025.pdf",
+          "title": "3 July 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/08/1-May-2025.pdf",
+          "title": "1 May 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/10/Group-Board-Public-March-2025.pdf",
+          "title": "6 March 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/01/Group-Board-Public-9-January-2025.pdf",
+          "title": "9 January 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Public-7-November-2024-V2.pdf",
+          "title": "7 November 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Meeting-in-Public-5-September-2024-1.pdf",
+          "title": "August 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/07/Group-Board-Papers-July-2024.pdf",
+          "title": "July 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/05/Group-Board-meeting-in-PUBLIC-2-May-2024-final-circulation-002.pdf",
+          "title": "May 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/03/2024-03-08-Group-Board-PUBLIC-MEETING-8-March-2024-updated.pdf",
+          "title": "March 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/01/GESH-Group-Board-January-2024-Agenda-and-Papers.pdf",
+          "title": "January 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Public-Group-Board-Meeting-10-November-2023.pdf",
+          "title": "November 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/09/FINAL-Group-Board-Meeting-PUBLIC-8-September-2023.pdf",
+          "title": "September 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/07/Final-Pack-Public-Board-Meeting-7-July-2023.1.pdf",
+          "title": "July 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/05/Group-Board-Meeting-5-May-2023.pdf",
+          "title": "May 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 group board dates (8 Jan, 5 Mar, 8 May 2026) with PDFs. Scraper false positive. Bi-monthly group board wi"
+    },
+    {
+      "ods_code": "RP6",
+      "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",
+          "title": "Combined board meeting pack",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.moorfields.nhs.uk/mediaLocal/1fkahrdq/2026-03-26-tb-part-1-meeting-pack-v11.pdf",
+          "title": "Combined board&nbsp;meeting&nbsp;pack",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: Board papers 2026 page lists past 2026 board packs (4 Feb 2026, 26 Mar 2026). No forward calendar, but new packs appear here as meetings approach. (MEDIUM-confidence fix — ve"
+    },
+    {
+      "ods_code": "RXG",
+      "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL shows 'Next meeting: TBC' and lists archive of previous meetings. No alternative page on the trust site appears to list forward dates."
+    },
+    {
+      "ods_code": "TAD",
+      "papers_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2026/03/Public-Board-02-April-2026-v2.pdf",
+          "title": "Public Board – 02 April 2026",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2026/02/Public-Board-Papers-5-Feb-2026.pdf",
+          "title": "Public Board Papers – 5 Feb 2026",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/12/v2-2025-12-03_11-05-01_FINAL-Boardbook.pdf",
+          "title": "Public combined board papers – December 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/10/2025-09-30_17-01-23_FINAL-Boardbook-v3.pdf",
+          "title": "Public Combined board papers – October 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/10/Extraordinary-BoD-Public-22-Oct-25.pdf",
+          "title": "Extraordinary BoD Public – 22 October 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/07/2025-07-21_18-09-52_FINAL-Boardbook.pdf",
+          "title": "Public Combined board papers – July 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/06/Public-Combined-board-papers-–-05-June-2025.pdf",
+          "title": "Public Combined board papers – 05 June 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/03/26-March-2025-Public-Combined-board-papers.pdf",
+          "title": "Public Combined board papers – 26 March 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/01/0-Combined-Public-29-Jan-2025-1.pdf",
+          "title": "Board of Directors – Public meeting – 29 January",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Public-Board-papers-COMBINED-27-November-2024.pdf",
+          "title": "Board of Directors – held in public – 27 November 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Board-of-Directors-–-held-in-public-–-25-September-2024.pdf",
+          "title": "Board of Directors – held in public – 25 September 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Board-of-Directors-–-held-in-public-–-17-July-2024.pdf",
+          "title": "Board-of-Directors-held-in-public-17-July-2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2025/07/Item-05.0-Board-of-Directors-public-minutes-17-July-2024-RATIFIED.pdf",
+          "title": "Board of Directors – public minutes – 17 July 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Board-of-Directors-Public-Board-Papers-Agenda-29-May-2024.pdf",
+          "title": "Board of Directors – held in public – 29 May 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Public-Board-14-March-2024-v2.pdf",
+          "title": "Item 02.0 – Board of Directors – held in public – March 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Public-Board-papers-11.01.24-v1.pdf",
+          "title": "Item 2 – Public Board papers-11.01.24-v1",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Board-of-Directors-Public-Thursday-9-November-2023-combined.pdf",
+          "title": "Board of Directors – held in public – November 2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Bradford-District-Care-NHS-Foundation-Trust-Annual-Report-Accounts-2022.23-1.pdf",
+          "title": "Bradford District Care NHS Foundation Trust – Annual Report &amp; Accounts 2022/23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Annual-Members-Meeting-Minutes-21-September-2023.pdf",
+          "title": "– Annual-Members-Meeting-Minutes-21-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-01.0-Annual-Members-Meeting-21-September-2023.pdf",
+          "title": "Item-01.0-Annual-Members-Meeting-21-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-03.0-Ratified-Minutes-Annual-Members-Meeting-28-September-2022.pdf",
+          "title": "Item-03.0-Ratified-Minutes-Annual-Members-Meeting-28-September-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-01.0-Public-Board-Agenda-14-Sep-2023-.pdf",
+          "title": "Item-01.0-Public-Board-Agenda-14-Sep-2023-",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-02.0-Board-Declaration-of-Conflicts-of-Interests-September-2023.pdf",
+          "title": "Item-02.0-Board-Declaration-of-Conflicts-of-Interests-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-05.0-Board-of-Directors-public-minutes-13-July-2023-CHAIR-APPROVED.pdf",
+          "title": "Item-05.0-Board-of-Directors-public-minutes-13-July-2023-CHAIR-APPROVED",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-07.0-Board-of-Directors-Action-Log-Public-for-September-2023.pdf",
+          "title": "Item-07.0-Board-of-Directors-Action-Log-Public-for-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-08.0-Chairs-Report-September-2023.pdf",
+          "title": "Item-08.0-Chairs-Report-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-09.0-Chief-Executives-Report-Public-Sept-23.pdf",
+          "title": "Item-09.0-Chief-Executives-Report-Public-Sept-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-09.1-Chief-Executives-report-Public-App-1-Green-KPI-Sept-23.pdf",
+          "title": "Item-09.1-Chief-Executives-report-Public-App-1-Green-KPI-Sept-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-11.0.1-BAF-FULL-AUGUST.pdf",
+          "title": "Item-11.0.1-BAF-FULL-AUGUST",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-11.0-Board-Assurance-Framework-September-2023.pdf",
+          "title": "Item-11.0-Board-Assurance-Framework-September-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-12.0-AAAD-Mental-Health-Legislation-Committee-held-on-27-July-2023.pdf",
+          "title": "Item-12.0-AAAD-Mental-Health-Legislation-Committee-held-on-27-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-13.0-AAAD-Quality-and-Safety-Committee-held-on-20-July-2023.pdf",
+          "title": "Item-13.0-AAAD-Quality-and-Safety-Committee-held-on-20-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-14.0.1-BDCFT-Winter-Plan-2023-Report-final.pdf",
+          "title": "Item-14.0.1-BDCFT-Winter-Plan-2023-Report-final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-14.0-Board-of-Directors-Public-winter-paper-front-sheet.pdf",
+          "title": "Item-14.0-Board-of-Directors-Public-winter-paper-front-sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-15.0-NHSE-EPRR-Self-Assessment-final-public-board.pdf",
+          "title": "Item-15.0-NHSE-EPRR-Self-Assessment-final-public-board",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.0.1-Appendix-1-WRES-revised-action-plan-2023-2024.pdf",
+          "title": "Item-17.0.1-Appendix-1-WRES-revised-action-plan-2023-2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.0.2-Appendix-1-Workforce-Disability-Standard-Action-Plan-2023.pdf",
+          "title": "Item-17.0.2-Appendix-1-Workforce-Disability-Standard-Action-Plan-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.0-Workforce-Race-Equality-Scheme-2023-update.pdf",
+          "title": "Item-17.0-Workforce-Race-Equality-Scheme-2023-update",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-18.0.1-Medical-Appraisal-and-Revalidation-Annual-Report.pdf",
+          "title": "Item-18.0.1-Medical-Appraisal-and-Revalidation-Annual-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-18.0-Medical-Appraisal-and-Revalidation-Report-Front-Sheet.pdf",
+          "title": "Item-18.0-Medical-Appraisal-and-Revalidation-Report-Front-Sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.0.1-Board-Integrated-Performance-Report-Dashboard-Sept-2023.pdf",
+          "title": "Item-19.0.1-Board-Integrated-Performance-Report-Dashboard-Sept-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.0-Board-Integrated-Performance-Report-Highlights-Report.pdf",
+          "title": "Item-19.0-Board-Integrated-Performance-Report-Highlights-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-20.0-Finance-Report-Cover-Sheet-Board.pdf",
+          "title": "Item-20.0-Finance-Report-Cover-Sheet-Board",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-20.1-Finance-Report-Trust-Board-Month-04-July-2023.pdf",
+          "title": "Item-20.1-Finance-Report-Trust-Board-Month-04-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-21.0.1-NHS-Improvement-Quarterly-Submission-Trust-Board-Q1-23_24.pdf",
+          "title": "Item-21.0.1-NHS-Improvement-Quarterly-Submission-Trust-Board-Q1-23_24",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-21.0-AAAD-Report-Finance-and-Performance-Committee-June-2023.pdf",
+          "title": "Item-21.0-AAAD-Report-Finance-and-Performance-Committee-June-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-22.0-AAAD-Report-Charitable-Funds-Committee-July-2023.pdf",
+          "title": "Item-22.0-AAAD-Report-Charitable-Funds-Committee-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.0-AAAD-Report-Audit-Committee-July.pdf",
+          "title": "Item-23.0-AAAD-Report-Audit-Committee-July",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-24.0-PRIVATE_PUBLIC_WYMHSC-Committees-in-Common_AAA-Report_26.07.2023-FINAL.pdf",
+          "title": "Item-24.0-PRIVATE_PUBLIC_WYMHSC-Committees-in-Common_AAA-Report_26.07.2023-FINAL",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-25.0-Board-of-Directors-Public-Work-Plan-2023-24-v3.pdf",
+          "title": "Item-25.0-Board-of-Directors-Public-Work-Plan-2023-24-v3",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-01.0-Public-Board-Agenda-13-July-2023.pdf",
+          "title": "Item-01.0-Public-Board-Agenda-13-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-02.0-Board-Declaration-of-Conflicts-of-Interests-July-2023.pdf",
+          "title": "Item-02.0-Board-Declaration-of-Conflicts-of-Interests-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-05.0-Board-of-Directors-public-minutes-11-May-2023-Chair-approved.pdf",
+          "title": "Item-05.0-Board-of-Directors-public-minutes-11-May-2023-Chair-approved",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-07.0-Board-of-Directors-Action-Log-Public-following-May-2023.pdf",
+          "title": "Item-07.0-Board-of-Directors-Action-Log-Public-following-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-08.0-Chairs-Report-July-2023.pdf",
+          "title": "Item-08.0-Chairs-Report-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-09.0-CE-Report-Public-July-23.pdf",
+          "title": "Item-09.0-CE-Report-Public-July-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-09.1-CE-report-Public-App-1-COVID-19-July-23.pdf",
+          "title": "Item-09.1-CE-report-Public-App-1-COVID-19-July-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-10.0-Board-Assurance-Framework-Supporting-Organisational-Risk-Register-July-2023.pdf",
+          "title": "Item-10.0-Board-Assurance-Framework-Supporting-Organisational-Risk-Register-July-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-10.1-BAF-FULL-JULY-2023.pdf",
+          "title": "Item-10.1-BAF-FULL-JULY-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-11.0-MHLC-AAA-May-2023.pdf",
+          "title": "Item-11.0-MHLC-AAA-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-12.0-AAAD-Report-Quality-Safety-Committee-18-May-2023.pdf",
+          "title": "Item-12.0-AAAD-Report-Quality-Safety-Committee-18-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-12.1-AAAD-Report-Quality-Safety-Committee-15-June-2023.pdf",
+          "title": "Item-12.1-AAAD-Report-Quality-Safety-Committee-15-June-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-13.0-Suicide-Prevention-Annual-Report.pdf",
+          "title": "Item-13.0-Suicide-Prevention-Annual-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-14.1.0-NHS-England-EDI-Improvement-Plan-Briefing.pdf",
+          "title": "Item-14.1.0-NHS-England-EDI-Improvement-Plan-Briefing",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-14.1.1-NHS-England-EDI-Improvement-Plan-Briefing-27.06.23.pdf",
+          "title": "Item-14.1.1-NHS-England-EDI-Improvement-Plan-Briefing-27.06.23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-15.0-Board-Integrated-Performance-Report-Highlights-Report.pdf",
+          "title": "Item-15.0-Board-Integrated-Performance-Report-Highlights-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-15.1-Board-Integrated-Performance-Report-Dashboard-May-2023-data.pdf",
+          "title": "Item-15.1-Board-Integrated-Performance-Report-Dashboard-May-2023-data",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-16.0-Finance-Report-Cover-Sheet.pdf",
+          "title": "Item-16.0-Finance-Report-Cover-Sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-16.1-Finance-Report-Month-2-2023-24-Trust-Board.pdf",
+          "title": "Item-16.1-Finance-Report-Month-2-2023-24-Trust-Board",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-18.0-SIRO-Report-22_23.pdf",
+          "title": "Item-18.0-SIRO-Report-22_23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.0-Health-Safety-Security-Annual-Report-2022-2023.pdf",
+          "title": "Item-19.0-Health-Safety-Security-Annual-Report-2022-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-20.0-WYMHSC-Committees-in-Common_AAA-Report_26.04.2023.pdf",
+          "title": "Item-20.0-WYMHSC-Committees-in-Common_AAA-Report_26.04.2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-21.0-Board-of-Directors-Public-Work-Plan-2023-24-v3.pdf",
+          "title": "Item-21.0-Board-of-Directors-Public-Work-Plan-2023-24-v3",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-01.0-Public-Board-Agenda-11-May-2023-final.pdf",
+          "title": "Item-01.0-Public-Board-Agenda-11-May-2023-final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-02.0-Board-Declaration-of-Conflicts-of-Interests-May-2023.pdf",
+          "title": "Item-02.0-Board-Declaration-of-Conflicts-of-Interests-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-05.0-Board-of-Directors-public-minutes-9-March-2023-Chair-approved.pdf",
+          "title": "Item-05.0-Board-of-Directors-public-minutes-9-March-2023-Chair-approved",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-07.0-Board-of-Directors-Action-Log-Public-following-March-2023.pdf",
+          "title": "Item-07.0-Board-of-Directors-Action-Log-Public-following-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-08.0-Chairs-Report-May-2023.pdf",
+          "title": "Item-08.0-Chairs-Report-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-09.0-CE-Report-Public-May-23.pdf",
+          "title": "Item-09.0-CE-Report-Public-May-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-10.0-Board-Assurance-Framework-supporting-Organisational-Risk-Report-May-2023.pdf",
+          "title": "Item-10.0-Board-Assurance-Framework-supporting-Organisational-Risk-Report-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-10.1-Board-BAF-FULL-APRIL.pdf",
+          "title": "Item-10.1-Board-BAF-FULL-APRIL",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-11.0-AAAD-Report-MHLC-March-2023.pdf",
+          "title": "Item-11.0-AAAD-Report-MHLC-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-12.1-AAAD-Report-Quality-Safety-Committee-16-March-23.pdf",
+          "title": "Item-12.1-AAAD-Report-Quality-Safety-Committee-16-March-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-12.2-AAAD-Report-Quality-Safety-Committee-April-20th-2023.pdf",
+          "title": "Item-12.2-AAAD-Report-Quality-Safety-Committee-April-20th-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-13.0-Board-Integrated-Performance-Report-Highlights-Report-FINAL.pdf",
+          "title": "Item-13.0-Board-Integrated-Performance-Report-Highlights-Report-FINAL",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-13.1-Board-Integrated-Performance-Report-Dashboard-Mar-2023-data-FINAL.pdf",
+          "title": "Item-13.1-Board-Integrated-Performance-Report-Dashboard-Mar-2023-data-FINAL",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-15.0-Safer-Staffing-Annual-Report-April-23.pdf",
+          "title": "Item-15.0-Safer-Staffing-Annual-Report-April-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-16.0-Freedom-to-Speak-Up-Guardian-Annual-Report-April-2023.pdf",
+          "title": "Item-16.0-Freedom-to-Speak-Up-Guardian-Annual-Report-April-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.0-Finance-Report-Cover-Sheet-Board.pdf",
+          "title": "Item-17.0-Finance-Report-Cover-Sheet-Board",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.1-Finance-Report-Month-12-March-2023.pdf",
+          "title": "Item-17.1-Finance-Report-Month-12-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-17.2-2023-24-Financial-Plan-Update-Final-Plan-Board-May-2023.pdf",
+          "title": "Item-17.2-2023-24-Financial-Plan-Update-Final-Plan-Board-May-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-18.0-AAA-FBIC-March-2023.pdf",
+          "title": "Item-18.0-AAA-FBIC-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.0-AAAD-Report-Charitable-Funds-Committee-March-2023.pdf",
+          "title": "Item-19.0-AAAD-Report-Charitable-Funds-Committee-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.1.0-Governance-process-for-approval-of-the-Annual-Accounts-and-Annual-Report-for-the-Charity.pdf",
+          "title": "Item-19.1.0-Governance-process-for-approval-of-the-Annual-Accounts-and-Annual-Report-for-the-Charity",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.1.1-Appendix-A-Section-2.1-and-2.2-Audit-Committee-within-the-SFIs-–-existing-narrative.pdf",
+          "title": "Item-19.1.1-Appendix-A-Section-2.1-and-2.2-Audit-Committee-within-the-SFIs-–-existing-narrative",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-19.1.2-Appendix-B-additional-narrative-delegating-approval-of-the-Annual-Accounts-and-Annual-Report.pdf",
+          "title": "Item-19.1.2-Appendix-B-additional-narrative-delegating-approval-of-the-Annual-Accounts-and-Annual-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-20.0-AAAD-Report-Audit-Committee-April-2023.pdf",
+          "title": "Item-20.0-AAAD-Report-Audit-Committee-April-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-21.0-Board-of-Directors-Public-paper_May22_Green-Plan.pdf",
+          "title": "Item-21.0-Board-of-Directors-Public-paper_May22_Green-Plan",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-21.1-BDCFT-Green-Plan-2021-26_revised2023_draft.pdf",
+          "title": "Item-21.1-BDCFT-Green-Plan-2021-26_revised2023_draft",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-22.0-Board-Declarations-2022_23-Combined.pdf",
+          "title": "Item-22.0-Board-Declarations-2022_23-Combined",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.1-Audit-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.1-Audit-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.2-Charitable-Funds-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.2-Charitable-Funds-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.3-Finance-Business-and-Investment-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.3-Finance-Business-and-Investment-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.4-MHLC-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.4-MHLC-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.5-Quality-Safety-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.5-Quality-Safety-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-23.6-Workforce-Equality-Committee-Annual-Report-2022-23.pdf",
+          "title": "Item-23.6-Workforce-Equality-Committee-Annual-Report-2022-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-24.0-Care-Quality-Commission-Update-and-Developments-including-Compliance-Against-Care-Quality-Registration-May-23.pdf",
+          "title": "Item-24.0-Care-Quality-Commission-Update-and-Developments-including-Compliance-Against-Care-Quality-Registration-May-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/Item-25.0-Board-of-Directors-Public-Work-Plan-2023-24-v1.pdf",
+          "title": "Item-25.0-Board-of-Directors-Public-Work-Plan-2023-24-v1",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/1.a-Item-01.0-Public-Board-Agenda-9-March-2023.pdf",
+          "title": "Item-01.0-Public-Board-Agenda-9-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/2.a-Item-02.0-Board-Declaration-of-Conflicts-of-Interests-March-2023.pdf",
+          "title": "Item-02.0-Board-Declaration-of-Conflicts-of-Interests-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/5.a-Item-05.0-Board-of-Directors-public-minutes-12-Jan-2023-Chair-approved.pdf",
+          "title": "Item-05.0-Board-of-Directors-public-minutes-12-Jan-2023-Chair-approved",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/7.a-Item-07.0-Board-of-Directors-Action-Log-Public-following-Jan-2023.pdf",
+          "title": "Item-07.0-Board-of-Directors-Action-Log-Public-following-Jan-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/8.a-Item-08.0-Chairs-Report-March-2023.pdf",
+          "title": "Item-08.0-Chairs-Report-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/9.a-Item-09.0-Chief-Executives-Report-Public-Board-9-March.pdf",
+          "title": "Item-09.0-Chief-Executives-Report-Public-Board-9-March",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/11.a-Item-11.0-Board-Assurance-Framework-Key-Organisational-Risk-Report-March-2023.pdf",
+          "title": "Item-11.0-Board-Assurance-Framework-Key-Organisational-Risk-Report-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/11.b-Item-11.1-BAF-FULL-March-2023.pdf",
+          "title": "Item-11.1-BAF-FULL-March-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/11.c-Item-11.2-Key-Organisational-Risk-Report-Trustwide-as-of-01-03-2023.pdf",
+          "title": "Item-11.2-Key-Organisational-Risk-Report-Trustwide-as-of-01-03-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/12.a-Item-12.0-AAAD-Report-Mental-Health-Legislation-Committee-January-2023.pdf",
+          "title": "Item-12.0-AAAD-Report-Mental-Health-Legislation-Committee-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/13.a-Item-13.1-AAAD-Report-Quality-Safety-Committee-January-22-V1.pdf",
+          "title": "Item-13.1-AAAD-Report-Quality-Safety-Committee-January-22-V1",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/13.b-Item-13.2-AAAD-Report-Quality-Safety-Committee-February-2023.pdf",
+          "title": "Item-13.2-AAAD-Report-Quality-Safety-Committee-February-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/13.c-Item-13.3-Quality-Safety-Committee-Terms-of-Reference-2023.01.pdf",
+          "title": "Item-13.3-Quality-Safety-Committee-Terms-of-Reference-2023.01",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/14.a-Item-14.0-Integrated-Performance-Report.pdf",
+          "title": "Item-14.0-Integrated-Performance-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/14.b-Item-14.1-Integrated-Performance-Report.pdf",
+          "title": "Item-14.1-Integrated-Performance-Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/15.a-Item-15.0-Finance-Report-Cover-Sheet-Board.pdf",
+          "title": "Item-15.0-Finance-Report-Cover-Sheet-Board",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/15.b-Item-15.1-Finance-Report-Month-10-January-2023.pdf",
+          "title": "Item-15.1-Finance-Report-Month-10-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/16.a-Item-16.0-AAA-report-FBIC-January-2023.pdf",
+          "title": "Item-16.0-AAA-report-FBIC-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/17.a-Item-17.0-AAAD-Report-Audit-Committee-19-Jan-2023.pdf",
+          "title": "Item-17.0-AAAD-Report-Audit-Committee-19-Jan-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/17.b-Item-17.1-SoD-and-SFI-Ratification-cover-paper.pdf",
+          "title": "Item-17.1-SoD-and-SFI-Ratification-cover-paper",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/17.c-Item-17.1.1-Appendix-A-SFIs-Section-17-January-2023.pdf",
+          "title": "Item-17.1.1-Appendix-A-SFIs-Section-17-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/17.d-Item-17.1.2-Appendix-B-SFIs-January-2023.pdf",
+          "title": "Item-17.1.2-Appendix-B-SFIs-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/18.a-Item-18.0-AAAD-Report-Workforce-Equality-Committee-16-Feb-2023.pdf",
+          "title": "Item-18.0-AAAD-Report-Workforce-Equality-Committee-16-Feb-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/20.a-Item-20.0-WYMHSC-Committees-in-Common_AAA-Report_25.01.2023.pdf",
+          "title": "Item-20.0-WYMHSC-Committees-in-Common_AAA-Report_25.01.2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/21.a-Item-21.0-Board-of-Directors-Work-Plan-2022_23-Public-for-March-meeting.pdf",
+          "title": "Item-21.0-Board-of-Directors-Work-Plan-2022_23-Public-for-March-meeting",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/1.a-Item-01.0-Public-Board-Agenda-12-Jan-2023.pdf",
+          "title": "Item-01.0-Public-Board-Agenda-12-Jan-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/2.a-Item-02.0-Board-Declaration-of-Conflicts-of-Interests-January-2023.pdf",
+          "title": "Item-02.0-Board-Declaration-of-Conflicts-of-Interests-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/5.a-Item-05.0-Board-of-Directors-public-minutes-10-Nov-2022-Chair-approved.pdf",
+          "title": "Item-05.0-Board-of-Directors-public-minutes-10-Nov-2022-Chair-approved",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/7.a-Item-07.0-Board-of-Directors-Action-Log-Public-following-Nov-2022.pdf",
+          "title": "Item-07.0-Board-of-Directors-Action-Log-Public-following-Nov-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/8.a-Item-08.0-Chairs-Report-January-2023.pdf",
+          "title": "Item-08.0-Chairs-Report-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/8.b-Item-08.1-AAAD-Report-Template-version-Nov-2022.pdf",
+          "title": "Item-08.1-AAAD-Report-Template-version-Nov-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/9.a-Item-09.0-Chief-Executives-Report-Public-Board-12-January-2023.pdf",
+          "title": "Item-09.0-Chief-Executives-Report-Public-Board-12-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/10.a-Item-10.0-Board-Assurance-Framework-Supporting-Organisational-Risk-Register-January-2023.pdf",
+          "title": "Item-10.0-Board-Assurance-Framework-Supporting-Organisational-Risk-Register-January-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/10.b-Item-10.1-BAF-FULL-JANUARY-2023.pdf",
+          "title": "Item-10.1-BAF-FULL-JANUARY-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/10.c-Item-10.2-Key-Organisational-Risk-Report-Trustwide-as-of-01-01-2023.pdf",
+          "title": "Item-10.2-Key-Organisational-Risk-Report-Trustwide-as-of-01-01-2023",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/11.a-Item-11.0-AAAD-Report-Mental-Health-Legislation-Committee-November-2022-proposed-final.pdf",
+          "title": "Item-11.0-AAAD-Report-Mental-Health-Legislation-Committee-November-2022-proposed-final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/12.1.a-Item-12.1.1-Closed-Cultures-Report-Update-and-Developments-Cover-Sheet.pdf",
+          "title": "Item-12.1.1-Closed-Cultures-Report-Update-and-Developments-Cover-Sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/12.1.b-Item-12.1.2-Closed-Cultures-Report-In-Patient-Quality-Visit-Final-Draft-Nov-2022-BF-003-002.pdf",
+          "title": "Item-12.1.2-Closed-Cultures-Report-In-Patient-Quality-Visit-Final-Draft-Nov-2022-BF-003-002",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/12.a-Item-12.0.1-AAAD-Report-Quality-Safety-Committee-November-2022-Final.pdf",
+          "title": "Item-12.0.1-AAAD-Report-Quality-Safety-Committee-November-2022-Final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/12.b-Item-12.0.2-AAAD-Report-Quality-Safety-Committee-December-2022-Final.pdf",
+          "title": "Item-12.0.2-AAAD-Report-Quality-Safety-Committee-December-2022-Final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/13.a-Item-13.0-Care-Quality-Commission-Update-and-Developments-public-board-221222.pdf",
+          "title": "Item-13.0-Care-Quality-Commission-Update-and-Developments-public-board-221222",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/14.a-Item-14.0-Board-Integrated-Performance-Report-Highlights-Report-Final.pdf",
+          "title": "Item-14.0-Board-Integrated-Performance-Report-Highlights-Report-Final",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/14.b-Item-14.1-Board-Integrated-Performance-Report-Dashboard-Nov-2022-data-v1.pdf",
+          "title": "Item-14.1-Board-Integrated-Performance-Report-Dashboard-Nov-2022-data-v1",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/15.a-Item-15.0-Board-of-Directors-Public-Staff-Survey-2022-Results-NSS2022-HF030122-BC-approved.pdf",
+          "title": "Item-15.0-Board-of-Directors-Public-Staff-Survey-2022-Results-NSS2022-HF030122-BC-approved",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/16.a-Item-16.0-AAAD-Report-Workforce-Equality-Committee-Oct-2022.pdf",
+          "title": "Item-16.0-AAAD-Report-Workforce-Equality-Committee-Oct-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/17.a-Item-17.0-FBIC-AAA-Nov-22.pdf",
+          "title": "Item-17.0-FBIC-AAA-Nov-22",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/18.a-Item-18.0-Alert-Advise-Assure-Charitable-Funds-Committee-27-Oct-2022.pdf",
+          "title": "Item-18.0-Alert-Advise-Assure-Charitable-Funds-Committee-27-Oct-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/19.a-Item-19.0-Finance-Report-Cover-Sheet.pdf",
+          "title": "Item-19.0-Finance-Report-Cover-Sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/19.b-Item-19.1-Finance-Report-Month-8-November-2022.pdf",
+          "title": "Item-19.1-Finance-Report-Month-8-November-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/20.a-Item-20.0-Division-of-responsibilities-of-the-Chair-and-Chief-Executive.pdf",
+          "title": "Item-20.0-Division-of-responsibilities-of-the-Chair-and-Chief-Executive",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/21.a-Item-21.0-Committee-in-Common-Terms-of-Reference-Cover-Sheet.pdf",
+          "title": "Item-21.0-Committee-in-Common-Terms-of-Reference-Cover-Sheet",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/21.b-Item-21.1-Committee-in-Common-Terms-of-Reference-22-23.pdf",
+          "title": "Item-21.1-Committee-in-Common-Terms-of-Reference-22-23",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/22.a-Item-22.0-Board-of-Directors-Work-Plan-2022_23-Public-for-Jan-meeting.pdf",
+          "title": "Item-22.0-Board-of-Directors-Work-Plan-2022_23-Public-for-Jan-meeting",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.bdct.nhs.uk/wp-content/uploads/2024/12/23.a-Item-23.0-Corporate-Governance-meeting-dates-2023-2024-v1.0-15-12-2022.pdf",
+          "title": "Item-23.0-Corporate-Governance-meeting-dates-2023-2024-v1.0-15-12-2022",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: The deeper /our-trust/our-board/board-meetings-and-papers/ page shows two 2026 meeting dates (5 Feb, 2 Apr). Bimonthly schedule per second-Thursday rule. (MEDIUM-confidence f"
+    },
+    {
+      "ods_code": "RGN",
+      "papers_url": "https://www.nwangliaft.nhs.uk/trust-board/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.nwangliaft.nhs.uk/download/board-of-directors-gifts-hospitality-and-sponsorship-2026-v5pdf.pdf?ver=28790&amp;doc=docm93jijm4n16382.pdf",
+          "title": "Board of Directors - Gifts Hospitality and Sponsorship 2026",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nwangliaft.nhs.uk/download/board-of-directors-declarations-of-interests-2026-v2pdf.pdf?ver=28015&amp;doc=docm93jijm4n15987.pdf",
+          "title": "Board of Directors Declarations of Interests 2026 April 26",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: /our-board-papers/ lists yearly folders ('Board Papers 2026') rather than meeting dates on the landing page; dates appear inside the folder. No cl"
+    },
+    {
+      "ods_code": "RMY",
+      "papers_url": "https://www.nsft.nhs.uk/board-papers/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-april-2026.pdf?ver=9524&amp;doc=docm93jijm4n5157.pdf&amp;ver=9534",
+          "title": "Board of Directors in Public - April 2026[pdf] 18MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-on-5-february-agenda-and-papers.pdf?ver=9099&amp;doc=docm93jijm4n4931.pdf",
+          "title": "Board of Directors Meeting in Public on 5 February - Agenda and papers [pdf] 16MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-pack-4-december-2025.pdf?ver=8820&amp;doc=docm93jijm4n4799.pdf&amp;ver=8893",
+          "title": "Board of Directors in Public pack - 4 December 2025[pdf] 19MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-pack-2nd-october-2025pdf.pdf?ver=8528&amp;doc=docm93jijm4n4670.pdf",
+          "title": "&nbsp;Board of Directors in Public pack 2nd October 2025 [pdf] 17MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-pack-31-july-2025.pdf?ver=8260&amp;doc=docm93jijm4n4534.pdf&amp;ver=8282",
+          "title": "Board of Directors in public pack - 31 July 2025[pdf] 44MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-from-the-public-july-2025.html?ver=8421&amp;doc=docm93jijm4n4612.pdf",
+          "title": "Questions from the public July 2025 [pdf] 350KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-meeting-in-public-june-2025.pdf?ver=6762&amp;doc=docm93jijm4n3751.pdf",
+          "title": "Board of Directors in public meeting in Public June 2025 [pdf] 14MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-declaration-of-interests-may-30-2025.html?ver=6713&amp;doc=docm93jijm4n3716.pdf",
+          "title": "Board of Directors Declaration of Interests - May 30 2025 [pdf] 224KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/nsft-board-assurance-framework-may-2025.pdf?ver=6715&amp;doc=docm93jijm4n3717.pdf",
+          "title": "NSFT Board Assurance Framework - May 2025 [pdf] 636KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-from-the-public-june-2025.pdf?ver=6836&amp;doc=docm93jijm4n3787.pdf&amp;ver=6837",
+          "title": "Questions from the public June 2025[pdf] 89KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-3rd-april-2025.pdf?ver=6629&amp;doc=docm93jijm4n3681.pdf",
+          "title": "Board of Directors meeting in public 3rd April 2025 [pdf] 17MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-from-the-public-april-2025.html?ver=6465&amp;doc=docm93jijm4n3569.pdf",
+          "title": "Questions from the public April 2025 [pdf] 69KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-6th-february-2025-papers.pdf?ver=6628&amp;doc=docm93jijm4n3682.pdf",
+          "title": "Board of Directors meeting in public 6th February 2025 papers [pdf] 20MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-from-members-of-the-public-feb-2025.html?ver=6142&amp;doc=docm93jijm4n3493.pdf",
+          "title": "Questions from members of the public Feb 2025. [pdf] 86KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-28-november-2024.pdf?ver=5735&amp;doc=docm93jijm4n3289.pdf",
+          "title": "Board of Directors meeting in public 28 November 2024 [pdf] 22MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-from-members-of-the-public-nov-24.html?ver=5791&amp;doc=docm93jijm4n3317.pdf",
+          "title": "Questions from members of the public Nov 24 [pdf] 95KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-26-september-2024.pdf?ver=7419&amp;doc=docm93jijm4n3498.pdf",
+          "title": "Board of Directors meeting in public 26 September 2024 [pdf] 23MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-25-july-2024.pdf?ver=5312&amp;doc=docm93jijm4n3092.pdf",
+          "title": "Board of Directors meeting in public 25 July 2024 [pdf] 41MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-to-board-july-2024.html?ver=5389&amp;doc=docm93jijm4n3131.pdf",
+          "title": "Questions to Board July 2024 [pdf] 91KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-30-may-2024.pdf?ver=5156&amp;doc=docm93jijm4n3018.pdf",
+          "title": "Board of Directors meeting in public 30 May 2024 [pdf] 30MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/declarations-of-interest-board-may-24.html?ver=5178&amp;doc=docm93jijm4n3034.pdf",
+          "title": "Declarations of interest - Board - May 24 [pdf] 200KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-to-board-may-2024.pdf?ver=5284&amp;doc=docm93jijm4n3078.pdf&amp;ver=8578",
+          "title": "Questions to Board May 2024[pdf] 139KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-28-march-2024.pdf?ver=4924&amp;doc=docm93jijm4n2908",
+          "title": "Board of Directors meeting in public 28 March 2024[pdf] 11MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-assurance-framework-baf-march-2024-.pdf?ver=4934&amp;doc=docm93jijm4n2915",
+          "title": "Board Assurance Framework (BAF) March 2024 [pdf] 348KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/declarations-of-interest-march-2024.html?ver=4932&amp;doc=docm93jijm4n2913.pdf",
+          "title": "Declarations of interest March 2024 [pdf] 198KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/questions-to-board-march-2024.html?ver=5104&amp;doc=docm93jijm4n3005.pdf",
+          "title": "Questions to Board March 2024 [pdf] 88KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-of-directors-meeting-in-public-25-january-2024-.pdf?ver=4681&amp;doc=docm93jijm4n2778",
+          "title": "Board of Directors meeting in public 25 January 2024 [pdf] 6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-assurance-framework-january-2024-.pdf?ver=4776&amp;doc=docm93jijm4n2835",
+          "title": "Board Assurance Framework January 2024 [pdf] 968KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-declarations-of-interest-january-2024-.pdf?ver=4727&amp;doc=docm93jijm4n2810",
+          "title": "Board declarations of interest January 2024 [pdf] 203KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-questions-to-board-january-2024-.pdf?ver=4937&amp;doc=docm93jijm4n2916",
+          "title": "Questions to Board January 2024 [pdf] 155KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-papers-23-november-2023.pdf?ver=4421&amp;doc=docm93jijm4n2658",
+          "title": "Board of Directors meeting in public - Papers 23 November 2023[pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-declarations-of-interest-november-2023-.pdf?ver=4496&amp;doc=docm93jijm4n2696",
+          "title": "Board declarations of interest - November 2023 [pdf] 203KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-public-questions-for-board-november-2023-.pdf?ver=4627&amp;doc=docm93jijm4n2757",
+          "title": "Public Questions for Board November 2023 [pdf] 121KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-papers-28-september-2023-.pdf?ver=4094&amp;doc=docm93jijm4n2520",
+          "title": "Board of Directors meeting in public - papers 28 September 2023 [pdf] 9MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-board-assurance-framework-september-2023pdf-.pdf?ver=4144&amp;doc=docm93jijm4n2547",
+          "title": "Board Assurance Framework September 2023.pdf [pdf] 941KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-declerations-september-2023.pdf?ver=4236&amp;doc=docm93jijm4n2548",
+          "title": "Board Declerations September 2023[pdf] 203KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/-public-questions-for-board-september-2023-.pdf?ver=4415&amp;doc=docm93jijm4n2655",
+          "title": "Public Questions for Board September 2023 [pdf] 127KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-in-public-papers-27-july-2023-.pdf?ver=3954&amp;doc=docm93jijm4n2440",
+          "title": "Board of Directors meeting in public - Papers 27 July 2023 [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/july-2023-paper-a-declaration-of-interest-.pdf?ver=3945&amp;doc=docm93jijm4n2435",
+          "title": "July 2023 Paper A - declaration of interest [pdf] 249KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/public-questions-for-board-july-23-.pdf?ver=4107&amp;doc=docm93jijm4n2527",
+          "title": "Public Questions for Board July 23 [pdf] 199KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-in-public-meeting-25-may-2023-.pdf?ver=3705&amp;doc=docm93jijm4n2315",
+          "title": "Board of Directors in public meeting 25 May 2023 [pdf] 11MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/may-2023-paper-a-declarations-of-interest-.pdf?ver=3710&amp;doc=docm93jijm4n2319",
+          "title": "May 2023: Paper A - declarations of interest [pdf] 202KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/public-questions-for-board-may-23pdf-.pdf?ver=3860&amp;doc=docm93jijm4n2398",
+          "title": "Public Questions for Board May 23.pdf [pdf] 443KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/nsft-board-meeting-in-public-papers-6th-april-2023-.pdf?ver=3539&amp;doc=docm93jijm4n2225",
+          "title": "NSFT Board meeting in public papers 6th April 2023 [pdf] 10MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/paper-a-declarations-of-interestpdf-.pdf?ver=3576&amp;doc=docm93jijm4n2245",
+          "title": "Paper A - Declarations of interest.pdf [pdf] 285KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-papers-26-january-.pdf?ver=3373&amp;doc=docm93jijm4n2118",
+          "title": "Board of Directors meeting papers 26 January [pdf] 6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/nsft-big-conversation-report-.pdf?ver=3357&amp;doc=docm93jijm4n2110",
+          "title": "NSFT Big Conversation report [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n2000.pdf&amp;ver=3143",
+          "title": "NSFT Board meeting in public papers 24th November 2022 [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1923.pdf&amp;ver=2981",
+          "title": "Board of Directors meeting papers held in public 22nd September [pdf] 12MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1854.pdf&amp;ver=2863",
+          "title": "Board of Directors meeting papers 26th July 2022 [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1855.pdf&amp;ver=2865",
+          "title": "Separate pack - NSFT internal audit, scheme of reservation and delegation and SFIs July 2022 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1763.pdf&amp;ver=2680",
+          "title": "26h May 2022 - Board of Directors meeting papers [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1669.pdf&amp;ver=2531",
+          "title": "Board of Directors meeting in public 24th March 2022 meeting papers [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1375.pdf&amp;ver=1920",
+          "title": "Board of Directors meeting in public meeting papers 27th January 2022 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/november-2021-public-questions-for-boardpdf-.pdf?ver=1808&amp;doc=docm93jijm4n1342",
+          "title": "November 2021 - Public Questions for Board.pdf [pdf] 160KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-of-directors-meeting-papers-held-in-public-25-november-2021-.pdf?ver=1767&amp;doc=docm93jijm4n1321",
+          "title": "Board of Directors meeting papers held in public 25 November 2021 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/september-2021pdf-.pdf?ver=1620&amp;doc=docm93jijm4n1238",
+          "title": "September 2021.pdf [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/september-2021-public-questions-for-boardpdf-.pdf?ver=1672&amp;doc=docm93jijm4n1269",
+          "title": "September 2021 - Public Questions for Board.pdf [pdf] 142KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/july-2021-public-questions-for-boardpdf-.pdf?ver=1567&amp;doc=docm93jijm4n1206",
+          "title": "July 2021 - Public Questions for Board.pdf [pdf] 175KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/july-2021-board-papersnbsp.pdf?ver=1532&amp;doc=docm93jijm4n1186",
+          "title": "July 2021 board papers&nbsp;[pdf] 11MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/paper-pi-sfi-and-rampd-packpdf-.pdf?ver=1529&amp;doc=docm93jijm4n1184",
+          "title": "Paper Pi - SFI and R&amp;D pack.pdf [pdf] 1MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/may-2021-public-questions-for-boardpdf-.pdf?ver=1527&amp;doc=docm93jijm4n1182",
+          "title": "May 2021 - Public questions for Board.pdf [pdf] 122KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/may-2021pdf-.pdf?ver=1519&amp;doc=docm93jijm4n1177",
+          "title": "May 2021.pdf [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/march-2021-public-questions-for-boardpdf-.pdf?ver=1373&amp;doc=docm93jijm4n1100",
+          "title": "March 2021 - Public questions for Board.pdf [pdf] 126KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/march-2021pdf-.pdf?ver=1300&amp;doc=docm93jijm4n1058",
+          "title": "March 2021.pdf [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/supporting-information-for-280121-board-meeting-.pdf?ver=2735&amp;doc=docm93jijm4n1792",
+          "title": "Supporting information for 28-01-21 Board meeting [pdf] 541KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/january-2021pdf-.pdf?ver=1400&amp;doc=docm93jijm4n1042",
+          "title": "January 2021.pdf [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1044.pdf&amp;ver=1281",
+          "title": "March 2020.pdf&nbsp;6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1043.pdf&amp;ver=1280",
+          "title": "May 2020.pdf&nbsp;8MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1046.pdf&amp;ver=1283",
+          "title": "July 2020.pdf&nbsp;7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1053.pdf&amp;ver=1290",
+          "title": "September 2020.pdf&nbsp;8MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1050.pdf&amp;ver=1287",
+          "title": "November 2020.pdf&nbsp;8MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1049.pdf&amp;ver=1286",
+          "title": "March 2019.pdf&nbsp;8MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1041.pdf&amp;ver=1278",
+          "title": "April 2019.pdf&nbsp;2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1047.pdf&amp;ver=1284",
+          "title": "May 2019.pdf&nbsp;4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1045.pdf&amp;ver=1282",
+          "title": "July 2019.pdf&nbsp;9MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1052.pdf&amp;ver=1289",
+          "title": "September 2019.pdf&nbsp;6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download.cfm?doc=docm93jijm4n1051.pdf&amp;ver=1288",
+          "title": "November 2019.pdf&nbsp;8MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-25-january-2018-.pdf?ver=3235&amp;doc=docm93jijm4n2043",
+          "title": "Board meeting in public papers 25 January 2018 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-22-february-2018-.pdf?ver=3241&amp;doc=docm93jijm4n2049",
+          "title": "Board meeting in public papers 22 February 2018 [pdf] 6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-29-march-2018-.pdf?ver=3240&amp;doc=docm93jijm4n2048",
+          "title": "Board meeting in public papers 29 March 2018 [pdf] 7MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-april-2018-.pdf?ver=3236&amp;doc=docm93jijm4n2044",
+          "title": "Board meeting in public papers 26 April 2018 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-31-may-2018-.pdf?ver=3233&amp;doc=docm93jijm4n2041",
+          "title": "Board meeting in public papers 31 May 2018 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-june-2018-.pdf?ver=3232&amp;doc=docm93jijm4n2040",
+          "title": "Board meeting in public papers 28 June 2018 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-july-2018-.pdf?ver=3238&amp;doc=docm93jijm4n2046",
+          "title": "Board meeting in public papers 26 July 2018 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-27-september-2018-.pdf?ver=3234&amp;doc=docm93jijm4n2042",
+          "title": "Board meeting in public papers 27 September 2018 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-25-october-2018-.pdf?ver=3237&amp;doc=docm93jijm4n2045",
+          "title": "Board meeting in public papers 25 October 2018 [pdf] 6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-29-november-2018-.pdf?ver=3239&amp;doc=docm93jijm4n2047",
+          "title": "Board meeting in public papers 29 November 2018 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-january-2017-.pdf?ver=3218&amp;doc=docm93jijm4n2037",
+          "title": "Board meeting in public papers 26 January 2017 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-23-february-2017-.pdf?ver=3219&amp;doc=docm93jijm4n2036",
+          "title": "Board meeting in public papers 23 February 2017 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-30-march-2017-.pdf?ver=3221&amp;doc=docm93jijm4n2039",
+          "title": "Board meeting in public papers 30 March 2017 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-27-april-2017-.pdf?ver=3216&amp;doc=docm93jijm4n2034",
+          "title": "Board meeting in public papers 27 April 2017 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-29-june-2017-.pdf?ver=3214&amp;doc=docm93jijm4n2032",
+          "title": "Board meeting in public papers 29 June 2017 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-27-july-2017-.pdf?ver=3213&amp;doc=docm93jijm4n2031",
+          "title": "Board meeting in public papers 27 July 2017 [pdf] 817KB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-september-2017-.pdf?ver=3217&amp;doc=docm93jijm4n2035",
+          "title": "Board meeting in public papers 28 September 2017 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-october-2017-.pdf?ver=3215&amp;doc=docm93jijm4n2033",
+          "title": "Board meeting in public papers 26 October 2017 [pdf] 1MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-30-november-2017-.pdf?ver=3220&amp;doc=docm93jijm4n2038",
+          "title": "Board meeting in public papers 30 November 2017 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-january-2016-.pdf?ver=3199&amp;doc=docm93jijm4n2026",
+          "title": "Board meeting in public papers 28 January 2016 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-25-february-2016-.pdf?ver=3201&amp;doc=docm93jijm4n2028",
+          "title": "Board meeting in public papers 25 February 2016 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-24-march-2016-.pdf?ver=3200&amp;doc=docm93jijm4n2027",
+          "title": "Board meeting in public papers 24 March 2016 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-april-2016-.pdf?ver=3203&amp;doc=docm93jijm4n2030",
+          "title": "Board meeting in public papers 28 April 2016 [pdf] 6MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-may-2016-.pdf?ver=3196&amp;doc=docm93jijm4n2023",
+          "title": "Board meeting in public papers 26 May 2016 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-23-june-16-.pdf?ver=3198&amp;doc=docm93jijm4n2025",
+          "title": "Board meeting in public papers 23 June 16 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-july-2016-.pdf?ver=3195&amp;doc=docm93jijm4n2022",
+          "title": "Board meeting in public papers 28 July 2016 [pdf] 1MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-22-september-2016-.pdf?ver=3202&amp;doc=docm93jijm4n2029",
+          "title": "Board meeting in public papers 22 September 2016 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-27-october-2016-.pdf?ver=3197&amp;doc=docm93jijm4n2024",
+          "title": "Board meeting in public papers 27 October 2016 [pdf] 1MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-24-november-2016-.pdf?ver=3194&amp;doc=docm93jijm4n2021",
+          "title": "Board meeting in public papers 24 November 2016 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-22-january-2015-.pdf?ver=3181&amp;doc=docm93jijm4n2018",
+          "title": "Board meeting in public papers 22 January 2015 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-february-2015-.pdf?ver=3177&amp;doc=docm93jijm4n2014",
+          "title": "Board meeting in public papers 26 February 2015 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-march-2015-.pdf?ver=3178&amp;doc=docm93jijm4n2015",
+          "title": "Board meeting in public papers 26 March 2015 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-23-april-2015-.pdf?ver=3176&amp;doc=docm93jijm4n2013",
+          "title": "Board meeting in public papers 23 April 2015 [pdf] 2MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-may-2015-.pdf?ver=3183&amp;doc=docm93jijm4n2020",
+          "title": "Board meeting in public papers 28 May 2015 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-25-jun-2015-.pdf?ver=3175&amp;doc=docm93jijm4n2012",
+          "title": "Board meeting in public papers 25 Jun 2015 [pdf] 1MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-23-july-2015-.pdf?ver=3180&amp;doc=docm93jijm4n2017",
+          "title": "Board meeting in public papers 23 July 2015 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-24-september-2015-.pdf?ver=3179&amp;doc=docm93jijm4n2016",
+          "title": "Board meeting in public papers 24 September 2015 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-november-2015-.pdf?ver=3182&amp;doc=docm93jijm4n2019",
+          "title": "Board meeting in public papers 26 November 2015 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-27-february-2014-.pdf?ver=3162&amp;doc=docm93jijm4n2009",
+          "title": "Board meeting in public papers 27 February 2014 [pdf] 4MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-24-april-2014-.pdf?ver=3158&amp;doc=docm93jijm4n2005",
+          "title": "Board meeting in public papers 24 April 2014 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-26-june-2014-.pdf?ver=3161&amp;doc=docm93jijm4n2008",
+          "title": "Board meeting in public papers 26 June 2014 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-28-august-2014-.pdf?ver=3159&amp;doc=docm93jijm4n2006",
+          "title": "Board meeting in public papers 28 August 2014 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-23-october-2014-.pdf?ver=3160&amp;doc=docm93jijm4n2007",
+          "title": "Board meeting in public papers 23 October 2014 [pdf] 3MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.nsft.nhs.uk/download/board-meeting-in-public-papers-18-december-2014-.pdf?ver=3163&amp;doc=docm93jijm4n2010",
+          "title": "Board meeting in public papers 18 December 2014 [pdf] 5MB",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Board papers page only shows recent past meetings. our-board page directs to events calendar (nsft.nhs.uk/trust-events), but the calendar interfac"
+    },
+    {
+      "ods_code": "RDY",
+      "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
+          "title": "Trust Board - agendas and papers June 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/9017/4963/4140/DHC_April_Part_1_Board_of_Directors_Final_Paper_Pack.pdf",
+          "title": "Trust Board - agendas and papers April 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/5517/4963/4140/DHC_Board_of_Directors_February_2025_Part_1_Boardbook.pdf",
+          "title": "Trust Board - agendas and papers February 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/8517/4963/3967/DHC_Board_of_Directors_-_Agenda_and_Papers_-_Part_1_-_11_December_2024.pdf",
+          "title": "Trust Board - agendas and papers December 2024&nbsp;",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/4317/4963/3985/Trust_board_agenda_and_papers_-_October_2024.pdf",
+          "title": "Trust Board - agendas and papers October 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1917/4963/3967/Combined_Agenda_and_Papers_Board_070824_website_ver_2.pdf",
+          "title": "Trust Board - agendas and papers August 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/4817/4963/3967/Board_Papers_05_June_2024.pdf",
+          "title": "Trust Board - agendas and papers June 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1617/4963/3966/Board_of_Directors_Papers_-_3_April_2024.pdf",
+          "title": "Trust Board - agendas and papers April 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/9217/4963/3985/Trust_Board_Agenda_and_Papers_February_2024.pdf",
+          "title": "Trust Board - agendas and papers February 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.england.nhs.uk/wp-content/uploads/2023/03/PRN00191-nhs-provider-licence-v4.pdf",
+          "title": "Read the full licence, with all conditions",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc"
+    },
+    {
+      "ods_code": "RN3",
+      "papers_url": "https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.gwh.nhs.uk/media/2kjjakla/150126-trust-board-agenda-papers.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/bl4psc5u/public-only-trust-board-agenda-papers-20260312.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/qjrdl3vb/public-only-trust-board-agenda-papers-20260409.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/mx4pmyxe/jan-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/f15px05s/feb-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/qytlyv1g/mar-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/5kclsmh1/may-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/x3zh4ldm/july-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/qy5hmlq5/sep-2025.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/v0lhtlf5/jan-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/q0wjio0n/feb-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/0ytneigb/mar-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/0h2jtwa5/may-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/eaqp0wzw/jun-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/kavbuqj5/jul-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/bsnps4ke/aug-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/tdmofsis/sep-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/1tdjy5mj/nov-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/rymdv3hf/dec-2024.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/svkfatam/jan-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/lijbrdfz/feb-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/x5dl0boh/mar-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/zpwhj3yj/may-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/vnidzfvk/jun-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/p4xbqugk/aug-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/uq5jx5c0/sep-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/131d0drg/nov-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/yqfjbous/dec-2023.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/zbzj0vl2/jan-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/mg1pdgef/feb-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/kj5nk3yp/mar-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/lyocwxew/apr-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/434ptjl0/may-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/qbbpgji1/jul-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/sjga3uop/aug-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/imjjpu3c/oct-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/srddvktf/nov-2022.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/3aknwko4/jan-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/fightzqa/feb-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/14vnje0v/mar-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/xrhne2zx/apr-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/szhpk1tm/may-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/i2hk0hvr/jun-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/ahadfwke/jul-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/1fapqa4k/aug-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/rbqjugkr/sep-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/55bjmgyw/oct-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/ohmnvo5w/nov-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.gwh.nhs.uk/media/2ekldelz/dec-2021.pdf",
+          "title": "Adobe PDF",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: This page DOES list 2026 board dates (15 Jan, 12 Mar, 9 Apr 2026) with agenda PDFs. The 'no_dates' flag appears to be a false po"
+    },
+    {
+      "ods_code": "RTF",
+      "papers_url": "https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current page does list at least one upcoming date (Thu 21 May 2026, 10am, Health and Care Academy). No alternative dates page found on Northumbria"
+    },
+    {
+      "ods_code": "RTR",
+      "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: Current URL is a stale 2022 page. The group board meetings page lists 2026 dates (8 Jan, 5 Mar) and is the joint-board hub with North Tees. South Tees and North Tees now oper"
+    },
+    {
+      "ods_code": "RVW",
+      "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: North Tees board meetings URL now redirects to a declarations-of-interest page; the trust operates as part of University Hospitals Tees Group with South Tees and meetings are"
+    },
+    {
+      "ods_code": "RMC",
+      "papers_url": "https://www.boltonft.nhs.uk/about-us/our-board/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.boltonft.nhs.uk/wp-content/uploads/2026/03/Register-of-Interests-March-2026.pdf",
+          "title": "Board of Directors Register of Interests The current register of the Board of Directors.",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Linked board meetings subpage exists but content was not directly confirmed (parent page references it but says only that meetings are bimonthly)."
+    },
+    {
+      "ods_code": "RBQ",
+      "papers_url": "https://www.lhch.nhs.uk/board-of-directors-meetings",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Page lists 2026 Group Board dates (15 Jan, 12 Mar 2026) via NHS University Hospitals of Liverpool, plus several 2025 LHCH dates."
+    },
+    {
+      "ods_code": "RBS",
+      "papers_url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://www.alderhey.nhs.uk/wp-content/uploads/2023/06/Trust-board-meeting-10th-April-2018.pdf",
+          "title": "Trust board meeting – 10th April 2018 (14MB pdf)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: The /about/trust/board/meeting/ page describes board meeting practice ('meet 11 times a year, 10am-3pm') but does NOT list specific 2026 dates. Co"
+    },
+    {
+      "ods_code": "RJN",
+      "papers_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/4717/4982/6163/Public_Trust_Board_Agenda_and_supporting_papers_-_May_2025_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/3917/3745/3860/Public_Trust_Board_Agenda_and_supporting_papers_-_January_2025_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/1717/3158/7198/Public_Trust_Board_-_November_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5617/2019/3007/Public_Trust_Board_-_July_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1518/3549/Public_Trust_Board_-_May_2024_-_Agenda_and_Supporting_papers_Numbered_FINAL.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1775/6483/Public_Trust_Board_-_March_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/8017/0609/1265/Public_Trust_Board_-_January_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/4217/0565/6653/Public_Trust_Board_-_2nd_November_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7316/9442/1351/Public_Trust_Board_-_6th_September_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/2516/8873/2030/Public_Trust_Board_-_6th_July_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/9916/5166/7332/02_-_Public_Board_Agenda_and_Papers_May_2022_Website_Version_V2_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5516/4338/5592/Public_Trust_Board_Agenda_and_Papers_-_December_2021_Website_v4_Numbered_1.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/6516/0218/0812/trust_board_agenda_and_papers_01-10-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/5116/0218/0809/trust_board_agenda_and_papers_03-09-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/8916/0218/0811/trust_board_agenda_and_papers_02-07-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/9217/6797/5303/26.018_Emergency_Preparedness_Response_and_Resilience_-_Annual_Assurance_Report.pdf",
+          "title": "Emergency Preparedness, Response and Resilience – Annual Assurance Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: Meetings subpage on the new trust.eastcheshire.nhs.uk subdomain shows Thursday 7 May 2026 board meeting and links to public trust board agenda and papers. The original URL po"
+    },
+    {
+      "ods_code": "RW5",
+      "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Page actually lists at least 4 dated 2026 board meetings (5 Feb, 5 Mar, 2 Apr, 7 May 2026) via the document titles. False positi"
+    },
+    {
+      "ods_code": "RXA",
+      "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: WebFetch returned 404 for trailing-slash URL. Site search confirms /our-board sub-page is canonical for board meetings. Board meets last Wednesday of each month; papers publi"
+    },
+    {
+      "ods_code": "RXN",
+      "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: The board-meetings-and-papers page shows the next meeting date (2 April 2026) and downloadable packs. Only one date visible at a time. (MEDIUM-confidence fix — verify on next"
+    },
+    {
+      "ods_code": "RY7",
+      "papers_url": "https://www.wchc.nhs.uk/about/board-governors/board-meetings-papers/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL does show one upcoming Group Board of Directors meeting (Wednesday 1 April 2026) plus historical dated entries. Just"
+    },
+    {
+      "ods_code": "RYF",
+      "papers_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL returns 404. The /our-board/ parent page references board meeting schedule but no specific 2026 dates visible. WebSearch didn't quickl"
+    },
+    {
+      "ods_code": "QYG",
+      "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: Parent page has year folders only (looks empty without JS). Year-specific child page lists 2026 board meetings: 29 January and 26 March 2026 confirmed. Each year has its own "
+    },
+    {
+      "ods_code": "QWU",
+      "papers_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "Joint Board Meeting in Common with Herefordshire and Worcestershire (QGH) | [2026-05-27] URL confirmed canonical but scraper returns empty. Likely Cloudflare/UA block on WebFetch — needs Playwright. R"
+    },
+    {
+      "ods_code": "QGH",
+      "papers_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "Joint Board Meeting in Common with Coventry and Warwickshire (QWU); papers hosted on both happyhealthylives.uk and hwics.org.uk | [2026-05-27] URL updated: Parent /meetings page lists upcoming dates ("
+    },
+    {
+      "ods_code": "S1Y5D",
+      "papers_url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
+      "last_checked": "2026-05-27T16:02:50Z",
+      "known_files": [],
+      "notes": "Formed 1 April 2026 from merger of Bedfordshire, Luton and Milton Keynes (QHG, bedfordshirelutonandmiltonkeynes.icb.nhs.uk), Cambridgeshire and Peterborough (QUE, cpics.org.uk), and Hertfordshire and "
+    }
+  ]
+}

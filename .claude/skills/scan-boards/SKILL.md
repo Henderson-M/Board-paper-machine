@@ -218,6 +218,45 @@ Do:
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.
 
+### Step 7b — Papers watchlist (orgs with no confirmed date)
+
+(Skip if `--dates-only`.)
+
+A trust can publish a new board pack before we've recorded the meeting date. The 10-day-window pack scan would miss it. So on every run we also poll the papers/board page of every in-scope org **that has no future-dated meeting in state**. If a new pack appears, we alert immediately and try to backfill the date from the pack filename or contents.
+
+State for this lives in `state/papers_watchlist.json`:
+
+```json
+{
+  "_format_version": 1,
+  "orgs": [
+    {
+      "ods_code": "RXG",
+      "papers_url": "https://...",
+      "last_checked": "ISO timestamp",
+      "known_files": [
+        {"url": "...", "title": "...", "first_seen": "ISO"}
+      ],
+      "notes": "what we know about how this org publishes papers"
+    }
+  ]
+}
+```
+
+For each org in the watchlist:
+
+1. Fetch the papers/board URL (ladder: WebFetch → Playwright → PDF metadata as in Step 4).
+2. Extract every PDF link visible on the page (regardless of whether we can identify the meeting date for it).
+3. Compare against `known_files`. Anything new is the trigger.
+4. **If new files**:
+   - Append to `known_files` with `first_seen` = now.
+   - Try to infer a meeting date from the new filename or first page: titles like `Trust Board 8 July 2026.pdf` or `Board pack 2026-07-08.pdf` are common. If you find a date and it's future, **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, source `source_url = papers_url`, and the new pack already in `pack_files`. The org now leaves the watchlist (it has a dated meeting in state).
+   - If you can't infer the date, still alert the correspondent: subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, body lists the file(s) and asks the journalist to confirm the date manually. Keep the org on the watchlist with the new files added to `known_files`.
+
+A watchlist org is **removed** the moment it has any future-dated meeting in state (its papers will be checked through the normal Step 7 path going forward).
+
+A watchlist org is **added** the first time the scanner runs after the org's last future meeting passes (or — for first-time-added orgs — the first time the date scan returns empty for it).
+
 ### Step 8 — Analyse new packs
 
 (Skip if `--dates-only` or if `new_packs` is empty.)

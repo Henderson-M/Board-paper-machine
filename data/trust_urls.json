@@ -606,8 +606,8 @@
     "region": "Midlands",
     "ics": "Birmingham and Solihull",
     "correspondent": "Caitlin",
-    "url": "https://www.uhb.nhs.uk/about-us/board-papers/",
-    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Public meetings page only confirms the AGM on 24 September 2026 and refers to a separate events calendar (not surfaced). Original board-papers URL is  UHB lists meeting dates in an events calendar that wasn't readily fetchable. Manual verification needed."
+    "url": "https://www.uhb.nhs.uk/get-involved/public-meetings/",
+    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Public meetings page only confirms the AGM on 24 September 2026 and refers to a separate events calendar (not surfaced). Original board-papers URL is  UHB lists meeting dates in an events calendar that wasn't readily fetchable. Manual verification needed. | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RWP",
@@ -727,8 +727,8 @@
     "region": "London",
     "ics": "South East London",
     "correspondent": "Ella",
-    "url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL clearly lists 2026 board dates (28 Jan 2026, 29 Apr 2026) with agenda and paper PDFs. Scraper false positive. Likely more 2026 dates will be added later in the year. PDFs named with full date in URL."
+    "url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/board-meetings",
+    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL clearly lists 2026 board dates (28 Jan 2026, 29 Apr 2026) with agenda and paper PDFs. Scraper false positive. Likely more 2026 dates will be added later in the year. PDFs named with full date in URL. | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RJ2",
@@ -1595,8 +1595,8 @@
     "region": "London",
     "ics": "North West London",
     "correspondent": "Matt Discombe",
-    "url": "https://www.nwl-acute-provider-group.nhs.uk/publications",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Likely Cloudflare/UA block on WebFetch — needs Playwright. Reason: Current URL fetched successfully; lists Board in Common meetings including 20 January 2026. The 403 was likely transient. URL is canonical. NWL Acute Provider Collaborative runs Board in Common across R1K, RYJ, RQM, RFW. Roughly quarterly meetings."
+    "url": "https://www.nwl-acute-provider-collaborative.nhs.uk/events",
+    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Likely Cloudflare/UA block on WebFetch — needs Playwright. Reason: Current URL fetched successfully; lists Board in Common meetings including 20 January 2026. The 403 was likely transient. URL is canonical. NWL Acute Provider Collaborative runs Board in Common across R1K, RYJ, RQM, RFW. Roughly quarterly meetings. | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RAL",
@@ -1662,8 +1662,8 @@
     "region": "London",
     "ics": "North West London",
     "correspondent": "Matt Discombe",
-    "url": "https://www.chelwest.nhs.uk/about-us/organisation/trust-meetings",
-    "notes": "[2026-05-27] URL updated: Trust meetings page partially confirmed: lists 24 Sep 2026 and 26 Nov 2026 plus 2027 dates. Earlier 2026 meetings already past. (MEDIUM-confidence fix — verify on next scan) The trust is also part of the NWL Acute Provider Collaborative; future meetings may be on https://www.nwl-acute-provider-collaborative.nhs.uk/events."
+    "url": "https://www.nwl-acute-provider-collaborative.nhs.uk/events",
+    "notes": "[2026-05-27] URL updated: Trust meetings page partially confirmed: lists 24 Sep 2026 and 26 Nov 2026 plus 2027 dates. Earlier 2026 meetings already past. (MEDIUM-confidence fix — verify on next scan) The trust is also part of the NWL Acute Provider Collaborative; future meetings may be on https://www.nwl-acute-provider-collaborative.nhs.uk/events. | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RQX",
@@ -1702,8 +1702,8 @@
     "region": "London",
     "ics": "North West London",
     "correspondent": "Matt Discombe",
-    "url": "https://www.imperial.nhs.uk/about-us/how-we-are-run/board-in-common",
-    "notes": "[2026-05-27] URL updated: Imperial sits within NWL Acute Provider Collaborative Board in Common (same as R1K). Board in Common page is more canonical for upcoming meeting dates. Search confirms 2026 dates: 20 January and 28 Ju (MEDIUM-confidence fix — verify on next scan) Consider using nwl-acute-provider-group.nhs.uk/publications instead since meetings are shared with R1K, RQM, RFW. fetch_blocked_403_needs_playwright"
+    "url": "https://www.nwl-acute-provider-collaborative.nhs.uk/events",
+    "notes": "[2026-05-27] URL updated: Imperial sits within NWL Acute Provider Collaborative Board in Common (same as R1K). Board in Common page is more canonical for upcoming meeting dates. Search confirms 2026 dates: 20 January and 28 Ju (MEDIUM-confidence fix — verify on next scan) Consider using nwl-acute-provider-group.nhs.uk/publications instead since meetings are shared with R1K, RQM, RFW. fetch_blocked_403_needs_playwright | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RAN",
@@ -2601,8 +2601,8 @@
     "region": "North West",
     "ics": "Lancashire and South Cumbria",
     "correspondent": "Zoe",
-    "url": "https://elht.nhs.uk/about-us/board-meetings-including-agenda-and-papers",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: WebFetch returned 404 from Claude but Google indexes URL as live and search confirms it is the canonical board meetings page. May be UA-blocked. fetch_blocked_or_404_needs_playwright"
+    "url": "https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda-and-papers",
+    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: WebFetch returned 404 from Claude but Google indexes URL as live and search confirms it is the canonical board meetings page. May be UA-blocked. fetch_blocked_or_404_needs_playwright | [2026-05-27] URL corrected after Group-C re-extraction."
   },
   {
     "ods_code": "RY2",
