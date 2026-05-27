@@ -9,7 +9,9 @@
     "title": "optional human-readable title",
     "source_url": "URL where the date was discovered",
     "papers_url": "URL of the pack (populated once papers detected)",
-    "pack_files": ["list of file names/links found in the pack"],
+    "pack_files": [
+      "list of file names/links found in the pack"
+    ],
     "status": "date_found | papers_found | papers_emailed | analysed",
     "first_seen": "ISO timestamp",
     "last_checked": "ISO timestamp",
@@ -33,7 +35,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": "Bradford publishes papers on the same page at least 3 working days before the meeting."
     },
     {
@@ -48,7 +54,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -63,7 +73,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -78,7 +92,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -93,7 +111,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -108,7 +130,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": "Barnsley publishes papers via the trust news feed, not a dedicated pack page."
     },
     {
@@ -123,7 +149,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -138,7 +168,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -153,7 +187,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": "2026-05-27T12:45:48Z", "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": "2026-05-27T12:45:48Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -168,7 +206,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": null, "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
       "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' — possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json — alert was suppressed."
     },
     {
@@ -183,7 +225,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": null, "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
       "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 — verify."
     },
     {
@@ -198,7 +244,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": null, "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
       "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 — verify."
     },
     {
@@ -213,7 +263,11 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": null, "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     },
     {
@@ -228,11 +282,1775 @@
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
       "last_checked": "2026-05-27T12:45:48Z",
-      "alerts_sent": {"date": null, "papers": null, "summary": null},
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPA:2026-07-01",
+      "ods_code": "RPA",
+      "org_type": "trust",
+      "date": "2026-07-01",
+      "title": "Board of Directors",
+      "source_url": "https://www.medway.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPA:2026-09-02",
+      "ods_code": "RPA",
+      "org_type": "trust",
+      "date": "2026-09-02",
+      "title": "Board of Directors",
+      "source_url": "https://www.medway.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPA:2026-11-04",
+      "ods_code": "RPA",
+      "org_type": "trust",
+      "date": "2026-11-04",
+      "title": "Board of Directors",
+      "source_url": "https://www.medway.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPC:2026-07-09",
+      "ods_code": "RPC",
+      "org_type": "trust",
+      "date": "2026-07-09",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPC:2026-09-10",
+      "ods_code": "RPC",
+      "org_type": "trust",
+      "date": "2026-09-10",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPC:2026-11-12",
+      "ods_code": "RPC",
+      "org_type": "trust",
+      "date": "2026-11-12",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPC:2027-01-21",
+      "ods_code": "RPC",
+      "org_type": "trust",
+      "date": "2027-01-21",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RPC:2027-03-11",
+      "ods_code": "RPC",
+      "org_type": "trust",
+      "date": "2027-03-11",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTK:2026-06-03",
+      "ods_code": "RTK",
+      "org_type": "trust",
+      "date": "2026-06-03",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.ashfordstpeters.nhs.uk/meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTK:2026-07-22",
+      "ods_code": "RTK",
+      "org_type": "trust",
+      "date": "2026-07-22",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.ashfordstpeters.nhs.uk/meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTK:2026-09-23",
+      "ods_code": "RTK",
+      "org_type": "trust",
+      "date": "2026-09-23",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.ashfordstpeters.nhs.uk/meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTK:2026-11-25",
+      "ods_code": "RTK",
+      "org_type": "trust",
+      "date": "2026-11-25",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.ashfordstpeters.nhs.uk/meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTP:2026-06-04",
+      "ods_code": "RTP",
+      "org_type": "trust",
+      "date": "2026-06-04",
+      "title": "Trust Board Public Meeting",
+      "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
+      "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTP:2026-08-06",
+      "ods_code": "RTP",
+      "org_type": "trust",
+      "date": "2026-08-06",
+      "title": "Trust Board Public Meeting",
+      "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
+      "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTP:2026-10-01",
+      "ods_code": "RTP",
+      "org_type": "trust",
+      "date": "2026-10-01",
+      "title": "Trust Board Public Meeting",
+      "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
+      "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTP:2026-12-03",
+      "ods_code": "RTP",
+      "org_type": "trust",
+      "date": "2026-12-03",
+      "title": "Trust Board Public Meeting",
+      "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
+      "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RVV:2026-06-04",
+      "ods_code": "RVV",
+      "org_type": "trust",
+      "date": "2026-06-04",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.ekhuft.nhs.uk/about-us/board-of-directors/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RVV:2026-07-28",
+      "ods_code": "RVV",
+      "org_type": "trust",
+      "date": "2026-07-28",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.ekhuft.nhs.uk/about-us/board-of-directors/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RVV:2026-10-01",
+      "ods_code": "RVV",
+      "org_type": "trust",
+      "date": "2026-10-01",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.ekhuft.nhs.uk/about-us/board-of-directors/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RVV:2026-12-03",
+      "ods_code": "RVV",
+      "org_type": "trust",
+      "date": "2026-12-03",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.ekhuft.nhs.uk/about-us/board-of-directors/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX2:2026-06-18",
+      "ods_code": "RX2",
+      "org_type": "trust",
+      "date": "2026-06-18",
+      "title": "Board of Directors - Public Meeting",
+      "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX2:2026-08-13",
+      "ods_code": "RX2",
+      "org_type": "trust",
+      "date": "2026-08-13",
+      "title": "Board of Directors - Public Meeting",
+      "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX2:2026-10-08",
+      "ods_code": "RX2",
+      "org_type": "trust",
+      "date": "2026-10-08",
+      "title": "Board of Directors - Public Meeting",
+      "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX2:2026-12-10",
+      "ods_code": "RX2",
+      "org_type": "trust",
+      "date": "2026-12-10",
+      "title": "Board of Directors - Public Meeting",
+      "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX2:2027-02-11",
+      "ods_code": "RX2",
+      "org_type": "trust",
+      "date": "2027-02-11",
+      "title": "Board of Directors - Public Meeting",
+      "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXC:2026-06-16",
+      "ods_code": "RXC",
+      "org_type": "trust",
+      "date": "2026-06-16",
+      "title": "Trust Board meeting in public",
+      "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXC:2026-08-18",
+      "ods_code": "RXC",
+      "org_type": "trust",
+      "date": "2026-08-18",
+      "title": "Trust Board meeting in public",
+      "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXC:2026-09-15",
+      "ods_code": "RXC",
+      "org_type": "trust",
+      "date": "2026-09-15",
+      "title": "Annual General Meeting",
+      "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXC:2026-10-20",
+      "ods_code": "RXC",
+      "org_type": "trust",
+      "date": "2026-10-20",
+      "title": "Trust Board meeting in public",
+      "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXC:2026-12-15",
+      "ods_code": "RXC",
+      "org_type": "trust",
+      "date": "2026-12-15",
+      "title": "Trust Board meeting in public",
+      "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXX:2026-07-08",
+      "ods_code": "RXX",
+      "org_type": "trust",
+      "date": "2026-07-08",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXX:2026-10-14",
+      "ods_code": "RXX",
+      "org_type": "trust",
+      "date": "2026-10-14",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RXX:2026-12-08",
+      "ods_code": "RXX",
+      "org_type": "trust",
+      "date": "2026-12-08",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-27T13:07:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:07:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RYY:2026-07-15",
+      "ods_code": "RYY",
+      "org_type": "trust",
+      "date": "2026-07-15",
+      "title": "Public Board Meeting",
+      "source_url": "https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RYY:2026-10-21",
+      "ods_code": "RYY",
+      "org_type": "trust",
+      "date": "2026-10-21",
+      "title": "Public Board Meeting",
+      "source_url": "https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RFS:2026-07-14",
+      "ods_code": "RFS",
+      "org_type": "trust",
+      "date": "2026-07-14",
+      "title": "Board of Directors Meeting in Public",
+      "source_url": "https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RFS:2026-09-08",
+      "ods_code": "RFS",
+      "org_type": "trust",
+      "date": "2026-09-08",
+      "title": "Board of Directors Meeting in Public",
+      "source_url": "https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RFS:2026-11-10",
+      "ods_code": "RFS",
+      "org_type": "trust",
+      "date": "2026-11-10",
+      "title": "Board of Directors Meeting in Public",
+      "source_url": "https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RHA:2026-05-28",
+      "ods_code": "RHA",
+      "org_type": "trust",
+      "date": "2026-05-28",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RHA:2026-06-18",
+      "ods_code": "RHA",
+      "org_type": "trust",
+      "date": "2026-06-18",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RHA:2026-07-16",
+      "ods_code": "RHA",
+      "org_type": "trust",
+      "date": "2026-07-16",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RHA:2026-09-17",
+      "ods_code": "RHA",
+      "org_type": "trust",
+      "date": "2026-09-17",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RHA:2026-11-19",
+      "ods_code": "RHA",
+      "org_type": "trust",
+      "date": "2026-11-19",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNQ:2026-06-11",
+      "ods_code": "RNQ",
+      "org_type": "trust",
+      "date": "2026-06-11",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNQ:2026-08-07",
+      "ods_code": "RNQ",
+      "org_type": "trust",
+      "date": "2026-08-07",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNQ:2026-10-08",
+      "ods_code": "RNQ",
+      "org_type": "trust",
+      "date": "2026-10-08",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNQ:2026-11-06",
+      "ods_code": "RNQ",
+      "org_type": "trust",
+      "date": "2026-11-06",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNQ:2026-12-10",
+      "ods_code": "RNQ",
+      "org_type": "trust",
+      "date": "2026-12-10",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RNS:2026-06-09",
+      "ods_code": "RNS",
+      "org_type": "trust",
+      "date": "2026-06-09",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+    },
+    {
+      "id": "RNS:2026-08-07",
+      "ods_code": "RNS",
+      "org_type": "trust",
+      "date": "2026-08-07",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+    },
+    {
+      "id": "RNS:2026-10-08",
+      "ods_code": "RNS",
+      "org_type": "trust",
+      "date": "2026-10-08",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+    },
+    {
+      "id": "RNS:2026-11-06",
+      "ods_code": "RNS",
+      "org_type": "trust",
+      "date": "2026-11-06",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+    },
+    {
+      "id": "RNS:2026-12-10",
+      "ods_code": "RNS",
+      "org_type": "trust",
+      "date": "2026-12-10",
+      "title": "University Hospitals of Northamptonshire Public Meeting",
+      "source_url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+    },
+    {
+      "id": "RP1:2026-05-28",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2026-05-28",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP1:2026-07-30",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2026-07-30",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP1:2026-09-24",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2026-09-24",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP1:2026-11-26",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2026-11-26",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP1:2027-01-28",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2027-01-28",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP1:2027-03-25",
+      "ods_code": "RP1",
+      "org_type": "trust",
+      "date": "2027-03-25",
+      "title": "Trust Board of Directors Meeting",
+      "source_url": "https://www.nhft.nhs.uk/board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP7:2026-06-11",
+      "ods_code": "RP7",
+      "org_type": "trust",
+      "date": "2026-06-11",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP7:2026-08-13",
+      "ods_code": "RP7",
+      "org_type": "trust",
+      "date": "2026-08-13",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP7:2026-10-08",
+      "ods_code": "RP7",
+      "org_type": "trust",
+      "date": "2026-10-08",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP7:2026-12-10",
+      "ods_code": "RP7",
+      "org_type": "trust",
+      "date": "2026-12-10",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RP7:2027-02-11",
+      "ods_code": "RP7",
+      "org_type": "trust",
+      "date": "2027-02-11",
+      "title": "Board of Directors Meeting",
+      "source_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2026-05-26",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2026-05-26",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": "https://www.leicspart.nhs.uk/wp-content/uploads/2026/05/26-May-2026-Public-Trust-Board-Agenda-v2.pdf",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2026-07-28",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2026-07-28",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2026-09-29",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2026-09-29",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2026-11-24",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2026-11-24",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2027-01-26",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2027-01-26",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RT5:2027-03-30",
+      "ods_code": "RT5",
+      "org_type": "trust",
+      "date": "2027-03-30",
+      "title": "Trust Board",
+      "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTG:2026-07-14",
+      "ods_code": "RTG",
+      "org_type": "trust",
+      "date": "2026-07-14",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTG:2026-09-08",
+      "ods_code": "RTG",
+      "org_type": "trust",
+      "date": "2026-09-08",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTG:2026-11-10",
+      "ods_code": "RTG",
+      "org_type": "trust",
+      "date": "2026-11-10",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTG:2027-01-12",
+      "ods_code": "RTG",
+      "org_type": "trust",
+      "date": "2027-01-12",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RTG:2027-03-09",
+      "ods_code": "RTG",
+      "org_type": "trust",
+      "date": "2027-03-09",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWD:2026-07-07",
+      "ods_code": "RWD",
+      "org_type": "trust",
+      "date": "2026-07-07",
+      "title": "Board Meeting",
+      "source_url": "https://www.ulh.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWD:2026-09-01",
+      "ods_code": "RWD",
+      "org_type": "trust",
+      "date": "2026-09-01",
+      "title": "Board Meeting",
+      "source_url": "https://www.ulh.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWD:2026-11-03",
+      "ods_code": "RWD",
+      "org_type": "trust",
+      "date": "2026-11-03",
+      "title": "Board Meeting",
+      "source_url": "https://www.ulh.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWD:2027-01-05",
+      "ods_code": "RWD",
+      "org_type": "trust",
+      "date": "2027-01-05",
+      "title": "Board Meeting",
+      "source_url": "https://www.ulh.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWD:2027-03-02",
+      "ods_code": "RWD",
+      "org_type": "trust",
+      "date": "2027-03-02",
+      "title": "Board Meeting",
+      "source_url": "https://www.ulh.nhs.uk/about/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RWE:2026-06-11",
+      "ods_code": "RWE",
+      "org_type": "trust",
+      "date": "2026-06-11",
+      "title": "Boards in Common (UHL+UHN)",
+      "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id."
+    },
+    {
+      "id": "RWE:2026-08-07",
+      "ods_code": "RWE",
+      "org_type": "trust",
+      "date": "2026-08-07",
+      "title": "Boards in Common (UHL+UHN)",
+      "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id."
+    },
+    {
+      "id": "RWE:2026-10-08",
+      "ods_code": "RWE",
+      "org_type": "trust",
+      "date": "2026-10-08",
+      "title": "Boards in Common (UHL+UHN)",
+      "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id."
+    },
+    {
+      "id": "RWE:2026-11-06",
+      "ods_code": "RWE",
+      "org_type": "trust",
+      "date": "2026-11-06",
+      "title": "Boards in Common (UHL+UHN)",
+      "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id."
+    },
+    {
+      "id": "RWE:2026-12-10",
+      "ods_code": "RWE",
+      "org_type": "trust",
+      "date": "2026-12-10",
+      "title": "Boards in Common (UHL+UHN)",
+      "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id."
+    },
+    {
+      "id": "RX1:2026-07-09",
+      "ods_code": "RX1",
+      "org_type": "trust",
+      "date": "2026-07-09",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.nuh.nhs.uk/board-and-board-papers/",
+      "papers_url": "https://www.nuh.nhs.uk/board-papers",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX1:2026-09-10",
+      "ods_code": "RX1",
+      "org_type": "trust",
+      "date": "2026-09-10",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.nuh.nhs.uk/board-and-board-papers/",
+      "papers_url": "https://www.nuh.nhs.uk/board-papers",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX1:2026-11-12",
+      "ods_code": "RX1",
+      "org_type": "trust",
+      "date": "2026-11-12",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.nuh.nhs.uk/board-and-board-papers/",
+      "papers_url": "https://www.nuh.nhs.uk/board-papers",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX1:2027-01-14",
+      "ods_code": "RX1",
+      "org_type": "trust",
+      "date": "2027-01-14",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.nuh.nhs.uk/board-and-board-papers/",
+      "papers_url": "https://www.nuh.nhs.uk/board-papers",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": null
+    },
+    {
+      "id": "RX1:2027-03-11",
+      "ods_code": "RX1",
+      "org_type": "trust",
+      "date": "2027-03-11",
+      "title": "Trust Board Meeting",
+      "source_url": "https://www.nuh.nhs.uk/board-and-board-papers/",
+      "papers_url": "https://www.nuh.nhs.uk/board-papers",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T13:09:43Z",
+      "last_checked": "2026-05-27T13:09:43Z",
+      "alerts_sent": {
+        "date": "2026-05-27T13:09:43Z",
+        "papers": null,
+        "summary": null
+      },
       "notes": null
     }
   ],
-  "_scan_errors": [],
-  "_last_full_scan": "2026-05-27T12:45:48Z",
+  "_scan_errors": [
+    {
+      "ts": "2026-05-27T13:07:43Z",
+      "ods_code": "RA2",
+      "url": "https://www.royalsurrey.nhs.uk/board-papers/",
+      "status": "empty",
+      "note": "Page shows year folders only; meeting dates not on landing page."
+    },
+    {
+      "ts": "2026-05-27T13:07:43Z",
+      "ods_code": "RDR",
+      "url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "status": "error",
+      "note": "HTTP 403 Forbidden — site blocks WebFetch. Try Playwright or different user-agent."
+    },
+    {
+      "ts": "2026-05-27T13:07:43Z",
+      "ods_code": "RN7",
+      "url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas",
+      "status": "empty",
+      "note": "Page says 'every other month, first Thursday' but no specific upcoming dates listed."
+    },
+    {
+      "ts": "2026-05-27T13:07:43Z",
+      "ods_code": "RWF",
+      "url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
+      "status": "error",
+      "note": "HTTP 404 Not Found — URL outdated. Find replacement URL on MTW site."
+    },
+    {
+      "ts": "2026-05-27T13:09:43Z",
+      "ods_code": "RXY",
+      "url": "https://www.kmpt.nhs.uk/about-us/trust-board/",
+      "status": "error",
+      "note": "301 redirect to http://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/ — update URL in trust_urls.json on next run."
+    },
+    {
+      "ts": "2026-05-27T13:09:43Z",
+      "ods_code": "RYR",
+      "url": "https://www.uhsussex.nhs.uk/resources/public-board-papers-10-november-2022/",
+      "status": "empty",
+      "note": "URL points to a 2022 archive page; no future dates. Find current board page on uhsussex.nhs.uk."
+    },
+    {
+      "ts": "2026-05-27T13:09:43Z",
+      "ods_code": "RK5",
+      "url": "https://www.sfh-tr.nhs.uk/about-us/board-of-directors/",
+      "status": "empty",
+      "note": "Landing page links to 'Board meetings and papers' but no dates on initial fetch — may need subpage scan or Playwright."
+    }
+  ],
+  "_last_full_scan": "2026-05-27T13:09:43Z",
   "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296."
 }
