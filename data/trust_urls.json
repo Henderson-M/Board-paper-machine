@@ -1149,7 +1149,9 @@
     "region": "East of England",
     "ics": "Norfolk and Waveney",
     "correspondent": "James",
-    "url": "https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/"
+    "url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+    "cluster_id": "NWUHG",
+    "notes": "[2026-05-27] Norfolk & Waveney University Hospitals Group board — shared with NNUH/JPUH/QEHKL. Dates for all three trusts at nw-uhg.org.uk."
   },
   {
     "ods_code": "RDE",
@@ -1203,8 +1205,9 @@
     "region": "East of England",
     "ics": "Norfolk and Waveney",
     "correspondent": "James",
-    "url": "https://www.jpaget.nhs.uk/about-us/our-board-and-governors/our-board-of-directors/",
-    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Could not find a working board meetings/papers page within budget. /about-us/board-of-directors/meetings (per Google) returns 404; /about-us/our-board Trust now part of Norfolk and Waveney University Hospitals Group with QEH and NNUH; group board papers exist at nnuh.nhs.uk (e.g. 17 Dec 2025 group board PDF). Worth investigating if board meetings have moved to a group page."
+    "url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Could not find a working board meetings/papers page within budget. /about-us/board-of-directors/meetings (per Google) returns 404; /about-us/our-board Trust now part of Norfolk and Waveney University Hospitals Group with QEH and NNUH; group board papers exist at nnuh.nhs.uk (e.g. 17 Dec 2025 group board PDF). Worth investigating if board meetings have moved to a group page. | [2026-05-27] Norfolk & Waveney University Hospitals Group board — shared with NNUH/JPUH/QEHKL. Dates for all three trusts at nw-uhg.org.uk.",
+    "cluster_id": "NWUHG"
   },
   {
     "ods_code": "RGR",
@@ -1245,7 +1248,8 @@
     "ics": "Norfolk and Waveney",
     "correspondent": "James",
     "url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
-    "notes": "[2026-05-27] URL updated: NNUH is part of Norfolk and Waveney University Hospitals Group. The Group Board meetings page lists 2026 dates: 1 Apr, 3 Jun, 5 Aug, 7 Oct, 2 Dec. NNUH's own trust board page only shows 'Group Board in Public 01.04.26' — dates moved to the group site. NNUH-only meetings may no longer exist as a distinct schedule."
+    "notes": "[2026-05-27] URL updated: NNUH is part of Norfolk and Waveney University Hospitals Group. The Group Board meetings page lists 2026 dates: 1 Apr, 3 Jun, 5 Aug, 7 Oct, 2 Dec. NNUH's own trust board page only shows 'Group Board in Public 01.04.26' — dates moved to the group site. NNUH-only meetings may no longer exist as a distinct schedule. | [2026-05-27] Norfolk & Waveney University Hospitals Group board — shared with NNUH/JPUH/QEHKL. Dates for all three trusts at nw-uhg.org.uk.",
+    "cluster_id": "NWUHG"
   },
   {
     "ods_code": "RMY",

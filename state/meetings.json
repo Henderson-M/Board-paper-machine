@@ -12695,6 +12695,234 @@
         "summary": null
       },
       "notes": null
+    },
+    {
+      "id": "RGP:2026-06-03",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2026-06-03",
+      "title": "Public Group Board meeting at QEHKL",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RGP:2026-08-05",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2026-08-05",
+      "title": "Public Group Board meeting at NNUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RGP:2026-10-07",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2026-10-07",
+      "title": "Public Group Board meeting at JPUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RGP:2026-12-02",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2026-12-02",
+      "title": "Public Group Board meeting at QEHKL",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RGP:2027-02-03",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2027-02-03",
+      "title": "Public Group Board meeting at NNUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RGP:2027-04-07",
+      "ods_code": "RGP",
+      "org_type": "trust",
+      "date": "2027-04-07",
+      "title": "Public Group Board meeting at JPUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2026-06-03",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2026-06-03",
+      "title": "Public Group Board meeting at QEHKL",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2026-08-05",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2026-08-05",
+      "title": "Public Group Board meeting at NNUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2026-10-07",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2026-10-07",
+      "title": "Public Group Board meeting at JPUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2026-12-02",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2026-12-02",
+      "title": "Public Group Board meeting at QEHKL",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2027-02-03",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2027-02-03",
+      "title": "Public Group Board meeting at NNUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
+    },
+    {
+      "id": "RCX:2027-04-07",
+      "ods_code": "RCX",
+      "org_type": "trust",
+      "date": "2027-04-07",
+      "title": "Public Group Board meeting at JPUH",
+      "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-27T15:18:52Z",
+      "last_checked": "2026-05-27T15:18:52Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": null,
+        "summary": null
+      },
+      "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
     }
   ],
   "_scan_errors": [
