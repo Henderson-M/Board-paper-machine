@@ -1,0 +1,24 @@
+{
+  "_format_version": 1,
+  "_description": "Known board meetings detected by /scan-boards. Updated on each run. Each meeting is keyed by '{ods_code}:{date}'. ods_code references data/trust_urls.json or data/icb_urls.json.",
+  "_entry_schema": {
+    "id": "{ods_code}:{YYYY-MM-DD}",
+    "ods_code": "RA2",
+    "org_type": "trust | icb",
+    "date": "YYYY-MM-DD",
+    "title": "optional human-readable title",
+    "source_url": "URL where the date was discovered",
+    "papers_url": "URL of the pack (populated once papers detected)",
+    "pack_files": ["list of file names/links found in the pack"],
+    "status": "date_found | papers_found | papers_emailed | analysed",
+    "first_seen": "ISO timestamp",
+    "last_checked": "ISO timestamp",
+    "alerts_sent": {
+      "date": "ISO timestamp or null",
+      "papers": "ISO timestamp or null",
+      "summary": "ISO timestamp or null"
+    },
+    "notes": "anything Claude learned that's worth remembering"
+  },
+  "meetings": []
+}

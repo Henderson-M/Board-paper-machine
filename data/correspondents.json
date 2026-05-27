@@ -1,0 +1,22 @@
+{
+  "_notes": "Map correspondent names (as they appear in trust_urls.json / icb_urls.json) to email addresses. Names without an email get logged but no alert is sent. 'TBC' is used in the org files for unassigned orgs and is intentionally absent from this map.",
+  "_open_questions": [
+    "'Matt D' and 'Matt Discombe' both appear in the org files. Likely the same person — decide a canonical name and update the org JSONs to use only one.",
+    "'Matt M' — same person as Matt D / Matt Discombe, or a different Matt?"
+  ],
+  "correspondents": {
+    "Alison": "",
+    "Annabelle": "",
+    "Caitlin": "",
+    "Ella": "",
+    "Henry": "henry.anderson@hsj.co.uk",
+    "James": "",
+    "Joe": "",
+    "Matt D": "",
+    "Matt Discombe": "",
+    "Matt M": "",
+    "Mimi": "",
+    "Nick": "",
+    "Zoe": ""
+  }
+}

@@ -1,0 +1,20 @@
+# Local secrets — never commit
+.env
+.env.local
+*.env
+
+# Dry-run output (only matters locally)
+dry_run_output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
