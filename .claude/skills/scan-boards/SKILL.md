@@ -1,6 +1,6 @@
 ---
 name: scan-boards
-description: Scan NHS trust and ICB board pages for new meeting dates and (for meetings within 10 days) new board packs, then alert the assigned HSJ correspondent. Use when the user types /scan-boards, asks to "check board meetings", "refresh board dates", or similar.
+description: Scan NHS trust and ICB board pages for new meeting dates and (for meetings from the previous 2 days through the next 10 days) new board packs, then alert the assigned HSJ correspondent. Use when the user types /scan-boards, asks to "check board meetings", "refresh board dates", or similar.
 ---
 
 # /scan-boards
@@ -10,7 +10,7 @@ You are running a scan of NHS trust and ICB board pages on behalf of an HSJ jour
 The skill has two purposes that run in the same sweep:
 
 1. **Detect new meeting dates** for every in-scope org and email each correspondent a list of new dates they cover (with `.ics` attachments).
-2. **Detect new board packs** for meetings happening in the next 10 days, run the pack through the `pack-analyser` sub-skill, and email the assigned correspondent the analyser's output.
+2. **Detect new board packs** for meetings in the detection window (the previous 2 days through the next 10 days, inclusive of today), run the pack through the `pack-analyser` sub-skill, and email the assigned correspondent the analyser's output.
 
 By default everything is **dry-run** — emails are written to `dry_run_output/` rather than sent. Add `--live-emails` to actually send via Gmail SMTP (using `send_email.py`).
 
@@ -20,7 +20,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 2. For each in-scope org, fetch the board page and extract upcoming meeting dates.
 3. Compare against `state/meetings.json`. Anything new becomes a date alert.
 4. Generate `.ics` files for new meetings.
-5. For meetings with a date in the next 10 days, check the papers page for new pack files.
+5. For meetings with a date in the detection window (previous 2 days through next 10 days, inclusive of today), check the papers page for new pack files.
 6. For each newly detected pack, invoke the `pack-analyser` sub-skill — applies HSJ editorial context, writes a markdown summary to `summaries/`, returns top lines.
 7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan).
 8. Compose two kinds of email per correspondent:
@@ -45,7 +45,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `--orgs CODE1,CODE2` | Only scan these ods_codes (e.g. `--orgs RA2,QYG`). Useful for testing. |
 | `--region NAME` | Only scan orgs in this region (e.g. `--region "North West"`). |
 | `--dates-only` | Skip pack detection and analysis. Just refresh meeting dates. |
-| `--packs-only` | Skip date scanning. Only check papers for meetings in the 10-day window. |
+| `--packs-only` | Skip date scanning. Only check papers for meetings in the detection window (previous 2 days → next 10 days, inclusive of today). |
 | `--no-pull` | Skip the initial `git pull`. Use for testing offline. |
 | `--no-push` | Skip the final `git commit && git push`. Use for testing. |
 | `--limit N` | Stop after scanning N orgs. Useful for first-time runs. |
@@ -189,14 +189,16 @@ END:VCALENDAR
 
 The file is committed to the repo as an audit trail AND attached to the alert email (as `text/calendar; method=PUBLISH`), so Outlook renders an "Add to calendar" button inline.
 
-### Step 7 — Detect new packs (10-day window)
+### Step 7 — Detect new packs (detection window: previous 2 days → next 10 days)
 
 (Skip if `--dates-only`.)
 
 For each meeting in state where:
 
-- The date is within the next 10 days (inclusive of today)
+- The date falls in the detection window: from **2 days before today** through **10 days after today**, inclusive of today (i.e. `today - 2 days <= meeting_date <= today + 10 days`)
 - AND status is `date_found` or `papers_found` (re-check in case supplementary papers were added)
+
+The window reaches back 2 days because many trusts publish (or only finish uploading) the board pack on the morning of the meeting or the day after, so a meeting that has just happened often only now has papers online. Treat a meeting from the last 2 days exactly like an upcoming one — detect, analyse, and alert. (Example: a scan on Thu 28 May picks up a pack for a Wed 27 May meeting that wasn't online when the previous scan ran.)
 
 Do:
 
@@ -222,7 +224,7 @@ Do:
 
 (Skip if `--dates-only`.)
 
-A trust can publish a new board pack before we've recorded the meeting date. The 10-day-window pack scan would miss it. So on every run we also poll the papers/board page of every in-scope org **that has no future-dated meeting in state**. If a new pack appears, we alert immediately and try to backfill the date from the pack filename or contents.
+A trust can publish a new board pack before we've recorded the meeting date. The detection-window pack scan (Step 7) would miss it. So on every run we also poll the papers/board page of every in-scope org **that has no future-dated meeting in state**. If a new pack appears, we alert immediately and try to backfill the date from the pack filename or contents.
 
 State for this lives in `state/papers_watchlist.json`:
 

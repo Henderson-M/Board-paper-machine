@@ -129,7 +129,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
-      "last_checked": "2026-05-27T12:45:48Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": "2026-05-27T12:45:48Z",
         "papers": null,
@@ -3203,17 +3203,21 @@
       "date": "2026-05-27",
       "title": "Board of Directors Meeting - held in public",
       "source_url": "https://www.hdft.nhs.uk/about/board-meeting/",
-      "papers_url": "https://www.hdft.nhs.uk/wp-content/uploads/2026/05/Board-of-Directors-270526-Paper-Pack.pdf",
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.hdft.nhs.uk/about/board-meeting/",
+      "pack_files": [
+        "https://www.hdft.nhs.uk/wp-content/uploads/2026/05/Board-of-Directors-270526-Paper-Pack.pdf",
+        "https://www.hdft.nhs.uk/wp-content/uploads/2026/05/Board-of-Directors-270526-Supplementary-Papers.pdf"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T09:28:29Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T09:28:29Z",
+        "summary": "2026-05-28T09:28:29Z"
       },
-      "notes": null
+      "notes": null,
+      "summary_path": "summaries/RCD_2026-05-27.md"
     },
     {
       "id": "RCD:2026-07-29",
@@ -3378,7 +3382,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -3659,17 +3663,21 @@
       "date": "2026-05-28",
       "title": "Board of Directors Meeting",
       "source_url": "https://www.rdash.nhs.uk/about-us/governance/board-of-directors/board-of-directors-meetings/",
-      "papers_url": "https://www.rdash.nhs.uk/document-sections/board-of-directors/",
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.rdash.nhs.uk/documents/board-of-directors-packs-may-2026/",
+      "pack_files": [
+        "https://www.rdash.nhs.uk/wp-content/uploads/2026/05/Public-Board-of-Directors-28.05.2026-Agenda-Pack-A.pdf",
+        "https://www.rdash.nhs.uk/wp-content/uploads/2026/05/Public-Board-of-Directors-28.05.2026-Agenda-Pack-B.pdf"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T09:20:17Z",
+        "summary": "2026-05-28T09:20:17Z"
       },
-      "notes": null
+      "notes": null,
+      "summary_path": "summaries/RXE_2026-05-28.md"
     },
     {
       "id": "RXF:2026-07-09",
@@ -7216,7 +7224,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -7444,7 +7452,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -7539,7 +7547,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-05-27T14:16:11Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -10898,17 +10906,20 @@
       "date": "2026-05-28",
       "title": "Trust Board Meeting",
       "source_url": "https://www.leedsth.nhs.uk/about/board/meetings/",
-      "papers_url": "https://www.leedsth.nhs.uk/wp-content/uploads/2026/05/LTHT-PUBLIC-Board-280526.zip",
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.leedsth.nhs.uk/about/board/meetings/",
+      "pack_files": [
+        "https://www.leedsth.nhs.uk/wp-content/uploads/2026/05/LTHT-PUBLIC-Board-280526.zip"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-05-27T15:02:01Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T09:20:17Z",
+        "summary": "2026-05-28T09:20:17Z"
       },
-      "notes": null
+      "notes": null,
+      "summary_path": "summaries/RR8_2026-05-28.md"
     },
     {
       "id": "RR8:2026-07-30",
@@ -13121,17 +13132,20 @@
       "date": "2026-06-02",
       "title": "Board of Directors meeting",
       "source_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
-      "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes/navigate/13810/2001",
+      "pack_files": [
+        "https://www.mcht.nhs.uk/download_file/31c42922-437b-45fc-963d-c9ad90d97d31/228"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T15:20:55Z",
-      "last_checked": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T09:20:17Z",
+        "summary": "2026-05-28T09:20:17Z"
       },
-      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+      "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+      "summary_path": "summaries/RBT_2026-06-02.md"
     },
     {
       "id": "RBT:2026-07-30",
@@ -13315,7 +13329,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:20:55Z",
-      "last_checked": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -14094,13 +14108,13 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T16:02:50Z",
-      "last_checked": "2026-05-27T16:02:50Z",
+      "last_checked": "2026-05-28T08:56:41Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
-      "notes": "Detected via Group C re-extraction (visible_text)."
+      "notes": "Detected via Group C re-extraction (visible_text). [2026-05-28] 3 June pack not published yet; latest pack online is 6 May 2026. Clatterbridge posts packs only 1-2 days before the meeting (403 to WebFetch, rendered via Playwright). Recheck ~2 Jun."
     },
     {
       "id": "REN:2026-07-01",

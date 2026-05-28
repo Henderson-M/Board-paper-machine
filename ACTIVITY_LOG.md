@@ -4,6 +4,59 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-05-28 (first live analyser run — Henry + Zoe, plus skill change)
+
+### Headline
+First live run of the pack-analyser side of the tool. Checked the 10 in-window board meetings for Henry's and Zoe's orgs, found 4 published packs, analysed them, and sent live papers-alert emails. Also widened the pack-detection window after a same-patch meeting (Harrogate) was missed by a day.
+
+### What changed
+
+**1. Pack detection across Henry + Zoe, 28 May–7 Jun window.**
+10 in-window meetings (Henry: Sheffield Children's, Barnsley, Leeds, RDaSH; Zoe: Wirral, Mid Cheshire, Clatterbridge, Walton, Warrington, Bridgewater). 4 had a pack live; the other 6 hadn't published yet (most publish the week of the meeting).
+
+**2. Four packs analysed — summaries written + live papers alerts sent.**
+- **Leeds Teaching Hospitals (RR8, 28 May) → Henry.** 7 LEAD. NHSE s.106 enforcement undertakings (Oct 2025) in the risk register, seemingly contradicting the CQC paper's "no enforcement action"; CQC Section 29A maternity warning + downgrades; Donna Ockenden 15-year maternity review; 600 corridor-care patients in 10 days; M1 deficit £6.6m.
+- **RDaSH (RXE, 28 May) → Henry.** 4 LEAD. Financially healthy; live angles are workforce/culture — staff survey down a 3rd year, sickness 7.25%, CEO Toby Lewis challenging NHSE plan conditions, Value Circle well-led review.
+- **Mid Cheshire (RBT, 2 Jun) → Zoe.** 6 LEAD. £39.4m planned deficit, ~£24m DSF at risk; Carnall Farrer recovery engagement; NOF 118/134 (Segment 4); imminent CQC well-led review.
+- **Harrogate (RCD, 27 May) → Henry.** 5 LEAD. Caught only after Henry flagged it (meeting was the day before the run). HDFT confirmed as joint commissioner of the KPMG review with York & Scarborough (ties to an existing HSJ story); £23.6m 25/26 deficit vs breakeven; cash risk 25; fresh NHSE letter demanding named loss-making services.
+
+**3. Clatterbridge (REN, 3 Jun) — no pack yet.** Latest pack online is 6 May. Clatterbridge posts packs 1–2 days before the meeting and is 403 to WebFetch (rendered via Playwright). Noted in state for a recheck ~2 Jun.
+
+**4. SKILL.md change — widened the pack-detection window.** Step 7 now scans `today - 2 days <= meeting_date <= today + 10 days` (was next-10-days only). Reason: the Harrogate miss showed packs often only land on/after the meeting day, so a meeting that just happened needs catching on the next run. Updated description, overview bullets, `--packs-only` note, watchlist reference, and Step 7 logic.
+
+### State + emails
+- `state/meetings.json`: RR8/RXE/RBT/RCD set to `analysed` with papers_url, pack_files, summary_path; `alerts_sent.papers`/`summary` stamped. Clatterbridge + 6 no-pack meetings had `last_checked` refreshed.
+- 4 new files in `summaries/`.
+- Live papers alerts sent: 3 to Henry (Leeds, RDaSH, Harrogate), 1 to Zoe (Mid Cheshire), each with the markdown summary attached.
+
+### Followups for next session
+- Recheck Clatterbridge ~2 Jun for its 3 June pack.
+- The 6 no-pack in-window meetings (Sheffield Children's, Barnsley, Wirral, Walton, Warrington, Bridgewater) should be re-checked as their dates approach — packs likely drop the week of the meeting.
+- This run only covered Henry's and Zoe's patches. With the new ±2-day window, a full `/scan-boards` would also pick up other correspondents' 26–27 May meetings — not yet done.
+- Large packs (Mid Cheshire 46MB/421pp, RDaSH 350pp) blew the analyser's 32MB request limit when read as PDFs. Workaround used: extract text with pypdf to a `.txt` first, then read that. Worth baking into pack-analyser SKILL.md so future runs don't hit it.
+
+---
+
+## 2026-05-27 (evening — second live trial: Zoe)
+
+### Headline
+Second live trial of the meeting-dates email. Sent to Zoe Tidman (Cheshire/Mersey/Lancs patch) using yesterday's refreshed dry-run output. 65 forward meeting dates across 14 orgs, single combined `zoe.ics` attached.
+
+### What changed
+- `send_email.py` with `subscriptions/zoe.ics` (65 events) → zoe.tidman@hsj.co.uk
+- Body sourced from `dry_run_output/20260527T160414Z_zoe_dates.md`
+- Subject: `[Board paper machine] 65 new meeting date(s) detected`
+- No pack-analyser content — pack detection only fires for meetings in the 10-day window and last scan found zero new packs
+
+### Status
+Live email sent. Awaiting feedback from Zoe on whether the attachment opens / imports cleanly in Outlook (same flow Henry confirmed earlier).
+
+### Followups
+- If Zoe's import works → consider broadcasting to the remaining 11 correspondents (Alison, Annabelle, Caitlin, Ella, Emily, James, Joe, Matt Discombe, Matt Mathers, Mimi, Nick).
+- Outstanding from earlier today: SHSC Sunday-date data error; K0N6A "Online NHS Trust" sanity check; mid-July recheck for the 16 still-empty orgs.
+
+---
+
 ## 2026-05-27 (afternoon session continued — Group C second pass + papers watchlist)
 
 ### Headline
