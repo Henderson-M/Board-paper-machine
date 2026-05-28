@@ -452,7 +452,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T13:07:43Z",
-      "last_checked": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": "2026-05-27T13:07:43Z",
         "papers": null,
@@ -528,7 +528,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T13:07:43Z",
-      "last_checked": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": "2026-05-27T13:07:43Z",
         "papers": null,
@@ -604,7 +604,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T13:07:43Z",
-      "last_checked": "2026-05-27T13:07:43Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": "2026-05-27T13:07:43Z",
         "papers": null,
@@ -9196,17 +9196,20 @@
       "date": "2026-05-28",
       "title": "Board Meeting",
       "source_url": "https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/",
-      "papers_url": "https://www.kmpt.nhs.uk/about-us/trust-board/board-meetings/board-28-may-2026/",
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/board-28-may-2026/",
+      "pack_files": [
+        "https://kmpt.nhs.uk/media/l2yjpajs/public-board-meeting-pack-28052026-v1.pdf"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-05-27T15:02:01Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T11:10:30Z",
+        "summary": "2026-05-28T11:10:30Z"
       },
-      "notes": null
+      "notes": null,
+      "summary_path": "summaries/RXY_2026-05-28.md"
     },
     {
       "id": "S0E4D:2026-07-22",
@@ -9770,7 +9773,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-05-27T15:02:01Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -12319,7 +12322,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-05-27T15:02:01Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -13192,17 +13195,20 @@
       "date": "2026-05-28",
       "title": "Board meeting",
       "source_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
-      "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
+      "pack_files": [
+        "https://www.sussexcommunity.nhs.uk/documents/461-board-paper-28-may-2026/file"
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T15:20:55Z",
-      "last_checked": "2026-05-27T15:20:55Z",
+      "last_checked": "2026-05-28T11:08:46Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-05-28T11:10:30Z",
+        "summary": "2026-05-28T11:10:30Z"
       },
-      "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+      "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+      "summary_path": "summaries/RDR_2026-05-28.md"
     },
     {
       "id": "RDR:2026-07-30",
@@ -14837,6 +14843,63 @@
         "summary": null
       },
       "notes": "Detected via Group C re-extraction (visible_text)."
+    },
+    {
+      "id": "RPA:2027-01-06",
+      "ods_code": "RPA",
+      "org_type": "trust",
+      "date": "2027-01-06",
+      "title": "Board of Directors meeting in public",
+      "source_url": "https://www.medway.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-28T11:08:46Z",
+      "last_checked": "2026-05-28T11:08:46Z",
+      "alerts_sent": {
+        "date": "2026-05-28T11:10:30Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "RPA:2027-03-03",
+      "ods_code": "RPA",
+      "org_type": "trust",
+      "date": "2027-03-03",
+      "title": "Board of Directors meeting in public",
+      "source_url": "https://www.medway.nhs.uk/about-us/board-meetings/",
+      "papers_url": null,
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-28T11:08:46Z",
+      "last_checked": "2026-05-28T11:08:46Z",
+      "alerts_sent": {
+        "date": "2026-05-28T11:10:30Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "RWF:2026-06-25",
+      "ods_code": "RWF",
+      "org_type": "trust",
+      "date": "2026-06-25",
+      "title": "Trust Board Meeting (held in public)",
+      "source_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
+      "papers_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
+      "pack_files": [],
+      "status": "date_found",
+      "first_seen": "2026-05-28T11:08:46Z",
+      "last_checked": "2026-05-28T11:08:46Z",
+      "alerts_sent": {
+        "date": "2026-05-28T11:10:30Z",
+        "papers": null,
+        "summary": null
+      },
+      "notes": "[2026-05-28] Date recovered via WebSearch; mtw.nhs.uk board page currently 404s (CMS migration)."
     }
   ],
   "_scan_errors": [

@@ -4,6 +4,34 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-05-28 (full pipeline run — Alison Moore)
+
+### Headline
+First full end-to-end run for a single correspondent: scanned all 18 of Alison Moore's orgs (Kent/Surrey/Sussex) for new dates, detected and analysed packs in the new ±2-day→+10-day window, and sent her one date alert plus two papers alerts. 2 packs analysed, 3 new dates found.
+
+### What changed
+
+**1. Date scan across all 18 Alison orgs (2 parallel agents).**
+Found 3 dates not already in state: Medway (RPA) 6 Jan 2027 + 3 Mar 2027, and Maidstone & TW (RWF) 25 Jun 2026. The MTW date came via web search — mtw.nhs.uk board page currently 404s (CMS migration), noted in state. All other Alison dates already matched state from the 27 May sweep.
+
+**2. Pack detection on the 7 in-window meetings; 2 packs live, analysed + alerted.**
+- **Kent & Medway NHS and Social Care Partnership (RXY, 28 May) → Alison.** 6 LEAD. Governance/regulatory pack (finance is routine, Segment 1): longstanding chair leaving, replaced by a joint chair shared with Kent Community Health FT; three independent patient-safety external reviews due end-July; independent governance review rated "Developing, significant Lagging features"; BAF "Limited Assurance"; CQC well-led report delayed and S29A (Health Based Place of Safety) unresolved; BME staff 2.78x more likely into disciplinary.
+- **Sussex Community (RDR, 28 May) → Alison.** 4 LEAD. £24m/6.2% CIP (largest ever, schemes unidentified); £1.6m "surplus" is entirely NHSE Deficit Support Funding (underlying £11k); 52-week waits up 147 to 1,663 (mostly Sussex MSK); 2,350 children waiting for autism assessment.
+- No pack yet for the other 5 (Ashford & St Peter's, Surrey & Sussex, East Kent, Royal Surrey, SECAmb — all 3–4 Jun, publish closer to the meeting). `last_checked` refreshed.
+
+**3. Emails sent to Alison (alison.moore@hsj.co.uk).** One date alert (3 new dates + rebuilt alison.ics, 70 events) and two papers alerts, each with the markdown summary attached.
+
+### State + git
+- 3 new meetings added (RPA x2, RWF); RXY + RDR set to `analysed` with pack_files/summary_path; `alerts_sent` stamped on all 5; `last_checked` refreshed on the 5 no-pack in-window meetings.
+- 2 new files in `summaries/` (RXY, RDR). `subscriptions/alison.ics` rebuilt.
+
+### Followups for next session
+- The 5 no-pack Alison meetings (3–4 Jun) need re-checking as their dates approach.
+- RWF (Maidstone & TW) board page 404s — find the working URL on the new CMS; date currently unverifiable beyond web search.
+- KMPT (RXY) and Sussex Community (RDR) both published one meeting at a time / behind a UA block — KMPT has no forward calendar beyond 28 May; re-scan later for new dates.
+
+---
+
 ## 2026-05-28 (first live analyser run — Henry + Zoe, plus skill change)
 
 ### Headline

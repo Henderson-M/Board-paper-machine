@@ -7,17 +7,8 @@ X-WR-CALDESC:NHS trust + ICB board meetings auto-detected for HSJ.
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:RXY-2026-05-28@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
-DTSTART;VALUE=DATE:20260528
-DTEND;VALUE=DATE:20260529
-SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Board Meeting
-DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
-URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
 UID:RDR-2026-05-28@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -25,8 +16,17 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.sussex
 URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RXY-2026-05-28@board-paper-machine.hsj
+DTSTAMP:20260528T110859Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RTK-2026-06-03@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -34,8 +34,17 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ashfor
 URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RA2-2026-06-04@board-paper-machine.hsj
+DTSTAMP:20260528T110859Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.royalsurrey.nhs.uk/board-meeting-dates
+URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:RTP-2026-06-04@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -44,7 +53,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-06-04@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -52,17 +61,8 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.ekhuft
 URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
-UID:RA2-2026-06-04@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
-DTSTART;VALUE=DATE:20260604
-DTEND;VALUE=DATE:20260605
-SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
-DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.royalsurrey.nhs.uk/board-meeting-dates
-URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
-END:VEVENT
-BEGIN:VEVENT
 UID:RYD-2026-06-04@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -71,7 +71,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RYR-2026-06-11@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:University Hospitals Sussex NHS Foundation Trust — Trust Board meeting in public
@@ -80,7 +80,7 @@ URL:https://www.uhsussex.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-06-16@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20260617
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -89,7 +89,7 @@ URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2026-06-18@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -98,7 +98,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-06-19@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -107,7 +107,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2026-06-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -115,8 +115,17 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.surrey
 URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RWF-2026-06-25@board-paper-machine.hsj
+DTSTAMP:20260528T110859Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board Meeting (held in public)
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
+URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:RWF-2026-06-26@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -125,7 +134,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RPA-2026-07-01@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Medway NHS Foundation Trust — Board of Directors
@@ -134,7 +143,7 @@ URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXX-2026-07-08@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:Surrey and Borders Partnership NHS Foundation Trust — Trust Board Meeting
@@ -143,7 +152,7 @@ URL:https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RPC-2026-07-09@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -152,7 +161,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYY-2026-07-15@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Kent Community Health NHS Foundation Trust — Public Board Meeting
@@ -161,7 +170,7 @@ URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2026-07-21@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Kent and Medway ICB — Board meeting July 2026
@@ -170,7 +179,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RTK-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -179,7 +188,7 @@ URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RA2-2026-07-23@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -188,7 +197,7 @@ URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -197,7 +206,7 @@ URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -206,7 +215,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -215,7 +224,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTP-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -224,7 +233,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RYD-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -233,7 +242,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2026-08-13@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -242,7 +251,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-08-18@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -251,7 +260,7 @@ URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RPA-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Medway NHS Foundation Trust — Board of Directors
@@ -260,7 +269,7 @@ URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RPC-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -269,7 +278,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-09-15@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:East Sussex Healthcare NHS Trust — Annual General Meeting
@@ -278,7 +287,7 @@ URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2026-09-22@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Kent and Medway ICB — Board meeting September 2026
@@ -287,7 +296,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RTK-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -296,7 +305,7 @@ URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RA2-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -305,7 +314,7 @@ URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -314,7 +323,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -323,7 +332,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -332,7 +341,7 @@ URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTP-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -341,7 +350,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -350,7 +359,7 @@ URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYD-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -359,7 +368,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2026-10-08@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -368,7 +377,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RXX-2026-10-14@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Surrey and Borders Partnership NHS Foundation Trust — Trust Board Meeting
@@ -377,7 +386,7 @@ URL:https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -386,7 +395,7 @@ URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYY-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Kent Community Health NHS Foundation Trust — Public Board Meeting
@@ -395,7 +404,7 @@ URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-10-29@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -404,7 +413,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RPA-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Medway NHS Foundation Trust — Board of Directors
@@ -413,7 +422,7 @@ URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RPC-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -422,7 +431,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Kent and Medway ICB — Board meeting November 2026
@@ -431,7 +440,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RTK-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -440,7 +449,7 @@ URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -449,7 +458,7 @@ URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RA2-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -458,7 +467,7 @@ URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -467,7 +476,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -476,7 +485,7 @@ URL:https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTP-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -485,7 +494,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -494,7 +503,7 @@ URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYD-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -503,7 +512,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RXX-2026-12-08@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Surrey and Borders Partnership NHS Foundation Trust — Trust Board Meeting
@@ -512,7 +521,7 @@ URL:https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -521,7 +530,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -529,8 +538,17 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.esht.n
 URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RPA-2027-01-06@board-paper-machine.hsj
+DTSTAMP:20260528T110859Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Medway NHS Foundation Trust — Board of Directors meeting in public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.medway.nhs.uk/about-us/board-meetings/
+URL:https://www.medway.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:QKS-2027-01-19@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Kent and Medway ICB — Board meeting January 2027
@@ -539,7 +557,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RPC-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -548,7 +566,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -557,7 +575,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2027-02-02@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Kent and Medway ICB — Board meeting February 2027
@@ -566,7 +584,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2027-02-11@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -575,7 +593,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2027-02-24@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -583,8 +601,17 @@ DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.surrey
 URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RPA-2027-03-03@board-paper-machine.hsj
+DTSTAMP:20260528T110859Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Medway NHS Foundation Trust — Board of Directors meeting in public
+DESCRIPTION:Auto-detected by HSJ board paper machine. Source: https://www.medway.nhs.uk/about-us/board-meetings/
+URL:https://www.medway.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RPC-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -593,7 +620,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Kent and Medway ICB — Board meeting March 2027
@@ -602,7 +629,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260527T160414Z
+DTSTAMP:20260528T110859Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
