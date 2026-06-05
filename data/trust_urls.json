@@ -931,7 +931,8 @@
     "region": "North East and Yorkshire",
     "ics": "South Yorkshire",
     "correspondent": "Henry",
-    "url": "https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers"
+    "url": "https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers",
+    "notes": "[2026-06-05] Board packs are published as posts in the /news section (news?field_news_type_target_id=37), NOT on the board page. Board page lists dates only."
   },
   {
     "ods_code": "RFR",
@@ -1097,7 +1098,7 @@
     "ics": "West Yorkshire",
     "correspondent": "Henry",
     "url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
-    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL shows 'Next meeting: TBC' and lists archive of previous meetings. No alternative page on the trust site appears to list forward dates. Web Keep current URL. The 'Next meeting: TBC' label may simply mean trust hasn't filled in the next date yet. Search results referenced 2026 dates but I couldn't verify on a single canonical page."
+    "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL shows 'Next meeting: TBC' and lists archive of previous meetings. No alternative page on the trust site appears to list forward dates. Web Keep current URL. The 'Next meeting: TBC' label may simply mean trust hasn't filled in the next date yet. Search results referenced 2026 dates but I couldn't verify on a single canonical page. [2026-06-05] Board page now lists a confirmed date (28 Jun 2026) rather than 'TBC'."
   },
   {
     "ods_code": "RY6",
@@ -1134,7 +1135,8 @@
     "region": "North East and Yorkshire",
     "ics": "South Yorkshire",
     "correspondent": "Henry",
-    "url": "https://www.shsc.nhs.uk/about-us/board-directors"
+    "url": "https://www.sheffieldpartnership.nhs.uk/about-us/board-directors",
+    "notes": "[2026-06-05] URL updated: shsc.nhs.uk now 301-redirects to sheffieldpartnership.nhs.uk. Dates confirmed via new domain."
   },
   {
     "ods_code": "RCX",

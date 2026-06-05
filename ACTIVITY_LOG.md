@@ -4,6 +4,41 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-06-05 (single-correspondent run — Henry Anderson)
+
+### Headline
+Ran the machine for Henry's patch only (22 Yorkshire/Humber trusts + 3 ICBs), at his request — date refresh plus pack check on the two meetings in the 3–15 Jun window. 5 new dates found, 0 packs (neither in-window meeting has papers up yet). One live date-alert email sent to Henry.
+
+### What changed
+**Date scan across all 25 Henry orgs.** State was already populated to 2027, so most pages matched. 5 genuinely new dates added:
+- South West Yorkshire Partnership (RXG) — 28 Jun 2026 (page previously said "TBC").
+- Barnsley (RFF) — 4 Feb 2027.
+- Yorkshire Ambulance (RX8) — 29 Jan 2027 and 26 Mar 2027.
+- South Yorkshire ICB (QF7) — 5 May 2027 (read via Playwright; WebFetch returns empty).
+
+**Pack check on the 2 in-window meetings — nothing live yet.**
+- Barnsley 4 Jun: packs publish as /news posts, none up yet.
+- Hull + NLAG Boards-in-Common 11 Jun: board-papers-2026 page still tops out at May. Re-check ~9–10 Jun.
+
+**Flags raised for manual review (not auto-changed):** Bradford Teaching (RAE) page shows 23 Jul vs our 30 Jul; York & Scarborough (RCB) returned 25 Jun vs our 24 Jun (known hallucination quirk); RDaSH (RXE) and Bradford District Care (TAD) returned no forward dates this scan.
+
+**URL fix:** Sheffield Health & Social Care (TAH) — shsc.nhs.uk now 301s to sheffieldpartnership.nhs.uk; tracker URL updated.
+
+### State + git
+- 5 new meetings added (status date_found, alerts_sent.date stamped after send); last_checked refreshed on all Henry meetings; 7 audit notes appended to _scan_errors.
+- 5 per-meeting ics files written; subscriptions/henry.ics rebuilt (92 events).
+- data/trust_urls.json updated (TAH url, RFF/RXG notes).
+
+### Email
+One live date alert to henry.anderson@hsj.co.uk (5 new dates + henry.ics). No papers alerts this run.
+
+### Followups for next session
+- Re-check Hull+NLAG (RJL/RWA) papers ~9–10 Jun for the 11 Jun pack.
+- Resolve RXE (RDaSH) and TAD (Bradford District Care) missing forward dates.
+- Verify the RAE 23-vs-30 Jul and RCB 24-vs-25 Jun discrepancies.
+
+---
+
 ## 2026-05-28 (full pipeline run — Alison Moore)
 
 ### Headline
