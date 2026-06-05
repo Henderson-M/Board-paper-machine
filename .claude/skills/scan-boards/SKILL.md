@@ -316,8 +316,8 @@ Note on the calendar file: a combined `subscriptions/{firstname}.ics` is rebuilt
 For each analysed pack:
 
 1. Look up correspondent's email. If empty, log and skip.
-2. Read `summaries/{ods_code}_{date}.md` and extract the top lines.
-3. Compose email body — keep it short, point at the full summary for detail:
+2. Read `summaries/{ods_code}_{date}.md` — the FULL summary goes in the body.
+3. Compose email body — paste the entire summary inline (Henry's preference, set 2026-06-05), and still attach the same markdown file:
 
    ```
    Hi {first_name},
@@ -325,12 +325,15 @@ For each analysed pack:
    New papers detected for {org name}'s board meeting on {date_human}.
    The pack-analyser found {N_LEAD} LEAD / {N_WATCH} WORTH WATCHING / {N_FOI} FOI items.
 
-   ## Top lines
+   Full summary below (also attached as markdown).
 
-   {first 3-5 top lines from the summary, verbatim including page refs}
+   ---
 
-   Full detailed summary is attached as a markdown file. Pack itself:
-   {papers_url}
+   {ENTIRE contents of summaries/{ods_code}_{date}.md, verbatim}
+
+   ---
+
+   Pack source: {papers_url}
 
    — Board paper machine
    ```
