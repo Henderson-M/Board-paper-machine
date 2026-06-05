@@ -4,6 +4,37 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-06-05 (FULL TEAM run — all correspondents except Henry)
+
+### Headline
+Whole-team sweep right after Henry's own run. Scanned 230 in-scope orgs across the other 12 correspondents (Henry done separately earlier today), fanned out via 12 scanner agents + a 28-pack analyser fleet. **35 new dates, 28 unique packs analysed (34 trust-meetings, incl. joint boards), 37 live emails sent (9 date alerts + 28 papers alerts), 0 send failures.** Forward change applied this run: papers alerts now carry the FULL pack-analyser summary inline in the body (not just top lines), summary markdown still attached.
+
+### What changed
+**Date scan (230 orgs).** State was already dense to 2027, so most pages matched. 35 genuinely new dates added — biggest sets: WMAS (RYA) 5 dates, Barts Health (R1H) 4, Greater Manchester ICB (QOP) 4, North West Anglia (RGN) 3, SLAM (RV5) 3, Mersey Care (RW4) 3 (2027). Plus singles/pairs across RBD, RN3, RNZ, RT1, R0B, RTR/RVW, RX6, RHW, RAL.
+
+**Pack detection + analysis (28 unique packs).** Most in-window meetings (3–9 Jun) now had packs live. Heavy hitters by tier:
+- **RUH Bath (RD1)** 7 LEAD — NHSE SW "close down letter" accepting BSW Hospitals Group plan only "with conditions" (£117.34m efficiency, 18.2% unidentified); CQC UEC "Requires Improvement" with 3 breaches, blocked fire exits, 5-day ED mental-health hold.
+- **Royal Free (RAL)** 6 — £37.7m deficit, £151m efficiency programme; North Mid in formal turnaround (Kingsgate); never events + HTA wrong-body release.
+- **East Kent (RVV)** 5 — NHSE Intensive Recovery Programme + S111 conditions, CEO resigned, CQC warning notice, maternity signals.
+- **QEH King's Lynn (via NWUHG/RM1 group pack)** — National Provider Improvement Programme, multiple CQC S29A notices, RCS surgery review.
+- **Worcestershire Acute (RWP)** — £12m deficit + auditor s30 referral; first MOSS L1 maternity signal; Reg 28 PFD; neonatal Citrobacter outbreak.
+- **Wirral (RBL)**, **North Cheshire & Mersey (RWW/RY2)**, **UHCW (RKB)**, **Walton Centre (RET)**, **Hants & IoW ICB (QRL £81m system deficit)**, **Sherwood (RK5)**, **Surrey & Sussex (RTP)**, **HIOW FT (R1C/RW1)**, **SE Sector joint board (RMP/RWJ)** and others all non-routine. Full per-pack detail in `summaries/`.
+
+**Emails.** 9 date alerts (combined .ics attached) + 28 papers alerts (full summary inline + .md attached). All 37 sent live, 37/37 OK.
+
+**URL fixes:** RWF (Maidstone) → mtw.nhs.uk; RWW + RY2 → northcheshireandmersey.nhs.uk (acquisition, new single trust). Notes added for RD1 (dated subpages), QRL (navigate IDs change), RMP/RWJ (SE Sector host), RQY/RXY (stale URLs to fix).
+
+### State + git
+- 35 new meetings added; 34 meetings set to `analysed` with pack_files + summary_path; alerts_sent stamped (35 date / 34 papers). 21 discrepancies + 16 scan_errors logged to _scan_errors. All 13 subscription .ics rebuilt.
+- 28 new files in `summaries/`; new per-meeting ics for the 35 dates.
+
+### Followups for next session
+- ~16 orgs returned no forward dates / need attention (UHB RRK, several ICBs, ROH, Gateshead, Northumbria, NSFT, Clatterbridge, Mid Cheshire, CWP, Alder Hey, SWAST, etc.) — many use JS accordions or "next-meeting-only" pages; consider Playwright-first notes.
+- Several 1–7 day date discrepancies flagged (not auto-changed): R0B, S0E4D Thames Valley, RWV, RNZ — human verify.
+- Re-check Hull+NLAG (Henry) ~9–10 Jun and the no-pack-yet in-window meetings (RYR, RRE, RJE, RNQ, RNS, RP7, RWE, RHU, CUH, EEAST).
+
+---
+
 ## 2026-06-05 (single-correspondent run — Henry Anderson)
 
 ### Headline

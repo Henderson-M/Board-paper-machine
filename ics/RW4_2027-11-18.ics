@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RW4-2027-11-18@board-paper-machine.hsj
+DTSTAMP:20260605T085237Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Mersey Care NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings
+URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings
+END:VEVENT
+END:VCALENDAR

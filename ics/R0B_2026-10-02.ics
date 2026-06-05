@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R0B-2026-10-02@board-paper-machine.hsj
+DTSTAMP:20260605T085237Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
+URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
+END:VEVENT
+END:VCALENDAR

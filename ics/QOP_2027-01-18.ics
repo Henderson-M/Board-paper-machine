@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QOP-2027-01-18@board-paper-machine.hsj
+DTSTAMP:20260605T085237Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
+DESCRIPTION:Detected by Board paper machine. Source: https://gmintegratedcare.org.uk/meetings-and-events/
+URL:https://gmintegratedcare.org.uk/meetings-and-events/
+END:VEVENT
+END:VCALENDAR

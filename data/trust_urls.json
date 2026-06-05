@@ -119,8 +119,8 @@
     "region": "South East",
     "ics": "Kent and Medway",
     "correspondent": "Alison",
-    "url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL returned 404 from Claude, but Google indexes it as live and search confirms it lists the full 2026 schedule (10 monthly dates from Jan-Nov fetch_blocked_or_intermittent_needs_playwright"
+    "url": "https://www.mtw.nhs.uk/board-meetings-and-papers",
+    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL returned 404 from Claude, but Google indexes it as live and search confirms it lists the full 2026 schedule (10 monthly dates from Jan-Nov fetch_blocked_or_intermittent_needs_playwright [2026-06-05] URL updated (old path redirects/404s)."
   },
   {
     "ods_code": "RX2",
@@ -169,7 +169,7 @@
     "ics": "Kent and Medway",
     "correspondent": "Alison",
     "url": "https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/",
-    "notes": "[2026-05-27] URL updated: kmpt.nhs.uk 301 redirects to kentmedwaymentalhealth.nhs.uk (rebranded). Board meetings sub-page lists 2026 dates (26 March and 28 May confirmed; meets monthly). domain_rebrand; previously kmpt.nhs.uk now kentmedwaymentalhealth.nhs.uk"
+    "notes": "[2026-05-27] URL updated: kmpt.nhs.uk 301 redirects to kentmedwaymentalhealth.nhs.uk (rebranded). Board meetings sub-page lists 2026 dates (26 March and 28 May confirmed; meets monthly). domain_rebrand; previously kmpt.nhs.uk now kentmedwaymentalhealth.nhs.uk [2026-06-05] Board page on kentmedwaymentalhealth.nhs.uk; WebFetch returned stale (28 May) content — use Playwright."
   },
   {
     "ods_code": "RYR",
@@ -1358,7 +1358,8 @@
     "region": "South West",
     "ics": "Bath and North East Somerset, Swindon and Wiltshire",
     "correspondent": "Joe",
-    "url": "https://www.ruh.nhs.uk/about/trustboard/index.asp"
+    "url": "https://www.ruh.nhs.uk/about/trustboard/index.asp",
+    "notes": "[2026-06-05] Per-meeting packs live on dated subpages, e.g. /about/trustboard/2026_06/index.asp. RUH part of BSW Hospitals Group (Group Board live 1 Jul 2026)."
   },
   {
     "ods_code": "RDY",
@@ -1557,7 +1558,8 @@
     "region": "London",
     "ics": "South West London",
     "correspondent": "Ella",
-    "url": "https://www.stgeorges.nhs.uk/about-us/board-papers/"
+    "url": "https://www.stgeorges.nhs.uk/about-us/board-papers/",
+    "notes": "[2026-06-05] Configured URL points at a stale St George's-domain archive; needs a working SWLStG board URL."
   },
   {
     "ods_code": "RV5",
@@ -2172,7 +2174,8 @@
     "region": "North West",
     "ics": "Greater Manchester",
     "correspondent": "Nick",
-    "url": "https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board"
+    "url": "https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board",
+    "notes": "[2026-06-05] Joint Board (Tameside&Glossop + Stockport) papers now hosted on southeastsector-hcp.nhs.uk, not the trust site."
   },
   {
     "ods_code": "RRF",
@@ -2212,7 +2215,8 @@
     "region": "North West",
     "ics": "Greater Manchester",
     "correspondent": "Nick",
-    "url": "https://www.stockport.nhs.uk/about/board/board-meetings/"
+    "url": "https://www.stockport.nhs.uk/about/board/board-meetings/",
+    "notes": "[2026-06-05] Joint Board (Stockport + Tameside&Glossop) papers now hosted on southeastsector-hcp.nhs.uk, not the trust site."
   },
   {
     "ods_code": "RXV",
@@ -2546,7 +2550,8 @@
     "region": "North West",
     "ics": "Cheshire and Merseyside",
     "correspondent": "Zoe",
-    "url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/"
+    "url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+    "notes": "[2026-06-05] URL updated (old path redirects/404s)."
   },
   {
     "ods_code": "RXA",
@@ -2617,7 +2622,8 @@
     "region": "North West",
     "ics": "Cheshire and Merseyside",
     "correspondent": "Zoe",
-    "url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/"
+    "url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+    "notes": "[2026-06-05] URL updated (old path redirects/404s)."
   },
   {
     "ods_code": "RY7",

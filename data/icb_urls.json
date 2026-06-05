@@ -410,7 +410,7 @@
     "url_root": "https://www.hantsiow.icb.nhs.uk",
     "cluster_id": null,
     "cluster_meeting_url": null,
-    "notes": "Boundary expanded 1 April 2026 to receive LSOAs transferred from former Frimley ICB (QNQ); ODS code unchanged"
+    "notes": "Boundary expanded 1 April 2026 to receive LSOAs transferred from former Frimley ICB (QNQ); ODS code unchanged [2026-06-05] Papers live under navigate IDs that change per meeting (3 Jun pack was navigate id 7133, not 6990). Re-enumerate the meetings page each scan."
   },
   {
     "ods_code": "QKS",
