@@ -125,17 +125,29 @@
       "date": "2026-06-04",
       "title": "Board of Directors",
       "source_url": "https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers",
-      "papers_url": "https://www.barnsleyhospital.nhs.uk/news?field_news_type_target_id=37&sort_bef_combine=field_publish_date_value_DESC",
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.barnsleyhospital.nhs.uk/news/board-directors-meeting-thursday-4-june-2026",
+      "pack_files": [
+        {
+          "url": "https://www.barnsleyhospital.nhs.uk/sites/default/files/2026-06/00_board_of_directors_public_agenda_04.06.2026.pdf",
+          "title": "Public Agenda - June 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.barnsleyhospital.nhs.uk/sites/default/files/2026-06/combined_pack_board_of_directors_public_04.06.2026.pdf",
+          "title": "Combined Board Papers - June 2026",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T12:45:48Z",
-      "last_checked": "2026-06-05T08:09:52Z",
+      "last_checked": "2026-06-05T14:28:46Z",
       "alerts_sent": {
         "date": "2026-05-27T12:45:48Z",
-        "papers": null,
-        "summary": null
+        "papers": "2026-06-05T14:29:00Z",
+        "summary": "2026-06-05T14:29:00Z"
       },
-      "notes": "Barnsley publishes papers via the trust news feed, not a dedicated pack page."
+      "notes": "Barnsley publishes papers via the trust news feed, not a dedicated pack page.",
+      "summary_path": "summaries/RFF_2026-06-04.md"
     },
     {
       "id": "RFF:2026-08-06",
