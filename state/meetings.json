@@ -14753,17 +14753,24 @@
       "date": "2026-06-03",
       "title": "Board meeting",
       "source_url": "https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-meetings",
-      "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "papers_url": "https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-meetings",
+      "pack_files": [
+        {
+          "url": "https://www.clatterbridgecc.nhs.uk/download_file/view/e5cfe845-2b64-4a8b-a083-9707cae3315b/1221",
+          "title": "Agenda and papers - 3 June 2026",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-05-27T16:02:50Z",
-      "last_checked": "2026-05-28T08:56:41Z",
+      "last_checked": "2026-06-05T09:45:17Z",
       "alerts_sent": {
         "date": null,
-        "papers": null,
-        "summary": null
+        "papers": "2026-06-05T09:45:47Z",
+        "summary": "2026-06-05T09:45:47Z"
       },
-      "notes": "Detected via Group C re-extraction (visible_text). [2026-05-28] 3 June pack not published yet; latest pack online is 6 May 2026. Clatterbridge posts packs only 1-2 days before the meeting (403 to WebFetch, rendered via Playwright). Recheck ~2 Jun."
+      "notes": "Detected via Group C re-extraction (visible_text). [2026-05-28] 3 June pack not published yet; latest pack online is 6 May 2026. Clatterbridge posts packs only 1-2 days before the meeting (403 to WebFetch, rendered via Playwright). Recheck ~2 Jun.",
+      "summary_path": "summaries/REN_2026-06-03.md"
     },
     {
       "id": "REN:2026-07-01",
@@ -16303,6 +16310,32 @@
         "summary": null
       },
       "notes": ""
+    },
+    {
+      "id": "RXL:2026-06-04",
+      "ods_code": "RXL",
+      "org_type": "trust",
+      "date": "2026-06-04",
+      "title": "Board of Directors Meeting in Public",
+      "source_url": "https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/previous-meetings-year",
+      "papers_url": "https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/previous-meetings-year",
+      "pack_files": [
+        {
+          "url": "https://www.blackpoolteachinghospitals.nhs.uk/download_file/11766/2316",
+          "title": "Board of Directors Meeting in Public - 04.06.26 - full papers",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
+      "first_seen": "2026-06-05T09:45:17Z",
+      "last_checked": "2026-06-05T09:45:17Z",
+      "alerts_sent": {
+        "date": null,
+        "papers": "2026-06-05T09:45:47Z",
+        "summary": "2026-06-05T09:45:47Z"
+      },
+      "notes": "",
+      "summary_path": "summaries/RXL_2026-06-04.md"
     }
   ],
   "_scan_errors": [
@@ -16744,6 +16777,12 @@
       "type": "scan_error",
       "ods_code": "RBS",
       "detail": "Alder Hey trust-board page (Playwright) shows only historical meetings (2018, 2020); no upcoming dates listed, consistent with prior notes."
+    },
+    {
+      "ts": "2026-06-05T09:45:17Z",
+      "type": "followup_pack",
+      "ods_code": "REN/RXL",
+      "detail": "Manual follow-up pack-check: Clatterbridge (JS-accordion, Playwright) and Blackpool (4 Jun, scanner misread as 5 Jun) both had live packs; analysed + alerted Zoe."
     }
   ],
   "_last_full_scan": {
