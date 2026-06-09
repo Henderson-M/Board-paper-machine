@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:Z9B2Z-2027-03-24@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:West and North London ICB — West and North London Board of Members
+DESCRIPTION:Detected by Board paper machine. Source: https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
+END:VEVENT
+END:VCALENDAR

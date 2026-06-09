@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RMC-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Bolton NHS Foundation Trust — Board of Directors' Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.boltonft.nhs.uk/about-us/our-board/
+URL:https://www.boltonft.nhs.uk/about-us/our-board/
+END:VEVENT
+END:VCALENDAR

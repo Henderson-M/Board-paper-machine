@@ -4,6 +4,42 @@ Running log of what's been done and why. Newest entries at top. Each session add
 
 ---
 
+## 2026-06-09 (FULL SWEEP — all correspondents, run from Dave West's machine)
+
+### Headline
+Full no-arg sweep run by Dave (deputy editor) on his own clone. Scanned 227 in-scope orgs (clusters collapsed) via 16 date-scan agents, 0 hard failures. **72 new dates added** (6 hallucinated dates quarantined), **14 unique packs analysed** covering 16 meetings (11 in-window + 3 watchlist), **27 live emails sent** (12 date alerts + 15 papers alerts), 0 send failures.
+
+### What changed
+**Date scan (227 orgs).** 705 meetings parsed, 72 genuinely new after diffing 823 existing. 56 orgs needed the Playwright fallback (≈12 Cloudflare/403 trusts + JS-rendered accordions). New dates by correspondent: Emily 17, Caitlin 10, Joe 10, Annabelle 8, Matt Discombe 8, Zoe 6, Henry 4, Nick 4, James 2, Alison/Matt Mathers/Mimi 1.
+
+**Quarantined dates (NOT alerted).** 6 likely month-only / weekend hallucinations: Essex Partnership (R1L) 1 Aug/1 Oct/1 Dec, Salisbury (RNZ) 15 Aug (Sat), South Warwickshire (RJC) 1 Jul (Wed lone), RNOH (RAN) 1 Jul 2027. RX9 EMAS 1 Sep + 1 Dec were KEPT — confirmed first-Tuesday pattern.
+
+**Pack detection + analysis (14 packs).** 31 in-window meetings checked, 13 had substantive new packs; deduped to 11 analysis units (Hull/NLAG share one 521pp Boards-in-Common pack; Leicester/Kettering/Northampton share the UHN-UHL joint pack). Plus 3 fresh 4-June packs surfaced by the watchlist (Bradford District Care, Norfolk & Suffolk, Moorfields). Heavy hitters:
+- **UHN-UHL Boards-in-Common (RWE/RNQ)** 10 LEAD — UHN non-compliant 26/27 plan / no Deficit Support Funding; UHL £99m CIP, three Never Events; KGH maternity intensive MatNeoIST; NGH "above expected" mortality.
+- **Humber Health Partnership / NLAG-Hull (RJL/RWA)** 8 LEAD — Carnall Farrar review of whether the group model is unwound (concludes summer 2026); £63.1m planned deficit, £40.2m unidentified gap; 633-WTE cut; new Reg 28 PFD (sepsis, Hull Royal Infirmary).
+- **North East London ICB (QMF)** 8 LEAD — £63.8m system deficit vs breakeven plan; £28.8m termination benefits / 214 exit packages; VSM pay-framework breach; three CEOs in-year.
+- **UH North Midlands (RJE)** 8 LEAD — M1 £6.5m deficit (junior-doctor strike); £81m CIP; Deloitte £1.997m recovery contract; MHRA critical finding; active cyber incident; Reg 28 (MEOWS).
+- **TEWV (RX3)** 7 LEAD — unmet NHSE bank-cost condition; £18m delayed-discharge pressure; Head of Internal Audit opinion → "reasonable", DSP Toolkit "adverse"; Mersey Care peer review of ALD (1,058 restraints/seclusions in April); Reg 28.
+- **Hertfordshire Community (RY4)** 7 LEAD — £3.6m unidentified gap vs £9.5m savings target; £27m Neighbourhood Health Centre seed funding "subsumed into national funding".
+- **UH Sussex (RYR)** 6 LEAD — Ockenden Sussex maternity review scoped to 1,000+ cases 2018–28; CQC Reg 17 notice; new NHSE undertakings; National Provider Improvement Programme.
+- **Moorfields (RP6)** 6 LEAD — two external governance reviews from a "consultant letter"; ICO-reported data breaches; Oriel new-hospital build halted (approver in administration); wrong-lens Never Event.
+- **West London (RKL)** 5 LEAD — £3.8m "surplus" really £0.5m once £3.3m NHSE bonus stripped; Reg 28 (Ealing MH ASD/ADHD waits) escalated to DHSC minister; paediatric audiology 2,300-child look-back.
+- **Bradford District Care (TAD)** 5 LEAD — shared chief people officer with Airedale (first joint exec post under chair-in-common); ethnic-disparity recruitment "alert".
+- **East Sussex Healthcare (RXC)** 6 LEAD — £74m efficiency (9.6% of cost base); cash "a major concern".
+- **Midlands Partnership (RRE)** 4 LEAD — £7.1m surplus masks £20.8m underlying deficit; council-of-governors abolition prep.
+- **Lincolnshire Partnership (RP7)** 6 LEAD — 9.8-year autism-diagnostic wait; NHSE Well-Led inspection 2–4 June.
+- **Norfolk & Suffolk (RMY)** 0 LEAD / 7 WW — recovering-trust pack; £20m efficiency "high risk", ADHD/autism "unprecedented and unsustainable".
+
+**Watchlist.** 26 polled → 10 dropped (now have a future date), 13 baselined, 3 promoted to analysed meetings (TAD/RMY/RP6), East Cheshire (RJN) flagged to Zoe as a date-unknown note (opaque file IDs, not auto-analysed). 13 orgs remain on the watchlist.
+
+**Emails.** 12 date alerts (combined subscription .ics attached) + 15 papers alerts (full summary inline + .md attached). 27/27 sent live, 0 failures.
+
+### State + git
+- 72 new meetings added (status date_found); 817 last_checked refreshed; 16 meetings set to `analysed` with pack_files + summary_path; alerts_sent stamped (72 date / 16 papers). 72 new per-meeting .ics + all 13 subscription .ics rebuilt. 14 new files in `summaries/`.
+- Run executed with parallel subagents (16 date-scan + 6 pack-detect + 14 analysis + 3 watchlist). No org URL changes applied this run; Maidstone (RWF) papers page still 404s to all fetchers — worth a manual URL check.
+
+---
+
 ## 2026-06-05 (FULL TEAM run — all correspondents except Henry)
 
 ### Headline

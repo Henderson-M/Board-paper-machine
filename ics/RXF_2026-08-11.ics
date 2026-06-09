@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXF-2026-08-11@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Mid Yorkshire Teaching NHS Trust — Trust Board Meeting (Board in Common)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.midyorks.nhs.uk/board-meetings/
+URL:https://www.midyorks.nhs.uk/board-meetings/
+END:VEVENT
+END:VCALENDAR

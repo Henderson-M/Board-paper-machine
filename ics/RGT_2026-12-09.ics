@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RGT-2026-12-09@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Cambridge University Hospitals NHS Foundation Trust — Board of Directors meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
+URL:https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
+END:VEVENT
+END:VCALENDAR

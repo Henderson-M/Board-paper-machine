@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYF-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers
+URL:https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers
+END:VEVENT
+END:VCALENDAR

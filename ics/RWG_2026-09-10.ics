@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWG-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:West Hertfordshire Teaching Hospitals NHS Trust — Board meeting - September
+DESCRIPTION:Detected by Board paper machine. Source: https://www.westhertshospitals.nhs.uk/about-us/our-board/board-meetings
+URL:https://www.westhertshospitals.nhs.uk/about-us/our-board/board-meetings
+END:VEVENT
+END:VCALENDAR

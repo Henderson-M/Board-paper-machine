@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RBQ-2026-07-16@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Liverpool Heart and Chest Hospital NHS Foundation Trust — Group Board Meeting (NHS University Hospitals of Liverpool)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lhch.nhs.uk/board-of-directors-meetings
+URL:https://www.lhch.nhs.uk/board-of-directors-meetings
+END:VEVENT
+END:VCALENDAR

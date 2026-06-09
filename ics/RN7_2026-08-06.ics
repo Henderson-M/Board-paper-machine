@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RN7-2026-08-06@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Dartford and Gravesham NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas
+URL:https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas
+END:VEVENT
+END:VCALENDAR

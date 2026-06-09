@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RD8-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260609T173140Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Milton Keynes University Hospital NHS Foundation Trust — Board of Directors Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-and-meetings
+URL:https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-and-meetings
+END:VEVENT
+END:VCALENDAR
