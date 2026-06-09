@@ -120,7 +120,7 @@
     "ics": "Kent and Medway",
     "correspondent": "Alison",
     "url": "https://www.mtw.nhs.uk/board-meetings-and-papers",
-    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL returned 404 from Claude, but Google indexes it as live and search confirms it lists the full 2026 schedule (10 monthly dates from Jan-Nov fetch_blocked_or_intermittent_needs_playwright [2026-06-05] URL updated (old path redirects/404s)."
+    "notes": "[2026-06-09] URL confirmed canonical and live. Site serves a soft-404 to non-browser user agents, so WebFetch/curl fail; needs Playwright (fetch_with_playwright.py renders the meeting dates and board-paper PDF links fine). Skip the cheap fetcher and go straight to Playwright for both date and pack scans."
   },
   {
     "ods_code": "RX2",
