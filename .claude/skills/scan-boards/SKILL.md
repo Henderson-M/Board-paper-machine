@@ -122,6 +122,7 @@ For each org, **WebFetch** the `url` with this prompt:
 A WebFetch is considered to have **failed** when:
 - It returns `_error: needs_js`
 - It returns HTTP 403 (Cloudflare / UA block — affects ~12 big trusts including Sheffield Teaching, Imperial, Royal Marsden, Royal Free, Royal Devon, UHCW, Mersey Care, CWP, Sussex Community, Liverpool UH group, London North West, Clatterbridge)
+- It returns HTTP 404 (do NOT assume the URL is dead — many sites serve a **soft-404 to non-browser user agents** while rendering fine in a real browser; e.g. Maidstone & Tunbridge Wells / RWF. Escalate to Playwright before concluding the URL has moved. Only treat a 404 as a genuinely dead URL if Playwright (4b) ALSO returns nothing.)
 - It returns content that looks like a cookie banner or nav-only shell (<200 chars after stripping)
 - It returns valid JSON with `meetings: []` AND the org's notes field flags "needs Playwright" or similar
 
