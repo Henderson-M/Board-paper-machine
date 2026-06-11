@@ -1,981 +1,943 @@
 {
- "_format_version": 1,
- "_description": "Papers watchlist: orgs with no future-dated meeting in state. On every /scan-boards run, we still poll their papers/board page so a newly published pack triggers an alert even before we know the meeting date. See SKILL.md Step 7b for the full workflow.",
- "_entry_schema": {
-  "ods_code": "RXG",
-  "papers_url": "URL to scan",
-  "last_checked": "ISO timestamp",
-  "known_files": [
-   {
-    "url": "absolute URL of the PDF",
-    "title": "link text on the page",
-    "first_seen": "ISO timestamp when we first saw this file"
-   }
-  ],
-  "notes": "anything worth remembering about how this org publishes papers"
- },
- "orgs": [
-  {
-   "ods_code": "RRJ",
-   "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
+  "_format_version": 1,
+  "_description": "Papers watchlist: orgs with no future-dated meeting in state. On every /scan-boards run, we still poll their papers/board page so a newly published pack triggers an alert even before we know the meeting date. See SKILL.md Step 7b for the full workflow.",
+  "_entry_schema": {
+    "ods_code": "RXG",
+    "papers_url": "URL to scan",
+    "last_checked": "ISO timestamp",
+    "known_files": [
+      {
+        "url": "absolute URL of the PDF",
+        "title": "link text on the page",
+        "first_seen": "ISO timestamp when we first saw this file"
+      }
+    ],
+    "notes": "anything worth remembering about how this org publishes papers"
+  },
+  "orgs": [
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
-     "title": "01. Meeting Book Trust Board (Public) Website February 2026",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RRJ",
+      "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
+          "title": "01. Meeting Book Trust Board (Public) Website February 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/490-02-meeting-book-trust-board-public-website-april-2026",
+          "title": "02 Meeting Book Trust Board (Public) Website April 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/421-11-meeting-book-trust-board-november-in-public",
+          "title": "11. Meeting Book - Trust Board November (In Public) 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/407-09-meeting-book-trust-board-public-september",
+          "title": "09 Meeting Book Trust Board (Public) September 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/396-07-meeting-book-trust-board-public-july",
+          "title": "07 Meeting Book Trust Board (Public) July 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/389-06-meeting-book-trust-board-public-june",
+          "title": "06 Meeting Book Trust Board (Public) June 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/385-05-meeting-book-trust-board-public-may",
+          "title": "05 Meeting Book Trust Board (Public) May 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/399-04-meeting-book-trust-board-public-april",
+          "title": "04 Meeting Book Trust Board (Public) April 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/397-03-meeting-book-trust-board-public-march-1",
+          "title": "03 Meeting Book Trust Board (Public) March 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/375-01-january-2025-1",
+          "title": "02. February 2025 Meeting Book - Trust Board (Public)",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL \u2014 kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/490-02-meeting-book-trust-board-public-website-april-2026",
-     "title": "02 Meeting Book Trust Board (Public) Website April 2026",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RJ7",
+      "papers_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/8-May-2026-2.pdf",
+          "title": "8 May 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/03/export-2026-03-04-11-26-40.pdf",
+          "title": "05 March 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/01/8-January-2026-2.pdf",
+          "title": "8 January 2026 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/11/6-November-2025.pdf",
+          "title": "6 November 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/09/5-September-2025-1.pdf",
+          "title": "5 September 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/07/3-July-2025.pdf",
+          "title": "3 July 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/08/1-May-2025.pdf",
+          "title": "1 May 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/10/Group-Board-Public-March-2025.pdf",
+          "title": "6 March 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/01/Group-Board-Public-9-January-2025.pdf",
+          "title": "9 January 2025 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Public-7-November-2024-V2.pdf",
+          "title": "7 November 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Meeting-in-Public-5-September-2024-1.pdf",
+          "title": "August 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/07/Group-Board-Papers-July-2024.pdf",
+          "title": "July 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/05/Group-Board-meeting-in-PUBLIC-2-May-2024-final-circulation-002.pdf",
+          "title": "May 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/03/2024-03-08-Group-Board-PUBLIC-MEETING-8-March-2024-updated.pdf",
+          "title": "March 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/01/GESH-Group-Board-January-2024-Agenda-and-Papers.pdf",
+          "title": "January 2024 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Public-Group-Board-Meeting-10-November-2023.pdf",
+          "title": "November 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/09/FINAL-Group-Board-Meeting-PUBLIC-8-September-2023.pdf",
+          "title": "September 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/07/Final-Pack-Public-Board-Meeting-7-July-2023.1.pdf",
+          "title": "July 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/05/Group-Board-Meeting-5-May-2023.pdf",
+          "title": "May 2023 (PDF)",
+          "first_seen": "2026-05-27T16:02:50Z"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 group board dates (8 Jan, 5 Mar, 8 May 2026) with PDFs. Scraper false positive. Bi-monthly group board wi"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/421-11-meeting-book-trust-board-november-in-public",
-     "title": "11. Meeting Book - Trust Board November (In Public) 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RDY",
+      "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
+          "title": "Trust Board - agendas and papers June 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/9017/4963/4140/DHC_April_Part_1_Board_of_Directors_Final_Paper_Pack.pdf",
+          "title": "Trust Board - agendas and papers April 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/5517/4963/4140/DHC_Board_of_Directors_February_2025_Part_1_Boardbook.pdf",
+          "title": "Trust Board - agendas and papers February 2025",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/8517/4963/3967/DHC_Board_of_Directors_-_Agenda_and_Papers_-_Part_1_-_11_December_2024.pdf",
+          "title": "Trust Board - agendas and papers December 2024&nbsp;",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/4317/4963/3985/Trust_board_agenda_and_papers_-_October_2024.pdf",
+          "title": "Trust Board - agendas and papers October 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1917/4963/3967/Combined_Agenda_and_Papers_Board_070824_website_ver_2.pdf",
+          "title": "Trust Board - agendas and papers August 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/4817/4963/3967/Board_Papers_05_June_2024.pdf",
+          "title": "Trust Board - agendas and papers June 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/1617/4963/3966/Board_of_Directors_Papers_-_3_April_2024.pdf",
+          "title": "Trust Board - agendas and papers April 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/application/files/9217/4963/3985/Trust_Board_Agenda_and_Papers_February_2024.pdf",
+          "title": "Trust Board - agendas and papers February 2024",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.england.nhs.uk/wp-content/uploads/2023/03/PRN00191-nhs-provider-licence-v4.pdf",
+          "title": "Read the full licence, with all conditions",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/220fa9ab-01e0-43d6-b9ca-17547b32ed75/282",
+          "title": "Trust Board - Board in Common agendas and papers, April 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/f485351b-0dae-472f-9e09-7b8fb39cb1ae/282",
+          "title": "Trust Board - Board in Common agendas and papers, February 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/33090eb0-c031-4a94-96ee-c63a97815d52/282",
+          "title": "Trust Board - Board in Common December 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/d99a0933-b2b1-4566-b914-dc72ac437d8f/282",
+          "title": "Trust Board - Board in Common - Paper Pack October 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e810bd9b-9c1a-417a-ae03-a6ca1578e52c/282",
+          "title": "Trust Board - agendas and papers August 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/407-09-meeting-book-trust-board-public-september",
-     "title": "09 Meeting Book Trust Board (Public) September 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RTF",
+      "papers_url": "https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3968/875",
+          "title": "Public board papers - May 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3896/875",
+          "title": "Public board papers - March 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3812/875",
+          "title": "Public board papers - January 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3764/875",
+          "title": "Public board papers - November 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3662/875",
+          "title": "Public board papers - September 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3544/875",
+          "title": "Public board papers - July 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3427/875",
+          "title": "Public board papers - May 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3326/875",
+          "title": "Public board papers - March 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.northumbria.nhs.uk/download_file/3167/875",
+          "title": "Public board papers - January 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] Low-confidence URL \u2014 kept as-is. Reason: Current page does list at least one upcoming date (Thu 21 May 2026, 10am, Health and Care Academy). No alternative dates page found on Northumbria"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/396-07-meeting-book-trust-board-public-july",
-     "title": "07 Meeting Book Trust Board (Public) July 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RJN",
+      "papers_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/4717/4982/6163/Public_Trust_Board_Agenda_and_supporting_papers_-_May_2025_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/3917/3745/3860/Public_Trust_Board_Agenda_and_supporting_papers_-_January_2025_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/1717/3158/7198/Public_Trust_Board_-_November_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5617/2019/3007/Public_Trust_Board_-_July_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1518/3549/Public_Trust_Board_-_May_2024_-_Agenda_and_Supporting_papers_Numbered_FINAL.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1775/6483/Public_Trust_Board_-_March_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/8017/0609/1265/Public_Trust_Board_-_January_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/4217/0565/6653/Public_Trust_Board_-_2nd_November_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/7316/9442/1351/Public_Trust_Board_-_6th_September_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/2516/8873/2030/Public_Trust_Board_-_6th_July_2023_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/9916/5166/7332/02_-_Public_Board_Agenda_and_Papers_May_2022_Website_Version_V2_Numbered.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/5516/4338/5592/Public_Trust_Board_Agenda_and_Papers_-_December_2021_Website_v4_Numbered_1.pdf",
+          "title": "Agenda and papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/6516/0218/0812/trust_board_agenda_and_papers_01-10-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/5116/0218/0809/trust_board_agenda_and_papers_03-09-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://extranet.eastcheshire.nhs.uk/application/files/8916/0218/0811/trust_board_agenda_and_papers_02-07-20.pdf",
+          "title": "Agenda and Papers",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://trust.eastcheshire.nhs.uk/application/files/9217/6797/5303/26.018_Emergency_Preparedness_Response_and_Resilience_-_Annual_Assurance_Report.pdf",
+          "title": "Emergency Preparedness, Response and Resilience \u2013 Annual Assurance Report",
+          "first_seen": "2026-05-27T16:02:50Z"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/download_file/20646/328",
+          "title": "Public Trust Board Agenda and Papers May 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Trust Board - March 2026 - Agenda and Supporting Papers",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/download_file/view/20290/328",
+          "title": "Trust Board - January 2026 - Agenda and Papers",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Public Trust Board - November 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Public Trust Board - September 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
+          "title": "Public Trust Board - July 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: Meetings subpage on the new trust.eastcheshire.nhs.uk subdomain shows Thursday 7 May 2026 board meeting and links to public trust board agenda and papers. The original URL po"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/389-06-meeting-book-trust-board-public-june",
-     "title": "06 Meeting Book Trust Board (Public) June 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RW5",
+      "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3486/1439",
+          "title": "Public Board of Directors Meeting Papers - 05.02.26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3544/1439",
+          "title": "Board of Directors Public Meeting Pack - 05 03 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3575/1439",
+          "title": "Board of Directors Public Meeting Papers - 02.04.2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3619/1439",
+          "title": "Board of Directors Public Board Meeting Papers - 07.05.2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3731/1439",
+          "title": "Public Board of Directors Meeting Papers - 04.06.2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3411/1439",
+          "title": "Board of Directors Public Meeting Pack - 04.12.25",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3365/1439",
+          "title": "Board of Directors Public Meeting Pack - 06.11.25",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3247/1439",
+          "title": "Board of Directors Public Meeting Pack - 02.10.25",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3149/1439",
+          "title": "Board of Directors Public Meeting Pack - 04.09.25",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lscft.nhs.uk/download_file/3061/1439",
+          "title": "Board of Directors Public Meeting Pack - 03.07.25",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Page actually lists at least 4 dated 2026 board meetings (5 Feb, 5 Mar, 2 Apr, 7 May 2026) via the document titles. False positi"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/385-05-meeting-book-trust-board-public-may",
-     "title": "05 Meeting Book Trust Board (Public) May 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RXA",
+      "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [],
+      "notes": "[2026-05-27] URL updated: WebFetch returned 404 for trailing-slash URL. Site search confirms /our-board sub-page is canonical for board meetings. Board meets last Wednesday of each month; papers publi"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/399-04-meeting-book-trust-board-public-april",
-     "title": "04 Meeting Book Trust Board (Public) April 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "RXN",
+      "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a1856c80c0176.47427306",
+          "title": "Board of Directors Part I Main Pack - 4 June 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a18593e48e5a2.75242298",
+          "title": "Board of Directors Part I Ancillary Papers - 4 June 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69c564ce0d2c72.02573810",
+          "title": "Board of Directors Part I Ancillary Pack - 2 April 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69c563ded10977.83954757",
+          "title": "Board of Directors Part I Board Pack - 2 April 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-697cb9bac6b670.23459549",
+          "title": "Board Papers 5th February 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-697cba171e3b54.58306013",
+          "title": "Board Ancillary Pack 5th February 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69414930bee328.83128400",
+          "title": "Board of Directors Meeting 3 June 2025 - Main Pack",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6836fa4daeba73.56055005",
+          "title": "Board of Directors Meeting 3rd June 2025 - Ancillary Pack",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-692881c1e4dd11.22073483",
+          "title": "Board Papers 4th December 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-692882060ae8b0.79711431",
+          "title": "Board Ancillary Pack 4th December 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-68d6c04ea2ed33.32095317",
+          "title": "Board Papers 2nd October 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-68d6c2596a79f3.44205440",
+          "title": "Board Ancillary October 2nd 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-688cbe674c9543.18429756",
+          "title": "Board of Directors Meeting - 7 August 2025 - Ancillary Pack",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-688cbecb7cd389.78563475",
+          "title": "Board of Directors Meeting - 7 August 2025 - Main Pack",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-679cff87e2e396.73410614",
+          "title": "Board of Directors Meeting 6 February 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67e69da6448949.56894769",
+          "title": "Board of Directors Meeting 3 April 2025",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6749dcc6d2fb18.03685225",
+          "title": "Board of Directors Meeting - 5 December 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66f6bd089c1ff6.69860154",
+          "title": "Board of Directors - 3rd October 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723aa1e61f3c7.51081577",
+          "title": "Board of Directors - 1st August 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723a9d49db391.55593541",
+          "title": "Board of Directors - 6th June 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d19e0045f3d8.96257293",
+          "title": "Board of Directors - 4th April 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d199b392f704.80051389",
+          "title": "Board of Directors - 1st February 2024",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d198dde85d48.19636286",
+          "title": "Board of Directors - 7th December 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d197b79f73a9.91112925",
+          "title": "Board of Directors - 5th October 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d080425b0ed3.12633111",
+          "title": "Board of Directors - 3rd August 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723706b9a0b36.63187468",
+          "title": "Board of Directors - 6th April 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67236fd28f8245.79278736",
+          "title": "Board of Directors - 2nd February 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67236efa819c77.09089419",
+          "title": "Board of Directors - 1st June 2023",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: The board-meetings-and-papers page shows the next meeting date (2 April 2026) and downloadable packs. Only one date visible at a time. (MEDIUM-confidence fix \u2014 verify on next"
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/397-03-meeting-book-trust-board-public-march-1",
-     "title": "03 Meeting Book Trust Board (Public) March 2025",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "QYG",
+      "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
+          "title": "ICB Board meeting pack - 28 May 2026 (public)",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.cheshireandmerseyside.nhs.uk/media/rsol0u3e/cmicb-march2025-board-papers-publicv5_compressed.pdf",
+          "title": "ICB Board papers - 26 March 2026 (public)",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.cheshireandmerseyside.nhs.uk/media/fbql55jh/290126-cm-icb-board-papers-full-pack-v2.pdf",
+          "title": "ICB Board papers full pack - 29 January 2026",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "[2026-05-27] URL updated: Parent page has year folders only (looks empty without JS). Year-specific child page lists 2026 board meetings: 29 January and 26 March 2026 confirmed. Each year has its own "
     },
     {
-     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2025-board-papers/375-01-january-2025-1",
-     "title": "02. February 2025 Meeting Book - Trust Board (Public)",
-     "first_seen": "2026-06-09T19:04:38"
+      "ods_code": "QWU",
+      "papers_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2020%20May%2026.pdf",
+          "title": "Agenda 00 Public Board 20 May 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20ICB%20Public%20Board%20draft%20minutes%2018%20March%2026.pdf",
+          "title": "Agenda 05 ICB Public Board draft minutes 18 March 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report%20V2.pdf",
+          "title": "Agenda 08 CEO report V2",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20Spotlight%20Children%20%26%20Young%20People.pdf",
+          "title": "Agenda 09 Spotlight Children & Young People",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20Delivery%20%26%20Quality%20Report.pdf",
+          "title": "Agenda 10 Delivery & Quality Report",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20Financial%20Plan%20%26%20Delilvery.pdf",
+          "title": "Agenda 11 Financial Plan & Delilvery",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20Risk%2C%20Corp%20Objectives%20%26%20BAF.pdf",
+          "title": "Agenda 12 Risk, Corp Objectives & BAF",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20Cttee%20Escalation%20%26%20Assurance.pdf",
+          "title": "Agenda 13 Cttee Escalation & Assurance",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2020%20Sept%202023%20CWICB%20meeting%20v3.pdf",
+          "title": "Full set of papers for the 20 Sept 2023 CWICB meeting v3",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20Papers%20for%20the%2015%20May%202024%20CWICB%20board%20meeting%20v2.pdf",
+          "title": "Full set of Papers for the 15 May 2024 CWICB board meeting v2",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Meeting%20Papers%2017%20July%202024%20compressed.pdf",
+          "title": "Meeting Papers 17 July 2024 compressed",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Meeting%20Papers%2017%20July%202024%20pt3%20compressed.pdf",
+          "title": "Meeting Papers 17 July 2024 pt3 compressed",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2018%20Sept%202024%20CWICB%20Board%20meeting.pdf",
+          "title": "Full set of papers for the 18 Sept 2024 CWICB Board meeting",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers%20for%2015%20January%202025_NHS%20Coventry%20and%20Warwickshire%20Integrated%20Care%20Board%20meeting_Complete%20pack.pdf",
+          "title": "Papers for 15 January 2025_NHS Coventry and Warwickshire Integrated Care Board meeting_Complete pack",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2019%20March%202025%20CWICB%20Board%20meeting%20-%20latest%20version%20issued%2014_50%2018_3_25.pdf",
+          "title": "Full set of papers for the 19 March 2025 CWICB Board meeting - latest version issued 14_50 18_3_25",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20Papers%20for%20the%2021%20May%202025%20CWICB%20Board%20meeting%20100625.pdf",
+          "title": "Full set of Papers for the 21 May 2025 CWICB Board meeting 100625",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Final%20papers%20for%20160725%20CWICB%20Board%20meeting%20FV.pdf",
+          "title": "Final papers for 160725 CWICB Board meeting FV",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers_for_the_17_Sept_2025_CWICB_Board_meeting_v3a.pdf",
+          "title": "Papers_for_the_17_Sept_2025_CWICB_Board_meeting_v3a",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers%20for%20the%2019%20Nov%202025%20CWICB%20Board%20meeting%20FV.pdf",
+          "title": "Papers for the 19 Nov 2025 CWICB Board meeting FV",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2021%20Jan%2026%20Agenda%20FINAL.pdf",
+          "title": "Agenda 00 Public Board 21 Jan 26 Agenda FINAL",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005i%20CWICB%20Minutes%2019%20Nov%202025%20draft%20chair%20approved.pdf",
+          "title": "Agenda 05i CWICB Minutes 19 Nov 2025 draft chair approved",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005ii%20HWICB%20Public%20Board%20Mtg%2019%20Nov%2025%20draft%20notes%20chair%20approved.pdf",
+          "title": "Agenda 05ii HWICB Public Board Mtg 19 Nov 25 draft notes chair approved",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report.docx.pdf",
+          "title": "Agenda 08 CEO report.docx",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20CW%20HW%20Neighbourhood%20Health%20CWHW%20Report%20v1_6.pdf",
+          "title": "Agenda 09 CW HW Neighbourhood Health CWHW Report v1_6",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20CWHW%20Delivery%20%26%20Quality%20Report%20FINAL.pdf",
+          "title": "Agenda 10 CWHW Delivery & Quality Report FINAL",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20CWHW%20Public%20Board%20Finance%20Summary.pdf",
+          "title": "Agenda 11 CWHW Public Board Finance Summary",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20HW%20ICB%20Committee%20Escalation.pdf",
+          "title": "Agenda 14 HW ICB Committee Escalation",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2015%20CWHW%20BAF%20Report.pdf",
+          "title": "Agenda 15 CWHW BAF Report",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2018%20March%2026.pdf",
+          "title": "Agenda 00 Public Board 18 March 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20Board%20Notes%2021%20Jan%2026.pdf",
+          "title": "Agenda 05 Board Notes 21 Jan 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%205yr%20SCP%20Cover%20Report.pdf",
+          "title": "Agenda 09 5yr SCP Cover Report",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20PPA.pdf",
+          "title": "Agenda 11 PPA",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20CWHW%20Delivery%20%20Quality%20Report%20final.pdf",
+          "title": "Agenda 12 CWHW Delivery  Quality Report final",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%205%20Year%20Strat%20Comm%20Plan%20summary%20presentation.pdf",
+          "title": "Agenda 09 5 Year Strat Comm Plan summary presentation",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20Finance%20Plan%20%26%20Delivery%202025-26.pdf",
+          "title": "Agenda 13 Finance Plan & Delivery 2025-26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20Cluster%20Governance%20update.pdf",
+          "title": "Agenda 14 Cluster Governance update",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2015%20Committee%20Escalation.pdf",
+          "title": "Agenda 15 Committee Escalation",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2016%20Business%20Assurance%20Framework.pdf",
+          "title": "Agenda 16 Business Assurance Framework",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "Joint Board Meeting in Common with Herefordshire and Worcestershire (QGH) | [2026-05-27] URL confirmed canonical but scraper returns empty. Likely Cloudflare/UA block on WebFetch \u2014 needs Playwright. R"
+    },
+    {
+      "ods_code": "QGH",
+      "papers_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [
+        {
+          "url": "https://www.hwics.org.uk/download_file/5435/414",
+          "title": "Agenda 00 Public Board 20 May 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5437/414",
+          "title": "Agenda 05 ICB Public Board draft minutes 18 March 26",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5438/414",
+          "title": "Agenda 08 CEO report",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5439/414",
+          "title": "Agenda 09 Spotlight Children & Young People",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5440/414",
+          "title": "Agenda 10 Delivery & Quality Report",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5441/414",
+          "title": "Agenda 11 Financial Plan & Delivery",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5442/414",
+          "title": "Agenda 12 Risk, Corp Objectives & BAF",
+          "first_seen": "2026-06-09T19:04:38"
+        },
+        {
+          "url": "https://www.hwics.org.uk/download_file/5443/414",
+          "title": "Agenda 13 Cttee Escalation & Assurance",
+          "first_seen": "2026-06-09T19:04:38"
+        }
+      ],
+      "notes": "Joint Board Meeting in Common with Coventry and Warwickshire (QWU); papers hosted on both happyhealthylives.uk and hwics.org.uk | [2026-05-27] URL updated: Parent /meetings page lists upcoming dates ("
+    },
+    {
+      "ods_code": "S1Y5D",
+      "papers_url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
+      "last_checked": "2026-06-09T19:04:38",
+      "known_files": [],
+      "notes": "Formed 1 April 2026 from merger of Bedfordshire, Luton and Milton Keynes (QHG, bedfordshirelutonandmiltonkeynes.icb.nhs.uk), Cambridgeshire and Peterborough (QUE, cpics.org.uk), and Hertfordshire and "
     }
-   ],
-   "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo"
-  },
-  {
-   "ods_code": "RJ7",
-   "papers_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/05/8-May-2026-2.pdf",
-     "title": "8 May 2026 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/03/export-2026-03-04-11-26-40.pdf",
-     "title": "05 March 2026 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/01/8-January-2026-2.pdf",
-     "title": "8 January 2026 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/11/6-November-2025.pdf",
-     "title": "6 November 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/09/5-September-2025-1.pdf",
-     "title": "5 September 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/07/3-July-2025.pdf",
-     "title": "3 July 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/08/1-May-2025.pdf",
-     "title": "1 May 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/10/Group-Board-Public-March-2025.pdf",
-     "title": "6 March 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2025/01/Group-Board-Public-9-January-2025.pdf",
-     "title": "9 January 2025 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Public-7-November-2024-V2.pdf",
-     "title": "7 November 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Group-Board-Meeting-in-Public-5-September-2024-1.pdf",
-     "title": "August 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/07/Group-Board-Papers-July-2024.pdf",
-     "title": "July 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/05/Group-Board-meeting-in-PUBLIC-2-May-2024-final-circulation-002.pdf",
-     "title": "May 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/03/2024-03-08-Group-Board-PUBLIC-MEETING-8-March-2024-updated.pdf",
-     "title": "March 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2024/01/GESH-Group-Board-January-2024-Agenda-and-Papers.pdf",
-     "title": "January 2024 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/11/Public-Group-Board-Meeting-10-November-2023.pdf",
-     "title": "November 2023 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/09/FINAL-Group-Board-Meeting-PUBLIC-8-September-2023.pdf",
-     "title": "September 2023 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/07/Final-Pack-Public-Board-Meeting-7-July-2023.1.pdf",
-     "title": "July 2023 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/05/Group-Board-Meeting-5-May-2023.pdf",
-     "title": "May 2023 (PDF)",
-     "first_seen": "2026-05-27T16:02:50Z"
-    }
-   ],
-   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 group board dates (8 Jan, 5 Mar, 8 May 2026) with PDFs. Scraper false positive. Bi-monthly group board wi"
-  },
-  {
-   "ods_code": "RDY",
-   "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
-     "title": "Trust Board - agendas and papers June 2025",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9017/4963/4140/DHC_April_Part_1_Board_of_Directors_Final_Paper_Pack.pdf",
-     "title": "Trust Board - agendas and papers April 2025",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/5517/4963/4140/DHC_Board_of_Directors_February_2025_Part_1_Boardbook.pdf",
-     "title": "Trust Board - agendas and papers February 2025",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/8517/4963/3967/DHC_Board_of_Directors_-_Agenda_and_Papers_-_Part_1_-_11_December_2024.pdf",
-     "title": "Trust Board - agendas and papers December 2024&nbsp;",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4317/4963/3985/Trust_board_agenda_and_papers_-_October_2024.pdf",
-     "title": "Trust Board - agendas and papers October 2024",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1917/4963/3967/Combined_Agenda_and_Papers_Board_070824_website_ver_2.pdf",
-     "title": "Trust Board - agendas and papers August 2024",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4817/4963/3967/Board_Papers_05_June_2024.pdf",
-     "title": "Trust Board - agendas and papers June 2024",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1617/4963/3966/Board_of_Directors_Papers_-_3_April_2024.pdf",
-     "title": "Trust Board - agendas and papers April 2024",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9217/4963/3985/Trust_Board_Agenda_and_Papers_February_2024.pdf",
-     "title": "Trust Board - agendas and papers February 2024",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.england.nhs.uk/wp-content/uploads/2023/03/PRN00191-nhs-provider-licence-v4.pdf",
-     "title": "Read the full licence, with all conditions",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/220fa9ab-01e0-43d6-b9ca-17547b32ed75/282",
-     "title": "Trust Board - Board in Common agendas and papers, April 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/f485351b-0dae-472f-9e09-7b8fb39cb1ae/282",
-     "title": "Trust Board - Board in Common agendas and papers, February 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/33090eb0-c031-4a94-96ee-c63a97815d52/282",
-     "title": "Trust Board - Board in Common December 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/d99a0933-b2b1-4566-b914-dc72ac437d8f/282",
-     "title": "Trust Board - Board in Common - Paper Pack October 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e810bd9b-9c1a-417a-ae03-a6ca1578e52c/282",
-     "title": "Trust Board - agendas and papers August 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc"
-  },
-  {
-   "ods_code": "RTF",
-   "papers_url": "https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3968/875",
-     "title": "Public board papers - May 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3896/875",
-     "title": "Public board papers - March 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3812/875",
-     "title": "Public board papers - January 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3764/875",
-     "title": "Public board papers - November 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3662/875",
-     "title": "Public board papers - September 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3544/875",
-     "title": "Public board papers - July 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3427/875",
-     "title": "Public board papers - May 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3326/875",
-     "title": "Public board papers - March 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.northumbria.nhs.uk/download_file/3167/875",
-     "title": "Public board papers - January 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current page does list at least one upcoming date (Thu 21 May 2026, 10am, Health and Care Academy). No alternative dates page found on Northumbria"
-  },
-  {
-   "ods_code": "RJN",
-   "papers_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/4717/4982/6163/Public_Trust_Board_Agenda_and_supporting_papers_-_May_2025_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/3917/3745/3860/Public_Trust_Board_Agenda_and_supporting_papers_-_January_2025_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/1717/3158/7198/Public_Trust_Board_-_November_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5617/2019/3007/Public_Trust_Board_-_July_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1518/3549/Public_Trust_Board_-_May_2024_-_Agenda_and_Supporting_papers_Numbered_FINAL.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1775/6483/Public_Trust_Board_-_March_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/8017/0609/1265/Public_Trust_Board_-_January_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/4217/0565/6653/Public_Trust_Board_-_2nd_November_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7316/9442/1351/Public_Trust_Board_-_6th_September_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/2516/8873/2030/Public_Trust_Board_-_6th_July_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/9916/5166/7332/02_-_Public_Board_Agenda_and_Papers_May_2022_Website_Version_V2_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5516/4338/5592/Public_Trust_Board_Agenda_and_Papers_-_December_2021_Website_v4_Numbered_1.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/6516/0218/0812/trust_board_agenda_and_papers_01-10-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/5116/0218/0809/trust_board_agenda_and_papers_03-09-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/8916/0218/0811/trust_board_agenda_and_papers_02-07-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/9217/6797/5303/26.018_Emergency_Preparedness_Response_and_Resilience_-_Annual_Assurance_Report.pdf",
-     "title": "Emergency Preparedness, Response and Resilience – Annual Assurance Report",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/20646/328",
-     "title": "Public Trust Board Agenda and Papers May 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Trust Board - March 2026 - Agenda and Supporting Papers",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/20290/328",
-     "title": "Trust Board - January 2026 - Agenda and Papers",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - November 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - September 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - July 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL updated: Meetings subpage on the new trust.eastcheshire.nhs.uk subdomain shows Thursday 7 May 2026 board meeting and links to public trust board agenda and papers. The original URL po"
-  },
-  {
-   "ods_code": "RW5",
-   "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3486/1439",
-     "title": "Public Board of Directors Meeting Papers - 05.02.26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3544/1439",
-     "title": "Board of Directors Public Meeting Pack - 05 03 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3575/1439",
-     "title": "Board of Directors Public Meeting Papers - 02.04.2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3619/1439",
-     "title": "Board of Directors Public Board Meeting Papers - 07.05.2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3731/1439",
-     "title": "Public Board of Directors Meeting Papers - 04.06.2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3411/1439",
-     "title": "Board of Directors Public Meeting Pack - 04.12.25",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3365/1439",
-     "title": "Board of Directors Public Meeting Pack - 06.11.25",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3247/1439",
-     "title": "Board of Directors Public Meeting Pack - 02.10.25",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3149/1439",
-     "title": "Board of Directors Public Meeting Pack - 04.09.25",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lscft.nhs.uk/download_file/3061/1439",
-     "title": "Board of Directors Public Meeting Pack - 03.07.25",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Page actually lists at least 4 dated 2026 board meetings (5 Feb, 5 Mar, 2 Apr, 7 May 2026) via the document titles. False positi"
-  },
-  {
-   "ods_code": "RXA",
-   "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [],
-   "notes": "[2026-05-27] URL updated: WebFetch returned 404 for trailing-slash URL. Site search confirms /our-board sub-page is canonical for board meetings. Board meets last Wednesday of each month; papers publi"
-  },
-  {
-   "ods_code": "RXN",
-   "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a1856c80c0176.47427306",
-     "title": "Board of Directors Part I Main Pack - 4 June 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a18593e48e5a2.75242298",
-     "title": "Board of Directors Part I Ancillary Papers - 4 June 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69c564ce0d2c72.02573810",
-     "title": "Board of Directors Part I Ancillary Pack - 2 April 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69c563ded10977.83954757",
-     "title": "Board of Directors Part I Board Pack - 2 April 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-697cb9bac6b670.23459549",
-     "title": "Board Papers 5th February 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-697cba171e3b54.58306013",
-     "title": "Board Ancillary Pack 5th February 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-69414930bee328.83128400",
-     "title": "Board of Directors Meeting 3 June 2025 - Main Pack",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6836fa4daeba73.56055005",
-     "title": "Board of Directors Meeting 3rd June 2025 - Ancillary Pack",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-692881c1e4dd11.22073483",
-     "title": "Board Papers 4th December 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-692882060ae8b0.79711431",
-     "title": "Board Ancillary Pack 4th December 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-68d6c04ea2ed33.32095317",
-     "title": "Board Papers 2nd October 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-68d6c2596a79f3.44205440",
-     "title": "Board Ancillary October 2nd 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-688cbe674c9543.18429756",
-     "title": "Board of Directors Meeting - 7 August 2025 - Ancillary Pack",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-688cbecb7cd389.78563475",
-     "title": "Board of Directors Meeting - 7 August 2025 - Main Pack",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-679cff87e2e396.73410614",
-     "title": "Board of Directors Meeting 6 February 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67e69da6448949.56894769",
-     "title": "Board of Directors Meeting 3 April 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6749dcc6d2fb18.03685225",
-     "title": "Board of Directors Meeting - 5 December 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66f6bd089c1ff6.69860154",
-     "title": "Board of Directors - 3rd October 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723aa1e61f3c7.51081577",
-     "title": "Board of Directors - 1st August 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723a9d49db391.55593541",
-     "title": "Board of Directors - 6th June 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d19e0045f3d8.96257293",
-     "title": "Board of Directors - 4th April 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d199b392f704.80051389",
-     "title": "Board of Directors - 1st February 2024",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d198dde85d48.19636286",
-     "title": "Board of Directors - 7th December 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d197b79f73a9.91112925",
-     "title": "Board of Directors - 5th October 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-66d080425b0ed3.12633111",
-     "title": "Board of Directors - 3rd August 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6723706b9a0b36.63187468",
-     "title": "Board of Directors - 6th April 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67236fd28f8245.79278736",
-     "title": "Board of Directors - 2nd February 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-67236efa819c77.09089419",
-     "title": "Board of Directors - 1st June 2023",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL updated: The board-meetings-and-papers page shows the next meeting date (2 April 2026) and downloadable packs. Only one date visible at a time. (MEDIUM-confidence fix — verify on next"
-  },
-  {
-   "ods_code": "RY7",
-   "papers_url": "https://www.wchc.nhs.uk/about/board-governors/board-meetings-papers/",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/group-board-of-directors-in-public-wednesday-3-june-2026/",
-     "title": "Group Board of Directors in Public - Wednesday 3 June 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/group-board-of-directors-in-public-wednesday-1-april-2026/",
-     "title": "Group Board of Directors in Public - Wednesday 1 April 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/public-board-of-directors-meeting-wednesday-28-january-2026/",
-     "title": "Public Board of Directors Meeting - Wednesday 28 January 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/public-board-of-directors-meeting-wednesday-3-december-2025/",
-     "title": "Public Board of Directors Meeting - Wednesday 3 December 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/public-board-of-directors-meeting-wednesday-5-november-2025/",
-     "title": "Public Board of Directors Meeting - Wednesday 5 November 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.wchc.nhs.uk/about/publications/public-board-of-directors-meeting-wednesday-1-october-2025/",
-     "title": "Public Board of Directors meeting - Wednesday 1 October 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL does show one upcoming Group Board of Directors meeting (Wednesday 1 April 2026) plus historical dated entries. Just"
-  },
-  {
-   "ods_code": "QYG",
-   "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
-     "title": "ICB Board meeting pack - 28 May 2026 (public)",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.cheshireandmerseyside.nhs.uk/media/rsol0u3e/cmicb-march2025-board-papers-publicv5_compressed.pdf",
-     "title": "ICB Board papers - 26 March 2026 (public)",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.cheshireandmerseyside.nhs.uk/media/fbql55jh/290126-cm-icb-board-papers-full-pack-v2.pdf",
-     "title": "ICB Board papers full pack - 29 January 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "[2026-05-27] URL updated: Parent page has year folders only (looks empty without JS). Year-specific child page lists 2026 board meetings: 29 January and 26 March 2026 confirmed. Each year has its own "
-  },
-  {
-   "ods_code": "QWU",
-   "papers_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2020%20May%2026.pdf",
-     "title": "Agenda 00 Public Board 20 May 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20ICB%20Public%20Board%20draft%20minutes%2018%20March%2026.pdf",
-     "title": "Agenda 05 ICB Public Board draft minutes 18 March 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report%20V2.pdf",
-     "title": "Agenda 08 CEO report V2",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20Spotlight%20Children%20%26%20Young%20People.pdf",
-     "title": "Agenda 09 Spotlight Children & Young People",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20Delivery%20%26%20Quality%20Report.pdf",
-     "title": "Agenda 10 Delivery & Quality Report",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20Financial%20Plan%20%26%20Delilvery.pdf",
-     "title": "Agenda 11 Financial Plan & Delilvery",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20Risk%2C%20Corp%20Objectives%20%26%20BAF.pdf",
-     "title": "Agenda 12 Risk, Corp Objectives & BAF",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20Cttee%20Escalation%20%26%20Assurance.pdf",
-     "title": "Agenda 13 Cttee Escalation & Assurance",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2020%20Sept%202023%20CWICB%20meeting%20v3.pdf",
-     "title": "Full set of papers for the 20 Sept 2023 CWICB meeting v3",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20Papers%20for%20the%2015%20May%202024%20CWICB%20board%20meeting%20v2.pdf",
-     "title": "Full set of Papers for the 15 May 2024 CWICB board meeting v2",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Meeting%20Papers%2017%20July%202024%20compressed.pdf",
-     "title": "Meeting Papers 17 July 2024 compressed",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Meeting%20Papers%2017%20July%202024%20pt3%20compressed.pdf",
-     "title": "Meeting Papers 17 July 2024 pt3 compressed",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2018%20Sept%202024%20CWICB%20Board%20meeting.pdf",
-     "title": "Full set of papers for the 18 Sept 2024 CWICB Board meeting",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers%20for%2015%20January%202025_NHS%20Coventry%20and%20Warwickshire%20Integrated%20Care%20Board%20meeting_Complete%20pack.pdf",
-     "title": "Papers for 15 January 2025_NHS Coventry and Warwickshire Integrated Care Board meeting_Complete pack",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20papers%20for%20the%2019%20March%202025%20CWICB%20Board%20meeting%20-%20latest%20version%20issued%2014_50%2018_3_25.pdf",
-     "title": "Full set of papers for the 19 March 2025 CWICB Board meeting - latest version issued 14_50 18_3_25",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Full%20set%20of%20Papers%20for%20the%2021%20May%202025%20CWICB%20Board%20meeting%20100625.pdf",
-     "title": "Full set of Papers for the 21 May 2025 CWICB Board meeting 100625",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Final%20papers%20for%20160725%20CWICB%20Board%20meeting%20FV.pdf",
-     "title": "Final papers for 160725 CWICB Board meeting FV",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers_for_the_17_Sept_2025_CWICB_Board_meeting_v3a.pdf",
-     "title": "Papers_for_the_17_Sept_2025_CWICB_Board_meeting_v3a",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Papers%20for%20the%2019%20Nov%202025%20CWICB%20Board%20meeting%20FV.pdf",
-     "title": "Papers for the 19 Nov 2025 CWICB Board meeting FV",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2021%20Jan%2026%20Agenda%20FINAL.pdf",
-     "title": "Agenda 00 Public Board 21 Jan 26 Agenda FINAL",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005i%20CWICB%20Minutes%2019%20Nov%202025%20draft%20chair%20approved.pdf",
-     "title": "Agenda 05i CWICB Minutes 19 Nov 2025 draft chair approved",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005ii%20HWICB%20Public%20Board%20Mtg%2019%20Nov%2025%20draft%20notes%20chair%20approved.pdf",
-     "title": "Agenda 05ii HWICB Public Board Mtg 19 Nov 25 draft notes chair approved",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report.docx.pdf",
-     "title": "Agenda 08 CEO report.docx",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20CW%20HW%20Neighbourhood%20Health%20CWHW%20Report%20v1_6.pdf",
-     "title": "Agenda 09 CW HW Neighbourhood Health CWHW Report v1_6",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20CWHW%20Delivery%20%26%20Quality%20Report%20FINAL.pdf",
-     "title": "Agenda 10 CWHW Delivery & Quality Report FINAL",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20CWHW%20Public%20Board%20Finance%20Summary.pdf",
-     "title": "Agenda 11 CWHW Public Board Finance Summary",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20HW%20ICB%20Committee%20Escalation.pdf",
-     "title": "Agenda 14 HW ICB Committee Escalation",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2015%20CWHW%20BAF%20Report.pdf",
-     "title": "Agenda 15 CWHW BAF Report",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2018%20March%2026.pdf",
-     "title": "Agenda 00 Public Board 18 March 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20Board%20Notes%2021%20Jan%2026.pdf",
-     "title": "Agenda 05 Board Notes 21 Jan 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%205yr%20SCP%20Cover%20Report.pdf",
-     "title": "Agenda 09 5yr SCP Cover Report",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20PPA.pdf",
-     "title": "Agenda 11 PPA",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20CWHW%20Delivery%20%20Quality%20Report%20final.pdf",
-     "title": "Agenda 12 CWHW Delivery  Quality Report final",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%205%20Year%20Strat%20Comm%20Plan%20summary%20presentation.pdf",
-     "title": "Agenda 09 5 Year Strat Comm Plan summary presentation",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20Finance%20Plan%20%26%20Delivery%202025-26.pdf",
-     "title": "Agenda 13 Finance Plan & Delivery 2025-26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20Cluster%20Governance%20update.pdf",
-     "title": "Agenda 14 Cluster Governance update",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2015%20Committee%20Escalation.pdf",
-     "title": "Agenda 15 Committee Escalation",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2016%20Business%20Assurance%20Framework.pdf",
-     "title": "Agenda 16 Business Assurance Framework",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "Joint Board Meeting in Common with Herefordshire and Worcestershire (QGH) | [2026-05-27] URL confirmed canonical but scraper returns empty. Likely Cloudflare/UA block on WebFetch — needs Playwright. R"
-  },
-  {
-   "ods_code": "QGH",
-   "papers_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [
-    {
-     "url": "https://www.hwics.org.uk/download_file/5435/414",
-     "title": "Agenda 00 Public Board 20 May 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5437/414",
-     "title": "Agenda 05 ICB Public Board draft minutes 18 March 26",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5438/414",
-     "title": "Agenda 08 CEO report",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5439/414",
-     "title": "Agenda 09 Spotlight Children & Young People",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5440/414",
-     "title": "Agenda 10 Delivery & Quality Report",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5441/414",
-     "title": "Agenda 11 Financial Plan & Delivery",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5442/414",
-     "title": "Agenda 12 Risk, Corp Objectives & BAF",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.hwics.org.uk/download_file/5443/414",
-     "title": "Agenda 13 Cttee Escalation & Assurance",
-     "first_seen": "2026-06-09T19:04:38"
-    }
-   ],
-   "notes": "Joint Board Meeting in Common with Coventry and Warwickshire (QWU); papers hosted on both happyhealthylives.uk and hwics.org.uk | [2026-05-27] URL updated: Parent /meetings page lists upcoming dates ("
-  },
-  {
-   "ods_code": "S1Y5D",
-   "papers_url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
-   "last_checked": "2026-06-09T19:04:38",
-   "known_files": [],
-   "notes": "Formed 1 April 2026 from merger of Bedfordshire, Luton and Milton Keynes (QHG, bedfordshirelutonandmiltonkeynes.icb.nhs.uk), Cambridgeshire and Peterborough (QUE, cpics.org.uk), and Hertfordshire and "
-  }
- ]
+  ]
 }

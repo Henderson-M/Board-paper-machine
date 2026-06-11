@@ -1,3 +1,59 @@
+## 2026-06-11 (afternoon session, Dave + Claude)
+
+### Headline
+Full sweep across all in-scope orgs with --live-emails. 24 new meeting dates added, 6 board packs analysed and sent as PAPERS alerts. 16 live emails delivered (10 date alerts + 6 papers alerts) to all relevant correspondents.
+
+### What changed
+
+**1. Date sweep (Wave 2).** 6 parallel agents scanned 227 cluster-deduped orgs across the next 12 months. 24 new meeting entries added (state now 922 meetings, up from 898). New meetings by correspondent:
+  - Alison: 2 new (2026-07-30 RXY, 2026-09-17 RYR)
+  - Caitlin: 1 new (2026-07-01 RJC)
+  - Ella: 5 new (2026-07-09 RQY, 2026-07-16 RJZ, 2026-09-10 RQY, 2026-09-30 RYX, 2026-11-12 RQY)
+  - Emily: 3 new (2026-08-01 R1L, 2026-10-01 R1L, 2026-12-01 R1L)
+  - Henry: 1 new (2026-07-01 RFR)
+  - James: 1 new (2026-09-16 RYC)
+  - Joe: 3 new (2026-06-15 QOX, 2026-06-15 QVV, 2026-06-17 RBD)
+  - Matt Discombe: 4 new (2026-07-31 RQX, 2026-09-30 RQX, 2026-11-30 RQX, 2027-01-27 Z9B2Z)
+  - Matt Mathers: 3 new (2026-07-22 RTF, 2026-09-24 RTF, 2026-11-26 RTF)
+  - Zoe: 1 new (2026-06-03 RY7)
+
+**2. Pack detection (Wave 1).** 3 parallel agents checked the 18 in-window meetings + 13 watchlist orgs. 7 new pack files across 5 meetings detected.
+  - RNS Northampton (joint UHN pack dated 11 June, scan-board input had 9 June - discrepancy flagged in summary header)
+  - QWO West Yorkshire ICB (agenda + 25-26 Annual Report and Accounts)
+  - Z9B2Z West & North London ICB (agenda + 26-27 annual budget)
+  - QK1/QPM LLR/Northants ICBs Board-in-Common (one pack, both meetings)
+  - RY7 Wirral Community (watchlist - group board, 3 June, just-happened meeting)
+
+**3. Pack-analyser (Wave 3).** 5 parallel agents produced 6 markdown summaries (one per meeting, QK1 and QPM share one analysis but two summary files). Top stories surfaced:
+  - QK1/QPM: NHS England letter (Glen Burley, 2 June) formally instructing ICB cluster mergers to 1.5m+ population by 1 April 2027, response by 14 July. National policy lead with primary-source document.
+  - RNS UHN: £55m Month 11 deficit (£42m adverse), Q4 DSF withheld, 26-27 plan declared non-compliant, NHSE only partially approving PDC support. Two finance BAF risks at extreme/25. £80m group CIP with proposed headcount reductions. CQC enforcement at NGH UEC/medicine + KGH maternity. FTSU concerns at all-time high.
+  - QWO West Yorkshire: £14.337m incorrect Out-of-Hours payments to Wakefield PMS GP practices 2016/17-2024/25; ICB exploring options to recover. £17.79m on 294 exit packages. 3 of 4 Director of Nursing post-holders exiting Feb-Apr 2026.
+  - Z9B2Z W&NL: First post-merger ICB budget. £120m ringfenced for Neighbourhood investment but £60m held back as trading reserve. £71m management-cost cut. Underlying position worsens £10.7m, deficit not eliminated until 28-29.
+  - RY7 Wirral Community: £49.5m 25-26 deficit (£27.3m adverse), 26-27 MTFP not yet approved by NHSE, NOF segment 4 with financial undertakings. Sterile services critical incident drove material income loss. MV Hondius Hantavirus repatriation hosting from 10 May.
+
+**4. Live emails sent: 16/16.** All deliveries succeeded. 10 date alerts (combined subscription .ics attached for each correspondent) + 6 papers alerts (full summary inline + attached as markdown).
+
+### Known issues / followups
+- **RGT Cambridge UH** - both WebFetch and Playwright blocked on the 2026 sub-page (ERR_CONNECTION_RESET). Manual check needed.
+- **RP4 GOSH** - Cloudflare/network blocking both fetchers.
+- **RWF Maidstone & Tunbridge Wells** - soft-404 returning even via Playwright; URL likely needs updating.
+- **RJ7 St Georges**, **RXA Cheshire & Wirral Partnership** - also blocked; need a different rendering route.
+- **RBS Alder Hey** - source_url canonicalises to 2018 publication page; URL needs replacing in trust_urls.json.
+- **RNS Northampton** - pack file is dated 11 June not 9 June. Either the input meeting date is wrong or it is a closely-related joint sitting. Annabelle to check; flagged in the RNS summary header.
+- **S1Y5D Central East ICB** - new post-April-2026 merger, canonical URL has no PDFs; legacy subdomains may still host packs.
+- **QYG Cheshire & Merseyside ICB**, **QWU Coventry & Warwickshire ICB** - only past dates published; cluster transition appears to have paused forward publishing.
+- **Python launcher gotcha** - subprocess calls in send_all.py needed explicit C:/Python311/python.exe (not py) because the Windows Store stub intercepts "py" when invoked from subprocess. Worth recording for the next person debugging this.
+- **Encoding fix** - fetch_with_playwright.py fails with cp1252 on smart quotes; agents worked around with PYTHONIOENCODING=utf-8. Worth patching script to force utf-8 stdout.
+
+### State + git
+- State: **922 meetings across 224 orgs**
+- New dates: 24
+- New packs detected: 5
+- Packs analysed (summaries written): 6
+- Live emails sent: 16
+
+---
+
 # Activity Log — Board paper machine
 
 Running log of what's been done and why. Newest entries at top. Each session adds a dated section.

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTF-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260611T180506Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Northumbria Healthcare NHS Foundation Trust - Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers
+URL:https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers
+END:VEVENT
+END:VCALENDAR

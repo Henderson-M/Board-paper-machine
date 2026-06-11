@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RQX-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260611T180506Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+END:VEVENT
+END:VCALENDAR

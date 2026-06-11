@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJC-2026-07-01@board-paper-machine.hsj
+DTSTAMP:20260611T180506Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:South Warwickshire University NHS Foundation Trust - Joint Board (SWFT + George Eliot Hospital)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+END:VCALENDAR
