@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWA-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260615T120000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Hull University Teaching Hospitals NHS Trust - Trust Boards-in-Common meeting September 2026 (HUTH/NLAG)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nlg.nhs.uk/about/events/?cat=board-meetings
+URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
+END:VEVENT
+END:VCALENDAR

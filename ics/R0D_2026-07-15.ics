@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R0D-2026-07-15@board-paper-machine.hsj
+DTSTAMP:20260615T120000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:University Hospitals Dorset NHS Foundation Trust - Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhd.nhs.uk/about-us/our-performance
+URL:https://www.uhd.nhs.uk/about-us/our-performance
+END:VEVENT
+END:VCALENDAR

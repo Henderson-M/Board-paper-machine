@@ -1,4 +1,34 @@
-## 2026-06-11 (afternoon session, Dave + Claude)
+## 2026-06-15 (full sweep, Henry + Claude)
+
+### Headline
+Full machine run with --live-emails, 4 days after Dave's 11 June sweep. Scanned all 239 in-scope orgs (227 after cluster-dedupe). 17 new meeting dates added; 9 board packs detected in the detection window and analysed; 16 live emails sent (7 date alerts + 9 papers alerts). State had been synced to Dave's 11 June commits first, so nothing he already alerted on was re-sent.
+
+### What changed
+- **Date scan:** all 227 cluster-deduped board pages swept via the WebFetch -> Playwright -> PDF ladder (fanned out across 12 agents). 673 valid forward meetings detected; diffed against 922 already in state -> **17 genuinely new dates**. New .ics written for each; all 13 subscription calendars rebuilt from state.
+  - New dates by correspondent: Alison (Kent & Medway extraordinary 18 Jun), Caitlin (MPFT 10 Dec), Ella (St George's/GESH x5, CLCH 25 Sep), Henry (HUTH/NLAG boards-in-common 10 Sep), Joe (UH Dorset 15 Jul, Gloucestershire Hospitals x3), Matt Mathers (Northumbria x2), Mimi (1 new).
+- **Pack detection (window 13-25 Jun):** 32 in-window meetings checked (4 agents). **9 had a full pack online** and were run through pack-analyser:
+  - **West Yorkshire ICB (Henry)** - 6 LEAD: £28m system deficit at M12, partial loss of Q4 deficit-support funding, £38.7m assumed deficit support in 26/27 plan, "Palantir out of West Yorkshire" petitions to board, senior leadership exodus + unfilled CEO, ~240 VR leavers, rising out-of-area MH placements.
+  - **Salisbury FT (Joe)** - 6 LEAD: NHSE accepted savings plan only "with conditions".
+  - **Tameside & Glossop / Stockport joint board (Nick)** - 5 LEAD: two-trust board carrying £100m+ combined deficits, unidentified savings.
+  - **WWL (Nick)** - 5 LEAD: theatre closures risk national tiering; £6.2m technical deficit.
+  - **Sussex Partnership (Alison)** - 5 LEAD: staff survey slumps below average; savings one-off.
+  - **Dorset County / Board in Common (Joe)** - 4 LEAD: Dorset HealthCare wins Advanced FT status ahead of CQC well-led probe.
+  - **Kent & Medway MH extraordinary board (Alison)** - 4 LEAD: year-end sign-off pack, governance weaknesses, meeting called to hit a deadline.
+  - **Walton Centre (Zoe)** - 2 LEAD: NHSE accepted plan only "with conditions", oversight warning.
+  - **London Ambulance (Matt Discombe)** - 0 LEAD / 8 WORTH WATCHING: radio/comms risk, commissioner funding gap.
+- **Papers watchlist:** RJ7 and RTF dropped (now have future-dated meetings). Remaining 10 swept; only S1Y5D (Central East ICB) showed an unseen file, but it was a *past* (6 Feb 2026) meeting book - registered in known_files, no alert.
+- **Data fix:** RCB (York & Scarborough) papers_url domain corrected `yorkscarborough.nhs.uk` -> `yorkhospitals.nhs.uk` (old domain DNS-dead; broke the pack check for York's 24/25 Jun meetings this run - recheck next time).
+
+### State + git
+- 17 meetings added, 9 marked `analysed` with summary_path; alerts_sent flags set on 26 meeting-id references. Total meetings now 939.
+- All 16 emails delivered successfully (Gmail SMTP). Audit copies in dry_run_output/.
+
+### Followups for next session
+- **RCB York 24/25 Jun packs** weren't checked (dead domain, now fixed) - re-run a packs-only check for RCB.
+- 23 in-window meetings had no pack online yet (incl. several 24-25 Jun ICB/trust boards) - they'll re-check on the next run within the 2-day-back window.
+- Rescheduled-meeting ghosts remain a known calendar gap (moved meetings keep their old UID/date in subscriptions; PUBLISH method can't retract).
+
+
 
 ### Headline
 Full sweep across all in-scope orgs with --live-emails. 24 new meeting dates added, 6 board packs analysed and sent as PAPERS alerts. 16 live emails delivered (10 date alerts + 6 papers alerts) to all relevant correspondents.
