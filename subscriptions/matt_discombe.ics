@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:RKL-2026-06-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 SUMMARY:West London NHS Trust - Trust Board papers Part 1 - June 2026
@@ -13,7 +13,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RAT-2026-06-02@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260602
 DTEND;VALUE=DATE:20260603
 SUMMARY:North East London NHS Foundation Trust - Board of Directors (public)
@@ -22,7 +22,7 @@ URL:https://www.nelft.nhs.uk/about-us-board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAL-2026-06-03@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Royal Free London NHS Foundation Trust - Trust board meeting
@@ -31,7 +31,7 @@ URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-06-10@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 SUMMARY:West London NHS Trust - Trust Board Meeting (Part 1, public)
@@ -40,7 +40,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2026-06-11@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -49,7 +49,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2026-06-17@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 SUMMARY:West and North London ICB - West and North London Board of Members
@@ -58,7 +58,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/policies-and-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RP4-2026-06-18@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust - Trust Board Meeting
@@ -67,7 +67,7 @@ URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-b
 END:VEVENT
 BEGIN:VEVENT
 UID:RRU-2026-06-18@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:London Ambulance Service NHS Trust - Public Board Meeting
@@ -76,7 +76,7 @@ URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2026-06-23@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting - Year-End
@@ -85,7 +85,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RV3-2026-06-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Central and North West London NHS Foundation Trust - Trust Board Meeting
@@ -94,7 +94,7 @@ URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
 END:VEVENT
 BEGIN:VEVENT
 UID:RF4-2026-06-25@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Barking, Havering and Redbridge University Hospitals NHS Trust - Extraordinary Trust Board (Public) - 2025-26 Annual Report and Accounts Presentation
@@ -103,7 +103,7 @@ URL:https://www.bhrhospitals.nhs.uk/papers-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRV-2026-06-25@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:University College London Hospitals NHS Foundation Trust - Board meeting
@@ -112,7 +112,7 @@ URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-a
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-07-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board Meeting
@@ -121,7 +121,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RF4-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Barking, Havering and Redbridge University Hospitals NHS Trust - Trust Board (Public)
@@ -130,7 +130,7 @@ URL:https://www.bhrhospitals.nhs.uk/papers-minutes/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -139,7 +139,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:R1H-2026-07-08@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:Barts Health NHS Trust - Trust Board (Part 1, public)
@@ -148,7 +148,7 @@ URL:https://www.bartshealth.nhs.uk/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RP4-2026-07-16@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust - Trust Board Meeting
@@ -157,7 +157,7 @@ URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-b
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 SUMMARY:West and North London ICB - NHS West and North London Board Meeting
@@ -166,7 +166,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-
 END:VEVENT
 BEGIN:VEVENT
 UID:RKE-2026-07-23@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:Whittington Health NHS Trust - Trust Board Meeting
@@ -175,7 +175,7 @@ URL:https://www.whittington.nhs.uk/default.asp?c=20208
 END:VEVENT
 BEGIN:VEVENT
 UID:RWK-2026-07-23@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:East London NHS Foundation Trust - Trust Board Meeting
@@ -184,7 +184,7 @@ URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RRV-2026-07-23@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:University College London Hospitals NHS Foundation Trust - Board meeting
@@ -193,7 +193,7 @@ URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-a
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting
@@ -202,7 +202,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAS-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:The Hillingdon Hospitals NHS Foundation Trust - Board in Common - Public Meeting
@@ -211,7 +211,7 @@ URL:https://www.nwl-acute-provider-group.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:R1K-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:London North West University Healthcare NHS Trust - Board in Common - Tuesday 28 July 2026
@@ -220,7 +220,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RYJ-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:Imperial College Healthcare NHS Trust - Board in Common - Tuesday 28 July 2026
@@ -229,7 +229,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RQM-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:Chelsea and Westminster Hospital NHS Foundation Trust - Board in Common - Tuesday 28 July 2026
@@ -238,7 +238,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -247,7 +247,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-07-31@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
@@ -256,7 +256,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-09-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board Meeting
@@ -265,7 +265,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-09-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:West London NHS Trust - Trust Board papers Part 1 - September 2026
@@ -274,7 +274,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RAL-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Royal Free London NHS Foundation Trust - Trust board meeting
@@ -283,7 +283,7 @@ URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -292,7 +292,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:R1H-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Barts Health NHS Trust - Trust Board Meeting
@@ -301,7 +301,7 @@ URL:https://www.bartshealth.nhs.uk/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:West London NHS Trust - Trust Board Meeting (Part 1, public)
@@ -310,7 +310,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RRU-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:London Ambulance Service NHS Trust - Public Board Meeting
@@ -319,7 +319,7 @@ URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2026-09-22@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting
@@ -328,7 +328,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Annual General Meeting (AGM)
@@ -337,7 +337,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWK-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:East London NHS Foundation Trust - Trust Board Meeting
@@ -346,7 +346,7 @@ URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RRV-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:University College London Hospitals NHS Foundation Trust - Board meeting
@@ -355,7 +355,7 @@ URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-a
 END:VEVENT
 BEGIN:VEVENT
 UID:RKE-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Whittington Health NHS Trust - Trust Board Meeting (2025-26 AGM)
@@ -364,7 +364,7 @@ URL:https://www.whittington.nhs.uk/default.asp?c=20208
 END:VEVENT
 BEGIN:VEVENT
 UID:RP4-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust - Trust Board Meeting
@@ -373,7 +373,7 @@ URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-b
 END:VEVENT
 BEGIN:VEVENT
 UID:RV3-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Central and North West London NHS Foundation Trust - Trust Board Meeting
@@ -382,7 +382,7 @@ URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -391,7 +391,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
@@ -400,7 +400,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:West London NHS Trust - Board in Common papers - October 2026
@@ -409,7 +409,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RAS-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:The Hillingdon Hospitals NHS Foundation Trust - Board in Common - Public Meeting
@@ -418,7 +418,7 @@ URL:https://www.nwl-acute-provider-group.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:R1K-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:London North West University Healthcare NHS Trust - Board in Common - Tuesday 20 October 2026
@@ -427,7 +427,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RYJ-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Imperial College Healthcare NHS Trust - Board in Common - Tuesday 20 October 2026
@@ -436,7 +436,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RQM-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Chelsea and Westminster Hospital NHS Foundation Trust - Board in Common - Tuesday 20 October 2026
@@ -445,7 +445,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:West and North London ICB - NHS West and North London Board Meeting
@@ -454,7 +454,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:West London NHS Trust - Trust Board Meeting (Part 1, public)
@@ -463,7 +463,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-11-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board Meeting
@@ -472,7 +472,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -481,7 +481,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:R1H-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Barts Health NHS Trust - Trust Board Meeting
@@ -490,7 +490,7 @@ URL:https://www.bartshealth.nhs.uk/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RP4-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Great Ormond Street Hospital for Children NHS Foundation Trust - Trust Board Meeting
@@ -499,7 +499,7 @@ URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-b
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting
@@ -508,7 +508,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -517,7 +517,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:RKE-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Whittington Health NHS Trust - Trust Board Meeting
@@ -526,7 +526,7 @@ URL:https://www.whittington.nhs.uk/default.asp?c=20208
 END:VEVENT
 BEGIN:VEVENT
 UID:RRV-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:University College London Hospitals NHS Foundation Trust - Board meeting
@@ -535,7 +535,7 @@ URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-a
 END:VEVENT
 BEGIN:VEVENT
 UID:RQX-2026-11-30@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
@@ -544,7 +544,7 @@ URL:https://www.homerton.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-12-01@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:West London NHS Trust - Trust Board papers Part 1 - December 2026
@@ -553,7 +553,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RKL-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:West London NHS Trust - Trust Board Meeting (Part 1, public)
@@ -562,7 +562,7 @@ URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RWK-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:East London NHS Foundation Trust - Trust Board Meeting
@@ -571,7 +571,7 @@ URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RV3-2026-12-09@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Central and North West London NHS Foundation Trust - Trust Board Meeting
@@ -580,7 +580,7 @@ URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
 END:VEVENT
 BEGIN:VEVENT
 UID:RRU-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:London Ambulance Service NHS Trust - Public Board Meeting
@@ -589,7 +589,7 @@ URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:West and North London ICB - NHS West and North London Board Meeting
@@ -598,7 +598,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-
 END:VEVENT
 BEGIN:VEVENT
 UID:R1H-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Barts Health NHS Trust - Trust Board Meeting
@@ -607,7 +607,7 @@ URL:https://www.bartshealth.nhs.uk/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWK-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:East London NHS Foundation Trust - Trust Board Meeting
@@ -616,7 +616,7 @@ URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting
@@ -625,7 +625,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAS-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:The Hillingdon Hospitals NHS Foundation Trust - Board in Common - Public Meeting
@@ -634,7 +634,7 @@ URL:https://www.nwl-acute-provider-group.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:R1K-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:London North West University Healthcare NHS Trust - Board in Common - Tuesday 26 January 2027
@@ -643,7 +643,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RYJ-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Imperial College Healthcare NHS Trust - Board in Common - Tuesday 26 January 2027
@@ -652,7 +652,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:RQM-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Chelsea and Westminster Hospital NHS Foundation Trust - Board in Common - Tuesday 26 January 2027
@@ -661,7 +661,7 @@ URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:West and North London ICB - NHS West and North London Board of Members
@@ -670,7 +670,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-
 END:VEVENT
 BEGIN:VEVENT
 UID:RKE-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Whittington Health NHS Trust - Trust Board Meeting
@@ -679,7 +679,7 @@ URL:https://www.whittington.nhs.uk/default.asp?c=20208
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -688,7 +688,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -697,7 +697,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:R1H-2027-03-10@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Barts Health NHS Trust - Trust Board Meeting
@@ -706,7 +706,7 @@ URL:https://www.bartshealth.nhs.uk/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RRU-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:London Ambulance Service NHS Trust - Public Board Meeting
@@ -715,7 +715,7 @@ URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:G6V2S-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:North London NHS Foundation Trust - NLFT Board (in Public) Meeting
@@ -724,7 +724,7 @@ URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:Z9B2Z-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:West and North London ICB - West and North London Board of Members
@@ -733,7 +733,7 @@ URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-
 END:VEVENT
 BEGIN:VEVENT
 UID:RKE-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Whittington Health NHS Trust - Trust Board Meeting
@@ -742,7 +742,7 @@ URL:https://www.whittington.nhs.uk/default.asp?c=20208
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:North East London ICB - North East London ICB Board Meeting
@@ -751,7 +751,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2027-05-06@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -760,7 +760,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2027-09-09@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20270909
 DTEND;VALUE=DATE:20270910
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting
@@ -769,7 +769,7 @@ URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RAN-2027-11-04@board-paper-machine.hsj
-DTSTAMP:20260615T120000Z
+DTSTAMP:20260616T090000Z
 DTSTART;VALUE=DATE:20271104
 DTEND;VALUE=DATE:20271105
 SUMMARY:Royal National Orthopaedic Hospital NHS Trust - Trust Board Meeting

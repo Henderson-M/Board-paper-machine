@@ -5358,7 +5358,7 @@
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "superseded",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
@@ -5366,7 +5366,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-06-16] SUPERSEDED: erroneous date, not on SLaM official schedule (correct public board dates are 28 Jul / 29 Sep / 24 Nov 2026). Excluded from calendars."
   },
   {
    "id": "RV5:2026-09-09",
@@ -5377,7 +5377,7 @@
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "superseded",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
@@ -5385,7 +5385,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-06-16] SUPERSEDED: erroneous date, not on SLaM official schedule (correct public board dates are 28 Jul / 29 Sep / 24 Nov 2026). Excluded from calendars."
   },
   {
    "id": "RV5:2026-11-11",
@@ -5396,7 +5396,7 @@
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "superseded",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
@@ -5404,7 +5404,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-06-16] SUPERSEDED: erroneous date, not on SLaM official schedule (correct public board dates are 28 Jul / 29 Sep / 24 Nov 2026). Excluded from calendars."
   },
   {
    "id": "RV5:2027-01-13",
@@ -5415,7 +5415,7 @@
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "superseded",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
@@ -5423,7 +5423,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-06-16] SUPERSEDED: erroneous date, not on SLaM official schedule (correct public board dates are 28 Jul / 29 Sep / 24 Nov 2026). Excluded from calendars."
   },
   {
    "id": "RV5:2027-03-10",
@@ -5434,7 +5434,7 @@
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "superseded",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
@@ -5442,7 +5442,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-06-16] SUPERSEDED: erroneous date, not on SLaM official schedule (correct public board dates are 28 Jul / 29 Sep / 24 Nov 2026). Excluded from calendars."
   },
   {
    "id": "RF4:2026-06-25",
