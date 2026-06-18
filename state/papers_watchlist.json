@@ -18,7 +18,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -76,7 +76,7 @@
   {
    "ods_code": "RDY",
    "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
@@ -152,14 +152,19 @@
      "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e810bd9b-9c1a-417a-ae03-a6ca1578e52c/282",
      "title": "Trust Board - agendas and papers August 2025",
      "first_seen": "2026-06-09T19:04:38"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/1c266e7d-6f7d-4e8f-a453-4235e8b6fe63/282",
+     "title": "Trust Board - Board in Common agenda and papers, June 2026 (past, suppressed)",
+     "first_seen": "2026-06-16T10:00:00Z"
     }
    ],
-   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc"
+   "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc [2026-06-16] registered 1 past pack(s), no alert."
   },
   {
    "ods_code": "RJN",
    "papers_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://trust.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
@@ -297,7 +302,7 @@
   {
    "ods_code": "RW5",
    "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.lscft.nhs.uk/download_file/3486/1439",
@@ -355,14 +360,20 @@
   {
    "ods_code": "RXA",
    "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
-   "last_checked": "2026-06-15T12:00:00Z",
-   "known_files": [],
-   "notes": "[2026-05-27] URL updated: WebFetch returned 404 for trailing-slash URL. Site search confirms /our-board sub-page is canonical for board meetings. Board meets last Wednesday of each month; papers publi"
+   "last_checked": "2026-06-16T10:00:00Z",
+   "known_files": [
+    {
+     "url": "https://www.cwp.nhs.uk/application/files/8417/7944/0775/PUBLIC_BoD_Agenda_Pack_Final_27_05_2026.pdf",
+     "title": "PUBLIC BoD Agenda Pack Final 27 05 2026 (linked from board-summary-may-27-2026) (past, suppressed)",
+     "first_seen": "2026-06-16T10:00:00Z"
+    }
+   ],
+   "notes": "[2026-05-27] URL updated: WebFetch returned 404 for trailing-slash URL. Site search confirms /our-board sub-page is canonical for board meetings. Board meets last Wednesday of each month; papers publi [2026-06-16] registered 1 past pack(s), no alert."
   },
   {
    "ods_code": "RXN",
    "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a1856c80c0176.47427306",
@@ -510,7 +521,7 @@
   {
    "ods_code": "QYG",
    "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
@@ -533,7 +544,7 @@
   {
    "ods_code": "QWU",
    "papers_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2020%20May%2026.pdf",
@@ -731,7 +742,7 @@
   {
    "ods_code": "QGH",
    "papers_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.hwics.org.uk/download_file/5435/414",
@@ -779,7 +790,7 @@
   {
    "ods_code": "S1Y5D",
    "papers_url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.hertsandwestessex.ics.nhs.uk/wp-content/uploads/2026/02/Meeting-Book-BLMK-CP-and-HWE-Boards-of-the-ICB-in-Common-in-Public-06.02.2026-1.pdf",
@@ -792,7 +803,7 @@
   {
    "ods_code": "RP6",
    "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-   "last_checked": "2026-06-16T09:00:00Z",
+   "last_checked": "2026-06-16T10:00:00Z",
    "known_files": [
     {
      "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",

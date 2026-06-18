@@ -1,3 +1,26 @@
+## 2026-06-16 (packs + watchlist, Henry + Claude)
+
+### Headline
+Targeted re-run one day after the 15 June full sweep. Skipped the full 227-org date scan (would only re-confirm; ran <24h earlier) and focused on the detection window (now 14-26 Jun) plus the watchlist. 1 new pack found and analysed; 1 live papers alert sent to Joe.
+
+### What changed
+- **Pack detection:** 24 in-window meetings checked (14 already analysed on 15 Jun were skipped). Only one new full pack:
+  - **BSW / Dorset / Somerset ICB Cluster Board (Joe), 15 Jun** - the three ICBs (QOX, QVV, QSL) now meet as ONE shared cluster board, hosted on bsw.icb.nhs.uk; the 15 Jun pack went up after yesterday's run. 5 LEAD - headline: **three south-west ICBs to merge into one by April 2027**. All three state entries marked analysed against the shared summary (summaries/QOX_2026-06-15.md). One alert to Joe (deduped across the cluster).
+  - 23 other in-window meetings still had no pack online.
+- **RCB (York):** now reachable on the corrected yorkhospitals.nhs.uk domain - 24/25 Jun packs not up yet (checked cleanly, no error this time).
+- **RWF (Maidstone):** papers page hard-404s to all fetchers (known WAF block). State had 3 RWF June entries (19/25/26); superseded the 19 Jun and 26 Jun ones as erroneous (not board days - Maidstone sits last-Thursday, real June board is Thu 25 Jun). Kept 25 Jun.
+- **Watchlist:** RDY (Dorset Healthcare) and RXA (Cheshire & Wirral) each surfaced a file, but both were PAST (1 Jun / 27 May) - RDY is the partner side of the Dorset Board-in-Common already covered as RBD. Registered to known_files to suppress; no alerts. Moorfields (RP6, added yesterday) had no new pack yet.
+- Calendars rebuilt to drop the 2 superseded RWF dates (Alison 74->72).
+
+### State + git
+- 1 pack analysed; alerts_sent.papers set on QOX/QVV/QSL. 2 RWF entries superseded.
+- 1 live email delivered (Joe). Audit copy in dry_run_output/.
+
+### Followups for next session
+- **RCB York 24/25 Jun packs** - re-check next run (in window, not up yet).
+- **RWF Maidstone** publishes papers behind a WAF that 404s all fetchers - needs a bespoke fetch approach or manual check for its 25 Jun pack.
+- Full date sweep not run today - due again when dates may have moved (not needed daily).
+
 ## 2026-06-15 (full sweep, Henry + Claude)
 
 ### Headline
