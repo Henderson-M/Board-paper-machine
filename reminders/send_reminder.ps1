@@ -14,4 +14,12 @@ if ($Kind -eq 'full') {
     $body    = 'reminders\bpm_packs_reminder.md'
 }
 
-python send_email.py --to henry.anderson@hsj.co.uk --subject $subject --body-file $body --env-file .env.local --from-name "Board paper machine"
+# Recipients for the reminder. Henry is primary runner; Dave is cc'd as backup (Henry runs unless Dave is away).
+$recipients = @(
+    'henry.anderson@hsj.co.uk'
+    'dave.west@hsj.co.uk'
+)
+
+foreach ($to in $recipients) {
+    python send_email.py --to $to --subject $subject --body-file $body --env-file .env.local --from-name "Board paper machine"
+}
