@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RX3-2026-08-13@board-paper-machine.hsj
+DTSTAMP:20260624T094955Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:Tees, Esk and Wear Valleys NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/
+URL:https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/
+END:VEVENT
+END:VCALENDAR

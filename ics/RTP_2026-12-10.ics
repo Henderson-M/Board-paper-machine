@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTP-2026-12-10@board-paper-machine.hsj
+DTSTAMP:20260624T094955Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
+URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
+END:VEVENT
+END:VCALENDAR

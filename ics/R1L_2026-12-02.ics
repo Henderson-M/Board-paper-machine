@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R1L-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260624T094955Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Essex Partnership University NHS Foundation Trust — Board meeting 2 December 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
+URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
+END:VEVENT
+END:VCALENDAR

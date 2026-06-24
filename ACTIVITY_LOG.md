@@ -1,3 +1,37 @@
+## 2026-06-24 (full sweep, Henry + Claude)
+
+### Headline
+Full machine run with --live-emails, 8 days after the last full date sweep (15 Jun). Scanned all 239 in-scope orgs (227 after cluster-dedupe). 49 new meeting dates added; 9 board packs detected in the 22 Jun–4 Jul window and analysed; 1 watchlist hit (date unknown). 20 live emails sent (10 date alerts + 9 papers alerts + 1 date-unknown). Run was interrupted twice mid-way and resumed; the date scan was run in waves of 3–4 agents to avoid stream-idle timeouts.
+
+### Separately, before the sweep
+- **CUH (RGT) 10 Jun pack recovery** committed and pushed (a separate earlier session had recovered the pack — missed on the live run because CUH hides PDFs on a two-hop /events/ page — but never sent the alert or committed). Sent the papers alert live to James (3 LEAD: Verita paediatric-orthopaedic recovery programme; 23 recommendations/34 actions; FTSU decline) and committed the CUH notes + SKILL.md two-hop step + state.
+
+### What changed
+- **Date scan:** all 227 cluster-deduped board pages swept via the WebFetch → Playwright → PDF ladder, fanned out across 12 agents (run in waves). 722 valid forward meetings detected; diffed against 673 already in state → **49 genuinely new dates**. New .ics written for each; all 13 subscription calendars rebuilt from state. 25 units returned no forward dates/errors (archive-only pages, WAF blocks e.g. SW-PEN, RWF Maidstone, RYA).
+  - New dates by correspondent: Alison 6 (Surrey & Sussex ×6), Annabelle 2 (LLR/Northants ICB), Caitlin 13 (RJAH ×4, UHB/RRK ×4, Shropshire Community ×4, RL1), Emily 7 (E&N Herts ×3, EPUT ×3, HPFT), Henry 2 (RDaSH 30 Jul, West Yorks ICB 22 Sep), Joe 8 (Cornwall Partnership ×5, Glos Health & Care ×3), Matt Discombe 5 (LAS ×3, W&N London ICB, RNOH), Matt Mathers 1 (TEWV), Nick 1 (GM ICB), Zoe 4 (Lancs Teaching ×4).
+- **Pack detection (window 22 Jun–4 Jul):** 47 in-window meetings checked (8 agents). **9 had a full pack online** and were run through pack-analyser:
+  - **Surrey & Sussex ICB (Alison)** — 6 LEAD: £79m/58% running-cost cut with compulsory redundancies to NHSE; £166.1m efficiency ask; £60.7m Sussex deficit support masking £44.3m underlying provider deficit; Sussex BAF calls system "clinically and financially unsustainable".
+  - **York & Scarborough (Henry)** — 6 LEAD: NHSE has NOT agreed the £22.6m-deficit plan, no deficit support funding; £61.6m WRAP savings behind; KPMG review withheld to private board.
+  - **Plymouth (Joe)** — 7 LEAD: £35m non-recurrent funding + £11m savings convert a £46.5m planned deficit to breakeven; stuck in NOF Segment 4; £110m underlying deficit.
+  - **North London FT (Matt Discombe)** — 6 LEAD (merged BEH/C&I MH trust).
+  - **CNWL (Matt Discombe)** — 5 LEAD: 2nd-ranked MH provider nationally; £31.6m savings + VR; £4.9m deficit support reallocated from failing providers; BME disciplinary disproportionality 4.24.
+  - **UCLH (Matt Discombe)** — 4 LEAD: opens 26/27 £6m in deficit, £37.3m forecast shortfall vs £92.6m savings target.
+  - **Christie (Nick)** — 5 LEAD: ConsultOne/AuditOne well-led review + Advanced FT/IHO bid (4 named consultancies); EPR slippage past 2028.
+  - **Shropshire/Staffs ICB Board in Common (Caitlin)** — 5 LEAD.
+  - **Mersey & West Lancs (Zoe)** — 4 LEAD: NHSE/system turnaround support into Q1; £49.7m recurrent CIP; 1.6 days' cash.
+- **Watchlist:** RXN (Lancs Teaching) dropped (now has future dates). 10 swept; one alertworthy hit — **Royal Orthopaedic Hospital (RRJ, Caitlin)** dropped a June 2026 pack but the day couldn't be confirmed (pack >10MB, undownloadable via helper) → sent a [PAPERS — DATE UNKNOWN] alert asking Caitlin to confirm the date. All other watchlist files were historical/archive (registered to known_files, no alert).
+
+### State + git
+- 49 meetings added (status date_found), 9 marked analysed with summary_path; alerts_sent.date stamped on 49, alerts_sent.papers/summary on 9. RCB:2026-06-25 stray superseded (real York June board is 24 Jun). Total meetings now 988.
+- All 20 emails delivered successfully (Gmail SMTP). Audit copies in dry_run_output/.
+
+### Followups for next session
+- **Org note clobber averted:** the date-scan agents returned a `note_update` for ~115 orgs (mostly thin restatements). Applying them wholesale overwrote curated notes (incl. the CUH two-hop note) so the org-file note changes were reverted. NET: notes were NOT updated this run. Useful URL discoveries the agents flagged but were NOT applied — worth folding into the data files deliberately: RWH→enherts-tr.nhs.uk/about/board/board-meetings/; LNR new /about/board-meetings/; RQY/SWLStG→swlstg.nhs.uk/our-board; RBQ now UH Liverpool Group Board (uhliverpool.nhs.uk, Playwright-only); SWAST/RYF papers→/board-meeting-schedule-and-public-papers; South Yorks ICB pack page→southyorkshire.icb.nhs.uk/our-information/meetings-and-papers.
+- **RWF Maidstone** still WAF-blocks Playwright too — needs a bespoke approach for its 25 Jun pack.
+- **RRJ** date to be confirmed by Caitlin, then analyse the June pack.
+- 38 in-window meetings had no pack online yet — will re-check next run within the 2-day-back window.
+- Playwright helper needs PYTHONUTF8=1 on this machine to avoid cp1252 write errors (used this run).
+
 ## 2026-06-16 (packs + watchlist, Henry + Claude)
 
 ### Headline
