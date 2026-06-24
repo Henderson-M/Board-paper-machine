@@ -1235,7 +1235,8 @@
   "region": "East of England",
   "ics": "Cambridgeshire and Peterborough",
   "correspondent": "James",
-  "url": "https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/"
+  "url": "https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/",
+  "notes": "TWO-HOP PAPERS: the board-meetings landing page and its year sub-pages (e.g. /2026-board-of-directors-meetings/) list meeting DATES only, no PDFs. Each date links to a per-meeting event page (/events/board-of-directors-meeting-{DD-month-YYYY}/, e.g. /events/board-of-directors-meeting-10-june-2026/) which holds the single combined 'Full Pack' PDF. Pack detection must follow the per-meeting link before extracting PDFs. Listing page occasionally returns ERR_CONNECTION_RESET to both WebFetch and Playwright (transient) — retry. Use Playwright to read link hrefs; the plain-text dump omits them."
  },
  {
   "ods_code": "RM1",

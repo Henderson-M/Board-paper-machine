@@ -212,11 +212,13 @@ Do:
 
 4. When downloading the actual PDFs (for the pack-analyser sub-skill), use `python fetch_pdf_text.py PDF_URL [--playwright]` — many trust sites that allow WebFetch on HTML still block direct PDF GETs from non-browser UAs.
 
-5. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
+5. **Two-hop papers pages — follow the per-meeting link before concluding "no papers".** Some trusts publish a board-meetings *listing* page (just a list of dates, often year-tabbed) where the actual pack PDF lives one click deeper, on a per-meeting page. If the `papers_url` returns meeting dates/titles but **zero PDF links**, do not record "no papers yet" — look for an anchor whose text or href matches the target meeting `{date}` (e.g. CUH: `/events/board-of-directors-meeting-10-june-2026/`), fetch THAT page, and extract the PDFs from it. With Playwright, parse anchor `href`s (`--html`), not just the `--text` dump, because these links are frequently absent from rendered text. Honour the org `notes` field — if it documents a per-meeting/event-page pattern, go straight there. (CUH/RGT is the worked example; the same shape recurs on other trusts using an events-calendar CMS.)
 
-6. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+6. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
 
-7. **If new files found:**
+7. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+
+8. **If new files found:**
    - Append to `pack_files` in state.
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.

@@ -4601,17 +4601,24 @@
    "date": "2026-06-10",
    "title": "Board of Directors Meeting",
    "source_url": "https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/",
-   "papers_url": "https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/2026-board-of-directors-meetings/",
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.cuh.nhs.uk/events/board-of-directors-meeting-10-june-2026/",
+   "pack_files": [
+    {
+     "url": "https://www.cuh.nhs.uk/documents/3211/Board_of_Directors_-_Full_Pack_10_June_2026.pdf",
+     "title": "Board of Directors - Full Pack (10 June 2026)",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-06-09T18:31:30",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-06-24T09:15:00Z",
+    "summary": "2026-06-24T09:15:00Z"
    },
-   "notes": null
+   "notes": "Recovered 2026-06-23: missed on live run (papers on per-meeting /events/ sub-page not followed + transient ERR_CONNECTION_RESET + window closed). Analysed retrospectively; papers alert to James sent live 2026-06-24T09:15:00Z.",
+   "summary_path": "summaries/RGT_2026-06-10.md"
   },
   {
    "id": "RT1:2026-06-03",
