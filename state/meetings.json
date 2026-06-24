@@ -19928,6 +19928,44 @@
     "summary": null
    },
    "notes": null
+  },
+  {
+   "id": "RY6:2026-06-24",
+   "ods_code": "RY6",
+   "org_type": "trust",
+   "date": "2026-06-24",
+   "title": "Trust Board meeting (public)",
+   "source_url": "https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/",
+   "papers_url": "https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/",
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-06-24T13:41:16Z",
+   "last_checked": "2026-06-24T13:41:16Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Added 2026-06-24: WebFetch date-scan missed the 24 Jun + 23 Jul rows (page lists them, papers 'Currently unavailable'). Backfilled manually."
+  },
+  {
+   "id": "RY6:2026-07-23",
+   "ods_code": "RY6",
+   "org_type": "trust",
+   "date": "2026-07-23",
+   "title": "Trust Board meeting (public)",
+   "source_url": "https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/",
+   "papers_url": "https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/",
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-06-24T13:41:16Z",
+   "last_checked": "2026-06-24T13:41:16Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Added 2026-06-24: WebFetch date-scan missed the 24 Jun + 23 Jul rows (page lists them, papers 'Currently unavailable'). Backfilled manually."
   }
  ],
  "_scan_errors": [
