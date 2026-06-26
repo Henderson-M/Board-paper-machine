@@ -12,7 +12,7 @@ The skill has two purposes that run in the same sweep:
 1. **Detect new meeting dates** for every in-scope org and email each correspondent a list of new dates they cover (with `.ics` attachments).
 2. **Detect new board packs** for meetings in the detection window (the previous 2 days through the next 10 days, inclusive of today), run the pack through the `pack-analyser` sub-skill, and email the assigned correspondent the analyser's output.
 
-By default everything is **dry-run** — emails are written to `dry_run_output/` rather than sent. Add `--live-emails` to actually send via Gmail SMTP (using `send_email.py`).
+By default everything is **dry-run** — emails are written to `dry_run_output/` rather than sent. Add `--live-emails` to actually send via Gmail SMTP, staggered 30–60s apart (using `send_batch.py`).
 
 ## What this skill does
 
@@ -26,14 +26,15 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 8. Compose two kinds of email per correspondent:
    - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. The combined `subscriptions/{firstname}.ics` is attached. The recipient clicks the attachment → Outlook opens → "Save & Close" / "Save to Calendar" imports all events. Outlook deduplicates by UID, so re-importing on later scans only adds the new ones.
    - **Papers alerts** — one per analysed pack, with the pack-analyser summary inline + summary markdown attached.
-9. Send via `send_email.py` if `--live-emails`, otherwise write to `dry_run_output/`.
+9. Send via `send_batch.py` (staggered, 30–60s apart) if `--live-emails`, otherwise write to `dry_run_output/`.
 10. Update state, commit, push.
 
 ## Helper scripts in the repo
 
 | Script | Purpose |
 |---|---|
-| `send_email.py` | Send Gmail SMTP alerts. Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
+| `send_batch.py` | **Preferred for live sends.** Sends a manifest of alerts one at a time with a randomised 30–60s gap (anti-spam staggering) and writes a per-email results JSON. Wraps `send_email.py`. |
+| `send_email.py` | Send a SINGLE Gmail SMTP alert (ad-hoc/resend). Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
 | `fetch_with_playwright.py` | Headless Chromium fetcher with stealth-lite. Used as the fallback when WebFetch hits Cloudflare/UA blocks or JS-rendered pages. `--text` for visible text, `--html` for full DOM, `--download --out FILE` for binary downloads. |
 | `fetch_pdf_text.py` | Download a PDF and extract its text with pypdf. Use when an org publishes board dates inside an annual calendar PDF rather than on a webpage. Try `requests` mode first; pass `--playwright` if the host blocks direct downloads. |
 
@@ -346,27 +347,29 @@ For each analysed pack:
 
 ### Step 11 — Send (or dry-run)
 
-For each prepared email:
+- **Dry-run mode (default):** for each prepared email, write `dry_run_output/{timestamp}_{correspondent}_{kind}.md` with full headers, body, and attachment list inline.
+- **`--live-emails` mode:** send via **`send_batch.py`** — a STAGGERED batch sender. **Do not fire all the emails at once.** A free Gmail account sending 40 near-identical multi-attachment messages in a couple of minutes gets quarantined as spam by the recipients' mail gateway (this happened on the 5 Jun 2026 run — emails sent successfully but never reached inboxes). `send_batch.py` sends one at a time with a randomised 30–60s gap so delivery looks human.
 
-- **Dry-run mode (default):** write to `dry_run_output/{timestamp}_{correspondent}_{kind}.md` with full headers, body, and attachment list inline.
-- **`--live-emails` mode:** call the `send_email.py` helper.
-
-For `--live-emails`, the invocation pattern is:
+Build a **manifest** — a JSON array of `{to, subject, body_file, attach:[...], id}` (one object per email; reuse the same objects you wrote the dry-run files from), then:
 
 ```bash
-python send_email.py \
-  --to {email} \
-  --subject "{subject}" \
-  --body-file {body_path} \
-  --attach subscriptions/{firstname}.ics    # for date alerts (one combined file)
-  --attach {summary_path}                   # for papers alerts (the markdown summary)
+python send_batch.py \
+  --manifest {dates_manifest.json} \
+  --manifest {papers_manifest.json} \
+  --results {results.json}
+  # optional: --min-gap 30 --max-gap 60  (these are the defaults)
+  # add --dry-run to preview the plan with no SMTP and no sleeps
 ```
+
+Each manifest object's `attach` holds the file(s): `subscriptions/{firstname}.ics` for a date alert (one combined file), or `{summary_path}` for a papers alert. A full sweep (~40 emails) takes ~20–40 min to finish sending — that's expected and is the point. `send_batch.py` reconnects per email, keeps going if one fails, and writes `{results.json}` listing per-email `{to, subject, id, ok, err}`.
+
+(For a one-off ad-hoc send — e.g. a single `/pack-analyser` resend — `send_email.py` is still fine; `send_batch.py` just wraps it with staggering for the multi-email sweep.)
 
 Also remember to update `ACTIVITY_LOG.md` at the repo root with a plain-English entry covering what changed this run — what was scanned, what was found, what failed, what's still pending. This log is for Henry to skim across sessions; treat it like commit notes but in non-technical language.
 
-`send_email.py` reads `GMAIL_USER` / `GMAIL_APP_PASSWORD` from `.env.local` (gitignored) and sends via Gmail SMTP. `.ics` files are attached as `text/calendar; method=PUBLISH` so Outlook renders the inline add-to-calendar button.
+Both senders read `GMAIL_USER` / `GMAIL_APP_PASSWORD` from `.env.local` (gitignored) and send via Gmail SMTP. `.ics` files are attached as `text/calendar; method=PUBLISH` so Outlook renders the inline add-to-calendar button.
 
-Only after a successful send: update the meeting's `alerts_sent.date` / `alerts_sent.papers` / `alerts_sent.summary` timestamp in state. If SMTP fails, leave the flag null and surface the error — we'll retry next run.
+Only after a successful send: update the meeting's `alerts_sent.date` / `alerts_sent.papers` / `alerts_sent.summary` timestamp in state — driven by the `ok:true` rows in the `send_batch.py` results JSON, NOT by the analysis step. If a send failed (`ok:false`), leave the flag null and surface the error — we'll retry next run. (Bulk-stamping every analysed pack with one timestamp regardless of send result hides exactly this kind of failure.)
 
 ### Step 12 — Update state and persist
 
