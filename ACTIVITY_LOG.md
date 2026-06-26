@@ -1,3 +1,13 @@
+## 2026-06-24 (deliverability finding — WAHT/Caitlin, Henry + Claude)
+
+### Headline
+Caitlin reported the machine "missed" Worcestershire Acute (RWP) 9 June pack. Investigation shows it was NOT missed: it was analysed on 5 Jun AND emailed to her — confirmed in the Gmail "[Gmail]/Sent Mail" folder (`To: caitlin.tilley@hsj.co.uk … [PAPERS] Worcestershire Acute Hospitals … Fri 05 Jun 2026 01:55:53 -0700`). Re-sent it to her anyway as `[PAPERS — RESEND]`.
+
+### What this means (KNOWN ISSUES — read before next run)
+- **Deliverability, not sending, is the risk.** The 5 Jun batch sent 41 messages (10 date + 31 papers, covering all 32 analysed packs — one email batched two). All present in Sent Mail. So WAHT genuinely left our server but never reached Caitlin's inbox → almost certainly **spam/quarantine filtering of `hsjboardpapers@gmail.com`** at the HSJ mail gateway (a free Gmail account blasting 40 near-identical multi-attachment emails in 90 seconds looks like spam). ACTION: ask recipients to allowlist the sender / check Junk; consider throttling sends and/or a proper From domain + SPF/DKIM. There is currently **no bounce/delivery-failure detection** — SMTP submission success ≠ inbox delivery.
+- **State can't prove per-email delivery.** The 5 Jun run bulk-wrote `alerts_sent.papers` with one identical timestamp (`08:56:10Z`) for ~30 packs, so state alone can't tell sent-and-delivered from sent-and-filtered. Today's full sweep fixed the first half (only stamps packs that send_email.py returned exit 0 for), but inbox delivery still isn't verifiable from state.
+- **Audit technique that works:** query `[Gmail]/Sent Mail` over IMAP with the app password in `.env.local` (read-only) to get ground truth of what actually sent. Used it here to disprove the "dropped emails" theory. Worth scripting as a `--verify-sent` check.
+
 ## 2026-06-24 (full sweep, Henry + Claude)
 
 ### Headline
