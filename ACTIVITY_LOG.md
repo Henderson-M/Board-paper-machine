@@ -1,3 +1,7 @@
+## 2026-06-29 (LIVE SEND — follow-up to the dry-run below)
+
+Henry reviewed the dry-run and said "send". All **23 emails sent live** via `send_batch.py` (staggered 30–60s): **23/23 OK, 0 failures** (`send_results.json`). State stamped: `alerts_sent.date` on all 28 new meetings, `alerts_sent.papers`/`summary` on all 13 packs. Reminder per the 24/26 Jun deliverability finding: SMTP success ≠ inbox delivery — if anyone reports a miss, audit `[Gmail]/Sent Mail` over IMAP rather than assuming it wasn't sent.
+
 ## 2026-06-29 (full sweep, DRY-RUN, Henry + Claude)
 
 ### Headline
