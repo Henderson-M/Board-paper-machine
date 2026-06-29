@@ -1,3 +1,42 @@
+## 2026-06-29 (full sweep, DRY-RUN, Henry + Claude)
+
+### Headline
+Full machine run 5 days after the last full sweep (24 Jun). Scanned all 239 in-scope orgs (227 after cluster-dedupe), fanned out across 19 agents. **28 new meeting dates** added. **13 board packs** detected in the 27 Jun–9 Jul window and analysed (63 LEAD-tier items total across them; none routine). Watchlist (10 orgs) polled — no genuinely new future packs. **Emails were NOT sent — this was a dry-run.** 23 alert emails (9 date alerts + 14 papers alerts) are written to `dry_run_output/` ready to review; re-run with `--live-emails` to send.
+
+### What changed
+- **Date scan:** 227 cluster-deduped board pages swept via the WebFetch → Playwright → PDF ladder. 736 valid forward meetings detected; diffed against state → **28 genuinely new dates**, new `.ics` written for each, all 13 subscription calendars rebuilt from state. ~53 orgs needed Playwright; 37 returned no forward dates/errors (mostly archive-only pages that publish no forward schedule, plus a few WAF blocks).
+  - New dates by recipient: Caitlin 8 (RBT Mid Cheshire ×6, RL1 RJAH ×2 of 5… see below), Zoe 7 (RBT ×6, RW5), Joe 5 (RNZ Salisbury ×4, RN3), Matt Discombe 4 (R1H Barts ×3, RAN AGM), Alison 3 (RYA West Mids Amb ×3), Henry 1 (RXG 30 Jun), James 1 (RMY), Matt Mathers 1 (R0B), Ella 1 (QKK SE London ICB). (RL1 Robert Jones & Agnes Hunt added 5 dates → Caitlin; RBT Mid Cheshire 6 dates → Zoe.)
+- **13 packs analysed** (LEAD/WORTH/FOI): RA9 Torbay 7/5/5, QF7 South Yorkshire ICB 6/3/4, TAJ Black Country Healthcare 6/4/3, RTX Morecambe Bay 6/4/4, RF4 Barking Havering & Redbridge 6/4/4, RXG SW Yorks Partnership 5/3/3, RLQ Wye Valley 5/4/3, RPG Oxleas 5/3/2, RD8 Milton Keynes 5/3/4, RYF SW Ambulance 4/4/3, RJC South Warwickshire 3/3/1, RLT George Eliot 3/5/2, RAN Royal National Orthopaedic 2/6/2. Summaries in `summaries/`.
+- **Watchlist:** 10 orgs polled; the 3 "new file" hits (RRJ, RW5, QWU) were all non-actionable — historical archive minutes, a re-issued past 4 Jun pack, and governance-log spreadsheets — none future-dated. No date-unknown alerts fired (would have been spam). RW5 also gained a confirmed 2 Jul date this run, so it leaves the watchlist.
+- **Self-improvement / data fixes:** RQY (SW London & St George's MH) URL corrected to `swlstg.nhs.uk/our-board` (split to own domain; old St George's archive was stale); RYF (SW Ambulance) URL corrected to the working schedule page. Dated notes added for: RAX renamed to Kingston & Richmond NHS FT; RX4 (CNTW) events page now 404s; RTR/RVW now meet as a joint University Hospitals Tees Group Board; RWH and RBS scan URLs look stale (need re-discovery).
+
+### Why dry-run
+Default behaviour — `/scan-boards` was run with no `--live-emails` flag. Given the 5 Jun deliverability scare (free-Gmail spam quarantine), Henry can eyeball the 23 prepared emails in `dry_run_output/` before choosing to send.
+
+### Pending / not done
+- **No emails sent.** To send: review `dry_run_output/`, then run `/scan-boards --live-emails` (uses `send_batch.py`, staggered 30–60s) — or ask Claude to send this run's manifests. `alerts_sent` flags in state are still null for all 28 dates / 13 packs.
+- One pack-detection agent's results file failed to persist on first write (pb_01: RTX/QF7/RJC); recovered by re-asking the agent — no data lost.
+- 37 orgs returned no forward dates (logged in `state/_scan_errors`); most are legitimately publishing no forward schedule, a handful (RX4 CNTW, RWH, RBS) likely have moved URLs worth re-discovering.
+
+## 2026-06-26 (Alison now copied on all ambulance trusts, Henry + Claude)
+
+### Headline
+Henry asked for Alison Moore to receive board alerts for **every** ambulance trust, on top of her existing Kent/Surrey/Sussex patch — while the trusts keep going to their current correspondents too. Done.
+
+### What changed
+- **New routing concept: a second correspondent per org.** Until now each trust/ICB had exactly one `correspondent`, so alerts went to one person. Added an optional `additional_correspondents` list so an org can alert more than one journalist. Used it to add Alison to the 9 ambulance trusts she wasn't already covering. (South East Coast Ambulance / RYD was already hers, so it needed nothing.)
+- **The 9 trusts now copied to Alison** (primary correspondent kept in brackets): London Ambulance (Matt Discombe), North East (Matt Mathers), North West (Nick), Yorkshire (Henry), East Midlands (Annabelle), West Midlands (Caitlin), East of England (James), South Central (Mimi), South Western (Joe).
+- **Skill updated to honour it.** `scan-boards/SKILL.md` now treats an org's "recipients" as its primary correspondent plus anyone in `additional_correspondents` (de-duplicated). This applies to date alerts, papers alerts, the date-unknown watchlist alerts, and the per-person subscription calendars — so each of these can now go to more than one person.
+- **Alison's calendar rebuilt now** rather than waiting for the next scan: `subscriptions/alison.ics` went from 78 events to 125 (the 47 added are the 9 ambulance trusts' meetings already in our records; her file had also drifted slightly stale vs. the live data, which this rebuild corrected).
+
+### Why
+Editorial: Alison wants a complete national view of ambulance-sector board activity, not just her regional trusts — without taking those trusts away from the reporters who own them.
+
+### Pending / not done
+- **Not committed or pushed** — changes are saved on disk only. Next `/scan-boards` run (or a manual commit) will land them in git.
+- The other correspondents' subscription `.ics` files were **not** rebuilt today (they're unchanged by this edit); they'll refresh normally on the next scan.
+- The mechanism is general — if Henry later wants anyone copied on any other group of orgs, it's now just a data edit (add a name to `additional_correspondents`), no skill change needed.
+
 ## 2026-06-24 (deliverability finding — WAHT/Caitlin, Henry + Claude)
 
 ### Headline

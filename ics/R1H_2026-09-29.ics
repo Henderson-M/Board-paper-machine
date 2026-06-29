@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R1H-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260629T091815Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Barts Health NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
+END:VCALENDAR

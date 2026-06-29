@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNZ-2027-03-05@board-paper-machine.hsj
+DTSTAMP:20260629T091815Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Salisbury NHS Foundation Trust — Public Trust Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/
+URL:https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QKK-2026-07-22@board-paper-machine.hsj
+DTSTAMP:20260629T091815Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:South East London ICB — South East London ICB Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+END:VEVENT
+END:VCALENDAR

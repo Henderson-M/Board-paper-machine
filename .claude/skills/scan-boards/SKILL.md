@@ -22,7 +22,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 4. Generate `.ics` files for new meetings.
 5. For meetings with a date in the detection window (previous 2 days through next 10 days, inclusive of today), check the papers page for new pack files.
 6. For each newly detected pack, invoke the `pack-analyser` sub-skill — applies HSJ editorial context, writes a markdown summary to `summaries/`, returns top lines.
-7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan).
+7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan). "Orgs they cover" means every org for which the person is a **recipient** — primary `correspondent` *or* listed in `additional_correspondents` (see Step 2). So an org's meetings appear in the calendars of all its recipients.
 8. Compose two kinds of email per correspondent:
    - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. The combined `subscriptions/{firstname}.ics` is attached. The recipient clicks the attachment → Outlook opens → "Save & Close" / "Save to Calendar" imports all events. Outlook deduplicates by UID, so re-importing on later scans only adds the new ones.
    - **Papers alerts** — one per analysed pack, with the pack-analyser summary inline + summary markdown attached.
@@ -103,6 +103,8 @@ Read these files:
 Build a list of in-scope orgs, filtered by any arguments. Each org needs: `ods_code`, `names[0]`, `url`, `correspondent`, `org_type` (`trust` or `icb`).
 
 Skip orgs with empty/null `url`, and skip those whose correspondent is `"TBC"` or null. Log the count skipped.
+
+**Recipients per org.** An org may also carry an optional `additional_correspondents` array (e.g. all ambulance trusts also go to `"Alison"` as well as their primary correspondent). Throughout this skill, the **recipients** of an org's alerts are the union of its `correspondent` and every name in `additional_correspondents`, **de-duplicated** (if a name appears as both, it's one recipient). A name in `additional_correspondents` that is `"TBC"`/null or has no email in `correspondents.json` is logged and skipped, exactly like a primary. Wherever a later step says "group/route by correspondent", it means **by recipient** in this sense — a single org's meeting or pack can therefore produce an alert for more than one person.
 
 ### Step 3 — Handle ICB clusters
 
@@ -257,7 +259,7 @@ For each org in the watchlist:
 4. **If new files**:
    - Append to `known_files` with `first_seen` = now.
    - Try to infer a meeting date from the new filename or first page: titles like `Trust Board 8 July 2026.pdf` or `Board pack 2026-07-08.pdf` are common. If you find a date and it's future, **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, source `source_url = papers_url`, and the new pack already in `pack_files`. The org now leaves the watchlist (it has a dated meeting in state).
-   - If you can't infer the date, still alert the correspondent: subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, body lists the file(s) and asks the journalist to confirm the date manually. Keep the org on the watchlist with the new files added to `known_files`.
+   - If you can't infer the date, still alert **each recipient** of the org (see Step 2): subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, body lists the file(s) and asks the journalist to confirm the date manually. Keep the org on the watchlist with the new files added to `known_files`.
 
 A watchlist org is **removed** the moment it has any future-dated meeting in state (its papers will be checked through the normal Step 7 path going forward).
 
@@ -281,7 +283,7 @@ After each pack is analysed, update the meeting in state: status to `analysed`, 
 
 ### Step 9 — Compose date alerts (one per correspondent)
 
-Group `new_meetings` by correspondent. For each correspondent with new meetings:
+Group `new_meetings` by **recipient** (see Step 2 — a meeting for an org with `additional_correspondents` lands in the group of its primary correspondent *and* each additional one). For each recipient with new meetings:
 
 1. Look up email from `data/correspondents.json`. If empty, log a warning and skip.
 2. Compose the email body (markdown), grouped by org:
@@ -317,9 +319,9 @@ Note on the calendar file: a combined `subscriptions/{firstname}.ics` is rebuilt
 
 ### Step 10 — Compose papers alerts (one per analysed pack)
 
-For each analysed pack:
+For each analysed pack, send one alert to **each recipient** of the pack's org (see Step 2 — primary correspondent plus any `additional_correspondents`, de-duplicated):
 
-1. Look up correspondent's email. If empty, log and skip.
+1. Look up each recipient's email from `data/correspondents.json`. For any recipient with no email, log and skip that recipient (still send to the others). The email body/subject are identical for each recipient.
 2. Read `summaries/{ods_code}_{date}.md` — the FULL summary goes in the body.
 3. Compose email body — paste the entire summary inline (Henry's preference, set 2026-06-05), and still attach the same markdown file:
 

@@ -712,7 +712,7 @@
   "ics": "South West London",
   "correspondent": "Ella",
   "url": "https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings",
-  "notes": "[2026-05-27] URL updated: Trust has merged with Hounslow & Richmond to form Kingston and Richmond NHS Foundation Trust. The new /board-meetings page lists 2026 dates (7 May, 9 Jul, 3 Sep, 5 Nov 2026). Old URL redirects to the  Merger: new trust name is Kingston and Richmond NHSFT. Code RAX may also need updating in any name fields."
+  "notes": "[2026-05-27] URL updated: Trust has merged with Hounslow & Richmond to form Kingston and Richmond NHS Foundation Trust. The new /board-meetings page lists 2026 dates (7 May, 9 Jul, 3 Sep, 5 Nov 2026). Old URL redirects to the  Merger: new trust name is Kingston and Richmond NHSFT. Code RAX may also need updating in any name fields. [2026-06-29] Trust now named Kingston and Richmond NHS Foundation Trust (merged with Hounslow & Richmond Community Healthcare)."
  },
  {
   "ods_code": "RJ1",
@@ -1559,8 +1559,8 @@
   "region": "London",
   "ics": "South West London",
   "correspondent": "Ella",
-  "url": "https://www.stgeorges.nhs.uk/about-us/board-papers/",
-  "notes": "[2026-06-05] Configured URL points at a stale St George's-domain archive; needs a working SWLStG board URL."
+  "url": "https://swlstg.nhs.uk/our-board",
+  "notes": "[2026-06-05] Configured URL points at a stale St George's-domain archive; needs a working SWLStG board URL. [2026-06-29] URL updated to https://swlstg.nhs.uk/our-board — old St George's-domain board-papers URL is a stale archive (SWLSTG split to own swlstg.nhs.uk domain)."
  },
  {
   "ods_code": "RV5",
@@ -1748,6 +1748,9 @@
   "region": "London",
   "ics": "-",
   "correspondent": "Matt Discombe",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/"
  },
  {
@@ -1894,7 +1897,7 @@
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
   "url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
-  "notes": "[2026-05-27] URL updated: Current URL is a stale 2022 page. The group board meetings page lists 2026 dates (8 Jan, 5 Mar) and is the joint-board hub with North Tees. South Tees and North Tees now operate as University Hospitals Tees Group; meetings are joint."
+  "notes": "[2026-05-27] URL updated: Current URL is a stale 2022 page. The group board meetings page lists 2026 dates (8 Jan, 5 Mar) and is the joint-board hub with North Tees. South Tees and North Tees now operate as University Hospitals Tees Group; meetings are joint. [2026-06-29] University Hospitals Tees: Tees now meets as a joint Group Board with South Tees (RVW) — 'Group board meetings'."
  },
  {
   "ods_code": "RVW",
@@ -1909,7 +1912,7 @@
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
   "url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
-  "notes": "[2026-05-27] URL updated: North Tees board meetings URL now redirects to a declarations-of-interest page; the trust operates as part of University Hospitals Tees Group with South Tees and meetings are joint. Group board page l Joint board with South Tees (RTR) — same URL should be used for both."
+  "notes": "[2026-05-27] URL updated: North Tees board meetings URL now redirects to a declarations-of-interest page; the trust operates as part of University Hospitals Tees Group with South Tees and meetings are joint. Group board page l Joint board with South Tees (RTR) — same URL should be used for both. [2026-06-29] North Tees & Hartlepool now meets jointly with South Tees as University Hospitals Tees Group Board (shared board)."
  },
  {
   "ods_code": "RX3",
@@ -1936,7 +1939,7 @@
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
   "url": "https://www.cntw.nhs.uk/events/",
-  "notes": "[2026-05-27] URL updated: The events calendar lists upcoming board meetings (29 Jul 2026, 4 Nov 2026). The current URL is a deep link to a single 2015 agenda item that is clearly wrong. (MEDIUM-confidence fix — verify on next scan) Only 2 upcoming dates visible - calendar may show more if filtered. An alternative is the publications board-papers filter page which shows past meeting papers including the recent 29 April 2026 meeting."
+  "notes": "[2026-05-27] URL updated: The events calendar lists upcoming board meetings (29 Jul 2026, 4 Nov 2026). The current URL is a deep link to a single 2015 agenda item that is clearly wrong. (MEDIUM-confidence fix — verify on next scan) Only 2 upcoming dates visible - calendar may show more if filtered. An alternative is the publications board-papers filter page which shows past meeting papers including the recent 29 April 2026 meeting. [2026-06-29] CNTW /events/ now 404s; board pages relocated — needs URL re-discovery next run."
  },
  {
   "ods_code": "RXP",
@@ -2320,7 +2323,8 @@
   "region": "East of England",
   "ics": "Hertfordshire and West Essex",
   "correspondent": "Emily",
-  "url": "https://www.enherts-tr.nhs.uk/gp-professionals/publications/board-papers-september-2023/"
+  "url": "https://www.enherts-tr.nhs.uk/gp-professionals/publications/board-papers-september-2023/",
+  "notes": "[2026-06-29] scan_url is a stale Sept-2023 board-papers page; no forward dates — URL likely outdated, re-discover next run."
  },
  {
   "ods_code": "RWR",
@@ -2400,7 +2404,7 @@
   "ics": "Cheshire and Merseyside",
   "correspondent": "Zoe",
   "url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
-  "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: The /about/trust/board/meeting/ page describes board meeting practice ('meet 11 times a year, 10am-3pm') but does NOT list specific 2026 dates. Confir Recommend supplementing with monitoring of /publications_type/public-meeting/ where agenda PDFs appear (named with date) ~week before each meeting."
+  "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: The /about/trust/board/meeting/ page describes board meeting practice ('meet 11 times a year, 10am-3pm') but does NOT list specific 2026 dates. Confir Recommend supplementing with monitoring of /publications_type/public-meeting/ where agenda PDFs appear (named with date) ~week before each meeting. [2026-06-29] scan_url /about-us/trust-board/ renders an April-2018 board-paper page; try /public-meetings or current board page next run."
  },
  {
   "ods_code": "RBT",
@@ -2650,6 +2654,9 @@
   "region": "North East and Yorkshire",
   "ics": "-",
   "correspondent": "Matt Mathers",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.neas.nhs.uk/about-us/trust-board/board-meetings",
   "notes": "[2026-05-27] URL updated: The /board-meetings sub-page shows next meeting (16 July 2026) and a future meetings table going into 2027."
  },
@@ -2664,6 +2671,9 @@
   "region": "North West",
   "ics": "-",
   "correspondent": "Nick",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.nwas.nhs.uk/about/directors/board-meetings/",
   "notes": "[2026-05-27] URL updated: The board-meetings page lists 2026 dates (next meeting 27 May 2026 plus 29 April 2026). The current URL is a stale link to a single 2023 meeting. Page shows next meeting prominently - good for ongoing scans."
  },
@@ -2678,6 +2688,9 @@
   "region": "North East and Yorkshire",
   "ics": "-",
   "correspondent": "Henry",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.yas.nhs.uk/about-us/the-trust-board/"
  },
  {
@@ -2691,6 +2704,9 @@
   "region": "Midlands",
   "ics": "-",
   "correspondent": "Annabelle",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
   "notes": "[2026-05-27] URL updated: The next-board-meeting page shows next meeting (9 June 2026) and links to future meetings page. Current URL is the archive sub-page. There is also a /future-meetings sub-path that may show full schedule."
  },
@@ -2705,6 +2721,9 @@
   "region": "Midlands",
   "ics": "-",
   "correspondent": "Caitlin",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.wmas.nhs.uk/about/publications/?category=board-papers",
   "notes": "[2026-05-27] URL updated: The publications board-papers filter shows three 2026 meeting dates with linked agendas (28 Jan, 25 Mar, 27 May). No standalone calendar page found. (MEDIUM-confidence fix — verify on next scan) WMAS doesn't appear to publish a forward calendar - only agenda/papers as they become available. The /about-us/board-papers/ URL itself returned 404 on this attempt."
  },
@@ -2719,6 +2738,9 @@
   "region": "East of England",
   "ics": "-",
   "correspondent": "James",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers"
  },
  {
@@ -2746,6 +2768,9 @@
   "region": "South East",
   "ics": "-",
   "correspondent": "Mimi",
+  "additional_correspondents": [
+   "Alison"
+  ],
   "url": "https://www.scas.nhs.uk/about-scas/our-board/",
   "notes": "[2026-05-27] URL updated: The /about-scas/our-board/ page lists the 2026/27 schedule (next meeting 3 June 2026, plus 2 Apr, 3 Sep, 7 Oct, 5 Nov 2026, 4 Mar 2027). Current URL uses /about-us/ but the actual page is under /about-scas/."
  },
@@ -2760,8 +2785,11 @@
   "region": "South West",
   "ics": "-",
   "correspondent": "Joe",
-  "url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
-  "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL returns 404. The /our-board/ parent page references board meeting schedule but no specific 2026 dates visible. WebSearch didn't quickly re Worth a manual look at swast.nhs.uk navigation. Current URL is broken."
+  "additional_correspondents": [
+   "Alison"
+  ],
+  "url": "https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/",
+  "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Current URL returns 404. The /our-board/ parent page references board meeting schedule but no specific 2026 dates visible. WebSearch didn't quickly re Worth a manual look at swast.nhs.uk navigation. Current URL is broken. [2026-06-29] URL updated to /board-meeting-schedule-and-public-papers/ — old /our-board/board-meeting-schedule-and... redirects to a generic page with no dates."
  },
  {
   "ods_code": "G6V2S",
