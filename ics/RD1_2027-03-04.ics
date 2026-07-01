@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RD1-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Royal United Hospitals Bath NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ruh.nhs.uk/about/trustboard/index.asp
+URL:https://www.ruh.nhs.uk/about/trustboard/index.asp
+END:VEVENT
+END:VCALENDAR

@@ -18,7 +18,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -276,7 +276,7 @@
   {
    "ods_code": "RDY",
    "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
@@ -367,362 +367,9 @@
    "notes": "[2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL lists 2026 Board in Common dates with Dorset County Hospital (Feb 2026, Apr 2026) with linked agenda/paper packs. Sc [2026-06-16] registered 1 past pack(s), no alert."
   },
   {
-   "ods_code": "RJN",
-   "papers_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
-   "last_checked": "2026-06-29T09:44:06Z",
-   "known_files": [
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/4717/4982/6163/Public_Trust_Board_Agenda_and_supporting_papers_-_May_2025_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/3917/3745/3860/Public_Trust_Board_Agenda_and_supporting_papers_-_January_2025_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/1717/3158/7198/Public_Trust_Board_-_November_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5617/2019/3007/Public_Trust_Board_-_July_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1518/3549/Public_Trust_Board_-_May_2024_-_Agenda_and_Supporting_papers_Numbered_FINAL.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7317/1775/6483/Public_Trust_Board_-_March_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/8017/0609/1265/Public_Trust_Board_-_January_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/4217/0565/6653/Public_Trust_Board_-_2nd_November_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/7316/9442/1351/Public_Trust_Board_-_6th_September_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/2516/8873/2030/Public_Trust_Board_-_6th_July_2023_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/9916/5166/7332/02_-_Public_Board_Agenda_and_Papers_May_2022_Website_Version_V2_Numbered.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/5516/4338/5592/Public_Trust_Board_Agenda_and_Papers_-_December_2021_Website_v4_Numbered_1.pdf",
-     "title": "Agenda and papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/6516/0218/0812/trust_board_agenda_and_papers_01-10-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/5116/0218/0809/trust_board_agenda_and_papers_03-09-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://extranet.eastcheshire.nhs.uk/application/files/8916/0218/0811/trust_board_agenda_and_papers_02-07-20.pdf",
-     "title": "Agenda and Papers",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://trust.eastcheshire.nhs.uk/application/files/9217/6797/5303/26.018_Emergency_Preparedness_Response_and_Resilience_-_Annual_Assurance_Report.pdf",
-     "title": "Emergency Preparedness, Response and Resilience – Annual Assurance Report",
-     "first_seen": "2026-05-27T16:02:50Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/20646/328",
-     "title": "Public Trust Board Agenda and Papers May 2026",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/1417/7281/1342/Trust_Board_-_March_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Trust Board - March 2026 - Agenda and Supporting Papers",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/20290/328",
-     "title": "Trust Board - January 2026 - Agenda and Papers",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/5917/6339/5296/Public_Trust_Board_-_November_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - November 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/5817/5672/9389/Public_Trust_Board_-_September_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - September 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/7317/5146/6667/Public_Trust_Board_-_July_2025_-_Agenda_and_Supporting_Papers_Numbered.pdf",
-     "title": "Public Trust Board - July 2025",
-     "first_seen": "2026-06-09T19:04:38"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/20342/328",
-     "title": "Our Trust Strategy 2026-31: Caring For Our Future",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/9217/6797/5303/26.018_Emergency_Preparedness_Response_and_Resilience_-_Annual_Assurance_Report.pdf",
-     "title": "Emergency Preparedness, Response and Resilience - Annual Assurance Report",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/4717/4982/6163/Public_Trust_Board_Agenda_and_supporting_papers_-_May_2025_Numbered.pdf",
-     "title": "Public Trust Board - May 2025",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/14365/328",
-     "title": "Thursday, 6th March - Agenda and papers",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/3917/3745/3860/Public_Trust_Board_Agenda_and_supporting_papers_-_January_2025_Numbered.pdf",
-     "title": "Public Trust Board - January 2025",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/1717/3158/7198/Public_Trust_Board_-_November_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Public Trust Board - November 2024",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/12815/328",
-     "title": "Thursday, 5th September - Agenda and papers",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/7317/1518/3549/Public_Trust_Board_-_May_2024_-_Agenda_and_Supporting_papers_Numbered_FINAL.pdf",
-     "title": "Thursday 2nd May 2024",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/7317/1775/6483/Public_Trust_Board_-_March_2024_-_Agenda_and_Supporting_papers_Numbered.pdf",
-     "title": "Thursday, 7th March - Agenda and papers",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/4217/0565/6653/Public_Trust_Board_-_2nd_November_2023_Numbered.pdf",
-     "title": "Thursday, 2nd November 2023",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/7316/9442/1351/Public_Trust_Board_-_6th_September_2023_Numbered.pdf",
-     "title": "Thursday 7th September 2023",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/2516/8873/2030/Public_Trust_Board_-_6th_July_2023_Numbered.pdf",
-     "title": "Thursday, 6th July 2023",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/9368/328",
-     "title": "Thursday 4th May 2023",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/9014/328",
-     "title": "Thursday 16th March 2023",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/8662/328",
-     "title": "Thursday 2nd February 2023 - Agenda",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/8852/328",
-     "title": "Thursday 2nd February 2023 - Papers",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/8133/0",
-     "title": "Thursday, 1st December 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/7868/328",
-     "title": "Thursday 3rd November 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/7503/328",
-     "title": "Thursday 1st September 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/7141/0",
-     "title": "Thursday 7th July 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/9916/5166/7332/02_-_Public_Board_Agenda_and_Papers_May_2022_Website_Version_V2_Numbered.pdf",
-     "title": "Thursday 5th May 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/6239/328",
-     "title": "Thursday 3rd March 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/6240/328",
-     "title": "Thursday 3rd February 2022",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/application/files/5516/4338/5592/Public_Trust_Board_Agenda_and_Papers_-_December_2021_Website_v4_Numbered_1.pdf",
-     "title": "Thursday 2nd December 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/5316/328",
-     "title": "Thursday 4th November 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/5018/328",
-     "title": "Thursday 2nd September 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/4693/328",
-     "title": "Thursday 1st July 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/4387/328",
-     "title": "Thursday 6th May 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/4121/328",
-     "title": "Thursday 4th March 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/3980/328",
-     "title": "Thursday 4th February 2021",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/3707/328",
-     "title": "Thursday 3rd December 2020",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/3377/328",
-     "title": "Thursday 5th November 2020",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/67/328",
-     "title": "Thursday 7th May 2020",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/63/328",
-     "title": "Thursday 5th March 2020",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/62/328",
-     "title": "Thursday 6th February 2020",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/61/328",
-     "title": "Thursday 5th December 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/68/328",
-     "title": "Thursday 7th November 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/71/328",
-     "title": "Thursday 5th September 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/72/328",
-     "title": "Thursday 4th July 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/73/328",
-     "title": "Thursday 6th June 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/70/328",
-     "title": "Thursday 4th April 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/66/328",
-     "title": "Thursday 7th March 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    },
-    {
-     "url": "https://www.eastcheshire.nhs.uk/download_file/view/65/328",
-     "title": "Thursday 7th February 2019",
-     "first_seen": "2026-06-24T12:00:00Z"
-    }
-   ],
-   "notes": "[2026-05-27] URL updated: Meetings subpage on the new trust.eastcheshire.nhs.uk subdomain shows Thursday 7 May 2026 board meeting and links to public trust board agenda and papers. The original URL po"
-  },
-  {
    "ods_code": "RXA",
    "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.cwp.nhs.uk/application/files/8417/7944/0775/PUBLIC_BoD_Agenda_Pack_Final_27_05_2026.pdf",
@@ -745,7 +392,7 @@
   {
    "ods_code": "QYG",
    "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
@@ -768,7 +415,7 @@
   {
    "ods_code": "QWU",
    "papers_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2020%20May%2026.pdf",
@@ -1046,7 +693,7 @@
   {
    "ods_code": "QGH",
    "papers_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.hwics.org.uk/download_file/5435/414",
@@ -1099,7 +746,7 @@
   {
    "ods_code": "S1Y5D",
    "papers_url": "https://www.hertsandwestessex.ics.nhs.uk/about/icb/board/",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.hertsandwestessex.ics.nhs.uk/wp-content/uploads/2026/02/Meeting-Book-BLMK-CP-and-HWE-Boards-of-the-ICB-in-Common-in-Public-06.02.2026-1.pdf",
@@ -1122,7 +769,7 @@
   {
    "ods_code": "RP6",
    "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-   "last_checked": "2026-06-29T09:44:06Z",
+   "last_checked": "2026-07-01T12:00:00Z",
    "known_files": [
     {
      "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",

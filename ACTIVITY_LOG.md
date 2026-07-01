@@ -1,3 +1,36 @@
+## 2026-07-01 (full sweep, LIVE SEND, Henry + Claude)
+
+### Headline
+Full machine run 2 days after the 29 Jun sweep. Scanned all 239 in-scope orgs (227 after cluster-dedupe), fanned out across 15 date-scan agents + 11 pack-detection agents + 13 pack-analyser agents. **32 new meeting dates** added. **14 board packs** detected in the 29 Jun–11 Jul window and analysed (68 LEAD-tier items across them; none routine). **All emails sent LIVE** — 25 in total (11 date alerts + 14 papers alerts), staggered via `send_batch.py`: **25/25 OK, 0 failures** (`send_results.json`).
+
+### What changed
+- **Date scan:** 227 cluster-deduped board pages swept via the WebFetch → Playwright → PDF ladder. 709 valid forward meetings detected; diffed against state → **32 genuinely new dates**, new `.ics` written for each, all 13 subscription calendars rebuilt from state. 28 orgs returned no forward dates/errors (mostly archive-only pages that publish no forward schedule, plus a few Cloudflare/WAF blocks — e.g. SW Provider Collaborative 403, CNTW events page 404).
+  - New dates by recipient (date-alert emails): Joe 13, Nick 4, Emily 3, Matt Discombe 3, Mimi 3, Alison 2, Caitlin 2, Ella 1, Henry 1 (RXG SW Yorks Partnership 28 Jul), Matt Mathers 1, Zoe 1. (A handful of orgs route to two recipients, so recipient totals sum above 32.)
+- **14 packs analysed** (LEAD/WORTH/FOI) → papers alert to the assigned correspondent:
+  - RD1 Royal United Hospitals Bath / **BSW Hospitals Group Board** 7/3/3 (Joe) — first public BSW group board; GWH downgraded to segment 4, £17.1m group deficit at M2, RUH fire-authority roof-evacuation order on Block 47.
+  - RQ3 Birmingham Women's & Children's 6/5/3 (Caitlin)
+  - REF Royal Cornwall 6/5/3 (Joe) — segment 1→2, internal critical incident declared 27 May.
+  - RXL Blackpool 6/6/4 (Zoe) — £28.8m forecast deficit, "unlikely to exit tiering".
+  - RPA Medway 6/4/4 (Alison)
+  - RDU Frimley 5/4/2 (Mimi)
+  - RW5 Lancashire & South Cumbria 5/4/2 (Zoe)
+  - RCF Airedale 4/5/2 (**Henry**) — COO Leanne Cooper left for Uni Hospitals of Liverpool; £20.2m gap.
+  - REN Clatterbridge 4/3/2 (Zoe)
+  - RGM Royal Papworth 4/4/2 (James)
+  - RJN East Cheshire 4/6/3 (Zoe)
+  - RTR South Tees + RVW North Tees 4/4/2 (Matt Mathers ×2) — single shared University Hospitals Tees Group Board pack, analysed once, summary written to both.
+  Summaries in `summaries/`.
+- **Watchlist:** 9 orgs polled; only RJN (East Cheshire) had a genuinely new pack, and it also gained a confirmed 2 Jul date this run, so it **leaves the watchlist** (now 8 orgs). The other 8 had no new future packs — `last_checked` refreshed, no date-unknown alerts fired.
+- **State stamped:** `alerts_sent.date` on all 32 new meetings, `alerts_sent.papers`/`summary` on all 14 packs — driven by the `ok:true` rows in `send_results.json`.
+
+### Why live
+Henry asked for a full sweep with live emails up front (no dry-run this time). Dry-run plan was previewed via `send_batch.py --dry-run` before sending; staggering (30–60s) used to avoid the free-Gmail spam-quarantine issue seen on 5 Jun.
+
+### Pending / not done
+- Reminder per the 24/26 Jun deliverability finding: SMTP success ≠ inbox delivery. If anyone reports a miss, audit `[Gmail]/Sent Mail` over IMAP rather than assuming it wasn't sent.
+- 28 orgs returned no forward dates (logged in `state/_scan_errors`); most legitimately publish no forward schedule, a few (SW Provider Collaborative WAF block, CNTW moved URL, Herts & West Essex ICB) worth URL re-discovery.
+- Still not built: the "already covered" HSJ CMS API check to suppress leads on stories HSJ has already published.
+
 ## 2026-06-29 (LIVE SEND — follow-up to the dry-run below)
 
 Henry reviewed the dry-run and said "send". All **23 emails sent live** via `send_batch.py` (staggered 30–60s): **23/23 OK, 0 failures** (`send_results.json`). State stamped: `alerts_sent.date` on all 28 new meetings, `alerts_sent.papers`/`summary` on all 13 packs. Reminder per the 24/26 Jun deliverability finding: SMTP success ≠ inbox delivery — if anyone reports a miss, audit `[Gmail]/Sent Mail` over IMAP rather than assuming it wasn't sent.

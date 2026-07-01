@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RKL-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:West London NHS Trust — Board of directors - public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+END:VEVENT
+END:VCALENDAR

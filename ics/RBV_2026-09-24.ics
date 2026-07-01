@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RBV-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:The Christie NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings
+URL:https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RQW-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:The Princess Alexandra Hospital NHS Trust — Public Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.pah.nhs.uk/about/board/board-papers/
+URL:https://www.pah.nhs.uk/about/board/board-papers/
+END:VEVENT
+END:VCALENDAR

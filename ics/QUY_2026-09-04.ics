@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QUY-2026-09-04@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Bristol, North Somerset and South Gloucestershire ICB — Integrated Care Board (ICB) Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bnssghealthiertogether.org.uk/events/
+URL:https://bnssghealthiertogether.org.uk/events/
+END:VEVENT
+END:VCALENDAR

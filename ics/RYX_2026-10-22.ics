@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYX-2026-10-22@board-paper-machine.hsj
+DTSTAMP:20260701T114828Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Central London Community Healthcare NHS Trust — Board-in-Common
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+END:VCALENDAR
