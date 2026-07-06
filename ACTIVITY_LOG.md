@@ -1,3 +1,36 @@
+## 2026-07-06 (packs + watchlist only, LIVE SEND, Henry + Claude)
+
+### Headline
+Targeted packs-only run (no full date scan — dates were swept 5 days ago on 1 Jul). Checked all **64 in-window meetings** (window 4–16 Jul) for new board packs via 9 parallel detection agents + a watchlist agent, then analysed every pack found with a 21-strong pack-analyser fleet. **22 meetings had a full pack online** (21 analysis units — NLAG + Hull share one Boards-in-Common pack). **99 LEAD / 104 WORTH WATCHING / 114 FOI** items across them. **All 21 papers-alert emails sent LIVE**, staggered 30–60s via `send_batch.py`: **21/21 OK, 0 failures** (`send_results.json`). No date alerts (date scan skipped). Watchlist (8 orgs) clean — no surprise packs.
+
+### What changed
+- **Pack detection (window 4–16 Jul):** 64 in-window meetings checked. 22 had a full pack; 42 had no pack online yet (most publish the week of the meeting). Clusters deduped: BSOL-BC (QUA+QHL, 13 Jul — no pack yet), DLN (QJ2+QJM+QT1, 16 Jul — no pack yet), NLAG+Hull (RJL+RWA, 9 Jul — one shared pack, analysed once, summary written to both).
+- **22 packs analysed** → 21 papers alerts (by recipient):
+  - **Henry (3):** Doncaster & Bassetlaw (RP5) 4 LEAD — CEO Richard Parker OBE retiring after ~44 yrs, £15.7m DSF with £1-for-£1 clawback, £52.1m underlying deficit; Humber Health Partnership NLAG+Hull BiC (RJL/RWA) 5 LEAD — up to £141.9m group deficit / £41.9m unidentified, NHSE Intensive Recovery Programme + Carnall Farrar; Calderdale & Huddersfield (RWY) 5 LEAD — never-events national outlier (9 in 12 months), £5.9m adverse, new-hospital FBC + Laing O'Rourke.
+  - **Annabelle (3):** United Lincolnshire NHS Group board (RWD, merged with LCHS/RY5 — identical 52MB pack) 5 LEAD — LCHS NOF 2→3, ULTH breast-services breach notice, CNST maternity-fail risk, £8.1m group M2 deficit; Nottingham UH (RX1) 6 LEAD — Ockenden 444 women/76 babies avoidable harm, HTA mortuary 3 critical findings, £23m M2 deficit; East Midlands Ambulance (RX9, +Alison) 5 LEAD — critical incident 27 Jun, Cat 2 breaches, staff-survey WRES hit to oversight rating.
+  - **Alison (3):** Surrey & Borders (RXX) 6 LEAD — NOF 2→3, crisis metrics worsening, Grant Thornton well-led review, FTSU drop; Queen Victoria (RPC) 6 LEAD — being drawn into Royal Surrey/Ashford & St Peter's group, lost DSF + £7.5m cost programme, extraordinary board 23 Jul; EMAS (shared with Annabelle).
+  - **Ella (2):** Kingston & Richmond (RAX) 4 LEAD — £40m "unprecedented" target, restricting maternity bookings (excl Sutton/Croydon), restructure to 4 care groups; SW London & St George's MH (RQY) 5 LEAD — Coroner PFD inpatient suicide + April spike of 12 suspected suicides, 17-day bed waits, bank-cap breach.
+  - **Emily (2):** East & North Herts (RWH) 5 LEAD — BDO "significant weakness", MHRA "critical failure" at Lister QC lab, KPMG review of ENH Pharma drug-pricing; West Herts (RWG) 0 LEAD / 7 WW — acting CEO while substantive CEO 7th in HSJ Top 50, Watford+Mount Vernon new-hospital DMBC, 3 never events.
+  - **Caitlin (2):** North Staffs Combined (RLY) 2 LEAD — £1.1m underlying deficit behind £154k planned surplus, 840 CYP >104wks; Shrewsbury & Telford (RXW) 5 LEAD — exits NHSE RSP + NOF 5→3 (first plan delivered in 10 yrs) on £45.1m DSF, Ockenden validation review due this summer, 45% Type 1 A&E.
+  - **Nick (2):** Northern Care Alliance (RM3) 6 LEAD — NHSE enforcement undertakings + CQC S29A at Salford Royal, Oade spinal-surgery report, £10m M2 deficit; GM Mental Health (RXV) 6 LEAD — up to £21.3m deficit a yr after breakeven, inpatient death + ward closure, ICO audit + ~500 breached SARs, new CEO in dual role, Southport Inquiry.
+  - **Zoe (1):** Lancashire & South Cumbria ICB (QE1) 6 LEAD — ~£215m cost-out, £164m DSF propping 25/26, second VR round, OPIC host, enforcement undertakings.
+  - **Mimi (1):** Univ Hospital Southampton (RHM) 5 LEAD — exits NHSE Recovery Support Programme, ~£35m of £81m CIP undeveloped, critical incident 25 Jun, 9/12 BAF risks critical.
+  - **Joe (1):** Cornwall Partnership (RJ8) 5 LEAD — £27m underlying deficit behind "breakeven" plan, two auditor "significant weaknesses", sickness/turnover outlier.
+  - **Matt Discombe (1):** Barts Health (R1H) 3 LEAD — NOF Segment 3→1 "biggest climber", three senior group vacancies incl Group CFO, £5.8m adverse at M2.
+  - Summaries in `summaries/`.
+- **Watchlist:** 8 orgs polled — no genuinely new/future packs (all "new-looking" files were historical/past archive). `last_checked` refreshed on all 8. No date-unknown alerts fired.
+- **State stamped:** 22 meetings set to `analysed` with pack_files + summary_path; `alerts_sent.papers`/`summary` stamped on all 22, driven by the `ok:true` rows in `send_results.json`. 42 in-window no-pack meetings had `last_checked` refreshed.
+- **Self-improvement / data fixes:** RWH (E&N Herts) URL confirmed live (stale-2023 note superseded); RP5 papers_url pointed at a v3 PDF that 404s → repointed to /board/ (live pack is the v2 combined PDF, now in pack_files); S1Y5D (Herts & West Essex) watchlist note added — domain now redirects to merged Central East ICB (centraleast.icb.nhs.uk), papers_url stale.
+
+### Pending / not done
+- **Ghost dates flagged (kept for audit, not alerted):** RCX (QEHKL 9 Jul — no such meeting on N&W Group schedule, next is 5 Aug); R0D (UHD 15 Jul — not in trust's 2026 schedule; genuine board was 8 Jul); logged to `_scan_errors`.
+- **S0E4D (Thames Valley ICB):** own site lists next public board as **22 Jul**, not the stated 15 Jul — verify/patch date next run.
+- **RJZ (King's College Hospital, 15/16 Jul):** could NOT check packs — kch.nhs.uk origin down (Cloudflare 522) to all fetchers; web search suggests July board is 15 Jul. Re-check when site recovers.
+- **42 in-window meetings** had no pack online yet (incl the BSOL-BC and DLN ICB cluster boards) — they'll re-check on the next run within the 2-day-back window.
+- **Tooling niggles (worth fixing in pack-analyser):** analyser agents shared `C:\tmp\pack` and several agents' cleanup step wiped it mid-run for others (all recovered by re-downloading to an isolated scratch dir); `fetch_pdf_text.py` treats a local file path as a URL, so agents extracted big local PDFs with pypdf directly. The 41MB Nottingham pack stalled the first analyser (600s watchdog) and had to be re-run with an isolated temp dir — worth giving each analyser its own scratch subfolder by default.
+- Deliverability reminder (per 24/26 Jun findings): SMTP success ≠ inbox delivery. If anyone reports a miss, audit `[Gmail]/Sent Mail` over IMAP rather than assuming it wasn't sent.
+- Still not built: the "already covered" HSJ CMS API check to suppress leads on stories HSJ has already published.
+
 ## 2026-07-01 (full sweep, LIVE SEND, Henry + Claude)
 
 ### Headline
