@@ -214,16 +214,144 @@
    "title": "ICB Board meeting",
    "source_url": "https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/",
    "papers_url": "https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/8-july-2026/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/0-PUBLIC-AGENDA-15-JULY-2026-V4.pdf",
+     "title": "Public Agenda - 15 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/02a-Board-Member-Declarations-of-Interest-07-07-26.pdf",
+     "title": "Item 2a. Declaration of Interests",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/02c-Gifts-and-hospitality-register-07-07-26.pdf",
+     "title": "Item 2c. Gifts and hospitality register",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/03-PUBLIC-FINAL-VERSION-Draft-Minutes-20-May-2026.pdf",
+     "title": "Item 3. Draft Minutes 20 May 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/06-QUESTIONS-TO-THE-BOARD-JULY-2026.pdf",
+     "title": "Item 6. Questions to the Board",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/07-A-Cover-Report-Three-Biggest-Killers-15.07.26.pdf",
+     "title": "Item 7. Three Biggest Killers Strategy cover report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/07-Presentation-3BK-Board.pdf",
+     "title": "Item 7. Three Biggest Killers Strategy Presentation",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/07-Three-Biggest-Killers-Strategy-for-HNY.pdf",
+     "title": "Item 7. Three Biggest Killers: A Strategy for HNY",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/08-Appx-Ai-REMUNERATION-COMMITTEE-TOR-v6.pdf",
+     "title": "Item 8. Appendix Ai - Remuneration Committee ToR",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/08-Appx-Aii-Breakthrough-Work-Health-and-Skills-Programme-Board-Terms-of-Reference-V1.0-FINAL.pdf",
+     "title": "Item 8. Appendix Aii - Work Health and Skills Programme Board ToR",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/08-Appx-B-HNY-ICB-SPECIAL-ROLES-v6-FINAL.pdf",
+     "title": "Item 8. Appendix B - HNY ICB Special Roles",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/08-HNYICB-Board-Cover-Report-Governance-July-2026.pdf",
+     "title": "Item 8. Board Cover Report - Governance July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/09-HNYICB-BOARD-Chairs-Report-July-2026.pdf",
+     "title": "Item 9. Chairs Report July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/12-A-Cover-Report-Voice-of-Lived-Experience-Board-July-2026.pdf",
+     "title": "Item 12. Cover Report - Voice of Lived Experience",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/12-ICB-Board-VOLE-Communication-and-Admin-Insight-July-2026.pdf",
+     "title": "Item 12. VOLE Communication and Admin Insight",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/14-HNY-CAP-Annual-Report-202526.pdf",
+     "title": "Item 14. HNY CAP Annual Report 2025-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/14-HNYICB-BOARD-CAP-Annual-Report-25-26.pdf",
+     "title": "Item 14. Board CAP Annual Report 25-26 cover",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/15-A-Cover-Report-ICB-Integrated-Performance-Update-15.07.26.pdf",
+     "title": "Item 15. Cover Report - ICB Integrated Performance Update",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/15-Integrated-Monthly-Performance-Update-202607.pdf",
+     "title": "Item 15. Integrated Monthly Performance Update 2026-07",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/16-HNY-ICB-Board-Report-16.06.26-Lord-Mann-V2.pdf",
+     "title": "Item 16. HNY ICB Board Report (Lord Mann)",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2026/03/17ai-AGC-21-05-26.pdf",
+     "title": "Item 17ai. Audit and Governance Committee",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' â€” possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json â€” alert was suppressed."
+   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' â€” possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json â€” alert was suppressed.",
+   "summary_path": "summaries/QOQ_2026-07-15.md"
   },
   {
    "id": "QOQ:2026-09-16",
@@ -1268,16 +1396,24 @@
    "title": "Public Board Meeting",
    "source_url": "https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.kentcht.nhs.uk/wp-content/uploads/2026/07/Board-papers-15-July-2026.pdf",
+     "title": "Board papers 15 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RYY_2026-07-15.md"
   },
   {
    "id": "RYY:2026-10-21",
@@ -1306,16 +1442,24 @@
    "title": "Board of Directors Meeting in Public",
    "source_url": "https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.chesterfieldroyal.nhs.uk/download_file/a5209f67-f696-43d1-a381-59a5133593fd/689",
+     "title": "BOARD OF DIRECTORS MEETING IN PUBLIC - July 26 pack",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RFS_2026-07-14.md"
   },
   {
    "id": "RFS:2026-09-08",
@@ -1992,16 +2136,30 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.uhdb.nhs.uk/trust-board-members/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.uhdb.nhs.uk/download/docm93jijm4n33777.pdf?ver=95878",
+     "title": "14 July 2026 - Agenda and Papers PUBLIC Trust Board",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.uhdb.nhs.uk/download/docm93jijm4n33778.pdf?ver=95880",
+     "title": "14 July 2026 - Annual Report pack PUBLIC Trust Board",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RTG_2026-07-14.md"
   },
   {
    "id": "RTG:2026-09-08",
@@ -4168,16 +4326,24 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.midyorks.nhs.uk/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.midyorks.nhs.uk/download/public-trust-board-090726-paperspdf.pdf?ver=10211&doc=docm93jijm4n5392.pdf",
+     "title": "Public Trust Board 09.07.26 - PAPERS.pdf",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RXF_2026-07-09.md"
   },
   {
    "id": "RY6:2026-09-17",
@@ -4361,13 +4527,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting — WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
   },
   {
    "id": "RCX:2026-09-25",
@@ -4950,16 +5116,24 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.somersetft.nhs.uk/about-us/trust-board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.somersetft.nhs.uk/about-us/wp-content/uploads/sites/148/2026/07/Public-Board-Meeting-on-14-July-2026_FINAL-Boardbook-for-website.pdf",
+     "title": "Public Board Meeting 14 July 2026 - Board book",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RH5_2026-07-14.md"
   },
   {
    "id": "RH5:2026-09-08",
@@ -8802,16 +8976,24 @@
    "title": "Joint ICB Cluster Board Meeting",
    "source_url": "https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.blackcountryics.org.uk/download_file/view/4350/475",
+     "title": "Joint ICB Cluster Board papers - 13 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/QUA_2026-07-13.md"
   },
   {
    "id": "QUA:2026-09-14",
@@ -9360,16 +9542,24 @@
    "title": "ICB Board Meeting",
    "source_url": "https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/07/20260715-NSICB-Agenda-and-Reports.pdf",
+     "title": "20260715 NSICB Agenda and Reports",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/T6Y0W_2026-07-15.md"
   },
   {
    "id": "T6Y0W:2026-09-23",
@@ -10007,16 +10197,24 @@
    "title": "Joint ICB Cluster Board Meeting - July 2026",
    "source_url": "https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.birminghamsolihull.icb.nhs.uk/download_file/10472/362",
+     "title": "Joint ICB Cluster Board Meeting - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/QUA_2026-07-13.md"
   },
   {
    "id": "QHL:2026-09-14",
@@ -10709,13 +10907,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-07-09 scan] Stale — actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
   },
   {
    "id": "R0D:2026-09-09",
@@ -12353,16 +12551,24 @@
    "title": "Group Board Meeting (Public)",
    "source_url": "https://www.epsom-sthelier.nhs.uk/board-meetings",
    "papers_url": "https://www.epsom-sthelier.nhs.uk/board-papers-and-agendas",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.epsom-sthelier.nhs.uk/download/export-20260707-093612pdf.pdf?ver=64090&doc=docm93jijm4n26935.pdf",
+     "title": "gesh Group Board - 9 July 2026 papers",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RVR_2026-07-09.md"
   },
   {
    "id": "RVR:2026-09-03",
@@ -16242,16 +16448,24 @@
    "title": "Trust Board meeting (Wednesday)",
    "source_url": "https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda-and-papers",
    "papers_url": "https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda-and-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://elht.nhs.uk/download_file/30649/191",
+     "title": "Trust Board Papers (Public) - July 2026.pdf",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": "Detected via Group C re-extraction (visible_text)."
+   "notes": "Detected via Group C re-extraction (visible_text).",
+   "summary_path": "summaries/RXR_2026-07-08.md"
   },
   {
    "id": "RXR:2026-09-09",
@@ -18072,16 +18286,24 @@
    "title": "Public Board Meeting",
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.gloshospitals.nhs.uk/media/documents/July_2026_FINAL-Boardbook.pdf",
+     "title": "July 2026 Board Meeting - Board Book (FINAL)",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": ""
+   "notes": "",
+   "summary_path": "summaries/RTE_2026-07-16.md"
   },
   {
    "id": "RTE:2026-09-10",
@@ -18614,13 +18836,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "[2026-07-09 scan] No 9 Jul 2026 Dorset County board (bi-monthly Board in Common, latest pack 17 Jun 2026). Likely bad date; verify/retire."
   },
   {
    "id": "RKL:2026-06-10",
@@ -19316,16 +19538,24 @@
    "title": "GESH Group Board Meeting (Public)",
    "source_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
    "papers_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2026/07/9-July-2026.pdf",
+     "title": "GESH Group Board Public - 9 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RJ7_2026-07-09.md"
   },
   {
    "id": "RJ7:2026-09-03",
@@ -19469,15 +19699,16 @@
    "source_url": "https://www.uhd.nhs.uk/about-us/our-performance",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "analysed",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/R0D_2026-07-15.md"
   },
   {
    "id": "RTE:2026-07-30",
@@ -19677,16 +19908,36 @@
    "title": "Board Meeting in Common with SaTH",
    "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14558.pdf",
+     "title": "00 Board in Common Public Agenda - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14559.pdf",
+     "title": "01 Board in common meeting papers - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14560.pdf",
+     "title": "02 Public Board information pack",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/R1D_2026-07-09.md"
   },
   {
    "id": "R1D:2026-08-13",
@@ -19927,13 +20178,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-07-06T14:00:00Z",
+   "last_checked": "2026-07-09T11:13:27Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting — 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
   },
   {
    "id": "RL1:2026-09-10",
@@ -21681,6 +21932,192 @@
     "summary": "2026-07-01T12:00:00Z"
    },
    "summary_path": "summaries/RJN_2026-07-02.md"
+  },
+  {
+   "id": "QGH:2026-07-15",
+   "ods_code": "QGH",
+   "org_type": "icb",
+   "date": "2026-07-15",
+   "title": "ICB Board in Common (CW-HW joint)",
+   "source_url": "https://www.hwics.org.uk/meetings/board-papers",
+   "papers_url": "https://www.hwics.org.uk/meetings/board-papers",
+   "pack_files": [
+    {
+     "url": "https://www.hwics.org.uk/download_file/5499/414",
+     "title": "Agenda 00 Public Board 15 July 26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5500/414",
+     "title": "Agenda 04i CW Annual Report 25-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5503/414",
+     "title": "Agenda 04ii HW Annual Report 25-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5501/414",
+     "title": "Agenda 05 Governance Log",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5502/414",
+     "title": "Agenda 06 Board Notes 20 May 26 draft V2",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5504/414",
+     "title": "Agenda 09 CEO report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5506/414",
+     "title": "Agenda 10 Spotlight Frailty End of Life",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5505/414",
+     "title": "Agenda 11 Maternity Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5507/414",
+     "title": "Agenda 12 Quality & Performance",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5508/414",
+     "title": "Agenda 13 Financial Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5509/414",
+     "title": "Agenda 14 BAF",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5511/414",
+     "title": "Agenda 15 Cttee Escalation & Assurance",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-07-09T11:13:27Z",
+   "last_checked": "2026-07-09T11:13:27Z",
+   "summary_path": "summaries/QGH_2026-07-15.md",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
+   },
+   "notes": "Added from papers watchlist (pack appeared before we had a date). Joint CW-HW Board in Common; one summary covers both ICBs."
+  },
+  {
+   "id": "QWU:2026-07-15",
+   "ods_code": "QWU",
+   "org_type": "icb",
+   "date": "2026-07-15",
+   "title": "ICB Board in Common (CW-HW joint)",
+   "source_url": "https://www.hwics.org.uk/meetings/board-papers",
+   "papers_url": "https://www.hwics.org.uk/meetings/board-papers",
+   "pack_files": [
+    {
+     "url": "https://www.hwics.org.uk/download_file/5499/414",
+     "title": "Agenda 00 Public Board 15 July 26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5500/414",
+     "title": "Agenda 04i CW Annual Report 25-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5503/414",
+     "title": "Agenda 04ii HW Annual Report 25-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5501/414",
+     "title": "Agenda 05 Governance Log",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5502/414",
+     "title": "Agenda 06 Board Notes 20 May 26 draft V2",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5504/414",
+     "title": "Agenda 09 CEO report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5506/414",
+     "title": "Agenda 10 Spotlight Frailty End of Life",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5505/414",
+     "title": "Agenda 11 Maternity Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5507/414",
+     "title": "Agenda 12 Quality & Performance",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5508/414",
+     "title": "Agenda 13 Financial Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5509/414",
+     "title": "Agenda 14 BAF",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    },
+    {
+     "url": "https://www.hwics.org.uk/download_file/5511/414",
+     "title": "Agenda 15 Cttee Escalation & Assurance",
+     "kind": "pdf",
+     "first_seen": "2026-07-09T11:13:27Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-07-09T11:13:27Z",
+   "last_checked": "2026-07-09T11:13:27Z",
+   "summary_path": "summaries/QGH_2026-07-15.md",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-07-09T11:13:27Z",
+    "summary": "2026-07-09T11:13:27Z"
+   },
+   "notes": "Added from papers watchlist (pack appeared before we had a date). Joint CW-HW Board in Common; one summary covers both ICBs."
   }
  ],
  "_scan_errors": [
@@ -22614,9 +23051,9 @@
  },
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
-  "ts": "2026-07-06T14:00:00Z",
-  "mode": "packs+watchlist",
-  "note": "Live packs-only sweep: 22 in-window meetings had packs (analysed); 42 in-window no pack yet; watchlist clean."
+  "ts": "2026-07-09T11:13:27Z",
+  "mode": "packs+watchlist, LIVE emails",
+  "note": "packs-only sweep (42 in-window mtgs + 8 watchlist). 15 packs detected & analysed; 14 papers alerts sent 14/14. QGH/QWU promoted from watchlist. Stale dates flagged: RCX/RBD/RL1 2026-07-09, R0D 2026-07-08."
  },
  "_last_scan": {
   "when": "2026-06-29T10:06:26Z",

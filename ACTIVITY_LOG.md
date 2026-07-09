@@ -1,3 +1,22 @@
+## 2026-07-09 (packs + watchlist only, LIVE SEND, Henry + Claude)
+
+### Headline
+Targeted packs-only run (no full date scan — dates were swept on 1 Jul). Checked all **42 in-window meetings** (window 7–19 Jul) for new board packs via 5 parallel detection agents + a watchlist agent, then analysed every pack found with a 15-strong pack-analyser fleet. **15 meetings had a new pack online** (14 analysis units — Black Country + Birmingham & Solihull share one joint cluster pack). Rich crop: roughly **80 LEAD / 60 WORTH WATCHING / 30 FOI** across them. **All 14 papers-alert emails sent LIVE**, staggered 30–60s via `send_batch.py`: **14/14 OK, 0 failures** (`send_results.json`). No date alerts (date scan skipped).
+
+### What changed
+- **Pack detection (window 7–19 Jul):** 42 in-window meetings checked. 15 had a new pack; the rest had no pack online yet (most publish ~5 working days / 1 week before the meeting — worth a re-scan in a few days for the 14/15/16 Jul meetings that were still empty: Croydon, Berkshire, AWP, NEAS, KCH, HACW, GOSH, UHBW, NW Anglia, GM ICB, SW London ICB, Thames Valley ICB, Surrey & Sussex, Lincs/Notts/Derby ICBs, Liverpool UH group, North Bristol, Worcs Acute).
+- **Analysed & alerted (14 packs):** Gloucestershire Hosp (Joe, 5 leads), UHDB (Annabelle, 4), Somerset (Joe, 3), GESH group board = St George's + Epsom & St Helier (Ella, one merged alert, both analyses attached), Shropshire Community/SaTH boards-in-common (Caitlin, 5), Humber & N Yorks ICB (Henry, 6), UH Dorset (Joe, 5), Black Country + Birmingham & Solihull joint ICB (Caitlin, 6), Herefordshire & Worcs + Coventry & Warwickshire joint ICB (Caitlin, 6 — see watchlist below), Norfolk & Suffolk ICB (James, 5), East Lancashire (Zoe, 6), Mid Yorkshire (Henry, 5), Chesterfield Royal (Annabelle, 7), Kent Community (Alison, 4).
+- **Standout leads:** Gloucestershire £300k CQC fine over a patient death + cardiology culture review + maternity S31 removal bid; UHDB cardiac-MRI review of 1,224 patients; St George's/Epsom St Helier E-block legionella+pseudomonas maternity decant + NHSE enhanced financial oversight + 14 never events; Humber & NY ICB running-cost cut ~50% / 133 redundancies / deficit regulatory notice / HUTH bottom of 134; Norfolk & Suffolk ICB accidentally published a "for EMT/RemCom only" staff-survey slide pack; East Lancs second "Limited" internal-audit opinion + glaucoma service at critical risk; Chesterfield finance-productivity 132nd of 134 + turnaround director; H&W/C&W recommending full ICB merger from April 2027.
+- **Watchlist:** QGH (Herefordshire & Worcestershire ICB) surfaced a new 15 Jul Board-in-Common pack (joint with Coventry & Warwickshire, QWU) — both promoted from the watchlist to real dated meeting entries (status `analysed`), so watchlist drops 8 → 6. Other 7 orgs clean.
+
+### Flags / cleanup for next run
+- **Three likely-bad dates** flagged in state (notes added, entries kept for audit): RCX (QEHKL) 9 Jul — WebFetch had matched an old 09.07.**2025** pack; RBD (Dorset County) 9 Jul; RL1 (RJAH) 9 Jul. None is a real meeting. Verify and retire.
+- **R0D (UH Dorset) 8 Jul** is a stale duplicate — the real board sits 15 Jul (analysed there).
+- **S1Y5D (Herts & West Essex)** watchlist URL 301-redirects to `centraleast.icb.nhs.uk` (merged Central East ICB) with no board page exposed — needs URL re-discovery.
+- **Tooling:** `fetch_with_playwright.py` crashes on a cp1252 stdout `UnicodeEncodeError` for pages with non-ASCII chars; several agents worked around it with `PYTHONUTF8=1 PYTHONIOENCODING=utf-8`. Worth baking that into the script. East Lancs (elht.nhs.uk `download_file`) sits behind Incapsula — needs a browser-context cookie solve to download the PDF (agent handled it this run).
+
+---
+
 ## 2026-07-06 (packs + watchlist only, LIVE SEND, Henry + Claude)
 
 ### Headline
