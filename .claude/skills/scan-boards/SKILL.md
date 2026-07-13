@@ -22,9 +22,9 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 4. Generate `.ics` files for new meetings.
 5. For meetings with a date in the detection window (previous 2 days through next 10 days, inclusive of today), check the papers page for new pack files.
 6. For each newly detected pack, invoke the `pack-analyser` sub-skill — applies HSJ editorial context, writes a markdown summary to `summaries/`, returns top lines.
-7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan). "Orgs they cover" means every org for which the person is a **recipient** — primary `correspondent` *or* listed in `additional_correspondents` (see Step 2). So an org's meetings appear in the calendars of all its recipients.
+7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan). "Orgs they cover" means every org for which the person is a **recipient** — primary `correspondent` *or* listed in `additional_correspondents` (see Step 2). So an org's meetings appear in the calendars of all its recipients. This full snapshot is kept for audit / re-seeding a fresh calendar but is **NOT** attached to routine date alerts (see Step 9).
 8. Compose two kinds of email per correspondent:
-   - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. The combined `subscriptions/{firstname}.ics` is attached. The recipient clicks the attachment → Outlook opens → "Save & Close" / "Save to Calendar" imports all events. Outlook deduplicates by UID, so re-importing on later scans only adds the new ones.
+   - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. A **delta** `.ics` containing ONLY this run's new meetings for that person is attached (`subscriptions/new/{firstname}_{rundate}.ics`). The recipient opens the attachment → Outlook → "Save & Close" to add just those new dates. **Do NOT attach the full snapshot.** Outlook does NOT dedupe `.ics` *file* imports by UID (it only dedupes subscribed calendar feeds and meeting invites) — attaching the full meeting list every run is what created duplicate calendar entries. Attaching only the new dates avoids duplicates at the source.
    - **Papers alerts** — one per analysed pack, with the pack-analyser summary inline + summary markdown attached.
 9. Send via `send_batch.py` (staggered, 30–60s apart) if `--live-emails`, otherwise write to `dry_run_output/`.
 10. Update state, commit, push.
@@ -302,20 +302,20 @@ Group `new_meetings` by **recipient** (see Step 2 — a meeting for an org with 
 
    ## Add to your calendar
 
-   A calendar file ({firstname}.ics) is attached. It contains every board
-   meeting the tool has detected for the orgs you cover ({total} events).
+   A calendar file ({firstname}_{rundate}.ics) is attached containing the
+   {N} new date(s) above — nothing else.
 
-   **To import all dates at once:** click the attachment → Outlook opens →
-   'Save & Close' or 'Save to Calendar'. Re-importing on later scans
-   doesn't duplicate (Outlook dedupes by UID).
+   **To add them:** open the attachment → Outlook → 'Save & Close' (once).
+   Import it only once: Outlook does not de-duplicate .ics file imports, so
+   re-opening the same file would add the events a second time.
 
    — Board paper machine
    ```
 
 3. Subject: `[Board paper machine] {N} new meeting date(s) detected`
-4. Attach `subscriptions/{firstname}.ics` (the single combined file rebuilt in Step 9, not the per-meeting `ics/*.ics` files).
+4. Build and attach the delta file `subscriptions/new/{firstname}_{rundate}.ics` — a VCALENDAR containing ONLY this run's `new_meetings` for this recipient (reuse the exact VEVENT blocks written in Step 6, same UIDs). Create the `subscriptions/new/` dir if needed. **Do NOT attach the full `subscriptions/{firstname}.ics` snapshot** — attaching the whole meeting list every run is what created duplicate calendar entries, because Outlook re-adds every event in an imported file rather than deduping by UID.
 
-Note on the calendar file: a combined `subscriptions/{firstname}.ics` is rebuilt from state on every scan (see Step 9). Per-meeting `ics/{ods_code}_{date}.ics` files are still written for audit but no longer attached to alert emails.
+Note on the calendar files: the **delta** `subscriptions/new/{firstname}_{rundate}.ics` (this run's new meetings only) is what gets attached to date alerts. The full combined `subscriptions/{firstname}.ics` is still rebuilt from state each run (Step 7) but only for audit / re-seeding a calendar from scratch — it is **not** attached to routine alerts. Per-meeting `ics/{ods_code}_{date}.ics` files are also still written for audit.
 
 ### Step 10 — Compose papers alerts (one per analysed pack)
 
@@ -363,7 +363,7 @@ python send_batch.py \
   # add --dry-run to preview the plan with no SMTP and no sleeps
 ```
 
-Each manifest object's `attach` holds the file(s): `subscriptions/{firstname}.ics` for a date alert (one combined file), or `{summary_path}` for a papers alert. A full sweep (~40 emails) takes ~20–40 min to finish sending — that's expected and is the point. `send_batch.py` reconnects per email, keeps going if one fails, and writes `{results.json}` listing per-email `{to, subject, id, ok, err}`.
+Each manifest object's `attach` holds the file(s): `subscriptions/new/{firstname}_{rundate}.ics` for a date alert (this run's new-meetings delta — NOT the full snapshot), or `{summary_path}` for a papers alert. A full sweep (~40 emails) takes ~20–40 min to finish sending — that's expected and is the point. `send_batch.py` reconnects per email, keeps going if one fails, and writes `{results.json}` listing per-email `{to, subject, id, ok, err}`.
 
 (For a one-off ad-hoc send — e.g. a single `/pack-analyser` resend — `send_email.py` is still fine; `send_batch.py` just wraps it with staggering for the multi-email sweep.)
 
