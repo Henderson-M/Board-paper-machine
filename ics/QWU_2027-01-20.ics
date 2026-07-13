@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QWU-2027-01-20@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Coventry and Warwickshire ICB — Joint C&W / H&W ICB Board in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/
+URL:https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/
+END:VEVENT
+END:VCALENDAR

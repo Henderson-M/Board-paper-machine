@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QVV-2027-03-15@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Dorset ICB — BSW, Dorset and Somerset ICBs Cluster Board Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://bsw.icb.nhs.uk/documents-and-reports/
+URL:https://bsw.icb.nhs.uk/documents-and-reports/
+END:VEVENT
+END:VCALENDAR

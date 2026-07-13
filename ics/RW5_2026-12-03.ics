@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RW5-2026-12-03@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Board of Directors Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lscft.nhs.uk/about-us/board/board-papers
+URL:https://www.lscft.nhs.uk/about-us/board/board-papers
+END:VEVENT
+END:VCALENDAR

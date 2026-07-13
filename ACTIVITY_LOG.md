@@ -1,3 +1,23 @@
+## 2026-07-13 (FULL SWEEP — dates + packs + watchlist, LIVE SEND, Henry + Claude)
+
+### Headline
+Full no-arg sweep. Scanned all **239 in-scope orgs** (203 trusts + 36 ICBs, resolved to **227 unique scan units** after cluster dedup) for meeting dates across **19 parallel date-scan agents**, then checked **55 in-window meetings** (window 11–23 Jul) + the **6-org papers watchlist** for new packs across **8 detection agents**, then analysed every substantive pack with an **8-strong pack-analyser fleet**. **51 new meeting dates** detected and **8 packs analysed**. **All 18 alert emails sent LIVE**, staggered 31–58s via `send_batch.py`: **18/18 OK, 0 failures** (`send_results.json`).
+
+### What changed
+- **Dates:** 51 new meetings added to state (state now **1,104 meetings**). Heavy on ICB cluster boards newly resolved this run — Dorset/Somerset cluster (QOX/QSL/QVV), C&W/H&W board-in-common (QGH/QWU), BNSSG/Glos cluster (QUY). Date alerts to **10 correspondents**: Joe 17, Caitlin 9, Matt Mathers 6, Zoe 6, Emily 3, Matt Discombe 3, Ella 2, Henry 2, James 2, Mimi 1. Combined `subscriptions/*.ics` rebuilt for all 13.
+- **Packs analysed & alerted (8):** Worcestershire Acute (Caitlin, 4 leads), King's College Hospital (Ella, 4), SW London ICB (Ella, 5), Thames Valley ICB (Mimi, 8), One Croydon (Ella, 3), North West Anglia (James, 4), DLN ICBs Boards-in-Common = Derby&Derbyshire+Lincs+Notts (Annabelle, one merged alert, 6), Central East ICB — the merged ICB's first board pack, from the watchlist (Emily, 4).
+- **Standout leads:** Thames Valley ICB 13,661-invoice supplier-payment backlog with an NHSE "executive cell" + finance the only BAF risk out of appetite; King's £70.5m unidentified CIP gap (financial risk escalated to max 25) + new CEO Matthew Trainer's first board report; Worcs Acute Segment 4 + £25m revenue-support bid + "unprecedented" hospital measles outbreak; North West Anglia corridor care 123rd of 134 nationally + NOF down 21 places; DLN all three ICBs planning a merger + Notts system £9.4m adverse at M2; SW London de facto shared-leadership cluster with SE London ICB; Central East ICB £19-per-head running-cost cuts + Lampard Inquiry slipping to 2027/28.
+
+### Flags / cleanup for next run
+- **RGN (North West Anglia):** pack file URL says "9 July" but the documents are internally headed **14 July 2026** — kept as the 14 Jul meeting; note added.
+- **TAJ (Black Country Healthcare) 23 Jul:** the only pack online is the past 1 Jul board; 23 Jul may be a **Council of Governors** (not public board) — noted, entry kept, verify before relying.
+- **Date mismatches to verify** (notes added): RTP Surrey & Sussex (no 16 Jul meeting on site, next 13 Aug); RWX Berkshire (site shows 14 not 15 Jul); S0E4D Thames Valley (real board 15 Jul, the 22 Jul state entry superseded by 15 Jul).
+- **Partial packs — re-scan in a few days:** RJ6 Croydon (only One Croydon Parts A&B up; CHS Trust Board Part C pending); QOP GM ICB (agenda only); R1A HACW (July papers published as ZIPs — not auto-analysed).
+- **URL fixes applied:** S1Y5D → centraleast.icb.nhs.uk (merged ICB, left the watchlist with its first pack analysed); RMC Bolton → board-of-directors-meetings subpage; LNR cluster → leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings; SW-PEN cluster → swpboard.nhs.uk/board-meetings.
+- **Orgs with no forward dates published** (only past meetings online; watch for autumn schedules): ROH (RRJ), TEWV (RX3), Princess Alexandra (RQW), Christie (RBV), Gateshead (RR7), UHT group (RTR/RVW), South Warwickshire (RJC), Shropshire (R1D lists months only).
+- **126 org notes refreshed** from this sweep (fetch method, joint-board arrangements, per-meeting-page patterns) so the next run skips known-dead fetch paths.
+
+
 ## 2026-07-09 (packs + watchlist only, LIVE SEND, Henry + Claude)
 
 ### Headline

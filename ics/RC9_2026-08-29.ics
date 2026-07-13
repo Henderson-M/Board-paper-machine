@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RC9-2026-08-29@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Bedfordshire Hospitals NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/
+URL:https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/
+END:VEVENT
+END:VCALENDAR

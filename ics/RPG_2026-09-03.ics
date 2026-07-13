@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RPG-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Oxleas NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://oxleas.nhs.uk/board-papers
+URL:https://oxleas.nhs.uk/board-papers
+END:VEVENT
+END:VCALENDAR

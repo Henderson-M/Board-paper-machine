@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QGH-2027-03-17@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Herefordshire and Worcestershire ICB — Joint C&W / H&W ICB Board in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://herefordshireandworcestershire.icb.nhs.uk/meetings
+URL:https://herefordshireandworcestershire.icb.nhs.uk/meetings
+END:VEVENT
+END:VCALENDAR

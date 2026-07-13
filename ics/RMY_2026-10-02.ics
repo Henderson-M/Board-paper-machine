@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RMY-2026-10-02@board-paper-machine.hsj
+DTSTAMP:20260713T120000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Norfolk and Suffolk NHS Foundation Trust — Board of Directors in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nsft.nhs.uk/board-papers/
+URL:https://www.nsft.nhs.uk/board-papers/
+END:VEVENT
+END:VCALENDAR
