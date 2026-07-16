@@ -1557,8 +1557,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RHA_2026-07-16.md"
@@ -2575,8 +2575,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RXM_2026-07-21.md"
@@ -2720,8 +2720,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/R1A_2026-07-16.md"
@@ -4972,8 +4972,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RT1_2026-07-22.md"
@@ -7454,8 +7454,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RWX_2026-07-14.md"
@@ -10638,8 +10638,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/D7T5G_2026-07-16.md"
@@ -11771,8 +11771,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RJR_2026-07-21.md"
@@ -12160,8 +12160,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RNA_2026-07-22.md"
@@ -12546,8 +12546,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RVN_2026-07-15.md"
@@ -15556,8 +15556,8 @@
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-16T10:22:00Z",
+    "summary": "2026-07-16T10:22:00Z"
    },
    "notes": "Detected via PDF fallback (https://gmintegratedcare.org.uk/wp-content/uploads/2026/05/20260520-nhs-gm-board).",
    "summary_path": "summaries/QOP_2026-07-15.md"
@@ -23252,7 +23252,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23271,7 +23271,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23290,7 +23290,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23309,7 +23309,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23328,7 +23328,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23347,7 +23347,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23366,7 +23366,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23385,7 +23385,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23404,7 +23404,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23423,7 +23423,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23442,7 +23442,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23461,7 +23461,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23480,7 +23480,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23499,7 +23499,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23518,7 +23518,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23537,7 +23537,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23556,7 +23556,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23575,7 +23575,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23594,7 +23594,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23613,7 +23613,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23632,7 +23632,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23651,7 +23651,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
@@ -23670,7 +23670,7 @@
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-07-16T10:06:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
