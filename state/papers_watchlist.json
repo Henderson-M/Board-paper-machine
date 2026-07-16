@@ -18,7 +18,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-07-13T12:00:00Z",
+   "last_checked": "2026-07-16T10:06:00Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -269,14 +269,19 @@
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/archive/489-trust-board-minutes-2013-07-july",
      "title": "Trust Board Minutes   2013   07 July",
      "first_seen": "2026-06-29T09:44:06Z"
+    },
+    {
+     "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/501-meeting-book-trust-board-public-july-101404-2",
+     "title": "04 Meeting Book - Trust Board (Public) July",
+     "first_seen": "2026-07-16T10:06:00Z"
     }
    ],
-   "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo [2026-06-29] Baselined 14 pre-existing archive file(s) into known_files (first proper baseline; not new packs)."
+   "notes": "[2026-05-27] Low-confidence URL — kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo [2026-06-29] Baselined 14 pre-existing archive file(s) into known_files (first proper baseline; not new packs). [2026-07-16] New July 2026 meeting book (doc 501) detected; day-of-month not in filename. DATE-UNKNOWN papers alert sent to Caitlin; org stays on watchlist."
   },
   {
    "ods_code": "RDY",
    "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-07-13T12:00:00Z",
+   "last_checked": "2026-07-16T10:06:00Z",
    "known_files": [
     {
      "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
@@ -369,7 +374,7 @@
   {
    "ods_code": "RXA",
    "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
-   "last_checked": "2026-07-13T12:00:00Z",
+   "last_checked": "2026-07-16T10:06:00Z",
    "known_files": [
     {
      "url": "https://www.cwp.nhs.uk/application/files/8417/7944/0775/PUBLIC_BoD_Agenda_Pack_Final_27_05_2026.pdf",
@@ -392,7 +397,7 @@
   {
    "ods_code": "QYG",
    "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-   "last_checked": "2026-07-13T12:00:00Z",
+   "last_checked": "2026-07-16T10:06:00Z",
    "known_files": [
     {
      "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
@@ -408,14 +413,34 @@
      "url": "https://www.cheshireandmerseyside.nhs.uk/media/fbql55jh/290126-cm-icb-board-papers-full-pack-v2.pdf",
      "title": "ICB Board papers full pack - 29 January 2026",
      "first_seen": "2026-06-09T19:04:38"
+    },
+    {
+     "url": "https://www.cheshireandmerseyside.nhs.uk/media/chygcdgs/jan2026-icb-board-questions-and-responses-final.pdf",
+     "title": "Public questions and responses - Jan 2026 ICB Board",
+     "first_seen": "2026-07-16T10:06:00Z"
+    },
+    {
+     "url": "https://www.cheshireandmerseyside.nhs.uk/media/q0qpk2rm/jan-2026-icb-board-meeting-combined-presentations.pdf",
+     "title": "Presentation slides - Jan 2026 ICB Board",
+     "first_seen": "2026-07-16T10:06:00Z"
+    },
+    {
+     "url": "https://www.cheshireandmerseyside.nhs.uk/media/rnodczia/march2026-icb-board-questions-and-responses.pdf",
+     "title": "Public questions and responses - March 2026 ICB Board",
+     "first_seen": "2026-07-16T10:06:00Z"
+    },
+    {
+     "url": "https://www.cheshireandmerseyside.nhs.uk/media/yilfcuel/may-2026-icb-board-questions-and-responses-final.pdf",
+     "title": "Public questions and responses - May 2026 ICB Board",
+     "first_seen": "2026-07-16T10:06:00Z"
     }
    ],
-   "notes": "[2026-05-27] URL updated: Parent page has year folders only (looks empty without JS). Year-specific child page lists 2026 board meetings: 29 January and 26 March 2026 confirmed. Each year has its own "
+   "notes": "[2026-05-27] URL updated: Parent page has year folders only (looks empty without JS). Year-specific child page lists 2026 board meetings: 29 January and 26 March 2026 confirmed. Each year has its own  [2026-07-16] Baselined 4 supplementary docs (Q&A/presentations) for past Jan/Mar/May 2026 meetings; no alert (addenda to already-covered meetings)."
   },
   {
    "ods_code": "RP6",
    "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-   "last_checked": "2026-07-13T12:00:00Z",
+   "last_checked": "2026-07-16T10:06:00Z",
    "known_files": [
     {
      "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",

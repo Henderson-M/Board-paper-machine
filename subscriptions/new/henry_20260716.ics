@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RFR-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.therotherhamft.nhs.uk/about-us/board-meetings
+URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RFR-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.therotherhamft.nhs.uk/about-us/board-meetings
+URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RFR-2027-01-06@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.therotherhamft.nhs.uk/about-us/board-meetings
+URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RFR-2027-03-03@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.therotherhamft.nhs.uk/about-us/board-meetings
+URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
+END:VEVENT
+END:VCALENDAR

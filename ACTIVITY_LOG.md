@@ -1,3 +1,24 @@
+## 2026-07-16 (FULL SWEEP — dates + packs + watchlist, DRY-RUN, Henry + Claude)
+
+### Headline
+Full no-arg sweep in **DRY-RUN** (no `--live-emails`) — every alert written to `dry_run_output/`, **nothing sent**. Scanned all **239 in-scope orgs** (203 trusts + 36 ICBs) for meeting dates across **15 parallel date-scan agents**, then checked the **47 in-window meetings** (window 14–26 Jul) + the **5-org papers watchlist** across **7 detection agents**, then analysed every full pack found with an **11-strong pack-analyser fleet**. **23 new meeting dates** detected and **10 packs analysed** (11th, King's, suppressed as a duplicate). Rich crop: roughly **44 LEAD / 52 WORTH WATCHING / 37 FOI** across the 10 packs. **17 dry-run alert files written** (6 date + 11 papers); manifests built (`dates_manifest.json`, `papers_manifest.json`) so a live send can go straight through `send_batch.py` without re-detecting.
+
+### What changed
+- **Dates:** 700 valid future meetings detected across the estate; **23 were new** and added to state (state now **1,127 meetings**). Date alerts to **6 correspondents**: Matt Discombe 6 (NELFT + East London series), Matt Mathers 6 (Newcastle Hospitals series), Caitlin 5 (UHB AGM + S Warwickshire joint-board series), Henry 4 (Rotherham series), Joe 1 (Royal Cornwall), Mimi 1 (Royal Berkshire). Combined `subscriptions/*.ics` snapshots rebuilt for all 13.
+- **Packs analysed & alerted (10, dry-run):** Berkshire Healthcare (Mimi, 2 leads), Avon & Wiltshire MH (Joe, 5), Greater Manchester ICB (Nick, 3), Nottinghamshire Healthcare (Annabelle, 5), Herefordshire & Worcs Health & Care (Caitlin, 5 — ZIP-packaged pack), Essex ICB "NHS Essex" (Emily, 6), Derbyshire Healthcare (Annabelle, 4), Countess of Chester (Zoe, 5), Cambridgeshire & Peterborough (James, 2), Dudley Group (Caitlin, 7).
+- **Standout leads:** Essex ICB (new "NHS Essex") plan rated NHSE "Partially Compliant / Conditional" (Clare Panniker letter), waiting list planned to overshoot target 48.8% by 2028/29, community 18-week collapsing to 39.7%, MSEFT stuck NOF 4 with CQC S29a/S31 notices, £14m unmitigated risk, Lampard Inquiry refocusing July hearings on EPUT + performance slides published as "DUMMY DATA" (FOI); Dudley Group 7 leads; Nottinghamshire Healthcare 5 leads / 6 FOI; Countess of Chester 5 leads (IPR + finance report "to follow", absent from public pack — FOI).
+
+### Flags / cleanup for next run
+- **DRY-RUN — no emails sent.** To send this crop live: `python send_batch.py --manifest <scratch>/dates_manifest.json --manifest <scratch>/papers_manifest.json --results send_results.json`. Analysed meetings are now status `analysed`, so a plain `--live-emails` re-run will NOT re-detect them — use the manifests.
+- **King's College Hospital (RJZ) suppressed:** detection matched a stray `RJZ:2026-07-16` state entry and re-found the (v2) 15 July pack, but that meeting was already analysed + papers-alerted on 13 Jul (`RJZ:2026-07-15`). Recorded the v2 file, status `analysed`, NO alert. The duplicate `RJZ:2026-07-16` state entry should be retired.
+- **Two Saturday dates to verify:** RTD (Newcastle) 29 Aug 2026 and RHW (Royal Berkshire) 29 Aug 2026 both landed on a Saturday while the rest of Newcastle's series is last-Friday — likely a source typo/misparse for 28 Aug. Verify before relying; kept in state.
+- **RY3 (East of England Community) 22 Jul:** only a 3-page agenda online, full pack pending — status `papers_found`, not analysed, no alert. Re-scan in a few days.
+- **RRJ (Royal Orthopaedic) watchlist:** new July 2026 meeting book (doc 501) but day-of-month not in filename — DATE-UNKNOWN papers alert to Caitlin, org stays on watchlist. QYG (C&M ICB): 4 new files were past-meeting Q&A/presentation addenda — baselined into known_files, no alert.
+- **Scan errors (2):** RRJ (no forward board dates on ROH statutory-documents page); RWR (Herts Partnership) all board URLs 403/404 — no scrapable dates page found.
+- **Tooling:** concurrent pack-analysers share `/c/tmp/pack/` and several clobbered each other's downloads mid-run (each self-recovered to an isolated scratch dir). Give each analyser a unique temp dir (e.g. `/c/tmp/pack_<ods>/`) next time. Countess of Chester (coch.nhs.uk) needs `curl -k` (SSL chain); HACW ZIP downloads need a browser UA + referer.
+- **122 org notes refreshed** from this sweep (fetch method, joint-board arrangements, per-meeting-page/ZIP patterns) so the next run skips known-dead fetch paths.
+
+
 ## 2026-07-13 (FULL SWEEP — dates + packs + watchlist, LIVE SEND, Henry + Claude)
 
 ### Headline

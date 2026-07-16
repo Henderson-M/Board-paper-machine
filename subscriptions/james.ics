@@ -3,462 +3,371 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RDE-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260702
-DTEND;VALUE=DATE:20260703
-SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
-URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RGM-2026-07-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260702
-DTEND;VALUE=DATE:20260703
-SUMMARY:Royal Papworth Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
-URL:https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RCX-2026-07-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Norfolk and Waveney University Hospitals Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/
-URL:https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/
-END:VEVENT
-BEGIN:VEVENT
-UID:RGN-2026-07-14@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260714
-DTEND;VALUE=DATE:20260715
-SUMMARY:North West Anglia NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nwangliaft.nhs.uk/trust-board/
-URL:https://www.nwangliaft.nhs.uk/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:T6Y0W-2026-07-15@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
-SUMMARY:Norfolk and Suffolk ICB — ICB Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
-URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
 UID:RT1-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY3-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:East of England Community Health and Care NHS Trust — Trust Board meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/
+SUMMARY:RY3 — Trust Board meeting in public
 URL:https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGR-2026-07-31@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
-SUMMARY:West Suffolk NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
+SUMMARY:RGR — Trust Board Meeting
 URL:https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RMY-2026-07-31@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
-SUMMARY:Norfolk and Suffolk NHS Foundation Trust — Board of Directors in Public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nsft.nhs.uk/board-papers/
+SUMMARY:RMY — Board of Directors in Public
 URL:https://www.nsft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:RCX-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RM1-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Public Group Board meeting at NNUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RM1 — Public Group Board Meeting
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGP-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting at NNUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RGP — Public Group Board meeting at NNUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
-UID:RM1-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RCX-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RCX — Public Group Board meeting at NNUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RDE-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+SUMMARY:RDE — ESNEFT Trust Board of Directors Meeting
 URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGM-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:Royal Papworth Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
+SUMMARY:RGM — Board of Directors Meeting
 URL:https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RGT-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-SUMMARY:Cambridge University Hospitals NHS Foundation Trust — Board of Directors meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
+SUMMARY:RGT — Board of Directors meeting in public
 URL:https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYC-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:East of England Ambulance Service NHS Trust — In Public Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+SUMMARY:RYC — In Public Trust Board Meeting
 URL:https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:T6Y0W-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-SUMMARY:Norfolk and Suffolk ICB — ICB Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+SUMMARY:T6Y0W — ICB Board Meeting
 URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCX-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Norfolk and Waveney University Hospitals Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/
+SUMMARY:RCX — Norfolk and Waveney University Hospitals Group Board Meeting
 URL:https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGR-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-SUMMARY:West Suffolk NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
+SUMMARY:RGR — Trust Board Meeting
 URL:https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RT1-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGM-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:Royal Papworth Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
+SUMMARY:RGM — Board of Directors Meeting
 URL:https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RMY-2026-10-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-SUMMARY:Norfolk and Suffolk NHS Foundation Trust — Board of Directors in Public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nsft.nhs.uk/board-papers/
+SUMMARY:RMY — Board of Directors in Public
 URL:https://www.nsft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:RCX-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RM1-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Public Group Board meeting at JPUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RM1 — Public Group Board Meeting
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGP-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
-SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting at JPUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RGP — Public Group Board meeting at JPUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
-UID:RM1-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RCX-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
-SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RCX — Public Group Board meeting at JPUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGN-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-SUMMARY:North West Anglia NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nwangliaft.nhs.uk/trust-board/
+SUMMARY:RGN — Board Meeting
 URL:https://www.nwangliaft.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDE-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+SUMMARY:RDE — ESNEFT Trust Board of Directors Meeting
 URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGM-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:Royal Papworth Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
+SUMMARY:RGM — Board of Directors Meeting
 URL:https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RT1-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:T6Y0W-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:Norfolk and Suffolk ICB — ICB Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+SUMMARY:T6Y0W — ICB Board Meeting
 URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGR-2026-11-27@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:West Suffolk NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
+SUMMARY:RGR — Trust Board Meeting
 URL:https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
-UID:RCX-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RM1-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Public Group Board meeting at QEHKL
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RM1 — Public Group Board Meeting
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGP-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting at QEHKL
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RGP — Public Group Board meeting at QEHKL
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
-UID:RM1-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RCX-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RCX — Public Group Board meeting at QEHKL
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RT1-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGM-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:Royal Papworth Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
+SUMMARY:RGM — Board of Directors Meeting
 URL:https://royalpapworth.nhs.uk/our-hospital/how-we-are-run/our-board-directors/board-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RMY-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:Norfolk and Suffolk NHS Foundation Trust — Board of Directors in Public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nsft.nhs.uk/board-papers/
+SUMMARY:RMY — Board of Directors in Public
 URL:https://www.nsft.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGN-2026-12-08@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-SUMMARY:North West Anglia NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nwangliaft.nhs.uk/trust-board/
+SUMMARY:RGN — Board Meeting
 URL:https://www.nwangliaft.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGT-2026-12-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
-SUMMARY:Cambridge University Hospitals NHS Foundation Trust — Board of Directors meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
+SUMMARY:RGT — Board of Directors meeting in public
 URL:https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDE-2027-01-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
-SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+SUMMARY:RDE — ESNEFT Trust Board of Directors Meeting
 URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RT1-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:T6Y0W-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-SUMMARY:Norfolk and Suffolk ICB — ICB Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+SUMMARY:T6Y0W — ICB Board Meeting
 URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:RCX-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RM1-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Public Group Board meeting at NNUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RM1 — Public Group Board Meeting
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGP-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting at NNUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RGP — Public Group Board meeting at NNUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
-UID:RM1-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RCX-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RCX — Public Group Board meeting at NNUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RDE-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
-SUMMARY:East Suffolk and North Essex NHS Foundation Trust — ESNEFT Trust Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
+SUMMARY:RDE — ESNEFT Trust Board of Directors Meeting
 URL:https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RT1-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
-SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+SUMMARY:RT1 — Board of Directors Meeting
 URL:https://www.cpft.nhs.uk/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:T6Y0W-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
-SUMMARY:Norfolk and Suffolk ICB — ICB Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+SUMMARY:T6Y0W — ICB Board Meeting
 URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:RCX-2027-04-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RM1-2027-04-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
-SUMMARY:The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust — Public Group Board meeting at JPUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RM1 — Public Group Board Meeting
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
 UID:RGP-2027-04-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
-SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting at JPUH
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RGP — Public Group Board meeting at JPUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 BEGIN:VEVENT
-UID:RM1-2027-04-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RCX-2027-04-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
-SUMMARY:Norfolk and Norwich University Hospitals NHS Foundation Trust — Public Group Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+SUMMARY:RCX — Public Group Board meeting at JPUH
 URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
 END:VEVENT
 END:VCALENDAR

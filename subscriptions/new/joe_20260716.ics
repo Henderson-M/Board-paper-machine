@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:REF-2026-07-23@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:Royal Cornwall Hospitals NHS Trust — Trust Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
+URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
+END:VEVENT
+END:VCALENDAR

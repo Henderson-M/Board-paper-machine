@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAT-2027-02-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+END:VCALENDAR

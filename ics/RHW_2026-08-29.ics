@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RHW-2026-08-29@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Royal Berkshire NHS Foundation Trust — Board of Directors
+DESCRIPTION:Detected by Board paper machine. Source: http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+END:VEVENT
+END:VCALENDAR

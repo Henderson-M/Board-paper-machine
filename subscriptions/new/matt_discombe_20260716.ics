@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAT-2026-07-30@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAT-2026-10-13@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAT-2026-12-01@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAT-2027-02-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAT-2027-03-23@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:North East London NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nelft.nhs.uk/about-us-board-papers/
+URL:https://www.nelft.nhs.uk/about-us-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RWK-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:East London NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTD-2026-10-30@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:The Newcastle upon Tyne Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
+URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
+END:VEVENT
+END:VCALENDAR

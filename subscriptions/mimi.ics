@@ -3,552 +3,459 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RDU-2026-07-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-SUMMARY:Frimley Health NHS Foundation Trust — Board of directors - public meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
-URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RHM-2026-07-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-SUMMARY:University Hospital Southampton NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
-URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RWX-2026-07-14@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260714
-DTEND;VALUE=DATE:20260715
-SUMMARY:Berkshire Healthcare NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
-URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RWX-2026-07-15@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
-SUMMARY:Berkshire Healthcare NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
-URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:S0E4D-2026-07-15@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
-SUMMARY:Thames Valley ICB — Thames Valley ICB Board meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+UID:S0E4D-2026-07-22@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:S0E4D — NHS Thames Valley ICB Board Meeting in public
 URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RNU-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:Oxford Health NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.oxfordhealth.nhs.uk/about-us/board-papers/
+SUMMARY:RNU — Board Meeting
 URL:https://www.oxfordhealth.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:S0E4D-2026-07-22@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
-URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
-END:VEVENT
-BEGIN:VEVENT
-UID:RHW-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Royal Berkshire NHS Foundation Trust — Board of Directors
-DESCRIPTION:Detected by Board paper machine. Source: http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
-URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
-END:VEVENT
-BEGIN:VEVENT
 UID:RNU-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-SUMMARY:Oxford Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.oxfordhealth.nhs.uk/about-us/board-papers/
+SUMMARY:RNU — Board of Directors Meeting
 URL:https://www.oxfordhealth.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+SUMMARY:RTH — Trust Board meeting
 URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RHW-2026-07-29@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:RHW — Board of Directors
+URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RN5-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-SUMMARY:Hampshire Hospitals NHS Foundation Trust — Board of Directors meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+SUMMARY:RN5 — Board of Directors meeting
 URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
-SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+SUMMARY:RXQ — Trust Board Meeting
 URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDU-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-SUMMARY:Frimley Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+SUMMARY:RDU — Board of Directors Meeting
 URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2026-08-11@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-SUMMARY:Solent NHS Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:R1C — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2026-08-11@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
-SUMMARY:Southern Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:RW1 — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:R1F-2026-08-26@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
-SUMMARY:Isle of Wight NHS Trust — Trust Board in common - IWT and PHU
-DESCRIPTION:Detected by Board paper machine. Source: https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
-URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RHU-2026-08-26@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
-SUMMARY:Portsmouth Hospitals University National Health Service Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
+SUMMARY:RHU — Trust Board Meeting
 URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
+UID:R1F-2026-08-26@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:R1F — Trust Board in common - IWT and PHU
+URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RHW-2026-08-29@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:RHW — Board of Directors
+URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:QRL-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
-SUMMARY:Hampshire and Isle of Wight ICB — Hampshire and Isle of Wight Integrated Care Board Public Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/
+SUMMARY:QRL — Hampshire and Isle of Wight Integrated Care Board Public Meeting
 URL:https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
-SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+SUMMARY:RYE — Board Meeting
 URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWX-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
-SUMMARY:Berkshire Healthcare NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
+SUMMARY:RWX — Trust Board meeting
 URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-SUMMARY:University Hospital Southampton NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
+SUMMARY:RHM — Trust Board Meeting
 URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RDU-2026-09-11@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-SUMMARY:Frimley Health NHS Foundation Trust — Board of directors - public meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+SUMMARY:RDU — Board of directors - public meeting
 URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+SUMMARY:S0E4D — NHS Thames Valley ICB Board Meeting in public
 URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RHW-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-SUMMARY:Royal Berkshire NHS Foundation Trust — Board of Directors
-DESCRIPTION:Detected by Board paper machine. Source: http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+SUMMARY:RHW — Board of Directors
 URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+SUMMARY:RXQ — Trust Board Meeting
 URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
-UID:R1F-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Isle of Wight NHS Trust — Trust Board in common - IWT and PHU
-DESCRIPTION:Detected by Board paper machine. Source: https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
-URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RHU-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-SUMMARY:Portsmouth Hospitals University National Health Service Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
+SUMMARY:RHU — Trust Board Meeting
 URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RNU-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-SUMMARY:Oxford Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.oxfordhealth.nhs.uk/about-us/board-papers/
+SUMMARY:RNU — Board of Directors Meeting
 URL:https://www.oxfordhealth.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+SUMMARY:RTH — Trust Board meeting
 URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:R1F-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:R1F — Trust Board in common - IWT and PHU
+URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:RN5-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:Hampshire Hospitals NHS Foundation Trust — Board of Directors meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+SUMMARY:RN5 — Board of Directors meeting
 URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:RDU-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Frimley Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
-URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
-END:VEVENT
-BEGIN:VEVENT
 UID:RYE-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
-SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+SUMMARY:RYE — Board Meeting
 URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
+UID:RDU-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:RDU — Board of Directors Meeting
+URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+END:VEVENT
+BEGIN:VEVENT
 UID:R1C-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-SUMMARY:Solent NHS Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:R1C — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-SUMMARY:Southern Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:RW1 — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:QRL-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:Hampshire and Isle of Wight ICB — Hampshire and Isle of Wight Integrated Care Board Public Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/
+SUMMARY:QRL — Hampshire and Isle of Wight Integrated Care Board Public Meeting
 URL:https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+SUMMARY:RYE — Board Meeting
 URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDU-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-SUMMARY:Frimley Health NHS Foundation Trust — Board of directors - public meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+SUMMARY:RDU — Board of directors - public meeting
 URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWX-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:Berkshire Healthcare NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
+SUMMARY:RWX — Trust Board meeting
 URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:University Hospital Southampton NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
+SUMMARY:RHM — Trust Board Meeting
 URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2026-11-18@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+SUMMARY:S0E4D — NHS Thames Valley ICB Board Meeting in public
 URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RHW-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:Royal Berkshire NHS Foundation Trust — Board of Directors
-DESCRIPTION:Detected by Board paper machine. Source: http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+SUMMARY:RHW — Board of Directors
 URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNU-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:Oxford Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.oxfordhealth.nhs.uk/about-us/board-papers/
+SUMMARY:RNU — Board of Directors Meeting
 URL:https://www.oxfordhealth.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+SUMMARY:RTH — Trust Board meeting
 URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RN5-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:Hampshire Hospitals NHS Foundation Trust — Board of Directors meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+SUMMARY:RN5 — Board of Directors meeting
 URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+SUMMARY:RXQ — Trust Board Meeting
 URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
-UID:R1F-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+UID:RHU-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:Isle of Wight NHS Trust — Trust Board in common - IWT and PHU
-DESCRIPTION:Detected by Board paper machine. Source: https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
+SUMMARY:RHU — Trust Board Meeting
+URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
+END:VEVENT
+BEGIN:VEVENT
+UID:R1F-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:R1F — Trust Board in common - IWT and PHU
 URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RDU-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:Frimley Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+SUMMARY:RDU — Board of Directors Meeting
 URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
-UID:RHU-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:Portsmouth Hospitals University National Health Service Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
-URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
-END:VEVENT
-BEGIN:VEVENT
 UID:R1C-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:Solent NHS Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:R1C — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:Southern Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:RW1 — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-SUMMARY:University Hospital Southampton NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
+SUMMARY:RHM — Trust Board Meeting
 URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2027-01-20@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
-SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+SUMMARY:S0E4D — NHS Thames Valley ICB Board Meeting in public
 URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+SUMMARY:RTH — Trust Board meeting
 URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+SUMMARY:RXQ — Trust Board Meeting
 URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-02-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
-SUMMARY:Solent NHS Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:R1C — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-02-09@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
-SUMMARY:Southern Health NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+SUMMARY:RW1 — Board of Directors Meeting
 URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
-SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+SUMMARY:RYE — Board Meeting
 URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
-SUMMARY:University Hospital Southampton NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
+SUMMARY:RHM — Trust Board Meeting
 URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
-SUMMARY:Thames Valley ICB — NHS Thames Valley ICB Board Meeting in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
+SUMMARY:S0E4D — NHS Thames Valley ICB Board Meeting in public
 URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
-SUMMARY:Oxford University Hospitals NHS Foundation Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
+SUMMARY:RTH — Trust Board meeting
 URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260713T120000Z
+DTSTAMP:20260716T100328Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
-SUMMARY:Buckinghamshire Healthcare NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
+SUMMARY:RXQ — Trust Board Meeting
 URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 END:VCALENDAR

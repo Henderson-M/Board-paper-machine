@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJC-2026-08-05@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:South Warwickshire University NHS Foundation Trust — Annual General Meeting (Joint Board)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJC-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:South Warwickshire University NHS Foundation Trust — Joint Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJC-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:South Warwickshire University NHS Foundation Trust — Joint Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJC-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:South Warwickshire University NHS Foundation Trust — Joint Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swft.nhs.uk/meetings-and-events/board-meetings
+URL:https://www.swft.nhs.uk/meetings-and-events/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RRK-2026-07-30@board-paper-machine.hsj
+DTSTAMP:20260716T100328Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:University Hospitals Birmingham NHS Foundation Trust — Annual General Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhb.nhs.uk/get-involved/public-meetings/
+URL:https://www.uhb.nhs.uk/get-involved/public-meetings/
+END:VEVENT
+END:VCALENDAR
