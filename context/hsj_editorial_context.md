@@ -169,6 +169,16 @@ When reviewing documents, data, or reports for HSJ-relevant material, look for t
 - Financial / deficit / productivity / CIP review
 - Turnaround director appointed
 
+**Annual accounts / annual report signals** (whenever a set of accounts or an annual report and accounts appears in a pack — always read it in full and always flag that it is present, even if nothing below is triggered)
+
+- Auditor's opinion that is anything other than clean/unqualified — a **qualified**, adverse, or disclaimer opinion, or "except for" wording
+- A **Value for Money (VfM) qualification** or a **statutory recommendation / "section 24" report** (Local Audit and Accountability Act 2014) issued to the body
+- A **going concern** material-uncertainty disclosure
+- The **surplus/deficit outturn** (report the figure; only compare to plan or prior year if the accounts/pack state the comparison)
+- **Exit packages / severance** and off-payroll / very-senior-manager pay disclosures (named or banded amounts)
+- **Remuneration report** highlights (highest-paid director, median pay ratio) and **related-party transactions**
+- Prior-period **restatement**, large **provisions** movement, or **impairment**
+
 **Regulatory / oversight signals**
 
 - CQC rating change (any direction — deterioration is most urgent, but improvement at a previously troubled trust also merits coverage)

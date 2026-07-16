@@ -101,6 +101,18 @@ For each file in the pack:
 
 **On large packs:** packs can be 200+ pages. Don't try to read everything at full depth. Use the agenda or table of contents (usually paper 1 or 2) to identify the high-signal papers (CEO report, integrated performance report, finance report, risk register, any external reviews). Read those in full. Skim the routine items.
 
+**Annual accounts / annual report — always deep-read, never skim, and always flag.** If the pack contains a set of annual accounts, an "annual report and accounts" (ARA), draft or audited statutory accounts, an ISA 260 / auditor's Annual Report to those charged with governance, or an AGM accounts paper, treat it as a high-signal paper and read it in full. Capture the specifics (verbatim / with figures and page refs):
+
+- The **auditor's opinion** — clean/unqualified, **qualified**, adverse, or disclaimer, and any **"except for"** wording.
+- The **Value for Money (VfM) conclusion** and any **statutory recommendation** or **"section 24" / Schedule 7 report** (Local Audit and Accountability Act 2014) issued to the body — these are strong standalone leads.
+- The **going concern** basis and any **material uncertainty** disclosure.
+- The **surplus/deficit outturn** (state the figure; only compare to plan/prior year if the accounts or pack make the comparison — do not compute one they don't).
+- **Exit packages / severance** table and **off-payroll / very-senior-manager (VSM)** pay disclosures — capture named or banded amounts.
+- The **remuneration report** (highest-paid director, median pay ratio) and any **related-party transactions** note.
+- Any **prior-period restatement**, large **provisions** movement, or **impairment**.
+
+Whether or not any of the above yields a lead, you MUST record that a set of accounts / annual report is in the pack (see Step 4 and Step 7) — its presence is itself reportable to the correspondent.
+
 ### Step 4 — Identify story candidates
 
 For each item that you think is worth flagging:
@@ -113,6 +125,8 @@ For each item that you think is worth flagging:
   - **`FOI`** — paper hints at info we'd want but doesn't disclose it (redacted appendix, mentioned-but-not-quoted correspondence, unscoped review, departure euphemism).
 
 Aim for **5–10 top lines per pack**, weighted toward LEAD tier where the evidence supports it. If a pack has nothing worth flagging, that's a valid output — say so.
+
+**Annual accounts always get a top line.** If a set of accounts / annual report is in the pack, always include at least one top line noting they have been published — tiered by newsworthiness: `LEAD` if the opinion is qualified, there's a VfM qualification / section 24 recommendation, or the exit-packages / remuneration disclosures are notable; otherwise `WORTH WATCHING` as a "the accounts are now public" flag carrying the headline surplus/deficit outturn and the audit opinion. Never let a pack that contains accounts go out without this line, even when the pack is otherwise routine.
 
 ### Step 5 — Capture colour quotes
 
@@ -175,6 +189,7 @@ Write the output to `summaries/{ods_code}_{date}.md` using this exact structure:
 - Routine: {true|false}
 - Top lines: {total} (LEAD: {N}, WORTH WATCHING: {N}, FOI: {N})
 - Colour quotes: {N}
+- Annual accounts / annual report present: {yes — <one line: what it is + headline surplus/deficit + auditor opinion>, p.{N} | no}
 ```
 
 If the pack is routine (no signals worth flagging), use this short form instead:
@@ -190,10 +205,14 @@ If the pack is routine (no signals worth flagging), use this short form instead:
 
 Routine pack — nothing worth flagging in this scan. Brief review only.
 
+- Annual accounts / annual report present: {yes — <one line: what it is + headline surplus/deficit + auditor opinion>, p.{N} | no}
+
 ## Files reviewed
 
 - ...
 ```
+
+(Even in the routine short-form, the "Annual accounts / annual report present" line is mandatory — if a set of accounts is in the pack, say so with the headline outturn and audit opinion. A pack containing accounts is never reported as if the accounts weren't there.)
 
 ### Step 8 — Return to caller
 
@@ -215,6 +234,7 @@ If called directly by the user, also print the top 3 LEAD-tier items to chat so 
 - **Tag inference.** When you connect dots or interpret, mark it `[INFERENCE]`.
 - **Page references always.** Every top line and colour quote has `p.{N}, [paper title]`.
 - **Routine is a valid output.** Don't manufacture leads to fill quota.
+- **Annual accounts are always deep-read and always flagged.** If a set of accounts / annual report is in the pack, read it in full (auditor opinion, VfM / section 24, going concern, surplus-deficit outturn, exit packages, remuneration, related-party) and ALWAYS record its presence in the summary — a top line plus the "Annual accounts present" line in Pack assessment — even when the pack is otherwise routine and even when nothing in the accounts is immediately newsworthy.
 - **Don't make comparative claims.** The reporter has the comparative data; you have the pack.
 - **Trust the patterns in Part F.** External firms named in packs, sitting CEO admissions, specific numbers + named trusts, reviews/letters that exist but aren't summarised externally — these are reliably newsworthy.
 - **Single summary file per pack.** Overwrite if a previous analysis exists for the same `{ods_code}:{date}` (the new analysis includes the latest material).
