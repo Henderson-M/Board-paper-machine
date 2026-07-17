@@ -1892,7 +1892,8 @@
   "region": "North East and Yorkshire",
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
-  "url": "https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/"
+  "url": "https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/",
+  "notes": "[2026-07-17] Board meets BI-MONTHLY on Fridays, ODD months only (30 Jan, 27 Mar, 22 May, 31 Jul, 25 Sep, 27 Nov 2026). Site publishes current calendar year only — no 2027 dates yet. WebFetch extraction HALLUCINATED an even-month + 2027 series on the 2026-07-16 run (all 6 dates wrong, incl a Saturday); VERIFY detected dates appear verbatim on the page and reject invented cadence/future-year dates."
  },
  {
   "ods_code": "RTF",

@@ -162,6 +162,13 @@ If all three steps fail, log a `_scan_errors` entry in state and move on. Do NOT
 - **Normalise dates** to ISO `YYYY-MM-DD`. UK ambiguous formats (DD/MM/YYYY vs MM/DD/YYYY) — always interpret as DD/MM/YYYY for NHS sites.
 - **Validate** — reject anything >18 months in the future, in the past, or that fails as a real date (e.g. "TBC", "2026-13-45").
 
+- **Anti-fabrication guard (MANDATORY — run on every detected date, WebFetch and Playwright alike).** WebFetch extracts dates with a small fast model that will sometimes **project or hallucinate a schedule that is not on the page** (e.g. "completing" a cadence, or inventing next-year dates). Before a detected date is allowed to become a `new_meeting`:
+  1. **Literal-source check.** The date MUST appear as literal text in the fetched page / rendered output. Re-fetch the source text if needed (Playwright `--text`) and confirm the day/month (in any common format — `27 November`, `27/11/2026`, `2026-11-27`, `Fri 27 Nov`) is actually present. If a returned date does not appear in the source text, **DROP it** — do not record it. Never trust the extractor's JSON on its own.
+  2. **No cadence extrapolation.** Only record dates the source literally lists. **Never** infer "missing" meetings, complete an alternating-month or last-Friday pattern, or project into a calendar year the page does not display. If the page's schedule header/tabs stop at the current year, do not emit any next-year dates.
+  3. **Weekday sanity.** NHS public boards almost always meet **Monday–Friday**. Flag and drop any Saturday/Sunday date unless the page explicitly shows that weekend day for that meeting.
+  4. **Whole-series smell test.** If the *only* new dates for an org are ones that extend beyond the schedule the page actually shows (e.g. the page lists 2026 but you're about to add 2027 dates), treat the whole set as suspect and re-derive from the raw text before recording anything.
+  Worked failure (2026-07-16 run, RTD Newcastle): the extractor returned six even-month/2027 Fridays (plus one Saturday) that were **nowhere on the page** — the trust actually meets bi-monthly in odd months and publishes 2026 only. All six passed the old date-range/real-date validation and were alerted in error. The literal-source check above would have dropped every one.
+
 ### Step 5 — Diff dates against state
 
 For each detected meeting:
@@ -397,6 +404,7 @@ In chat, give a terse summary:
 - **Resilience over completeness.** If 5 orgs out of 233 fail, that's fine — log them and move on.
 - **Never delete `state/meetings.json` entries.** Even past meetings stay (audit trail).
 - **Be careful with UK dates.** `12/06/2026` is 12 June, not 6 December.
+- **Never fabricate dates.** Only record meeting dates that appear as literal text in the fetched page (see the anti-fabrication guard in Step 4). The date extractor can hallucinate a plausible schedule; do not extrapolate cadence, complete patterns, or invent next-year dates. A dropped-but-real date is recoverable next run; a fabricated date emailed to a correspondent is not.
 - **De-duplicate cluster meetings.** Hull + NLAG share a board; some ICBs share via `cluster_id`. Don't send the same alert twice.
 - **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage" or "PDF schedule", read it and skip cheaper fetchers that have already failed. Don't burn budget re-discovering known failures.
 - **Trust `cluster_id`.** Trust and ICB records can both carry `cluster_id` (e.g. `NWUHG`, `DLN`, `STW-SSOT`). When set, all members share the same `url` and meeting dates. Dedupe at the email/subscription layer, but keep one state entry per ods_code for audit.

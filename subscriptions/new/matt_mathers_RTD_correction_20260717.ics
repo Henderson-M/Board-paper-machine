@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTD-2026-07-31@board-paper-machine.hsj
+DTSTAMP:20260717T090000Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Newcastle upon Tyne Hospitals — Public Board of Directors Meeting
+URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTD-2026-09-25@board-paper-machine.hsj
+DTSTAMP:20260717T090000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Newcastle upon Tyne Hospitals — Public Board of Directors Meeting
+URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTD-2026-11-27@board-paper-machine.hsj
+DTSTAMP:20260717T090000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Newcastle upon Tyne Hospitals — Public Board of Directors Meeting
+URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
+END:VEVENT
+END:VCALENDAR
