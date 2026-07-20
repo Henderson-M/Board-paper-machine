@@ -664,3 +664,60 @@ All 6 returned 0 new packs. Papers haven't dropped yet for tomorrow's RHA (Notti
 ---
 
 *Format: each session adds one dated section. Within a session, group by area of change. Note what changed, why, and what's left.*
+
+## 20 July 2026 — full sweep (dry run, nothing sent)
+
+Ran the whole machine across all 239 in-scope orgs (227 scan units after clustering).
+Everything below is written to disk; **no emails were sent** — 28 alerts are sitting in
+`dry_run_output/` waiting for Henry's sign-off.
+
+**What was found**
+
+- 14 genuinely new meeting dates. That is far fewer than the last two runs (23 and 51),
+  and the reason is that the anti-fabrication guard dropped a lot of invented dates at
+  source this time rather than recording them. Henry gets 6 of the 14, including Bradford
+  District Care on 23 July — three days away, from a 2026/27 calendar they have only just
+  published.
+- 25 meetings had new board packs: 139 files. 23 packs were read and summarised.
+- Across those 23 summaries: 151 LEAD, 123 WORTH WATCHING, 100 FOI items.
+- The papers watchlist (5 orgs) turned up nothing new.
+
+**Strongest material**
+
+Royal Surrey is the standout: KPMG could not issue an audit opinion on the 2025/26
+accounts because the trust had not supplied the disclosures, the accounts were still
+unapproved and unsubmitted to NHSE in mid-July, and the audit committee called it an
+"unprecedented outcome". Mid and South Essex has three separate Value for Money
+significant weaknesses and is restricting supplier payments. Sheffield Teaching is
+£11.21m behind plan at month 2. North Cumbria's savings plan is 57% one PFI transaction.
+Royal Cornwall, UCLH and Royal Surrey all have adverse HTA mortuary inspection findings
+in the same fortnight, which looks like a national thread rather than three local stories.
+Devon Partnership is being asked to formally decline the IHRA definition NHSE asked
+trusts to adopt.
+
+**What went wrong, and what it means**
+
+- `fetch_with_playwright.py` has a cp1252 encoding crash that silently produces an empty
+  file after a *successful* fetch. Eight-plus workers hit it. This is serious because a
+  failed write is indistinguishable from a dead website, so an unknown number of past
+  "site failed" results may have been this bug rather than a real failure. Fix is one line.
+- Ashford and St Peter's has put its whole website behind a bot challenge. The 49-file
+  pack could not be read, and we did not try to defeat the challenge — that would be
+  circumventing an access control the trust chose to put up. It needs a retry later or a
+  direct request to the trust.
+- Ten orgs have wrong or dead URLs in the data files, including one (South West London
+  and St George's) pointing at an entirely different trust, and one (Cheshire and Wirral)
+  where the watchlist has been polling a page with no documents on it at all.
+- At least thirteen dates already in state are wrong — several are meetings that never
+  existed, and one (Black Country, 23 July) is a Council of Governors meeting that a
+  previous run mistook for a board. All of it is listed in `DATA_QUALITY_2026-07-20.md`.
+  Nothing was deleted or rewritten; that needs a decision first.
+- Running two dozen pack analysers at once made them delete each other's downloads,
+  because the skill tells every one of them to tidy up the same shared folder. They all
+  recovered, but the skill should give each agent its own directory.
+
+**State**
+
+Additive changes only: 14 new meetings, 139 pack files attached, 23 meetings marked
+analysed with summary paths. `alerts_sent` was deliberately left null everywhere, so if
+the emails do go out later nothing has been falsely marked as delivered.

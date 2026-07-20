@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:TAD-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260720T120000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Bradford District Care NHS Foundation Trust — Board of Directors meeting held in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/
+URL:https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/
+END:VEVENT
+END:VCALENDAR

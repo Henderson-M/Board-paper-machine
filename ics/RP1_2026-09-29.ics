@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RP1-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260720T120000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — NHFT/LPT Group Board (public, 3-5pm)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+END:VCALENDAR

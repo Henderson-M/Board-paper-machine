@@ -805,16 +805,312 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.ashfordstpeters.nhs.uk/meetings",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Agenda-Jul-2026.pdf",
+     "title": "Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper1-4-Draft-Minutes-Jul-2026.pdf",
+     "title": "Minutes of the Previous Meeting",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper1-5-Action-Log-Jul-2026.pdf",
+     "title": "Matters Arising - Action Log",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper1-7-CEO-Report-Jul-2026.pdf",
+     "title": "Group Chief Executive's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper1-8-Integrated-Performance-Report-Jul-2026.pdf",
+     "title": "Integrated Performance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper1-8-Integrated-Performance-Cover-Jul-2026.pdf",
+     "title": "Cover - Integrated Performance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-1-Quality-of-Care-AAA-Chairs-Report-Jul-2026.pdf",
+     "title": "Quality Of Care Committee AAA / Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-2-MatNeo-and-CNST-Jul-2026.pdf",
+     "title": "Maternity and Neonatal Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-3-Nottingham-Maternity-Review-Jul-2026.pdf",
+     "title": "Post Death Care - Board Assurance Post Fuller Enquiry and Nottingham Maternity Review",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-3-Appendix-Submission-Jul-2026.pdf",
+     "title": "Appendix - Post Death Care - Submission",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-4-IPC-Annual-Report-2025-26-Jul-2026.pdf",
+     "title": "Infection Prevention and Control Annual Report 2025-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-5-Bi-Annual-Safer-Staffing-Jul-2026.pdf",
+     "title": "Nursing and Midwifery Safe Staffing",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-6-Safeguarding-Annual-Report-2025-26-Jul-2026.pdf",
+     "title": "Safeguarding Adults and Children Annual Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-7-FTSU-Annual-Report-2025-26-Jul-2026.pdf",
+     "title": "Freedom to Speak Up Guardian Annual Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-8-People-Committee-AAA-Report-Jul-2026.pdf",
+     "title": "People Committee AAA / Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-9-The-Lord-Mann-Recommendations-for-NHS-Trusts-Jul-2026.pdf",
+     "title": "Lord Mann Review Assurance",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-9-Appendix-2-Jul-2026.pdf",
+     "title": "Appendix - Lord Mann Review",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper2-10-Guardian-of-Safe-Working-2025-26-Annual-Report-Jul-2026.pdf",
+     "title": "Guardian of Safe Working Annual Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper3-1-FPT-AAA-Report-Jul-2026.pdf",
+     "title": "Finance, Performance and Transformation Committee AAA / Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper3-2-Finance-Report-Month-3-Jul-2026.pdf",
+     "title": "Finance Month 3 Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper3-2-Appendix-Finance-Report-M3-Jul-2026.pdf",
+     "title": "Appendix - Finance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper3-3-Draft-Business-Case-ED-PAU-Jul-2026.pdf",
+     "title": "Draft Business Case for EDPAU",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper3-5-Joint-Digital-Committee-Summary-Jul-2026.pdf",
+     "title": "Joint Digital Committee Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-Strategic-Partnership-Jul-2026.pdf",
+     "title": "Strategic Partnership / Group Model Expansion Proposal",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-Appendix-Group-Model-MOU-Jul-2026.pdf",
+     "title": "Appendix - Group Model MOU",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-QVH-Jan-Board-Pack-Jul-2026.pdf",
+     "title": "QVH Jan Board Pack",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-QVH-May-Board-Pack-Jul-2026.pdf",
+     "title": "QVH May Board Pack",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-QVH-Quality-Account-2025-26-Jul-2026.pdf",
+     "title": "QVH Quality Account 2025-26",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-1-QVH-RSFT-ASPH-Clinical-Visit-Jul-2026.pdf",
+     "title": "QVH RSFT ASPH Clinical Visit",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-2-Group-Model-Governance-Structure-Jul-2026.pdf",
+     "title": "Group Model Governance Structure - Strategic Committee Proposal and ToR",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-2-Appendix-Group-Governance-Development-Slides-Jul-2026.pdf",
+     "title": "Appendix - Group Governance Development Slides",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper4-2-Appendix-Group-Strategic-Committees-in-Common-ToR-Jul-2026.pdf",
+     "title": "Appendix - Group Strategic Committees in Common ToR",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-1-ARC-AAA-Jul-2026.pdf",
+     "title": "Audit & Risk Committee AAA / Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-2-Review-of-Financial-Policies-Jul-2026.pdf",
+     "title": "Scheme of Delegation, Standing Orders and SFI Review",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-2-1-Scheme-of-Delegation-Jul-2026.pdf",
+     "title": "Scheme of Delegation",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-2-2-Standing-Orders-Jul-2026.pdf",
+     "title": "Standing Orders",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-2-3-Standing-Financial-Instructions-Jul-2026.pdf",
+     "title": "Standing Financial Instruction",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-3-TEB-Terms-of-Reference-Jul-2026.pdf",
+     "title": "Trust Executive Board Terms of Reference",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-4-Annual-Review-Risk-Appetite-Statements-Jul-2026.pdf",
+     "title": "Risk Appetite Statement",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-5-Freedom-of-Information-Act-Compliance-Jul-2026.pdf",
+     "title": "Freedom of Information Act Compliance",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-6-Statutory-Roles-Jul-2026.pdf",
+     "title": "Statutory Roles",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-6-Appendix-1-Jul-2026.pdf",
+     "title": "Appendix 1 - Schedule of Statutory/Regulatory Roles",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper5-6-Appendix-2-Jul-2026.pdf",
+     "title": "Appendix 2 - Further Sources of Information",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-1-ICB-Summary-Jul-2026.pdf",
+     "title": "Integrated Care Board Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-2-Attendance-Record-Jul-2026.pdf",
+     "title": "Attendance Record",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-3-Joint-Board-Work-Plan-2026-Jul-2026.pdf",
+     "title": "Board Work Plan",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-4-Glossary-of-Terms-Jul-2026.pdf",
+     "title": "Glossary of Terms",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-5-Appendix-Jul-2026.pdf",
+     "title": "Joint Capital Resource Use Plan 2026/27",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.ashfordstpeters.info/images/board-papers/2026-07-22/Paper6-5-Surrey-and-Sussex-ICB-Joint-Capital-Resource-Use-Plan-2026-27-Jul-2026.pdf",
+     "title": "Cover - Joint Capital Resource Use Plan 2026/27",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RTK_2026-07-22.md"
   },
   {
    "id": "RTK:2026-09-23",
@@ -2848,16 +3144,24 @@
    "title": "Trust Board Meeting in Public",
    "source_url": "https://www.walsallhealthcare.nhs.uk/about-us/how-we-are-run/board-papers/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.walsallhealthcare.nhs.uk/wp-content/uploads/2026/07/Group-Trust-Board-in-Public-Meeting-Pack-July-2026.pdf",
+     "title": "Group Trust Board in Public Meeting Pack July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RBK_2026-07-21.md"
   },
   {
    "id": "RBK:2026-09-15",
@@ -3029,7 +3333,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -3429,16 +3733,24 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.covwarkpt.nhs.uk/download/july-26-cwpt-public-trust-board-july-26-paper-packpdf.pdf?ver=12930&doc=docm93jijm4n9176.pdf",
+     "title": "July 2026 CWPT Public Trust Board Paper Pack",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RYG_2026-07-21.md"
   },
   {
    "id": "RYG:2026-09-15",
@@ -5846,16 +6158,24 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.whittington.nhs.uk/default.asp?c=20208",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.whittington.nhs.uk/document.ashx?id=16310",
+     "title": "Whittington Health - Board papers - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RKE_2026-07-23.md"
   },
   {
    "id": "RKE:2026-09-25",
@@ -6418,16 +6738,30 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings",
    "papers_url": "https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings/trust-board-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.elft.nhs.uk/sites/default/files/2026-07/TBD-PUBLIC-2026-07-23%20Combined%20Papers%20v002.pdf",
+     "title": "Trust Board July 2026 Public Combined Papers",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.elft.nhs.uk/sites/default/files/2026-07/QAC-2026-06-07%20Combined%20Papers%20v004%20-%20Trust%20Board.pdf",
+     "title": "Appendix item 11: Quality Assurance Committee Annual Reports (for 23 July 2026 Trust Board)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RWK_2026-07-23.md"
   },
   {
    "id": "RWK:2026-09-24",
@@ -6513,16 +6847,24 @@
    "title": "Public Board of Directors Meeting",
    "source_url": "https://www.ncic.nhs.uk/trust/how-we-are-run/board-meetings",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.ncic.nhs.uk/download_file/view/13184/268",
+     "title": "July public board agenda and papers",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RNN_2026-07-22.md"
   },
   {
    "id": "RNN:2026-09-23",
@@ -7188,10 +7530,23 @@
    "title": "Board of Directors Meeting",
    "source_url": "https://www.oxfordhealth.nhs.uk/about-us/board-papers/",
    "papers_url": "https://oxfordhealth.nhs.uk/papers/29-july-2026/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://oxfordhealth.nhs.uk/wp-content/uploads/2026/07/Board-meeting-in-public_22-July-26.pdf",
+     "title": "Board of Directors papers - Board meeting in public, 22 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://oxfordhealth.nhs.uk/wp-content/uploads/2026/07/00_BOD_Agenda_July-2026_v.1e_.docx",
+     "title": "Board of Directors Agenda July 2026 (v1e)",
+     "kind": "other",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9735,16 +10090,96 @@
    "title": "NHS West and North London Board Meeting",
    "source_url": "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/fc79ba33-a108-461c-99cf-2dbf6dd56d6d/293",
+     "title": "00) 2026.07.22 WNL Board meeting in public agenda v1.0",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/3b6cbe16-03e6-4bcf-85f2-42abaaae7e27/293",
+     "title": "01.3) Minutes of the previous meetings, 01 April and 17 June 2026 (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/d8c8c7e9-aa5e-4538-bb19-06f6777adf9a/293",
+     "title": "02.1) Draft W&N London strategy and call for evidence (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/8d77585a-fbf3-479f-b581-a6e9d183349f/293",
+     "title": "03.1) Integrated Month 1 Finance and Performance Report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/55f87694-30e6-4f65-8664-e78b9ab25c53/293",
+     "title": "04.1.a) People and Culture Annual Report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/3a96c161-5eba-44b5-8096-c7677aef0018/293",
+     "title": "04.1.b) NCL and NWL ICB 2025 Staff Survey Reports (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/3c2d4b55-5a89-4beb-9fff-6cf885da31a1/293",
+     "title": "04.1.c) Statutory Equality Reports (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/cc065013-9530-446e-b468-39cea76c30d0/293",
+     "title": "04.2) Audit Risk Committee Assurance Report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/e8338379-08d3-4a58-8061-f63881ebe094/293",
+     "title": "04.3) Performance Committee Assurance Report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/75f0133e-edce-468c-9088-c3dc01d54634/293",
+     "title": "04.4) Remuneration Committee assurance report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/1f1552d2-b7ae-417b-82b2-df93a1efba3c/293",
+     "title": "04.5) Strategy Committee Assurance Report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/c316088e-1d73-42e7-bed6-76e3d8f88d8f/293",
+     "title": "04.6) Primary Care Medicines Optimisation Committee assurance report (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.westandnorthlondon.icb.nhs.uk/download_file/477a3f3f-0c43-4a2e-83cc-053a563b45e3/293",
+     "title": "04.7) Executive report to the Board (merged)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/Z9B2Z_2026-07-22.md"
   },
   {
    "id": "Z9B2Z:2026-10-21",
@@ -9926,16 +10361,30 @@
    "title": "Board meeting July 2026",
    "source_url": "https://www.kentandmedway.icb.nhs.uk/events-calender",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.kentandmedway.icb.nhs.uk/download/icb-board-meeting-pack-july-2026.pdf?ver=6961&doc=docm93jijm4n4056.pdf",
+     "title": "ICB Board meeting pack July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.kentandmedway.icb.nhs.uk/download/commissioning-intentions-appendicespdf.pdf?ver=6962&doc=docm93jijm4n4057.pdf",
+     "title": "Appendices: Commissioning intentions",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-29T09:18:15Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/QKS_2026-07-21.md"
   },
   {
    "id": "QKS:2026-09-22",
@@ -11134,16 +11583,54 @@
    "title": "Board Meeting",
    "source_url": "https://www.royalsurrey.nhs.uk/board-meeting-dates",
    "papers_url": "https://www.royalsurrey.nhs.uk/board-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33075.pdf&ver=84260",
+     "title": "Agenda Pack - Trust Board 23rd July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33070.pdf&ver=84261",
+     "title": "2.2 Infection Prevention and Control Full Annual Report (Library Papers)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33071.pdf&ver=84262",
+     "title": "2.2 IPC Annual Plan 2026-2027 (Library Papers)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33072.pdf&ver=84263",
+     "title": "2.3 Nursing and Midwifery Staffing Appendices (Library Papers)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33073.pdf&ver=84264",
+     "title": "5.3a Standing Financial Instructions (Library Papers)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33074.pdf&ver=84265",
+     "title": "5.3b SFI - Scheme of Delegation (Library Papers)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RA2_2026-07-23.md"
   },
   {
    "id": "RA2:2026-09-24",
@@ -12943,16 +13430,30 @@
    "title": "Board Meeting",
    "source_url": "https://www.dpt.nhs.uk/our-board/",
    "papers_url": "https://www.dpt.nhs.uk/publications?media_folder=334&root_folder=2026",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.dpt.nhs.uk/download/july-2026-board-papers.pdf?ver=4695",
+     "title": "July 2026 board papers",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.dpt.nhs.uk/download/july-2026-supplementary-board-papers.pdf?ver=4691",
+     "title": "July 2026 supplementary board papers",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RWV_2026-07-21.md"
   },
   {
    "id": "RWV:2026-09-15",
@@ -15169,16 +15670,168 @@
    "title": "Board meeting",
    "source_url": "https://www.sth.nhs.uk/about-us/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/20260721%20-%20Public%20Board%20Agenda%20Final.pdf",
+     "title": "Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/A%20-%2020260519%20-%20Unadopted%20Public%20BoD%20Minutes%20v5.pdf",
+     "title": "Paper A - Minutes of the Previous Meeting held on 19 May 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/B%20-%202026%2007%2021%20-%20Chair%20Board%20Report%20Final.pdf",
+     "title": "Paper B - Chair's Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/C%20-%20Public%20CEO%20Board%20Report%20-%20July%202026-combined.pdf",
+     "title": "Paper C - Chief Executive's Matters",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/D%20-%202026_07_21%20-%20Board%20-%20IPR%20for%20July%20Board%20May%20Data%20-%20V8.pdf",
+     "title": "Paper D - Integrated Performance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/Stroke%20Board%20of%20Directors%20Presentation%20-%2021_07_2026.pdf",
+     "title": "Presentation - Patient Care Update: Discharge from Hospital and Community support for Stroke Patients",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/E%20-%20Board%20Assurance%20Statement%20and%20HTA%20ECA%20-%20Public%20Board%20FINAL.pdf",
+     "title": "Paper E - Fuller Inquiry - Board Assurance Statement",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/F%20-%20Quarterly%20Patient%20Experience%20and%20Engagement%20Report%20Q4%2025_26%20BoD%2021%20July%202026.pdf",
+     "title": "Paper F - Quarterly Patient Engagement and Experience Update",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/G%20-%20Quality%20Committee%20Meeting%20Assurance%20Report.pdf",
+     "title": "Paper G - Quality Committee Meeting Assurance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/H%20-%20Integrated%20Quality%20and%20Safety%20Report%20-%20Annual%20-%20PB%20-%20Final%20v2.pdf",
+     "title": "Paper H - Integrated Quality and Safety Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/I%20-%20Board%20-%20Learning%20from%20Deaths%20Q3%20FINAL.pdf",
+     "title": "Paper I - Learning from Deaths Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/J%20-%20Quality%20Report%20-%20Public%20BoD%20FINAL.pdf",
+     "title": "Paper J - Quality Report 2025/26",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/K%20-%20Quarter%201%20Capital%20Plan%20update%20July%20Committee.pdf",
+     "title": "Paper K - Approval of Four Year Capital Plan and Capital Programme Update",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/L%20-%202026%2007%2021%20-%20Finance%20and%20Performance%20Committee%20Meeting%20Assurance%20Reports.pdf",
+     "title": "Paper L - Finance and Performance Committee Meeting Assurance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/M%20-%202026%2006%2016%20-%20ARC%20Meeting%20Assurance%20Report%20vn%202.pdf",
+     "title": "Paper M - Audit and Risk Committee Meeting Assurance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/N%20-%20R%26I%20Meeting%20Assurance%20Report%2015062026%20v1.pdf",
+     "title": "Paper N - Research and Innovation Committee Meeting Assurance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/O%20-%20People%20Committee%20Meeting%20Assurance%20Report.pdf",
+     "title": "Paper O - People Committee Meeting Assurance Report",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/P%20-%20BoD%20Health%20and%20Care%20Systems%20Update%20-%20July%202026.pdf",
+     "title": "Paper P - Systems and Partnership Update",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/Q%20-%202026%2007%2021%20-%20Out%20and%20About%20Visit%20Report%20Final.pdf",
+     "title": "Paper Q - Board Out and About Visits",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/R%20-%2026_07_21%20-%20BoD%20-%20Board%20ToR%20Workplan%20and%20TEG%20ToR%20v2.pdf",
+     "title": "Paper R - Board of Directors Terms of Reference and Workplan 2026/27, and TEG Terms of Reference",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/S%20-%2026_07_21%20-%20BoD%20-%20Board%20Committees%20-%20Integrated%20Governance%20Arrangements(1).pdf",
+     "title": "Paper S - Board Committees - Integrated Governance Arrangements",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/T%20-%202026%2007%2021%20-%20Modern%20Slavery%20Act%20Statement%20and%20Evidence%20Log.pdf",
+     "title": "Paper T - Modern Slavery Act Statement 2025/26",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/U%20-%2020260721%20-%20Trust%20Constitution%20-%20BoD.pdf",
+     "title": "Paper U - Trust's Constitution",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/V%20-%20Corporate%20Seal%20-%20July%202026.pdf",
+     "title": "Paper V - Application of the Corporate Seal",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/W%20-%2020260519%20-%20Public%20BoD%20Action%20Log%20V1.pdf",
+     "title": "Paper W - Action Log",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "summary_path": "summaries/RHQ_2026-07-21.md"
   },
   {
    "id": "RHQ:2026-09-08",
@@ -15354,16 +16007,24 @@
    "title": "Board meeting",
    "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.uclh.nhs.uk/download_file/21754/680",
+     "title": "UCLH Board of Directors - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "summary_path": "summaries/RRV_2026-07-23.md"
   },
   {
    "id": "RRV:2026-09-24",
@@ -15411,16 +16072,24 @@
    "title": "Board of Directors meeting",
    "source_url": "https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetings",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.merseycare.nhs.uk/download_file/view/15489/1320",
+     "title": "Board Pack - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "summary_path": "summaries/RW4_2026-07-23.md"
   },
   {
    "id": "RW4:2026-09-17",
@@ -15782,17 +16451,138 @@
      "url": "https://www.eastofenglandcommunityhealthandcare.nhs.uk/media/1eufvewt/00-trust-board-meeting-in-public-agenda-22072026.pdf",
      "title": "Trust Board Meeting in Public - Agenda 22 July 2026",
      "kind": "pdf"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/ckanezz2/00-trust-board-meeting-in-public-agenda_july-2026.pdf",
+     "title": "0.0 Trust Board Meeting In Public Agenda July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/eb2nlfnf/20-disclosure-of-interests_july-2026.pdf",
+     "title": "2.0 Disclosure of Interests July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/1jdh5ofl/21-appendix-a-trust-board-register-of-interests.pdf",
+     "title": "2.1 Appendix A Trust Board Register of Interests",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/3aqbosb1/30-trust-board-meeting-in-public-minutes.pdf",
+     "title": "3.0 Trust Board Meeting in Public Minutes",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/er0c1ws1/40-trust-board-meeting-in-public-action-log.pdf",
+     "title": "4.0 Trust Board Meeting in Public Action Log",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/2tgpmgia/60-chief-executives-report_july-2026.pdf",
+     "title": "6.0 Chief Executive's Report July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/2bcfgwzp/70-trust-strategy-update_july-2026.pdf",
+     "title": "7.0 Trust Strategy Update July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/fqxh4c5j/71-appendix-1-annual-plan-updates_july-2026.pdf",
+     "title": "7.1 Appendix 1 Annual Plan Updates July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/00wcibcy/72-appendix-2-merger-benefits_july-2026.pdf",
+     "title": "7.2 Appendix 2 Merger Benefits July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/ncgd3jjt/73-appendix-3-post-transaction-integration-plan_july-2026.pdf",
+     "title": "7.3 Appendix 3 Post Transaction Integration Plan July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/k4oiircb/80-integrated-governance-performance-report_july-2026.pdf",
+     "title": "8.0 Integrated Governance Performance Report July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/2qcn35y1/81-trust-board-integrated-governance-performance-report_july-2026.pdf",
+     "title": "8.1 Trust Board Integrated Governance Performance Report July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/zumfenzc/90-learning-from-deaths-q4-2025-26.pdf",
+     "title": "9.0 Learning From Deaths Q4 (2025-26)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/ly0bu5r2/101-key-matters-extraordinary-audit-risk-committee_june-2026.pdf",
+     "title": "10.1 Key Matters Extraordinary Audit Risk Committee June 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/pvni4j5j/102-key-matters-audit-risk-committee_july-2026.pdf",
+     "title": "10.2 Key Matters Audit Risk Committee July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/kfaiykju/110-key-matters-charitable-funds-committee_june-2026.pdf",
+     "title": "11.0 Key Matters Charitable Funds Committee June 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/33cg0z5x/120-key-matters-quality-committee_may-2026.pdf",
+     "title": "12.0 Key Matters Quality Committee May 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/rfskmuul/132-key-matters-finance-infrastructure_june-2026.pdf",
+     "title": "13.2 Key Matters Finance and Infrastructure June 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/1iujopux/140-key-matters-people-participation-equalities-committee_july-2026.pdf",
+     "title": "14.0 Key Matters People Participation and Equalities Committee July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.cambscommunityservices.nhs.uk/media/51whrpu2/150-trust-board-assurance-framework_july-2026.pdf",
+     "title": "15.0 Trust Board Assurance Framework July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:42:22Z",
-   "last_checked": "2026-07-16T10:06:00Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via PDF fallback (https://eastofenglandcommunityhealthandcare.nhs.uk/media/ayklsk2l/00-2026-05-20-). [2026-07-16] Agenda-only file (3pp) detected; full pack not yet published. No analysis/alert."
+   "notes": "Detected via PDF fallback (https://eastofenglandcommunityhealthandcare.nhs.uk/media/ayklsk2l/00-2026-05-20-). [2026-07-16] Agenda-only file (3pp) detected; full pack not yet published. No analysis/alert.",
+   "summary_path": "summaries/RY3_2026-07-22.md"
   },
   {
    "id": "REN:2026-06-03",
@@ -16083,16 +16873,30 @@
    "title": "Board of Directors meeting",
    "source_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/board-meetings",
    "papers_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/board-meetings",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.guysandstthomas.nhs.uk/media/15031/Board%2Bof%2BDirectors%2Bmeeting%2Bpapers%2B-%2BWednesday%2B22%2BJuly%2B2026",
+     "title": "Board of Directors meeting papers - Wednesday 22 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.guysandstthomas.nhs.uk/media/15030/Board%2Bof%2BDirectors%2Bmeeting%2Bagenda%2B-%2BWednesday%2B22%2BJuly%2B2026",
+     "title": "Board of Directors meeting agenda - Wednesday 22 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Group C re-extraction (websearch_fallback)."
+   "notes": "Detected via Group C re-extraction (websearch_fallback).",
+   "summary_path": "summaries/RJ1_2026-07-22.md"
   },
   {
    "id": "RJ1:2026-10-21",
@@ -16928,16 +17732,30 @@
    "title": "Public Board Meeting",
    "source_url": "https://www.slam.nhs.uk/about-us/trust-board/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.slam.nhs.uk/download/260721-public-board-packpdf.pdf?ver=7703&doc=docm93jijm4n5121.pdf",
+     "title": "July Public Board Pack (260721-PUBLIC-Board-Pack.pdf)",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://www.slam.nhs.uk/download/board-note-for-observers-july-2026pdf.pdf?ver=7702&doc=docm93jijm4n5120.pdf",
+     "title": "Board Note for Observers July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "summary_path": "summaries/RV5_2026-07-28.md"
   },
   {
    "id": "RV5:2026-09-29",
@@ -17968,16 +18786,24 @@
    "title": "Public Trust Board Meeting",
    "source_url": "https://www.blackcountryhealthcare.nhs.uk/about-us/our-board-of-directors",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.blackcountryhealthcare.nhs.uk/download_file/16160/0",
+     "title": "Public Board Meeting Pack July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) — verify before relying."
+   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) — verify before relying.",
+   "summary_path": "summaries/TAJ_2026-07-23.md"
   },
   {
    "id": "TAJ:2026-10-22",
@@ -19397,15 +20223,23 @@
    "title": "Public Board Meeting",
    "source_url": "https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.northumbria.nhs.uk/download_file/4092/875",
+     "title": "Public board papers - July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
     "summary": null
-   }
+   },
+   "summary_path": "summaries/RTF_2026-07-22.md"
   },
   {
    "id": "RTF:2026-09-24",
@@ -19847,16 +20681,24 @@
    "title": "Trust Board PUBLIC Meeting",
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.gloshospitals.nhs.uk/documents/26941/July_2026_FINAL-Boardbook.pdf",
+     "title": "July 2026 FINAL Boardbook",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RTE_2026-07-30.md"
   },
   {
    "id": "RTE:2026-09-24",
@@ -19942,16 +20784,30 @@
    "title": "Board Meeting",
    "source_url": "https://www.oxfordhealth.nhs.uk/about-us/board-papers/",
    "papers_url": "https://oxfordhealth.nhs.uk/papers/29-july-2026/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://oxfordhealth.nhs.uk/wp-content/uploads/2026/07/Board-meeting-in-public_22-July-26.pdf",
+     "title": "Board of Directors papers - meeting in public 22 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    },
+    {
+     "url": "https://oxfordhealth.nhs.uk/wp-content/uploads/2026/07/00_BOD_Agenda_July-2026_v.1e_.docx",
+     "title": "Board Agenda 22 July 2026",
+     "kind": "other",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-06-29T09:18:15Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RNU_2026-07-22.md"
   },
   {
    "id": "QK1:2027-02-18",
@@ -21485,16 +22341,24 @@
    "title": "South East London ICB Board meeting in public",
    "source_url": "https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.selondonics.org/wp-content/uploads/PAPERS-Part-1-Integrated-Care-Board-meeting-in-Public-22-July-2026.pdf",
+     "title": "PAPERS Part 1 - Integrated Care Board meeting in Public 22 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "summary_path": "summaries/QKK_2026-07-22.md"
   },
   {
    "ods_code": "RYA",
@@ -22275,16 +23139,24 @@
    "title": "Board of Directors public meeting",
    "source_url": "https://www.mse.nhs.uk/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.mse.nhs.uk/download/docm93jijm4n13253.pdf?ver=54995",
+     "title": "Public Board Agenda bundle 23 07 2026 complete.pdf",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "summary_path": "summaries/RAJ_2026-07-23.md"
   },
   {
    "id": "QHM:2026-07-29",
@@ -23418,16 +24290,24 @@
    "title": "Trust Board in Public",
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "papers_url": "https://doclibrary-rcht.cornwall.nhs.uk/RoyalCornwallHospitalsTrust/Internet/DocumentsLibrary/BoardMeetings/BoardMeetings2627.aspx",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://doclibrary-rcht.cornwall.nhs.uk/DocumentsLibrary/RoyalCornwallHospitalsTrust/ChiefExecutive/TrustBoard/Minutes/2627/202607/TrustBoardAgendaPackExtraJuly26.pdf",
+     "title": "Trust Board Agenda Pack - Extraordinary Trust Board in Public, 23 July 2026",
+     "kind": "pdf",
+     "first_seen": "2026-07-20T15:26:43Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-07-16T10:06:00Z",
+   "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/REF_2026-07-23.md"
   },
   {
    "id": "RAT:2026-07-30",
@@ -23675,6 +24555,328 @@
     "summary": null
    },
    "notes": null
+  },
+  {
+   "id": "RP1:2026-09-29",
+   "ods_code": "RP1",
+   "org_type": "trust",
+   "date": "2026-09-29",
+   "title": "NHFT/LPT Group Board (public, 3-5pm)",
+   "source_url": "https://www.nhft.nhs.uk/board/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RJ2:2026-10-27",
+   "ods_code": "RJ2",
+   "org_type": "trust",
+   "date": "2026-10-27",
+   "title": "Trust Board meeting (public)",
+   "source_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RFF:2026-09-29",
+   "ods_code": "RFF",
+   "org_type": "trust",
+   "date": "2026-09-29",
+   "title": "Annual General Meeting - Education Centre",
+   "source_url": "https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "TAD:2026-07-23",
+   "ods_code": "TAD",
+   "org_type": "trust",
+   "date": "2026-07-23",
+   "title": "Board of Directors meeting held in public",
+   "source_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "TAD:2026-09-10",
+   "ods_code": "TAD",
+   "org_type": "trust",
+   "date": "2026-09-10",
+   "title": "Board of Directors meeting held in public",
+   "source_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "TAD:2026-11-05",
+   "ods_code": "TAD",
+   "org_type": "trust",
+   "date": "2026-11-05",
+   "title": "Board of Directors meeting held in public",
+   "source_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "TAD:2027-01-14",
+   "ods_code": "TAD",
+   "org_type": "trust",
+   "date": "2027-01-14",
+   "title": "Board of Directors meeting held in public",
+   "source_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "TAD:2027-03-04",
+   "ods_code": "TAD",
+   "org_type": "trust",
+   "date": "2027-03-04",
+   "title": "Board of Directors meeting held in public",
+   "source_url": "https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RWR:2026-09-24",
+   "ods_code": "RWR",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "pdf_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RWR:2026-11-26",
+   "ods_code": "RWR",
+   "org_type": "trust",
+   "date": "2026-11-26",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "pdf_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RWR:2027-01-28",
+   "ods_code": "RWR",
+   "org_type": "trust",
+   "date": "2027-01-28",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "pdf_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RWR:2027-03-24",
+   "ods_code": "RWR",
+   "org_type": "trust",
+   "date": "2027-03-24",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "pdf_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "RBQ:2026-09-17",
+   "ods_code": "RBQ",
+   "org_type": "trust",
+   "date": "2026-09-17",
+   "title": "NHS University Hospitals of Liverpool Group Board Meeting (public)",
+   "source_url": "https://www.lhch.nhs.uk/board-of-directors-meetings",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
+  },
+  {
+   "id": "REM:2026-09-17",
+   "ods_code": "REM",
+   "org_type": "trust",
+   "date": "2026-09-17",
+   "title": "Group Board Meeting (public, live streamed)",
+   "source_url": "https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-07-20T15:26:43Z",
+   "last_checked": "2026-07-20T15:26:43Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "detection": {
+    "run": "2026-07-20",
+    "verified_via": "playwright_text",
+    "literal_source_verified": true
+   }
   }
  ],
  "_scan_errors": [
@@ -24608,19 +25810,36 @@
   {
    "detail": "RWR: all HPFT board URLs 403/404; no scrapable board-dates page found",
    "when": "2026-07-16T10:06:00Z"
+  },
+  {
+   "run": "2026-07-20",
+   "date_scan_failed": [
+    "RY8",
+    "RRJ",
+    "RX4",
+    "RBS"
+   ],
+   "pack_fetch_blocked": [
+    {
+     "ods": "RTK",
+     "reason": "SiteGround proof-of-work bot challenge across all trust hosts; not circumvented"
+    }
+   ],
+   "note": "fetch_with_playwright.py cp1252 UnicodeEncodeError reported by 8+ workers; silently writes empty/traceback file"
   }
  ],
- "_last_full_scan": {
-  "ts": "2026-07-01T11:48:28Z",
-  "scope": "full team (all 239 units, 227 after cluster-dedupe)",
-  "new_dates": 32,
-  "by": "Henry Anderson (via Claude)"
- },
+ "_last_full_scan": "2026-07-20",
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
   "ts": "2026-07-09T11:13:27Z",
   "mode": "packs+watchlist, LIVE emails",
   "note": "packs-only sweep (42 in-window mtgs + 8 watchlist). 15 packs detected & analysed; 14 papers alerts sent 14/14. QGH/QWU promoted from watchlist. Stale dates flagged: RCX/RBD/RL1 2026-07-09, R0D 2026-07-08."
  },
- "_last_scan": "2026-07-16T10:06:00Z"
+ "_last_scan": "2026-07-16T10:06:00Z",
+ "_run_2026_07_20": {
+  "new_dates": 14,
+  "packs_attached": 139,
+  "packs_analysed": 23,
+  "emails": "DRY RUN ONLY — nothing sent; alerts_sent left null"
+ }
 }
