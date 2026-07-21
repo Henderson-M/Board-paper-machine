@@ -178,7 +178,7 @@
   "url_root": "https://www.derbyandderbyshireicb.nhs.uk",
   "cluster_id": "DLN",
   "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common"
+  "notes": "[2026-07-21] Renders dates as 17-Sep-26 - standard DD-Month-YYYY regexes miss this entirely. | DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common"
  },
  {
   "ods_code": "QJM",
@@ -359,7 +359,7 @@
   "url_root": "https://www.selondonics.org",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately"
+  "notes": "[2026-07-21] Dates sit in a collapsed accordion - needs --html. WebFetch also fabricated a January 2027 meeting. | Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately"
  },
  {
   "ods_code": "QWE",
@@ -394,7 +394,7 @@
   "url_root": "https://www.westandnorthlondon.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical 'Boards in Common' packs from late 2025/early 2026."
+  "notes": "[2026-07-21] Dates sit in a collapsed accordion - --text returns ZERO dates despite five being present. Needs --html. | Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical 'Boards in Common' packs from late 2025/early 2026."
  },
  {
   "ods_code": "QRL",
@@ -425,7 +425,7 @@
   "url_root": "https://www.kentandmedway.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site."
+  "notes": "[2026-07-21] Full 2026/27 schedule now published, incl. an unusual extra 2 Feb 2027 meeting alongside 19 Jan. Per-event pack page: /events-calender/event/board-meeting-july-2026-NN/. | ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site."
  },
  {
   "ods_code": "S0E4D",
@@ -478,7 +478,7 @@
   "url_root": "https://bsw.icb.nhs.uk",
   "cluster_id": "BSW-DOR-SOM",
   "cluster_meeting_url": null,
-  "notes": "[2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
+  "notes": "[2026-07-21] Meets on varying weekdays (Wed then Mondays) - do not assume a fixed weekday. | [2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
  },
  {
   "ods_code": "QVV",
@@ -555,7 +555,7 @@
   "url_root": "https://www.cios.icb.nhs.uk",
   "cluster_id": "SW-PEN",
   "cluster_meeting_url": "https://swpboard.nhs.uk/meetings/",
-  "notes": "[2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
+  "notes": "[2026-07-21] INVERTED LADDER: 403s the Playwright helper; serves fine to WebFetch and browser-UA curl. | [2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
  },
  {
   "ods_code": "QJK",

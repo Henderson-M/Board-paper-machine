@@ -19,6 +19,25 @@ import argparse
 import sys
 from pathlib import Path
 
+# --- Encoding guard (added 2026-07-21) -------------------------------------
+# Windows consoles default to cp1252. NHS board pages routinely contain curly
+# apostrophes, en/em dashes and arrows, which cp1252 cannot encode. Without
+# this, the fetch SUCCEEDS and then the *write* to stdout raises
+# UnicodeEncodeError — leaving a 0-byte or traceback-only output file. Callers
+# read that as "empty page" and report the site as dead, so a working trust
+# looks like a broken one. Reported independently by 8+ scan workers on the
+# 2026-07-20 run; one batch had a third of its orgs silently zeroed.
+#
+# If this ever needs reverting, the interim workaround is to set
+# PYTHONIOENCODING=utf-8 in the environment before invoking the script.
+# See DATA_QUALITY_2026-07-20.md section 1.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass  # older Python, or a stream that does not support reconfigure
+# ---------------------------------------------------------------------------
+
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "

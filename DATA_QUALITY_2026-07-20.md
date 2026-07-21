@@ -23,22 +23,50 @@ zeroed on first pass. Unknown how many past "site failed" results were actually 
 
 ---
 
-## 2. Wrong / dead scan URLs
+## 2. URL staleness — CORRECTED 21 July
 
-| ODS | Org | Problem | Correct URL |
-|---|---|---|---|
-| RQY | SW London & St George's | Points at **a different trust** (stgeorges.nhs.uk) | `https://swlstg.nhs.uk/our-board` |
-| RJ1 | Guy's and St Thomas' | `/board-meetings` never carries PDFs | `/about-us/our-board/agenda-and-papers` |
-| RXA | Cheshire & Wirral Partnership | Board-biographies page, zero documents — watchlist has been polling nothing | `https://www.cwp.nhs.uk/board` |
-| RX4 | CNTW | `/events/` 404s for 3 consecutive runs | `/about-us/trust/our-board-and-governors` (Playwright) |
-| RWF | Maidstone & Tunbridge Wells | Site moved to flat URLs; old path 404s | `https://www.mtw.nhs.uk/board-meetings-and-papers` |
-| RXM | Derbyshire Healthcare | Stored URL renders no dates | `https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings` |
-| RJ2 | Lewisham & Greenwich | `/board-papers` has only past packs | `/board-meetings` |
-| RBQ | LHCH | Own page now historic only | Repoint to UHL group board page |
-| RBS | Alder Hey | Dead 3 consecutive runs — only 2018/2020 content | **Needs rediscovery** |
-| RRJ | Royal Orthopaedic | 3 consecutive runs, zero future dates anywhere | **Needs a human/secretariat contact** |
+**My original write-up of this section was wrong, and the real bug is more useful.**
 
-Also: `RAT`, `RKL`, `R0B` all need `/board-meetings`-style subpages rather than `/board-papers`.
+I reported "10 orgs have wrong URLs in the data files." That was not accurate. Most had
+already been corrected — RQY was fixed on 29 June and re-confirmed 13 July, RXA's dead page
+was documented on 13 July.
+
+**The actual defect: correcting an org's URL does not update the meeting records already
+in `state/meetings.json`.** Each meeting stores its own `source_url`, copied in at the time
+it was first detected. So a meeting logged in May keeps May's address forever, and the
+scanner keeps hitting a dead page long after someone has fixed the org record.
+
+That is why the pack worker hit an old `stgeorges.nhs.uk` page for a South West London
+meeting: the org file said `swlstg.nhs.uk`, but the meeting record predated the fix.
+
+**Fixed on 21 July:** 45 future-dated meetings were resynced to their org's current URL.
+Examples: RQY (stgeorges → swlstg), TAH (shsc → sheffieldpartnership), RXM
+(`/about-us/...` → `/get-involved/board-meetings`), RCX (qehkl → nw-uhg).
+
+**Still to do:** the resync is a one-off repair, not a fix. `/scan-boards` Step 12 should
+propagate an org URL change to that org's future meeting records whenever it updates a
+data file, otherwise this silently recurs every time a trust moves its site.
+
+### URLs actually corrected on 21 July (5)
+
+| ODS | Org | Now points to |
+|---|---|---|
+| RWF | Maidstone & Tunbridge Wells | `https://www.mtw.nhs.uk/board-meetings-and-papers` |
+| RXM | Derbyshire Healthcare | `.../get-involved/board-meetings` |
+| RJ1 | Guy's and St Thomas' | `/about-us/our-board/agenda-and-papers` |
+| RJ2 | Lewisham & Greenwich | `/board-meetings` |
+| RXA | Cheshire & Wirral Partnership | `https://www.cwp.nhs.uk/board` |
+
+(RX4/CNTW was already carrying the corrected URL.)
+
+### Still needing human intervention
+
+| ODS | Org | Problem |
+|---|---|---|
+| RBS | Alder Hey | Dead 3 consecutive runs — only 2018/2020 content. Needs rediscovery. |
+| RRJ | Royal Orthopaedic | 3 consecutive runs, zero future dates anywhere. Needs a secretariat contact. |
+| RBQ | LHCH | Own page now historic only — repoint to the UHL group board page. |
+| RAT, RKL, R0B | — | Need `/board-meetings`-style subpages; exact URLs not yet confirmed. |
 
 ---
 
