@@ -1115,8 +1115,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RTK_2026-07-22.md"
@@ -3169,8 +3169,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RBK_2026-07-21.md"
@@ -3758,8 +3758,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RYG_2026-07-21.md"
@@ -6200,8 +6200,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RKE_2026-07-23.md"
@@ -6786,8 +6786,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RWK_2026-07-23.md"
@@ -6889,8 +6889,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RNN_2026-07-22.md"
@@ -10228,8 +10228,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/Z9B2Z_2026-07-22.md"
@@ -10433,8 +10433,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/QKS_2026-07-21.md"
@@ -11687,8 +11687,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RA2_2026-07-23.md"
@@ -13510,8 +13510,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RWV_2026-07-21.md"
@@ -15893,8 +15893,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "summary_path": "summaries/RHQ_2026-07-21.md"
@@ -16086,8 +16086,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "summary_path": "summaries/RRV_2026-07-23.md"
@@ -16151,8 +16151,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "summary_path": "summaries/RW4_2026-07-23.md"
@@ -16653,8 +16653,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "Detected via PDF fallback (https://eastofenglandcommunityhealthandcare.nhs.uk/media/ayklsk2l/00-2026-05-20-). [2026-07-16] Agenda-only file (3pp) detected; full pack not yet published. No analysis/alert.",
    "summary_path": "summaries/RY3_2026-07-22.md"
@@ -16967,8 +16967,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback).",
    "summary_path": "summaries/RJ1_2026-07-22.md",
@@ -17819,8 +17819,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "",
    "date_review": {
@@ -18883,8 +18883,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) — verify before relying.",
    "summary_path": "summaries/TAJ_2026-07-23.md",
@@ -20337,8 +20337,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "summary_path": "summaries/RTF_2026-07-22.md"
   },
@@ -20795,8 +20795,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RTE_2026-07-30.md",
@@ -20913,8 +20913,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/RNU_2026-07-22.md"
@@ -22483,8 +22483,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "",
    "summary_path": "summaries/QKK_2026-07-22.md"
@@ -23313,8 +23313,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": "detected in full sweep 2026-07-13",
    "summary_path": "summaries/RAJ_2026-07-23.md"
@@ -24473,8 +24473,8 @@
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-07-21T10:31:26Z",
+    "summary": "2026-07-21T10:31:26Z"
    },
    "notes": null,
    "summary_path": "summaries/REF_2026-07-23.md"
@@ -24739,7 +24739,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24762,7 +24762,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24786,7 +24786,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24809,7 +24809,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24832,7 +24832,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24855,7 +24855,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24878,7 +24878,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24901,7 +24901,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24924,7 +24924,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24947,7 +24947,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24970,7 +24970,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -24993,7 +24993,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -25016,7 +25016,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -25039,7 +25039,7 @@
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-07-20T15:26:43Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-07-21T10:31:26Z",
     "papers": null,
     "summary": null
    },
@@ -26048,7 +26048,7 @@
   "new_dates": 14,
   "packs_attached": 139,
   "packs_analysed": 23,
-  "emails": "DRY RUN ONLY — nothing sent; alerts_sent left null"
+  "emails": "LIVE SEND 21 Jul: 28/28 OK, 0 failures (send_results.json)"
  },
  "_url_refresh_2026_07_21": {
   "future_meetings_resynced": 45,

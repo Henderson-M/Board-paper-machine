@@ -721,3 +721,44 @@ trusts to adopt.
 Additive changes only: 14 new meetings, 139 pack files attached, 23 meetings marked
 analysed with summary paths. `alerts_sent` was deliberately left null everywhere, so if
 the emails do go out later nothing has been falsely marked as delivered.
+
+## 2026-07-21 (LIVE SEND + fixes — follow-up to the 20 Jul dry-run)
+
+Henry reviewed the dry-run and said send. **All 28 emails sent live** via send_batch.py,
+staggered 30-60s: **28/28 OK, 0 failures** (send_results.json). State stamped from the
+ok:true rows only — alerts_sent.papers/summary on 23 packs, alerts_sent.date on 14 meetings.
+
+One email was relabelled before sending. The Ashford and St Peter's alert would have gone
+to Alison with the subject "0 leads", which reads as a routine pack. It is not — the trust
+put its whole web estate behind a bot challenge and none of the 49 files could be read. The
+subject now says PACK UNREADABLE and the body explains it, and points at the Group Model /
+QVH and Lord Mann items worth chasing directly with the trust.
+
+### Three fixes Henry approved
+
+1. **fetch_with_playwright.py cp1252 crash — FIXED.** stdout/stderr now reconfigure to
+   UTF-8. The fetch succeeded and the *write* crashed on curly apostrophes, dashes and
+   arrows, leaving a 0-byte file that callers read as "empty page" and reported as a dead
+   site. Verified by reproducing the exact characters. Rationale and revert instructions
+   are in a comment in the script.
+2. **State URL staleness — REPAIRED (one-off).** 45 future meetings were resynced to their
+   org's current URL. Correcting an org URL was never propagating to meeting records
+   already in state, so old meetings kept scanning dead addresses forever. RQY was fixed on
+   29 June but its meetings still pointed at stgeorges.nhs.uk. **Step 12 still needs to
+   propagate on write, or this recurs every time a trust moves its site.**
+3. **13 wrong dates reviewed.** 6 cancelled, 4 corrected to the real date, 3 flagged
+   needs_verification. Nothing deleted — audit trail preserved. Cancelled and
+   needs_verification entries fall outside the Step 7 filter so they stop being re-scanned.
+   Black Country's 23 July was a Council of Governors meeting a previous run mistook for a
+   board. Lewisham's 28 July was left as verify rather than cancelled — once its URL was
+   corrected the right page does list it, so it may be genuine.
+
+### Also done
+- 13 subscription calendars rebuilt from state (missed on the 20 Jul run).
+- 5 org URLs corrected, 90 scanner notes written across trust_urls.json and icb_urls.json.
+- DATA_QUALITY_2026-07-20.md section 2 corrected — my original claim that 10 orgs had wrong
+  URLs was wrong; most had already been fixed. The real defect was the state staleness above.
+
+### Note for next run
+Expect far less feedback. Most of the 20 Jul findings were one-off debt exposed by the new
+anti-fabrication guard running for the first time, not a recurring weekly load.
