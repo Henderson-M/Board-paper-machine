@@ -37,6 +37,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `send_email.py` | Send a SINGLE Gmail SMTP alert (ad-hoc/resend). Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
 | `fetch_with_playwright.py` | Headless Chromium fetcher with stealth-lite. Used as the fallback when WebFetch hits Cloudflare/UA blocks or JS-rendered pages. `--text` for visible text, `--html` for full DOM, `--download --out FILE` for binary downloads. |
 | `fetch_pdf_text.py` | Download a PDF and extract its text with pypdf. Use when an org publishes board dates inside an annual calendar PDF rather than on a webpage. Try `requests` mode first; pass `--playwright` if the host blocks direct downloads. |
+| `extract_board_html.py` | **Deterministic (no-LLM) cross-check.** Fetches raw HTML (`requests` → Playwright fallback) and reports, verbatim, every date and every document link actually present, plus a table-row pairing (date ↔ its papers link / "unavailable" cell). Use it to catch content the WebFetch summariser silently *dropped* — see the anti-omission cross-check in Step 4 and Step 7. `--html-file FILE` parses HTML you already fetched (e.g. a Playwright `--html` dump) so no page is fetched twice; `--pretty` indents the JSON. |
 
 ## Arguments
 
@@ -169,6 +170,16 @@ If all three steps fail, log a `_scan_errors` entry in state and move on. Do NOT
   4. **Whole-series smell test.** If the *only* new dates for an org are ones that extend beyond the schedule the page actually shows (e.g. the page lists 2026 but you're about to add 2027 dates), treat the whole set as suspect and re-derive from the raw text before recording anything.
   Worked failure (2026-07-16 run, RTD Newcastle): the extractor returned six even-month/2027 Fridays (plus one Saturday) that were **nowhere on the page** — the trust actually meets bi-monthly in odd months and publishes 2026 only. All six passed the old date-range/real-date validation and were alerted in error. The literal-source check above would have dropped every one.
 
+- **Anti-omission cross-check (MANDATORY — the mirror image of the guard above).** The anti-fabrication guard catches dates the extractor *invented*. The opposite failure is just as damaging and is **invisible** without a check: WebFetch (and Playwright `--text`) summarise with a small model that sometimes **drops real dates that ARE on the page** — most often on long, non-chronological tables where most rows say "Currently unavailable" or "papers to follow". A dropped date is never detected, so no meeting is created and its pack is never scanned. Nothing in the run looks wrong.
+  1. **Run the deterministic extractor** on the same URL and reconcile:
+     ```bash
+     python extract_board_html.py URL --pretty > c:/tmp/deterministic.json
+     ```
+     It does no summarising — it regexes every date and every document link literally present in the raw HTML, and pairs them by table row. If you already fetched the page with Playwright `--html`, pass `--html-file` to avoid a second fetch.
+  2. **Recover the difference.** Any date in `deterministic.json.dates` that is a valid future public board date (apply the *same* validation and anti-fabrication literal-source rules as above — these recovered dates are literal by construction, so they pass trivially) but is **missing** from the WebFetch/Playwright extraction MUST be added as a `new_meeting`. Use the `rows` pairing to attach the right `papers_url`/pack link where the date shares a table row with a document link.
+  3. **Empty is not a veto.** If the deterministic extractor returns no dates via `requests` (JS-rendered or two-hop pages — e.g. Bradford/RAE, whose landing page needs Playwright or a year-subpage hop), that is NOT evidence the page is empty. Escalate it with `--playwright`, or fall back to the WebFetch/Playwright result you already have. This check only ever **adds** dropped items back — it never removes what WebFetch found.
+  Worked failure (2026-06-24, Leeds Community Healthcare / RY6): the WebFetch date-scan dropped the 23 July + 24 June rows from a single non-chronological table (September was listed above July above June; most cells read "Currently unavailable"). Both were real and had to be hand-added, and the 23 July pack was then missed on the 20 July run. `extract_board_html.py` returns both dates via plain `requests` and pairs 23 July directly to `LCH-Public-Board-meeting-papers-July-2026.pdf` — this check would have caught it automatically.
+
 ### Step 5 — Diff dates against state
 
 For each detected meeting:
@@ -226,9 +237,15 @@ Do:
 
 6. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
 
-7. Compare returned `pack_files` against the meeting's existing `pack_files` in state.
+7. **Anti-omission cross-check (MANDATORY — same failure mode as Step 4, applied to pack links).** The WebFetch pack prompt is summarised by the same small model and will silently drop PDF links on a cluttered or non-chronological papers table — exactly how the Leeds Community (RY6) 23 July pack was missed even though the meeting date was known. Before concluding a meeting has "no new papers", run the deterministic extractor and **union** its document links with WebFetch's:
+   ```bash
+   python extract_board_html.py {papers_or_source_url} --pretty > c:/tmp/deterministic.json
+   ```
+   Use the `rows` pairing to keep only links that share a table row with the target `{date}` (or whose anchor text/filename names that meeting), then merge them into `pack_files`. A document link present in the raw HTML for this meeting must not be dropped just because the summariser omitted it. As in Step 4: an empty `requests` result is not a veto — escalate with `--playwright` or keep the WebFetch result; the cross-check only ever adds links back, never removes them.
 
-8. **If new files found:**
+8. Compare the reconciled `pack_files` against the meeting's existing `pack_files` in state.
+
+9. **If new files found:**
    - Append to `pack_files` in state.
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.
@@ -405,6 +422,7 @@ In chat, give a terse summary:
 - **Never delete `state/meetings.json` entries.** Even past meetings stay (audit trail).
 - **Be careful with UK dates.** `12/06/2026` is 12 June, not 6 December.
 - **Never fabricate dates.** Only record meeting dates that appear as literal text in the fetched page (see the anti-fabrication guard in Step 4). The date extractor can hallucinate a plausible schedule; do not extrapolate cadence, complete patterns, or invent next-year dates. A dropped-but-real date is recoverable next run; a fabricated date emailed to a correspondent is not.
+- **Never silently drop what IS on the page (anti-omission).** The WebFetch/Playwright summariser omits real dates and PDF links on cluttered or non-chronological tables, and unlike a fabrication this leaves no trace. Always reconcile against the deterministic `extract_board_html.py` in Step 4 (dates) and Step 7 (pack links) before concluding "no meetings" or "no papers yet". This is what caused the Leeds Community 23 July pack to be missed. The cross-check only ever adds dropped items back — it never removes a WebFetch find, so it is safe to run everywhere.
 - **De-duplicate cluster meetings.** Hull + NLAG share a board; some ICBs share via `cluster_id`. Don't send the same alert twice.
 - **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage" or "PDF schedule", read it and skip cheaper fetchers that have already failed. Don't burn budget re-discovering known failures.
 - **Trust `cluster_id`.** Trust and ICB records can both carry `cluster_id` (e.g. `NWUHG`, `DLN`, `STW-SSOT`). When set, all members share the same `url` and meeting dates. Dedupe at the email/subscription layer, but keep one state entry per ods_code for audit.
