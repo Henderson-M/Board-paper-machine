@@ -65,6 +65,19 @@ USER_AGENT = (
 
 DOC_EXTS = (".pdf", ".docx", ".doc", ".xlsx", ".xls", ".pptx", ".ppt")
 
+# NHS CMS "download handler" URLs serve a document with NO file extension, e.g.
+#   /download-attachment/55670   (NEL ICB)
+#   /download_file/view/5110/785 (CLCH)
+#   /download_file/<uuid>/258    (CNTW)
+#   /seecmsfile/?id=8713         (York & Scarborough)
+#   /download/july-2026.pdf      (Homerton — also caught by extension)
+# Missing these caused real packs to be dropped on the 2026-07-23 run (WebFetch
+# happened to catch them; the extractor did not). Match on the path only.
+_DOWNLOAD_HANDLER_RE = re.compile(
+    r"/(?:download[-_]?attachment|download[-_]?file|downloadfile"
+    r"|seecmsfile|getfile|servefile|attachment)\b|/download/",
+    re.I)
+
 _MONTHS = {
     "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
     "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
@@ -119,8 +132,32 @@ def _parse(kind, groups):
     return None
 
 
+# A bare "day month" carrying no year of its own (the "7 October" in
+# "board dates 2026: 5 August, 7 October, 2 December").
+_BARE_DM = re.compile(
+    r"(\d{1,2})(?:st|nd|rd|th)?\s+(" + _MONTH_RE + r")\.?\b(?!\.?\s*,?\s*\d{4})",
+    re.I)
+# An EXPLICIT year "list head": a year introducing a run of dates, either
+# "2026:" / "2026 –" or "board dates 2026" / "meetings 2026". We ONLY inherit a
+# year from a head like this — never from an arbitrary nearby 4-digit number
+# (a copyright line, an awards year, etc.), because that guesses. Pages that
+# simply list year-less dates (e.g. BSMHFT/RXT) are left to the date-scan step,
+# which resolves the year with real context rather than a coincidence.
+_YEAR_HEAD = re.compile(
+    r"(?:meetings?|dates?|schedule|programme|calendar)\s+(20\d\d)\b"
+    r"|\b(20\d\d)\s*[:–—]",
+    re.I)
+
+
 def find_dates(text):
-    """Every date literally present in `text`, ISO-normalised, de-duped in order."""
+    """Every date literally present in `text`, ISO-normalised, de-duped in order.
+
+    Two passes: (1) dates that carry their own year; (2) bare "day month" tokens
+    that follow an explicit year "list head" such as "board dates 2026: 5 August,
+    7 October, 2 December" (flagged year_inferred=True). Pass 2 deliberately does
+    NOT infer a year from a stray nearby number — only from a real list head — so
+    it recovers dropped schedules without ever guessing.
+    """
     seen = set()
     out = []
     for rx, kind in _DATE_PATTERNS:
@@ -131,7 +168,24 @@ def find_dates(text):
             seen.add(iso)
             start = max(0, m.start() - 60)
             ctx = re.sub(r"\s+", " ", text[start:m.end() + 60]).strip()
-            out.append({"iso": iso, "raw": m.group(0), "context": ctx})
+            out.append({"iso": iso, "raw": m.group(0), "context": ctx,
+                        "year_inferred": False})
+    # Pass 2 — bare day-months following an explicit year list head. Consume the
+    # run up to the next 4-digit year (a new head) or 300 chars, whichever first.
+    for hm in _YEAR_HEAD.finditer(text):
+        year = hm.group(1) or hm.group(2)
+        chunk_start = hm.end()
+        nxt = re.search(r"\b20\d\d\b", text[chunk_start:])
+        chunk_end = chunk_start + (nxt.start() if nxt else 300)
+        for m in _BARE_DM.finditer(text[chunk_start:chunk_end]):
+            iso = _norm(year, _MONTHS[m.group(2).lower().rstrip(".")], m.group(1))
+            if not iso or iso in seen:
+                continue
+            seen.add(iso)
+            abs_start = chunk_start + m.start()
+            ctx = re.sub(r"\s+", " ", text[max(0, abs_start - 60):abs_start + m.end() - m.start() + 20]).strip()
+            out.append({"iso": iso, "raw": m.group(0), "context": ctx,
+                        "year_inferred": True})
     return sorted(out, key=lambda r: r["iso"])
 
 
@@ -152,8 +206,21 @@ def _clean(s):
 
 
 def _is_doc(href):
-    low = href.lower().split("?")[0].split("#")[0]
-    return any(low.endswith(ext) for ext in DOC_EXTS)
+    low = href.lower().split("#")[0]
+    path = low.split("?")[0]
+    if any(path.endswith(ext) for ext in DOC_EXTS):
+        return True
+    return bool(_DOWNLOAD_HANDLER_RE.search(path))
+
+
+def _link_kind(url):
+    path = url.lower().split("?")[0].split("#")[0]
+    if path.endswith(".pdf"):
+        return "pdf"
+    last = path.rsplit("/", 1)[-1]
+    if "." in last:
+        return last.rsplit(".", 1)[-1]
+    return "download"  # extension-less handler URL
 
 
 def find_pdf_links(html, base_url):
@@ -168,12 +235,11 @@ def find_pdf_links(html, base_url):
         if url in seen:
             continue
         seen.add(url)
-        ext = url.lower().split("?")[0].rsplit(".", 1)[-1]
         start = max(0, m.start() - 140)
         out.append({
             "url": url,
             "text": _clean(inner),
-            "kind": "pdf" if ext == "pdf" else ext,
+            "kind": _link_kind(url),
             "context": _clean(html[start:m.start()])[-140:],
         })
     return out
