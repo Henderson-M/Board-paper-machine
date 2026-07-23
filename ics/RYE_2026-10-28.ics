@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYE-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting with Annual Members Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNS-2027-02-05@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Northampton General Hospital NHS Trust — University Hospitals of Northamptonshire NHS Group Boards of Directors
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+END:VCALENDAR

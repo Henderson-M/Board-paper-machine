@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RY3-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:East of England Community Health and Care NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+URL:https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RY3-2027-01-27@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:East of England Community Health and Care NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+URL:https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RY3-2027-03-17@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:East of England Community Health and Care NHS Trust — Trust Board Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+URL:https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers
+END:VEVENT
+END:VCALENDAR

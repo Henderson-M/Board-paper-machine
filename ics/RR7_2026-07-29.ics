@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RR7-2026-07-29@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Gateshead Health NHS Foundation Trust — Board of Directors (Part 1, public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026.pdf
+URL:https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026.pdf
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ7-2026-09-11@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:St George's University Hospitals NHS Foundation Trust — GESH Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+END:VEVENT
+END:VCALENDAR

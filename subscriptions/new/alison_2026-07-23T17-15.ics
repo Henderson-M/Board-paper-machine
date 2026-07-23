@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RX9-2026-08-27@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RPC-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RYE-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting with Annual Members Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-10-29@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-12-22@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RYF-2027-01-04@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-02-25@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260723T171500Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+END:VCALENDAR

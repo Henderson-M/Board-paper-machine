@@ -762,3 +762,62 @@ QVH and Lord Mann items worth chasing directly with the trust.
 ### Note for next run
 Expect far less feedback. Most of the 20 Jul findings were one-off debt exposed by the new
 anti-fabrication guard running for the first time, not a recurring weekly load.
+
+
+## 2026-07-23 (full run — DRY-RUN, first run with the anti-omission cross-check)
+
+Ran the whole pipeline over all 239 in-scope orgs via 13 parallel scan workers,
+then analysed every in-window pack. Nothing was sent and nothing was pushed —
+all 24 emails are dry-run files in dry_run_output/ awaiting Henry's review, and
+every alerts_sent flag is left null.
+
+**Dates:** 239 orgs scanned, 23 new meeting dates added, 25 orgs flagged (no
+forward schedule / dead page / restructured governance). Genuine data-quality
+items: RBS Alder Hey renders only 2018 content (URL needs rediscovery); RBQ
+Liverpool Heart & Chest and RBT Mid Cheshire have moved board governance to
+group level; several ICBs (QVV Dorset, QNC Staffs/Shropshire) now meet as joint
+cluster boards.
+
+**Both guards earned their place.** The anti-fabrication guard dropped invented
+WebFetch schedules on RTD Newcastle (again), RGM Papworth, RNZ Salisbury, SLaM,
+QKK, RN3, G6V2S and more. The NEW anti-omission cross-check (extract_board_html.py)
+recovered real dates the WebFetch summariser had dropped (RCB York 29 Jul, RYW
+Birmingham Community 6 Aug, RM3 NCA, NWL Board-in-Common) and — the headline win —
+caught in-window packs that would otherwise have been missed, including Leeds
+Community (RY6), the exact failure this fix was built for.
+
+**Packs:** 56 in-window meetings checked; 18 had new packs; 15 distinct packs
+analysed (the four NW London trusts — R1K/RAS/RQM/RYJ — share one Board-in-Common
+pack, analysed once). Notable leads:
+- RAE Bradford (5 LEAD): NHSE withholding £2.3m deficit-support funding for Q1 & Q2
+  over delivery risk; £8.2m M3 deficit; forecast nil cash / supplier-payment risk.
+- RCB York & Scarborough (5 LEAD): £30.7m forecast deficit, now in the Challenged
+  Provider Programme with two NHSE-placed staff; well-led review cites "historic
+  and deep seated" culture issues.
+- RXK Sandwell (5 LEAD): NHSE classed the 2026/27 plan "non-compliant"; £22m
+  underlying deficit; imposed monthly reviews + mandated independent review.
+- NWL Board-in-Common (5 LEAD): ~1,200 legacy Imperial mortuary reportable
+  incidents; all four trusts only partially Fuller-compliant at the 31 Jul deadline.
+- QMF NE London ICB (5 LEAD): BHRUT EPR go-live collapsed diagnostics (DM01 47%)
+  as CEO exits to King's.
+- Plus 4-LEAD packs at CNTW, QHM NENC ICB, RL4 Royal Wolverhampton, RT5 Leics
+  Partnership; 3-LEAD RXG SW Yorks Partnership; 2-LEAD QR1 Glos ICB and RQX
+  Homerton; RY6 Leeds Community (merger to "Leeds Partnership FT" named);
+  RYX and TAD watch-only.
+
+**Flagged for verification (not auto-changed):** RQX Homerton pack internal date
+is 22 July, not our 31 July; QHM has a spurious 28 July duplicate (the NENC ICB
+board is 29 July) — analysis attached to the 29 July entry. Both noted in state.
+
+**Tooling gaps found for extract_board_html.py (follow-ups, not yet fixed):**
+1. It misses document links with no file extension (NEL's /download-attachment/NNNN,
+   CNTW/CLCH /download_file/ URLs) — WebFetch caught these; the extractor's
+   DOC_EXTS check should also recognise download-handler URL patterns.
+2. It can miss dates written as a bare "day month" that inherit a year stated once
+   earlier in the sentence (RXT Birmingham & Solihull: "Trust board meeting 2026:
+   5 August, 7 October, 2 December"). A raw-HTML grep saved it this time.
+Neither blocked the run; both are worth a small patch.
+
+**Still open:** RRK (UHB) papers sit in a JS-rendered Nextcloud store neither
+WebFetch nor Playwright can enumerate — needs a manual look or a Nextcloud API
+approach. RDR Sussex Community papers were due Fri 24 Jul — re-check next run.
