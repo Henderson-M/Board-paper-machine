@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTQ-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260727T120000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+END:VCALENDAR

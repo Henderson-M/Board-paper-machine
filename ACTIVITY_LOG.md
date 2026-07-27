@@ -821,3 +821,18 @@ Neither blocked the run; both are worth a small patch.
 **Still open:** RRK (UHB) papers sit in a JS-rendered Nextcloud store neither
 WebFetch nor Playwright can enumerate — needs a manual look or a Nextcloud API
 approach. RDR Sussex Community papers were due Fri 24 Jul — re-check next run.
+
+
+## 2026-07-27 — Full run (dry-run emails), Dave's machine
+
+**Scope:** all 239 in-scope orgs (229 unique board-page URLs after cluster dedup). Ran via parallel subagents: 16 date-scan batches, 8 pack-detection batches + watchlist, 23 pack analyses.
+
+**Dates:** 645 meeting rows returned across the sweep; 681 existing entries had last_checked refreshed; **9 new meetings** added — RA2 (Royal Surrey ×2: 28 Jan / 25 Mar 2027), RW5 (Lancs & South Cumbria: 8 Sep / 10 Nov 2026), RBQ (Liverpool Heart & Chest: 12 Nov 2026 / 14 Jan / 11 Mar 2027), RTQ (Gloucestershire H&C: 1 Oct 2026), RX7 (NWAS: 29 Jul 2026). .ics files written; per-correspondent subscriptions rebuilt.
+
+**Packs:** 24 window meetings had new packs; QHM 28 Jul was a date-duplicate of the already-analysed QHM 29 Jul (superseded). **23 packs analysed** (incl. RX7). Barnsley RFF 6 Aug set to cancelled (page marks it so).
+
+**Standout leads:** East Kent (RVV) L7 — s106 enforcement, Segment 4, Buckingham speak-up review ("nepotistic"), stillbirth review, 4 never events. UH Plymouth (RK9) L7 — NHSE UEC escalation, seg 4, £23m emergency cash. Leeds Teaching (RR8) — Hillsborough-Law maternity review, worst-case £93.7m deficit, WOS pilot. Manchester UFT (R0A) — cash 0.9 days, Niche spinal-surgery safety probe. Royal Devon (RH8) — turnaround, deficit £36m→£46m. Gateshead (RR7) — VfM significant weakness 2nd yr, new substantive CEO. Oxford UH (RTH) — Amos maternity, new chair Sir Andrew Morris, never event. Plus finance/leadership/governance leads across Bolton, RDaSH, Mid Cheshire, Kent & Medway MH, Leeds & York, NELFT, Newcastle, NWAS, North London, Sheffield, Bucks, Northants, SW Peninsula ICB.
+
+**Emails:** DRY-RUN only. 4 date alerts (Alison, Zoe, Joe, Nick) + 22 papers alerts written to dry_run_output/ (20260727_120000_*). NOT sent; state committed but NOT pushed pending review.
+
+**Data-quality flags:** dead scan URLs — RBS (Alder Hey, serves 2018 content), RX4 (CNTW corrected URL past-only), RWF (Maidstone & TW 404 on non-browser UA). Possible unannounced rebrand: Sheffield H&SC pack self-IDs as "Sheffield Health Partnership University FT" (unconfirmed). Kent & Medway MH org name outdated in source data. Newcastle (RTD) CEO seconded to NHSE — novelty-check before use.

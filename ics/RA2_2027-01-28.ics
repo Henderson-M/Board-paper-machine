@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RA2-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260727T120000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalsurrey.nhs.uk/board-meeting-dates
+URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
+END:VEVENT
+END:VCALENDAR
