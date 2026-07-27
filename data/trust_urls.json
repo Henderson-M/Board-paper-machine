@@ -1989,7 +1989,7 @@
     "ics": "North East and North Cumbria",
     "correspondent": "Matt Mathers",
     "url": "https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors",
-    "notes": "[2026-07-21] URL CORRECTED: /events/ paths 404 for 3 consecutive runs. Needs Playwright | [2026-07-13] scan_url /events/ and /events/board-meeting-2026/ both 404; events system relocated. Dates recovered via search: 29 Jul 2026 (confirmed) and 4 Nov 2026 (carried from prior note, unconfirmed this run). Papers published under cntw.nhs.uk/wp-content/uploads/. Needs a stable board-dates landing page for future scans. [2026-07-16] cntw.nhs.uk/events/ and /events/board-meeting-2026/ both 404 (confirmed via playwright). 29 Jul 2026 confirmed via web search; 4 Nov 2026 carried from prior note but unconfirmed this run. Needs a stable board-dates landing page.",
+    "notes": "[2026-07-21] URL CORRECTED: /events/ paths 404 for 3 consecutive runs. Needs Playwright | [2026-07-13] scan_url /events/ and /events/board-meeting-2026/ both 404; events system relocated. Dates recovered via search: 29 Jul 2026 (confirmed) and 4 Nov 2026 (carried from prior note, unconfirmed this run). Papers published under cntw.nhs.uk/wp-content/uploads/. Needs a stable board-dates landing page for future scans. [2026-07-16] cntw.nhs.uk/events/ and /events/board-meeting-2026/ both 404 (confirmed via playwright). 29 Jul 2026 confirmed via web search; 4 Nov 2026 carried from prior note but unconfirmed this run. Needs a stable board-dates landing page. | [2026-07-27] URL CONFIRMED CORRECT (not dead): /about-us/trust/our-board-and-governors returns HTTP 200 and carries a JS-rendered 'Meeting papers' table listing forward board packs (July 2026 pack posted 22/07/2026). PLAYWRIGHT REQUIRED to render the table; direct pack PDFs 403 on plain curl so use fetch_pdf_text.py --playwright. No further rediscovery needed.",
     "_previous_url": "https://www.cntw.nhs.uk/events/"
   },
   {
@@ -2470,8 +2470,8 @@
     "region": "North West",
     "ics": "Cheshire and Merseyside",
     "correspondent": "Zoe",
-    "url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
-    "notes": "[2026-07-21] DEAD 3 consecutive runs - scan_url serves only 2018/2020 content. Needs URL rediscovery. | [2026-07-13] scan_url confirmed dead: renders a single 10 Apr 2018 board-paper page (last reviewed 2023). Also checked /publications_type/public-meeting/ - only a Jun-2024 entry, no forward dates. No current board-meeting calendar found; scan_url needs rediscovery. [2026-07-16] Page dead; only a single 2018 board meeting rendered. No forward board calendar found; needs URL rediscovery."
+    "url": "https://www.alderhey.nhs.uk/about/publications/?search=&type=board-papers&range=all&custom_range=",
+    "notes": "[2026-07-21] DEAD 3 consecutive runs - scan_url serves only 2018/2020 content. Needs URL rediscovery. | [2026-07-13] scan_url confirmed dead: renders a single 10 Apr 2018 board-paper page (last reviewed 2023). Also checked /publications_type/public-meeting/ - only a Jun-2024 entry, no forward dates. No current board-meeting calendar found; scan_url needs rediscovery. [2026-07-16] Page dead; only a single 2018 board meeting rendered. No forward board calendar found; needs URL rediscovery. | [2026-07-27] URL REDISCOVERED: old /about-us/trust-board/ dead (2018 content). Site restructured; board packs now on the filtered publications listing (type=board-papers). Verified HTTP 200 via plain WebFetch (no Playwright needed); lists Jan/Feb/Mar/Apr 2026 Trust Board packs. Board hub: /about/trust/board/. WP archive alt: /publications_type/board-papers/."
   },
   {
     "ods_code": "RBT",
