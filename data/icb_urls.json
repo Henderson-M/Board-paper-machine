@@ -1,576 +1,636 @@
 [
- {
-  "ods_code": "QYG",
-  "names": [
-   "Cheshire and Merseyside ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North West",
-  "correspondent": "Zoe",
-  "url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-  "url_root": "https://www.cheshireandmerseyside.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] This is an ARCHIVE page - only lists meetings already held (2026: 29 Jan, 26 Mar, 28 May, all past). No future dates published; a 2027 subpage does not yet exist (404). Upcoming C&M ICB meetings are not published on this site's archive; may need a different page for forward dates. [2026-07-16] 2026 archive page lists only past meetings (29 Jan, 26 Mar, 28 May 2026); no forward dates published; 2027 subpage does not yet exist."
- },
- {
-  "ods_code": "QOP",
-  "names": [
-   "Greater Manchester ICB",
-   "NHS Greater Manchester"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North West",
-  "correspondent": "Nick",
-  "url": "https://gmintegratedcare.org.uk/meetings-and-events/",
-  "url_root": "https://gmintegratedcare.org.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Filtered to 'Greater Manchester Integrated Care Board' meetings only; page also lists Manchester Partnership Board and other committees (excluded). [2026-07-16] Filtered to Greater Manchester ICB board meetings only (committees/partnership board excluded)."
- },
- {
-  "ods_code": "QE1",
-  "names": [
-   "Lancashire and South Cumbria ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North West",
-  "correspondent": "Zoe",
-  "url": "https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers",
-  "url_root": "https://www.lancashireandsouthcumbria.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "Some papers historically hosted on healthierlsc.co.uk via download_file links [2026-07-16] Only one future date shown."
- },
- {
-  "ods_code": "QHM",
-  "names": [
-   "North East and North Cumbria ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North East and Yorkshire",
-  "correspondent": "Matt Mathers",
-  "url": "https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/",
-  "url_root": "https://northeastnorthcumbria.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": null
- },
- {
-  "ods_code": "QOQ",
-  "names": [
-   "Humber and North Yorkshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North East and Yorkshire",
-  "correspondent": "Henry",
-  "url": "https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/",
-  "url_root": "https://humberandnorthyorkshire.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": null
- },
- {
-  "ods_code": "QF7",
-  "names": [
-   "South Yorkshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North East and Yorkshire",
-  "correspondent": "Henry",
-  "url": "https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers",
-  "url_root": "https://southyorkshire.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "Papers PDFs are hosted on syics.co.uk | [2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL is correct - WebFetch returned 6 May 2026 meeting confirmed with full paper pack. Scraper may have missed it because the meeting is listed Public meetings alternate with development sessions; full schedule: 6 May, 1 July, 2 Sept, 4 Nov 2026"
- },
- {
-  "ods_code": "QWO",
-  "names": [
-   "West Yorkshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "North East and Yorkshire",
-  "correspondent": "Henry",
-  "url": "https://www.westyorkshire.icb.nhs.uk/meetings/integrated-care-board",
-  "url_root": "https://www.westyorkshire.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Only one future date (22 Sep 2026) listed inline on scan page; further dates likely on wypartnership.co.uk - worth a deeper look next scan. [2026-07-16] Only one future date listed inline; further dates likely on wypartnership.co.uk"
- },
- {
-  "ods_code": "QHL",
-  "names": [
-   "Birmingham and Solihull ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events",
-  "url_root": "https://www.birminghamsolihull.icb.nhs.uk",
-  "cluster_id": "BSOL-BC",
-  "cluster_meeting_url": "https://www.birminghamsolihull.icb.nhs.uk/about-us/our-committees/integrated-care-board/integrated-care-board-papers/",
-  "notes": "[2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; joint cluster board dates via events page"
- },
- {
-  "ods_code": "QUA",
-  "names": [
-   "Black Country ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions",
-  "url_root": "https://blackcountry.icb.nhs.uk",
-  "cluster_id": "BSOL-BC",
-  "cluster_meeting_url": "https://www.birminghamsolihull.icb.nhs.uk/about-us/our-committees/integrated-care-board/integrated-care-board-papers/",
-  "notes": "[2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; shares joint cluster board with Birmingham & Solihull"
- },
- {
-  "ods_code": "QWU",
-  "names": [
-   "Coventry and Warwickshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-  "url_root": "https://www.happyhealthylives.uk",
-  "cluster_id": "CW-HW",
-  "cluster_meeting_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-  "notes": "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; 403 on WebFetch, Playwright render succeeded"
- },
- {
-  "ods_code": "QGH",
-  "names": [
-   "Herefordshire and Worcestershire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
-  "url_root": "https://www.hwics.org.uk",
-  "cluster_id": "CW-HW",
-  "cluster_meeting_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-  "notes": "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; own /meetings page has no inline dates, shares joint CWHW board dates from happyhealthylives.uk"
- },
- {
-  "ods_code": "QJ2",
-  "names": [
-   "Derby and Derbyshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Annabelle",
-  "url": "https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/",
-  "url_root": "https://www.derbyandderbyshireicb.nhs.uk",
-  "cluster_id": "DLN",
-  "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "[2026-07-21] Renders dates as 17-Sep-26 - standard DD-Month-YYYY regexes miss this entirely. | DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common"
- },
- {
-  "ods_code": "QJM",
-  "names": [
-   "Lincolnshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Annabelle",
-  "url": "https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/",
-  "url_root": "https://lincolnshire.icb.nhs.uk",
-  "cluster_id": "DLN",
-  "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund — note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common"
- },
- {
-  "ods_code": "QT1",
-  "names": [
-   "Nottingham and Nottinghamshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Annabelle",
-  "url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "url_root": "https://notts.icb.nhs.uk",
-  "cluster_id": "DLN",
-  "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "DLN cluster; hosts joint board pack PDFs at /wp-content/uploads/sites/2/"
- },
- {
-  "ods_code": "QK1",
-  "names": [
-   "Leicester, Leicestershire and Rutland ICB",
-   "LLR ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Annabelle",
-  "url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
-  "url_root": "https://leicesterleicestershireandrutland.icb.nhs.uk",
-  "cluster_id": "LNR",
-  "cluster_meeting_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
-  "notes": "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster"
- },
- {
-  "ods_code": "QPM",
-  "names": [
-   "Northamptonshire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Annabelle",
-  "url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
-  "url_root": "https://www.icnorthamptonshire.org.uk",
-  "cluster_id": "LNR",
-  "cluster_meeting_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
-  "notes": "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster; only in-common meetings with LLR identifiable from shared LLR board page (20 Aug, 17 Dec); any Northamptonshire-only dates not listed there"
- },
- {
-  "ods_code": "QOC",
-  "names": [
-   "Shropshire, Telford and Wrekin ICB",
-   "STW ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "url_root": "https://www.shropshiretelfordandwrekin.nhs.uk",
-  "cluster_id": "STW-SSOT",
-  "cluster_meeting_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "notes": "Joint Board in Common with Staffs and Stoke-on-Trent (QNC) [2026-07-16] STW-SSOT cluster; joint Board in Common"
- },
- {
-  "ods_code": "QNC",
-  "names": [
-   "Staffordshire and Stoke-on-Trent ICB",
-   "SSOT ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "Midlands",
-  "correspondent": "Caitlin",
-  "url": "https://staffsstoke.icb.nhs.uk/your-nhs-integrated-care-board/our-publications/board-papers/",
-  "url_root": "https://staffsstoke.icb.nhs.uk",
-  "cluster_id": "STW-SSOT",
-  "cluster_meeting_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "notes": "Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T&W page"
- },
- {
-  "ods_code": "S1Y5D",
-  "names": [
-   "Central East ICB"
-  ],
-  "predecessor_codes": [
-   "QHG",
-   "QUE",
-   "QM7"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "East of England",
-  "correspondent": "Emily",
-  "url": "https://www.centraleast.icb.nhs.uk/",
-  "url_root": "https://www.centraleast.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] hertsandwestessex.ics.nhs.uk now 301-redirects to https://www.centraleast.icb.nhs.uk/ (new Central East ICB, formed 1 April 2026). Central East events page (/events/) shows 'no upcoming events'; CPICS predecessor lists only the past 1 April 2026 inaugural meeting. No future board dates published yet - update scan_url to a Central East domain and re-check for a forward schedule. MANUAL REVIEW. [2026-07-16] Central East ICB (formed 1 April 2026); events page shows no upcoming events. No forward board schedule published yet. MANUAL REVIEW."
- },
- {
-  "ods_code": "D7T5G",
-  "names": [
-   "Essex ICB",
-   "NHS Essex"
-  ],
-  "predecessor_codes": [
-   "QH8",
-   "QJG"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "East of England",
-  "correspondent": "Emily",
-  "url": "https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/",
-  "url_root": "https://www.essex.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) — team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they're issued. Events>board-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)"
- },
- {
-  "ods_code": "T6Y0W",
-  "names": [
-   "Norfolk and Suffolk ICB"
-  ],
-  "predecessor_codes": [
-   "QMM",
-   "QJG"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "East of England",
-  "correspondent": "James",
-  "url": "https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/",
-  "url_root": "https://www.norfolkandsuffolk.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from Norfolk and Waveney (QMM, improvinglivesnw.org.uk) plus the Suffolk parts of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. [2026-07-16] 15 Jul 2026 meeting excluded (past)"
- },
- {
-  "ods_code": "QMF",
-  "names": [
-   "North East London ICB",
-   "NEL ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "London",
-  "correspondent": "Matt Discombe",
-  "url": "https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/",
-  "url_root": "https://northeastlondon.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Canonical page rendered fine via WebFetch. Per-meeting papers_url slugs (board-meeting-NN) appeared non-sequential/likely guessed by extractor so nulled; verify slugs on the page when a pack is needed. [2026-07-16] Per-meeting papers_url slugs nulled per existing note (extractor guesses non-sequential board-meeting-NN slugs); verify on page when a pack is needed."
- },
- {
-  "ods_code": "QKK",
-  "names": [
-   "South East London ICB",
-   "SEL ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "London",
-  "correspondent": "Ella",
-  "url": "https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/",
-  "url_root": "https://www.selondonics.org",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Dates sit in a collapsed accordion - needs --html. WebFetch also fabricated a January 2027 meeting. | Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately"
- },
- {
-  "ods_code": "QWE",
-  "names": [
-   "South West London ICB",
-   "SWL ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "London",
-  "correspondent": "Ella",
-  "url": "https://www.southwestlondon.icb.nhs.uk/events/",
-  "url_root": "https://www.southwestlondon.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] The /events/ page rendered fine and listed forward dates directly - no Playwright needed on this sweep."
- },
- {
-  "ods_code": "Z9B2Z",
-  "names": [
-   "West and North London ICB",
-   "W&NL ICB"
-  ],
-  "predecessor_codes": [
-   "QMJ",
-   "QRV"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "London",
-  "correspondent": "Matt Discombe",
-  "url": "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings",
-  "url_root": "https://www.westandnorthlondon.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Dates sit in a collapsed accordion - --text returns ZERO dates despite five being present. Needs --html. | Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical 'Boards in Common' packs from late 2025/early 2026."
- },
- {
-  "ods_code": "QRL",
-  "names": [
-   "Hampshire and Isle of Wight ICB",
-   "HIOW ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South East",
-  "correspondent": "Mimi",
-  "url": "https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/",
-  "url_root": "https://www.hantsiow.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Extractor attached navigate id 7133 to the 2 Sep meeting, but per existing note 7133 is the 3 Jun pack - stale, so nulled. navigate IDs change per meeting; re-enumerate each scan. [2026-07-16] papers_url nulled - extractor attached stale navigate id 7133 (the 3 Jun pack) per existing note; re-enumerate per meeting when a pack is needed."
- },
- {
-  "ods_code": "QKS",
-  "names": [
-   "Kent and Medway ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South East",
-  "correspondent": "Alison",
-  "url": "https://www.kentandmedway.icb.nhs.uk/events-calender",
-  "url_root": "https://www.kentandmedway.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Full 2026/27 schedule now published, incl. an unusual extra 2 Feb 2027 meeting alongside 19 Jan. Per-event pack page: /events-calender/event/board-meeting-july-2026-NN/. | ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site."
- },
- {
-  "ods_code": "S0E4D",
-  "names": [
-   "Thames Valley ICB"
-  ],
-  "predecessor_codes": [
-   "QU9",
-   "QNQ"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "South East",
-  "correspondent": "Mimi",
-  "url": "https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public",
-  "url_root": "https://www.thamesvalley.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] New TV ICB dates confirmed: 15 Jul, 16 Sep, 18 Nov 2026, 20 Jan, 17 Mar 2027 (prior note had 22 Jul - superseded). [2026-07-16] Matches confirmed dates in existing note (15 Jul now past)."
- },
- {
-  "ods_code": "S9B9J",
-  "names": [
-   "Surrey and Sussex ICB"
-  ],
-  "predecessor_codes": [
-   "QXU",
-   "QNX",
-   "QNQ"
-  ],
-  "merger_date": "2026-04-01",
-  "region": "South East",
-  "correspondent": "Alison",
-  "url": "https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/",
-  "url_root": "https://www.surreysussex.icb.nhs.uk",
-  "cluster_id": null,
-  "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Surrey Heartlands (Alison), Sussex (Alison), Surrey part of former Frimley (Mimi) — team decision: Alison."
- },
- {
-  "ods_code": "QOX",
-  "names": [
-   "Bath and North East Somerset, Swindon and Wiltshire ICB",
-   "BSW ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://bsw.icb.nhs.uk/about-us/governance/meetings/",
-  "url_root": "https://bsw.icb.nhs.uk",
-  "cluster_id": "BSW-DOR-SOM",
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Meets on varying weekdays (Wed then Mondays) - do not assume a fixed weekday. | [2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
- },
- {
-  "ods_code": "QVV",
-  "names": [
-   "Dorset ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://nhsdorset.nhs.uk/about/board/",
-  "url_root": "https://nhsdorset.nhs.uk",
-  "cluster_id": "BSW-DOR-SOM",
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
- },
- {
-  "ods_code": "QSL",
-  "names": [
-   "Somerset ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://nhssomerset.nhs.uk/publications/board-papers/",
-  "url_root": "https://nhssomerset.nhs.uk",
-  "cluster_id": "BSW-DOR-SOM",
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
- },
- {
-  "ods_code": "QUY",
-  "names": [
-   "Bristol, North Somerset and South Gloucestershire ICB",
-   "BNSSG ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://bnssghealthiertogether.org.uk/events/",
-  "url_root": "https://bnssghealthiertogether.org.uk",
-  "cluster_id": "BNSSG-GLO",
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] bnssghealthiertogether.org.uk/events returned unreliable/stale (2025-titled) dates. Clean joint cluster schedule taken instead from Gloucestershire ICB page https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ - suggest making that the scan_url for the cluster. [2026-07-16] Joint Cluster Board (BNSSG-GLO) via https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ per existing note."
- },
- {
-  "ods_code": "QR1",
-  "names": [
-   "Gloucestershire ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/",
-  "url_root": "https://www.nhsglos.nhs.uk",
-  "cluster_id": "BNSSG-GLO",
-  "cluster_meeting_url": null,
-  "notes": "[2026-07-13] bnssghealthiertogether.org.uk/events returned unreliable/stale (2025-titled) dates. Clean joint cluster schedule taken instead from Gloucestershire ICB page https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ - suggest making that the scan_url for the cluster. [2026-07-16] Joint Cluster Board (BNSSG-GLO) via https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ per existing note."
- },
- {
-  "ods_code": "QT6",
-  "names": [
-   "Cornwall and the Isles of Scilly ICB",
-   "CIOS ICB"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://swpboard.nhs.uk/board-meetings/",
-  "url_root": "https://www.cios.icb.nhs.uk",
-  "cluster_id": "SW-PEN",
-  "cluster_meeting_url": "https://swpboard.nhs.uk/meetings/",
-  "notes": "[2026-07-21] INVERTED LADDER: 403s the Playwright helper; serves fine to WebFetch and browser-UA curl. | [2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
- },
- {
-  "ods_code": "QJK",
-  "names": [
-   "Devon ICB",
-   "One Devon"
-  ],
-  "predecessor_codes": [],
-  "merger_date": null,
-  "region": "South West",
-  "correspondent": "Joe",
-  "url": "https://swpboard.nhs.uk/board-meetings/",
-  "url_root": "https://onedevon.org.uk",
-  "cluster_id": "SW-PEN",
-  "cluster_meeting_url": "https://swpboard.nhs.uk/meetings/",
-  "notes": "[2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
- }
+    {
+        "ods_code":  "QYG",
+        "names":  [
+                      "Cheshire and Merseyside ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North West",
+        "correspondent":  "Zoe",
+        "url":  "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
+        "url_root":  "https://www.cheshireandmerseyside.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] This is an ARCHIVE page - only lists meetings already held (2026: 29 Jan, 26 Mar, 28 May, all past). No future dates published; a 2027 subpage does not yet exist (404). Upcoming C\u0026M ICB meetings are not published on this site\u0027s archive; may need a different page for forward dates. [2026-07-16] 2026 archive page lists only past meetings (29 Jan, 26 Mar, 28 May 2026); no forward dates published; 2027 subpage does not yet exist."
+    },
+    {
+        "ods_code":  "QOP",
+        "names":  [
+                      "Greater Manchester ICB",
+                      "NHS Greater Manchester"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North West",
+        "correspondent":  "Nick",
+        "url":  "https://gmintegratedcare.org.uk/meetings-and-events/",
+        "url_root":  "https://gmintegratedcare.org.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] Filtered to \u0027Greater Manchester Integrated Care Board\u0027 meetings only; page also lists Manchester Partnership Board and other committees (excluded). [2026-07-16] Filtered to Greater Manchester ICB board meetings only (committees/partnership board excluded)."
+    },
+    {
+        "ods_code":  "QE1",
+        "names":  [
+                      "Lancashire and South Cumbria ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North West",
+        "correspondent":  "Zoe",
+        "url":  "https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers",
+        "url_root":  "https://www.lancashireandsouthcumbria.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "Some papers historically hosted on healthierlsc.co.uk via download_file links [2026-07-16] Only one future date shown."
+    },
+    {
+        "ods_code":  "QHM",
+        "names":  [
+                      "North East and North Cumbria ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North East and Yorkshire",
+        "correspondent":  "Matt Mathers",
+        "url":  "https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/",
+        "url_root":  "https://northeastnorthcumbria.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-31] Board pack PDFs: the page links them as https://media.nhs.net/media/\u003cid\u003e/\u003cfile\u003e which does NOT resolve on the public internet (NXDOMAIN). The SAME paths work on the ICB\u0027s own domain: https://northeastnorthcumbria.nhs.uk/media/\u003cid\u003e/\u003cfile\u003e. Rewrite media.nhs.net -\u003e northeastnorthcumbria.nhs.uk when fetching."
+    },
+    {
+        "ods_code":  "QOQ",
+        "names":  [
+                      "Humber and North Yorkshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North East and Yorkshire",
+        "correspondent":  "Henry",
+        "url":  "https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/",
+        "url_root":  "https://humberandnorthyorkshire.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  null
+    },
+    {
+        "ods_code":  "QF7",
+        "names":  [
+                      "South Yorkshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North East and Yorkshire",
+        "correspondent":  "Henry",
+        "url":  "https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers",
+        "url_root":  "https://southyorkshire.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "Papers PDFs are hosted on syics.co.uk | [2026-05-27] URL confirmed canonical but scraper returns empty. Reason: Current URL is correct - WebFetch returned 6 May 2026 meeting confirmed with full paper pack. Scraper may have missed it because the meeting is listed Public meetings alternate with development sessions; full schedule: 6 May, 1 July, 2 Sept, 4 Nov 2026"
+    },
+    {
+        "ods_code":  "QWO",
+        "names":  [
+                      "West Yorkshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "North East and Yorkshire",
+        "correspondent":  "Henry",
+        "url":  "https://www.westyorkshire.icb.nhs.uk/meetings/integrated-care-board",
+        "url_root":  "https://www.westyorkshire.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] Only one future date (22 Sep 2026) listed inline on scan page; further dates likely on wypartnership.co.uk - worth a deeper look next scan. [2026-07-16] Only one future date listed inline; further dates likely on wypartnership.co.uk"
+    },
+    {
+        "ods_code":  "QHL",
+        "names":  [
+                      "Birmingham and Solihull ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events",
+        "url_root":  "https://www.birminghamsolihull.icb.nhs.uk",
+        "cluster_id":  "BSOL-BC",
+        "cluster_meeting_url":  "https://www.birminghamsolihull.icb.nhs.uk/about-us/our-committees/integrated-care-board/integrated-care-board-papers/",
+        "notes":  "[2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; joint cluster board dates via events page"
+    },
+    {
+        "ods_code":  "QUA",
+        "names":  [
+                      "Black Country ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://blackcountry.icb.nhs.uk/about-us/how-we-make-decisions",
+        "url_root":  "https://blackcountry.icb.nhs.uk",
+        "cluster_id":  "BSOL-BC",
+        "cluster_meeting_url":  "https://www.birminghamsolihull.icb.nhs.uk/about-us/our-committees/integrated-care-board/integrated-care-board-papers/",
+        "notes":  "[2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; shares joint cluster board with Birmingham \u0026 Solihull"
+    },
+    {
+        "ods_code":  "QWU",
+        "names":  [
+                      "Coventry and Warwickshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
+        "url_root":  "https://www.happyhealthylives.uk",
+        "cluster_id":  "CW-HW",
+        "cluster_meeting_url":  "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
+        "notes":  "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; 403 on WebFetch, Playwright render succeeded"
+    },
+    {
+        "ods_code":  "QGH",
+        "names":  [
+                      "Herefordshire and Worcestershire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
+        "url_root":  "https://www.hwics.org.uk",
+        "cluster_id":  "CW-HW",
+        "cluster_meeting_url":  "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
+        "notes":  "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; own /meetings page has no inline dates, shares joint CWHW board dates from happyhealthylives.uk"
+    },
+    {
+        "ods_code":  "QJ2",
+        "names":  [
+                      "Derby and Derbyshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Annabelle",
+        "url":  "https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/",
+        "url_root":  "https://www.derbyandderbyshireicb.nhs.uk",
+        "cluster_id":  "DLN",
+        "cluster_meeting_url":  "https://notts.icb.nhs.uk/about-us/our-icb-board/",
+        "notes":  "[2026-07-21] Renders dates as 17-Sep-26 - standard DD-Month-YYYY regexes miss this entirely. | DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common"
+    },
+    {
+        "ods_code":  "QJM",
+        "names":  [
+                      "Lincolnshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Annabelle",
+        "url":  "https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/",
+        "url_root":  "https://lincolnshire.icb.nhs.uk",
+        "cluster_id":  "DLN",
+        "cluster_meeting_url":  "https://notts.icb.nhs.uk/about-us/our-icb-board/",
+        "notes":  "DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund â€” note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common"
+    },
+    {
+        "ods_code":  "QT1",
+        "names":  [
+                      "Nottingham and Nottinghamshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Annabelle",
+        "url":  "https://notts.icb.nhs.uk/about-us/our-icb-board/",
+        "url_root":  "https://notts.icb.nhs.uk",
+        "cluster_id":  "DLN",
+        "cluster_meeting_url":  "https://notts.icb.nhs.uk/about-us/our-icb-board/",
+        "notes":  "DLN cluster; hosts joint board pack PDFs at /wp-content/uploads/sites/2/"
+    },
+    {
+        "ods_code":  "QK1",
+        "names":  [
+                      "Leicester, Leicestershire and Rutland ICB",
+                      "LLR ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Annabelle",
+        "url":  "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+        "url_root":  "https://leicesterleicestershireandrutland.icb.nhs.uk",
+        "cluster_id":  "LNR",
+        "cluster_meeting_url":  "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
+        "notes":  "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster"
+    },
+    {
+        "ods_code":  "QPM",
+        "names":  [
+                      "Northamptonshire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Annabelle",
+        "url":  "https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/",
+        "url_root":  "https://www.icnorthamptonshire.org.uk",
+        "cluster_id":  "LNR",
+        "cluster_meeting_url":  "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
+        "notes":  "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster; only in-common meetings with LLR identifiable from shared LLR board page (20 Aug, 17 Dec); any Northamptonshire-only dates not listed there"
+    },
+    {
+        "ods_code":  "QOC",
+        "names":  [
+                      "Shropshire, Telford and Wrekin ICB",
+                      "STW ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
+        "url_root":  "https://www.shropshiretelfordandwrekin.nhs.uk",
+        "cluster_id":  "STW-SSOT",
+        "cluster_meeting_url":  "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
+        "notes":  "Joint Board in Common with Staffs and Stoke-on-Trent (QNC) [2026-07-16] STW-SSOT cluster; joint Board in Common"
+    },
+    {
+        "ods_code":  "QNC",
+        "names":  [
+                      "Staffordshire and Stoke-on-Trent ICB",
+                      "SSOT ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "Midlands",
+        "correspondent":  "Caitlin",
+        "url":  "https://staffsstoke.icb.nhs.uk/your-nhs-integrated-care-board/our-publications/board-papers/",
+        "url_root":  "https://staffsstoke.icb.nhs.uk",
+        "cluster_id":  "STW-SSOT",
+        "cluster_meeting_url":  "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
+        "notes":  "Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T\u0026W page"
+    },
+    {
+        "ods_code":  "S1Y5D",
+        "names":  [
+                      "Central East ICB"
+                  ],
+        "predecessor_codes":  [
+                                  "QHG",
+                                  "QUE",
+                                  "QM7"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "East of England",
+        "correspondent":  "Emily",
+        "url":  "https://www.centraleast.icb.nhs.uk/",
+        "url_root":  "https://www.centraleast.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] hertsandwestessex.ics.nhs.uk now 301-redirects to https://www.centraleast.icb.nhs.uk/ (new Central East ICB, formed 1 April 2026). Central East events page (/events/) shows \u0027no upcoming events\u0027; CPICS predecessor lists only the past 1 April 2026 inaugural meeting. No future board dates published yet - update scan_url to a Central East domain and re-check for a forward schedule. MANUAL REVIEW. [2026-07-16] Central East ICB (formed 1 April 2026); events page shows no upcoming events. No forward board schedule published yet. MANUAL REVIEW."
+    },
+    {
+        "ods_code":  "D7T5G",
+        "names":  [
+                      "Essex ICB",
+                      "NHS Essex"
+                  ],
+        "predecessor_codes":  [
+                                  "QH8",
+                                  "QJG"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "East of England",
+        "correspondent":  "Emily",
+        "url":  "https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/",
+        "url_root":  "https://www.essex.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) â€” team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they\u0027re issued. Events\u003eboard-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)"
+    },
+    {
+        "ods_code":  "T6Y0W",
+        "names":  [
+                      "Norfolk and Suffolk ICB"
+                  ],
+        "predecessor_codes":  [
+                                  "QMM",
+                                  "QJG"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "East of England",
+        "correspondent":  "James",
+        "url":  "https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/",
+        "url_root":  "https://www.norfolkandsuffolk.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "Formed 1 April 2026 from Norfolk and Waveney (QMM, improvinglivesnw.org.uk) plus the Suffolk parts of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. [2026-07-16] 15 Jul 2026 meeting excluded (past)"
+    },
+    {
+        "ods_code":  "QMF",
+        "names":  [
+                      "North East London ICB",
+                      "NEL ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "London",
+        "correspondent":  "Matt Discombe",
+        "url":  "https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/",
+        "url_root":  "https://northeastlondon.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] Canonical page rendered fine via WebFetch. Per-meeting papers_url slugs (board-meeting-NN) appeared non-sequential/likely guessed by extractor so nulled; verify slugs on the page when a pack is needed. [2026-07-16] Per-meeting papers_url slugs nulled per existing note (extractor guesses non-sequential board-meeting-NN slugs); verify on page when a pack is needed."
+    },
+    {
+        "ods_code":  "QKK",
+        "names":  [
+                      "South East London ICB",
+                      "SEL ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "London",
+        "correspondent":  "Ella",
+        "url":  "https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/",
+        "url_root":  "https://www.selondonics.org",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-21] Dates sit in a collapsed accordion - needs --html. WebFetch also fabricated a January 2027 meeting. | Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately"
+    },
+    {
+        "ods_code":  "QWE",
+        "names":  [
+                      "South West London ICB",
+                      "SWL ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "London",
+        "correspondent":  "Ella",
+        "url":  "https://www.southwestlondon.icb.nhs.uk/events/",
+        "url_root":  "https://www.southwestlondon.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] The /events/ page rendered fine and listed forward dates directly - no Playwright needed on this sweep."
+    },
+    {
+        "ods_code":  "Z9B2Z",
+        "names":  [
+                      "West and North London ICB",
+                      "W\u0026NL ICB"
+                  ],
+        "predecessor_codes":  [
+                                  "QMJ",
+                                  "QRV"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "London",
+        "correspondent":  "Matt Discombe",
+        "url":  "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings",
+        "url_root":  "https://www.westandnorthlondon.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-21] Dates sit in a collapsed accordion - --text returns ZERO dates despite five being present. Needs --html. | Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical \u0027Boards in Common\u0027 packs from late 2025/early 2026."
+    },
+    {
+        "ods_code":  "QRL",
+        "names":  [
+                      "Hampshire and Isle of Wight ICB",
+                      "HIOW ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South East",
+        "correspondent":  "Mimi",
+        "url":  "https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/",
+        "url_root":  "https://www.hantsiow.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] Extractor attached navigate id 7133 to the 2 Sep meeting, but per existing note 7133 is the 3 Jun pack - stale, so nulled. navigate IDs change per meeting; re-enumerate each scan. [2026-07-16] papers_url nulled - extractor attached stale navigate id 7133 (the 3 Jun pack) per existing note; re-enumerate per meeting when a pack is needed."
+    },
+    {
+        "ods_code":  "QKS",
+        "names":  [
+                      "Kent and Medway ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South East",
+        "correspondent":  "Alison",
+        "url":  "https://www.kentandmedway.icb.nhs.uk/events-calender",
+        "url_root":  "https://www.kentandmedway.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-21] Full 2026/27 schedule now published, incl. an unusual extra 2 Feb 2027 meeting alongside 19 Jan. Per-event pack page: /events-calender/event/board-meeting-july-2026-NN/. | ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site."
+    },
+    {
+        "ods_code":  "S0E4D",
+        "names":  [
+                      "Thames Valley ICB"
+                  ],
+        "predecessor_codes":  [
+                                  "QU9",
+                                  "QNQ"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "South East",
+        "correspondent":  "Mimi",
+        "url":  "https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public",
+        "url_root":  "https://www.thamesvalley.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] New TV ICB dates confirmed: 15 Jul, 16 Sep, 18 Nov 2026, 20 Jan, 17 Mar 2027 (prior note had 22 Jul - superseded). [2026-07-16] Matches confirmed dates in existing note (15 Jul now past)."
+    },
+    {
+        "ods_code":  "S9B9J",
+        "names":  [
+                      "Surrey and Sussex ICB"
+                  ],
+        "predecessor_codes":  [
+                                  "QXU",
+                                  "QNX",
+                                  "QNQ"
+                              ],
+        "merger_date":  "2026-04-01",
+        "region":  "South East",
+        "correspondent":  "Alison",
+        "url":  "https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/",
+        "url_root":  "https://www.surreysussex.icb.nhs.uk",
+        "cluster_id":  null,
+        "cluster_meeting_url":  null,
+        "notes":  "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Surrey Heartlands (Alison), Sussex (Alison), Surrey part of former Frimley (Mimi) â€” team decision: Alison."
+    },
+    {
+        "ods_code":  "QOX",
+        "names":  [
+                      "Bath and North East Somerset, Swindon and Wiltshire ICB",
+                      "BSW ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://bsw.icb.nhs.uk/about-us/governance/meetings/",
+        "url_root":  "https://bsw.icb.nhs.uk",
+        "cluster_id":  "BSW-DOR-SOM",
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-21] Meets on varying weekdays (Wed then Mondays) - do not assume a fixed weekday. | [2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
+    },
+    {
+        "ods_code":  "QVV",
+        "names":  [
+                      "Dorset ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://nhsdorset.nhs.uk/about/board/",
+        "url_root":  "https://nhsdorset.nhs.uk",
+        "cluster_id":  "BSW-DOR-SOM",
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
+    },
+    {
+        "ods_code":  "QSL",
+        "names":  [
+                      "Somerset ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://nhssomerset.nhs.uk/publications/board-papers/",
+        "url_root":  "https://nhssomerset.nhs.uk",
+        "cluster_id":  "BSW-DOR-SOM",
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note."
+    },
+    {
+        "ods_code":  "QUY",
+        "names":  [
+                      "Bristol, North Somerset and South Gloucestershire ICB",
+                      "BNSSG ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://bnssghealthiertogether.org.uk/events/",
+        "url_root":  "https://bnssghealthiertogether.org.uk",
+        "cluster_id":  "BNSSG-GLO",
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] bnssghealthiertogether.org.uk/events returned unreliable/stale (2025-titled) dates. Clean joint cluster schedule taken instead from Gloucestershire ICB page https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ - suggest making that the scan_url for the cluster. [2026-07-16] Joint Cluster Board (BNSSG-GLO) via https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ per existing note."
+    },
+    {
+        "ods_code":  "QR1",
+        "names":  [
+                      "Gloucestershire ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/",
+        "url_root":  "https://www.nhsglos.nhs.uk",
+        "cluster_id":  "BNSSG-GLO",
+        "cluster_meeting_url":  null,
+        "notes":  "[2026-07-13] bnssghealthiertogether.org.uk/events returned unreliable/stale (2025-titled) dates. Clean joint cluster schedule taken instead from Gloucestershire ICB page https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ - suggest making that the scan_url for the cluster. [2026-07-16] Joint Cluster Board (BNSSG-GLO) via https://www.nhsglos.nhs.uk/about-us/the-icb/about-the-icb-board/ per existing note."
+    },
+    {
+        "ods_code":  "QT6",
+        "names":  [
+                      "Cornwall and the Isles of Scilly ICB",
+                      "CIOS ICB"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://swpboard.nhs.uk/board-meetings/",
+        "url_root":  "https://www.cios.icb.nhs.uk",
+        "cluster_id":  "SW-PEN",
+        "cluster_meeting_url":  "https://swpboard.nhs.uk/meetings/",
+        "notes":  "[2026-07-21] INVERTED LADDER: 403s the Playwright helper; serves fine to WebFetch and browser-UA curl. | [2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
+    },
+    {
+        "ods_code":  "QJK",
+        "names":  [
+                      "Devon ICB",
+                      "One Devon"
+                  ],
+        "predecessor_codes":  [
+
+                              ],
+        "merger_date":  null,
+        "region":  "South West",
+        "correspondent":  "Joe",
+        "url":  "https://swpboard.nhs.uk/board-meetings/",
+        "url_root":  "https://onedevon.org.uk",
+        "cluster_id":  "SW-PEN",
+        "cluster_meeting_url":  "https://swpboard.nhs.uk/meetings/",
+        "notes":  "[2026-07-13] scan_url /meetings/ returns HTTP 404. Correct meetings/dates page is https://swpboard.nhs.uk/board-meetings/ - update scan_url to that. [2026-07-16] Joint SW Peninsula board (SW-PEN) via https://swpboard.nhs.uk/board-meetings/ per existing note."
+    }
 ]

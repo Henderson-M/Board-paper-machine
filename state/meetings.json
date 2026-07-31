@@ -375,7 +375,7 @@
                                              "papers":  "2026-07-09T11:13:27Z",
                                              "summary":  "2026-07-09T11:13:27Z"
                                          },
-                         "notes":  "Date returned by WebFetch was 2026-07-15 but papers URL slug says \u00278-july-2026\u0027 Ã¢â‚¬â€ possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json Ã¢â‚¬â€ alert was suppressed.",
+                         "notes":  "Date returned by WebFetch was 2026-07-15 but papers URL slug says \u00278-july-2026\u0027 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â alert was suppressed.",
                          "summary_path":  "summaries/QOQ_2026-07-15.md"
                      },
                      {
@@ -397,7 +397,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Slug says \u00279-sept-2026\u0027 but date returned was 2026-09-16 Ã¢â‚¬â€ verify."
+                         "notes":  "Slug says \u00279-sept-2026\u0027 but date returned was 2026-09-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify."
                      },
                      {
                          "id":  "QOQ:2026-11-18",
@@ -418,7 +418,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Slug says \u002711-nov-2026\u0027 but date returned was 2026-11-18 Ã¢â‚¬â€ verify."
+                         "notes":  "Slug says \u002711-nov-2026\u0027 but date returned was 2026-11-18 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify."
                      },
                      {
                          "id":  "QOQ:2027-01-20",
@@ -2130,7 +2130,7 @@
                                              "papers":  "2026-06-11T18:09:11.460120+00:00",
                                              "summary":  "2026-06-11T18:09:11.460120+00:00"
                                          },
-                         "notes":  "RNQ + RNS appear to share most meeting dates Ã¢â‚¬â€ University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+                         "notes":  "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
                          "summary_path":  "summaries/RNS_2026-06-09.md"
                      },
                      {
@@ -2152,7 +2152,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "RNQ + RNS appear to share most meeting dates Ã¢â‚¬â€ University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+                         "notes":  "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
                      },
                      {
                          "id":  "RNS:2026-10-08",
@@ -2173,7 +2173,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "RNQ + RNS appear to share most meeting dates Ã¢â‚¬â€ University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+                         "notes":  "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
                      },
                      {
                          "id":  "RNS:2026-11-06",
@@ -2194,7 +2194,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "RNQ + RNS appear to share most meeting dates Ã¢â‚¬â€ University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+                         "notes":  "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
                      },
                      {
                          "id":  "RNS:2026-12-10",
@@ -2215,7 +2215,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "RNQ + RNS appear to share most meeting dates Ã¢â‚¬â€ University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
+                         "notes":  "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id."
                      },
                      {
                          "id":  "RP1:2026-05-28",
@@ -2922,7 +2922,7 @@
                                              "papers":  "2026-06-09T19:10:18",
                                              "summary":  "2026-06-09T19:10:18"
                                          },
-                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) Ã¢â‚¬â€ shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id.",
+                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id.",
                          "summary_path":  "summaries/RWE_2026-06-11.md"
                      },
                      {
@@ -2944,7 +2944,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) Ã¢â‚¬â€ shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
+                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
                      },
                      {
                          "id":  "RWE:2026-10-08",
@@ -2965,7 +2965,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) Ã¢â‚¬â€ shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
+                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
                      },
                      {
                          "id":  "RWE:2026-11-06",
@@ -2986,7 +2986,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) Ã¢â‚¬â€ shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
+                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
                      },
                      {
                          "id":  "RWE:2026-12-10",
@@ -3007,7 +3007,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) Ã¢â‚¬â€ shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
+                         "notes":  "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared \u0027Boards in Common\u0027 meetings. Worth a cluster_id."
                      },
                      {
                          "id":  "RX1:2026-07-09",
@@ -5440,7 +5440,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting â€” WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
+                         "notes":  "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting Ã¢â‚¬â€ WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
                      },
                      {
                          "id":  "RCX:2026-09-25",
@@ -10336,24 +10336,185 @@
                          "source_url":  "https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/",
                          "papers_url":  null,
                          "pack_files":  [
-
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/lgofu1rg/item-5-20260616-draft-board-minutes-nh.pdf",
+                                                "title":  "Item 5 - Draft Board Minutes 16 June 2026",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/gmhbedqt/item-6-20260331-board-public-action-log.pdf",
+                                                "title":  "Item 6 - Board Public Action Log",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/3aobbh1j/item-8-chairs-report-final.pdf",
+                                                "title":  "Item 8 - Chair\u0027s Report",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/5cfpykfk/item-9-ceo_board_report_july_2026_final.pdf",
+                                                "title":  "Item 9 - CEO Board Report July 2026",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/2epjqanj/item-10-20260622-baf-and-risk-update-for-board-v2.pdf",
+                                                "title":  "Item 10 - BAF and Risk Report Q1 2026-27",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/nlppbgsi/item-10-appendix-1-nhs-nenc-board-assurance-framework-q1-2627-220626-1.pdf",
+                                                "title":  "Item 10 App 1 - BAF Q1 2627",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/0bfmi24j/item-10-appendix-2-crr-12plus-220626-1.pdf",
+                                                "title":  "Item 10 App 2 - CRR 12+",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/gwdgj3gs/item-10-appendix-3-place-12plus-220626.pdf",
+                                                "title":  "Item 10 App 3 - Place 12+",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/pubd0wff/item-111-lship-cttee-ea-report-july-26-board.pdf",
+                                                "title":  "Item 11.1 - Leadership Committee E\u0026A Report",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/aqcnbfsf/item-111-appendix-1-20260512-lship-cttee-public-minutes-final.pdf",
+                                                "title":  "Item 11.1 App 1 - Leadership Cttee Public Minutes",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/faonrh2o/item-112-qsc-escalation-and-assurance-report-july-2026.pdf",
+                                                "title":  "Item 11.2 - QSC Escalation and Assurance Report",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/vomjfykf/item-112-appendix-1-20260514-approved-quality-and-safety-committee-minutes.pdf",
+                                                "title":  "Item 11.2 App 1 - Quality and Safety Cttee Minutes",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/44fcmyau/item-113-audit-committee-highlight-report-draft-v2-20260730.pdf",
+                                                "title":  "Item 11.3 - Audit Committee Assurance Report",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/z5bexus5/item-113-appendix-1-eo-audit-committee-minutes-23042026-ratified.pdf",
+                                                "title":  "Item 11.3 App 1 - Audit Committee Minutes",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/2iqnjl5k/item-12-medicines-strategy-2025-2030-year-1-progress-board-paper.pdf",
+                                                "title":  "Item 12 - Medicines Strategy Year 1 Progress",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/y1pdmxco/item-13-pcarp-front-cover-page-july-26-board.pdf",
+                                                "title":  "Item 13 - PCARP Front Cover",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/iuklvur3/item-13-appendix-1-final-plan-submission-pcap-template-for-mtp.pdf",
+                                                "title":  "Item 13 App 1 - PCAP Plan Submission",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/wg3itkic/item-15-nenc-icb-finance-update-m2-202627.pdf",
+                                                "title":  "Item 15 - ICB Finance Update M2 2026-27",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/qa2enhlu/item-15-appendix-1-icb-2026-27-finance-report-m02-1.pdf",
+                                                "title":  "Item 15 App 1 - ICB Finance Report M02",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/hvudnfaj/item-15-appendix-2-nenc_icb_budgetary_control_framework-v8-clean-002.pdf",
+                                                "title":  "Item 15 App 2 - Budgetary Control Framework",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/xyhetioi/item-161-nenc-nh-slides-icb-board-20260729-final.pdf",
+                                                "title":  "Item 16.1 - Neighbourhood Health presentation",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/p1vk2bje/item-162-20260729-fit-for-the-future-front-cover-board.pdf",
+                                                "title":  "Item 16.2 - Fit For The Future Front Cover",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            },
+                                            {
+                                                "url":  "https://northeastnorthcumbria.nhs.uk/media/0zkkwbpe/item-162-appendix-1-fit-for-the-future-for-board.pdf",
+                                                "title":  "Item 16.2 App 1 - Fit For The Future",
+                                                "kind":  "pdf",
+                                                "approx_pages":  null,
+                                                "approx_mb":  null
+                                            }
                                         ],
-                         "status":  "superseded",
+                         "status":  "analysed",
                          "first_seen":  "2026-05-27T14:16:11Z",
-                         "last_checked":  "2026-07-27T12:00:00Z",
+                         "last_checked":  "2026-07-31T13:36:57Z",
                          "alerts_sent":  {
                                              "date":  null,
-                                             "papers":  null,
-                                             "summary":  null
+                                             "papers":  "2026-07-31T13:36:57Z",
+                                             "summary":  "2026-07-31T13:36:57Z"
                                          },
-                         "notes":  "[2026-07-23] Likely spurious - NENC ICB public board is 29 July, not 28. Pack + analysis attached to QHM:2026-07-29. needs_verification.",
                          "superseded_by":  "QHM:2026-07-29",
                          "date_review":  {
                                              "action":  "superseded",
                                              "reviewed":  "2026-07-27T12:00:00Z",
                                              "run":  "2026-07-27",
                                              "evidence":  "Papers for this ICB meeting are published under 29 July 2026 (real meeting date), already analysed as QHM:2026-07-29 (32 files). 28 July entry is a duplicate date."
-                                         }
+                                         },
+                         "summary_path":  "summaries/QHM_2026-07-28.md",
+                         "notes":  "Pack docs are served on northeastnorthcumbria.nhs.uk/media/... The page HTML advertises them as media.nhs.net/... which does NOT resolve publicly — swap host to the ICB domain to fetch. Cover sheets say 29 Jul 2026; state id uses 28 Jul."
                      },
                      {
                          "id":  "QHM:2026-09-29",
@@ -12526,7 +12687,7 @@
                                                 "title":  null
                                             },
                                             {
-                                                "url":  "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-â€“-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
+                                                "url":  "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-Ã¢â‚¬â€œ-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
                                                 "title":  null
                                             }
                                         ],
@@ -12712,7 +12873,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-09 scan] Stale â€” actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
+                         "notes":  "[2026-07-09 scan] Stale Ã¢â‚¬â€ actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
                      },
                      {
                          "id":  "R0D:2026-09-09",
@@ -16592,7 +16753,7 @@
                                              "papers":  "2026-06-05T08:56:10Z",
                                              "summary":  "2026-06-05T08:56:10Z"
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group.",
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
                          "summary_path":  "summaries/RM1_2026-06-03.md"
                      },
                      {
@@ -16614,7 +16775,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RGP:2026-10-07",
@@ -16635,7 +16796,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RGP:2026-12-02",
@@ -16656,7 +16817,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RGP:2027-02-03",
@@ -16677,7 +16838,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RGP:2027-04-07",
@@ -16698,7 +16859,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RCX:2026-06-03",
@@ -16723,7 +16884,7 @@
                                              "papers":  "2026-06-05T08:56:10Z",
                                              "summary":  "2026-06-05T08:56:10Z"
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group.",
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
                          "summary_path":  "summaries/RM1_2026-06-03.md"
                      },
                      {
@@ -16745,7 +16906,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RCX:2026-10-07",
@@ -16766,7 +16927,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RCX:2026-12-02",
@@ -16787,7 +16948,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RCX:2027-02-03",
@@ -16808,7 +16969,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "RCX:2027-04-07",
@@ -16829,7 +16990,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "NWUHG Group Board â€” joint with the other 2 trusts in the group."
+                         "notes":  "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
                      },
                      {
                          "id":  "QK1:2026-06-18",
@@ -19832,7 +19993,7 @@
                                              "papers":  "2026-07-13T12:20:45Z",
                                              "summary":  "2026-07-13T12:20:45Z"
                                          },
-                         "notes":  "[2026-07-13] Pack file URL says \u00279 July\u0027 but documents are internally headed 14 July 2026 â€” meeting date is 14 July.",
+                         "notes":  "[2026-07-13] Pack file URL says \u00279 July\u0027 but documents are internally headed 14 July 2026 Ã¢â‚¬â€ meeting date is 14 July.",
                          "summary_path":  "summaries/RGN_2026-07-09.md"
                      },
                      {
@@ -20912,7 +21073,7 @@
                                              "papers":  "2026-07-21T10:31:26Z",
                                              "summary":  "2026-07-21T10:31:26Z"
                                          },
-                         "notes":  "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) â€” verify before relying.",
+                         "notes":  "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) Ã¢â‚¬â€ verify before relying.",
                          "summary_path":  "summaries/TAJ_2026-07-23.md",
                          "date_review":  {
                                              "action":  "cancelled",
@@ -23502,7 +23663,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting â€” 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
+                         "notes":  "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting Ã¢â‚¬â€ 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
                      },
                      {
                          "id":  "RL1:2026-09-10",
@@ -27290,7 +27451,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RTD:2026-10-30",
@@ -27311,7 +27472,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RTD:2026-12-18",
@@ -27332,7 +27493,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RTD:2027-02-26",
@@ -27353,7 +27514,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RTD:2027-04-30",
@@ -27374,7 +27535,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RTD:2027-06-25",
@@ -27395,7 +27556,7 @@
                                              "papers":  null,
                                              "summary":  null
                                          },
-                         "notes":  "[2026-07-17] RETRACTED â€” fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+                         "notes":  "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
                      },
                      {
                          "id":  "RHW:2026-08-29",
@@ -29369,7 +29530,7 @@
                          {
                              "ods_code":  "RY3",
                              "ts":  "2026-07-01T11:48:28Z",
-                             "error":  "no_future_dates_found â€” page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
+                             "error":  "no_future_dates_found Ã¢â‚¬â€ page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
                              "url":  "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/"
                          },
                          {
@@ -29714,7 +29875,7 @@
                                                       "RBD"
                                                   ],
                              "dead_urls":  [
-                                               "RBS (Alder Hey) scan_url serves 2018 content â€” needs rediscovery",
+                                               "RBS (Alder Hey) scan_url serves 2018 content Ã¢â‚¬â€ needs rediscovery",
                                                "RX4 (CNTW) corrected URL renders only past listings",
                                                "RWF (Maidstone \u0026 TW) papers page 404 on non-browser UA"
                                            ]
@@ -29766,7 +29927,7 @@
                         },
     "_run_2026_07_30_reconciled":  {
                                        "ran":  "2026-07-31T12:07:06Z",
-                                       "note":  "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
+                                       "note":  "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state â€” not re-stamped).",
                                        "duplicate_note":  "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
                                    }
 }
