@@ -1,0 +1,32 @@
+﻿BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RA2-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260730T111522Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalsurrey.nhs.uk/board-papers
+URL:https://www.royalsurrey.nhs.uk/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RA2-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260730T111522Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalsurrey.nhs.uk/board-papers
+URL:https://www.royalsurrey.nhs.uk/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RTP-2026-08-27@board-paper-machine.hsj
+DTSTAMP:20260730T111522Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026
+URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026
+END:VEVENT
+END:VCALENDAR

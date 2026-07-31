@@ -98,6 +98,7 @@ Read these files:
 - `data/trust_urls.json`
 - `data/icb_urls.json`
 - `data/correspondents.json` (name → email map)
+- `data/recipient_overrides.json` (temporary recipient overrides — optional; absent/empty is fine)
 - `state/meetings.json` (known meetings)
 - `context/hsj_editorial_context.md` (only needed if running pack analysis)
 
@@ -106,6 +107,14 @@ Build a list of in-scope orgs, filtered by any arguments. Each org needs: `ods_c
 Skip orgs with empty/null `url`, and skip those whose correspondent is `"TBC"` or null. Log the count skipped.
 
 **Recipients per org.** An org may also carry an optional `additional_correspondents` array (e.g. all ambulance trusts also go to `"Alison"` as well as their primary correspondent). Throughout this skill, the **recipients** of an org's alerts are the union of its `correspondent` and every name in `additional_correspondents`, **de-duplicated** (if a name appears as both, it's one recipient). A name in `additional_correspondents` that is `"TBC"`/null or has no email in `correspondents.json` is logged and skipped, exactly like a primary. Wherever a later step says "group/route by correspondent", it means **by recipient** in this sense — a single org's meeting or pack can therefore produce an alert for more than one person.
+
+**Temporary recipient overrides.** After building an org's base recipient set (above), apply any live rules in `data/recipient_overrides.json` (skip this if the file is absent or has no `overrides`). For each rule:
+
+- **Expiry gate.** The rule is **live** only when `start <= today <= expires` (ISO date strings compare correctly as text; `today` is the run date). If `today > expires`, the rule has **expired — ignore it entirely** (do not add anyone). Log expired rules you skipped so it's visible they lapsed.
+- **Match.** If the rule's `when_recipient` is in this org's recipient set, add every name in `add_recipients` to the recipient set, **de-duplicated**, with the same `"TBC"`/no-email handling as a primary (a rule name with no email in `correspondents.json` is logged and skipped).
+- **Kind filter.** `applies_to` limits which alert kinds the added name receives: `"date"` covers date alerts (Step 9) and the delta `.ics`; `"papers"` covers papers alerts (Step 10) and the DATE-UNKNOWN watchlist alert (Step 7b). Only treat the added name as a recipient for the kinds listed. A rule listing both makes the added name a full co-recipient of that org, exactly as if they were in `additional_correspondents` — including their subscription `.ics` snapshot (Step 7) and their delta `.ics` for date alerts.
+
+An override never *removes* a recipient and never changes who the primary correspondent is — it only adds shadow recipients for a bounded window. (Current live rule: copy **Ella** on everything that goes to **Matt Discombe** until 2026-10-28.)
 
 ### Step 3 — Handle ICB clusters
 

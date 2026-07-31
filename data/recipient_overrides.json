@@ -1,0 +1,15 @@
+{
+  "_notes": "Temporary recipient overrides for the board paper machine. Each rule ADDS extra recipient(s) to any alert that already goes to a named recipient, until an expiry date (inclusive). Applied in scan-boards Step 2, on top of each org's base recipient set (primary correspondent + additional_correspondents). Names must match keys in data/correspondents.json (same TBC/no-email handling). A rule is LIVE only when today is on or after `start` and on or before `expires`; once today is past `expires` the rule is ignored (left here for audit — safe to delete after expiry). `applies_to` limits which alert kinds the added name receives: \"date\" = date alerts, \"papers\" = papers alerts (incl. the DATE-UNKNOWN watchlist alert).",
+  "overrides": [
+    {
+      "id": "ella-shadow-discombe-2026q3",
+      "when_recipient": "Matt Discombe",
+      "add_recipients": ["Ella"],
+      "applies_to": ["date", "papers"],
+      "start": "2026-07-28",
+      "expires": "2026-10-28",
+      "reason": "Henry asked (2026-07-28) to copy Ella on all bpm emails that would normally go to Matt Discombe, for three months.",
+      "created": "2026-07-28"
+    }
+  ]
+}

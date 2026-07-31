@@ -1,3 +1,20 @@
+## 2026-07-30/31 (FULL SWEEP + LIVE SEND — but DUPLICATED a colleague's 27 Jul run, then reconciled, Henry + Claude)
+
+### What happened (plain English)
+Henry asked to run the machine. I did a full sweep and sent **35 live alerts** — but I had **started from stale state (23 Jul)**: I concluded "nothing to pull" from a stale local git reference **without actually fetching**, so I never saw that a colleague had done a full run on **27 Jul** and already emailed the team about most of these packs. Result: **most of my emails were duplicates.** This is exactly what the "pull first, stop if you can't" step exists to prevent. My error.
+
+### The numbers
+- Sent 5 date alerts + 30 papers alerts (35/35 delivered).
+- **Duplicates of the 27 Jul run:** 20 of 28 packs (~22 papers emails) + 6 of 11 dates (Royal Surrey ×2, Glos H&C, Liverpool Heart & Chest ×3).
+- **Genuinely new (only my run sent these):** 8 packs — Hampshire (RN5), Harrogate (RCD), Sussex Community (RDR), West Suffolk (RGR), Birmingham & Solihull MH (RXT), Mersey & West Lancs (RBN), Royal Berkshire (RHW), Moorfields (RP6) — plus 5 new dates (NENC ICB 30 Sep, Somerset ×2, SE London ICB, Surrey & Sussex).
+
+### Reconciliation (this commit)
+Rebuilt state on top of the colleague's 27 Jul run (their work + timestamps kept intact, incl. their QT6/QJK/RX7 analyses), then added only my genuinely-new items: 8 fresh pack summaries + 5 fresh dates + Moorfields, each stamped `alerts_sent` for today. The 20 duplicate packs keep the **27 Jul** first-send timestamp (not re-stamped). State now **1,180 meetings**. Also folds in the **28 Jul recipient override** (`recipient_overrides.json` + SKILL Step 2: Ella copies Matt Discombe until 28 Oct), which predated the colleague's run and wasn't online.
+
+### Two known issues
+- **Mojibake in email bodies:** my body-composition script read the summaries with the wrong text encoding (Windows-1252 not UTF-8), so `£`→`Â£` etc. **in the pasted-in body only** — the attached .md files were clean. Fixed in process; the 8 genuinely-new packs are being resent with clean bodies (the 20 duplicates are NOT resent).
+- **QHM (NENC ICB) pack** unreadable from this machine — files on `media.nhs.net` (NHS-internal DNS). Needs an on-network pull. Its 30 Sep date alert did go out.
+
 ## 2026-07-16 (FULL SWEEP — dates + packs + watchlist, DRY-RUN then LIVE SEND, Henry + Claude)
 
 ### Headline
