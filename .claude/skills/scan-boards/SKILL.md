@@ -83,13 +83,24 @@ cd "$REPO"
 
 All subsequent steps assume cwd = repo root.
 
-### Step 1 — Sync state
+### Step 1 — Sync state (HARD GATE — do not skip, do not proceed on stale state)
+
+**This is the single most important step. Skipping or faking it causes duplicate alerts to the whole team** (this happened on 2026-07-30: a run started from 3-day-stale state, never saw a colleague's 27 Jul sweep, and re-emailed ~22 packs the team had already received). Two people cover different patches and both run this tool, so the GitHub copy is the only source of truth for "what's already been alerted."
+
+**You MUST actually fetch — never trust the local `origin/*` ref, it can be stale.** A `git status` that says "up to date with origin/main" proves nothing until you have fetched.
 
 ```bash
-git pull --rebase
+git fetch origin                                   # REQUIRED first — refreshes origin/main
+git rev-list --left-right --count HEAD...origin/main   # -> "<ahead> <behind>"
 ```
 
-If pull fails, surface the error and stop — don't proceed with stale state.
+Then:
+
+- **behind = 0, ahead = 0** → in sync. Proceed.
+- **behind > 0** → the remote has newer work (another run). You MUST integrate it before scanning: `git pull --rebase` (working tree must be clean; commit or stash local changes first). Re-run the `rev-list` check until behind = 0.
+- **fetch or pull FAILS, is blocked (sandbox/permission), times out, or you cannot reach GitHub for any reason** → **STOP THE ENTIRE RUN. Do not scan. Do not analyse. Do not send a single email.** Surface the exact error to the user and say you cannot run safely without a synced state. Running blind on stale state is never acceptable — a missed run is recoverable next time; duplicate alerts to the team are not. (If the user explicitly says "run anyway, dry-run only, I accept it may duplicate", you may proceed **but must force `--live-emails` OFF** and label every output as UNVERIFIED-STALE.)
+
+Only once `behind = 0` may you continue to Step 2.
 
 ### Step 2 — Load inputs
 
@@ -382,6 +393,14 @@ For each analysed pack, send one alert to **each recipient** of the pack's org (
 
 ### Step 11 — Send (or dry-run)
 
+**Pre-send re-sync guard (MANDATORY before any `--live-emails` send).** A full sweep can take 30+ minutes, during which another team member's run may have pushed and alerted some of the same packs/dates. Immediately before sending, re-check the remote so you don't send what's already been sent:
+
+```bash
+git fetch origin
+```
+
+Then, for every meeting you are about to alert, compare against `origin/main`'s `state/meetings.json` (`git show origin/main:state/meetings.json`): **drop from the send any meeting whose `alerts_sent.date` (for date alerts) or `alerts_sent.papers` (for papers alerts) is already set on the remote.** Those were alerted by another run — sending again is a duplicate. Log what you dropped. If the remote has moved on (behind > 0), integrate it (`git pull --rebase`) and re-diff before sending. Only send the survivors.
+
 - **Dry-run mode (default):** for each prepared email, write `dry_run_output/{timestamp}_{correspondent}_{kind}.md` with full headers, body, and attachment list inline.
 - **`--live-emails` mode:** send via **`send_batch.py`** — a STAGGERED batch sender. **Do not fire all the emails at once.** A free Gmail account sending 40 near-identical multi-attachment messages in a couple of minutes gets quarantined as spam by the recipients' mail gateway (this happened on the 5 Jun 2026 run — emails sent successfully but never reached inboxes). `send_batch.py` sends one at a time with a randomised 30–60s gap so delivery looks human.
 
@@ -438,6 +457,8 @@ In chat, give a terse summary:
 - **Self-improving.** If you discover an org's `url` has moved, update it. If you discover a quirk worth recording, write to `notes`.
 - **Editorial caution.** This tool produces *leads*, not facts. Phrasing in alerts must not assert anything beyond what the source page or pack literally says — see `context/hsj_editorial_context.md` for the full rules.
 - **One commit per scan.** Don't make multiple commits for a single run; aggregate all state changes into one.
+- **Never run on unsynced state.** See Step 1 — a `git status` "up to date" is meaningless without a fresh `git fetch`. If you can't confirm the local repo is level with `origin/main`, STOP; don't scan or send. Stale state = duplicate alerts to the whole team. Also re-fetch and drop already-alerted meetings immediately before a live send (Step 11 pre-send guard).
+- **UTF-8 everywhere (Windows/PowerShell gotcha that garbled a live send on 2026-07-30).** Board packs are full of `£` and `—`. Any file the emailer reads — the summary being inlined, the composed body, the manifest — MUST be read and written as UTF-8. On PowerShell 5.1, `Get-Content`/`Set-Content` default to the ANSI code page (Windows-1252), not UTF-8: `Get-Content summary.md` reads a UTF-8 `£` as `Â£`, and `Set-Content -Encoding utf8` writes a BOM that breaks `json.loads` and Outlook `.ics` parsing. Always use `Get-Content -Encoding utf8` (or `[System.IO.File]::ReadAllText`) to read, and write with a **no-BOM** UTF-8 encoder (`New-Object System.Text.UTF8Encoding($false)` via `[System.IO.File]::WriteAllText`). `send_email.py`/`send_batch.py` themselves read `body_file` as UTF-8 and set the MIME charset correctly — the danger is only in how the calling steps build those files.
 
 ## What still isn't built
 
