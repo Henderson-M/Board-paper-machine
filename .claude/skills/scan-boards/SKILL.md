@@ -83,6 +83,14 @@ cd "$REPO"
 
 All subsequent steps assume cwd = repo root.
 
+> **Run every `git` command through the Bash tool, never PowerShell.** The user's
+> `~/.claude/settings.json` allows `Bash(git:*)`, and permission rules are keyed by
+> tool name — a `Bash(...)` rule does **not** match a PowerShell call. Running
+> `git push` via PowerShell gets blocked by the auto-mode classifier and the run
+> stalls at the last step with everything committed but unpushed (this happened on
+> 2026-08-03). Bash syntax for the repo path:
+> `cd "/c/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine" && git push origin main`
+
 ### Step 1 — Sync state (HARD GATE — do not skip, do not proceed on stale state)
 
 **This is the single most important step. Skipping or faking it causes duplicate alerts to the whole team** (this happened on 2026-07-30: a run started from 3-day-stale state, never saw a colleague's 27 Jul sweep, and re-emailed ~22 packs the team had already received). Two people cover different patches and both run this tool, so the GitHub copy is the only source of truth for "what's already been alerted."
@@ -431,7 +439,7 @@ Only after a successful send: update the meeting's `alerts_sent.date` / `alerts_
 2. Update `data/trust_urls.json` / `data/icb_urls.json` if you learned anything worth recording (e.g. a redirect, a Playwright requirement, a quirk).
 3. `git add -A` (excluding gitignored files — `.env.local`, `dry_run_output/`).
 4. `git commit -m "scan: {N_dates} new date(s), {N_packs} new pack(s), {E} error(s)"` (omit commit if nothing changed).
-5. `git push` unless `--no-push`.
+5. `git push` unless `--no-push`. **Use the Bash tool** (see the note at the top of this Workflow) — a PowerShell `git push` is blocked by the permission classifier. Do not treat the run as finished until the push has actually landed: re-run `git fetch origin` and `git rev-list --left-right --count HEAD...origin/main` and confirm `0 0`. A committed-but-unpushed run leaves the shared state invisible to the rest of the team, which is exactly the condition that causes duplicate alerts on the next person's run.
 
 ### Step 13 — Report to user
 
