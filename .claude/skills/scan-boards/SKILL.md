@@ -308,6 +308,12 @@ For each org in the watchlist:
 1. Fetch the papers/board URL (ladder: WebFetch → Playwright → PDF metadata as in Step 4).
 2. Extract every PDF link visible on the page (regardless of whether we can identify the meeting date for it).
 3. Compare against `known_files`. Anything new is the trigger.
+
+   **`known_files` is only trustworthy if it was ever populated.** An org whose `known_files` is EMPTY makes every document on its page look new, including packs earlier runs already analysed and alerted. Before analysing or alerting ANY watchlist pack, confirm it is genuinely new by both:
+   - checking whether `summaries/{ods_code}_{inferred_date}.md` already exists (if it does, an earlier run analysed it — do NOT re-alert, just baseline the files into `known_files`); and
+   - checking `state/meetings.json` for that org/date.
+
+   Worked failure (2026-08-03): the watchlist reported 7 "new" packs; 6 of them — RR7, RX7, RXE, RXG, RXY, RP6 — had already been analysed and alerted by the 23–31 Jul runs and only looked new because their `known_files` was `[]`. Alerting them would have repeated the 30 July duplicate incident by a different route. After each poll, ALWAYS write every file you saw back into `known_files`, even when you raise no alert — an empty baseline is the bug.
 4. **If new files**:
    - Append to `known_files` with `first_seen` = now.
    - Try to infer a meeting date from the new filename or first page: titles like `Trust Board 8 July 2026.pdf` or `Board pack 2026-07-08.pdf` are common. If you find a date and it's future, **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, source `source_url = papers_url`, and the new pack already in `pack_files`. The org now leaves the watchlist (it has a dated meeting in state).
