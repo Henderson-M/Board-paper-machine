@@ -1,0 +1,128 @@
+[
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 6 new meeting date(s) detected",
+  "id": "dates_alison_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_annabelle_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "id": "dates_emily_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_henry_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_joe_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates_matt_mathers_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_mimi_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_nick_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 7 new meeting date(s) detected",
+  "id": "dates_zoe_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Sherwood Forest Hospitals NHS Foundation Trust board \u2014 Thursday 6 August 2026 \u2014 8 leads",
+  "id": "papers_RK5_annabelle_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Derbyshire Community Health Services NHS Foundation Trust board \u2014 Thursday 6 August 2026 \u2014 6 leads",
+  "id": "papers_RY8_annabelle_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] George Eliot Hospital NHS Trust board \u2014 Wednesday 5 August 2026 \u2014 5 leads",
+  "id": "papers_RLT_caitlin_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Essex Partnership University NHS Foundation Trust board \u2014 Wednesday 5 August 2026 \u2014 7 leads",
+  "id": "papers_R1L_emily_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] Norfolk and Norwich University Hospitals NHS Foundation Trust board \u2014 Wednesday 5 August 2026 \u2014 7 leads",
+  "id": "papers_RM1_james_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] County Durham and Darlington NHS Foundation Trust board \u2014 Wednesday 5 August 2026 \u2014 8 leads",
+  "id": "papers_RXP_matt_mathers_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust board \u2014 Wednesday 5 August 2026 \u2014 6 leads",
+  "id": "papers_RRF_nick_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Lancashire Teaching Hospitals NHS Foundation Trust board \u2014 Thursday 6 August 2026 \u2014 9 leads",
+  "id": "papers_RXN_zoe_2026-08-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Cheshire and Merseyside ICB board \u2014 Thursday 30 July 2026 \u2014 7 leads",
+  "id": "papers_QYG_zoe_2026-08-03",
+  "ok": true,
+  "err": ""
+ }
+]

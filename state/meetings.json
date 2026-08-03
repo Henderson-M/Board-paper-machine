@@ -3106,8 +3106,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RY8_2026-08-06.md"
@@ -7422,8 +7422,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RXP_2026-08-05.md"
@@ -8561,8 +8561,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RRF_2026-08-05.md"
@@ -13149,8 +13149,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RK5_2026-08-06.md"
@@ -13250,8 +13250,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RM1_2026-08-05.md"
@@ -15882,8 +15882,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
@@ -16021,8 +16021,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
@@ -22244,8 +22244,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/R1L_2026-08-05.md"
@@ -22981,8 +22981,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": null,
    "summary_path": "summaries/RXN_2026-08-06.md"
@@ -24726,8 +24726,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": "detected in full sweep 2026-07-13",
    "summary_path": "summaries/RLT_2026-08-05.md"
@@ -27223,7 +27223,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27242,7 +27242,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27261,7 +27261,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27280,7 +27280,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27299,7 +27299,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27318,7 +27318,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27337,7 +27337,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27356,7 +27356,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27375,7 +27375,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27394,7 +27394,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27413,7 +27413,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27432,7 +27432,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27451,7 +27451,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27470,7 +27470,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27489,7 +27489,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27508,7 +27508,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27527,7 +27527,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27546,7 +27546,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27565,7 +27565,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27584,7 +27584,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27603,7 +27603,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27622,7 +27622,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27641,7 +27641,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27660,7 +27660,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27679,7 +27679,7 @@
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
@@ -27716,8 +27716,8 @@
    "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-03T15:55:00Z",
+    "summary": "2026-08-03T15:55:00Z"
    },
    "notes": "[2026-08-03] Meeting discovered via the papers watchlist - the pack was published before we had recorded the date. No date alert sent (meeting already held); papers alert only.",
    "summary_path": "summaries/QYG_2026-07-30.md"

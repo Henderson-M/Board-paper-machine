@@ -1,14 +1,14 @@
-## 2026-08-03 (FULL SWEEP — dates + packs + watchlist, DRY-RUN, awaiting go-ahead to send, Henry + Claude)
+## 2026-08-03 (FULL SWEEP — dates + packs + watchlist, LIVE SEND 18/18, Henry + Claude)
 
 ### Headline
-Full no-arg sweep. State was **properly synced first** (`git fetch` then a level check against `origin/main` — behind 0, ahead 0) before anything was scanned. Scanned all **239 in-scope orgs** (resolved to **221 unique scan units** after cluster dedup) across 16 parallel date agents, checked the **48 in-window meetings** (window 1–13 Aug) across 8 detection agents, and polled the **14-org papers watchlist**. **Zero hard scan failures** — 221/221 units and 44/44 detection groups returned. **25 new meeting dates** found and **9 board packs analysed** (roughly **63 LEAD / 40 WORTH WATCHING / 34 FOI** across them). **18 alerts written to `dry_run_output/` — NOTHING HAS BEEN SENT.** Manifests are built and ready.
+Full no-arg sweep. State was **properly synced first** (`git fetch` then a level check against `origin/main` — behind 0, ahead 0) before anything was scanned. Scanned all **239 in-scope orgs** (resolved to **221 unique scan units** after cluster dedup) across 16 parallel date agents, checked the **48 in-window meetings** (window 1–13 Aug) across 8 detection agents, and polled the **14-org papers watchlist**. **Zero hard scan failures** — 221/221 units and 44/44 detection groups returned. **25 new meeting dates** found and **9 board packs analysed** (roughly **63 LEAD / 40 WORTH WATCHING / 34 FOI** across them). Written to `dry_run_output/` first, reviewed, then **all 18 alerts sent LIVE — 18/18 delivered, 0 failures.**
 
 ### The near-miss worth knowing about
 The watchlist reported **seven "new" packs**. Six of them — Gateshead, NWAS, RDaSH, South West Yorkshire, Kent & Medway and Moorfields — had **already been analysed and alerted by the 23–31 July runs**. They looked new only because `papers_watchlist.json` held an **empty `known_files` baseline** for those orgs, so every document on the page read as unseen. Had that been trusted, six duplicate papers alerts would have gone to the whole team — the same outcome as 30 July, arriving by a different route. Caught by checking each one against the existing `summaries/` files before analysing. **Only Cheshire & Merseyside ICB was genuinely new.**
 
 **Fixed at root:** the watchlist has been rebuilt — every file the agents saw is now baselined into `known_files`, and **no org is left with an empty baseline**. Watchlist is now 8 orgs (was 5): RDY dropped (has a future meeting again), RR7/RXE/RXG/S1Y5D added.
 
-### Packs analysed (9) — all dry-run, by recipient
+### Packs analysed and alerted (9), by recipient
 - **Matt Mathers:** County Durham & Darlington (8 leads) — NHSE has **withheld the trust's Q2 deficit support** from an £18.5m quarterly pot and put it in a new North East & Yorkshire **"At Risk: Active intervention"** category with weekly reporting; BAF states an underlying deficit "over £70m" and a £23.8m CIP shortfall.
 - **Caitlin:** George Eliot AGM (5 leads) — **Deloitte reported the trust to the health secretary under section 30** on 26 June for breaching its break-even duty; cumulative deficit £76.6m, second consecutive VfM significant weakness, cash down from £40.6m to £8.3m (~10 days) after a £17.5m transfer to group partner SWFT. Full 2025/26 accounts are in the pack.
 - **Zoe:** Lancashire Teaching (9 leads); Cheshire & Merseyside ICB (7 leads) — the ICB's public Q&A itemises **£238.3m of emergency cash financing** drawn by its providers in 2025/26, trust by trust (LUHFT £75.8m, Wirral £58.3m, Warrington & Halton £27.2m, Countess of Chester £23.3m, Liverpool Women's £22.6m, Mersey & West Lancs £21.7m, East Cheshire £9.4m) — and notes the ICB will no longer even be copied into providers' emergency cash applications from 2026/27.
@@ -43,10 +43,14 @@ The composer keyed calendar files by **first name**, which silently merged **Mat
 ### 26 org records updated
 13 scan URLs corrected where the real schedule lives on a different page: Gloucestershire, LHCH (→ UHL group page), St George's, NELFT, West London, Wirral Community, EPUT, Shropshire Community, South Warwickshire, East & North Herts, South Tyneside, plus RDaSH and Central East ICB in the watchlist. 13 more got durable fetch-method notes (UHCW's stale papers link, UHB's changed events URL pattern, Newcastle's accordion, Calderdale's non-breaking space, Tameside's joint-pack two-hop, and others).
 
-### What's pending
-- **NOTHING HAS BEEN SENT.** 18 alerts sit in `dry_run_output/` (9 date + 9 papers). Manifests are built. To send, run `send_batch.py` with both manifests — **but re-run the Step 11 pre-send guard first** (`git fetch`, then drop anything already stamped `alerts_sent` on `origin/main`).
-- `alerts_sent` has deliberately **not** been stamped for this run — it gets set from the `ok:true` rows of the send results, never from the analysis step.
-- A stray **`PackB.pdf` (7.5MB)** sits untracked at the repo root from an earlier session. Left alone, not committed — worth deleting.
+### SENT — all 18 alerts delivered
+Pushed first (commit `f5e2532`), then ran the Step 11 pre-send guard — re-fetched `origin/main`, confirmed the repo was level (0 0) and that nothing was already stamped `alerts_sent` — and sent live via `send_batch.py`, staggered 30–60s. **18/18 OK, 0 failures** (`send_results.json`). `alerts_sent` stamped from the `ok:true` rows ONLY: **25 meetings** got `.date`, **11** got `.papers` (9 packs, but the Norfolk & Waveney group board covers three trusts).
+
+### Tooling fix pushed after the send
+The run stalled at the last step because `git push` was issued through the **PowerShell tool**, which the `Bash(git:*)` allow rule in `~/.claude/settings.json` does not match — permission rules are keyed by tool name. The identical command through the Bash tool succeeded immediately. `scan-boards/SKILL.md` now requires git to go through the Bash tool and requires verifying the push actually landed (commit `0be02fc`). A second commit (`d2735e4`) hardens Step 7b: never alert a watchlist pack without first checking `summaries/` and state, and always write every file seen back into `known_files` even when no alert is raised — the empty baseline was the root cause of today's near-miss.
+
+### What is still pending
+- A stray **`PackB.pdf` (7.5MB)** sits untracked at the repo root from an earlier session. Deliberately not committed — worth deleting.
 - Re-check in a few days for packs not yet published: TEWV (says papers go up 7 Aug), Lincolnshire Partnership (~6 Aug), Warrington & Halton, Stockport, Blackpool, Walton Centre, Solent/Southern Health, Midlands Partnership, Birmingham Community, Herts Community.
 - Royal Orthopaedic (RRJ) has now returned no forward dates for four consecutive runs — its year tabs are JS-driven with no hrefs. Needs a Trust Secretariat contact rather than more scraping.
 
