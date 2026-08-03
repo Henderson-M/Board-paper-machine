@@ -1,3 +1,55 @@
+## 2026-08-03 (FULL SWEEP — dates + packs + watchlist, DRY-RUN, awaiting go-ahead to send, Henry + Claude)
+
+### Headline
+Full no-arg sweep. State was **properly synced first** (`git fetch` then a level check against `origin/main` — behind 0, ahead 0) before anything was scanned. Scanned all **239 in-scope orgs** (resolved to **221 unique scan units** after cluster dedup) across 16 parallel date agents, checked the **48 in-window meetings** (window 1–13 Aug) across 8 detection agents, and polled the **14-org papers watchlist**. **Zero hard scan failures** — 221/221 units and 44/44 detection groups returned. **25 new meeting dates** found and **9 board packs analysed** (roughly **63 LEAD / 40 WORTH WATCHING / 34 FOI** across them). **18 alerts written to `dry_run_output/` — NOTHING HAS BEEN SENT.** Manifests are built and ready.
+
+### The near-miss worth knowing about
+The watchlist reported **seven "new" packs**. Six of them — Gateshead, NWAS, RDaSH, South West Yorkshire, Kent & Medway and Moorfields — had **already been analysed and alerted by the 23–31 July runs**. They looked new only because `papers_watchlist.json` held an **empty `known_files` baseline** for those orgs, so every document on the page read as unseen. Had that been trusted, six duplicate papers alerts would have gone to the whole team — the same outcome as 30 July, arriving by a different route. Caught by checking each one against the existing `summaries/` files before analysing. **Only Cheshire & Merseyside ICB was genuinely new.**
+
+**Fixed at root:** the watchlist has been rebuilt — every file the agents saw is now baselined into `known_files`, and **no org is left with an empty baseline**. Watchlist is now 8 orgs (was 5): RDY dropped (has a future meeting again), RR7/RXE/RXG/S1Y5D added.
+
+### Packs analysed (9) — all dry-run, by recipient
+- **Matt Mathers:** County Durham & Darlington (8 leads) — NHSE has **withheld the trust's Q2 deficit support** from an £18.5m quarterly pot and put it in a new North East & Yorkshire **"At Risk: Active intervention"** category with weekly reporting; BAF states an underlying deficit "over £70m" and a £23.8m CIP shortfall.
+- **Caitlin:** George Eliot AGM (5 leads) — **Deloitte reported the trust to the health secretary under section 30** on 26 June for breaching its break-even duty; cumulative deficit £76.6m, second consecutive VfM significant weakness, cash down from £40.6m to £8.3m (~10 days) after a £17.5m transfer to group partner SWFT. Full 2025/26 accounts are in the pack.
+- **Zoe:** Lancashire Teaching (9 leads); Cheshire & Merseyside ICB (7 leads) — the ICB's public Q&A itemises **£238.3m of emergency cash financing** drawn by its providers in 2025/26, trust by trust (LUHFT £75.8m, Wirral £58.3m, Warrington & Halton £27.2m, Countess of Chester £23.3m, Liverpool Women's £22.6m, Mersey & West Lancs £21.7m, East Cheshire £9.4m) — and notes the ICB will no longer even be copied into providers' emergency cash applications from 2026/27.
+- **Annabelle:** Sherwood Forest (8 leads) — ended June on **£1.2m cash, below the £2.8m minimum DHSC set as a condition of its cash support**; 11.8% of supplier invoices paid on time against a 95% standard; an executive-agreed "prioritisation matrix of supplier payments"; finance paper concedes the pressure "can be partly managed by extending creditors". Also Derbyshire Community (6 leads) — the Quality People Committee **refused to approve the trust's own race equality priority**, recording that WRES "outcomes continue to deteriorate".
+- **Emily:** Essex Partnership (7 leads) — the **Lampard Inquiry served EPUT with a section 21 compulsion notice** covering eight Rule 9 requests, logged in the trust's own BAF as "negative assurance"; inquiry cash spend now £17.1m plus a £6.6m accounting pressure.
+- **Nick:** Wrightington, Wigan & Leigh (6 leads) — BAF warns of a "significant risk that external cash support will be required during Quarter 4 of 2026/27", three months into a breakeven plan; cash down £15m in a month to £17m, 11 operating cash days.
+- **James:** Norfolk & Waveney three-trust group board (7 leads).
+
+### Dates
+25 new meetings added (state now **1,206**), mostly autumn AGMs and annual public meetings. Date alerts to 9 correspondents: Zoe 7, Alison 6, Emily 4, Matt Mathers 3, Mimi 2, and one each to Annabelle, Henry, Joe, Nick. Three trusts publish **no forward dates at all** and their next meeting had to be read out of a board pack — East Cheshire (3 Sep), NWAS (30 Sep) and the South Tees/North Tees group board (3 Sep).
+
+### 17 dates retracted as unsupported by the trusts' own pages
+Every one was checked to have **no pack files** attached, and the correct replacement date confirmed present in state. Retracted (status `retracted`, evidence recorded in `date_review`):
+- **South Tyneside & Sunderland** 5 Aug and 7 Aug — the trust lists only 6 Aug. Also **2 Oct** and **4 Dec**, off-by-one duplicates of the real 1 Oct / 3 Dec (the trust meets Thursdays; those are Fridays).
+- **Leicester** 7 Aug — page says verbatim "There will be no public Boards in Common meeting in August 2026."
+- **Frimley** 5 Aug, **South Warwickshire** 5 Aug, **Lancashire & South Cumbria** 5 Aug, **Mid Yorkshire** 11 Aug, **Coventry & Warwickshire Partnership** 12 Aug, **Kettering** 7 Aug, **Northampton General** 7 Aug — none of these trusts has an August meeting in its published schedule.
+- **Surrey & Sussex** 6 Aug and 13 Aug — the trust states its next meeting is 27 Aug (already in state).
+- **Shropshire Community** 1 Aug (real date 13 Aug), **EPUT** 1 Aug (real date 5 Aug, confirmed on the pack cover), **Dorset Healthcare** 1 Aug (1 Aug 2026 is a Saturday — a first-of-month placeholder).
+
+Kept but flagged `flagged_unverified`, because absence of evidence is not evidence of absence: Dorset County 11 Aug, Alder Hey 5 Aug, Stockport 6 Aug.
+
+**Note:** 15 of the 17 had already had a date alert sent in an earlier run, so correspondents may have these in their calendars. Retracting stops the machine chasing packs for them; it does not un-send anything.
+
+### Guards that fired
+- **Anti-fabrication caught invented schedules at 10 orgs** — West Midlands Ambulance, Alder Hey, Salisbury, Great Western, Royal Papworth, Kettering, Lancashire & South Cumbria, Cheshire & Merseyside ICB, St George's and Northampton General. The starkest: WebFetch returned **Royal United Bath's entire schedule as if it were Alder Hey's**, and separately built dates out of the flatpickr date-picker cells in Alder Hey's archive filter widget. None reached an email.
+- **Anti-omission recovered packs and dates WebFetch had silently dropped.** Four of the eight in-window packs were invisible to WebFetch and surfaced only via `extract_board_html.py`: Sherwood Forest (collapsed accordion markup), Derbyshire Community and Lancashire Teaching (extension-less CMS handler links), County Durham (two-hop onto the 2026/27 year tab). Same for dates at Whittington, South Tyneside, Birmingham Community, East London, Walton Centre, ESNEFT and BSMHFT.
+- **A note in our own data was wrong.** The 21 July note calling Newcastle's (RTD) forward dates a hallucination is **incorrect** — the dates are real, sitting in a collapsed accordion that both WebFetch and Playwright `--text` render as empty. Only raw HTML sees them. Note corrected.
+
+### Bug found and fixed in this run's tooling
+The composer keyed calendar files by **first name**, which silently merged **Matt Discombe and Matt Mathers into one `matt.ics`**. Caught before commit by comparing against the repo's existing `matt_discombe.ics` / `matt_mathers.ics` convention. Filenames now use the full-name slug throughout (calendars, delta files, dry-run bodies, manifest ids). The stray `matt.ics` was removed.
+
+### 26 org records updated
+13 scan URLs corrected where the real schedule lives on a different page: Gloucestershire, LHCH (→ UHL group page), St George's, NELFT, West London, Wirral Community, EPUT, Shropshire Community, South Warwickshire, East & North Herts, South Tyneside, plus RDaSH and Central East ICB in the watchlist. 13 more got durable fetch-method notes (UHCW's stale papers link, UHB's changed events URL pattern, Newcastle's accordion, Calderdale's non-breaking space, Tameside's joint-pack two-hop, and others).
+
+### What's pending
+- **NOTHING HAS BEEN SENT.** 18 alerts sit in `dry_run_output/` (9 date + 9 papers). Manifests are built. To send, run `send_batch.py` with both manifests — **but re-run the Step 11 pre-send guard first** (`git fetch`, then drop anything already stamped `alerts_sent` on `origin/main`).
+- `alerts_sent` has deliberately **not** been stamped for this run — it gets set from the `ok:true` rows of the send results, never from the analysis step.
+- A stray **`PackB.pdf` (7.5MB)** sits untracked at the repo root from an earlier session. Left alone, not committed — worth deleting.
+- Re-check in a few days for packs not yet published: TEWV (says papers go up 7 Aug), Lincolnshire Partnership (~6 Aug), Warrington & Halton, Stockport, Blackpool, Walton Centre, Solent/Southern Health, Midlands Partnership, Birmingham Community, Herts Community.
+- Royal Orthopaedic (RRJ) has now returned no forward dates for four consecutive runs — its year tabs are JS-driven with no hrefs. Needs a Trust Secretariat contact rather than more scraping.
+
 ## 2026-07-30/31 (FULL SWEEP + LIVE SEND — but DUPLICATED a colleague's 27 Jul run, then reconciled, Henry + Claude)
 
 ### What happened (plain English)

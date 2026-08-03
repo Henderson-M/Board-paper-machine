@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYY-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Kent Community Health NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RPA-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Medway NHS Foundation Trust — Annual Members' Meeting (AGM)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/about-us/board-meetings/
+URL:https://www.medway.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXY-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Annual General Meeting (via MS Teams)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXY-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Public Board meeting (in person)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX7-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:North West Ambulance Service NHS Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nwas.nhs.uk/about/directors/board-meetings/
+URL:https://www.nwas.nhs.uk/about/directors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Kent Community Health NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+END:VCALENDAR

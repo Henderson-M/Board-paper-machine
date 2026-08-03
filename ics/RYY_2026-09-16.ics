@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYY-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Kent Community Health NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+END:VCALENDAR

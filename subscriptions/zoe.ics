@@ -3,26 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RBN-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
-URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RBT-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
-URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
-END:VEVENT
-BEGIN:VEVENT
 UID:RWW-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -31,7 +13,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RY2-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
@@ -40,7 +22,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RBS-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Alder Hey Children's NHS Foundation Trust — Board of Directors Meeting
@@ -48,17 +30,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.alderhey.nhs.uk
 URL:https://www.alderhey.nhs.uk/about-us/trust-board/
 END:VEVENT
 BEGIN:VEVENT
-UID:RW5-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Board of Directors Public Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.lscft.nhs.uk/about-us/board/board-papers
-URL:https://www.lscft.nhs.uk/about-us/board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RET-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:The Walton Centre NHS Foundation Trust — Trust Board
@@ -67,7 +40,7 @@ URL:https://www.thewaltoncentre.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXN-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Lancashire Teaching Hospitals NHS Foundation Trust — Board of Directors
@@ -76,16 +49,16 @@ URL:https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXL-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: None
-URL:None
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
 END:VEVENT
 BEGIN:VEVENT
 UID:RBL-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
@@ -94,7 +67,7 @@ URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -103,7 +76,7 @@ URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-m
 END:VEVENT
 BEGIN:VEVENT
 UID:RTX-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:University Hospitals of Morecambe Bay NHS Foundation Trust — Board of Directors meeting
@@ -111,8 +84,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.uhmb.nhs.uk/our
 URL:https://www.uhmb.nhs.uk/our-trust/trust-board-and-council-governor-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RY7-2026-09-02@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Wirral Community Health and Care NHS Foundation Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RXL-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -120,8 +102,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.blackpoolteachi
 URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/upcoming-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RJN-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:East Cheshire NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings
+URL:https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RW5-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Trust Board Meeting
@@ -130,7 +121,7 @@ URL:https://www.lscft.nhs.uk/about-us/board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXR-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:East Lancashire Hospitals NHS Trust — Trust Board meeting (Wednesday)
@@ -139,7 +130,7 @@ URL:https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:QE1-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Lancashire and South Cumbria ICB — 17 September 2026 Board Meeting
@@ -148,7 +139,7 @@ URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and
 END:VEVENT
 BEGIN:VEVENT
 UID:RW4-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Mersey Care NHS Foundation Trust — Board of Directors meeting
@@ -157,7 +148,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RBQ-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Liverpool Heart and Chest Hospital NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board Meeting (public)
@@ -166,7 +157,7 @@ URL:https://www.lhch.nhs.uk/board-of-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:REM-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Liverpool University Hospitals NHS Foundation Trust — Group Board Meeting (public, live streamed)
@@ -175,7 +166,7 @@ URL:https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors meeting
@@ -184,7 +175,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RJR-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Countess of Chester Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -193,7 +184,7 @@ URL:https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -202,7 +193,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXL-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -211,7 +202,7 @@ URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RET-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:The Walton Centre NHS Foundation Trust — Trust Board
@@ -220,7 +211,7 @@ URL:https://www.thewaltoncentre.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXN-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Lancashire Teaching Hospitals NHS Foundation Trust — Board of Directors
@@ -229,7 +220,7 @@ URL:https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW5-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Board of Directors Public Meeting
@@ -238,7 +229,7 @@ URL:https://www.lscft.nhs.uk/about-us/board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RWW-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -247,7 +238,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RY2-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
@@ -256,7 +247,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -265,7 +256,7 @@ URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-m
 END:VEVENT
 BEGIN:VEVENT
 UID:RBS-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Alder Hey Children's NHS Foundation Trust — Board of Directors Meeting
@@ -274,7 +265,7 @@ URL:https://www.alderhey.nhs.uk/about-us/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY7-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Wirral Community Health and Care NHS Foundation Trust — Public Board of Directors meeting
@@ -283,7 +274,7 @@ URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2026-10-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -292,7 +283,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RBL-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Wirral University Teaching Hospital NHS Foundation Trust — WUTH and WCHC Public Board Meeting
@@ -301,7 +292,7 @@ URL:https://www.wuth.nhs.uk/about-us/who-we-are/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -309,8 +300,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.clatterbridgecc
 URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RY7-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Wirral Community Health and Care NHS Foundation Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RXL-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -319,7 +319,7 @@ URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RW5-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Board of Directors Public Meeting
@@ -328,7 +328,7 @@ URL:https://www.lscft.nhs.uk/about-us/board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW5-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Trust Board Meeting
@@ -337,7 +337,7 @@ URL:https://www.lscft.nhs.uk/about-us/board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXR-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:East Lancashire Hospitals NHS Trust — Trust Board meeting (Wednesday)
@@ -346,7 +346,7 @@ URL:https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:RBQ-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Liverpool Heart and Chest Hospital NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board Meeting (in public)
@@ -354,8 +354,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.lhch.nhs.uk/boa
 URL:https://www.lhch.nhs.uk/board-of-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:REM-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Liverpool University Hospitals NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+URL:https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RW4-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Mersey Care NHS Foundation Trust — Board of Directors meeting
@@ -364,7 +373,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RJR-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Countess of Chester Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -373,7 +382,7 @@ URL:https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -382,7 +391,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RWW-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -391,7 +400,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RY2-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
@@ -400,7 +409,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -409,7 +418,7 @@ URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-m
 END:VEVENT
 BEGIN:VEVENT
 UID:RBS-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Alder Hey Children's NHS Foundation Trust — Board of Directors Meeting
@@ -418,7 +427,7 @@ URL:https://www.alderhey.nhs.uk/about-us/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXL-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -427,7 +436,7 @@ URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RET-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:The Walton Centre NHS Foundation Trust — Trust Board
@@ -436,7 +445,7 @@ URL:https://www.thewaltoncentre.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXN-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Lancashire Teaching Hospitals NHS Foundation Trust — Board of Directors
@@ -445,7 +454,7 @@ URL:https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW5-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Lancashire and South Cumbria NHS Foundation Trust — Board of Directors Public Meeting
@@ -454,7 +463,7 @@ URL:https://www.lscft.nhs.uk/about-us/board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXR-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:East Lancashire Hospitals NHS Trust — Trust Board meeting (Wednesday)
@@ -463,7 +472,7 @@ URL:https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:RBQ-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Liverpool Heart and Chest Hospital NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board Meeting (in public)
@@ -471,8 +480,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.lhch.nhs.uk/boa
 URL:https://www.lhch.nhs.uk/board-of-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:REM-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Liverpool University Hospitals NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+URL:https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RW4-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Mersey Care NHS Foundation Trust — Board of Directors meeting
@@ -481,7 +499,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RJR-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Countess of Chester Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -490,7 +508,7 @@ URL:https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -499,7 +517,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)
@@ -508,7 +526,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RWW-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Warrington and Halton Teaching Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -517,7 +535,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RY2-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Bridgewater Community Healthcare NHS Foundation Trust — Trust Board Meeting
@@ -526,7 +544,7 @@ URL:https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-an
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -534,8 +552,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.clatterbridgecc
 URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RY7-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Wirral Community Health and Care NHS Foundation Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RXL-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -544,7 +571,7 @@ URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RET-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:The Walton Centre NHS Foundation Trust — Trust Board
@@ -553,7 +580,7 @@ URL:https://www.thewaltoncentre.nhs.uk/trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXN-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Lancashire Teaching Hospitals NHS Foundation Trust — Board of Directors
@@ -562,7 +589,7 @@ URL:https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2027-02-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -571,7 +598,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:REN-2027-03-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:The Clatterbridge Cancer Centre NHS Foundation Trust — Board meeting
@@ -580,7 +607,7 @@ URL:https://www.clatterbridgecc.nhs.uk/about-us/how-were-run/trust-board/board-m
 END:VEVENT
 BEGIN:VEVENT
 UID:RXL-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Blackpool Teaching Hospitals NHS Foundation Trust — Board Meeting
@@ -589,7 +616,7 @@ URL:https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RXR-2027-03-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:East Lancashire Hospitals NHS Trust — Trust Board meeting (Wednesday)
@@ -598,7 +625,7 @@ URL:https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda
 END:VEVENT
 BEGIN:VEVENT
 UID:RBQ-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Liverpool Heart and Chest Hospital NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board Meeting (in public)
@@ -606,8 +633,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.lhch.nhs.uk/boa
 URL:https://www.lhch.nhs.uk/board-of-directors-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:REM-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Liverpool University Hospitals NHS Foundation Trust — NHS University Hospitals of Liverpool Group Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+URL:https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RW4-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Mersey Care NHS Foundation Trust — Board of Directors meeting
@@ -616,7 +652,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RJR-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Countess of Chester Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -625,7 +661,7 @@ URL:https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meet
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)
@@ -634,7 +670,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RBN-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Mersey and West Lancashire Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -643,7 +679,7 @@ URL:https://www.merseywestlancs.nhs.uk/trust-board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW4-2027-05-20@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
 SUMMARY:Mersey Care NHS Foundation Trust — Board of Directors meeting
@@ -652,7 +688,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-05-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)
@@ -661,7 +697,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RW4-2027-07-22@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270722
 DTEND;VALUE=DATE:20270723
 SUMMARY:Mersey Care NHS Foundation Trust — Trust Board Meeting
@@ -670,7 +706,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270730
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)
@@ -679,7 +715,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RW4-2027-09-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270923
 DTEND;VALUE=DATE:20270924
 SUMMARY:Mersey Care NHS Foundation Trust — Trust Board Meeting
@@ -688,7 +724,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270930
 DTEND;VALUE=DATE:20271001
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)
@@ -697,7 +733,7 @@ URL:https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes
 END:VEVENT
 BEGIN:VEVENT
 UID:RW4-2027-11-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20271118
 DTEND;VALUE=DATE:20271119
 SUMMARY:Mersey Care NHS Foundation Trust — Trust Board Meeting
@@ -706,7 +742,7 @@ URL:https://www.merseycare.nhs.uk/about-us/board-directors/board-director-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RBT-2027-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20271125
 DTEND;VALUE=DATE:20271126
 SUMMARY:Mid Cheshire Hospitals NHS Foundation Trust — Board of Directors (public)

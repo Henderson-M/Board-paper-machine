@@ -3,53 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RX4-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust — Board Meeting 2026
-DESCRIPTION:Detected by Board paper machine. Source: https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
-URL:https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
-END:VEVENT
-BEGIN:VEVENT
-UID:QHM-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:North East and North Cumbria ICB — Integrated Care Board Meeting and Annual General Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
-URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RR7-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Gateshead Health NHS Foundation Trust — Board of Directors (Part 1, public)
-DESCRIPTION:Detected by Board paper machine. Source: https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026.pdf
-URL:https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026.pdf
-END:VEVENT
-BEGIN:VEVENT
-UID:RTD-2026-07-31@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:The Newcastle upon Tyne Hospitals NHS Foundation Trust — Public Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
-URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-directors-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:R0B-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RXP-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:County Durham and Darlington NHS Foundation Trust — Trust Board Meeting
@@ -58,7 +13,7 @@ URL:https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-me
 END:VEVENT
 BEGIN:VEVENT
 UID:R0B-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
@@ -66,17 +21,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/ab
 URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:R0B-2026-08-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RX3-2026-08-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:Tees, Esk and Wear Valleys NHS Foundation Trust — Board of Directors Meeting
@@ -84,8 +30,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.tewv.nhs.uk/abo
 URL:https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RTR-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:South Tees Hospitals NHS Foundation Trust — UHT Group Board of Directors (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+URL:https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RVW-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:North Tees and Hartlepool NHS Foundation Trust — UHT Group Board of Directors (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+URL:https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RX6-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
@@ -94,7 +58,7 @@ URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNN-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:North Cumbria Integrated Care NHS Foundation Trust — Public Board of Directors Meeting
@@ -103,7 +67,7 @@ URL:https://www.ncic.nhs.uk/trust/how-we-are-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RTF-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Northumbria Healthcare NHS Foundation Trust — Public Board Meeting
@@ -111,8 +75,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.northumbria.nhs
 URL:https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and-reports/board-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RX4-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust — Annual Members Meeting (trust annual public meeting)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
+URL:https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
+END:VEVENT
+BEGIN:VEVENT
 UID:RTD-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:The Newcastle upon Tyne Hospitals NHS Foundation Trust — Public Board Meeting
@@ -121,7 +94,7 @@ URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-d
 END:VEVENT
 BEGIN:VEVENT
 UID:QHM-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:North East and North Cumbria ICB — Integrated Care Board meeting
@@ -129,8 +102,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://northeastnorthcumbr
 URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
 END:VEVENT
 BEGIN:VEVENT
+UID:QHM-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:North East and North Cumbria ICB — Integrated Care Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
+URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:R0B-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
@@ -138,17 +120,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/ab
 URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:R0B-2026-10-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RXP-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:County Durham and Darlington NHS Foundation Trust — Trust Board Meeting
@@ -157,7 +130,7 @@ URL:https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-me
 END:VEVENT
 BEGIN:VEVENT
 UID:QHM-2026-10-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:North East and North Cumbria ICB — Integrated Care Board Meeting
@@ -166,7 +139,7 @@ URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governan
 END:VEVENT
 BEGIN:VEVENT
 UID:RX4-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust — Board Meeting 2026
@@ -175,7 +148,7 @@ URL:https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
 END:VEVENT
 BEGIN:VEVENT
 UID:RX6-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
@@ -184,7 +157,7 @@ URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNN-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:North Cumbria Integrated Care NHS Foundation Trust — Public Board of Directors Meeting
@@ -193,7 +166,7 @@ URL:https://www.ncic.nhs.uk/trust/how-we-are-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RTF-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Northumbria Healthcare NHS Foundation Trust — Public Board Meeting
@@ -202,7 +175,7 @@ URL:https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and
 END:VEVENT
 BEGIN:VEVENT
 UID:RTD-2026-11-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:The Newcastle upon Tyne Hospitals NHS Foundation Trust — Public Board Meeting
@@ -211,7 +184,7 @@ URL:https://www.newcastle-hospitals.nhs.uk/about/board-of-directors-2/board-of-d
 END:VEVENT
 BEGIN:VEVENT
 UID:RXP-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:County Durham and Darlington NHS Foundation Trust — Trust Board Meeting
@@ -220,7 +193,7 @@ URL:https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-me
 END:VEVENT
 BEGIN:VEVENT
 UID:R0B-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Public Board Meeting
@@ -228,17 +201,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/ab
 URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
-UID:R0B-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RX6-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
@@ -247,7 +211,7 @@ URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNN-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:North Cumbria Integrated Care NHS Foundation Trust — Public Board of Directors Meeting
@@ -256,7 +220,7 @@ URL:https://www.ncic.nhs.uk/trust/how-we-are-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:QHM-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:North East and North Cumbria ICB — Integrated Care Board Meeting
@@ -265,7 +229,7 @@ URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governan
 END:VEVENT
 BEGIN:VEVENT
 UID:RTF-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Northumbria Healthcare NHS Foundation Trust — Public Board Meeting
@@ -274,7 +238,7 @@ URL:https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and
 END:VEVENT
 BEGIN:VEVENT
 UID:RXP-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:County Durham and Darlington NHS Foundation Trust — Trust Board Meeting
@@ -283,7 +247,7 @@ URL:https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-me
 END:VEVENT
 BEGIN:VEVENT
 UID:R0B-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:South Tyneside and Sunderland NHS Foundation Trust — Public Board Meeting
@@ -292,7 +256,7 @@ URL:https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RX6-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
@@ -301,7 +265,7 @@ URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNN-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:North Cumbria Integrated Care NHS Foundation Trust — Public Board of Directors Meeting
@@ -310,7 +274,7 @@ URL:https://www.ncic.nhs.uk/trust/how-we-are-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RTF-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Northumbria Healthcare NHS Foundation Trust — Public Board Meeting
@@ -319,7 +283,7 @@ URL:https://www.northumbria.nhs.uk/about-us/corporate-information/strategies-and
 END:VEVENT
 BEGIN:VEVENT
 UID:QHM-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:North East and North Cumbria ICB — Integrated Care Board Meeting
@@ -328,7 +292,7 @@ URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governan
 END:VEVENT
 BEGIN:VEVENT
 UID:RXP-2027-04-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:County Durham and Darlington NHS Foundation Trust — Trust Board Meeting

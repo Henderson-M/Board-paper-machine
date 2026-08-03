@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RY7-2027-02-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Wirral Community Health and Care NHS Foundation Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings/
+END:VEVENT
+END:VCALENDAR

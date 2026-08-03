@@ -3,35 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RX7-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:North West Ambulance Service NHS Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.nwas.nhs.uk/about/directors/board-meetings/
-URL:https://www.nwas.nhs.uk/about/directors/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:R0A-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Manchester University NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://mft.nhs.uk/the-trust/the-board/board-meetings/
-URL:https://mft.nhs.uk/the-trust/the-board/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RMC-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Bolton NHS Foundation Trust — Board of Directors' Meeting (Public)
-DESCRIPTION:Detected by Board paper machine. Source: https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
-URL:https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
-END:VEVENT
-BEGIN:VEVENT
 UID:RRF-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -40,7 +13,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RMP-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Tameside and Glossop Integrated Care NHS Foundation Trust — Joint Board Meeting
@@ -49,7 +22,7 @@ URL:https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWJ-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Stockport NHS Foundation Trust — Joint Board Meeting
@@ -58,7 +31,7 @@ URL:https://www.stockport.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QOP-2026-08-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:Greater Manchester ICB — Greater Manchester ICB Board
@@ -67,7 +40,7 @@ URL:https://gmintegratedcare.org.uk/meetings-and-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRF-2026-09-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Trust Board Part 1 - September 2026 (month only, verify day)
@@ -76,7 +49,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RM3-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Northern Care Alliance NHS Foundation Trust — Board of Directors Meeting
@@ -85,7 +58,7 @@ URL:https://www.northerncarealliance.nhs.uk/about-us/board-directors/board-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RT2-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Pennine Care NHS Foundation Trust — Board Meeting
@@ -94,7 +67,7 @@ URL:https://www.penninecare.nhs.uk/boardmeetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RXV-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Greater Manchester Mental Health NHS Foundation Trust — Board of Directors Meeting
@@ -103,7 +76,7 @@ URL:https://www.gmmh.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RMC-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Bolton NHS Foundation Trust — Board of Directors' Meeting (Public)
@@ -112,7 +85,7 @@ URL:https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RBV-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:The Christie NHS Foundation Trust — Board of Directors Meeting
@@ -121,7 +94,7 @@ URL:https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/bo
 END:VEVENT
 BEGIN:VEVENT
 UID:R0A-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Manchester University NHS Foundation Trust — Board of Directors Meeting
@@ -129,8 +102,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://mft.nhs.uk/the-trus
 URL:https://mft.nhs.uk/the-trust/the-board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX7-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:North West Ambulance Service NHS Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nwas.nhs.uk/about/directors/board-meetings/
+URL:https://www.nwas.nhs.uk/about/directors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RMP-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Tameside and Glossop Integrated Care NHS Foundation Trust — Joint Board Meeting
@@ -139,7 +121,7 @@ URL:https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWJ-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Stockport NHS Foundation Trust — Joint Board Meeting
@@ -148,7 +130,7 @@ URL:https://www.stockport.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRF-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Board in Common - October 2026 (month only, verify day)
@@ -157,7 +139,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRF-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -166,7 +148,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RT2-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Pennine Care NHS Foundation Trust — Board Meeting
@@ -175,7 +157,7 @@ URL:https://www.penninecare.nhs.uk/boardmeetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RM3-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Northern Care Alliance NHS Foundation Trust — Board of Directors Meeting
@@ -184,7 +166,7 @@ URL:https://www.northerncarealliance.nhs.uk/about-us/board-directors/board-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RXV-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Greater Manchester Mental Health NHS Foundation Trust — Board of Directors Meeting
@@ -193,7 +175,7 @@ URL:https://www.gmmh.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QOP-2026-11-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
@@ -202,7 +184,7 @@ URL:https://gmintegratedcare.org.uk/meetings-and-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:R0A-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Manchester University NHS Foundation Trust — Board of Directors Meeting
@@ -211,7 +193,7 @@ URL:https://mft.nhs.uk/the-trust/the-board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RMC-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Bolton NHS Foundation Trust — Board of Directors' Meeting (Public)
@@ -220,7 +202,7 @@ URL:https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRF-2026-12-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Trust Board Part 1 - December 2026 (month only, verify day)
@@ -229,7 +211,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RRF-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -238,7 +220,7 @@ URL:https://www.wwl.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RT2-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Pennine Care NHS Foundation Trust — Board Meeting
@@ -247,7 +229,7 @@ URL:https://www.penninecare.nhs.uk/boardmeetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RMP-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Tameside and Glossop Integrated Care NHS Foundation Trust — Joint Board Meeting
@@ -256,7 +238,7 @@ URL:https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWJ-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Stockport NHS Foundation Trust — Joint Board Meeting
@@ -265,7 +247,7 @@ URL:https://www.stockport.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RM3-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Northern Care Alliance NHS Foundation Trust — Board of Directors Meeting
@@ -274,7 +256,7 @@ URL:https://www.northerncarealliance.nhs.uk/about-us/board-directors/board-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RXV-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Greater Manchester Mental Health NHS Foundation Trust — Board of Directors Meeting
@@ -283,7 +265,7 @@ URL:https://www.gmmh.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QOP-2027-01-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
@@ -292,7 +274,7 @@ URL:https://gmintegratedcare.org.uk/meetings-and-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:RMP-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Tameside and Glossop Integrated Care NHS Foundation Trust — Joint Board Meeting
@@ -301,7 +283,7 @@ URL:https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWJ-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Stockport NHS Foundation Trust — Joint Board Meeting
@@ -310,7 +292,7 @@ URL:https://www.stockport.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QOP-2027-02-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
@@ -319,7 +301,7 @@ URL:https://gmintegratedcare.org.uk/meetings-and-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:RM3-2027-03-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Northern Care Alliance NHS Foundation Trust — Board of Directors Meeting
@@ -328,7 +310,7 @@ URL:https://www.northerncarealliance.nhs.uk/about-us/board-directors/board-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RXV-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Greater Manchester Mental Health NHS Foundation Trust — Board of Directors Meeting
@@ -337,7 +319,7 @@ URL:https://www.gmmh.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QOP-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board

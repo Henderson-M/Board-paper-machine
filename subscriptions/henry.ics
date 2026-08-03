@@ -3,89 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RXG-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
-SUMMARY:South West Yorkshire Partnership NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/
-URL:https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RCB-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
-URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RCD-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Harrogate and District NHS Foundation Trust — Board of Directors Meeting - held in public
-DESCRIPTION:Detected by Board paper machine. Source: https://www.hdft.nhs.uk/about/board-meeting/
-URL:https://www.hdft.nhs.uk/about/board-meeting/
-END:VEVENT
-BEGIN:VEVENT
-UID:TAH-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Sheffield Health and Social Care NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
-URL:https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
-END:VEVENT
-BEGIN:VEVENT
-UID:RV9-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Humber Teaching NHS Foundation Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.humber.nhs.uk/about/trust-board/public-board-dates/
-URL:https://www.humber.nhs.uk/about/trust-board/public-board-dates/
-END:VEVENT
-BEGIN:VEVENT
-UID:RGD-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Leeds and York Partnership NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
-URL:https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RR8-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Leeds Teaching Hospitals NHS Trust — Trust Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.leedsth.nhs.uk/about/board/meetings/
-URL:https://www.leedsth.nhs.uk/about/board/meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RXE-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Rotherham Doncaster and South Humber NHS Foundation Trust — Board of Directors meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.rdash.nhs.uk/about-us/governance/board-of-directors/board-of-directors-meetings/
-URL:https://www.rdash.nhs.uk/about-us/governance/board-of-directors/board-of-directors-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RXF-2026-08-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-SUMMARY:Mid Yorkshire Teaching NHS Trust — Trust Board Meeting (Board in Common)
-DESCRIPTION:Detected by Board paper machine. Source: https://www.midyorks.nhs.uk/board-meetings/
-URL:https://www.midyorks.nhs.uk/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
 UID:RP5-2026-09-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -94,7 +13,7 @@ URL:https://www.dbth.nhs.uk/board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCF-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Airedale NHS Foundation Trust — Public Board of Directors Meeting
@@ -103,7 +22,7 @@ URL:https://www.airedale-trust.nhs.uk/about-us/our-board-and-leadership/
 END:VEVENT
 BEGIN:VEVENT
 UID:QF7-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:South Yorkshire ICB — ICB Board meeting held in public
@@ -112,7 +31,7 @@ URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
@@ -121,7 +40,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2026-09-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Rotherham NHS Foundation Trust — Board of Directors Public Meeting
@@ -130,7 +49,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RCU-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Sheffield Children's NHS Foundation Trust — Board of Directors Meeting
@@ -139,7 +58,7 @@ URL:https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RHQ-2026-09-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Sheffield Teaching Hospitals NHS Foundation Trust — Board meeting
@@ -148,7 +67,7 @@ URL:https://www.sth.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWY-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Calderdale and Huddersfield NHS Foundation Trust — Public Board of Directors Meeting
@@ -157,7 +76,7 @@ URL:https://www.cht.nhs.uk/publications/board-of-directors-meeting-dates-and-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:RJL-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Northern Lincolnshire and Goole NHS Foundation Trust — Trust Boards-in-Common meeting September 2026
@@ -166,7 +85,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWA-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Hull University Teaching Hospitals NHS Trust — Trust Boards-in-Common meeting September 2026 (HUTH/NLAG)
@@ -175,7 +94,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RXF-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Mid Yorkshire Teaching NHS Trust — Trust Board Meeting
@@ -184,7 +103,7 @@ URL:https://www.midyorks.nhs.uk/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:TAD-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Bradford District Care NHS Foundation Trust — Board of Directors meeting held in public
@@ -192,8 +111,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.bdct.nhs.uk/abo
 URL:https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RY6-2026-09-14@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Leeds Community Healthcare NHS Trust — Annual General Meeting (AGM)
+DESCRIPTION:Detected by Board paper machine. Source: https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/
+URL:https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-papers-and-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:QOQ-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Humber and North Yorkshire ICB — ICB Board meeting
@@ -202,7 +130,7 @@ URL:https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY6-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Leeds Community Healthcare NHS Trust — Trust Board Meeting
@@ -211,7 +139,7 @@ URL:https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-pa
 END:VEVENT
 BEGIN:VEVENT
 UID:QWO-2026-09-22@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:West Yorkshire ICB — West Yorkshire ICB Board Meeting
@@ -220,7 +148,7 @@ URL:https://www.westyorkshire.icb.nhs.uk/meetings/integrated-care-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RR8-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Leeds Teaching Hospitals NHS Trust — Annual General Meeting (AGM)
@@ -229,7 +157,7 @@ URL:https://www.leedsth.nhs.uk/about/board/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RAE-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -238,7 +166,7 @@ URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGD-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Leeds and York Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -247,7 +175,7 @@ URL:https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-dire
 END:VEVENT
 BEGIN:VEVENT
 UID:RR8-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Leeds Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -256,7 +184,7 @@ URL:https://www.leedsth.nhs.uk/about/board/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Yorkshire Ambulance Service NHS Trust — Trust Board Meeting
@@ -265,7 +193,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RFF-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Barnsley Hospital NHS Foundation Trust — Annual General Meeting - Education Centre
@@ -274,7 +202,7 @@ URL:https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -283,7 +211,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:RCD-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Harrogate and District NHS Foundation Trust — Board of Directors Meeting - held in public
@@ -292,7 +220,7 @@ URL:https://www.hdft.nhs.uk/about/board-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:TAH-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Sheffield Health and Social Care NHS Foundation Trust — Board of Directors Meeting
@@ -301,7 +229,7 @@ URL:https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
 END:VEVENT
 BEGIN:VEVENT
 UID:RV9-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Humber Teaching NHS Foundation Trust — Trust Board Meeting
@@ -310,7 +238,7 @@ URL:https://www.humber.nhs.uk/about/trust-board/public-board-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:RFF-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Barnsley Hospital NHS Foundation Trust — Board of Directors
@@ -319,7 +247,7 @@ URL:https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RJL-2026-10-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Northern Lincolnshire and Goole NHS Foundation Trust — Trust Boards-in-Common meeting October 2026
@@ -328,7 +256,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWA-2026-10-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Hull University Teaching Hospitals NHS Trust — Trust Boards-in-Common meeting October 2026
@@ -337,7 +265,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2026-10-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -346,7 +274,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:RCU-2026-11-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Sheffield Children's NHS Foundation Trust — Board of Directors Meeting
@@ -355,7 +283,7 @@ URL:https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RP5-2026-11-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -364,7 +292,7 @@ URL:https://www.dbth.nhs.uk/board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RHQ-2026-11-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Sheffield Teaching Hospitals NHS Foundation Trust — Board meeting
@@ -373,7 +301,7 @@ URL:https://www.sth.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCF-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Airedale NHS Foundation Trust — Public Board of Directors Meeting
@@ -382,7 +310,7 @@ URL:https://www.airedale-trust.nhs.uk/about-us/our-board-and-leadership/
 END:VEVENT
 BEGIN:VEVENT
 UID:QF7-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:South Yorkshire ICB — ICB Board meeting held in public
@@ -391,7 +319,7 @@ URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
@@ -400,7 +328,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:TAD-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Bradford District Care NHS Foundation Trust — Board of Directors meeting held in public
@@ -409,7 +337,7 @@ URL:https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:The Rotherham NHS Foundation Trust — Board of Directors Public Meeting
@@ -418,7 +346,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWY-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Calderdale and Huddersfield NHS Foundation Trust — Public Board of Directors Meeting
@@ -427,7 +355,7 @@ URL:https://www.cht.nhs.uk/publications/board-of-directors-meeting-dates-and-pap
 END:VEVENT
 BEGIN:VEVENT
 UID:QOQ-2026-11-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Humber and North Yorkshire ICB — ICB Board meeting
@@ -436,7 +364,7 @@ URL:https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY6-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Leeds Community Healthcare NHS Trust — Trust Board Meeting
@@ -445,7 +373,7 @@ URL:https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-pa
 END:VEVENT
 BEGIN:VEVENT
 UID:RAE-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -454,7 +382,7 @@ URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -463,7 +391,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:RCD-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Harrogate and District NHS Foundation Trust — Board of Directors Meeting - held in public
@@ -472,7 +400,7 @@ URL:https://www.hdft.nhs.uk/about/board-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:TAH-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Sheffield Health and Social Care NHS Foundation Trust — Board of Directors Meeting
@@ -481,7 +409,7 @@ URL:https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
 END:VEVENT
 BEGIN:VEVENT
 UID:RV9-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Humber Teaching NHS Foundation Trust — Trust Board Meeting
@@ -490,7 +418,7 @@ URL:https://www.humber.nhs.uk/about/trust-board/public-board-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:RGD-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Leeds and York Partnership NHS Foundation Trust — Board of Directors Meeting
@@ -499,7 +427,7 @@ URL:https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-dire
 END:VEVENT
 BEGIN:VEVENT
 UID:RR8-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Leeds Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -508,7 +436,7 @@ URL:https://www.leedsth.nhs.uk/about/board/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2026-11-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Yorkshire Ambulance Service NHS Trust — Trust Board Meeting
@@ -517,7 +445,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RFF-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Barnsley Hospital NHS Foundation Trust — Board of Directors
@@ -526,7 +454,7 @@ URL:https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RJL-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Northern Lincolnshire and Goole NHS Foundation Trust — Trust Boards-in-Common meeting December 2026
@@ -535,7 +463,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWA-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Hull University Teaching Hospitals NHS Trust — Trust Boards-in-Common meeting December 2026
@@ -544,7 +472,7 @@ URL:https://www.nlg.nhs.uk/about/events/?cat=board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RP5-2027-01-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust — Board of Directors meeting
@@ -553,7 +481,7 @@ URL:https://www.dbth.nhs.uk/board/
 END:VEVENT
 BEGIN:VEVENT
 UID:QF7-2027-01-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:South Yorkshire ICB — ICB Board meeting held in public
@@ -562,7 +490,7 @@ URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2027-01-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
@@ -571,7 +499,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RCF-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Airedale NHS Foundation Trust — Public Board of Directors Meeting
@@ -580,7 +508,7 @@ URL:https://www.airedale-trust.nhs.uk/about-us/our-board-and-leadership/
 END:VEVENT
 BEGIN:VEVENT
 UID:TAD-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Bradford District Care NHS Foundation Trust — Board of Directors meeting held in public
@@ -589,7 +517,7 @@ URL:https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:QOQ-2027-01-20@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Humber and North Yorkshire ICB — ICB Board meeting
@@ -598,7 +526,7 @@ URL:https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY6-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Leeds Community Healthcare NHS Trust — Trust Board Meeting
@@ -607,7 +535,7 @@ URL:https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-pa
 END:VEVENT
 BEGIN:VEVENT
 UID:TAH-2027-01-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Sheffield Health and Social Care NHS Foundation Trust — Board of Directors Meeting
@@ -616,7 +544,7 @@ URL:https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -625,7 +553,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:RAE-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -634,7 +562,7 @@ URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RR8-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Leeds Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -643,7 +571,7 @@ URL:https://www.leedsth.nhs.uk/about/board/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2027-01-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Yorkshire Ambulance Service NHS Trust — Board Meeting
@@ -652,7 +580,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RFF-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Barnsley Hospital NHS Foundation Trust — Board of Directors
@@ -661,7 +589,7 @@ URL:https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2027-02-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -670,7 +598,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:QF7-2027-03-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:South Yorkshire ICB — ICB Board meeting held in public
@@ -679,7 +607,7 @@ URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RFR-2027-03-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:The Rotherham NHS Foundation Trust — Public Board Meeting
@@ -688,7 +616,7 @@ URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RCF-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Airedale NHS Foundation Trust — Public Board of Directors Meeting
@@ -697,7 +625,7 @@ URL:https://www.airedale-trust.nhs.uk/about-us/our-board-and-leadership/
 END:VEVENT
 BEGIN:VEVENT
 UID:TAD-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Bradford District Care NHS Foundation Trust — Board of Directors meeting held in public
@@ -706,7 +634,7 @@ URL:https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-pape
 END:VEVENT
 BEGIN:VEVENT
 UID:QOQ-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Humber and North Yorkshire ICB — ICB Board meeting
@@ -715,7 +643,7 @@ URL:https://humberandnorthyorkshire.icb.nhs.uk/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY6-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Leeds Community Healthcare NHS Trust — Trust Board Meeting
@@ -724,7 +652,7 @@ URL:https://leedscommunityhealthcare.nhs.uk/about-us/board-of-directors/board-pa
 END:VEVENT
 BEGIN:VEVENT
 UID:RAE-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -733,7 +661,7 @@ URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RR8-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Leeds Teaching Hospitals NHS Trust — Trust Board Meeting
@@ -742,7 +670,7 @@ URL:https://www.leedsth.nhs.uk/about/board/meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2027-03-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Yorkshire Ambulance Service NHS Trust — Board Meeting
@@ -751,7 +679,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RCB-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:York and Scarborough Teaching Hospitals NHS Foundation Trust — Board of Directors Meeting
@@ -760,7 +688,7 @@ URL:https://www.yorkhospitals.nhs.uk/about-us/board-of-directors/board-of-direct
 END:VEVENT
 BEGIN:VEVENT
 UID:TAH-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Sheffield Health and Social Care NHS Foundation Trust — Board of Directors Meeting
@@ -769,7 +697,7 @@ URL:https://www.sheffieldpartnership.nhs.uk/about-us/board-directors
 END:VEVENT
 BEGIN:VEVENT
 UID:QF7-2027-05-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270506
 SUMMARY:South Yorkshire ICB — ICB Board meeting held in public

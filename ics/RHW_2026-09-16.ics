@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RHW-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Royal Berkshire NHS Foundation Trust — Annual General Meeting
+DESCRIPTION:Detected by Board paper machine. Source: http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
+END:VEVENT
+END:VCALENDAR

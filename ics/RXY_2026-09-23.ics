@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXY-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Annual General Meeting (via MS Teams)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+END:VCALENDAR

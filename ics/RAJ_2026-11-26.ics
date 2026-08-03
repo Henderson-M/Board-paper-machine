@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAJ-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Mid and South Essex NHS Foundation Trust — Board of Directors public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mse.nhs.uk/events-at-the-trust/
+URL:https://www.mse.nhs.uk/events-at-the-trust/
+END:VEVENT
+END:VCALENDAR

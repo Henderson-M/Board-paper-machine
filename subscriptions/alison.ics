@@ -3,53 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RVV-2026-07-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
-SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.ekhuft.nhs.uk/about-us/board-of-directors/
-URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
-END:VEVENT
-BEGIN:VEVENT
-UID:RDR-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
-URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RWF-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.mtw.nhs.uk/board-meetings-and-papers
-URL:https://www.mtw.nhs.uk/board-meetings-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RXY-2026-07-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Board Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
-URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RTP-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260807
-SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
-URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RYD-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -58,7 +13,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RN7-2026-08-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Dartford and Gravesham NHS Trust — Trust Board Meeting
@@ -67,7 +22,7 @@ URL:https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust
 END:VEVENT
 BEGIN:VEVENT
 UID:RX2-2026-08-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -75,17 +30,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexpartnersh
 URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
-UID:RTP-2026-08-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
-URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
 UID:RXC-2026-08-18@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -93,8 +39,35 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.esht.nhs.uk/abo
 URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX9-2026-08-27@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RTP-2026-08-27@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
+URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-09-01@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:RPA-2026-09-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Medway NHS Foundation Trust — Board of Directors
@@ -102,8 +75,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/a
 URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYE-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+URL:https://www.scas.nhs.uk/about-scas/our-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:RPC-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -111,8 +93,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.qvh.nhs.uk/abou
 URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RRU-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYF-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+URL:https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:RTP-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -121,7 +121,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-09-15@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:East Sussex Healthcare NHS Trust — Annual General Meeting
@@ -129,17 +129,44 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.esht.nhs.uk/abo
 URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYC-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:East of England Ambulance Service NHS Trust — In Public Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+URL:https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:RPC-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: None
-URL:None
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Kent Community Health NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX6-2026-09-17@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RYR-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:University Hospitals Sussex NHS Foundation Trust — Trust Board meeting in public
@@ -148,7 +175,7 @@ URL:https://www.uhsussex.nhs.uk/about/board/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QKS-2026-09-22@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Kent and Medway ICB — Board meeting September 2026
@@ -157,7 +184,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RTK-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -165,8 +192,35 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.ashfordstpeters
 URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RPA-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Medway NHS Foundation Trust — Annual Members' Meeting (AGM)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/about-us/board-meetings/
+URL:https://www.medway.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXY-2026-09-23@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Annual General Meeting (via MS Teams)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RA2-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -175,7 +229,7 @@ URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -184,7 +238,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -192,8 +246,53 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.mtw.nhs.uk/boar
 URL:https://www.mtw.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:London Ambulance Service NHS Trust — Public Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RXY-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust — Public Board meeting (in person)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2026-09-25@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:S9B9J-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -201,8 +300,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.surreysussex.ic
 URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX7-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:North West Ambulance Service NHS Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nwas.nhs.uk/about/directors/board-meetings/
+URL:https://www.nwas.nhs.uk/about/directors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
 UID:RTP-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -211,7 +319,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -220,7 +328,7 @@ URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYD-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -228,8 +336,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.secamb.nhs.uk/w
 URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX9-2026-10-06@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
+UID:RYE-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+URL:https://www.scas.nhs.uk/about-scas/our-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:RX2-2026-10-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -238,7 +364,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:RXX-2026-10-14@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Surrey and Borders Partnership NHS Foundation Trust — Trust Board Meeting
@@ -247,7 +373,7 @@ URL:https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RTP-2026-10-15@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -256,7 +382,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RXC-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -265,7 +391,7 @@ URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYY-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Kent Community Health NHS Foundation Trust — Public Board Meeting
@@ -273,8 +399,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/
 URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RYE-2026-10-28@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting with Annual Members Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
 UID:RWF-2026-10-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -282,8 +426,35 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.mtw.nhs.uk/boar
 URL:https://www.mtw.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-10-29@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-10-29@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-11-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:RPA-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Medway NHS Foundation Trust — Board of Directors
@@ -291,8 +462,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/a
 URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYE-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+URL:https://www.scas.nhs.uk/about-scas/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYF-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+URL:https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:RPC-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -301,7 +490,7 @@ URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTP-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -309,8 +498,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex
 URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYY-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Kent Community Health NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX6-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:QKS-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Kent and Medway ICB — Board meeting November 2026
@@ -319,7 +526,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RTK-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ashford and St Peter's Hospitals NHS Foundation Trust — Trust Board Meeting
@@ -328,7 +535,7 @@ URL:https://www.ashfordstpeters.nhs.uk/meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -336,8 +543,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.surreysussex.ic
 URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:RA2-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -346,7 +562,7 @@ URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -355,7 +571,7 @@ URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-director
 END:VEVENT
 BEGIN:VEVENT
 UID:RWF-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Maidstone and Tunbridge Wells NHS Trust — Trust Board meeting
@@ -363,8 +579,44 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.mtw.nhs.uk/boar
 URL:https://www.mtw.nhs.uk/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RRU-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:London Ambulance Service NHS Trust — Public Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2026-11-27@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-12-01@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:RTP-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -373,7 +625,7 @@ URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RVV-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors Meeting
@@ -382,7 +634,7 @@ URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYD-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:South East Coast Ambulance Service NHS Foundation Trust — Trust Board Meeting
@@ -391,7 +643,7 @@ URL:https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-
 END:VEVENT
 BEGIN:VEVENT
 UID:RXX-2026-12-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Surrey and Borders Partnership NHS Foundation Trust — Trust Board Meeting
@@ -399,8 +651,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.sabp.nhs.uk/abo
 URL:https://www.sabp.nhs.uk/aboutus/board-of-directors/board-meetings-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-12-09@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:RX2-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -408,8 +669,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexpartnersh
 URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings
 END:VEVENT
 BEGIN:VEVENT
+UID:RRU-2026-12-10@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:RTP-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Surrey and Sussex Healthcare NHS Trust — Trust Board Public Meeting
@@ -417,8 +687,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.surreyandsussex
 URL:https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-12-10@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:RXC-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:East Sussex Healthcare NHS Trust — Trust Board meeting in public
@@ -426,8 +705,35 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.esht.nhs.uk/abo
 URL:https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2026-12-16@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-12-22@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RYF-2027-01-04@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
 UID:RPA-2027-01-06@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Medway NHS Foundation Trust — Board of Directors meeting in public
@@ -435,8 +741,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/a
 URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYF-2027-01-07@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+URL:https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-01-12@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:QKS-2027-01-19@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Kent and Medway ICB — Board meeting January 2027
@@ -445,7 +769,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RPC-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -453,8 +777,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.qvh.nhs.uk/abou
 URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX6-2027-01-21@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:RDR-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -462,8 +795,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexcommunity
 URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RYA-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust — WMAS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about/publications/?category=board-papers
+URL:https://www.wmas.nhs.uk/about/publications/?category=board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
 UID:RA2-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
@@ -471,8 +822,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.royalsurrey.nhs
 URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
 END:VEVENT
 BEGIN:VEVENT
+UID:RX8-2027-01-29@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+BEGIN:VEVENT
 UID:QKS-2027-02-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Kent and Medway ICB — Board meeting February 2027
@@ -480,8 +840,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.kentandmedway.i
 URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
+UID:RX9-2027-02-02@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:RX2-2027-02-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Sussex Partnership NHS Foundation Trust — Board of Directors - Public Meeting
@@ -490,7 +859,7 @@ URL:https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetin
 END:VEVENT
 BEGIN:VEVENT
 UID:S9B9J-2027-02-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
@@ -498,8 +867,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.surreysussex.ic
 URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:RX9-2027-02-25@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-03-02@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:East Midlands Ambulance Service NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+URL:https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting
+END:VEVENT
+BEGIN:VEVENT
 UID:RPA-2027-03-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Medway NHS Foundation Trust — Board of Directors meeting in public
@@ -507,8 +894,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/a
 URL:https://www.medway.nhs.uk/about-us/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
+UID:RYE-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:South Central Ambulance Service NHS Foundation Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.scas.nhs.uk/about-scas/our-board/
+URL:https://www.scas.nhs.uk/about-scas/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYF-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:South Western Ambulance Service NHS Foundation Trust — Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+URL:https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:RPC-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Queen Victoria Hospital NHS Foundation Trust — Board of Directors Meeting
@@ -516,8 +921,26 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.qvh.nhs.uk/abou
 URL:https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/
 END:VEVENT
 BEGIN:VEVENT
+UID:RRU-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:London Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX6-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:North East Ambulance Service NHS Foundation Trust — Formal Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.neas.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+BEGIN:VEVENT
 UID:QKS-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Kent and Medway ICB — Board meeting March 2027
@@ -526,7 +949,7 @@ URL:https://www.kentandmedway.icb.nhs.uk/events-calender
 END:VEVENT
 BEGIN:VEVENT
 UID:RDR-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Sussex Community NHS Foundation Trust — Board meeting
@@ -534,12 +957,30 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexcommunity
 URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:RX9-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
 UID:RA2-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Royal Surrey County Hospital NHS Foundation Trust — Board Meeting
 DESCRIPTION:Detected by Board paper machine. Source: https://www.royalsurrey.nhs.uk/board-meeting-dates
 URL:https://www.royalsurrey.nhs.uk/board-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2027-03-26@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 END:VCALENDAR

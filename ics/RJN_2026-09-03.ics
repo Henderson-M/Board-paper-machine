@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJN-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:East Cheshire NHS Trust — Public Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings
+URL:https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings
+END:VEVENT
+END:VCALENDAR

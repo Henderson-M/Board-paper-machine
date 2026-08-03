@@ -3,26 +3,8 @@ VERSION:2.0
 PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:RC9-2026-07-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Bedfordshire Hospitals NHS Foundation Trust — Public Board of Directors Meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/
-URL:https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:R1L-2026-08-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:Essex Partnership University NHS Foundation Trust — Board of Directors Meeting Part 1
-DESCRIPTION:Detected by Board paper machine. Source: https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
-URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:R1L-2026-08-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Essex Partnership University NHS Foundation Trust — Board meeting 5 August 2026
@@ -31,7 +13,7 @@ URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY4-2026-08-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:Hertfordshire Community NHS Trust — Public Board Meeting
@@ -40,7 +22,7 @@ URL:https://www.hct.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RC9-2026-08-29@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:Bedfordshire Hospitals NHS Foundation Trust — Public Board of Directors Meeting
@@ -49,7 +31,7 @@ URL:https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RD8-2026-09-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Milton Keynes University Hospital NHS Foundation Trust — Board of Directors Meeting in Public
@@ -58,7 +40,7 @@ URL:https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RWH-2026-09-09@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:East and North Hertfordshire NHS Trust — Public Trust Board
@@ -67,7 +49,7 @@ URL:https://www.enherts-tr.nhs.uk/gp-professionals/publications/board-papers-sep
 END:VEVENT
 BEGIN:VEVENT
 UID:RWG-2026-09-10@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:West Hertfordshire Teaching Hospitals NHS Trust — Board meeting - September
@@ -76,7 +58,7 @@ URL:https://www.westhertshospitals.nhs.uk/about-us/our-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Trust Board meeting (held in public)
@@ -85,7 +67,7 @@ URL:https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Public Board of Directors meeting
@@ -93,8 +75,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.hpft.nhs.uk/abo
 URL:https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/
 END:VEVENT
 BEGIN:VEVENT
+UID:RAJ-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Mid and South Essex NHS Foundation Trust — Board of Directors public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mse.nhs.uk/events-at-the-trust/
+URL:https://www.mse.nhs.uk/events-at-the-trust/
+END:VEVENT
+BEGIN:VEVENT
 UID:R1L-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Essex Partnership University NHS Foundation Trust — Board of Directors Meeting Part 1
@@ -103,7 +94,7 @@ URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RQW-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:The Princess Alexandra Hospital NHS Trust — Public Trust Board Meeting
@@ -112,7 +103,7 @@ URL:https://www.pah.nhs.uk/about/board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1L-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Essex Partnership University NHS Foundation Trust — Board meeting 7 October 2026
@@ -121,7 +112,7 @@ URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY4-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Hertfordshire Community NHS Trust — Public Board Meeting
@@ -130,7 +121,7 @@ URL:https://www.hct.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:D7T5G-2026-10-15@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Essex ICB — Essex ICB Board meeting
@@ -139,7 +130,7 @@ URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RC9-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Bedfordshire Hospitals NHS Foundation Trust — Public Board of Directors Meeting
@@ -148,7 +139,7 @@ URL:https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RD8-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Milton Keynes University Hospital NHS Foundation Trust — Board of Directors Meeting in Public
@@ -157,7 +148,7 @@ URL:https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RWH-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:East and North Hertfordshire NHS Trust — Public Trust Board
@@ -166,7 +157,7 @@ URL:https://www.enherts-tr.nhs.uk/gp-professionals/publications/board-papers-sep
 END:VEVENT
 BEGIN:VEVENT
 UID:RWG-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:West Hertfordshire Teaching Hospitals NHS Trust — Board Meeting - November
@@ -175,7 +166,7 @@ URL:https://www.westhertshospitals.nhs.uk/about-us/our-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Public Board of Directors meeting
@@ -183,8 +174,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.hpft.nhs.uk/abo
 URL:https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/
 END:VEVENT
 BEGIN:VEVENT
+UID:RAJ-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Mid and South Essex NHS Foundation Trust — Board of Directors public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mse.nhs.uk/events-at-the-trust/
+URL:https://www.mse.nhs.uk/events-at-the-trust/
+END:VEVENT
+BEGIN:VEVENT
 UID:R1L-2026-12-01@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Essex Partnership University NHS Foundation Trust — Board of Directors Meeting Part 1
@@ -193,7 +193,7 @@ URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1L-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Essex Partnership University NHS Foundation Trust — Board meeting 2 December 2026
@@ -202,7 +202,7 @@ URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RQW-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:The Princess Alexandra Hospital NHS Trust — Public Trust Board Meeting
@@ -211,7 +211,7 @@ URL:https://www.pah.nhs.uk/about/board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY4-2026-12-08@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Hertfordshire Community NHS Trust — Public Board Meeting
@@ -220,7 +220,7 @@ URL:https://www.hct.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RD8-2027-01-07@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Milton Keynes University Hospital NHS Foundation Trust — Board of Directors Meeting in Public
@@ -229,7 +229,7 @@ URL:https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RWG-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:West Hertfordshire Teaching Hospitals NHS Trust — Board Meeting
@@ -238,7 +238,7 @@ URL:https://www.westhertshospitals.nhs.uk/about-us/our-board/board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:D7T5G-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Essex ICB — Essex ICB Board meeting
@@ -247,7 +247,7 @@ URL:https://www.essex.icb.nhs.uk/events/category/board-and-committee-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Public Board of Directors meeting
@@ -255,8 +255,17 @@ DESCRIPTION:Detected by Board paper machine. Source: https://www.hpft.nhs.uk/abo
 URL:https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/
 END:VEVENT
 BEGIN:VEVENT
+UID:RAJ-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Mid and South Essex NHS Foundation Trust — Board of Directors public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mse.nhs.uk/events-at-the-trust/
+URL:https://www.mse.nhs.uk/events-at-the-trust/
+END:VEVENT
+BEGIN:VEVENT
 UID:RC9-2027-02-03@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Bedfordshire Hospitals NHS Foundation Trust — Public Board of Directors Meeting
@@ -265,7 +274,7 @@ URL:https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meeting
 END:VEVENT
 BEGIN:VEVENT
 UID:RQW-2027-02-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:The Princess Alexandra Hospital NHS Trust — Public Trust Board Meeting
@@ -274,7 +283,7 @@ URL:https://www.pah.nhs.uk/about/board/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY4-2027-02-09@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Hertfordshire Community NHS Trust — Public Board Meeting
@@ -283,7 +292,7 @@ URL:https://www.hct.nhs.uk/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RD8-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Milton Keynes University Hospital NHS Foundation Trust — Board of Directors Meeting in Public
@@ -292,7 +301,7 @@ URL:https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-an
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Public Board of Directors meeting
@@ -301,11 +310,20 @@ URL:https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/
 END:VEVENT
 BEGIN:VEVENT
 UID:RY4-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260727T120000Z
+DTSTAMP:20260803T120000Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Hertfordshire Community NHS Trust — Public Board Meeting
 DESCRIPTION:Detected by Board paper machine. Source: https://www.hct.nhs.uk/our-board/
 URL:https://www.hct.nhs.uk/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAJ-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260803T120000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Mid and South Essex NHS Foundation Trust — Board of Directors public meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.mse.nhs.uk/events-at-the-trust/
+URL:https://www.mse.nhs.uk/events-at-the-trust/
 END:VEVENT
 END:VCALENDAR
