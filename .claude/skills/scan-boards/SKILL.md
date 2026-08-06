@@ -252,7 +252,11 @@ The window reaches back 2 days because many trusts publish (or only finish uploa
 
 Do:
 
-1. Pick the URL to scan for papers — use `papers_url` if populated, else `source_url`.
+1. Pick the URL to scan for papers, in this order: the meeting's `papers_url` if populated, else the **org record's** current `papers_url`, else the **org record's** current `url`, else the meeting's `source_url`.
+
+   **Never reach for a meeting's `source_url` before checking the org record.** A meeting's `source_url` is a snapshot of where that date was found, sometimes months ago; the org record's `url` is the *maintained* field and is what earlier runs correct when they discover a URL has moved. Preferring the stale snapshot silently re-scans a page a previous run already declared dead — the scan "fails", the org gets logged as broken, and the fix that was already made is invisible.
+
+   Worked failure (2026-08-06, RBS Alder Hey): the 3 Aug run had already corrected the org `url` to the working publications archive, but the 6 Aug packs-only run read the meeting's `source_url` — the dead `/about-us/trust-board/` page that serves 2018 content — concluded the org was still unscannable, and reported "needs a corrected URL" for a URL that had already been corrected. If the meeting `source_url` and the org `url` disagree, the org record wins; update the meeting's `source_url` to match so the divergence does not persist.
 2. **WebFetch** that URL with this prompt:
 
    > Today is {today}. The page is the board papers page for a meeting on {date}. Return JSON ONLY: `{"pack_files":[{"url":"...","title":"...","kind":"pdf|other"}]}`. List every PDF or document linked from this page that appears to be a paper for the {date} meeting (agenda, finance report, performance report, CEO report, minutes, action tracker, risk register, etc.). Exclude documents from other meetings. Make URLs absolute. If nothing found return `{"pack_files":[]}`.
@@ -467,6 +471,7 @@ In chat, give a terse summary:
 - **Never silently drop what IS on the page (anti-omission).** The WebFetch/Playwright summariser omits real dates and PDF links on cluttered or non-chronological tables, and unlike a fabrication this leaves no trace. Always reconcile against the deterministic `extract_board_html.py` in Step 4 (dates) and Step 7 (pack links) before concluding "no meetings" or "no papers yet". This is what caused the Leeds Community 23 July pack to be missed. The cross-check only ever adds dropped items back — it never removes a WebFetch find, so it is safe to run everywhere.
 - **De-duplicate cluster meetings.** Hull + NLAG share a board; some ICBs share via `cluster_id`. Don't send the same alert twice.
 - **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage" or "PDF schedule", read it and skip cheaper fetchers that have already failed. Don't burn budget re-discovering known failures.
+- **The org record is the source of truth for URLs, not the meeting.** A meeting's `source_url` records where a date was found at the time; the org's `url` / `papers_url` are the maintained fields that previous runs correct. Always prefer the org record (see Step 7.1). Scanning a stale `source_url` re-breaks orgs that were already fixed and hides the fix — it cost a wasted "needs a corrected URL" report on Alder Hey on 2026-08-06.
 - **Trust `cluster_id`.** Trust and ICB records can both carry `cluster_id` (e.g. `NWUHG`, `DLN`, `STW-SSOT`). When set, all members share the same `url` and meeting dates. Dedupe at the email/subscription layer, but keep one state entry per ods_code for audit.
 - **Self-improving.** If you discover an org's `url` has moved, update it. If you discover a quirk worth recording, write to `notes`.
 - **Editorial caution.** This tool produces *leads*, not facts. Phrasing in alerts must not assert anything beyond what the source page or pack literally says — see `context/hsj_editorial_context.md` for the full rules.

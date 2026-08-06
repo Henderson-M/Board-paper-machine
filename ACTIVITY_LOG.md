@@ -1,3 +1,34 @@
+## 2026-08-06 (follow-up) — Alder Hey retraction + source_url fix
+
+Chasing the "Alder Hey needs a corrected URL" item from the run above, its URL
+turned out to have been corrected already, on 3 Aug. The packs-only run had read
+the **meeting's** stale `source_url` (the dead 2018 page) instead of the **org
+record's** maintained `url`, so it re-tested a page an earlier run had already
+replaced and reported a fix as still outstanding. Root cause, not a one-off.
+
+**Skill fixed:** Step 7.1 now resolves the papers URL as meeting `papers_url` ->
+org `papers_url` -> org `url` -> meeting `source_url`, with a new "the org record
+is the source of truth for URLs" rule in Important behaviours. Where the two
+disagree, the org record wins and the meeting is realigned.
+
+**Four Alder Hey dates retracted.** 17 Jun / 5 Aug / 7 Oct / 2 Dec 2026 were all
+extracted on 9 June from the 2018 page and emailed to Zoe that day. Checked
+against the trust's real archive (/about/publications/?type=board-papers, 116
+dated meetings 2016-2026): Alder Hey meets **Thursdays, roughly monthly, and has
+NEVER held an August board meeting in any year 2016-2026**. All four recorded
+dates are Wednesdays on a bi-monthly cadence matching no observed pattern; 5 Aug
+cannot exist at all. All four marked `retracted` with evidence; correction
+drafted for Zoe.
+
+**No pack was missed.** Alder Hey's archive runs ~4 months behind (latest entry
+2 Apr 2026), so there was no August pack to find.
+
+**Alder Hey now on the papers watchlist** (9 orgs), baselined with all 117 meeting
+pages. Its scan URL is corrected and its two-hop documented: the listing is
+alphabetical, unpaginated, needs Playwright, and the new-pack signal is a **new
+child page**, not a new PDF on the listing.
+
+
 ## 2026-08-06 (PACKS-ONLY run — packs + watchlist, LIVE SEND 9/9, Henry + Claude)
 
 ### Headline

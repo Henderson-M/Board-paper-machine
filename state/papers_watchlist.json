@@ -1783,7 +1783,600 @@
     }
    ],
    "notes": "[2026-08-03] Forward schedule NOW PUBLISHED: next board Fri 25 Sept 2026, 12pm-2.30pm (venue TBC); then 18 Dec 2026; then '19 March 2026' (site typo, publication date given as 12 March 2027, so read as 19 March 2027). Can come off the watchlist. UPDATE papers_url to https://www.centraleast.icb.nhs.uk/about/board/icb-board-meet-dates-and-papers/ - the homepage carries no papers. Site states papers published five working days before each meeting. Baselined 26 Jun 2026 meeting book (71pp). | "
+  },
+  {
+   "ods_code": "RBS",
+   "papers_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
+   "last_checked": "2026-08-06T10:47:24Z",
+   "known_files": [
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-27th-june-2023/",
+     "title": "Extraordinary Trust Board – 27th June 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-meeting-22nd-june-2020/",
+     "title": "Extraordinary Trust Board Meeting – 22nd June 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-meeting-26th-june-2024/",
+     "title": "Extraordinary Trust Board Meeting – 26th June 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-meeting-26th-june-2025/",
+     "title": "Extraordinary Trust Board Meeting – 26th June 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/public-meeting-4th-july-2024/",
+     "title": "Public Meeting – 4th July 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-10th-april-2018/",
+     "title": "Trust board meeting – 10th April 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-10th-january-2017/",
+     "title": "Trust board meeting – 10th January 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-11th-april-2024/",
+     "title": "Trust Board Meeting – 11th April 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-11th-january-2024/",
+     "title": "Trust Board Meeting – 11th January 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-11th-november-2024/",
+     "title": "Trust Board Meeting – 11th November 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-12th-january-2016/",
+     "title": "Trust board meeting – 12th January 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-15th-december-2022/",
+     "title": "Trust board meeting – 15th December 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-16th-december-2021/",
+     "title": "Trust board meeting – 16th December 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-1st-march-2016/",
+     "title": "Trust board meeting – 1st March 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-1st-may-2018/",
+     "title": "Trust board meeting – 1st May 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-1st-may-2025/",
+     "title": "Trust Board Meeting – 1st May 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-1st-november-2016/",
+     "title": "Trust board meeting – 1st November 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-1st-october-2019/",
+     "title": "Trust board meeting – 1st October 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-22nd-may-2018/",
+     "title": "Trust board meeting – 22nd May 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-23rd-february-2023/",
+     "title": "Trust board meeting – 23rd February 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-23rd-may-2016/",
+     "title": "Trust board meeting – 23rd May 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-24th-february-2022/",
+     "title": "Trust board meeting – 24th February 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-24th-june-2021/",
+     "title": "Trust board meeting – 24th June 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-24th-november-2022/",
+     "title": "Trust board meeting – 24th November 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-24th-september-2020/",
+     "title": "Trust board meeting – 24th September 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-25th-february-2021/",
+     "title": "Trust board meeting – 25th February 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-25th-july-2016/",
+     "title": "Trust board meeting – 25th July 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-25th-march-2021/",
+     "title": "Trust board meeting – 25th March 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-25th-may-2017/",
+     "title": "Trust board meeting – 25th May 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-25th-november-2021/",
+     "title": "Trust board meeting – 25th November 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-26th-january-2023/",
+     "title": "Trust board meeting – 26th January 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-26th-may-2022/",
+     "title": "Trust board meeting – 26th May 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-27th-january-2021/",
+     "title": "Trust board meeting – 27th January 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-27th-october-2022/",
+     "title": "Trust board meeting – 27th October 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-28th-april-2022/",
+     "title": "Trust board meeting – 28th April 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-28th-july-2022/",
+     "title": "Trust board meeting – 28th July 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-28th-may-2019/",
+     "title": "Trust board meeting – 28th May 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-29th-july-2021/",
+     "title": "Trust board meeting – 29th July 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-29th-september-2022/",
+     "title": "Trust board meeting – 29th September 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-april-2019/",
+     "title": "Trust board meeting – 2nd April 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-april-2026/",
+     "title": "Trust Board Meeting – 2nd April 2026",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-february-2016/",
+     "title": "Trust board meeting – 2nd February 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-july-2019/",
+     "title": "Trust board meeting – 2nd July 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-june-2020/",
+     "title": "Trust board meeting – 2nd June 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-may-2017/",
+     "title": "Trust board meeting – 2nd May 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-may-2024/",
+     "title": "Trust Board Meeting – 2nd May 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-october-2018/",
+     "title": "Trust board meeting – 2nd October 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-2nd-october-2025/",
+     "title": "Trust board meeting – 2nd October 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-30th-june-2022/",
+     "title": "Trust board meeting – 30th June 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-30th-march-2023/",
+     "title": "Trust board meeting – 30th March 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-30th-september-2021/",
+     "title": "Trust board meeting – 30th September 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-31st-march-2022/",
+     "title": "Trust board meeting – 31st March 2022",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-april-2025/",
+     "title": "Trust Board Meeting – 3rd April 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-december-2019/",
+     "title": "Trust board meeting – 3rd December 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-july-2018/",
+     "title": "Trust board meeting – 3rd July 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-july-2025/",
+     "title": "Trust Board Meeting – 3rd July 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-march-2020/",
+     "title": "Trust board meeting – 3rd March 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-may-2016/",
+     "title": "Trust board meeting – 3rd May 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-october-2017/",
+     "title": "Trust board meeting – 3rd October 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-october-2024/",
+     "title": "Trust Board Meeting – 3rd October 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-3rd-september-2019/",
+     "title": "Trust board meeting – 3rd September 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-april-2017/",
+     "title": "Trust board meeting – 4th April 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-december-2018/",
+     "title": "Trust board meeting – 4th December 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-december-2025/",
+     "title": "Trust board meeting – 4th December 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-february-2020/",
+     "title": "Trust board meeting – 4th February 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-july-2017/",
+     "title": "Trust board meeting – 4th July 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-may-2023/",
+     "title": "Trust Board Meeting 4th May 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-october-2016/",
+     "title": "Trust board meeting – 4th October 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-september-2018/",
+     "title": "Trust board meeting – 4th September 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-4th-september-2025/",
+     "title": "Trust Board Meeting – 4th September 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-april-2016/",
+     "title": "Trust board meeting – 5th April 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-december-2017/",
+     "title": "Trust board meeting – 5th December 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-december-2024/",
+     "title": "Trust Board Meeting – 5th December 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-february-2019/",
+     "title": "Trust board meeting – 5th February 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-february-2026/",
+     "title": "Trust Board Meeting – 5th February 2026",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-july-2016/",
+     "title": "Trust board meeting – 5th July 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-june-2025/",
+     "title": "Trust Board Meeting – 5th June 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-march-2019/",
+     "title": "Trust board meeting – 5th March 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-march-2026/",
+     "title": "Trust Board Meeting – 5th March 2026",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-may-2020/",
+     "title": "Trust board meeting – 5th May 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-november-2019/",
+     "title": "Trust board meeting – 5th November 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-october-2023/",
+     "title": "Trust Board Meeting 5th October 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-september-2017/",
+     "title": "Trust board meeting – 5th September 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-5th-september-2024/",
+     "title": "Trust Board Meeting – 5th September 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-december-2016/",
+     "title": "Trust board meeting – 6th December 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-february-2018/",
+     "title": "Trust board meeting – 6th February 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-february-2025/",
+     "title": "Trust Board Meeting 6th February 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-july-2023/",
+     "title": "Trust board meeting – 6th July 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-june-2024/",
+     "title": "Trust board meeting – 6th June 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-march-2018/",
+     "title": "Trust board meeting – 6th March 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-march-2025/",
+     "title": "Trust Board Meeting – 6th March 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-november-2018/",
+     "title": "Trust board meeting – 6th November 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-november-2025/",
+     "title": "Trust board meeting – 6th November 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-6th-september-2016/",
+     "title": "Trust board meeting – 6th September 2016",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-april-2020/",
+     "title": "Trust board meeting – 7th April 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-december-2023/",
+     "title": "Trust Board Meeting – 7th December 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-february-2017/",
+     "title": "Trust board meeting – 7th February 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-january-2020/",
+     "title": "Trust board meeting – 7th January 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-july-2020/",
+     "title": "Trust board meeting – 7th July 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-march-2017/",
+     "title": "Trust board meeting – 7th March 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-march-2024/",
+     "title": "Trust Board Meeting – 7th March 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-may-2019/",
+     "title": "Trust board meeting – 7th May 2019",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-november-2017/",
+     "title": "Trust board meeting – 7th November 2017",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-7th-september-2023/",
+     "title": "Trust board meeting – 7th September 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-8th-february-2024/",
+     "title": "Trust Board Meeting – 8th February 2024",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-8th-january-2026/",
+     "title": "Trust Board Meeting – 8th January 2026",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-8th-june-2023/",
+     "title": "Trust board meeting – 8th June 2023",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-8th-september-2020/",
+     "title": "Trust board meeting – 8th September 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-9th-january-2018/",
+     "title": "Trust board meeting – 9th January 2018",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-9th-january-2025/",
+     "title": "Trust Board Meeting 9th January 2025",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-october-2016-appendices/",
+     "title": "Trust Board Meeting October 2016 Appendices",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-17th-december-2020/",
+     "title": "Trust board meeting (P1) – 17th December 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-22nd-october-2020/",
+     "title": "Trust Board Meeting (P1) – 22nd October 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-26th-november-2020/",
+     "title": "Trust Board Meeting (P1) – 26th November 2020",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-28th-january-2021/",
+     "title": "Trust Board Meeting (P1) – 28th January 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-28th-october-2021/",
+     "title": "Trust Board Meeting (P1) – 28th October 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/about/publications/trust-board-meeting-p1-29th-april-2021/",
+     "title": "Trust Board Meeting (P1) – 29th April 2021",
+     "first_seen": "2026-08-06T10:47:24Z"
+    }
+   ],
+   "notes": "[2026-08-06] Added after all four fabricated future dates were retracted; trust publishes NO forward schedule. Needs Playwright (requests returns 0 links). PER-MEETING TWO-HOP: this listing links to child pages like /about/publications/trust-board-meeting-2nd-april-2026/ which hold the PDFs - treat a NEW CHILD PAGE as the new-pack signal, not a new PDF on this page. Listing is alphabetical and unpaginated. Meets Thursdays, ~monthly, NEVER in August. Archive runs ~4 months behind, so expect packs long after the meeting."
   }
  ],
- "_last_updated": "2026-08-06T09:58:24Z"
+ "_last_updated": "2026-08-06T10:47:24Z"
 }

@@ -20880,18 +20880,24 @@
    "org_type": "trust",
    "date": "2026-06-17",
    "title": "Board of Directors Meeting",
-   "source_url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
+   "source_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-06T10:46:09Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-08-06T10:46:09Z",
+    "run": "2026-08-06",
+    "evidence": "Retracted 2026-08-06. All four RBS future dates were extracted on 2026-06-09 from https://www.alderhey.nhs.uk/about-us/trust-board/ , which serves 2018 content (and, per the 2026-08-03 note, also yields flatpickr date-picker cells and — on one occasion — another trust's schedule). Checked against the trust's real board-papers archive (/about/publications/?type=board-papers, 116 dated entries, 2016-2026): Alder Hey meets on THURSDAYS (60 Thu / 50 Tue historically; every meeting since Mar 2025 is a Thursday), roughly monthly, and has NEVER held an August board meeting in any year from 2016 to 2026. All four recorded dates are Wednesdays on a bi-monthly cadence, which matches no observed pattern. 2026-08-05 in particular cannot be real: there is no August meeting. Real 2026 meetings published so far: 8 Jan, 5 Feb, 5 Mar, 2 Apr (all Thursdays). The archive runs ~4 months behind, so later 2026 dates are not yet published."
+   }
   },
   {
    "id": "RBS:2026-08-05",
@@ -20899,23 +20905,23 @@
    "org_type": "trust",
    "date": "2026-08-05",
    "title": "Board of Directors Meeting",
-   "source_url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
+   "source_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-06T09:58:24Z",
+   "last_checked": "2026-08-06T10:46:09Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": "",
+   "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
    "date_review": {
-    "action": "flagged_unverified",
-    "reviewed": "2026-08-03T12:00:00Z",
-    "run": "2026-08-03",
-    "evidence": "Alder Hey publishes no board dates anywhere on its site; pack archive runs ~4 months behind. Date unverifiable either way."
+    "action": "retracted",
+    "reviewed": "2026-08-06T10:46:09Z",
+    "run": "2026-08-06",
+    "evidence": "Retracted 2026-08-06. All four RBS future dates were extracted on 2026-06-09 from https://www.alderhey.nhs.uk/about-us/trust-board/ , which serves 2018 content (and, per the 2026-08-03 note, also yields flatpickr date-picker cells and — on one occasion — another trust's schedule). Checked against the trust's real board-papers archive (/about/publications/?type=board-papers, 116 dated entries, 2016-2026): Alder Hey meets on THURSDAYS (60 Thu / 50 Tue historically; every meeting since Mar 2025 is a Thursday), roughly monthly, and has NEVER held an August board meeting in any year from 2016 to 2026. All four recorded dates are Wednesdays on a bi-monthly cadence, which matches no observed pattern. 2026-08-05 in particular cannot be real: there is no August meeting. Real 2026 meetings published so far: 8 Jan, 5 Feb, 5 Mar, 2 Apr (all Thursdays). The archive runs ~4 months behind, so later 2026 dates are not yet published."
    }
   },
   {
@@ -20924,18 +20930,24 @@
    "org_type": "trust",
    "date": "2026-10-07",
    "title": "Board of Directors Meeting",
-   "source_url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
+   "source_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-06T10:46:09Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-08-06T10:46:09Z",
+    "run": "2026-08-06",
+    "evidence": "Retracted 2026-08-06. All four RBS future dates were extracted on 2026-06-09 from https://www.alderhey.nhs.uk/about-us/trust-board/ , which serves 2018 content (and, per the 2026-08-03 note, also yields flatpickr date-picker cells and — on one occasion — another trust's schedule). Checked against the trust's real board-papers archive (/about/publications/?type=board-papers, 116 dated entries, 2016-2026): Alder Hey meets on THURSDAYS (60 Thu / 50 Tue historically; every meeting since Mar 2025 is a Thursday), roughly monthly, and has NEVER held an August board meeting in any year from 2016 to 2026. All four recorded dates are Wednesdays on a bi-monthly cadence, which matches no observed pattern. 2026-08-05 in particular cannot be real: there is no August meeting. Real 2026 meetings published so far: 8 Jan, 5 Feb, 5 Mar, 2 Apr (all Thursdays). The archive runs ~4 months behind, so later 2026 dates are not yet published."
+   }
   },
   {
    "id": "RBS:2026-12-02",
@@ -20943,18 +20955,24 @@
    "org_type": "trust",
    "date": "2026-12-02",
    "title": "Board of Directors Meeting",
-   "source_url": "https://www.alderhey.nhs.uk/about-us/trust-board/",
+   "source_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-06T10:46:09Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-08-06T10:46:09Z",
+    "run": "2026-08-06",
+    "evidence": "Retracted 2026-08-06. All four RBS future dates were extracted on 2026-06-09 from https://www.alderhey.nhs.uk/about-us/trust-board/ , which serves 2018 content (and, per the 2026-08-03 note, also yields flatpickr date-picker cells and — on one occasion — another trust's schedule). Checked against the trust's real board-papers archive (/about/publications/?type=board-papers, 116 dated entries, 2016-2026): Alder Hey meets on THURSDAYS (60 Thu / 50 Tue historically; every meeting since Mar 2025 is a Thursday), roughly monthly, and has NEVER held an August board meeting in any year from 2016 to 2026. All four recorded dates are Wednesdays on a bi-monthly cadence, which matches no observed pattern. 2026-08-05 in particular cannot be real: there is no August meeting. Real 2026 meetings published so far: 8 Jan, 5 Feb, 5 Mar, 2 Apr (all Thursdays). The archive runs ~4 months behind, so later 2026 dates are not yet published."
+   }
   },
   {
    "id": "QWO:2026-06-15",
@@ -28915,6 +28933,11 @@
    "ts": "2026-08-06T09:58:24Z",
    "ods_code": "RXL",
    "error": "blackpoolteachinghospitals.nhs.uk now behind Imperva/Incapsula WAF: PDF downloads return an HTML block page via both requests and Playwright. Pack text was captured before the block; analysed from text."
+  },
+  {
+   "ts": "2026-08-06T10:46:09Z",
+   "ods_code": "RBS",
+   "error": "Four future dates (17 Jun / 5 Aug / 7 Oct / 2 Dec 2026) retracted as unverifiable - sourced from the dead 2018 board page and inconsistent with the trust's real Thursday, monthly, no-August pattern. Correction sent to Zoe."
   }
  ],
  "_last_full_scan": "2026-08-03T12:00:00Z",
