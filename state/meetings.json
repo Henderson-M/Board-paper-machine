@@ -173,7 +173,8 @@
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": " [2026-07-27 scan: Barnsley papers page marks the 6 Aug meeting as cancelled.]"
   },
@@ -1300,7 +1301,8 @@
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": null,
    "date_review": {
@@ -1969,7 +1971,8 @@
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": null,
    "date_review": {
@@ -2077,7 +2080,8 @@
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "date_review": {
@@ -2823,7 +2827,8 @@
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id.",
    "date_review": {
@@ -19258,7 +19263,8 @@
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "",
    "date_review": {
@@ -19283,7 +19289,8 @@
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "",
    "date_review": {
@@ -19818,7 +19825,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "",
    "date_review": {
@@ -19900,7 +19908,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "",
    "date_review": {
@@ -20939,7 +20948,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
    "date_review": {
@@ -20964,7 +20974,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-08-06] RETRACTED - fabricated/unverifiable date from the dead 2018 board page. Was alerted to Zoe on 2026-06-09; correction issued 2026-08-06.",
    "date_review": {
@@ -21045,7 +21056,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "",
    "date_review": {
@@ -22762,7 +22774,8 @@
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": null,
    "date_review": {
@@ -26081,7 +26094,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
@@ -26100,7 +26114,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
@@ -26119,7 +26134,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
@@ -26138,7 +26154,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
@@ -26157,7 +26174,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
@@ -26176,7 +26194,8 @@
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-06T11:15:24Z"
    },
    "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },

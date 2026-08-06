@@ -1,3 +1,59 @@
+## 2026-08-06 (follow-up 2) — withdrawal alerts added; 19 stale calendar entries cleared
+
+Henry asked why he'd had no email about a Barnsley board meeting he had in his
+calendar for this week. The answer: Barnsley's own page has marked **6 August
+2026 as CANCELLED** since at least 27 July (still does), the machine recorded
+that in state on the 27 Jul run — and **never told him**.
+
+**The real problem was bigger than Barnsley.** The skill had no concept of a
+withdrawal: grepping it for "cancel" returned nothing. It only ever alerts when a
+meeting APPEARS, never when one is cancelled or retracted. An audit of state
+found **33 meetings alerted and then quietly killed, 19 of them still in the
+future** — live entries in correspondents' calendars for meetings that will not
+happen.
+
+**Fixed — new Step 8b, "Compose WITHDRAWAL alerts".** Fires when a meeting is now
+cancelled/retracted, its date alert already went out, its date is not past, and
+it has not already been withdrawn. Sends one email per recipient with a
+`METHOD:CANCEL` .ics reusing the ORIGINAL event UID (a new UID does nothing —
+the UID is what lets the client match and remove the entry), plus a plain-English
+reason per meeting: "cancelled by the trust" and "was never a real date" are
+different messages and correspondents need to know which. A new
+`alerts_sent.withdrawn` flag prevents double-withdrawal. Also wired into the
+skill overview, the Step 11 send command, and Important behaviours.
+
+**Catch-up sent, 6/6 delivered:** Matt Mathers 3, Annabelle 3, Henry 2, Alison 2,
+Zoe 2, Caitlin 1. All 19 meetings stamped `alerts_sent.withdrawn`.
+
+**Duplicate-correction near-miss.** 6 of Matt's 9 (the Newcastle RTD series) had
+ALREADY been corrected to him on 17 July — the state notes said so. Re-reporting
+them would have repeated the 30 July duplicate incident by yet another route. The
+builder now splits each recipient's list into `fresh` (reported in full) and
+`already` (not re-reported as news, but still included in the .ics in case the
+entry lingers), keyed off a "correction sent" check in notes/date_review. **Baked
+into Step 8b as a hard condition.**
+
+**Two content gotchas worth remembering.** (1) Raw `date_review.evidence` is
+written for the repo and is far too technical for a colleague's inbox — Step 8b
+now requires summarising it into plain English. (2) Some older state notes carry
+double-encoded UTF-8 (mojibake where an em-dash should be) which would otherwise
+land in someone's email; the builder strips it.
+
+**Honest about the .ics.** METHOD:CANCEL only reliably removes events a client
+accepted as invitations; Outlook treats hand-imported .ics events as the user's
+own and may ignore the cancellation. Every withdrawal email says so plainly and
+gives the human-readable list as the reliable fallback.
+
+**Also sent:** the Alder Hey correction to Zoe (agreed earlier), 1/1 delivered.
+Her withdrawal email was reworded to acknowledge that earlier note rather than
+read as the system repeating itself.
+
+**Lesson for the tool.** Both of today's follow-ups were the same shape: the
+machine detected something correctly, wrote it to state, and told nobody. State
+is not a communication channel. Any status change that contradicts something a
+correspondent was already told is itself an alert.
+
+
 ## 2026-08-06 (follow-up) — Alder Hey retraction + source_url fix
 
 Chasing the "Alder Hey needs a corrected URL" item from the run above, its URL

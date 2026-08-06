@@ -26,6 +26,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 8. Compose two kinds of email per correspondent:
    - **Date alerts** — batched, one per correspondent per scan, listing the new meetings detected this run for orgs they cover. A **delta** `.ics` containing ONLY this run's new meetings for that person is attached (`subscriptions/new/{firstname}_{rundate}.ics`). The recipient opens the attachment → Outlook → "Save & Close" to add just those new dates. **Do NOT attach the full snapshot.** Outlook does NOT dedupe `.ics` *file* imports by UID (it only dedupes subscribed calendar feeds and meeting invites) — attaching the full meeting list every run is what created duplicate calendar entries. Attaching only the new dates avoids duplicates at the source.
    - **Papers alerts** — one per analysed pack, with the pack-analyser summary inline + summary markdown attached.
+   - **Withdrawal alerts** — one per correspondent, listing meetings we previously alerted that are now `cancelled` or `retracted`, with a `METHOD:CANCEL` `.ics` attached (`subscriptions/withdrawn/{firstname}_{rundate}.ics`). See Step 8b. Without this the correspondent's calendar keeps a meeting that will not happen.
 9. Send via `send_batch.py` (staggered, 30–60s apart) if `--live-emails`, otherwise write to `dry_run_output/`.
 10. Update state, commit, push.
 
@@ -343,6 +344,33 @@ The sub-skill will:
 
 After each pack is analysed, update the meeting in state: status to `analysed`, append summary path under a new field `summary_path`.
 
+### Step 8b — Compose WITHDRAWAL alerts (meetings that have gone away)
+
+**A meeting you have already told someone about, and which then disappears, MUST be withdrawn. Silently changing its status in state is not enough — the correspondent's calendar still has it.** This step is the mirror of Step 9: Step 9 tells people a meeting exists, this one tells them it doesn't.
+
+Historically this step did not exist, and by 2026-08-06 **33 meetings had been alerted and then cancelled or retracted with no follow-up — 19 of them still in the future, sitting in correspondents' calendars as meetings that will not happen.** Henry found it because his Barnsley 6 Aug entry was marked CANCELLED on the trust's own page on 27 July and nobody told him. A one-off catch-up was sent on 2026-08-06; from then on this step handles it.
+
+A meeting needs a withdrawal alert when **all** of these hold:
+
+- its `status` is now `cancelled` or `retracted`; **and**
+- `alerts_sent.date` is set (we did tell someone it was happening); **and**
+- its `date` is **today or later** (a past meeting needs no calendar correction); **and**
+- `alerts_sent.withdrawn` is **not** set (we have not already withdrawn it); **and**
+- no prior correction is recorded for it — check `notes` / `date_review` for "correction sent". If one exists, **do not re-report it as news**; it may still go in the `.ics` (below), listed under a short "already flagged to you" heading.
+
+Group by **recipient** (Step 2 rules — primary + `additional_correspondents` + live overrides, `applies_to: "date"`). For each recipient:
+
+1. Build a **cancellation `.ics`** at `subscriptions/withdrawn/{firstname}_{rundate}.ics` containing one VEVENT per withdrawn meeting, with:
+   - `METHOD:CANCEL` on the VCALENDAR
+   - the **same `UID`** as the original event — `{ods_code}-{date}@board-paper-machine.hsj`. This is what lets a client match and remove it; a new UID does nothing.
+   - `STATUS:CANCELLED` and `SEQUENCE:1` on the VEVENT
+2. Compose the body: say plainly what is being withdrawn and **why, per meeting** — "cancelled by the trust" vs "was never a real date" are different messages and correspondents need to know which. Give the trust's own wording where it cancelled the meeting.
+   **Write the reason for a colleague, not for the repo.** The raw `date_review.evidence` is written for auditability and is often a wall of technical detail; summarise it into a sentence or two of plain English. Also strip any double-encoded UTF-8 (`Ã¢â‚¬â€`) that older state entries carry, or it will land in someone's inbox.
+3. Be honest about the `.ics` limitation: a `METHOD:CANCEL` file reliably withdraws events the client accepted as invitations, but **Outlook treats hand-imported `.ics` events as the user's own and may not remove them**. Always include the human-readable list and tell the recipient to delete manually if the file does not take. The list is the reliable part, not the attachment.
+4. Subject: `[Board paper machine] {N} meeting(s) withdrawn — please delete from your calendar`
+
+After a successful send, set `alerts_sent.withdrawn` to the timestamp on each withdrawn meeting (same `ok:true`-driven rule as Step 11) so it is never withdrawn twice.
+
 ### Step 9 — Compose date alerts (one per correspondent)
 
 Group `new_meetings` by **recipient** (see Step 2 — a meeting for an org with `additional_correspondents` lands in the group of its primary correspondent *and* each additional one). For each recipient with new meetings:
@@ -428,6 +456,7 @@ Build a **manifest** — a JSON array of `{to, subject, body_file, attach:[...],
 python send_batch.py \
   --manifest {dates_manifest.json} \
   --manifest {papers_manifest.json} \
+  --manifest {withdraw_manifest.json} \
   --results {results.json}
   # optional: --min-gap 30 --max-gap 60  (these are the defaults)
   # add --dry-run to preview the plan with no SMTP and no sleeps
@@ -466,6 +495,7 @@ In chat, give a terse summary:
 
 - **Resilience over completeness.** If 5 orgs out of 233 fail, that's fine — log them and move on.
 - **Never delete `state/meetings.json` entries.** Even past meetings stay (audit trail).
+- **A withdrawn meeting is an alert, not just a state change.** If you mark a meeting `cancelled` or `retracted` and its date alert already went out, you owe the correspondent a withdrawal (Step 8b). Quietly fixing state leaves a meeting in their calendar that will not happen, and they will plan around it — this went unnoticed for months and reached 19 live stale entries before anyone spotted it. The same applies whenever the anti-fabrication guard drops a date that a previous run already alerted.
 - **Be careful with UK dates.** `12/06/2026` is 12 June, not 6 December.
 - **Never fabricate dates.** Only record meeting dates that appear as literal text in the fetched page (see the anti-fabrication guard in Step 4). The date extractor can hallucinate a plausible schedule; do not extrapolate cadence, complete patterns, or invent next-year dates. A dropped-but-real date is recoverable next run; a fabricated date emailed to a correspondent is not.
 - **Never silently drop what IS on the page (anti-omission).** The WebFetch/Playwright summariser omits real dates and PDF links on cluttered or non-chronological tables, and unlike a fabrication this leaves no trace. Always reconcile against the deterministic `extract_board_html.py` in Step 4 (dates) and Step 7 (pack links) before concluding "no meetings" or "no papers yet". This is what caused the Leeds Community 23 July pack to be missed. The cross-check only ever adds dropped items back — it never removes a WebFetch find, so it is safe to run everywhere.
