@@ -1484,7 +1484,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -2382,7 +2382,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -7541,7 +7541,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8179,7 +8179,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8443,17 +8443,25 @@
    "date": "2026-08-06",
    "title": "Joint Board Meeting",
    "source_url": "https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.southeastsector-hcp.nhs.uk/",
+   "pack_files": [
+    {
+     "url": "https://www.tamesideandglossopicft.nhs.uk/download_file/5690/0",
+     "title": "Joint Public Board Meeting Pack - August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null
+   "notes": "[2026-08-06] Joint Stockport/Tameside pack found on tamesideandglossopicft.nhs.uk (download_file/5690/0), linked from southeastsector-hcp.nhs.uk. The PDF opens with the 4 June minutes, not the agenda - confirmed as the August pack by its Month 3 / Q1 2026-27 content.",
+   "summary_path": "summaries/RMP_2026-08-06.md"
   },
   {
    "id": "RMP:2026-10-01",
@@ -8747,23 +8755,31 @@
    "date": "2026-08-06",
    "title": "Joint Board Meeting",
    "source_url": "https://www.stockport.nhs.uk/about/board/board-meetings/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.southeastsector-hcp.nhs.uk/",
+   "pack_files": [
+    {
+     "url": "https://www.tamesideandglossopicft.nhs.uk/download_file/5690/0",
+     "title": "Joint Public Board Meeting Pack - August 2026 (shared joint pack with RMP)",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null,
+   "notes": "[2026-08-06] Shares the joint South East Sector pack with RMP; alerted once, to Nick.",
    "date_review": {
     "action": "flagged_unverified",
     "reviewed": "2026-08-03T12:00:00Z",
     "run": "2026-08-03",
     "evidence": "Stockport date confirmed on two sites, pack not yet published - keep."
-   }
+   },
+   "summary_path": "summaries/RMP_2026-08-06.md"
   },
   {
    "id": "RWJ:2026-10-01",
@@ -9215,18 +9231,26 @@
    "date": "2026-08-05",
    "title": "Trust Board Meeting",
    "source_url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+   "pack_files": [
+    {
+     "url": "https://northcheshireandmersey.nhs.uk/media/nndbamk2/trust_board_-_part_1_public_meeting_050826v2-compressed.pdf",
+     "title": "Trust Board Part 1 Public Meeting 05.08.26",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null,
-   "_previous_source_url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/"
+   "notes": "[2026-08-06] Shares one North Cheshire & Mersey group Part 1 pack with RY2 (Bridgewater); alerted once, to Zoe.",
+   "_previous_source_url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+   "summary_path": "summaries/RWW_2026-08-05.md"
   },
   {
    "id": "RWW:2026-10-07",
@@ -9321,18 +9345,26 @@
    "date": "2026-08-05",
    "title": "Trust Board Meeting",
    "source_url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://northcheshireandmersey.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+   "pack_files": [
+    {
+     "url": "https://northcheshireandmersey.nhs.uk/media/nndbamk2/trust_board_-_part_1_public_meeting_050826v2-compressed.pdf",
+     "title": "Trust Board Part 1 Public Meeting 05.08.26 (shared pack with RWW)",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null,
-   "_previous_source_url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/"
+   "notes": "[2026-08-06] Shares one North Cheshire & Mersey group Part 1 pack with RWW; alerted once, to Zoe.",
+   "_previous_source_url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
+   "summary_path": "summaries/RWW_2026-08-05.md"
   },
   {
    "id": "RY2:2026-10-07",
@@ -12651,7 +12683,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12824,7 +12856,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15202,7 +15234,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15421,17 +15453,25 @@
    "date": "2026-08-06",
    "title": "Trust Board Meeting",
    "source_url": "https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-papers/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.secamb.nhs.uk/what-we-do/about-us/trust-board-meeting-dates-and-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.secamb.nhs.uk/wp-content/uploads/2026/08/Board-Papers-6-August-2026.pdf",
+     "title": "Board Papers 6 August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RYD_2026-08-06.md"
   },
   {
    "id": "RYD:2026-10-01",
@@ -15633,16 +15673,24 @@
    "title": "Birmingham Community Healthcare NHS Trust Board Meeting",
    "source_url": "https://www.bhamcommunity.nhs.uk/our-board-meetings",
    "papers_url": "https://www.bhamcommunity.nhs.uk/our-board-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.bhamcommunity.nhs.uk/download/bchc-board-meeting-papers-6-august-2026.pdf",
+     "title": "BCHC Board Meeting Papers - 6 August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null
+   "notes": null,
+   "summary_path": "summaries/RYW_2026-08-06.md"
   },
   {
    "id": "RYW:2026-10-01",
@@ -16593,17 +16641,25 @@
    "date": "2026-08-06",
    "title": "Trust Board",
    "source_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.thewaltoncentre.nhs.uk/trust-board/",
+   "pack_files": [
+    {
+     "url": "https://www.thewaltoncentre.nhs.uk/download/trust-board-august-2026pdf.pdf",
+     "title": "Trust Board - August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "summary_path": "summaries/RET_2026-08-06.md"
   },
   {
    "id": "RET:2026-10-01",
@@ -19727,17 +19783,25 @@
    "date": "2026-08-06",
    "title": "Trust Board Meeting",
    "source_url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas/navigate/58107/27541",
+   "pack_files": [
+    {
+     "url": "https://www.dgt.nhs.uk/download_file/26953/289",
+     "title": "Trust Board Papers - August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": ""
+   "notes": "[2026-08-06] Pack found by two-hop: the board page is a document-library shell; the year folders are at /navigate/58107/{id} and the 2026 folder (27541) holds 'Trust Board Papers - August 2026' (download_file/26953/289). Neither WebFetch nor the deterministic extractor sees any PDF on the parent page.",
+   "summary_path": "summaries/RN7_2026-08-06.md"
   },
   {
    "id": "RYG:2026-08-12",
@@ -19854,16 +19918,24 @@
    "title": "Public Trust Board Meeting",
    "source_url": "https://www.uhcw.nhs.uk/our-organisation/trust-board-meetings/",
    "papers_url": "https://www.uhcw.nhs.uk/our-organisation/trust-board-meetings/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Board%20Papers%20v2%206%20August%202026-compressed.pdf",
+     "title": "Combined Public Board Papers v2 6 August 2026",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": ""
+   "notes": "[2026-08-06] UHCW published the SAME August pack twice under two filenames ('Combined Public Board Papers v2 6 August 2026' and 'Combined Papers Public Trust Board 6 August 2026'); the two files are 99.98% identical. Analysed once. The stale 'view the meeting papers here' trap noted on 2026-08-03 was still present and correctly ignored.",
+   "summary_path": "summaries/RKB_2026-08-06.md"
   },
   {
    "id": "RC9:2026-07-29",
@@ -20492,7 +20564,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -20606,7 +20678,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -20832,7 +20904,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -22175,7 +22247,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -22911,7 +22983,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -23433,18 +23505,26 @@
    "date": "2026-08-06",
    "title": "Board Meeting",
    "source_url": "https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.stsft.nhs.uk/about-us/our-people/our-board/board-papers",
+   "pack_files": [
+    {
+     "url": "https://www.stsft.nhs.uk/download_file/view/11c5a744-446a-4f92-98f6-e8b914fea912/668",
+     "title": "Agenda (in fact the full 443pp combined pack)",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": "",
-   "_previous_source_url": "https://www.stsft.nhs.uk/download_file/view/c44db9f1-004d-4a6a-aaf9-87a16f6b40fa/668"
+   "notes": "[2026-08-06] The 6 Aug pack is published under the bare title 'Agenda' but is the full 443pp combined pack (23.3MB) - do not treat 'Agenda' as agenda-only on this trust.",
+   "_previous_source_url": "https://www.stsft.nhs.uk/download_file/view/c44db9f1-004d-4a6a-aaf9-87a16f6b40fa/668",
+   "summary_path": "summaries/R0B_2026-08-06.md"
   },
   {
    "id": "RBT:2027-01-28",
@@ -26519,17 +26599,25 @@
    "date": "2026-08-06",
    "title": "Board Meeting",
    "source_url": null,
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/previous-meetings-year/navigate/53518/11922",
+   "pack_files": [
+    {
+     "url": "https://www.blackpoolteachinghospitals.nhs.uk/download_file/12677/2316",
+     "title": "Board of Directors Meeting in Public - 06.08.26 - full papers",
+     "kind": "pdf",
+     "first_seen": "2026-08-06T09:58:24Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-06T10:07:14Z",
+    "summary": "2026-08-06T10:07:14Z"
    },
-   "notes": null
+   "notes": "[2026-08-06] Pack found by two-hop: /upcoming-meetings has no documents; papers live under /previous-meetings-year then the '2026/27 Meetings' folder at /navigate/53518/11922. NOTE: blackpoolteachinghospitals.nhs.uk is now behind an Imperva/Incapsula WAF that returns an HTML block page for PDF downloads (both requests and Playwright --download). Text extraction succeeded earlier in the same run; the 6 Aug pack was analysed from extracted text, so its summary carries approximate rather than exact page refs.",
+   "summary_path": "summaries/RXL_2026-08-06.md"
   },
   {
    "id": "RX9:2026-08-27",
@@ -28817,14 +28905,24 @@
     "RX4 (CNTW) corrected URL renders only past listings",
     "RWF (Maidstone & TW) papers page 404 on non-browser UA"
    ]
+  },
+  {
+   "ts": "2026-08-06T09:58:24Z",
+   "ods_code": "RBS",
+   "error": "Alder Hey board URL still serves 2018 content (dead since at least 2026-08-03); 5 Aug 2026 meeting could not be checked for papers. Needs a corrected scan URL."
+  },
+  {
+   "ts": "2026-08-06T09:58:24Z",
+   "ods_code": "RXL",
+   "error": "blackpoolteachinghospitals.nhs.uk now behind Imperva/Incapsula WAF: PDF downloads return an HTML block page via both requests and Playwright. Pack text was captured before the block; analysed from text."
   }
  ],
  "_last_full_scan": "2026-08-03T12:00:00Z",
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
-  "ts": "2026-07-09T11:13:27Z",
+  "ts": "2026-08-06T09:58:24Z",
   "mode": "packs+watchlist, LIVE emails",
-  "note": "packs-only sweep (42 in-window mtgs + 8 watchlist). 15 packs detected & analysed; 14 papers alerts sent 14/14. QGH/QWU promoted from watchlist. Stale dates flagged: RCX/RBD/RL1 2026-07-09, R0D 2026-07-08."
+  "note": "packs-only sweep, window 2026-08-04..2026-08-16. 23 in-window meetings checked (11 already analysed on 3 Aug excluded by status). 9 distinct new packs detected and analysed across 11 meetings (RWW/RY2 share one group pack; RMP/RWJ share one joint pack). Watchlist: 8 orgs polled, 0 new packs. No packs yet for the 11-13 Aug meetings."
  },
  "_last_scan": "2026-07-27T12:00:00Z",
  "_run_2026_07_20": {
