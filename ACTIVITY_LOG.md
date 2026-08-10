@@ -1,3 +1,53 @@
+## 2026-08-10 (follow-up) — Sussex Partnership second pass, annual reports deep-read + sent
+
+Henry asked for the three annual reports in the RX2 13 Aug pack to be read properly.
+They were missed on the first pass because Sussex publishes an IMAGE-ONLY pack
+(221pp, ~93MB, no text layer — pypdf returns only a navigation overlay). Read by
+rendering pages with pdftoppm.
+
+**Learning from Mortality Deaths 2025/26 (pp.150-166)** — strongest material in the
+pack. Trust is "partially assured" and states it "cannot yet provide complete
+population-level analysis, establish a reliable baseline, or evidence sustained
+reductions in avoidable or premature mortality" — which is its own stated strategic
+priority for SMI/LD/autism. 2,300 deaths recorded; 139 met review criteria; only 101
+reviews completed (73%) "due to capacity within the mortality review function", leaving
+38 carried into 26/27. Eight LeDeR reviews all year: 8 LD, ZERO autism, ZERO LD+autism,
+despite all autism deaths being a mandatory category in the trust's own policy. Cannot
+produce total Sussex deaths, ethnicity data, crude age-at-death for its SMI and LD
+registers, or smoking-as-contributing-factor. CMO has asked NHSE for real-time mortality
+surveillance access. 92.59% of LD deaths were under 80. Feb 2026 EPR change cost two
+months of life-expectancy data. 3,136 physical health checks against a 4,000 ambition.
+
+**Health and Safety 2025/26 (pp.121-149)** — 29 standards: 21 full, 7 partial, 1 NO
+assurance. First aid is the only red, "requires urgent recovery oversight", wards without
+sufficient on-duty first aiders, fix not due until Oct 2026. Violence, abuse and hate
+crime the highest staff-reported incident themes with "inconsistent support arrangements
+before, during and after incidents". No inpatient ligature-related deaths reported.
+
+**Mixed Sex Accommodation & Sexual Safety 2025/26 (pp.167-176)** — 176 internal single-sex
+breaches, third consecutive annual rise (146 -> 174 -> 176); Rowan and Larch wards alone
+49%. Zero externally reported to NHSE; CNO has requested assurance from divisional nursing
+directors. 79 sexual safety incidents, down 36% from 124 — but the same report cites
+clearer categorisation and more explicit recognition of staff as victims, so this is a
+fall in REPORTED incidents and the report does not separate that from a real reduction.
+Flagged as [INFERENCE] in the summary and called out explicitly in the email. Top two
+reporting wards (Regency, Thyme) are male-only, driven by four patients; "female staff are
+more frequently targeted in patient-on-staff incidents on male only wards". Chalkhill ward
+temporarily closed since Dec 2025. New national MSA guidance due Aug 2026.
+
+**Email:** LIVE, 1/1 to Alison, subject "[PAPERS - UPDATE] ... three annual reports
+deep-read". Explicitly framed as an update to the morning alert, not a new pack, so it
+does not read as a duplicate. alerts_sent.summary re-stamped; alerts_sent.papers left at
+the morning timestamp.
+
+**Notes recorded for future runs:** RX2 org record now carries the image-only warning
+(render pages, do not rely on text extraction), the ~93MB truncation risk (check
+Content-Length), and the fact that the generic filename Published_Board_Pack.pdf is reused
+between meetings so packs must be compared by bytes/pages rather than URL.
+
+**Still open:** the Content-Length check is documented in the RX2 notes but is NOT yet
+implemented in the download path — a truncated pack can still be analysed silently.
+
 ## 2026-08-10 (PACKS-ONLY run — packs + watchlist, LIVE SEND 6/6, Henry + Claude)
 
 **Scope:** packs-only. 14 live meetings in the 8–20 Aug detection window (3 retracted

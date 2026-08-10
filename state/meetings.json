@@ -1498,9 +1498,9 @@
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "summary": "2026-08-10T11:49:15Z"
    },
-   "notes": null,
+   "notes": "[2026-08-10] Second-pass analysis: the published pack is image-only (221pp, no text layer), so the three 2025/26 annual reports (Health & Safety pp.121-149, Learning from Mortality Deaths pp.150-166, Mixed Sex Accommodation & Sexual Safety pp.167-176) were missed on the first pass and read by page rendering afterwards. Update emailed to Alison 2026-08-10T11:49:15Z. For future Sussex packs: render pages, do not rely on text extraction.",
    "summary_path": "summaries/RX2_2026-08-13.md"
   },
   {

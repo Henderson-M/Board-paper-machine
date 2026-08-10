@@ -137,7 +137,7 @@
     "ics": "Sussex",
     "correspondent": "Alison",
     "url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
-    "notes": "[2026-07-21] Dates in collapsed accordions - needs --html. | "
+    "notes": "[2026-08-10] Publishes an IMAGE-ONLY board pack (Published_Board_Pack.pdf, ~93MB, no text layer) - pypdf returns only a navigation overlay. Analyse by rendering pages (pdftoppm -png -r 105). Also: the file is ~93MB and curl truncated at 36MB on first attempt - check Content-Length. The generic filename Published_Board_Pack.pdf is reused, so compare bytes/pages not the URL. | [2026-07-21] Dates in collapsed accordions - needs --html. | "
   },
   {
     "ods_code": "RXC",
