@@ -1473,7 +1473,7 @@
    "date": "2026-08-13",
    "title": "Board of Directors - Public Meeting",
    "source_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
-   "papers_url": "https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings",
+   "papers_url": null,
    "pack_files": [
     {
      "url": "https://www.sussexpartnership.nhs.uk/application/files/4117/8488/4938/01_-_FINAL_BoD_Agenda_August_2026_PUBLIC.pdf",
@@ -1482,26 +1482,17 @@
      "first_seen": "2026-08-03T12:00:00Z",
      "bytes": 325201,
      "pages": 2
-    },
-    {
-     "url": "https://www.sussexpartnership.nhs.uk/application/files/2217/8634/9533/Published_Board_Pack.pdf",
-     "title": "Board of Directors Papers - 13 August 2026 (published board pack)",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 97768728,
-     "pages": 221
     }
    ],
-   "status": "analysed",
+   "status": "papers_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": null,
-   "summary_path": "summaries/RX2_2026-08-13.md"
+   "notes": null
   },
   {
    "id": "RX2:2026-10-08",
@@ -1597,7 +1588,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -2395,7 +2386,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -7555,7 +7546,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8193,7 +8184,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12693,24 +12684,15 @@
    "date": "2026-08-11",
    "title": "Trust Board Meeting (Board in Common)",
    "source_url": "https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/",
-   "papers_url": "https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/",
-   "pack_files": [
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/08/Board-in-Common-Part-1-Paper-Pack-V2.pdf",
-     "title": "Board in Common Part 1 Paper Pack V2",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 20717134,
-     "pages": 384
-    }
-   ],
-   "status": "analysed",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
    "notes": null,
    "date_review": {
@@ -12718,8 +12700,7 @@
     "reviewed": "2026-08-03T12:00:00Z",
     "run": "2026-08-03",
     "evidence": "Dorset County page lists only past dates (10 Feb, 8 Apr, 17 Jun 2026); H2 Board-in-Common dates unpublished. No positive contradiction."
-   },
-   "summary_path": "summaries/RBD_2026-08-11.md"
+   }
   },
   {
    "id": "REF:2026-07-02",
@@ -12876,27 +12857,17 @@
    "date": "2026-08-12",
    "title": "Trust Board Meeting",
    "source_url": "https://www.uhnm.nhs.uk/about-us/our-board/trust-board-papers/",
-   "papers_url": "https://www.uhnm.nhs.uk/about-us/our-board/trust-board-papers/",
-   "pack_files": [
-    {
-     "url": "https://www.uhnm.nhs.uk/media/fqenzk5o/trust-board-part-1-12-08-26-v2.pdf",
-     "title": "Trust Board Part 1 12 08 26 V2",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 14107488,
-     "pages": 182
-    }
-   ],
-   "status": "analysed",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": null,
-   "summary_path": "summaries/RJE_2026-08-12.md"
+   "notes": null
   },
   {
    "id": "RJE:2026-09-16",
@@ -15263,44 +15234,18 @@
    "org_type": "trust",
    "date": "2026-08-13",
    "title": "Public Board",
-   "source_url": "https://www.sath.nhs.uk/about-us/trust-information/board-papers/",
+   "source_url": "https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/",
    "papers_url": "https://www.sath.nhs.uk/about-us/trust-information/board-papers/",
-   "pack_files": [
-    {
-     "url": "https://www.sath.nhs.uk/wp-content/uploads/2026/08/00-PUBLIC-AGENDA-13.08.26.pdf",
-     "title": "00 PUBLIC AGENDA 13.08.26",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 424870,
-     "pages": 2
-    },
-    {
-     "url": "https://www.sath.nhs.uk/wp-content/uploads/2026/08/01-PUBLIC-BOARDS-IN-COMMON-13.08.26-COMBINED-PAPERS.pdf",
-     "title": "01 PUBLIC BOARDS IN COMMON 13.08.26 COMBINED PAPERS",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 13854540,
-     "pages": 255
-    },
-    {
-     "url": "https://www.sath.nhs.uk/wp-content/uploads/2026/08/02-Public-Board-INFORMATION-PACK-13.08.26.pdf",
-     "title": "02 Public Board INFORMATION PACK 13.08.26",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 14832999,
-     "pages": 312
-    }
-   ],
-   "status": "analysed",
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": null,
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": null,
-   "summary_path": "summaries/RXW_2026-08-13.md"
+   "notes": null
   },
   {
    "id": "RXW:2026-10-08",
@@ -16248,7 +16193,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16331,7 +16276,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-03T12:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20624,35 +20569,17 @@
    "date": "2026-08-11",
    "title": "Public Board Meeting",
    "source_url": "https://www.hct.nhs.uk/our-board/",
-   "papers_url": "https://www.hct.nhs.uk/our-board/",
-   "pack_files": [
-    {
-     "url": "https://www.hct.nhs.uk/download/00-hct-public-board-main-papers-110826pdf.pdf?ver=18982&doc=docm93jijm4n14256.pdf",
-     "title": "Public Board Main Papers 11 August 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 11351680,
-     "pages": 243
-    },
-    {
-     "url": "https://www.hct.nhs.uk/download/00-hct-public-board-supporting-papers-110826pdf.pdf?ver=18981&doc=docm93jijm4n14255.pdf",
-     "title": "Public Board Supporting Papers 11 August 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 688232,
-     "pages": 44
-    }
-   ],
-   "status": "analysed",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": "",
-   "summary_path": "summaries/RY4_2026-08-11.md"
+   "notes": ""
   },
   {
    "id": "RY4:2026-10-13",
@@ -20760,7 +20687,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -22346,43 +22273,17 @@
    "date": "2026-08-13",
    "title": "Board Meeting in Common with SaTH",
    "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers",
-   "papers_url": "https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers",
-   "pack_files": [
-    {
-     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14565.pdf",
-     "title": "00 Board in Common Public Agenda - August 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 424870,
-     "pages": 2
-    },
-    {
-     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14566.pdf",
-     "title": "01 Board in Common Meeting Papers - August 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 13854540,
-     "pages": 255
-    },
-    {
-     "url": "https://www.shropscommunityhealth.nhs.uk/content/doclib/14567.pdf",
-     "title": "02 Board in Common information pack Aug 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 14832999,
-     "pages": 312
-    }
-   ],
-   "status": "analysed",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": null,
-   "summary_path": "summaries/R1D_2026-08-13.md"
+   "notes": null
   },
   {
    "id": "R1D:2026-10-08",
@@ -23109,27 +23010,17 @@
    "date": "2026-08-13",
    "title": "Board of Directors Meeting",
    "source_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
-   "papers_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
-   "pack_files": [
-    {
-     "url": "https://www.tewv.nhs.uk/wp-content/uploads/2026/08/Board-of-Directors-Public-Agenda-Pack-13-August-2026.pdf",
-     "title": "Board of Directors Public Agenda Pack 13 August 2026",
-     "kind": "pdf",
-     "first_seen": "2026-08-10T11:30:42Z",
-     "bytes": 16011747,
-     "pages": 242
-    }
-   ],
-   "status": "analysed",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-06T09:58:24Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:30:42Z"
+    "papers": null,
+    "summary": null
    },
-   "notes": null,
-   "summary_path": "summaries/RX3_2026-08-13.md"
+   "notes": null
   },
   {
    "id": "RXE:2026-07-30",

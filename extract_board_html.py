@@ -270,9 +270,25 @@ def fetch_html(url, use_playwright=False):
             import urllib.request
             req = urllib.request.Request(
                 url, headers={"User-Agent": USER_AGENT,
-                              "Accept": "text/html,application/xhtml+xml,*/*"})
+                              "Accept": "text/html,application/xhtml+xml,*/*",
+                              "Accept-Encoding": "gzip, deflate"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 raw = r.read()
+            # Some NHS sites (e.g. southwestyorkshire.nhs.uk) return gzip even
+            # when it wasn't requested. urllib does NOT auto-decompress, so
+            # without this the body decodes to mojibake containing no hrefs and
+            # no dates — the extractor then reports 0 links with no error, which
+            # silently defeats the anti-omission cross-check it exists to provide.
+            cenc = (r.headers.get("Content-Encoding") or "").lower()
+            if cenc == "gzip" or raw[:2] == b"\x1f\x8b":
+                import gzip
+                raw = gzip.decompress(raw)
+            elif cenc == "deflate":
+                import zlib
+                try:
+                    raw = zlib.decompress(raw)
+                except zlib.error:
+                    raw = zlib.decompress(raw, -zlib.MAX_WBITS)
             enc = "utf-8"
             ctype = r.headers.get("Content-Type", "")
             m = re.search(r"charset=([\w-]+)", ctype)

@@ -1,0 +1,56 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Dorset County Hospital FT / Dorset HealthCare University FT board — 11 August 2026 — 5 leads",
+  "body_file": "outbox/20260810_joe_RBD_papers.md",
+  "attach": [
+   "summaries/RBD_2026-08-11.md"
+  ],
+  "id": "20260810_RBD_joe"
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Hertfordshire Community NHS Trust board — 11 August 2026 — 3 leads",
+  "body_file": "outbox/20260810_emily_RY4_papers.md",
+  "attach": [
+   "summaries/RY4_2026-08-11.md"
+  ],
+  "id": "20260810_RY4_emily"
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of North Midlands NHS Trust board — 12 August 2026 — 3 leads",
+  "body_file": "outbox/20260810_caitlin_RJE_papers.md",
+  "attach": [
+   "summaries/RJE_2026-08-12.md"
+  ],
+  "id": "20260810_RJE_caitlin"
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Shrewsbury and Telford Hospital NHS Trust / Shropshire Community Health NHS Trust board — 13 August 2026 — 5 leads",
+  "body_file": "outbox/20260810_caitlin_RXW_papers.md",
+  "attach": [
+   "summaries/RXW_2026-08-13.md"
+  ],
+  "id": "20260810_RXW_caitlin"
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Sussex Partnership NHS Foundation Trust board — 13 August 2026 — 4 leads",
+  "body_file": "outbox/20260810_alison_RX2_papers.md",
+  "attach": [
+   "summaries/RX2_2026-08-13.md"
+  ],
+  "id": "20260810_RX2_alison"
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Tees, Esk and Wear Valleys NHS Foundation Trust board — 13 August 2026 — 4 leads",
+  "body_file": "outbox/20260810_matt_RX3_papers.md",
+  "attach": [
+   "summaries/RX3_2026-08-13.md"
+  ],
+  "id": "20260810_RX3_matt"
+ }
+]

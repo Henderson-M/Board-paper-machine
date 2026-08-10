@@ -1,3 +1,84 @@
+## 2026-08-10 (PACKS-ONLY run — packs + watchlist, LIVE SEND 6/6, Henry + Claude)
+
+**Scope:** packs-only. 14 live meetings in the 8–20 Aug detection window (3 retracted
+excluded). State was level with origin at the start and again at the pre-send guard;
+nothing had been alerted remotely, so nothing was dropped.
+
+**Packs:** 6 new packs found and analysed, covering 7 meetings.
+- RBD Dorset County Hospital / Dorset HealthCare, 11 Aug — Board in Common (384pp)
+- RY4 Hertfordshire Community, 11 Aug — main + supporting papers (243pp + 44pp)
+- RJE UH North Midlands, 12 Aug — Part 1 pack (182pp)
+- RXW SaTH + R1D Shropshire Community, 13 Aug — Boards in Common (2 + 255 + 312pp).
+  The three PDFs on each trust's site are BYTE-IDENTICAL (md5 confirmed), so this is one
+  pack, one analysis, one email to Caitlin — not two.
+- RX2 Sussex Partnership, 13 Aug — published board pack (221pp, 93MB)
+- RX3 Tees Esk and Wear Valleys, 13 Aug — public agenda pack (242pp)
+
+**No papers yet (8 meetings):** R1C Solent + RW1 Southern Health (shared HIOW page),
+RP7 Lincolnshire Partnership, RRE Midlands Partnership (two-hop event page followed —
+genuinely empty), RXC East Sussex Healthcare, QK1 + QPM LLR/Northamptonshire ICBs.
+
+**Standout leads:** SaTH — CQC removed the LAST of the 60 conditions on its registration
+on 22 July (s31 notification), with UEC/medicine inspection reports due "over the coming
+weeks"; also two live fire safety enforcement notices (365, 366) from Shropshire Fire and
+Rescue. UHNM — NHSE-commissioned Ethical Healthcare Consulting review says EPR replacement
+is "neither affordable nor deliverable"; £53m of CIP rated high risk; Deloitte commissioned
+on nursing sickness absence. Herts Community — a £27m neighbourhood health allocation cut
+to ~£0.5m after NHSE confirmed only £50m nationally, "effectively removing the anticipated
+investment"; 2025/26 accounts (Azets) show £761k surplus vs prior-year £747k deficit,
+unqualified, no VfM weaknesses, delivered during a change of DoF. TEWV — £8k/day for two
+independent-sector PICU placements; agency shifts at "significant price cap breaches" with
+the board "briefed privately"; break-even rests on a £27.7m CRES programme. Sussex
+Partnership — own IQPR concedes the UEC programme "is reported Green despite the adverse
+outcome position"; FRP on track only via £1.7m non-recurrent mitigation. Dorset — breakeven
+depends on £2.6m deficit support that "could be withdrawn at any point"; off-framework
+agency growing two years after NHSE banned it; 12-hour ED waits rank 111/122.
+
+**Watchlist:** all 9 orgs polled, no new packs. All baselines populated — the 3 Aug
+empty-baseline bug has not recurred.
+
+**Withdrawals (Step 8b):** none outstanding; the 6 Aug catch-up cleared the backlog.
+
+**Emails:** LIVE, 6/6 delivered (send_results_20260810.json all ok:true). Joe (Dorset),
+Emily (Herts Community), Caitlin (UHNM), Caitlin (SaTH/Shrops BiC), Alison (Sussex
+Partnership), Matt Mathers (TEWV). alerts_sent.papers stamped on all 7 meetings from the
+ok:true rows only. Bodies verified UTF-8 no-BOM before sending (no £ mangling).
+
+**BUG FIXED — extract_board_html.py silently returned zero links on gzip sites.**
+The script fetches with `urllib.request`, which does NOT auto-decompress. Sites that
+return `Content-Encoding: gzip` unconditionally (confirmed on southwestyorkshire.nhs.uk)
+had their gzip bytes decoded as UTF-8, producing mojibake with no hrefs and no dates —
+so the extractor reported **0 pdf_links and 0 dates with no error at all**. That is a
+silent failure in the very tool that exists to catch silent omissions, and it would have
+hidden any new SW Yorks pack (RXG — Henry's own patch). Fixed by sending Accept-Encoding
+and decompressing gzip/deflate (also sniffs the 1f8b magic bytes in case the header is
+absent). Verified: RXG 0 -> 265 pdf_links, exactly matching its 265-file baseline;
+RXW regression unchanged at 1825 links / 113 dates.
+
+Note the other watchlist zeros (QYG, RRJ, RXA, RXE, S1Y5D) are NOT this bug — they are
+child-page / JS-rendered / container-page layouts already documented in their notes. All
+were cross-checked with WebFetch this run; no new packs.
+
+**Data fix:** R1D papers_url set to /board-meetings-and-papers. Its recorded url
+(/board-meeting-dates) is dates-only and carries no packs — the Aug pack was found only
+because the papers page was checked separately. Note recorded that R1D and RXW share one
+Boards in Common and must be deduped to a single alert.
+
+**Still open / flagged, not actioned:**
+1. RX2 Sussex Partnership publishes an IMAGE-ONLY pack (221pp, 93MB, no text layer).
+   Analysed by rendering pages with pdftoppm. Its three newly published annual reports
+   (Health & Safety 2025/26 pp.121-149, Learning from Mortality/Deaths 2025-26 pp.150-166,
+   Mixed Sex Annual Declaration pp.167-176) were NOT deep-read — the mortality annual
+   report in particular deserves a direct look.
+2. The Sussex pack needed a resumed download: the first curl truncated at 36MB of 93MB and
+   pypdf reported "EOF marker not found". Worth adding a Content-Length check to the
+   download path so truncation is caught rather than silently analysed.
+3. S1Y5D Central East ICB has a published forward schedule (next board Fri 25 Sept 2026)
+   that is still not in state, so it stays on the watchlist. A dates run will pick it up.
+4. RBD's Board in Common covers RDY Dorset Healthcare, which has no 11 Aug entry in state.
+   Same correspondent (Joe), so no duplicate-alert risk, but the RDY meeting record is
+   missing.
+
 ## 2026-08-06 (follow-up 2) — withdrawal alerts added; 19 stale calendar entries cleared
 
 Henry asked why he'd had no email about a Barnsley board meeting he had in his
