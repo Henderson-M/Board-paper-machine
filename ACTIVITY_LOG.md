@@ -1,3 +1,83 @@
+## 2026-08-13 (PACKS-ONLY run — packs + watchlist, LIVE SEND 4/4, Henry + Claude)
+
+**Scope:** packs-only. Detection window 11–23 Aug: 17 meetings in state, 3 retracted, so
+14 live. State was level with origin at the start (0/0) and again at the pre-send guard.
+Nothing had been alerted remotely by anyone else, so nothing was dropped from the send.
+
+**Packs:** 4 new packs found and analysed.
+- RRE Midlands Partnership University FT, 13 Aug — 330pp combined public pack
+- RXC East Sussex Healthcare, 18 Aug — 250pp combined pack, published ~5 days early
+- R1C/RW1 Hampshire and Isle of Wight Healthcare, 18 Aug — 199pp pack (see date fix below)
+- RX2 Sussex Partnership, 13 Aug — pack REPUBLISHED at 239pp vs the 221pp version analysed
+  on 10 Aug; sole addition is the Annual Safe Staffing Establishment Report 2025/26
+
+**No papers yet (5 meetings):** RP7 Lincolnshire Partnership (13 Aug — none even on the day
+of the meeting; page promises papers 7 days ahead but the document library holds only an
+acronyms list, confirmed by Playwright and WebFetch), QK1 + QPM LLR/Northamptonshire ICBs
+(20 Aug — latest on the page is the Aug 2025 pack). The 7 already-analysed meetings from the
+10 Aug run (RBD, RY4, RJE, RXW, R1D, RX3, plus RX2) were re-checked for supplementary papers;
+only RX2 had anything new.
+
+**Date fix — HIOW (R1C + RW1).** We were holding an 11 August meeting for both trusts. It is
+not on the trust's page: the forward schedule reads 18 Aug, 13 Oct, 15 Dec 2026, 9 Feb 2027,
+and the 18 Aug meeting has a published pack. The 11 Aug entries are retracted and 18 Aug
+recorded. No date alert had ever gone out for 11 Aug (alerts_sent.date was null), so no
+withdrawal alert was owed — Mimi's email says so explicitly rather than leaving her to wonder.
+Hampshire and Isle of Wight Healthcare is one board covering both org records, so one pack,
+one analysis, one email — not two.
+
+**Standout leads:**
+- MPFT — invited by NHS England into the Advanced Foundation Trust assessment process. Also
+  reporting break-even to NHSE while internally forecasting a £6.4m deficit, and meeting part
+  of its £30.8m efficiency target by "re-categorising other existing underspends (e.g. pay
+  vacancies) against the efficiency target". Reach Out forensic collaborative's "long-term
+  financial viability" in question with 71 patients placed out of area. Board asked to approve
+  a bid for an Essex-wide talking therapies contract worth £31m+ a year.
+- East Sussex — the CQC WITHDREW a section 29A warning notice on urgent and emergency care
+  after the trust challenged its "accuracy and proportionality", the regulator accepting it
+  "was not an appropriate or proportionate regulatory response". Final inspection report still
+  awaited. Also: asked NHSE for £25m cash PDC support, region backed only £14.4m, cash at a
+  £2.5m closing balance; 2026/27 contract income envelope down ~£40m; board asked to endorse
+  an "IHO-type" host-provider role across East Sussex; "pre-emptive boarding in corridors".
+- HIOW Healthcare — the trust is APPEALING its CQC "Requires Improvement" well-led rating,
+  agreed under board emergency powers on 23 July, with the chair saying "I do not propose to
+  make further public comment on this matter". Also: applied to NHSE South East to have its
+  2023 enforcement undertakings lifted; a coroner has issued a prevention of future deaths
+  report after the Richard Laversuch inquest; finance committee alerting the board that a £1m
+  swing is needed between M6 and M7 or next year's recovery target rises to £37m; supplier
+  payments deliberately withheld, taking BPPC to 92%.
+- Sussex Partnership (update) — the trust's own safe staffing review found several inpatient
+  wards had baseline establishments "below safe staffing levels", kept safe only by temporary
+  staff; four forensic wards and the Selden LD unit ran with a single registered mental health
+  nurse overnight until July 2026; the trust benchmarks bottom of its own seven-trust peer
+  group on care hours per patient day (9.14, vs 13.39 at Berkshire and Oxford Health).
+
+**Emails:** LIVE, 4/4 sent, staggered 32–57s. Caitlin (MPFT), Alison (East Sussex + the Sussex
+Partnership update), Mimi (HIOW). Manifest papers_manifest_20260813.json, results
+send_results_20260813.json — all ok:true. RX2 was already flagged alerts_sent.papers on the
+remote from 10 Aug; it was deliberately kept in the send as a "[PAPERS — UPDATE]" on material
+that genuinely was not in the earlier email, and only alerts_sent.summary was re-stamped —
+the same pattern as the 10 Aug Sussex follow-up, so it does not read as a duplicate pack alert.
+
+**Watchlist (Step 7b):** all 9 orgs polled, NO new packs. Six of them (QYG, RRJ, RXA, RXE,
+S1Y5D, RBS) return zero links from extract_board_html.py by design — extension-less CMS links
+or two-hop child pages — so each was cross-checked with WebFetch or Playwright before being
+recorded as "nothing new". A zero-link extractor result is not evidence of no papers, and the
+watchlist now carries a _last_poll note saying so.
+
+**Notes recorded for future runs:** MPFT publishes as a single combined PDF behind an
+extension-less /download_file/{uuid}/256 handler. East Sussex uses a double hyphen in its pack
+filename. HIOW uses /download_file/view/{uuid}/232 and is one board for two org records.
+Sussex Partnership reuses the filename Published_Board_Pack.pdf across different /application/
+files/ paths AND republishes mid-cycle, so packs must be compared by page count or bytes, not
+by URL — and page references shift when it does (everything after p.120 moved +18 this time).
+CWP (RXA) 403s on WebFetch; use Playwright on /our-board-and-governors/board-summaries/ with
+the trailing slash.
+
+**Still open:** RP7 Lincolnshire Partnership published no papers at all for its 13 Aug meeting —
+worth a re-check next run to see whether they appear retrospectively. The RX2 Content-Length
+check is still documented in notes but not implemented in the download path.
+
 ## 2026-08-10 (follow-up) — Sussex Partnership second pass, annual reports deep-read + sent
 
 Henry asked for the three annual reports in the RX2 13 Aug pack to be read properly.

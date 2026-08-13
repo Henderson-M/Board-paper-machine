@@ -1,0 +1,38 @@
+[
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Midlands Partnership University NHS Foundation Trust board — 13 August 2026 — 5 leads",
+  "body_file": "outbox/20260813_caitlin_RRE_papers.md",
+  "attach": [
+   "summaries/RRE_2026-08-13.md"
+  ],
+  "id": "20260813_RRE_caitlin"
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Sussex Healthcare NHS Trust board — 18 August 2026 — 4 leads",
+  "body_file": "outbox/20260813_alison_RXC_papers.md",
+  "attach": [
+   "summaries/RXC_2026-08-18.md"
+  ],
+  "id": "20260813_RXC_alison"
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Hampshire and Isle of Wight Healthcare NHS Foundation Trust board — 18 August 2026 — 5 leads",
+  "body_file": "outbox/20260813_mimi_R1C_papers.md",
+  "attach": [
+   "summaries/R1C_2026-08-18.md"
+  ],
+  "id": "20260813_R1C_mimi"
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS — UPDATE] Sussex Partnership NHS Foundation Trust board — 13 August 2026 — republished pack adds safe staffing annual report",
+  "body_file": "outbox/20260813_alison_RX2_papers.md",
+  "attach": [
+   "summaries/RX2_2026-08-13.md"
+  ],
+  "id": "20260813_RX2_alison"
+ }
+]

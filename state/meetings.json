@@ -1490,17 +1490,22 @@
      "first_seen": "2026-08-10T11:30:42Z",
      "bytes": 97768728,
      "pages": 221
+    },
+    {
+     "url": "https://www.sussexpartnership.nhs.uk/application/files/5917/8645/3677/Published_Board_Pack.pdf",
+     "title": "Board of Directors Papers - 13 August 2026 (republished, 239pp)",
+     "kind": "pdf"
     }
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": "2026-08-10T11:30:42Z",
-    "summary": "2026-08-10T11:49:15Z"
+    "summary": "2026-08-13T11:20:00Z"
    },
-   "notes": "[2026-08-10] Second-pass analysis: the published pack is image-only (221pp, no text layer), so the three 2025/26 annual reports (Health & Safety pp.121-149, Learning from Mortality Deaths pp.150-166, Mixed Sex Accommodation & Sexual Safety pp.167-176) were missed on the first pass and read by page rendering afterwards. Update emailed to Alison 2026-08-10T11:49:15Z. For future Sussex packs: render pages, do not rely on text extraction.",
+   "notes": "[2026-08-10] Second-pass analysis: the published pack is image-only (221pp, no text layer), so the three 2025/26 annual reports (Health & Safety pp.121-149, Learning from Mortality Deaths pp.150-166, Mixed Sex Accommodation & Sexual Safety pp.167-176) were missed on the first pass and read by page rendering afterwards. Update emailed to Alison 2026-08-10T11:49:15Z. For future Sussex packs: render pages, do not rely on text extraction. [2026-08-13] Pack REPUBLISHED at a new /application/files/ path (5917/8645/3677) at 239pp vs the 221pp version analysed 10 Aug; sole addition is Item 9.1b Annual Safe Staffing Establishment Report 2025/26 (pp.121-138). All page refs after p.120 shift by +18 between the two versions. Compare packs by page count/bytes, not URL or filename. [2026-08-13] Update alert sent to Alison for the republished 239pp pack (safe staffing annual report). alerts_sent.summary re-stamped; alerts_sent.papers deliberately left at the 10 Aug timestamp so this does not read as a second pack alert.",
    "summary_path": "summaries/RX2_2026-08-13.md"
   },
   {
@@ -1593,17 +1598,24 @@
    "date": "2026-08-18",
    "title": "Trust Board meeting in public",
    "source_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.esht.nhs.uk/about-us/trust-board/meetings-in-public/",
+   "pack_files": [
+    {
+     "url": "https://www.esht.nhs.uk/wp-content/uploads/2026/08/18-August-2026--Trust-Board-meeting-in-public.pdf",
+     "title": "18 August 2026 - Trust Board meeting in public",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-13T11:20:00Z",
+    "summary": "2026-08-13T11:20:00Z"
    },
-   "notes": null
+   "notes": " [2026-08-13] Single combined 250pp pack at /wp-content/uploads/YYYY/MM/DD-Month-YYYY--Trust-Board-meeting-in-public.pdf (note the double hyphen). Published ~5 days ahead of the meeting.",
+   "summary_path": "summaries/RXC_2026-08-18.md"
   },
   {
    "id": "RXC:2026-09-15",
@@ -2395,13 +2407,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-08-13] No papers on the day of the meeting. Page states papers are posted ~7 days prior but the document-library block held only 'LPFT Commonly Used Acronyms'; Playwright --html and WebFetch both confirm zero pack PDFs. The /navigate/{id}/53923 pagination pages return no links either."
   },
   {
    "id": "RP7:2026-10-08",
@@ -7553,15 +7565,20 @@
    "source_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-08-13] Retracted: not on the source page; superseded by 18 Aug 2026. No date alert had been sent, so no withdrawal alert required.",
+   "date_review": {
+    "reviewed": "2026-08-13T11:00:00Z",
+    "outcome": "retracted",
+    "evidence": "The HIOW Healthcare board page forward schedule lists Tuesday 18 August 2026, 13 October 2026, 15 December 2026 and 9 February 2027. No 11 August 2026 date appears anywhere in the page text or the deterministic extractor output. The 18 August meeting has a published 199pp pack. No date alert had ever been sent for the 11 Aug entry (alerts_sent.date was null), so no withdrawal alert is owed."
+   }
   },
   {
    "id": "R1C:2026-10-13",
@@ -8191,15 +8208,20 @@
    "source_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": " [2026-08-13] Retracted: not on the source page; superseded by 18 Aug 2026. No date alert had been sent, so no withdrawal alert required.",
+   "date_review": {
+    "reviewed": "2026-08-13T11:00:00Z",
+    "outcome": "retracted",
+    "evidence": "The HIOW Healthcare board page forward schedule lists Tuesday 18 August 2026, 13 October 2026, 15 December 2026 and 9 February 2027. No 11 August 2026 date appears anywhere in the page text or the deterministic extractor output. The 18 August meeting has a published 199pp pack. No date alert had ever been sent for the 11 Aug entry (alerts_sent.date was null), so no withdrawal alert is owed."
+   }
   },
   {
    "id": "RW1:2026-10-13",
@@ -12706,7 +12728,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": "2026-08-10T11:30:42Z",
@@ -12889,7 +12911,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": "2026-08-10T11:30:42Z",
@@ -15293,7 +15315,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": "2026-08-10T11:30:42Z",
@@ -16248,13 +16270,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked). [2026-08-13] No 2026 pack yet; page's most recent board papers are 14 August 2025. LLR/Northants cluster page."
   },
   {
    "id": "QK1:2026-10-15",
@@ -16331,7 +16353,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20645,7 +20667,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": "2026-08-10T11:30:42Z",
@@ -20756,17 +20778,24 @@
    "date": "2026-08-13",
    "title": "Trust Board Meeting",
    "source_url": "https://www.mpft.nhs.uk/about-us/board-papers/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.mpft.nhs.uk/about-us/board-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.mpft.nhs.uk/download_file/b511f242-f6b2-4833-9748-de16b415a302/256",
+     "title": "2026-08-13 MPFT Trust Board Papers",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-08-13T11:20:00Z",
+    "summary": "2026-08-13T11:20:00Z"
    },
-   "notes": ""
+   "notes": " [2026-08-13] Pack published as a single 330pp combined PDF via /download_file/{uuid}/256 (extension-less CMS handler); the deterministic extractor picks it up, WebFetch does not always. Text layer is intact.",
+   "summary_path": "summaries/RRE_2026-08-13.md"
   },
   {
    "id": "RRE:2026-10-08",
@@ -22375,7 +22404,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": "2026-08-10T11:30:42Z",
@@ -23122,7 +23151,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-08-10T11:30:42Z",
+   "last_checked": "2026-08-13T11:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": "2026-08-10T11:30:42Z",
@@ -27955,6 +27984,58 @@
    },
    "notes": "[2026-08-03] Meeting discovered via the papers watchlist - the pack was published before we had recorded the date. No date alert sent (meeting already held); papers alert only.",
    "summary_path": "summaries/QYG_2026-07-30.md"
+  },
+  {
+   "id": "R1C:2026-08-18",
+   "ods_code": "R1C",
+   "org_type": "trust",
+   "date": "2026-08-18",
+   "title": "Board of Directors' Meeting (In Public)",
+   "source_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
+   "papers_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
+   "pack_files": [
+    {
+     "url": "https://hiowhealthcare.nhs.uk/download_file/view/646def00-3ae0-4d8d-8d0e-c27e2f4992f9/232",
+     "title": "Board of Directors' Meeting (In Public) - Tuesday 18 August 2026",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-08-13T11:00:00Z",
+   "last_checked": "2026-08-13T11:00:00Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-08-13T11:20:00Z",
+    "summary": "2026-08-13T11:20:00Z"
+   },
+   "notes": "Hampshire and Isle of Wight Healthcare FT single board (former Solent R1C + Southern Health RW1) - one pack, one meeting, dedupe alerts to one email per recipient. Papers are extension-less /download_file/view/{uuid}/232 links; use extract_board_html.py. Date recovered on the 2026-08-13 packs-only run.",
+   "summary_path": "summaries/R1C_2026-08-18.md"
+  },
+  {
+   "id": "RW1:2026-08-18",
+   "ods_code": "RW1",
+   "org_type": "trust",
+   "date": "2026-08-18",
+   "title": "Board of Directors' Meeting (In Public)",
+   "source_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
+   "papers_url": "https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers",
+   "pack_files": [
+    {
+     "url": "https://hiowhealthcare.nhs.uk/download_file/view/646def00-3ae0-4d8d-8d0e-c27e2f4992f9/232",
+     "title": "Board of Directors' Meeting (In Public) - Tuesday 18 August 2026",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-08-13T11:00:00Z",
+   "last_checked": "2026-08-13T11:00:00Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-08-13T11:20:00Z",
+    "summary": "2026-08-13T11:20:00Z"
+   },
+   "notes": "Hampshire and Isle of Wight Healthcare FT single board (former Solent R1C + Southern Health RW1) - one pack, one meeting, dedupe alerts to one email per recipient. Papers are extension-less /download_file/view/{uuid}/232 links; use extract_board_html.py. Date recovered on the 2026-08-13 packs-only run. [2026-08-13] Alerted via the shared R1C/HIOW email to Mimi (one board, one pack) - deliberately not a second email.",
+   "summary_path": "summaries/R1C_2026-08-18.md"
   }
  ],
  "_scan_errors": [
@@ -29075,7 +29156,15 @@
   "mode": "packs+watchlist, LIVE emails",
   "note": "packs-only sweep, window 2026-08-04..2026-08-16. 23 in-window meetings checked (11 already analysed on 3 Aug excluded by status). 9 distinct new packs detected and analysed across 11 meetings (RWW/RY2 share one group pack; RMP/RWJ share one joint pack). Watchlist: 8 orgs polled, 0 new packs. No packs yet for the 11-13 Aug meetings."
  },
- "_last_scan": "2026-07-27T12:00:00Z",
+ "_last_scan": {
+  "date": "2026-08-13T11:00:00Z",
+  "mode": "packs-only",
+  "window": "2026-08-11..2026-08-23",
+  "in_window_live": 14,
+  "new_packs": 4,
+  "analysed": 4,
+  "no_papers": 5
+ },
  "_run_2026_07_20": {
   "new_dates": 14,
   "packs_attached": 139,

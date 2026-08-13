@@ -1,3 +1,17 @@
+Hi Alison,
+
+An update to the 13 August 2026 Sussex Partnership NHS Foundation Trust alert you had on 10 August — not a new pack.
+
+The trust has republished the same board pack at a new URL. It is now 239 pages, 18 more than the 221-page version analysed on 10 August. The only addition is the Annual Safe Staffing Establishment Report 2025/26 (Item 9.1b, pack pp.121-138), which was not in the version you were sent.
+
+The new material gives 3 LEAD / 2 WORTH WATCHING / 2 FOI items — the headline being that the trust's own review found several inpatient wards with baseline establishments set below safe staffing levels, kept safe only by temporary staff, and that four forensic wards plus the Selden LD unit ran with a single registered mental health nurse overnight until July 2026.
+
+One practical warning: in the republished 239pp pack every paper after p.120 sits 18 pages later than in the version you were sent, so the page references in the original alert no longer line up with the file now on the trust's website.
+
+The full summary is below and attached — the new material is in the addendum at the end, under "Addendum — 13 August 2026". Everything above it is the analysis you already have.
+
+---
+
 # Sussex Partnership NHS Foundation Trust board — 13 August 2026
 
 - **Source:** https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings
@@ -195,3 +209,10 @@ Sussex Partnership republished its 13 August board pack at a **new URL** (`.../5
 - Running totals across all three passes: 33 top lines (LEAD: 16, WORTH WATCHING: 15, FOI: 13), 12 colour quotes
 - Annual accounts / annual report present: unchanged — no statutory accounts. A **fourth** annual report is now in the pack: the **Annual Safe Staffing Establishment Report 2025/26** (pp.121–138), presented for assurance; no audit opinion or financial outturn.
 - Analysis passes: first pass 2026-08-10 (main pack); second pass 2026-08-10 (three annual reports, at Henry's request); third pass 2026-08-13 (republished 239pp pack, safe staffing establishment report).
+
+
+---
+
+Pack source: https://www.sussexpartnership.nhs.uk/about-us/how-our-trust-run/board-meetings
+
+— Board paper machine

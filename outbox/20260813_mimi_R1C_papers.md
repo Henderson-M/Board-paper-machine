@@ -1,0 +1,109 @@
+Hi Mimi,
+
+New papers detected for Hampshire and Isle of Wight Healthcare NHS Foundation Trust's board meeting on 18 August 2026.
+The pack-analyser found 5 LEAD / 7 WORTH WATCHING / 5 FOI items.
+
+Two things worth knowing about this one:
+
+1. This is the single board covering the former Solent NHS Trust and Southern Health NHS FT, which we track as two org records. It is one meeting and one pack, so you are getting one email, not two.
+
+2. We had been holding an 11 August date for both trusts. That date is not on the trust's page — its forward schedule runs 18 August, 13 October, 15 December and 9 February 2027 — so the 11 August entry has been retracted and 18 August recorded instead. No date alert had gone out for 11 August, so nothing needs removing from your calendar.
+
+Full summary below (also attached as markdown).
+
+---
+
+# Hampshire and Isle of Wight Healthcare NHS FT board — 18 August 2026
+
+*(single board covering the former Solent NHS Trust (R1C) and Southern Health NHS FT (RW1) — one pack, one meeting)*
+
+- **Source:** https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+- **Pack:** 1 file (combined public pack, 199pp)
+- **Analysed:** 2026-08-13T10:45:00Z
+
+## Top lines
+
+[LEAD] The trust is appealing the CQC's "Requires Improvement" well-led rating, a decision taken under board emergency powers and which the chair says he will not comment publicly on.
+[Evidence] "The Trust has decided to appeal the 'Requires Improvement' rating received in the most recent Care Quality Commission Well-Led report, following the inspection carried out in November 2025. This approach was discussed at the Board Workshop on 14 July, agreed following further discussion by the Executive Team, and then approved by Board resolution under Emergency Powers on 23 July before submission. I do not propose to make further public comment on this matter, but believe we have acted appropriately and in accordance with the Trust's CARE values." — p.30, [Chair's Report, Item 6]
+
+[LEAD] The CQC well-led review — carried out in November 2025 and only now published — rated the trust Requires Improvement, citing leadership accountability, succession planning, EDI, staff experience, governance consistency and cultural transformation.
+[Evidence] "The CQC has recently published the Well-Led Review which was undertaken in November 2025. The overall rating was Requires Improvement. An action plan for any remaining actions, not already implemented will be considered by the Board in October following Executive sign off. It was good to see the areas of strength including Trust strategy, lived experience leadership, Freedom to Speak Up arrangements and successful organisational integration, while recognising the need for sustained focus on leadership accountability, succession planning, equality, diversity and inclusion, staff experience, governance consistency and cultural transformation." — p.44, [Acting Chief Executive's Report, Item 7]
+
+[LEAD] The trust has applied to NHS England South East to have its 2023 enforcement undertakings lifted; a recommendation went to the Regional Support Group on 5 August.
+[Evidence] "The Trust has submitted an application to NHS England, South East for removal of the enforcement undertakings issued in 2023. The Trust has provided a self-assessment of compliance against the undertakings, alongside a supporting evidence pack. NHS England is expected to review the self-assessment during July prior to presentation of a recommendation to the Regional Support Group on 5 August, with feedback expected to be provided to the Trust later in the month. The outcome will be either a compliance certificate, or the issuing of updated undertakings to reflect any outstanding areas of concern." — p.45, [Acting Chief Executive's Report, Item 7]
+
+[LEAD] A coroner has issued a prevention of future deaths report following the inquest into the death of Richard Laversuch.
+[Evidence] "The Inquest on the death of Richard Laversuch took place during July with a number of Trust staff providing evidence. The Coroner issued a Prevention of Future Deaths which the Trust will respond to within the required timelines. Board members were informed of the forthcoming Inquest and advised of lessons learned at a Board workshop session in June. An assurance webinar with members of the Board of Directors and Council of Governors focussed on changes made in response to learning is being arranged." — p.44, [Acting Chief Executive's Report, Item 7]
+
+[LEAD] The finance committee is formally alerting the board that a £1m swing is needed between months 6 and 7 to hold break-even, and that missing it pushes next year's recovery target from £11m of underlying deficit to a £37m recovery plan.
+[Evidence] "The Board are alerted that a swing of £1m is needed in the period net result for the Trust between Month 6 and Month 7 if the full year break-even plan is to be achieved. Achievement of the full year break-even plan and financial recovery plan with 75% recurrent savings is required to achieve the expected reduction in the underlying deficit to £11m. Failure to achieve this will increase the financial recovery plan target of £37m for the following year." — p.107, [Finance & Performance Committee report 28/07/2026, Item 15]
+
+[WORTH WATCHING] Recurrent delivery on the £49m recovery programme has fallen to 25% year to date, against 38% at the same point last year and a 75% plan.
+[Evidence] "The Trust reports a year-to-date deficit of £3.2m and an in-month deficit of £0.9m, both in line with plan. Delivery against the Financial Recovery Plan totals £10.5m year-to-date, also on plan. Recurrent year to date delivery is 25% which compares to 38% for the same period last year" — p.130, [Integrated Performance Report, Item 16]. "The Recovery Programme target for the year is £49m. The programme is 104% identified (100% this time last year) and 83% fully developed (52% this time last year)." — p.136.
+
+[WORTH WATCHING] The trust deliberately withheld supplier payments as a cash-management measure, taking it below the Better Payment Practice Code target.
+[Evidence] "Better Payment Practice Code (BPPC) performance (92%) is temporarily below target (95%) due to an agreed cash-flow management approach with local provider partners. Following a review of the impact on two organisations, payments have now been released and performance is recovering." — p.135, [Integrated Performance Report, Item 16]
+
+[WORTH WATCHING] The trust told NHSE it only partially met the Fuller Inquiry mortuary recommendations, signing the national board assurance statement by written motion outside a board meeting.
+[Evidence] The board approved "The proposed Board Assurance Statement for NHS Provider Trusts for submission by 31/07/2026" by written motion on 30 July under emergency provisions of standing orders — p.26, [Written Motion – Mortuary Assurance, Item 5]. The statement itself qualifies: "A detailed recommendation-by-recommendation analysis has been completed. A time limited action plan is in place to close the remaining gap." and "as part of the completion of the time limited action plans there will be further embedding and testing across the teams." — pp.27-28, [Board Assurance Statement for NHS Provider Trusts]. June minutes record "A report on the Trust's mortuary storage facilities was shared, noting partial compliance with the Fuller Inquiry and NHS England [requirements]" — p.63, [Quality Committee report].
+
+[WORTH WATCHING] Leadership transition: acting CEO and acting CFO in post from 22 July, with incoming chief executive Suzanne Rankin not taking the reins until October after four protected induction weeks.
+[Evidence] "Paula Anderson: Acting Chief Executive from 22/07/2026 - 02/09/2026... Kim Perry: Acting Chief Finance Officer from 22/07/2026 - 02/09/2026" — p.6, [Attendance Register / Declarations, Items 1-2]. "Her induction plan is being prepared, with the intention that the initial four weeks are protected for induction and familiarisation with the Trust's services and the local system, before she gradually takes over the reins as Chief Executive in October. Paula Anderson, our Chief Finance Officer and Deputy Chief Executive, will act as Chief Executive until Suzanne takes up post" — p.29, [Chair's Report, Item 6]. The chair is "drawing on input from... Ron Shields prior to his retirement" — p.29.
+
+[WORTH WATCHING] Talking therapies is underperforming with no line of sight to recovery, tied to TUPE delays in exiting the Solent Mind contract.
+[Evidence] "Talking Therapies continue to perform below expectation reflecting in part TUPE delays in exiting the Solent Mind contract. To date the April move to a single service model has not yet been completed or delivered the necessary improvements and there is insufficient line of sight as to when material improvement will be achieved." — p.107, [Finance & Performance Committee report 28/07/2026, Item 15]
+
+[WORTH WATCHING] The trust's provider capability assessment stands at Amber/Red, alongside a segment 1 national oversight framework rating.
+[Evidence] "Our current assessment, dating back to last September is Amber/Red. This judgement partly related to our self-assessment and planned actions as well as the fact that we were in the Recovery Support Programme at the time. The Provider Capability Assessment sits alongside the National Oversight Framework quarterly assessment. The latest assessment of the Trust is segment 1 for 2025/26 quarter 4." — p.43, [Acting Chief Executive's Report, Item 7]
+
+[WORTH WATCHING] The system's 2025/26 year-end deficit was £81.4m, of which £63m was withheld deficit support funding.
+[Evidence] "The year-end system financial position reported a deficit of £81.4m, partly driven by £63m of withheld deficit support funding." — p.22, [Minutes of the meeting held on 09/06/2026, Item 4]
+
+## FOI leads
+
+[FOI] The CQC well-led report and the trust's appeal against the Requires Improvement rating.
+[Evidence] "The Trust has decided to appeal the 'Requires Improvement' rating... approved by Board resolution under Emergency Powers on 23 July before submission. I do not propose to make further public comment on this matter" — p.30, [Chair's Report]. *Request from HIOW Healthcare and the CQC: the trust's factual accuracy/appeal submission, the board resolution under emergency powers of 23 July, and the CQC's response. An appeal against a well-led rating that the chair declines to discuss publicly is the story.*
+
+[FOI] The enforcement undertakings self-assessment and evidence pack submitted to NHSE South East, and the Regional Support Group's 5 August recommendation.
+[Evidence] "The Trust has provided a self-assessment of compliance against the undertakings, alongside a supporting evidence pack... presentation of a recommendation to the Regional Support Group on 5 August" — p.45, [Acting Chief Executive's Report]. *Request from NHSE South East: the self-assessment, the Regional Support Group paper and decision, and whether a compliance certificate or updated undertakings were issued.*
+
+[FOI] The prevention of future deaths report in the Richard Laversuch inquest and the trust's response.
+[Evidence] "The Coroner issued a Prevention of Future Deaths which the Trust will respond to within the required timelines." — p.44, [Acting Chief Executive's Report]. *Request from HIOW Healthcare (and check the Chief Coroner's PFD register): the regulation 28 report and the trust's response, plus the June board workshop lessons-learned material.*
+
+[FOI] The 2025/26 external auditor's report and annual report and accounts went to governors in confidential session and are not in this pack.
+[Evidence] "In the confidential section of the Council of Governors meeting on 7 July, Governors received the External Auditor's Report and the Annual Report and Accounts for 2025/26, and supported the Trust's External Auditor Sourcing Strategy." — p.31, [Chair's Report]. *Request from HIOW Healthcare: the 2025/26 ISA 260 / auditor's annual report and the audited accounts, including any value-for-money findings.*
+
+[FOI] The recommendation-by-recommendation Fuller Inquiry analysis and time-limited mortuary action plan.
+[Evidence] "A detailed recommendation-by-recommendation analysis has been completed. A time limited action plan is in place to close the remaining gap." — p.27, [Board Assurance Statement for NHS Provider Trusts]. *Request from HIOW Healthcare: the analysis against the 29 Fuller recommendations and the time-limited action plan, identifying which recommendations are not yet met.*
+
+## Verbatim colour
+
+> "I do not propose to make further public comment on this matter, but believe we have acted appropriately and in accordance with the Trust's CARE values." — p.30, [Chair's Report, Item 6], on the appeal against the CQC well-led rating
+
+> "The Board are alerted that a swing of £1m is needed in the period net result for the Trust between Month 6 and Month 7 if the full year break-even plan is to be achieved." — p.107, [Finance & Performance Committee report 28/07/2026]
+
+> "...there is insufficient line of sight as to when material improvement will be achieved." — p.107, [Finance & Performance Committee report 28/07/2026], on talking therapies
+
+> "Better Payment Practice Code (BPPC) performance (92%) is temporarily below target (95%) due to an agreed cash-flow management approach with local provider partners." — p.135, [Integrated Performance Report]
+
+## Files reviewed
+
+- 260818 Board of Directors' Meeting (In Public) combined pack, 199pp — attendance register and declarations of interest; minutes of 09/06/2026 and extraordinary minutes 23/06/2026 plus action log (Item 4); Written Motion – Mortuary Assurance and NHSE Board Assurance Statement (Item 5); Chair's Report (Item 6); Acting Chief Executive's Report (Item 7); Quality Committee report 21/07/2026 (Item 9); Mental Health Law Oversight Committee report (Item 10); CQC Community Mental Health Survey 2025 results and appendices (Item 11); Safer Staffing Annual Report 2025/26 (Item 13); People Committee report (Item 14); Finance & Performance Committee report 28/07/2026 (Item 15); Integrated Performance Report (Item 16); Winter Planning Approach 26-27 and appendix (Item 17); Audit Committee report 28/07/2026 (Item 19); Charitable Funds Committee report (Item 20); Corporate Governance Report (Item 21)
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 17 (LEAD: 5, WORTH WATCHING: 7, FOI: 5)
+- Colour quotes: 4
+- Annual accounts / annual report present: no — the statutory 2025/26 annual report and accounts and the external auditor's report are NOT in this pack. The chair's report records that governors received both in the **confidential** section of the Council of Governors meeting on 7 July 2026, p.31. A Safer Staffing Annual Report 2025/26 (Item 13, 5pp) is included but carries no audit opinion or financial outturn.
+
+## Note on state
+
+The board page's forward schedule lists **18 August 2026**, 13 October 2026, 15 December 2026 and 9 February 2027. There is no 11 August meeting on the page — the 11 August entry previously held in state for R1C and RW1 is not supported by the source and has been retracted. No date alert had been sent for it.
+
+
+---
+
+Pack source: https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
+
+— Board paper machine
