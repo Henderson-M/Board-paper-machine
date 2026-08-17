@@ -1,0 +1,38 @@
+[
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260817_Henry_dates.md",
+  "attach": [
+   "subscriptions/new/henry_20260817.ics"
+  ],
+  "id": "dates-Henry-20260817"
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260817_Zoe_dates.md",
+  "attach": [
+   "subscriptions/new/zoe_20260817.ics"
+  ],
+  "id": "dates-Zoe-20260817"
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260817_Joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260817.ics"
+  ],
+  "id": "dates-Joe-20260817"
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260817_Caitlin_dates.md",
+  "attach": [
+   "subscriptions/new/caitlin_20260817.ics"
+  ],
+  "id": "dates-Caitlin-20260817"
+ }
+]

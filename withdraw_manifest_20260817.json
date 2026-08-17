@@ -1,0 +1,29 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "dry_run_output/20260817_Joe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/joe_20260817.ics"
+  ],
+  "id": "withdraw-Joe-20260817"
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "dry_run_output/20260817_Henry_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/henry_20260817.ics"
+  ],
+  "id": "withdraw-Henry-20260817"
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "dry_run_output/20260817_Alison_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/alison_20260817.ics"
+  ],
+  "id": "withdraw-Alison-20260817"
+ }
+]

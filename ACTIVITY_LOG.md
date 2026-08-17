@@ -1,3 +1,113 @@
+## 2026-08-17 (FULL SWEEP - dates + packs + watchlist, LIVE SEND 9/9, Henry + Claude)
+
+**Scope:** full sweep. 239 in-scope orgs (203 trusts, 36 ICBs), 228 unique URLs; 4 orgs skipped
+(3 with correspondent TBC, 1 with no URL). State was level with origin at the start (0/0) and again
+at the pre-send guard, and nothing we sent had been alerted by anyone else - nothing was dropped.
+The last full date sweep before this one was 3 August, so dates were 14 days stale.
+
+**Method note.** This run led with the deterministic extractor (extract_board_html.py) across all
+228 URLs first, then used WebFetch to adjudicate. That order turned out to matter - see below.
+
+**New meeting dates: 8, across 4 trusts.**
+- RCB York and Scarborough - 19 Aug 2026, EXTRAORDINARY board (see packs)
+- RTX Morecambe Bay - 10 Nov 2026, 16 Feb 2027
+- RH5 Somerset FT - 14 Sep 2027, 9 Nov 2027, 11 Jan 2028, 14 Jan 2028
+- RLT George Eliot - 3 Feb 2027
+
+Somerset caveat flagged to Joe in his email: the trust lists all four as Tuesdays, but 14 January
+2028 is a Thursday. Recorded exactly as the page has it rather than corrected, but it may be a typo
+on the trust's side, and it would also be a second Somerset board in the same week.
+
+**The big catch - York's extraordinary board.** York and Scarborough has called an extraordinary
+public board for 2:15-2:45pm on Wednesday 19 August with a single item: the future of Bridlington
+Care Unit. It was not in our state at all, and WebFetch dropped it from BOTH the meetings page and
+the papers page today - it lists the six routine 2026-27 board dates and silently omits the
+extraordinary one. Only the deterministic extractor caught it, and Playwright confirmed it verbatim
+("Extraordinary Board Meeting / Wednesday 19 August 2026 / 2.15pm"). The pack was already published.
+Without the anti-omission cross-check we would have missed a live Yorkshire story two days out.
+
+**Six fabricated dates found in our own state and withdrawn.** The anti-fabrication check was run
+against literal page text for every candidate, and it caught two orgs where EARLIER runs had recorded
+year-shifted dates that are not on the trust's page:
+- RNZ Salisbury - 2027-01-08, 2027-03-05, 2027-05-13, 2027-06-15. The page carries one "2026"
+  heading over 8 Jan, 5 Mar, 13 May, 15 Jun - all past. The string "2027" appears nowhere on the
+  page. These were the 2026 list shifted forward a year by the 29 Jun run, and all four had been
+  emailed to Joe.
+- RX8 Yorkshire Ambulance - 2026-09-25, 2026-11-27, 2027-01-29, 2027-03-26. The page publishes only
+  "Board Meeting Dates 2025-26" (last entry 26 Mar 2026). Same year-shift, by the 5 Jun run. The two
+  2027 dates had been emailed to Henry and Alison.
+All six future-dated entries that had actually been alerted got withdrawal emails today (Step 8b);
+all eight entries are now retracted in state. Both trusts have no forward schedule published and
+have been added to the papers watchlist. Notes added to both org records explaining the year-heading
+pattern so it does not recur.
+
+Two more year-shifts were caught BEFORE anything was recorded, so no harm done: RFS Chesterfield
+(WebFetch returned the page's "in 2026 will be held on 13 January, 10 March..." list as 2027 dates -
+the real future dates, 8 Sep and 10 Nov 2026, were already in state) and RJZ King's (a 2027 date that
+does not appear in the page text at all). RX8's 24 Sep 2026 and the REF/QJ2/QMF returns were likewise
+either already in state or unverifiable, and were dropped.
+
+**Packs: 2 new, both analysed and alerted.**
+- RCB York and Scarborough, 19 Aug - extraordinary board, one item, summaries/RCB_2026-08-19.md
+- QK1 + QPM LLR / Northamptonshire ICBs, 20 Aug - Boards in Common, 147pp,
+  summaries/QK1_2026-08-20.md (one pack, one analysis, one email to Annabelle)
+
+**Standout leads:**
+- York and Scarborough - the board is asked on 19 Aug to approve the PERMANENT CLOSURE of Bridlington
+  Care Unit after its own engagement found 91% opposition (367 of 443 respondents "do not support at
+  all"). MP Charlie Dewhirst handed over a 5,784-signature petition. The trust concedes in writing
+  that it briefed staff before it told the scrutiny committee and the MP: "the correct sequence of
+  events for this engagement was not followed as colleagues were advised of the change before
+  stakeholders had been briefed". It also records that "neither the Trust or the Humber and North
+  Yorkshire Integrated Care Board (ICB) regard the closure as a substantial variation in service".
+  Funding for the unit ceased at the end of March 2026; beds were cut to 15 in May and the unit has
+  since run at about 10 patients a day. Staff were redeployed during the three-month "pause", and the
+  paper concedes reversing that would now be a problem.
+- LLR ICB - external auditors issued a "section 30 letter ... in relation to the year-end deficit
+  position" on the 2025/26 accounts. Disclosed in one line of an assurance paper; the letter itself,
+  the auditor's name and the deficit figure are all absent. Flagged as the top FOI in that pack.
+  Deliberately not characterised in legal terms in the summary - the pack does not explain it.
+- LLR/Northants - NHSE deputy chief executive Glen Burley wrote on 1 April 2026 telling clustered
+  ICBs to merge into single organisations by 1 April 2027, to a 1.5m population floor. The cluster's
+  restructure has roughly a third of staff at risk, 70 gone on voluntary redundancy by end of June
+  and about 20 more to come; a NED warned "the loss of the workforce and capacity needs to be
+  recognised as an ongoing risk". St Andrew's Healthcare secure services transfer to NHFT in
+  September under enhanced oversight.
+
+**No papers yet (8 window meetings):** RXC East Sussex and R1C/RW1 HIOW (18 Aug) were re-checked -
+pack URLs unchanged since the 13 Aug analysis, no supplementary papers, no re-alert. QOP Greater
+Manchester (25 Aug), RHU Portsmouth and R1F Isle of Wight (26 Aug), RX9 EMAS and RTP Surrey and
+Sussex (27 Aug) have nothing published yet.
+
+**Watchlist:** 9 orgs polled, no new packs anywhere (latest is July 2026 or older). Seven returned
+zero links via requests and were escalated to WebFetch rather than being recorded as "nothing new" -
+RXA Cheshire and Wirral could not be checked at all (HTTP 403 both ways) and is logged for a
+Playwright retry. RNZ and RX8 added, so the watchlist is now 11 orgs.
+
+**Greater Manchester ICB - 37 candidate dates correctly rejected.** The deterministic pass pulled 37
+future dates off the GM meetings-and-events page. They are locality boards, partnership boards and
+committees (People and Resources, Audit, Strategic Commissioning, Primary Care Commissioning), not
+the ICB board. All dropped; the four real GM ICB board dates were already in state. Nick would have
+had 37 junk entries otherwise.
+
+**Emails:** LIVE, 9/9 sent, staggered 36-58s, all ok:true in send_results_20260817.json.
+2 papers (Henry, Annabelle), 4 date alerts (Henry, Zoe, Joe, Caitlin), 3 withdrawals (Joe, Henry,
+Alison). Manifests papers_/dates_/withdraw_manifest_20260817.json. alerts_sent stamped only from
+ok:true rows.
+
+**Data fixes:** RA7 UHBW board URL repointed to bristolft.nhs.uk (the old page has said since 2020
+that meetings moved). Notes added to RCB (seecmsfile downloads need Playwright; WebFetch drops the
+extraordinary meeting), RNZ, RX8, RFS and RWF (year-heading / inline-prose date patterns), and RTE
+Gloucestershire (DNS failure this run, retry next time).
+
+**Known gap - please read.** Of the 49 orgs where the deterministic pass found no forward dates, 34
+were individually re-checked with WebFetch this run and every date returned was either already in
+state, a fabrication, or unverifiable - zero genuinely new. The remaining 15 were NOT individually
+WebFetched: RN7, RRK, RJ1, RMY, RN3, RAJ, RW5, RQX, RVW, RX4, RBV, RQW, RBT, RJN, RYA, plus ICBs
+QNC, QOX, QVV, QUY, QT6, QJK. Their raw HTML carries no future board date, so nothing was missed by
+the deterministic pass, but they were not given the second look. They are covered for packs by the
+watchlist path and should be picked up on the next sweep.
+
 ## 2026-08-13 (PACKS-ONLY run — packs + watchlist, LIVE SEND 4/4, Henry + Claude)
 
 **Scope:** packs-only. Detection window 11–23 Aug: 17 meetings in state, 3 retracted, so

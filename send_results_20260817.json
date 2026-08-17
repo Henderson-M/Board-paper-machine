@@ -1,0 +1,65 @@
+[
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] York and Scarborough Teaching Hospitals board \u2014 Wednesday 19 August 2026 \u2014 5 leads",
+  "id": "papers-RCB-Henry-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] NHS Leicester, Leicestershire and Rutland ICB / NHS Northamptonshire ICB board \u2014 Thursday 20 August 2026 \u2014 4 leads",
+  "id": "papers-QK1-Annabelle-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates-Henry-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates-Zoe-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "id": "dates-Joe-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates-Caitlin-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 meeting(s) withdrawn \u2014 please delete from your calendar",
+  "id": "withdraw-Joe-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meeting(s) withdrawn \u2014 please delete from your calendar",
+  "id": "withdraw-Henry-20260817",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meeting(s) withdrawn \u2014 please delete from your calendar",
+  "id": "withdraw-Alison-20260817",
+  "ok": true,
+  "err": ""
+ }
+]

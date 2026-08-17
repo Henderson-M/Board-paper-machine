@@ -1,0 +1,20 @@
+[
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] York and Scarborough Teaching Hospitals board — Wednesday 19 August 2026 — 5 leads",
+  "body_file": "dry_run_output/20260817_Henry_papers_RCB.md",
+  "attach": [
+   "summaries/RCB_2026-08-19.md"
+  ],
+  "id": "papers-RCB-Henry-20260817"
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] NHS Leicester, Leicestershire and Rutland ICB / NHS Northamptonshire ICB board — Thursday 20 August 2026 — 4 leads",
+  "body_file": "dry_run_output/20260817_Annabelle_papers_QK1.md",
+  "attach": [
+   "summaries/QK1_2026-08-20.md"
+  ],
+  "id": "papers-QK1-Annabelle-20260817"
+ }
+]
