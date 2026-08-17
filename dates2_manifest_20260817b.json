@@ -1,0 +1,11 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 corrected meeting date",
+  "body_file": "dry_run_output/20260817b_Joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260817b.ics"
+  ],
+  "id": "dates2-Joe-20260817b"
+ }
+]

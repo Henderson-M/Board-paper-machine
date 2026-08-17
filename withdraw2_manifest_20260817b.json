@@ -1,0 +1,47 @@
+[
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817b_Emily_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/emily_20260817b.ics"
+  ],
+  "id": "withdraw2-Emily-20260817b"
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817b_Mimi_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/mimi_20260817b.ics"
+  ],
+  "id": "withdraw2-Mimi-20260817b"
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817b_Joe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/joe_20260817b.ics"
+  ],
+  "id": "withdraw2-Joe-20260817b"
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817b_Matt_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/matt_20260817b.ics"
+  ],
+  "id": "withdraw2-Matt-20260817b"
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817b_Ella_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/ella_20260817b.ics"
+  ],
+  "id": "withdraw2-Ella-20260817b"
+ }
+]

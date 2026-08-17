@@ -1,3 +1,65 @@
+## 2026-08-17 (follow-up) - weekend-date audit: 13 bad dates retracted, 6/6 alerts sent live
+
+Henry asked for an Excel of all upcoming board meetings. Building it surfaced six meetings dated on
+a Saturday or Sunday - NHS public boards essentially never sit at weekends - so all six were checked
+against the trusts' live pages. Five were our errors. Checking them then turned up eight MORE bad
+dates at the same six trusts that look completely normal and would never have been flagged.
+
+**Verdicts on the original six:**
+- RC9 Bedfordshire, Sat 29 Aug 2026 - WRONG. Page reads "Wednesday 29 July 2026". Month shifted
+  Jul -> Aug. Had been emailed to Emily on 13 July.
+- RHW Royal Berkshire, Sat 29 Aug 2026 - WRONG. Page reads "Wednesday 29 July 2026". Identical
+  month shift, different trust, different run. Had been emailed to Mimi on 16 July.
+- RTE Gloucestershire, Sun 1 Nov 2026 - WRONG. Day-defaulted to the 1st from a "November 2026 Board
+  Meeting" heading on the board-papers page.
+- RQX Homerton, Sun 1 Nov 2026 - WRONG. Same day-default. Homerton publishes month-only headings and
+  no forward schedule at all.
+- REF Royal Cornwall, Sun 7 Mar 2027 - WRONG. Page reads "Thursday 4 March 2027"; wrong day of month.
+- TAH Sheffield Health and Social Care, Sun 24 Jan 2027 - NOT our error, KEPT. The trust's own page
+  literally reads "Wednesday 24 January 2027", and 24 January 2027 is a Sunday. Every other date in
+  that list (28 May, 29 Jul, 30 Sep, 25 Nov, 31 Mar) has the correct weekday. The trust has published
+  a bad date. Kept as published with a note; Henry to raise with the trust. NB the dates sit in a
+  COLLAPSED accordion - Playwright --text misses them entirely, --html gets them.
+
+**The eight extra bad dates found while checking (none weekend-dated):**
+- RTE Gloucestershire - 1 Sep, 24 Sep, 26 Nov 2026. The real bi-monthly schedule is Thu 10 Sep and
+  Thu 12 Nov 2026 only, both already held and both correct. 24 Sep and 26 Nov appear nowhere on the
+  page and had been emailed to Joe on 15 June.
+- RQX Homerton - 1 Sep, 16 Sep, 30 Sep, 30 Nov 2026. The page lists 2026 packs under month-only
+  headings (January, March, May, July), all past, with no forward schedule. None of these dates is on
+  the page. 16 Sep, 30 Sep and 30 Nov had been emailed to Matt Discombe (11 June and 1 July).
+- REF Royal Cornwall - 7 May 2027, past the end of the published schedule, which ends 4 Mar 2027.
+  Had been emailed to Joe on 1 July.
+
+**Action taken.** 13 entries retracted. REF:2027-03-04 added as the corrected Royal Cornwall date.
+8 of the 13 had actually been alerted and were future-dated, so withdrawal emails went out under
+Step 8b: Emily (1), Mimi (1), Joe (3), Matt Discombe (3), Ella (3, shadow rule). Plus one
+new-date alert to Joe for the corrected 4 March 2027. LIVE, 6/6 sent, all ok:true in
+send_results_20260817b.json. State was 0/0 with origin at the gate and at the pre-send guard.
+
+**Three distinct extractor failure modes are now documented in the org records:**
+1. MONTH SHIFT - a correct day number attached to the wrong month (29 July -> 29 August, twice, at
+   two unrelated trusts in the same week of runs). The weekday check catches this only when the
+   result happens to land on a weekend, which is how these two surfaced.
+2. DAY DEFAULT - a month-only heading ("November 2026 Board Meeting") turned into the 1st of that
+   month. Surfaces as a weekend date only by luck.
+3. BEYOND-SCHEDULE INVENTION - a date past the last one the page actually publishes.
+
+Only mode 1 and 2 produce weekend dates, and only sometimes. **A weekday sanity check is not enough
+on its own** - the eight extra errors here all fell on plausible weekdays and were caught only
+because a human asked about the six that looked odd. Worth considering a periodic full re-verify of
+every future-dated meeting in state against source, not just newly detected ones.
+
+**Data fixes:** RTE Gloucestershire URL repointed to gloshospitals.nhs.uk/about-us/our-board/
+board-meeting-dates/ (the gloucestershire.nhs.uk host in our record fails DNS, and the board-papers
+page it pointed at has no full dates). RQX Homerton added to the papers watchlist with an explicitly
+empty known_files baseline and a do-not-alert-on-first-poll note. TAH Sheffield's new trading name,
+Sheffield Health Partnership University NHS Foundation Trust, added to its names list - the trust
+appears to have rebranded and our records still lead with Sheffield Health and Social Care.
+
+**Deliverable:** NHS-board-meetings-upcoming-2026-08-17.xlsx in the My assistant folder, regenerated
+after the retractions - 808 upcoming meetings across 224 orgs, tabs by trust, by date and summary.
+
 ## 2026-08-17 (FULL SWEEP - dates + packs + watchlist, LIVE SEND 9/9, Henry + Claude)
 
 **Scope:** full sweep. 239 in-scope orgs (203 trusts, 36 ICBs), 228 unique URLs; 4 orgs skipped

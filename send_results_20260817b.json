@@ -1,0 +1,44 @@
+[
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date(s) \u2014 please delete from your calendar",
+  "id": "withdraw2-Emily-20260817b",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date(s) \u2014 please delete from your calendar",
+  "id": "withdraw2-Mimi-20260817b",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) \u2014 please delete from your calendar",
+  "id": "withdraw2-Joe-20260817b",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) \u2014 please delete from your calendar",
+  "id": "withdraw2-Matt-20260817b",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 3 incorrect meeting date(s) \u2014 please delete from your calendar",
+  "id": "withdraw2-Ella-20260817b",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 corrected meeting date",
+  "id": "dates2-Joe-20260817b",
+  "ok": true,
+  "err": ""
+ }
+]

@@ -1164,14 +1164,15 @@
   "ods_code": "TAH",
   "names": [
    "Sheffield Health and Social Care NHS Foundation Trust",
-   "Sheffield Health and Social Care"
+   "Sheffield Health and Social Care",
+   "Sheffield Health Partnership University NHS Foundation Trust"
   ],
   "type": "Mental Health & Learning Disability and Mental Health, Learning Disability & Community Trusts",
   "region": "North East and Yorkshire",
   "ics": "South Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.sheffieldpartnership.nhs.uk/about-us/board-directors",
-  "notes": "[2026-07-21] SOURCE ERROR: lists Wednesday 24 January 2027, which is a Sunday. Dates sit in a collapsed accordion - needs --html. | [2026-07-13] Dates confirmed via sheffieldpartnership.nhs.uk. 28 May 2026 past and dropped."
+  "notes": "[2026-07-21] SOURCE ERROR: lists Wednesday 24 January 2027, which is a Sunday. Dates sit in a collapsed accordion - needs --html. | [2026-07-13] Dates confirmed via sheffieldpartnership.nhs.uk. 28 May 2026 past and dropped. | [2026-08-17] Dates sit inside a COLLAPSED accordion - Playwright --text misses them, use --html. Page currently reads 'Wednesday 24 January 2027', but that date is a Sunday while every other date in the list has the correct weekday; treat as a trust-side error. Trust now brands itself 'Sheffield Health Partnership University NHS Foundation Trust' in its own footer."
  },
  {
   "ods_code": "RCX",
@@ -1425,7 +1426,7 @@
   "ics": "Cornwall and the Isles of Scilly",
   "correspondent": "Joe",
   "url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
-  "notes": "[2026-07-21] INVERTED LADDER: Playwright 403s royalcornwallhospitals.nhs.uk; WebFetch works. Files sit on doclibrary-rcht.cornwall.nhs.uk (legitimate subdomain). SOURCE ERROR: page lists 7 Jan 2026 and 7 Mar 2026, both already past - likely typos for 2027 but NOT corrected (would be extrapolation). | [2026-07-13] Confirmed new domain royalcornwallhospitals.nhs.uk. Papers held in SharePoint doclibrary (BoardMeetings2627.aspx). 7 May & 2 Jul 2026 now past."
+  "notes": "[2026-07-21] INVERTED LADDER: Playwright 403s royalcornwallhospitals.nhs.uk; WebFetch works. Files sit on doclibrary-rcht.cornwall.nhs.uk (legitimate subdomain). SOURCE ERROR: page lists 7 Jan 2026 and 7 Mar 2026, both already past - likely typos for 2027 but NOT corrected (would be extrapolation). | [2026-07-13] Confirmed new domain royalcornwallhospitals.nhs.uk. Papers held in SharePoint doclibrary (BoardMeetings2627.aspx). 7 May & 2 Jul 2026 now past. | [2026-08-17] Thursdays, bi-monthly. Page lists seven dates ending 'Thursday 4 March 2027'. An earlier run recorded 4 March as 7 March and invented a 7 May 2027. Dates live on a doclibrary-rcht.cornwall.nhs.uk page that Playwright cannot render - use WebFetch for this org."
  },
  {
   "ods_code": "RH5",
@@ -1521,8 +1522,8 @@
   "region": "South West",
   "ics": "Gloucestershire",
   "correspondent": "Joe",
-  "url": "https://www.gloucestershire.nhs.uk/about-us/our-board/board-meeting-dates/",
-  "notes": "[2026-08-03] scan_url moved: /board-papers/ yields zero forward dates; the dates live on /about-us/our-board/board-meeting-dates/. | [2026-07-21] Boardbook front page and all 431 cover sheets read 16 July 2026. Trust cycle is May->Jul->Sep; there is no 30 July meeting. | [2026-07-13] The /board-papers/ page is a papers archive only (latest pack = July 2026). Future meeting dates live at /about-us/our-board/board-meeting-dates/ - recommend using that as scan_url. [2026-07-16] Used /board-meeting-dates/ page for dates (papers archive on separate /board-papers/ page). | [2026-08-17] extract_board_html.py failed with DNS error (getaddrinfo failed) on gloucestershire.nhs.uk this run; not re-checked. Retry next run."
+  "url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/",
+  "notes": "[2026-08-03] scan_url moved: /board-papers/ yields zero forward dates; the dates live on /about-us/our-board/board-meeting-dates/. | [2026-07-21] Boardbook front page and all 431 cover sheets read 16 July 2026. Trust cycle is May->Jul->Sep; there is no 30 July meeting. | [2026-07-13] The /board-papers/ page is a papers archive only (latest pack = July 2026). Future meeting dates live at /about-us/our-board/board-meeting-dates/ - recommend using that as scan_url. [2026-07-16] Used /board-meeting-dates/ page for dates (papers archive on separate /board-papers/ page). | [2026-08-17] extract_board_html.py failed with DNS error (getaddrinfo failed) on gloucestershire.nhs.uk this run; not re-checked. Retry next run. | [2026-08-17] Bi-monthly, Thursdays. Correct URL is gloshospitals.nhs.uk (the gloucestershire.nhs.uk host in this record fails DNS). The board-papers page uses MONTH-ONLY headings ('November 2026 Board Meeting') which an earlier run day-defaulted to the 1st. Use /about-us/our-board/board-meeting-dates/ on gloshospitals.nhs.uk, which gives full dates with weekdays."
  },
  {
   "ods_code": "RTQ",
@@ -1725,7 +1726,7 @@
   "ics": "North East London",
   "correspondent": "Matt Discombe",
   "url": "https://www.homerton.nhs.uk/board-papers/",
-  "notes": "[2026-07-21] HARD-BLOCK WEBFETCH. Third consecutive run fabricating dates from paper FILENAMES (papers-january-2026.pdf -> 2027-01-01). Page publishes no dates at all. Playwright only. | [2026-07-13] Page shows board papers as year accordions (2026/2025/2024) only; no meeting dates in page text. WebFetch hallucinated a 2027-01-01 date - discarded. No future public board dates listed. [2026-07-16] Board papers page shows year accordions only; no future public board dates listed."
+  "notes": "[2026-07-21] HARD-BLOCK WEBFETCH. Third consecutive run fabricating dates from paper FILENAMES (papers-january-2026.pdf -> 2027-01-01). Page publishes no dates at all. Playwright only. | [2026-07-13] Page shows board papers as year accordions (2026/2025/2024) only; no meeting dates in page text. WebFetch hallucinated a 2027-01-01 date - discarded. No future public board dates listed. [2026-07-16] Board papers page shows year accordions only; no future public board dates listed. | [2026-08-17] Homerton lists board packs under MONTH-ONLY headings (January/March/May/July 2026) with no day and publishes NO forward schedule. Earlier runs day-defaulted these to the 1st and also carried three dates that appear nowhere on the page - all retracted. Do not record a Homerton date without a literal day on the page. On the papers watchlist."
  },
  {
   "ods_code": "RRV",
@@ -2089,7 +2090,8 @@
   "region": "South East",
   "ics": "Buckinghamshire, Oxfordshire and Berkshire West",
   "correspondent": "Mimi",
-  "url": "http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings"
+  "url": "http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings",
+  "notes": "[2026-08-17] MONTH-SHIFT RISK: page lists 'Wednesday 29 July 2026'; an earlier run recorded it as 29 August. Page also mixes in Council of Governors and Membership Committee dates (e.g. Thu 8 Oct 2026) - exclude those. Board dates are Wednesdays."
  },
  {
   "ods_code": "RN5",
@@ -2337,7 +2339,7 @@
   "ics": "Bedfordshire, Luton and Milton Keynes",
   "correspondent": "Emily",
   "url": "https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/",
-  "notes": "[2026-07-21] Historic Feb/May/Aug/Nov board cycle makes the 29 July 2026 date in state implausible - verify. | [2026-07-16] Dropped past 6 May 2026 entry."
+  "notes": "[2026-07-21] Historic Feb/May/Aug/Nov board cycle makes the 29 July 2026 date in state implausible - verify. | [2026-07-16] Dropped past 6 May 2026 entry. | [2026-08-17] MONTH-SHIFT RISK: page lists 'Wednesday 6 May 2026 / Wednesday 29 July 2026 / Wednesday 4 November 2026 / Wednesday 3 February 2027'. An earlier run recorded 29 July as 29 August. Board meets quarterly on a Wednesday - check the weekday matches before recording."
  },
  {
   "ods_code": "RD8",

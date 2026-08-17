@@ -2390,6 +2390,13 @@
    "last_checked": "2026-08-17T12:00:00Z",
    "known_files": [],
    "notes": "[2026-08-17] Added after all four fabricated 2026-27 dates were retracted. Page publishes 'Board Meeting Dates 2025-26' only (last entry 26 Mar 2026). No 2026-27 schedule published."
+  },
+  {
+   "ods_code": "RQX",
+   "papers_url": "https://www.homerton.nhs.uk/board-papers/",
+   "last_checked": "2026-08-17T16:00:00Z",
+   "known_files": [],
+   "notes": "[2026-08-17] Added after all five future dates were retracted. Publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. known_files deliberately empty - baseline on first poll and do NOT alert on that first pass."
   }
  ],
  "_last_updated": "2026-08-06T10:47:24Z",

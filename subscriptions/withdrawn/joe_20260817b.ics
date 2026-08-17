@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:REF-2027-05-07@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Royal Cornwall Hospitals NHS Trust - Trust Board in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
+URL:https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Trust Board PUBLIC Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Trust Board PUBLIC Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RQX-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Homerton Healthcare NHS Foundation Trust - In Public Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RQX-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RQX-2026-11-30@board-paper-machine.hsj
+DTSTAMP:20260817T160000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Homerton Healthcare NHS Foundation Trust - Board of Directors Meeting (inferred from bi-monthly pattern)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.homerton.nhs.uk/board-papers/
+URL:https://www.homerton.nhs.uk/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

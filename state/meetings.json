@@ -5161,13 +5161,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "[2026-08-17] VERIFIED AGAINST SOURCE: the trust's own page literally reads 'Wednesday 24 January 2027', but that date is a Sunday. Every other date in the same list has the correct weekday. This is an error on the trust's page, not ours - kept as published, but treat as unreliable until the trust confirms.",
    "_previous_source_url": "https://www.shsc.nhs.uk/about-us/board-directors"
   },
   {
@@ -6198,15 +6198,15 @@
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Real autumn dates are Thu 10 Sep and Thu 12 Nov 2026 only. 1 Sep/1 Nov were day-defaulted from month headings; 24 Sep/26 Nov appear nowhere."
   },
   {
    "id": "RTE:2026-11-01",
@@ -6217,15 +6217,15 @@
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Real autumn dates are Thu 10 Sep and Thu 12 Nov 2026 only. 1 Sep/1 Nov were day-defaulted from month headings; 24 Sep/26 Nov appear nowhere."
   },
   {
    "id": "RTQ:2026-05-28",
@@ -6649,15 +6649,15 @@
    "source_url": "https://www.homerton.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted."
   },
   {
    "id": "RQX:2026-11-01",
@@ -6668,15 +6668,15 @@
    "source_url": "https://www.homerton.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted."
   },
   {
    "id": "RAN:2026-07-02",
@@ -12836,15 +12836,15 @@
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "papers_url": "https://doclibrary-rcht.cornwall.nhs.uk/RoyalCornwallHospitalsTrust/Internet/DocumentsLibrary/BoardMeetings/BoardMeetings2627.aspx",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: 7 Mar 2027 was a wrong day-of-month for 'Thursday 4 March 2027'; 7 May 2027 is past the end of the published schedule (which ends 4 Mar 2027)."
   },
   {
    "id": "RJE:2026-06-10",
@@ -21616,14 +21616,16 @@
    "source_url": "https://www.homerton.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
-    "summary": null
-   }
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
+   },
+   "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted."
   },
   {
    "id": "RQX:2026-11-30",
@@ -21634,14 +21636,16 @@
    "source_url": "https://www.homerton.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
-    "summary": null
-   }
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
+   },
+   "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted."
   },
   {
    "id": "RTF:2026-07-22",
@@ -22169,15 +22173,16 @@
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Real autumn dates are Thu 10 Sep and Thu 12 Nov 2026 only. 1 Sep/1 Nov were day-defaulted from month headings; 24 Sep/26 Nov appear nowhere."
   },
   {
    "id": "RTE:2026-11-26",
@@ -22188,15 +22193,16 @@
    "source_url": "https://www.gloshospitals.nhs.uk/about-us/our-board/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-06-15T12:00:00Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not on the page. Real autumn dates are Thu 10 Sep and Thu 12 Nov 2026 only. 1 Sep/1 Nov were day-defaulted from month headings; 24 Sep/26 Nov appear nowhere."
   },
   {
    "id": "RTF:2027-01-28",
@@ -24055,16 +24061,18 @@
    "org_name": "Homerton Healthcare NHS Foundation Trust",
    "source_url": "https://www.homerton.nhs.uk/board-papers/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "id": "RQX:2026-09-16"
+   "id": "RQX:2026-09-16",
+   "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted."
   },
   {
    "ods_code": "RQW",
@@ -24495,16 +24503,18 @@
    "org_name": "Royal Cornwall Hospitals NHS Trust",
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "papers_url": "https://doclibrary-rcht.cornwall.nhs.uk/RoyalCornwallHospitalsTrust/Internet/DocumentsLibrary/BoardMeetings/BoardMeetings2627.aspx",
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "id": "REF:2027-05-07"
+   "id": "REF:2027-05-07",
+   "notes": "Retracted 2026-08-17: 7 Mar 2027 was a wrong day-of-month for 'Thursday 4 March 2027'; 7 May 2027 is past the end of the published schedule (which ends 4 Mar 2027)."
   },
   {
    "ods_code": "R0B",
@@ -25035,15 +25045,16 @@
    "source_url": "https://www.bedfordshirehospitals.nhs.uk/corporate-information/board-meetings-and-directors/board-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13 | Retracted 2026-08-17: month shift. Page lists 'Wednesday 29 July 2026'; recorded as 29 Aug."
   },
   {
    "id": "RTX:2026-09-02",
@@ -26366,15 +26377,16 @@
    "source_url": "http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T16:00:00Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T16:00:00Z"
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: month shift. Page lists 'Wednesday 29 July 2026'; recorded as 29 Aug."
   },
   {
    "id": "RP1:2026-09-29",
@@ -28215,6 +28227,25 @@
     "summary": null
    },
    "notes": ""
+  },
+  {
+   "id": "REF:2027-03-04",
+   "ods_code": "REF",
+   "org_type": "trust",
+   "date": "2027-03-04",
+   "title": "Trust Board in Public",
+   "papers_url": null,
+   "pack_files": [],
+   "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
+   "status": "date_found",
+   "first_seen": "2026-08-17T16:00:00Z",
+   "last_checked": "2026-08-17T16:00:00Z",
+   "alerts_sent": {
+    "date": "2026-08-17T16:00:00Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-08-17] Corrects the retracted REF:2027-03-07. Page reads 'Thursday 4 March 2027'."
   }
  ],
  "_scan_errors": [
