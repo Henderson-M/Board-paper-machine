@@ -38,6 +38,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `send_email.py` | Send a SINGLE Gmail SMTP alert (ad-hoc/resend). Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
 | `fetch_with_playwright.py` | Headless Chromium fetcher with stealth-lite. Used as the fallback when WebFetch hits Cloudflare/UA blocks or JS-rendered pages. `--text` for visible text, `--html` for full DOM, `--download --out FILE` for binary downloads. |
 | `fetch_pdf_text.py` | Download a PDF and extract its text with pypdf. Use when an org publishes board dates inside an annual calendar PDF rather than on a webpage. Try `requests` mode first; pass `--playwright` if the host blocks direct downloads. |
+| `org_health.py` | **Per-org scan health.** `record --ods X --result ok\|fail [--kind K] [--detail "..."]` after each org; `report [--markdown]` at the end. Keeps `state/org_health.json` with consecutive-failure counts, last success, and a broken/degraded/stale classification. This is what makes a persistent failure escalate instead of scrolling past. |
 | `extract_board_html.py` | **Deterministic (no-LLM) cross-check.** Fetches raw HTML (`requests` → Playwright fallback) and reports, verbatim, every date and every document link actually present, plus a table-row pairing (date ↔ its papers link / "unavailable" cell). Use it to catch content the WebFetch summariser silently *dropped* — see the anti-omission cross-check in Step 4 and Step 7. Also recognises **extension-less CMS download-handler links** (`/download-attachment/NNNN`, `/download_file/…`, `/seecmsfile/?id=…`) that have no `.pdf` suffix, and recovers **year-headed date lists** ("board dates 2026: 5 August, 7 October, 2 December") — those come back with `year_inferred: true`, so still run the literal day/month check before recording them. `--html-file FILE` parses HTML you already fetched (e.g. a Playwright `--html` dump) so no page is fetched twice; `--pretty` indents the JSON. |
 
 ## Arguments
@@ -54,6 +55,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `--no-push` | Skip the final `git commit && git push`. Use for testing. |
 | `--limit N` | Stop after scanning N orgs. Useful for first-time runs. |
 | `--live-emails` | Actually send emails via Gmail SMTP. Without this, all emails are dry-run files. |
+| `--operator NAME` | Who is running this sweep (`Henry`, `Dave`, or an email address). Determines who gets the run report. If omitted, resolve from `git config user.email`; if that fails, ASK before sending anything live. |
 
 If no arguments, scan every org in both files (all 233 in-scope orgs) and run the full pipeline.
 
@@ -522,16 +524,62 @@ Only after a successful send: update the meeting's `alerts_sent.date` / `alerts_
 4. `git commit -m "scan: {N_dates} new date(s), {N_packs} new pack(s), {E} error(s)"` (omit commit if nothing changed).
 5. `git push` unless `--no-push`. **Use the Bash tool** (see the note at the top of this Workflow) — a PowerShell `git push` is blocked by the permission classifier. Do not treat the run as finished until the push has actually landed: re-run `git fetch origin` and `git rev-list --left-right --count HEAD...origin/main` and confirm `0 0`. A committed-but-unpushed run leaves the shared state invisible to the rest of the team, which is exactly the condition that causes duplicate alerts on the next person's run.
 
-### Step 13 — Report to user
+### Step 12b — Record scan health for EVERY org (do not skip on failures)
 
-In chat, give a terse summary:
+**The whole point of this step is that a failure must not be able to disappear quietly.** Record an outcome for every org you attempted, success or failure, via `org_health.py`:
 
-- Orgs scanned, time taken.
-- New dates detected (with org names + dates).
-- New packs analysed (with org names + top-line counts by tier).
-- Errors / orgs that failed.
-- Correspondents alerted (and dry-run file locations OR confirmation of live send).
-- Any orgs where Playwright was needed.
+```bash
+python org_health.py record --ods RA2 --result ok --dates 6
+python org_health.py record --ods RXA --result fail --kind blocked \
+    --detail "HTTP 403 from WebFetch and 0 links via requests/Playwright"
+```
+
+- `--result ok` — you read the page. **An org that publishes no forward schedule is `ok`**, with `--kind no_schedule_published`. That is the org's editorial choice, not a fault of ours, and calling it a failure buries the real ones.
+- `--result fail` — you could NOT read the page, or could not parse what you did read. Kinds: `unreachable`, `blocked`, `unparseable`, `stale_url`, `no_dates_found`, `other`.
+
+`org_health.py` keeps consecutive-failure counts and classifies each org:
+
+| Status | Meaning |
+|---|---|
+| `ok` | Last attempt succeeded |
+| `degraded` | 1–2 consecutive failures — often transient |
+| `broken` | 3+ consecutive failures — needs a human |
+| `stale` | No *successful* scan in 28+ days, even if not currently failing |
+
+Use `python org_health.py mute --ods X --until YYYY-MM-DD` for a known, accepted outage so it stops crowding the report — but mute deliberately, never to make a number look better.
+
+**Why this exists.** Failures used to be appended to a `_scan_errors` list in `state/meetings.json`. That list had no notion of whether a failure had been fixed, no count of how long an org had been broken, and no escalation — a three-month-old breakage looked exactly like a one-off blip. It also quietly stopped being written: its last entry was 2026-08-06, while later runs hit real failures (RXA 403, RTE DNS) and recorded nothing at all. Alder Hey served 2018 content for two months before anyone noticed. Cheshire and Wirral had failed on three separate runs across ten weeks with no one told.
+
+### Step 13 — Report to the operator (chat AND email)
+
+There are two audiences and they need different things. **Correspondents** get dates and packs for their own patch — that is Steps 9/10. **The person who ran the sweep** — Henry or Dave — is the only one who can fix a broken scraper, and until now got nothing but a chat message that scrolled away. This step fixes that.
+
+**Identify the operator** in this order:
+
+1. `--operator NAME` if given
+2. `git config user.email`, mapped through `_operator_git_identities` in `data/correspondents.json`
+3. Otherwise **ask the user** — do not guess
+
+Then look the name up in `operators` in the same file. **`Dave` is currently `null` — his address has not been confirmed.** If the operator resolves to a name with no address, say so plainly in the chat summary and ask for it once; do not invent one, and do not silently skip the run report. Everything else about the sweep proceeds normally — a missing operator address blocks only the report email, never the correspondent alerts.
+
+**A. Always print in chat**, terse:
+
+- Orgs scanned, time taken, arguments used
+- New dates detected (org names + dates)
+- New packs analysed (org names + tier counts)
+- Correspondents alerted — dry-run paths, or confirmation of live send with the ok/total count
+- **The scan-health block**, verbatim from `python org_health.py report`
+
+**B. When `--live-emails`, ALSO email the operator a run report.** Subject: `[Board paper machine] Run report — {date} — {N} dates, {M} packs, {K} orgs need attention`. Body:
+
+1. One-paragraph summary of what ran and what went out
+2. New dates and analysed packs, by correspondent
+3. `python org_health.py report --markdown` output — the broken/degraded/stale tables
+4. Anything the run could not resolve and is handing back: unverifiable dates, orgs needing a new `schedule_url`, packs that failed to download
+
+Send it through `send_batch.py` in the same batch as everything else, so a failure to send it is visible in the same results JSON.
+
+**Never let the run finish "clean" while orgs are broken.** If any org is `broken` or `stale`, say so explicitly in the chat summary — as a numbered count in the first three lines, not buried at the end. A sweep that alerted 40 packs and silently failed on 12 orgs is not a successful run, and reporting it as one is how Alder Hey went unnoticed for two months.
 
 ## Important behaviours
 
@@ -550,6 +598,9 @@ In chat, give a terse summary:
 - **A date the page does not mention is not automatically wrong.** Distinguish "the org publishes a schedule and this date is not in it" (an error) from "the org publishes no forward schedule at all" (unverifiable, and common). Only the first justifies a retraction.
 - **Editorial caution.** This tool produces *leads*, not facts. Phrasing in alerts must not assert anything beyond what the source page or pack literally says — see `context/hsj_editorial_context.md` for the full rules.
 - **One commit per scan.** Don't make multiple commits for a single run; aggregate all state changes into one.
+- **A failure must never be able to vanish.** Record an outcome for EVERY org in `org_health.py` (Step 12b), success or failure, and surface the broken/degraded/stale counts in the first three lines of the chat summary. An org that cannot be read contributes nothing and nobody finds out unless the run says so. Alder Hey served 2018 content for two months, and Cheshire and Wirral failed on three runs across ten weeks, before either was noticed.
+- **Report to the operator, not just the correspondents.** Correspondents get their own patch; only the person running the sweep can fix a broken scraper. With `--live-emails` they get a run report by email (Step 13B) as well as the chat summary. Resolve who they are from `--operator` or `git config user.email` — and if you cannot, ask before sending anything live.
+- **'Publishes no forward schedule' is not a failure.** Record it as `ok --kind no_schedule_published`. Counting it as a failure buries the orgs that are genuinely broken. Those orgs belong on the papers watchlist instead (Step 7b).
 - **Never run on unsynced state.** See Step 1 — a `git status` "up to date" is meaningless without a fresh `git fetch`. If you can't confirm the local repo is level with `origin/main`, STOP; don't scan or send. Stale state = duplicate alerts to the whole team. Also re-fetch and drop already-alerted meetings immediately before a live send (Step 11 pre-send guard).
 - **UTF-8 everywhere (Windows/PowerShell gotcha that garbled a live send on 2026-07-30).** Board packs are full of `£` and `—`. Any file the emailer reads — the summary being inlined, the composed body, the manifest — MUST be read and written as UTF-8. On PowerShell 5.1, `Get-Content`/`Set-Content` default to the ANSI code page (Windows-1252), not UTF-8: `Get-Content summary.md` reads a UTF-8 `£` as `Â£`, and `Set-Content -Encoding utf8` writes a BOM that breaks `json.loads` and Outlook `.ics` parsing. Always use `Get-Content -Encoding utf8` (or `[System.IO.File]::ReadAllText`) to read, and write with a **no-BOM** UTF-8 encoder (`New-Object System.Text.UTF8Encoding($false)` via `[System.IO.File]::WriteAllText`). `send_email.py`/`send_batch.py` themselves read `body_file` as UTF-8 and set the MIME charset correctly — the danger is only in how the calling steps build those files.
 

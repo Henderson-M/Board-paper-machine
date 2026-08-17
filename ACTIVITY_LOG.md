@@ -1,3 +1,54 @@
+## 2026-08-17 (follow-up 4) - failsafe for broken orgs + a run report to whoever ran the sweep
+
+Henry asked two questions: is there a failsafe that periodically re-checks orgs we cannot read, and
+does the person running the machine get told. Honest answers were NO and NO. Both now built.
+
+**What existed, and why it did not work.** Failures were appended to a `_scan_errors` list inside
+state/meetings.json. 116 entries. It had no notion of whether a failure had been fixed, no count of
+consecutive failures, and no escalation - a three-month-old breakage looked identical to a one-off
+blip. It had also quietly stopped being written: the last entry is 2026-08-06, while today's runs hit
+RXA (403 both ways) and RTE (DNS failure) and recorded nothing in it at all. Evidence of the cost is
+in the log itself: RBS Alder Hey appears 4 times between 5 June and 6 August, RXA twice, RXL twice -
+all recurring, none ever marked resolved, nobody told.
+
+**New: `org_health.py` + `state/org_health.json`.** One record per org, updated every run:
+last_attempt, last_success, consecutive_failures, first_failed, last_error, failure_kind, status.
+
+  ok        last attempt succeeded
+  degraded  1-2 consecutive failures - usually transient
+  broken    3+ consecutive failures - needs a human
+  stale     no SUCCESSFUL scan in 28+ days even if not currently failing
+
+Crucially, "this org publishes no forward schedule" records as ok --kind no_schedule_published, NOT
+as a failure. Counting an editorial choice as a fault is what buries the genuinely broken ones. Those
+orgs are handled by the papers watchlist instead. `mute --ods X --until DATE` exists for accepted
+outages. Tested end to end: escalation at 3 failures, recovery clearing the error, mute suppressing,
+report rendering in text and markdown.
+
+**Seeded with today's real data** - 239 orgs tracked, and it immediately surfaces what was invisible:
+- BROKEN: RBS Alder Hey (3 runs, since 5 Jun - served 2018 content for two months) and RXA Cheshire
+  and Wirral (3 runs, since 5 Jun - 403 to every fetch method, its watchlist poll has never run)
+- DEGRADED: RCF Airedale (403 today) and RTE Gloucestershire (DNS failure; schedule_url repointed,
+  verify next run)
+
+**New SKILL.md Step 12b** - record an outcome for EVERY org attempted, success or failure. This is
+the step that makes a failure impossible to lose.
+
+**New SKILL.md Step 13 - report to the OPERATOR, not just correspondents.** Correspondents get their
+own patch; only the person who ran the sweep can fix a broken scraper, and until now they got a chat
+message that scrolled away. Now: the scan-health block is printed in chat every run, and with
+--live-emails a full run report is emailed to whoever ran it, sent through send_batch.py in the same
+batch so a failure to send it shows up in the same results JSON. New `--operator` argument; resolution
+order is --operator, then git config user.email mapped through _operator_git_identities, then ASK.
+
+**Dave's email is deliberately null** in the new `operators` block in data/correspondents.json. His
+git identity is davewest84@yahoo.co.uk (personal) and his HSJ address has not been confirmed, so it
+is recorded as unknown rather than guessed. If the operator resolves to a name with no address the
+run says so and asks once - it never invents one, and never silently skips the report. HENRY: send
+Dave's work address and it is a one-line change.
+
+**Also added to Important behaviours:** never let a run report itself clean while orgs are broken -
+the broken/degraded/stale counts go in the first three lines of the chat summary, not the end.
 ## 2026-08-17 (follow-up 3) - fixed the 5 orgs whose dates we could not read; watchlist rule tightened
 
 The re-verification left 16 orgs where every future date was unverifiable. Splitting them by CAUSE
