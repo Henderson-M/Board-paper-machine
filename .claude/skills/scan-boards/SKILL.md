@@ -364,7 +364,9 @@ For each org in the watchlist:
    - Try to infer a meeting date from the new filename or first page: titles like `Trust Board 8 July 2026.pdf` or `Board pack 2026-07-08.pdf` are common. If you find a date and it's future, **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, source `source_url = papers_url`, and the new pack already in `pack_files`. The org now leaves the watchlist (it has a dated meeting in state).
    - If you can't infer the date, still alert **each recipient** of the org (see Step 2): subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, body lists the file(s) and asks the journalist to confirm the date manually. Keep the org on the watchlist with the new files added to `known_files`.
 
-A watchlist org is **removed** the moment it has any future-dated meeting in state (its papers will be checked through the normal Step 7 path going forward).
+A watchlist org is **removed** the moment it has a future-dated meeting in state that is actually **verified** — i.e. one whose date was found as literal text on the org's schedule page (Step 5b sets `last_verified`). Holding an *unverified* future date is not enough.
+
+**Why the stricter test.** The old rule dropped an org from the watchlist as soon as state held any future date, verified or not. On 2026-08-17 that left 16 orgs in a dead zone: they publish no forward schedule we can read, so their dates could be neither confirmed nor refuted, yet those same unverifiable dates kept them off the watchlist. They were neither reliably date-tracked nor pack-tracked, and a new pack at any of them would have gone unnoticed. Eleven were added to the watchlist that day; the other five turned out to be readable after all once the right source was found (see `schedule_url`).
 
 A watchlist org is **added** the first time the scanner runs after the org's last future meeting passes (or — for first-time-added orgs — the first time the date scan returns empty for it).
 

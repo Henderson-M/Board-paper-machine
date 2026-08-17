@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RX4-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260817T200000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust - Annual Members Meeting (trust annual public meeting)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

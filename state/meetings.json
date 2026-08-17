@@ -10624,13 +10624,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "QNC:2026-11-26",
@@ -10643,13 +10644,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "QNC:2027-01-28",
@@ -10662,13 +10664,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "QNC:2027-03-25",
@@ -10681,13 +10684,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "T6Y0W:2026-07-15",
@@ -12938,13 +12942,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RJE:2026-10-07",
@@ -12957,13 +12962,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RJE:2026-12-09",
@@ -12976,13 +12982,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RJE:2027-02-10",
@@ -12995,13 +13002,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RJL:2026-06-11",
@@ -14455,14 +14463,15 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "_previous_source_url": "https://www.cntw.nhs.uk/events/"
+   "_previous_source_url": "https://www.cntw.nhs.uk/events/",
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RX6:2026-09-17",
@@ -23183,15 +23192,16 @@
    "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
    "papers_url": "https://www.hpft.nhs.uk/about-us/our-board-papers-and-publications/",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T20:00:00Z"
    },
-   "notes": null
+   "notes": "Retracted 2026-08-17: not in the trust's 'Upcoming meetings' block. The 16 July 2026 public board meeting book (p.4) lists Thu 24 Sep, Thu 26 Nov 2026, Thu 28 Jan and Wed 24 Mar 2027 only. There is no 17 September meeting."
   },
   {
    "id": "RX3:2026-08-13",
@@ -26656,7 +26666,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -26666,7 +26676,8 @@
     "run": "2026-07-20",
     "verified_via": "pdf_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RWR:2026-11-26",
@@ -26679,7 +26690,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -26689,7 +26700,8 @@
     "run": "2026-07-20",
     "verified_via": "pdf_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RWR:2027-01-28",
@@ -26702,7 +26714,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -26712,7 +26724,8 @@
     "run": "2026-07-20",
     "verified_via": "pdf_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RWR:2027-03-24",
@@ -26725,7 +26738,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -26735,7 +26748,8 @@
     "run": "2026-07-20",
     "verified_via": "pdf_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RBQ:2026-09-17",
@@ -27814,13 +27828,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: September 2026 calendar grid, Thursday column, day 24 cell labelled 'Board of Directors public meetings'"
+   "notes": "[2026-08-03] detected via playwright; literal evidence: September 2026 calendar grid, Thursday column, day 24 cell labelled 'Board of Directors public meetings'",
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RX4:2026-09-24",
@@ -27831,15 +27846,16 @@
    "source_url": "https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T20:00:00Z"
    },
-   "notes": "[2026-08-03] detected via pdf; literal evidence: our Annual Members Meeting will be held on Thursday 24th September 2026 in our Jubilee Theatre, St Nicholas Hospital"
+   "notes": "[2026-08-03] detected via pdf; literal evidence: our Annual Members Meeting will be held on Thursday 24th September 2026 in our Jubilee Theatre, St Nicholas Hospital | Retracted 2026-08-17: contradicted by the trust's own pack. The July 2026 public papers state 'Date of next meeting Wednesday 4 November 2026'. CNTW's board is quarterly (Jan/Apr/Jul/Nov); there is no September meeting."
   },
   {
    "id": "RXY:2026-09-24",
@@ -27947,13 +27963,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: November 2026 calendar grid, Thursday column, day 26 cell labelled 'Board of Directors public meetings'"
+   "notes": "[2026-08-03] detected via playwright; literal evidence: November 2026 calendar grid, Thursday column, day 26 cell labelled 'Board of Directors public meetings'",
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "REM:2027-01-14",
@@ -27985,13 +28002,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: January 2027 calendar grid, Thursday column, day 28 cell labelled 'Board of Directors public meetings'"
+   "notes": "[2026-08-03] detected via playwright; literal evidence: January 2027 calendar grid, Thursday column, day 28 cell labelled 'Board of Directors public meetings'",
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "RY7:2027-02-03",
@@ -28042,13 +28060,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T20:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: March 2027 calendar grid, Thursday column, day 25 cell labelled 'Board of Directors public meetings'"
+   "notes": "[2026-08-03] detected via playwright; literal evidence: March 2027 calendar grid, Thursday column, day 25 cell labelled 'Board of Directors public meetings'",
+   "last_verified": "2026-08-17T20:00:00Z"
   },
   {
    "id": "QYG:2026-07-30",

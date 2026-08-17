@@ -1,0 +1,20 @@
+[
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 1 further incorrect meeting date(s) — please delete",
+  "body_file": "dry_run_output/20260817e_emily_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/emily_20260817e.ics"
+  ],
+  "id": "withdraw4-emily-20260817e"
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 further incorrect meeting date(s) — please delete",
+  "body_file": "dry_run_output/20260817e_matt-mathers_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/matt-mathers_20260817e.ics"
+  ],
+  "id": "withdraw4-matt-mathers-20260817e"
+ }
+]

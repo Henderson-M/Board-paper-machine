@@ -288,8 +288,8 @@
   "url_root": "https://staffsstoke.icb.nhs.uk",
   "cluster_id": "STW-SSOT",
   "cluster_meeting_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "notes": "Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T&W page",
-  "schedule_url": null
+  "notes": "Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T&W page | [2026-08-17] FIXED: QNC's own board-papers page carries year folders only. As the STW-SSOT cluster partner it shares Shropshire, Telford and Wrekin's (QOC) Board in Common dates, which ARE published on the QOC page - schedule_url now points there. Confirms 24 Sep, 26 Nov 2026, 28 Jan, 25 Mar 2027.",
+  "schedule_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/"
  },
  {
   "ods_code": "S1Y5D",

@@ -1,3 +1,60 @@
+## 2026-08-17 (follow-up 3) - fixed the 5 orgs whose dates we could not read; watchlist rule tightened
+
+The re-verification left 16 orgs where every future date was unverifiable. Splitting them by CAUSE
+showed two very different groups: 11 where the organisation genuinely publishes nothing in advance
+(nothing to fix), and 5 where the dates exist but our tooling was looking in the wrong place or could
+not parse them. All 5 are now fixed.
+
+**RJE University Hospitals of North Midlands - parsing.** The dates are on the page we already read,
+but every day number is wrapped in a <sup> ordinal ("Wednesday 16<sup>th</sup> September 2026"),
+which splits the text node and defeats any plain day+month regex. Stripping <sup>...</sup> before
+matching recovers 16 Sep, 7 Oct, 9 Dec 2026 and 10 Feb 2027 - exactly the four dates we already held.
+All four now confirmed rather than unverifiable.
+
+**QNC Staffordshire and Stoke-on-Trent ICB - wrong page.** Its own board-papers page carries year
+folders only. As the STW-SSOT cluster partner it shares Shropshire, Telford and Wrekin's (QOC) Board
+in Common dates, which ARE published on the QOC page. schedule_url now points there. Confirms 24 Sep,
+26 Nov 2026, 28 Jan and 25 Mar 2027.
+
+**RAJ Mid and South Essex - paginated calendar.** The events calendar renders one month at a time, so
+a single fetch always looks empty. It is pageable by path: /events-at-the-trust/month-{M}/year-{YYYY}.
+Walking Sep 2026 to Mar 2027 gives board meetings on 24 Sep, 26 Nov 2026, 28 Jan and 25 Mar 2027, and
+none in Oct, Dec or Feb - matching what we held. All four confirmed.
+
+**RWR Hertfordshire Partnership - no web page exists.** /board-meetings/ 404s; there is no board-dates
+page at all. The forward schedule is an "Upcoming meetings" block on PAGE 4 of the newest public board
+meeting book PDF. The 16 July 2026 book gives Thu 24 Sep, Thu 26 Nov 2026, Thu 28 Jan and WED 24 Mar
+2027. That confirms four of our five dates and CONTRADICTS the fifth - 17 September 2026 is not there.
+Retracted; it had been emailed to Emily on 24 June, so a withdrawal went out.
+
+**RX4 Cumbria, Northumberland, Tyne and Wear - JS table, date only in the pack.** The meetings table is
+JavaScript-rendered and carries pack links, not a schedule. The only forward date CNTW publishes is
+the "Date of next meeting" line inside the latest pack: the July 2026 pack says Wednesday 4 November
+2026. That confirms our 4 Nov and CONTRADICTS our 24 September - CNTW's board is quarterly
+(Jan/Apr/Jul/Nov) and no September meeting exists. Retracted; it had been emailed to Matt Mathers on
+3 August, so a withdrawal went out.
+
+**Emails:** 2 sent live, both ok:true (Emily, Matt Mathers). Filenames used the SLUGIFIED FULL
+correspondent key this time (matt-mathers_20260817e.ics), per the rule added after this morning's
+Matt Discombe / Matt Mathers collision.
+
+**Watchlist rule tightened (Step 7b).** The old rule removed an org from the papers watchlist as soon
+as state held ANY future-dated meeting. That created a dead zone: the 16 orgs above held unverifiable
+dates, which kept them off the watchlist while their dates could not be trusted - neither reliably
+date-tracked nor pack-tracked. The rule now requires a VERIFIED future date (one with last_verified
+set by Step 5b) before an org leaves the watchlist. The 11 organisations that genuinely publish no
+forward schedule were added: RJZ King's, RQW Princess Alexandra, RBV Christie, RN3 Great Western,
+RDY Dorset Healthcare, RW5 Lancashire and South Cumbria, RTR South Tees, RVW North Tees, RX7 NWAS,
+RXN Lancashire Teaching, RJ1 Guy's and St Thomas'. Each was added with an EMPTY known_files and an
+explicit do-not-alert-on-first-poll note, so the next run baselines them rather than reporting every
+existing pack as new (the 3 August failure mode). Watchlist is now 23 orgs.
+
+**17 dates stamped last_verified** across the five fixed orgs - the first entries to carry that field,
+which Step 5b uses to pick its rolling slice.
+
+**Spreadsheet refreshed:** NHS-board-meetings-upcoming-2026-08-17.xlsx now 730 meetings across 224
+orgs (808 this morning, 732 after the main retraction, 730 after these two).
+
 ## 2026-08-17 (follow-up 2) - full re-verification of every future date; 76 retracted, 12 emails sent live
 
 Henry asked for a one-off re-verification of every future-dated meeting in state after the

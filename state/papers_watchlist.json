@@ -2397,6 +2397,83 @@
    "last_checked": "2026-08-17T16:00:00Z",
    "known_files": [],
    "notes": "[2026-08-17] Added after all five future dates were retracted. Publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. known_files deliberately empty - baseline on first poll and do NOT alert on that first pass."
+  },
+  {
+   "ods_code": "RJZ",
+   "papers_url": "https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] King's College Hospital - publishes no forward calendar; packs appear only retrospectively. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RQW",
+   "papers_url": "https://www.pah.nhs.uk/about/board/board-papers/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Princess Alexandra - board-papers page lists past papers only; bi-monthly, no schedule published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RBV",
+   "papers_url": "https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] The Christie - past dates only; autumn 2026 schedule not yet published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RN3",
+   "papers_url": "https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Great Western - no forward schedule on the board-meetings page. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RDY",
+   "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Dorset Healthcare - Board in Common with RBD; H2 2026 dates not yet published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RW5",
+   "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Lancashire and South Cumbria - forward dates all lapsed, none republished. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RTR",
+   "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] South Tees - joint UHT group board page shows only the next meeting and is stale. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RVW",
+   "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] North Tees and Hartlepool - shares the stale UHT group board page with RTR. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RX7",
+   "papers_url": "https://www.nwas.nhs.uk/about/directors/board-meetings/",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] North West Ambulance - no forward calendar; stale 'next meeting' line only. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RXN",
+   "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Lancashire Teaching - page rolls forward, only ever shows the next meeting. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RJ1",
+   "papers_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers",
+   "last_checked": null,
+   "known_files": [],
+   "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   }
  ],
  "_last_updated": "2026-08-06T10:47:24Z",
