@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:R1L-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Essex Partnership University NHS Foundation Trust - Board of Directors Meeting Part 1
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:R1L-2026-12-01@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Essex Partnership University NHS Foundation Trust - Board of Directors Meeting Part 1
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

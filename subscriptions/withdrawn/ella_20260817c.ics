@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:R1H-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Barts Health NHS Trust - Public Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.bartshealth.nhs.uk/board-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Barts Health NHS Trust - Public Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.bartshealth.nhs.uk/board-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ7-2026-09-03@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:St George's University Hospitals NHS Foundation Trust - GESH Group Board Meeting (Public)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-09-11@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:West London NHS Trust - Board of directors - public meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:West London NHS Trust - Board of directors - public meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:London Ambulance Service NHS Trust - Public Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:London Ambulance Service NHS Trust - Public Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2026-09-25@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Central London Community Healthcare NHS Trust - Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Central London Community Healthcare NHS Trust - Annual General Meeting (AGM)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2026-10-22@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Central London Community Healthcare NHS Trust - Board-in-Common
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

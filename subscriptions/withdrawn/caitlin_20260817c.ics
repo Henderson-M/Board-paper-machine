@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RL1-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust - Board of Directors Meeting (Public)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust - Board of Directors Meeting (Public)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust - Board of Directors Meeting (Public)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RL1-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust - Board of Directors Meeting (Public)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2027-08-05@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:George Eliot Hospital NHS Trust - Annual General Meeting (AGM)
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust - Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2026-12-09@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust - Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RYG-2027-02-10@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Coventry and Warwickshire Partnership NHS Trust - Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

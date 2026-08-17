@@ -539,15 +539,16 @@
    "source_url": "https://www.qvh.nhs.uk/about-us/board-of-directors/meetings-in-public/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-16, 2026-11-12, 2027-01-21, 2027-03-11."
   },
   {
    "id": "RPC:2026-11-12",
@@ -1321,15 +1322,16 @@
    "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
    "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-10-15, 2026-12-10."
   },
   {
    "id": "RTP:2026-12-03",
@@ -1340,15 +1342,16 @@
    "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
    "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-10-15, 2026-12-10."
   },
   {
    "id": "RVV:2026-06-04",
@@ -1774,15 +1777,16 @@
    "source_url": "https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-16, 2026-11-18."
   },
   {
    "id": "RFS:2026-07-14",
@@ -2868,15 +2872,16 @@
    "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-11-06",
@@ -2887,15 +2892,16 @@
    "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-12-10",
@@ -2906,15 +2912,16 @@
    "source_url": "https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RX1:2026-07-09",
@@ -3298,15 +3305,15 @@
    "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-26, 2027-05-17."
   },
   {
    "id": "R1D:2026-12-01",
@@ -3317,15 +3324,15 @@
    "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meetings-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-26, 2027-05-17."
   },
   {
    "id": "RBK:2026-07-21",
@@ -3446,15 +3453,15 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2026-11-04",
@@ -3465,15 +3472,15 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2027-01-06",
@@ -3484,15 +3491,15 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2027-03-03",
@@ -3503,15 +3510,15 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL4:2026-07-21",
@@ -4641,15 +4648,15 @@
    "source_url": "https://www.therotherhamft.nhs.uk/about-us/board-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-02, 2026-11-04, 2027-01-06, 2027-03-03, 2027-07-15."
   },
   {
    "id": "RFR:2026-11-06",
@@ -4660,15 +4667,15 @@
    "source_url": "https://www.therotherhamft.nhs.uk/about-us/board-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-02, 2026-11-04, 2027-01-06, 2027-03-03, 2027-07-15."
   },
   {
    "id": "RGD:2026-07-30",
@@ -5218,15 +5225,15 @@
    "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
    "papers_url": "https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/25-september-2025/",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02, 2027-02-03, 2027-04-07.",
    "_previous_source_url": "https://www.qehkl.nhs.uk/about-us/meetings-of-the-board-of-directors/"
   },
   {
@@ -5661,15 +5668,15 @@
    "source_url": "https://www.cpft.nhs.uk/board-of-directors/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-12-02, 2027-01-27, 2027-03-24."
   },
   {
    "id": "RT1:2027-01-27",
@@ -6281,15 +6288,15 @@
    "source_url": "https://www.ghc.nhs.uk/who-we-are/board-and-governors/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-01, 2026-11-26."
   },
   {
    "id": "RTQ:2026-11-26",
@@ -6347,15 +6354,15 @@
    "source_url": "https://swlstg.nhs.uk/our-board",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-11-12.",
    "_previous_source_url": "https://www.stgeorges.nhs.uk/about-us/board-papers/"
   },
   {
@@ -6367,15 +6374,15 @@
    "source_url": "https://swlstg.nhs.uk/our-board",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-11-12.",
    "_previous_source_url": "https://www.stgeorges.nhs.uk/about-us/board-papers/"
   },
   {
@@ -6986,15 +6993,15 @@
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-10-21, 2026-12-02."
   },
   {
    "id": "RKL:2026-10-01",
@@ -7005,15 +7012,15 @@
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-10-21, 2026-12-02."
   },
   {
    "id": "RKL:2026-12-01",
@@ -7024,15 +7031,15 @@
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-10-21, 2026-12-02."
   },
   {
    "id": "RV3:2026-06-24",
@@ -10036,15 +10043,15 @@
    "source_url": "https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2027-01-27, 2027-03-31."
   },
   {
    "id": "QWO:2026-06-23",
@@ -10950,15 +10957,15 @@
    "source_url": "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-23, 2026-10-21, 2027-01-27, 2027-03-24."
   },
   {
    "id": "QRL:2026-06-03",
@@ -14050,15 +14057,15 @@
    "source_url": "https://www.epsom-sthelier.nhs.uk/board-meetings",
    "papers_url": "https://www.epsom-sthelier.nhs.uk/board-papers-and-agendas",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-11, 2026-11-06, 2027-01-07, 2027-03-04."
   },
   {
    "id": "RVR:2026-11-06",
@@ -15647,15 +15654,15 @@
    "source_url": "https://www.scas.nhs.uk/about-scas/our-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03, 2026-10-28, 2026-11-05, 2027-03-04."
   },
   {
    "id": "RYE:2026-11-05",
@@ -19752,15 +19759,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2026-10-06",
@@ -19771,15 +19779,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2026-11-03",
@@ -19790,15 +19799,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2026-12-01",
@@ -19809,15 +19819,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2027-01-12",
@@ -19828,15 +19839,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2027-02-02",
@@ -19847,15 +19859,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RX9:2027-03-02",
@@ -19866,15 +19879,16 @@
    "source_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-09-24, 2026-10-29, 2026-11-26, 2026-12-22, 2027-01-28, 2027-02-25, 2027-03-25."
   },
   {
    "id": "RN7:2026-08-06",
@@ -19938,15 +19952,16 @@
    "source_url": "https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-15, 2026-11-17."
   },
   {
    "id": "RYG:2026-12-09",
@@ -19957,15 +19972,16 @@
    "source_url": "https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-15, 2026-11-17."
   },
   {
    "id": "RYG:2027-02-10",
@@ -19976,15 +19992,16 @@
    "source_url": "https://www.covwarkpt.nhs.uk/trust-board-dates-and-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-06-09T18:31:30",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-15, 2026-11-17."
   },
   {
    "id": "R0B:2026-08-07",
@@ -21467,14 +21484,16 @@
    "source_url": "https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-06-11T18:04:05.857911+00:00",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
-    "summary": null
-   }
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
+   },
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-24, 2026-10-21, 2026-11-26, 2027-01-28, 2027-03-25."
   },
   {
    "id": "RFR:2026-07-01",
@@ -21759,14 +21778,16 @@
    "source_url": "https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
-    "summary": null
-   }
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
+   },
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02."
   },
   {
    "id": "R1L:2026-12-01",
@@ -21777,14 +21798,16 @@
    "source_url": "https://eput.nhs.uk/about-us/board-of-directors/board-meetings/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
-    "summary": null
-   }
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
+   },
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02."
   },
   {
    "id": "RYC:2026-09-16",
@@ -21984,15 +22007,16 @@
    "source_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
    "papers_url": "https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/",
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-11, 2026-11-06, 2027-01-07, 2027-03-04."
   },
   {
    "id": "RJ7:2026-11-06",
@@ -22060,15 +22084,16 @@
    "source_url": "https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-24, 2026-10-21, 2026-11-26, 2027-01-28, 2027-03-25."
   },
   {
    "id": "RJL:2026-09-10",
@@ -22587,15 +22612,16 @@
    "source_url": "https://www.cornwallft.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-09-16, 2026-11-12, 2027-01-14, 2027-03-11."
   },
   {
    "id": "RJ8:2026-11-04",
@@ -22606,15 +22632,16 @@
    "source_url": "https://www.cornwallft.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-09-16, 2026-11-12, 2027-01-14, 2027-03-11."
   },
   {
    "id": "RJ8:2027-01-06",
@@ -22625,15 +22652,16 @@
    "source_url": "https://www.cornwallft.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-09-16, 2026-11-12, 2027-01-14, 2027-03-11."
   },
   {
    "id": "RJ8:2027-03-03",
@@ -22644,15 +22672,16 @@
    "source_url": "https://www.cornwallft.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-09-16, 2026-11-12, 2027-01-14, 2027-03-11."
   },
   {
    "id": "RL1:2026-07-09",
@@ -22682,15 +22711,16 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2026-11-12",
@@ -22701,15 +22731,16 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2027-01-14",
@@ -22720,15 +22751,16 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RL1:2027-03-11",
@@ -22739,15 +22771,16 @@
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RRK:2026-07-23",
@@ -22861,15 +22894,16 @@
    "source_url": "https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-12-10, 2027-03-11."
   },
   {
    "id": "RRU:2026-11-26",
@@ -22880,15 +22914,16 @@
    "source_url": "https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-12-10, 2027-03-11."
   },
   {
    "id": "RTP:2026-07-16",
@@ -22944,15 +22979,16 @@
    "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-10-15, 2026-12-10."
   },
   {
    "id": "RTP:2026-10-15",
@@ -22982,15 +23018,16 @@
    "source_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-27, 2026-10-15, 2026-12-10."
   },
   {
    "id": "RTP:2026-12-10",
@@ -23020,15 +23057,16 @@
    "source_url": "https://www.ghc.nhs.uk/who-we-are/board-and-governors/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-01, 2026-11-26."
   },
   {
    "id": "RTQ:2026-12-10",
@@ -23039,15 +23077,16 @@
    "source_url": "https://www.ghc.nhs.uk/who-we-are/board-and-governors/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-01, 2026-11-26."
   },
   {
    "id": "RTQ:2027-03-11",
@@ -23058,15 +23097,16 @@
    "source_url": "https://www.ghc.nhs.uk/who-we-are/board-and-governors/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-06-24T09:49:55Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-01, 2026-11-26."
   },
   {
    "id": "RWH:2026-07-08",
@@ -23645,15 +23685,16 @@
    "source_url": "https://www.bartshealth.nhs.uk/board-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-06-29T09:18:15Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-11-11, 2027-01-13, 2027-03-10."
   },
   {
    "id": "R1H:2026-11-24",
@@ -23664,15 +23705,16 @@
    "source_url": "https://www.bartshealth.nhs.uk/board-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-06-29T09:18:15Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": ""
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-11-11, 2027-01-13, 2027-03-10."
   },
   {
    "id": "RAN:2027-09-23",
@@ -24007,16 +24049,18 @@
    "org_name": "Bristol, North Somerset and South Gloucestershire ICB",
    "source_url": "https://bnssghealthiertogether.org.uk/events/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "QUY:2026-11-05"
+   "id": "QUY:2026-11-05",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-11-25, 2027-01-27, 2027-03-31."
   },
   {
    "ods_code": "QR1",
@@ -24025,16 +24069,18 @@
    "org_name": "Gloucestershire ICB",
    "source_url": "https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "QR1:2026-09-04"
+   "id": "QR1:2026-09-04",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-11-25, 2027-01-27, 2027-03-31."
   },
   {
    "ods_code": "QR1",
@@ -24043,16 +24089,18 @@
    "org_name": "Gloucestershire ICB",
    "source_url": "https://www.nhsglos.nhs.uk/about-us/about-the-icb-board/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "QR1:2026-11-05"
+   "id": "QR1:2026-11-05",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2026-11-25, 2027-01-27, 2027-03-31."
   },
   {
    "ods_code": "RQX",
@@ -24135,16 +24183,18 @@
    "org_name": "Central London Community Healthcare NHS Trust",
    "source_url": "https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RYX:2026-10-22"
+   "id": "RYX:2026-10-22",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-24, 2026-10-21, 2026-11-26, 2027-01-28, 2027-03-25."
   },
   {
    "ods_code": "RBV",
@@ -24353,16 +24403,18 @@
    "org_name": "West London NHS Trust",
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-papers",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RKL:2026-09-11"
+   "id": "RKL:2026-09-11",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-10-21, 2026-12-02."
   },
   {
    "ods_code": "RKL",
@@ -24371,16 +24423,18 @@
    "org_name": "West London NHS Trust",
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-papers",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RKL:2026-11-06"
+   "id": "RKL:2026-11-06",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-09, 2026-10-21, 2026-12-02."
   },
   {
    "ods_code": "RDU",
@@ -24413,16 +24467,18 @@
    "org_name": "Frimley Health NHS Foundation Trust",
    "source_url": "https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RDU:2026-10-07"
+   "id": "RDU:2026-10-07",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-11, 2026-11-06."
   },
   {
    "ods_code": "RDU",
@@ -24431,16 +24487,18 @@
    "org_name": "Frimley Health NHS Foundation Trust",
    "source_url": "https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RDU:2026-12-02"
+   "id": "RDU:2026-12-02",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-11, 2026-11-06."
   },
   {
    "ods_code": "RRF",
@@ -24449,16 +24507,18 @@
    "org_name": "Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",
    "source_url": "https://www.wwl.nhs.uk/about-us/board-papers/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RRF:2026-09-01"
+   "id": "RRF:2026-09-01",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02."
   },
   {
    "ods_code": "RRF",
@@ -24467,16 +24527,18 @@
    "org_name": "Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",
    "source_url": "https://www.wwl.nhs.uk/about-us/board-papers/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RRF:2026-10-01"
+   "id": "RRF:2026-10-01",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02."
   },
   {
    "ods_code": "RRF",
@@ -24485,16 +24547,18 @@
    "org_name": "Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",
    "source_url": "https://www.wwl.nhs.uk/about-us/board-papers/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "id": "RRF:2026-12-01"
+   "id": "RRF:2026-12-01",
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-07, 2026-12-02."
   },
   {
    "ods_code": "REF",
@@ -25331,15 +25395,16 @@
    "source_url": "https://www.wchc.nhs.uk/about/board-governors/board-meetings-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-07-13T12:20:45Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13 | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-02, 2026-11-04, 2027-02-03."
   },
   {
    "id": "QHM:2026-10-28",
@@ -25350,15 +25415,16 @@
    "source_url": "https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13 | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-30, 2027-01-27, 2027-03-31."
   },
   {
    "id": "RW5:2026-11-05",
@@ -27025,15 +27091,16 @@
    "source_url": null,
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-10, 2026-11-05, 2027-01-07, 2027-03-04."
   },
   {
    "id": "RY3:2027-01-27",
@@ -27177,15 +27244,16 @@
    "source_url": null,
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-07-23T17:15:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-24, 2027-06-09."
   },
   {
    "id": "RLT:2027-08-05",
@@ -27196,15 +27264,16 @@
    "source_url": null,
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-07-27T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": null
+   "notes": "[2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-08-31, 2026-09-02, 2026-10-07, 2026-12-02, 2027-02-03."
   },
   {
    "id": "RA2:2027-01-28",
@@ -27666,15 +27735,16 @@
    "source_url": "https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T18:00:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: Sept 16 Annual General Meeting 16 Sept 2026, 17:00 - 19:30"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: Sept 16 Annual General Meeting 16 Sept 2026, 17:00 - 19:30 | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-10-01, 2026-10-08, 2026-11-26."
   },
   {
    "id": "RYY:2026-09-16",

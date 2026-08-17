@@ -1,0 +1,11 @@
+[
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[CORRECTION] 6 incorrect meeting date(s) — please delete from your calendar",
+  "body_file": "dry_run_output/20260817d_MattDiscombe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/matt-discombe_20260817d.ics"
+  ],
+  "id": "withdraw3fix-MattDiscombe-20260817d"
+ }
+]

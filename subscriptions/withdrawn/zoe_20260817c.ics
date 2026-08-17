@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RY7-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Wirral Community Health and Care NHS Foundation Trust - Public Board of Directors meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.wchc.nhs.uk/about/board-governors/board-meetings-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

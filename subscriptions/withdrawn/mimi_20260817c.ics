@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RDU-2026-10-07@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Frimley Health NHS Foundation Trust - Board of Directors Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RDU-2026-12-02@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Frimley Health NHS Foundation Trust - Board of Directors Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RN5-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260817T180000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Hampshire Hospitals NHS Foundation Trust - Annual General Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

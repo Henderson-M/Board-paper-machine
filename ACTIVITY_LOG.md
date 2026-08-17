@@ -1,3 +1,68 @@
+## 2026-08-17 (follow-up 2) - full re-verification of every future date; 76 retracted, 12 emails sent live
+
+Henry asked for a one-off re-verification of every future-dated meeting in state after the
+weekend-date audit found errors that a weekday check could never have caught. This is that pass.
+
+**Method.** All 808 future-dated meetings across 224 orgs were checked against their organisation's
+own published schedule. Two passes were needed, because the first one was wrong in two ways:
+
+- Pass 1 read each org's `url` field only. For orgs that publish their schedule on a subpage, that is
+  the wrong page. EMAS/RX9 is the worked example: its `url` is /next-board-meeting, which by design
+  shows one meeting, while the full schedule sits at /next-board-meeting/future-meetings. Pass 1
+  called 14 EMAS dates fabricated; 7 were real.
+- Pass 1's date matcher missed ZERO-PADDED days, so "Wednesday 07 October 2026" read as absent.
+  That alone produced 19 false positives.
+
+Pass 2 re-checked everything pass 1 flagged against the correct page (org url + papers_url + any URL
+in notes + explicit overrides), fetched with Playwright --html so collapsed accordions are included.
+
+**Result across 808 dates:**
+- 640 verified first time
+- 33 rescued - flagged by pass 1, confirmed real on the correct page
+- 76 CONTRADICTED - the org publishes a schedule and our date is not in it. REAL ERRORS.
+- 56 unverifiable - org publishes no forward schedule anywhere findable
+- 3 unreadable
+
+A cross-contamination theory (bad dates being other orgs' real dates) was raised and DISPROVED: 91%
+of bad dates also appear at another org, but so do 95% of correct ones. NHS boards cluster on the
+same weekdays; the collision is base rate and means nothing. Recorded here so nobody re-derives it.
+
+**Action:** all 76 retracted. 56 were future-dated and had been alerted, so withdrawal emails went to
+11 correspondents. Biggest: Robert Jones and Agnes Hunt 8, EMAS 7, West London 5, Surrey and Sussex 4,
+Gloucestershire Health and Care 4, Cornwall Partnership 4.
+
+**A real mistake was made during the send, and corrected.** The withdrawal composer keyed per-recipient
+filenames on the recipient's FIRST NAME. There are two Matts. Both bodies went to
+`20260817c_Matt_withdrawn.md` and both calendar files to `matt_20260817c.ics`; Matt Mathers' content
+(written second) overwrote Matt Discombe's, so Matt Discombe received an email headed "6 incorrect
+meeting date(s)" whose body and attachment held Matt Mathers' single unrelated date. A [CORRECTION]
+email with his real six dates was sent immediately afterwards. Both Matts' state entries were stamped
+correctly. This hazard was already flagged as an open question in the project memory ("decide canonical
+name for Matt D / Matt Discombe") and has now bitten - the rule is in SKILL.md.
+
+**Structural fixes, so this stops recurring:**
+
+1. **New `schedule_url` field** on every org record, populated for the 24 orgs where the dates live
+   somewhere other than `url`. SKILL.md Step 2 now states the precedence: schedule_url wins for the
+   date scan, else url. Notes are for humans; schedule_url is what the run reads. This is the same
+   class of bug as the Alder Hey incident on 6 Aug - a corrected URL that the run did not use.
+2. **New Step 5b - rolling re-verification of dates already in state.** Every anti-fabrication guard
+   fires only at first detection, so a date that was wrong when recorded stayed wrong forever and kept
+   being emailed. Step 5b re-checks a rolling slice each full run: anything not verified in 28 days,
+   capped at ~120 per run, oldest first, plus everything due in the next 21 days regardless. It
+   retracts ONLY where the page publishes a schedule and our date is not in it - "no schedule
+   published" is explicitly not an error. `--no-reverify` skips it.
+3. **Recipient filenames must use the full correspondent key, slugified**, never the first name.
+
+**16 orgs now publish no forward schedule at all and are NOT on the papers watchlist** - they still
+have unverifiable dates in state, so the Step 7b rule ("removed the moment it has any future-dated
+meeting in state") keeps them off it. That is arguably wrong now those dates are known to be
+unverifiable: QNC, RJE, RJ1, RJZ, RWR, RAJ, RQW, RDY, RN3, RX4, RVW, RTR, RX7, RBV, RW5, RXN.
+Decision for Henry: widen the watchlist rule to include orgs whose every future date is unverifiable.
+
+**Deliverables refreshed:** NHS-board-meetings-upcoming-2026-08-17.xlsx now 732 meetings across 224
+orgs (was 808). board-date-verification-2026-08-17.xlsx has four tabs including the 33 false alarms.
+
 ## 2026-08-17 (follow-up) - weekend-date audit: 13 bad dates retracted, 6/6 alerts sent live
 
 Henry asked for an Excel of all upcoming board meetings. Building it surfaced six meetings dated on

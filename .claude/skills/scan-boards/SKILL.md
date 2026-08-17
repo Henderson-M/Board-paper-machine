@@ -49,6 +49,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `--region NAME` | Only scan orgs in this region (e.g. `--region "North West"`). |
 | `--dates-only` | Skip pack detection and analysis. Just refresh meeting dates. |
 | `--packs-only` | Skip date scanning. Only check papers for meetings in the detection window (previous 2 days → next 10 days, inclusive of today). |
+| `--no-reverify` | Skip Step 5b, the rolling re-verification of dates already in state. Faster, but stale bad dates survive. |
 | `--no-pull` | Skip the initial `git pull`. Use for testing offline. |
 | `--no-push` | Skip the final `git commit && git push`. Use for testing. |
 | `--limit N` | Stop after scanning N orgs. Useful for first-time runs. |
@@ -122,11 +123,22 @@ Read these files:
 - `state/meetings.json` (known meetings)
 - `context/hsj_editorial_context.md` (only needed if running pack analysis)
 
-Build a list of in-scope orgs, filtered by any arguments. Each org needs: `ods_code`, `names[0]`, `url`, `correspondent`, `org_type` (`trust` or `icb`).
+Build a list of in-scope orgs, filtered by any arguments. Each org needs: `ods_code`, `names[0]`, `url`, `schedule_url`, `correspondent`, `org_type` (`trust` or `icb`).
 
 Skip orgs with empty/null `url`, and skip those whose correspondent is `"TBC"` or null. Log the count skipped.
 
+**Which URL to scan for DATES — `schedule_url` wins.** Many orgs put their board *papers* on one page and their forward *schedule* on another (a "Future meetings" subpage, a year subpage, an events calendar). The `schedule_url` field records that page explicitly. For the date scan (Step 4) the precedence is:
+
+1. `schedule_url` if set — this is the maintained field and it always wins
+2. else `url`
+
+Never rely on free-text `notes` to carry this. Notes are for humans; `schedule_url` is what the run reads. If you discover an org's dates live somewhere other than `url`, **set `schedule_url`** — do not just write it in `notes`.
+
+Worked failure (2026-08-17): EMAS/RX9's `url` is `/next-board-meeting`, a page that by design shows only the single next meeting, while its notes recorded that the full schedule was at `/next-board-meeting/future-meetings`. A verification pass that read only `url` concluded 14 of EMAS's dates were fabricated; 7 of them were real and on the subpage. Half a day of retractions was nearly sent on that basis. The same shape covers roughly half the orgs flagged in that pass.
+
 **Recipients per org.** An org may also carry an optional `additional_correspondents` array (e.g. all ambulance trusts also go to `"Alison"` as well as their primary correspondent). Throughout this skill, the **recipients** of an org's alerts are the union of its `correspondent` and every name in `additional_correspondents`, **de-duplicated** (if a name appears as both, it's one recipient). A name in `additional_correspondents` that is `"TBC"`/null or has no email in `correspondents.json` is logged and skipped, exactly like a primary. Wherever a later step says "group/route by correspondent", it means **by recipient** in this sense — a single org's meeting or pack can therefore produce an alert for more than one person.
+
+**Never key a file, a manifest `id`, or anything else per-recipient on the recipient's FIRST NAME.** There are two Matts (`Matt Discombe` and `Matt Mathers`) and both shorten to `matt`. Use the full correspondent key, slugified — `matt-discombe`, `matt-mathers`. Worked failure (2026-08-17): a withdrawal run wrote both Matts' bodies to `20260817c_Matt_withdrawn.md` and both `.ics` files to `matt_20260817c.ics`; the second overwrote the first, and Matt Discombe was sent an email headed "6 incorrect meeting date(s)" whose body and attachment contained Matt Mathers' single unrelated date. A correction had to be sent. The `{firstname}` in the subscription paths below is a legacy shorthand — read it as "slugified full correspondent key" and it is safe.
 
 **Temporary recipient overrides.** After building an org's base recipient set (above), apply any live rules in `data/recipient_overrides.json` (skip this if the file is absent or has no `overrides`). For each rule:
 
@@ -148,7 +160,7 @@ There is a **three-step fallback ladder**. Try cheap fetchers first, escalate on
 
 #### 4a — WebFetch (default)
 
-For each org, **WebFetch** the `url` with this prompt:
+For each org, **WebFetch** its date-scan URL (`schedule_url` if set, else `url` — see Step 2) with this prompt:
 
 > Today is {today}. Return JSON ONLY (no prose, no markdown fences). Schema: `{"meetings":[{"date":"YYYY-MM-DD","title":"...","papers_url":"URL or null"}]}`. List every upcoming PUBLIC board meeting in the next 12 months. Exclude past meetings, committee meetings, private/closed sessions. UK dates may be DD/MM/YYYY. If you find no future meeting dates return `{"meetings":[]}`. If the page needs JavaScript return `{"meetings":[],"_error":"needs_js"}`.
 
@@ -216,6 +228,34 @@ For each detected meeting:
 - Build an `id` = `{ods_code}:{date}`.
 - If `id` exists in `state/meetings.json`, just update `last_checked`.
 - If new, add an entry with status `date_found` and append to a `new_meetings` list.
+
+### Step 5b — Re-verify dates ALREADY in state (rolling audit)
+
+(Skip if `--packs-only`. Skip with `--no-reverify` if you need a fast run.)
+
+**Detecting a date correctly once is not enough — this step re-checks dates we recorded on earlier runs.** Every guard in Step 4 only ever fires at the moment a date is first detected. A date that was wrong when it went in stays wrong forever, keeps being emailed out, and sits in a correspondent's calendar until a human happens to notice. On 2026-08-17 a full audit found **76 such dates across 33 orgs, 56 of them already emailed** — some recorded as far back as June, several at orgs whose `notes` already described the exact fabrication.
+
+On every full run, re-verify a **rolling slice** of the future-dated meetings already in state:
+
+1. **Choose the slice.** All future-dated meetings whose `last_verified` is absent or older than **28 days**, capped at ~120 meetings per run so the sweep stays affordable. Oldest `last_verified` first. Always include every meeting dated in the **next 21 days** regardless of when it was last verified — those are the ones people are about to act on.
+2. **Fetch the org's date-scan URL** (`schedule_url` if set, else `url`), Playwright `--html` preferred so collapsed accordions and tab panels are included.
+3. **Literal check.** The meeting's day+month must appear as literal text, in any common UK format. Accept zero-padded days (`07 October`), `DD-Mon-YY` (`17-Sep-26`), and ordinals. **Do not** require the year to be adjacent — many pages carry a year heading above a bare day/month list.
+4. **Classify, and only act on the unambiguous case:**
+   - **found** → set `last_verified` to now. Done.
+   - **not found, and the page publishes no future dates at all** → `unverifiable`. Set `last_verified` and move on. This is NOT an error — plenty of orgs publish no forward schedule. Never retract on this.
+   - **not found, and the page DOES publish a future schedule** → the page contradicts us. Retract it, and if `alerts_sent.date` is set and the date is still in the future, it owes a withdrawal under Step 8b.
+5. **Record what the page said** in the meeting's `notes` when you retract, so the next person can see the basis without re-fetching.
+
+Three failure modes this catches, all seen in real state:
+
+- **Month shift** — right day number, wrong month (a real "Wednesday 29 July 2026" recorded as 29 August, at two unrelated trusts in the same week).
+- **Day default** — a month-only heading ("November 2026 Board Meeting") becoming the 1st of that month.
+- **Cadence projection** — a plausible series (every first Tuesday) invented past whatever the page actually lists.
+
+**Two traps to avoid — both were hit while building this step:**
+
+- **Check the right page.** Reading `url` when the schedule lives at `schedule_url` makes real meetings look fabricated. Half of one audit's "errors" were this. Always resolve the URL as in Step 2.
+- **Your matcher is a suspect too.** The first version of this audit missed zero-padded days, so `Wednesday 07 October 2026` read as absent and 19 real dates were flagged. Before trusting a large batch of "missing" results, hand-check several against the page text, and be suspicious of any org where *every* date is missing — that is far more likely a bad fetch than a bad org.
 
 ### Step 6 — Generate .ics files
 
@@ -503,7 +543,9 @@ In chat, give a terse summary:
 - **Honour the `notes` field.** If `notes` says "needs Playwright" or "papers on archive subpage" or "PDF schedule", read it and skip cheaper fetchers that have already failed. Don't burn budget re-discovering known failures.
 - **The org record is the source of truth for URLs, not the meeting.** A meeting's `source_url` records where a date was found at the time; the org's `url` / `papers_url` are the maintained fields that previous runs correct. Always prefer the org record (see Step 7.1). Scanning a stale `source_url` re-breaks orgs that were already fixed and hides the fix — it cost a wasted "needs a corrected URL" report on Alder Hey on 2026-08-06.
 - **Trust `cluster_id`.** Trust and ICB records can both carry `cluster_id` (e.g. `NWUHG`, `DLN`, `STW-SSOT`). When set, all members share the same `url` and meeting dates. Dedupe at the email/subscription layer, but keep one state entry per ods_code for audit.
-- **Self-improving.** If you discover an org's `url` has moved, update it. If you discover a quirk worth recording, write to `notes`.
+- **Self-improving.** If you discover an org's `url` has moved, update it. If you discover a quirk worth recording, write to `notes`. **If you discover the dates live on a different page from `url`, set `schedule_url`** — a note alone does not change what the next run reads.
+- **Verify old dates, not just new ones.** Step 5b re-checks a rolling slice of what is already in state. Every anti-fabrication guard fires only at first detection, so without this a date that was wrong on the day it was recorded stays wrong, keeps being emailed, and lives in someone's calendar indefinitely. A 2026-08-17 audit found 76 such dates, 56 already sent.
+- **A date the page does not mention is not automatically wrong.** Distinguish "the org publishes a schedule and this date is not in it" (an error) from "the org publishes no forward schedule at all" (unverifiable, and common). Only the first justifies a retraction.
 - **Editorial caution.** This tool produces *leads*, not facts. Phrasing in alerts must not assert anything beyond what the source page or pack literally says — see `context/hsj_editorial_context.md` for the full rules.
 - **One commit per scan.** Don't make multiple commits for a single run; aggregate all state changes into one.
 - **Never run on unsynced state.** See Step 1 — a `git status` "up to date" is meaningless without a fresh `git fetch`. If you can't confirm the local repo is level with `origin/main`, STOP; don't scan or send. Stale state = duplicate alerts to the whole team. Also re-fetch and drop already-alerted meetings immediately before a live send (Step 11 pre-send guard).

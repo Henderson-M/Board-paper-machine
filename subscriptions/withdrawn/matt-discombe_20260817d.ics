@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:R1H-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Barts Health NHS Trust - Public Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.bartshealth.nhs.uk/board-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Barts Health NHS Trust - Public Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.bartshealth.nhs.uk/board-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-09-11@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:West London NHS Trust - Board of directors - public meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RKL-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:West London NHS Trust - Board of directors - public meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:London Ambulance Service NHS Trust - Public Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RRU-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260817T183000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:London Ambulance Service NHS Trust - Public Trust Board Meeting
+DESCRIPTION:Withdrawn by Board paper machine (date not on the trust's schedule).
+URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR
