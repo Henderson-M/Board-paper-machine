@@ -1,3 +1,51 @@
+## 2026-08-17 (follow-up 5) - both failsafes made mechanical; Dave's address set; 2 more bad dates caught
+
+Henry set two requirements: a regular refresh built INTO the tool, and whoever runs it (him or Dave)
+being told when a trust cannot be accessed or is not checked for any reason. Both were documented
+steps relying on the model remembering. They are now scripts.
+
+**reverify_dates.py - the regular refresh.** Picks the rolling slice (nothing verified in 28 days,
+oldest first, plus everything due within 21 days regardless of when it was last checked), fetches
+each org's schedule_url, literal-checks every date, writes last_verified on what it confirms, updates
+org health, and prints a CONTRADICTED list. It deliberately does NOT retract or email: a retraction
+owes a withdrawal alert to whoever was told, and that judgement stays with the skill. SKILL.md Step 5b
+now just calls it.
+
+It carries every parsing lesson from today: zero-padded days (07 October), <sup> ordinals stripped,
+DD-Mon-YY, ordinals, and no requirement for the year to be adjacent (year-heading pages). Critically
+it distinguishes CONTRADICTED (page publishes a schedule, our date is absent - a real error) from
+UNVERIFIABLE (page publishes nothing forward - not an error). Validated against six orgs whose answers
+were established by hand today: RCB 7, QNC 4, RJE 4, RFR 4, RX9 8 all confirmed, and RAJ's 4 correctly
+returned UNVERIFIABLE rather than contradicted, because its calendar renders one month at a time. It
+fails safe.
+
+**First real run found 2 more bad dates within hours of the full audit:**
+- QUY Bristol, North Somerset and South Gloucestershire, 4 Sep 2026 - not on the ICB's canonical board
+  page. It came from the bnssghealthiertogether events page, which notes already flag as unreliable.
+- RJ8 Cornwall Partnership, 16 Sep 2026 - no longer on the page. The trust now lists an ANNUAL MEMBERS'
+  MEETING on 23 Sep, which we exclude. The 16 Sep entry looks to have been that AGM before it moved.
+Both were alerted to Joe; both retracted, one withdrawal email sent (1/1 ok). 127 meetings now carry
+last_verified.
+
+**org_health.py extended for "not checked for any reason".** Failing was already tracked; being
+SKIPPED was not, and a skipped org is exactly as invisible as a failed one. `report --since RUN_START`
+now compares every in-scope org against those with an outcome recorded this run and reports the
+difference as NOT CHECKED. SKILL.md Step 13 captures RUN_START and passes it. Two bugs were found and
+fixed while testing this: the early-return said "nothing needs attention" without considering the
+unchecked list, and the CLI parsed --since but never passed it through - both would have made the new
+section silently do nothing.
+
+**Dave's operator address.** Henry supplied dave.west@hsj.co.uk. Dave had independently pushed the
+same change (commit 44b1a29) while this work was in progress - the tooling had told him his address
+was missing and he fixed it, which is the new Step 13 behaviour working. That commit was integrated by
+rebase; the conflict on data/correspondents.json was resolved to DAVE'S value, since it is his address.
+Note `git checkout --theirs` during a stash pop keeps the STASHED version, not the incoming one - it
+had to be set explicitly.
+
+**Concurrency note for the team:** this is the first time two people have worked on the repo on the
+same day since the 30 July duplicate incident. The hard gate did its job - the pre-send gate caught
+behind=1 before anything was emailed, and the run stopped and integrated rather than sending on stale
+state.
 ## 2026-08-17 (follow-up 4) - failsafe for broken orgs + a run report to whoever ran the sweep
 
 Henry asked two questions: is there a failsafe that periodically re-checks orgs we cannot read, and

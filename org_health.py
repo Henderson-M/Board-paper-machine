@@ -93,7 +93,24 @@ def _age_days(ts, today=None):
     return ((today or datetime.date.today()) - d).days
 
 
-def analyse(today=None):
+def in_scope_codes():
+    """Every org the sweep is supposed to cover: has a URL and a real correspondent."""
+    out = set()
+    for f in ("data/trust_urls.json", "data/icb_urls.json"):
+        fp = os.path.join(HERE, f)
+        if not os.path.exists(fp):
+            continue
+        for o in json.load(io.open(fp, encoding="utf-8")):
+            c = o.get("correspondent")
+            if (o.get("schedule_url") or o.get("url")) and c and c != "TBC":
+                out.add(o["ods_code"])
+    return out
+
+
+def analyse(today=None, since=None):
+    """since: ISO timestamp marking the start of this run. Any in-scope org whose
+    last_attempt predates it was NOT CHECKED this run - which matters just as much as
+    a failure, and is invisible unless something looks for it."""
     h = load()
     orgs = list(h["orgs"].values())
     today = today or datetime.date.today()
@@ -111,10 +128,21 @@ def analyse(today=None):
         age = _age_days(r.get("last_success"), today)
         if age is None or age > STALE_DAYS:
             stale.append(r)
+    unchecked = []
+    if since:
+        seen = {r["ods_code"]: r for r in orgs}
+        for code in sorted(in_scope_codes()):
+            r = seen.get(code)
+            if r is None:
+                unchecked.append({"ods_code": code, "last_attempt": None,
+                                  "reason": "never tracked - no outcome has ever been recorded"})
+            elif not r.get("last_attempt") or r["last_attempt"] < since:
+                unchecked.append({"ods_code": code, "last_attempt": r.get("last_attempt"),
+                                  "reason": "in scope but no outcome recorded this run"})
     key = lambda r: (-(r.get("consecutive_failures") or 0), r["ods_code"])
     return {"broken": sorted(broken, key=key), "degraded": sorted(degraded, key=key),
             "stale": sorted(stale, key=lambda r: r["ods_code"]),
-            "muted": muted, "total": len(orgs)}
+            "unchecked": unchecked, "muted": muted, "total": len(orgs)}
 
 
 def _names():
@@ -129,20 +157,20 @@ def _names():
     return out
 
 
-def report(fmt="text", today=None):
-    a = analyse(today)
+def report(fmt="text", today=None, since=None):
+    a = analyse(today, since)
     nm = _names()
     L = []
     add = L.append
     tot = a["total"]
-    hdr = "SCAN HEALTH — %d broken, %d degraded, %d stale (of %d orgs tracked)" % (
-        len(a["broken"]), len(a["degraded"]), len(a["stale"]), tot)
+    hdr = "SCAN HEALTH — %d broken, %d degraded, %d stale, %d not checked (of %d orgs tracked)" % (
+        len(a["broken"]), len(a["degraded"]), len(a["stale"]), len(a.get("unchecked") or []), tot)
     if fmt == "markdown":
         add("## " + hdr); add("")
     else:
         add(hdr); add("=" * len(hdr))
-    if not (a["broken"] or a["degraded"] or a["stale"]):
-        add("Nothing needs attention — every tracked org scanned cleanly.")
+    if not (a["broken"] or a["degraded"] or a["stale"] or a.get("unchecked")):
+        add("Nothing needs attention — every in-scope org was checked and scanned cleanly.")
         return "\n".join(L)
 
     def block(title, rows, why):
@@ -176,6 +204,23 @@ def report(fmt="text", today=None):
           "First or second consecutive failure. Often transient; watch rather than act.")
     block("STALE — no successful scan in %d+ days" % STALE_DAYS, a["stale"],
           "Not necessarily failing, but nothing has been confirmed from them in a long time.")
+    unchecked = a.get("unchecked") or []
+    if unchecked:
+        add("")
+        add(("### NOT CHECKED THIS RUN — %d org(s)" % len(unchecked)) if fmt == "markdown"
+            else "NOT CHECKED THIS RUN — %d org(s)" % len(unchecked))
+        add("In scope but no outcome was recorded. A skipped org is as invisible as a failed one.")
+        add("")
+        if fmt == "markdown":
+            add("| Org | ODS | Correspondent | Last attempted | Why |")
+            add("|---|---|---|---|---|")
+        for r in unchecked:
+            n, corr, url = nm.get(r["ods_code"], (r["ods_code"], "-", ""))
+            la = (r.get("last_attempt") or "never")[:10]
+            if fmt == "markdown":
+                add("| %s | %s | %s | %s | %s |" % (n[:44], r["ods_code"], corr, la, r["reason"]))
+            else:
+                add("  %-7s %-42s %-14s last attempted %s" % (r["ods_code"], n[:42], corr, la))
     if a["muted"]:
         add("")
         add("(%d org(s) muted and not reported)" % len(a["muted"]))
@@ -196,6 +241,8 @@ def main():
     q = sub.add_parser("report")
     q.add_argument("--json", action="store_true")
     q.add_argument("--markdown", action="store_true")
+    q.add_argument("--since", help="ISO timestamp for the start of this run. Any in-scope org "
+                                   "with no outcome recorded since then is reported as NOT CHECKED.")
     m = sub.add_parser("mute")
     m.add_argument("--ods", required=True)
     m.add_argument("--until", required=True, help="YYYY-MM-DD")
@@ -210,10 +257,11 @@ def main():
         save(h)
         print("muted %s until %s" % (a.ods, a.until))
     else:
+        since = getattr(a, "since", None)
         if a.json:
-            print(json.dumps(analyse(), ensure_ascii=False, indent=1))
+            print(json.dumps(analyse(since=since), ensure_ascii=False, indent=1))
         else:
-            sys.stdout.write(report("markdown" if a.markdown else "text") + "\n")
+            sys.stdout.write(report("markdown" if a.markdown else "text", since=since) + "\n")
 
 
 if __name__ == "__main__":

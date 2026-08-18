@@ -1,0 +1,11 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 2 incorrect meeting date(s) - please delete",
+  "body_file": "dry_run_output/20260817f_joe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/joe_20260817f.ics"
+  ],
+  "id": "withdraw5-joe-20260817f"
+ }
+]

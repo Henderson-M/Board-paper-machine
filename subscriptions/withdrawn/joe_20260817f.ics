@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:QUY-2026-09-04@board-paper-machine.hsj
+DTSTAMP:20260817T213000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Bristol, North Somerset and South Gloucestershire ICB - Integrated Care Board (ICB) Board meeting
+DESCRIPTION:Withdrawn by Board paper machine.
+URL:https://bnssghealthiertogether.org.uk/events/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2026-09-16@board-paper-machine.hsj
+DTSTAMP:20260817T213000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Cornwall Partnership NHS Foundation Trust - Annual Members' Meeting (AGM)
+DESCRIPTION:Withdrawn by Board paper machine.
+URL:https://www.cornwallft.nhs.uk/board-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

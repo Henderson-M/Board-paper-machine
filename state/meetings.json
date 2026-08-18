@@ -380,7 +380,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify."
+   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify.",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QOQ:2026-11-18",
@@ -483,7 +484,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RPA:2026-11-04",
@@ -1618,7 +1620,8 @@
     "summary": "2026-08-13T11:20:00Z"
    },
    "notes": " [2026-08-13] Single combined 250pp pack at /wp-content/uploads/YYYY/MM/DD-Month-YYYY--Trust-Board-meeting-in-public.pdf (note the double hyphen). Published ~5 days ahead of the meeting.",
-   "summary_path": "summaries/RXC_2026-08-18.md"
+   "summary_path": "summaries/RXC_2026-08-18.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXC:2026-09-15",
@@ -1637,7 +1640,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXC:2026-10-20",
@@ -1832,7 +1836,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RFS:2026-11-10",
@@ -1934,7 +1939,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RHA:2026-11-19",
@@ -2650,7 +2656,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RTG:2026-11-10",
@@ -2752,7 +2759,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWD:2026-11-03",
@@ -2971,7 +2979,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RX1:2026-11-12",
@@ -3231,7 +3240,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R1A:2026-11-19",
@@ -3562,7 +3572,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RL4:2026-11-17",
@@ -3652,7 +3663,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RLQ:2026-10-01",
@@ -3761,7 +3773,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RLT:2026-10-07",
@@ -3844,7 +3857,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RLY:2026-11-12",
@@ -3973,7 +3987,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RYG:2026-11-17",
@@ -4037,7 +4052,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "TAJ:2026-11-04",
@@ -4135,7 +4151,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJ6:2026-11-11",
@@ -4504,7 +4521,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RCF:2026-11-04",
@@ -4599,7 +4617,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RCU:2026-11-03",
@@ -4784,7 +4803,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RP5:2026-11-03",
@@ -4848,7 +4868,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWY:2026-11-12",
@@ -4936,7 +4957,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RY6:2026-11-19",
@@ -5272,7 +5294,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RDE:2026-11-05",
@@ -5411,7 +5434,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RGM:2026-10-01",
@@ -5759,7 +5783,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RA9:2026-11-05",
@@ -5850,7 +5875,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RH5:2026-11-10",
@@ -5952,7 +5978,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJ8:2026-11-12",
@@ -6728,7 +6755,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RAN:2026-09-24",
@@ -6925,7 +6953,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RRU:2026-12-10",
@@ -7688,7 +7717,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RDU:2026-11-06",
@@ -7752,7 +7782,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RHM:2026-11-12",
@@ -7847,7 +7878,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RHU:2026-09-30",
@@ -8330,7 +8362,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWX:2026-11-10",
@@ -8394,7 +8427,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RM3:2026-11-04",
@@ -8706,7 +8740,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RT2:2026-10-07",
@@ -8924,7 +8959,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXV:2026-11-12",
@@ -9026,7 +9062,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RBL:2026-11-04",
@@ -9824,7 +9861,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QHM:2026-06-16",
@@ -10158,7 +10196,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QUA:2026-11-09",
@@ -10237,7 +10276,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QJ2:2026-11-19",
@@ -10335,7 +10375,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QJM:2026-11-19",
@@ -10433,7 +10474,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QT1:2026-11-19",
@@ -11084,7 +11126,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QRL:2026-11-04",
@@ -11486,7 +11529,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QHL:2026-11-09",
@@ -11787,7 +11831,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "S0E4D:2026-11-18",
@@ -12272,7 +12317,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R0D:2026-11-11",
@@ -12336,7 +12382,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R1F:2026-09-30",
@@ -12533,7 +12580,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RA7:2026-11-10",
@@ -12698,7 +12746,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RAX:2026-11-05",
@@ -12798,7 +12847,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "REF:2026-11-05",
@@ -13570,7 +13620,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RNA:2026-11-18",
@@ -13699,7 +13750,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RQ3:2026-11-05",
@@ -13970,7 +14022,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RVN:2026-11-18",
@@ -14296,7 +14349,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWP:2026-10-13",
@@ -14386,7 +14440,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWV:2026-11-17",
@@ -14490,7 +14545,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RX6:2026-11-19",
@@ -14681,7 +14737,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXK:2026-11-18",
@@ -14784,7 +14841,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXL:2026-10-01",
@@ -15440,7 +15498,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RY5:2026-11-03",
@@ -15652,7 +15711,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RYE:2026-10-07",
@@ -16299,7 +16359,8 @@
     "summary": "2026-08-17T12:00:00Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked). [2026-08-13] No 2026 pack yet; page's most recent board papers are 14 August 2025. LLR/Northants cluster page.",
-   "summary_path": "summaries/QK1_2026-08-20.md"
+   "summary_path": "summaries/QK1_2026-08-20.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QK1:2026-10-15",
@@ -16390,7 +16451,8 @@
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "_previous_source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
-   "summary_path": "summaries/QK1_2026-08-20.md"
+   "summary_path": "summaries/QK1_2026-08-20.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QPM:2026-10-15",
@@ -17101,7 +17163,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RHQ:2026-11-03",
@@ -17359,7 +17422,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked)."
+   "notes": "Detected via Playwright fallback (WebFetch was blocked).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RW4:2026-11-19",
@@ -17639,7 +17703,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via PDF fallback (agenda PDF)."
+   "notes": "Detected via PDF fallback (agenda PDF).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RVJ:2026-11-10",
@@ -17914,7 +17979,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Group C re-extraction (visible_text)."
+   "notes": "Detected via Group C re-extraction (visible_text).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "REN:2026-10-07",
@@ -18462,7 +18528,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Group C re-extraction (pdf_filename)."
+   "notes": "Detected via Group C re-extraction (pdf_filename).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QF7:2026-11-04",
@@ -18683,7 +18750,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected via Group C re-extraction (visible_text)."
+   "notes": "Detected via Group C re-extraction (visible_text).",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RXR:2026-11-11",
@@ -19279,7 +19347,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R1H:2026-11-11",
@@ -19355,7 +19424,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R0B:2026-10-02",
@@ -20251,7 +20321,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RD8:2026-11-05",
@@ -20403,7 +20474,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWG:2026-11-12",
@@ -20468,7 +20540,8 @@
     "summary": null
    },
    "notes": "",
-   "_previous_source_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers"
+   "_previous_source_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RYF:2026-11-05",
@@ -20547,7 +20620,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RGT:2026-12-09",
@@ -20634,7 +20708,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RTE:2026-11-12",
@@ -21432,7 +21507,8 @@
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
     "summary": null
-   }
+   },
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJC:2026-07-01",
@@ -21589,7 +21665,8 @@
     "papers": null,
     "summary": null
    },
-   "_previous_source_url": "https://www.swlstg.nhs.uk/our-board"
+   "_previous_source_url": "https://www.swlstg.nhs.uk/our-board",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RQY:2026-11-12",
@@ -21834,7 +21911,8 @@
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
     "summary": null
-   }
+   },
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "Z9B2Z:2027-01-27",
@@ -22121,7 +22199,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWA:2026-09-10",
@@ -22140,7 +22219,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "R0D:2026-07-15",
@@ -23161,7 +23241,8 @@
     "summary": null
    },
    "notes": null,
-   "_previous_source_url": "https://www.enherts-tr.nhs.uk/about/board/board-meetings/"
+   "_previous_source_url": "https://www.enherts-tr.nhs.uk/about/board/board-meetings/",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RWH:2026-11-11",
@@ -24041,16 +24122,18 @@
    "org_name": "Bristol, North Somerset and South Gloucestershire ICB",
    "source_url": "https://bnssghealthiertogether.org.uk/events/",
    "papers_url": null,
-   "status": "date_found",
+   "status": "retracted",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-07-01T11:48:28Z",
+   "last_checked": "2026-08-17T21:30:00Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T21:30:00Z"
    },
-   "id": "QUY:2026-09-04"
+   "id": "QUY:2026-09-04",
+   "notes": "Retracted 2026-08-17 by rolling re-verification: not on the ICB's canonical board page (nhsglos.nhs.uk), which lists 30 Sep, 25 Nov 2026, 27 Jan, 31 Mar 2027. This date came from the bnssghealthiertogether events page, which notes already flag as unreliable/stale."
   },
   {
    "ods_code": "QUY",
@@ -24290,7 +24373,8 @@
     "papers": null,
     "summary": null
    },
-   "id": "RD1:2026-09-03"
+   "id": "RD1:2026-09-03",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "ods_code": "RD1",
@@ -25147,7 +25231,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RF4:2026-09-03",
@@ -25166,7 +25251,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RPG:2026-09-03",
@@ -25185,7 +25271,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJZ:2026-09-10",
@@ -25223,7 +25310,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QGH:2026-09-16",
@@ -25242,7 +25330,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QOX:2026-09-16",
@@ -25261,7 +25350,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QSL:2026-09-16",
@@ -25280,7 +25370,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QVV:2026-09-16",
@@ -25299,7 +25390,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QWU:2026-09-16",
@@ -25318,7 +25410,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "QUY:2026-09-30",
@@ -26032,7 +26125,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJC:2026-10-07",
@@ -26117,7 +26211,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RFR:2026-11-04",
@@ -26584,7 +26679,8 @@
     "run": "2026-07-20",
     "verified_via": "playwright_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "TAD:2026-11-05",
@@ -26772,7 +26868,8 @@
     "run": "2026-07-20",
     "verified_via": "playwright_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "REM:2026-09-17",
@@ -26795,7 +26892,8 @@
     "run": "2026-07-20",
     "verified_via": "playwright_text",
     "literal_source_verified": true
-   }
+   },
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RV5:2026-07-21",
@@ -26923,7 +27021,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJ7:2026-09-11",
@@ -26942,7 +27041,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RVR:2026-09-11",
@@ -26961,7 +27061,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RPC:2026-09-16",
@@ -26980,7 +27081,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RX9:2026-09-24",
@@ -27560,7 +27662,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RP6:2026-07-30",
@@ -27605,7 +27708,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 2 September 2026, 09:00 - 12:30 Clinical Skills Lab, St Catherine's Health Centre"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 2 September 2026, 09:00 - 12:30 Clinical Skills Lab, St Catherine's Health Centre",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJN:2026-09-03",
@@ -27624,7 +27728,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via pdf; literal evidence: Date and Time of Next Meeting: Date: Thursday 3rd September 2026 Time: 15.00 - 17.00 Venue: Teaching Rooms B&C, LE&D Hub"
+   "notes": "[2026-08-03] detected via pdf; literal evidence: Date and Time of Next Meeting: Date: Thursday 3rd September 2026 Time: 15.00 - 17.00 Venue: Teaching Rooms B&C, LE&D Hub",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RTR:2026-09-03",
@@ -27681,7 +27786,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: Our 2026 Annual Public Meeting will take place on Thursday 3 September 2026 at the School of Nursing and Midwifery Practice at Glenfield Hospital"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: Our 2026 Annual Public Meeting will take place on Thursday 3 September 2026 at the School of Nursing and Midwifery Practice at Glenfield Hospital",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RY6:2026-09-14",
@@ -27700,7 +27806,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: AGM Monday 14 September 2026 9.30-16.00, Thackray Museum of Medicine, 141 Beckett St"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: AGM Monday 14 September 2026 9.30-16.00, Thackray Museum of Medicine, 141 Beckett St",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RHW:2026-09-16",
@@ -27719,7 +27826,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 16 September 2026, 17.30 Annual General Meeting *Details to be confirmed"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 16 September 2026, 17.30 Annual General Meeting *Details to be confirmed",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RJ8:2026-09-16",
@@ -27730,15 +27838,16 @@
    "source_url": "https://www.cornwallft.nhs.uk/board-papers/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-08-03T12:00:00Z",
+   "last_checked": "2026-08-17T21:30:00Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-08-17T21:30:00Z"
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: Our next meeting is planned for: 16 September 2026 (venue to be confirmed)"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: Our next meeting is planned for: 16 September 2026 (venue to be confirmed) | Retracted 2026-08-17 by rolling re-verification: no longer on the trust's board-papers page. The page now lists 10 Sep, 12 Nov 2026, 14 Jan, 11 Mar 2027 plus an ANNUAL MEMBERS' MEETING on 23 Sep 2026 - an AGM, which we exclude. The 16 Sep entry appears to have been that AGM before the trust moved it."
   },
   {
    "id": "RN5:2026-09-16",
@@ -27777,7 +27886,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: 16 September 2026"
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: 16 September 2026",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RPA:2026-09-23",
@@ -28130,7 +28240,8 @@
     "summary": "2026-08-13T11:20:00Z"
    },
    "notes": "Hampshire and Isle of Wight Healthcare FT single board (former Solent R1C + Southern Health RW1) - one pack, one meeting, dedupe alerts to one email per recipient. Papers are extension-less /download_file/view/{uuid}/232 links; use extract_board_html.py. Date recovered on the 2026-08-13 packs-only run.",
-   "summary_path": "summaries/R1C_2026-08-18.md"
+   "summary_path": "summaries/R1C_2026-08-18.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RW1:2026-08-18",
@@ -28156,7 +28267,8 @@
     "summary": "2026-08-13T11:20:00Z"
    },
    "notes": "Hampshire and Isle of Wight Healthcare FT single board (former Solent R1C + Southern Health RW1) - one pack, one meeting, dedupe alerts to one email per recipient. Papers are extension-less /download_file/view/{uuid}/232 links; use extract_board_html.py. Date recovered on the 2026-08-13 packs-only run. [2026-08-13] Alerted via the shared R1C/HIOW email to Mimi (one board, one pack) - deliberately not a second email.",
-   "summary_path": "summaries/R1C_2026-08-18.md"
+   "summary_path": "summaries/R1C_2026-08-18.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RCB:2026-08-19",
@@ -28182,7 +28294,8 @@
     "summary": "2026-08-17T12:00:00Z"
    },
    "notes": "",
-   "summary_path": "summaries/RCB_2026-08-19.md"
+   "summary_path": "summaries/RCB_2026-08-19.md",
+   "last_verified": "2026-08-18T16:24:17Z"
   },
   {
    "id": "RTX:2026-11-10",

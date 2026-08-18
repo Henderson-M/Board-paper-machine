@@ -38,6 +38,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `send_email.py` | Send a SINGLE Gmail SMTP alert (ad-hoc/resend). Reads `GMAIL_USER`/`GMAIL_APP_PASSWORD` from `.env.local`. Handles `.ics` attachments with `text/calendar; method=PUBLISH` so Outlook recognises them. |
 | `fetch_with_playwright.py` | Headless Chromium fetcher with stealth-lite. Used as the fallback when WebFetch hits Cloudflare/UA blocks or JS-rendered pages. `--text` for visible text, `--html` for full DOM, `--download --out FILE` for binary downloads. |
 | `fetch_pdf_text.py` | Download a PDF and extract its text with pypdf. Use when an org publishes board dates inside an annual calendar PDF rather than on a webpage. Try `requests` mode first; pass `--playwright` if the host blocks direct downloads. |
+| `reverify_dates.py` | **Runs Step 5b for you.** `--limit 120` picks the rolling slice (nothing verified in 28 days, oldest first, plus everything due within 21 days regardless), re-checks each against the org's `schedule_url`, writes `last_verified` on what it confirms, updates org health, and prints a CONTRADICTED list. It deliberately does NOT retract or email — retraction owes a withdrawal alert, and that judgement stays with this skill. `--orgs`, `--all`, `--json`, `--no-write` for testing. |
 | `org_health.py` | **Per-org scan health.** `record --ods X --result ok\|fail [--kind K] [--detail "..."]` after each org; `report [--markdown]` at the end. Keeps `state/org_health.json` with consecutive-failure counts, last success, and a broken/degraded/stale classification. This is what makes a persistent failure escalate instead of scrolling past. |
 | `extract_board_html.py` | **Deterministic (no-LLM) cross-check.** Fetches raw HTML (`requests` → Playwright fallback) and reports, verbatim, every date and every document link actually present, plus a table-row pairing (date ↔ its papers link / "unavailable" cell). Use it to catch content the WebFetch summariser silently *dropped* — see the anti-omission cross-check in Step 4 and Step 7. Also recognises **extension-less CMS download-handler links** (`/download-attachment/NNNN`, `/download_file/…`, `/seecmsfile/?id=…`) that have no `.pdf` suffix, and recovers **year-headed date lists** ("board dates 2026: 5 August, 7 October, 2 December") — those come back with `year_inferred: true`, so still run the literal day/month check before recording them. `--html-file FILE` parses HTML you already fetched (e.g. a Playwright `--html` dump) so no page is fetched twice; `--pretty` indents the JSON. |
 
@@ -237,7 +238,15 @@ For each detected meeting:
 
 **Detecting a date correctly once is not enough — this step re-checks dates we recorded on earlier runs.** Every guard in Step 4 only ever fires at the moment a date is first detected. A date that was wrong when it went in stays wrong forever, keeps being emailed out, and sits in a correspondent's calendar until a human happens to notice. On 2026-08-17 a full audit found **76 such dates across 33 orgs, 56 of them already emailed** — some recorded as far back as June, several at orgs whose `notes` already described the exact fabrication.
 
-On every full run, re-verify a **rolling slice** of the future-dated meetings already in state:
+On every full run, run the script — do not do this by hand:
+
+```bash
+python reverify_dates.py --limit 120 --json c:/tmp/bpm_reverify.json
+```
+
+It picks the slice, fetches, checks and writes `last_verified` itself. **Your job is only to act on what it prints as CONTRADICTED** — retract those meetings, and where `alerted=True` and the date is still future, they owe a withdrawal alert under Step 8b. The script never retracts or emails on its own, because a retraction has a human cost and needs this skill's judgement.
+
+What it does, for reference:
 
 1. **Choose the slice.** All future-dated meetings whose `last_verified` is absent or older than **28 days**, capped at ~120 meetings per run so the sweep stays affordable. Oldest `last_verified` first. Always include every meeting dated in the **next 21 days** regardless of when it was last verified — those are the ones people are about to act on.
 2. **Fetch the org's date-scan URL** (`schedule_url` if set, else `url`), Playwright `--html` preferred so collapsed accordions and tab panels are included.
@@ -561,6 +570,15 @@ There are two audiences and they need different things. **Correspondents** get d
 3. Otherwise **ask the user** — do not guess
 
 Then look the name up in `operators` in the same file. **`Dave` is currently `null` — his address has not been confirmed.** If the operator resolves to a name with no address, say so plainly in the chat summary and ask for it once; do not invent one, and do not silently skip the run report. Everything else about the sweep proceeds normally — a missing operator address blocks only the report email, never the correspondent alerts.
+
+Capture a `RUN_START` ISO timestamp at the beginning of the sweep and pass it to the health report so orgs that were **never attempted** are caught, not just those that failed:
+
+```bash
+python org_health.py report --since "$RUN_START"              # chat
+python org_health.py report --since "$RUN_START" --markdown   # operator email
+```
+
+An org that was silently skipped is exactly as invisible as one that failed, and before this existed neither showed up anywhere.
 
 **A. Always print in chat**, terse:
 
