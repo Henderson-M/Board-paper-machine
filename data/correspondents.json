@@ -33,7 +33,7 @@
   "_operators_notes": "People who RUN the sweep, as opposed to correspondents who receive alerts for their patch. Step 13B emails the run report (including the scan-health block) to whoever ran it. Resolve from --operator, else `git config user.email`, else ASK - never guess an address. A git identity that is not listed here must be confirmed with the user before a live send.",
   "operators": {
     "Henry": "henry.anderson@hsj.co.uk",
-    "Dave": null
+    "Dave": "dave.west@hsj.co.uk"
   },
   "_operator_git_identities": {
     "henry.anderson@hsj.co.uk": "Henry",
