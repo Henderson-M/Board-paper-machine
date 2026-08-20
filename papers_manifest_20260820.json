@@ -1,0 +1,11 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS - 2nd pass] Dorset Board in Common - 11 August 2026 - 8 new items you have not had",
+  "body_file": "dry_run_output/20260820_joe_papers_RDY.md",
+  "attach": [
+   "summaries/RDY_2026-08-11.md"
+  ],
+  "id": "papers2-RDY-joe-20260820"
+ }
+]

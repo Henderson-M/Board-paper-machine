@@ -1,3 +1,107 @@
+## 2026-08-20 - packs-only run: 1 second-pass alert, 1 bad date withdrawn, and a hole found in the date audit
+
+Henry asked for a run. Packs-only with live emails, because the last full sweep was three days
+earlier on 17 August. Two emails went out, both delivered.
+
+**No new packs at the five meetings in the window (18-30 Aug).** Greater Manchester ICB, Isle of
+Wight, Portsmouth, Surrey and Sussex, and East Midlands Ambulance were all checked twice - once
+with WebFetch, once with the deterministic extractor - and they agree. Three of them say in
+writing when the papers will appear: Portsmouth's page says the August papers are due to be
+published on 20 August (the day of this run), Isle of Wight publishes on the Friday before the
+meeting, and EMAS at least three working days before. So the 26 and 27 August packs should all
+land in the next few days and will be picked up on the next run.
+
+**Greater Manchester ICB 25 August was never a real meeting, and Nick has been told.** It was
+alerted to him on 24 June. It is not on the ICB's meetings page anywhere. The page does publish a
+forward board schedule - 15 July, then 27 October, 18 November, 18 January, 17 February, 17 March -
+so this is a clear error rather than a page we simply cannot read. The only Greater Manchester
+entries in late August are the Strategic Commissioning Committee on 5 August and the People and
+Resources Committee on 26 August, neither of which is the board. Most likely one of those
+committee dates was mistaken for a board date. Retracted, and a withdrawal email with a
+cancellation calendar file went to Nick.
+
+**The date audit has a blind spot, and it is the reason nobody caught this sooner.**
+`reverify_dates.py` was run against Greater Manchester and reported the 25 August date as
+"unverifiable" - meaning "the page publishes no forward schedule, so we cannot say" - which is
+treated as *not an error*. That is wrong: the page plainly does publish a forward schedule.
+
+The cause is a mismatch between two functions in the script. `find_date()`, which checks whether
+our date is on the page, handles numeric dates like `18/11/2026` and confirmed four other
+Greater Manchester dates that way. But `page_future_dates()`, which decides whether the page
+publishes any forward schedule at all, only matches **named-month** formats such as
+`18 November 2026`. Greater Manchester writes its dates as `Date: 18/11/2026` and nothing else, so
+that function returned an empty list, and the classifier fell through to "unverifiable".
+
+The effect is that **at any org whose schedule page uses numeric dates only, the audit can never
+report a contradiction.** It fails silently and in the reassuring direction. This was found by
+hand this run; it was not the script that caught it. Not fixed yet - deliberately, because
+changing the classifier could turn a batch of currently-"unverifiable" dates into retractions,
+and every retraction owes somebody a withdrawal email. That needs to be done deliberately, with
+the results checked, not as a side effect of a packs run.
+
+**Dorset: the same pack came round twice, and the first read of it was thin.** The papers
+watchlist flagged an August 2026 "Board in Common" pack on Dorset HealthCare's website. It turned
+out to be the identical file - byte for byte, 384 pages - already analysed and emailed to Joe on
+10 August, found then via Dorset County Hospital's site. The two trusts hold one Board in Common
+and each publishes the pack on its own website.
+
+It was nearly sent again as new. The check that caught it was looking at the *partner* trust's
+records: there is no `summaries/RDY_*` file, but there is a `summaries/RBD_2026-08-11.md`. Worth
+remembering - for joint boards, check both organisations before treating a pack as new.
+
+But the 10 August analysis was heavily weighted to the Dorset County papers and under-read the
+Dorset HealthCare ones. A second pass found eight things it had missed, four of them strong:
+- Dorset HealthCare is forecasting a **£7.2m year-end deficit against a planned £0.5m surplus**
+- the Finance and Performance Committee's assurance report to the same board says the trust
+  "remains on plan at Quarter 1, reporting a surplus in line with forecast" and never mentions
+  that forecast
+- **Sir Jim Mackey and Penny Dash wrote to the trust on 26 June** about Dorset County's Q1
+  performance; the letter is unpublished and so is the trust's response
+- Dorset HealthCare is owed **£11.4m of debt over 90 days old, 99.7% of it by Dorset County** -
+  its own partner in the Board in Common
+
+Joe was sent a clearly-labelled second-pass email listing only what was new, with the two repeats
+marked as already sent. The 10 August alert stands and was not re-sent.
+
+**Watchlist: 23 orgs polled, all 23 baselined.** 271 documents recorded. Fourteen of them had an
+empty `known_files`, which is the condition that caused the 3 August near-miss, so every one was
+checked against existing summaries and state before anything was treated as new. Six orgs -
+Lancashire Teaching, North West Ambulance, King's College, Lancashire and South Cumbria, Christie,
+Homerton - surfaced packs that only looked new because of the empty baseline. None were re-alerted.
+
+**Ten orgs returned no documents at all and are now flagged.** This is a real gap, not a quiet
+one. Two of them are Henry's own patch: Rotherham Doncaster and South Humber, and South West
+Yorkshire. Both pages load perfectly - checked by hand, HTTP 200, 46KB and 473KB of content. The
+problem is ours: RDaSH lists each pack as a *landing page* (`/documents/board-of-directors-packs-
+july-2026/`) rather than a direct PDF link, and `extract_board_html.py` only recognises direct
+PDFs and a few known download handlers. It sees nothing.
+
+Their most recent packs (30 July and 28 July) were both caught and alerted at the time, so nothing
+has been missed yet. But both orgs are on the watchlist precisely because we have no confirmed
+future date for them, which means the watchlist poll is the only thing watching them - and at
+these two it is blind. The next pack would go unnoticed. Needs a two-hop follow for this CMS
+pattern, the same shape already handled for CUH.
+
+Also newly flagged: Cheshire and Merseyside ICB, Guy's and St Thomas', Salisbury, Royal
+Orthopaedic, South Tees, North Tees, Central East ICB. Alder Hey and Cheshire and Wirral remain
+broken, now five runs each.
+
+**One more date we do not hold.** While checking Greater Manchester, its page showed a board
+meeting on **27 October 2026** that is not in our records, so Nick has never been alerted to it.
+It was mentioned to him in the withdrawal email as a heads-up, but deliberately not added to
+state: adding it silently would mean it never triggers a proper date alert, because the next run
+would see it as already known rather than new. Leaving it out means the next full sweep detects it
+as new and sends it properly, with a calendar file.
+
+**Still pending**
+- Fix `page_future_dates()` in `reverify_dates.py` to read numeric dates, then re-run the audit
+  deliberately and work through whatever new contradictions it produces.
+- Teach `extract_board_html.py` the document-landing-page pattern (RDaSH, South West Yorkshire).
+- Re-check Portsmouth, Isle of Wight, Surrey and Sussex and EMAS in the next couple of days -
+  all four should have their packs up by then.
+- Both Dorset trusts' 2025-26 annual reports and accounts were laid before Parliament in July and
+  are on their websites. Nobody has read them.
+
 ## 2026-08-17 (follow-up 5) - both failsafes made mechanical; Dave's address set; 2 more bad dates caught
 
 Henry set two requirements: a regular refresh built INTO the tool, and whoever runs it (him or Dave)

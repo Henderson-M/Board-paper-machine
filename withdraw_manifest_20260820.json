@@ -1,0 +1,11 @@
+[
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date - please delete from your calendar",
+  "body_file": "dry_run_output/20260820_nick_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/nick_20260820.ics"
+  ],
+  "id": "withdraw-QOP-nick-20260820"
+ }
+]

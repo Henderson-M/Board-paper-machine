@@ -1,0 +1,16 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS - 2nd pass] Dorset Board in Common - 11 August 2026 - 8 new items you have not had",
+  "id": "papers2-RDY-joe-20260820",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 1 incorrect meeting date - please delete from your calendar",
+  "id": "withdraw-QOP-nick-20260820",
+  "ok": true,
+  "err": ""
+ }
+]

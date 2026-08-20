@@ -18,7 +18,7 @@
   {
    "ods_code": "QYG",
    "papers_url": "https://www.cheshireandmerseyside.nhs.uk/get-involved/meeting-and-event-archive/nhs-cheshire-and-merseyside-integrated-care-board/2026/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.cheshireandmerseyside.nhs.uk/media/xtgbnr22/cm-icb-board-meeting-pack-28-may-2026-public-v1.pdf",
@@ -71,7 +71,7 @@
   {
    "ods_code": "RP6",
    "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",
@@ -99,7 +99,7 @@
   {
    "ods_code": "RR7",
    "papers_url": "https://www.gatesheadhealth.nhs.uk/news/resources_type/board-papers/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026-v2.pdf",
@@ -117,7 +117,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -380,7 +380,7 @@
   {
    "ods_code": "RXA",
    "papers_url": "https://www.cwp.nhs.uk/about-us/our-board-and-governors/our-board",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.cwp.nhs.uk/application/files/8417/7944/0775/PUBLIC_BoD_Agenda_Pack_Final_27_05_2026.pdf",
@@ -408,7 +408,7 @@
   {
    "ods_code": "RXE",
    "papers_url": "https://www.rdash.nhs.uk/document-sections/board-of-directors/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-30.07.2026-Agenda-Pack-A.pdf",
@@ -431,7 +431,7 @@
   {
    "ods_code": "RXG",
    "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.southwestyorkshire.nhs.uk/wp-content/uploads/2026/07/Public-agenda-and-Papers-TB-28.07.26-v2.pdf",
@@ -1764,7 +1764,7 @@
   {
    "ods_code": "S1Y5D",
    "papers_url": "https://www.centraleast.icb.nhs.uk/about/board/icb-board-meet-dates-and-papers/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.centraleast.icb.nhs.uk/wp-content/uploads/2026/06/CEICB-Board-in-Public-26.06.26.pdf",
@@ -1787,7 +1787,7 @@
   {
    "ods_code": "RBS",
    "papers_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [
     {
      "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-27th-june-2023/",
@@ -2380,98 +2380,1463 @@
   {
    "ods_code": "RNZ",
    "papers_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
-   "last_checked": "2026-08-17T12:00:00Z",
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [],
    "notes": "[2026-08-17] Added after all four fabricated 2027 dates were retracted. Page publishes a single '2026' heading (8 Jan, 5 Mar, 13 May, 15 Jun) - all past. No forward schedule published."
   },
   {
    "ods_code": "RX8",
    "papers_url": "https://www.yas.nhs.uk/about-us/the-trust-board/",
-   "last_checked": "2026-08-17T12:00:00Z",
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.yas.nhs.uk/media/5520/board-of-directors-v13-011225.pdf",
+     "title": "Corporate Governance Guide: The Board of Directors",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.yas.nhs.uk/media/5754/2026-27-register-of-interests-board-of-directors-v3-final-for-annual-report-17062026.pdf",
+     "title": "2026-27 Declaration of Interests",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Added after all four fabricated 2026-27 dates were retracted. Page publishes 'Board Meeting Dates 2025-26' only (last entry 26 Mar 2026). No 2026-27 schedule published."
   },
   {
    "ods_code": "RQX",
    "papers_url": "https://www.homerton.nhs.uk/board-papers/",
-   "last_checked": "2026-08-17T16:00:00Z",
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.homerton.nhs.uk/download/papers-january-2026.pdf?ver=47050&amp;doc=docm93jijm4n19127.pdf",
+     "title": "January",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/march-2026.pdf?ver=47755&amp;doc=docm93jijm4n19348.pdf",
+     "title": "March",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/may-2026-paperspdf.pdf?ver=48511&amp;doc=docm93jijm4n19654.pdf",
+     "title": "May",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/public-board-pack-final-22-july-2026pdf.pdf?ver=49357&amp;doc=docm93jijm4n20019.pdf",
+     "title": "July",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/papers-january-2025pdf.pdf?ver=42666&amp;doc=docm93jijm4n17357.pdf",
+     "title": "January",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/march-2025pdf.pdf?ver=43453&amp;doc=docm93jijm4n17676.pdf",
+     "title": "March",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/may-2025pdf.pdf?ver=44047&amp;doc=docm93jijm4n17896.pdf",
+     "title": "May",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/july-2025.pdf?ver=44944&amp;doc=docm93jijm4n18225.pdf",
+     "title": "July",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/september-2025.pdf?ver=45535&amp;doc=docm93jijm4n18474.pdf",
+     "title": "September",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/november-2025.pdf?ver=46299&amp;doc=docm93jijm4n18816.pdf",
+     "title": "November",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/doc/docm93jijm4n15218.pdf?amp;ver=35749",
+     "title": "January 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/doc/docm93jijm4n15535.pdf?amp;ver=36985",
+     "title": "March 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/july-paperspdf.pdf?ver=39112&amp;doc=docm93jijm4n16223.pdf",
+     "title": "July 2024&nbsp;",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/sept-2024pdf.pdf?ver=39903&amp;doc=docm93jijm4n16502.pdf",
+     "title": "Sept 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/papers-november-2024pdf.pdf?ver=41818&amp;doc=docm93jijm4n17051.pdf",
+     "title": "November 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Added after all five future dates were retracted. Publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. known_files deliberately empty - baseline on first poll and do NOT alert on that first pass."
   },
   {
    "ods_code": "RJZ",
    "papers_url": "https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-704.1-bod-agenda-and-papers-dec-08-2022.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-686.1-bod-agenda-and-papers-dec-09-2021.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-676.3-bod-agenda-and-papers-jun-10-2021.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-694.1-bod-agenda-and-papers-jun-16-2022.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-689.6-bod-agenda-and-papers-mar-10-2022.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-674.3-bod-agenda-and-papers-mar-11-2021.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-703.1-bod-agenda-and-papers-sep-29-2022.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-682.1-bod-agenda-and-papers-sept-09-2021.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/03/Board-of-Directors-Bundle-9-March-2023.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/05/11052023-BOD-Full-Pack-compressed.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/07/Board-of-Directors-Public-13-July-2023-FINAL.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/09/Board-of-Directors-Bundle-28-September-2023-FINAL.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/11/Board-of-Directors-Bundle-9-November-2023-FINAL-2.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/03/Board-of-Directors-Bundle-14-March-2024-FINAL.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/05/KCH-Board-Papers-May-9th-2024.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/07/KCH-Board-Papers-July-11th-2024-v2.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/09/KCH-PUBLIC-Board-Papers-3-October-2024-2.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/KCH-Board-of-Directors-Meeting-Public-5-December-2024_FINAL.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-672.1-bod-agenda-and-papers-dec-10-2020.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-663.3-bod-agenda-and-papers-sep-10-2020.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-661.1-bod-agenda-and-papers-jun-18-2020.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-659.1-bod-agenda-and-papers-mar-12-2020.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-655.2-bod-agenda-and-papers-dec-12-2019.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-653.1-bod-agenda-and-papers-oct-17-2019.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/03/13032025-Board-of-Directors-meeting-pack.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/01/Kings-College-Hospital-NHS-FT-Public-Board-Meeting-pack-16-January-2025-v2.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/05/Kings-College-Hospital-Board-meeting-pack-PUBLIC-8-May-2025.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/07/Kings-College-Hospital-NHS-FT-Board-of-Directors-PUBLIC-meeting-pack-17-July-2025-1.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/09/11-September-2025-Public-Board-Bundle.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/11/KCH-Public-Board-of-Directors-meeting-13-November-2025-v3.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/01/KCH-Board-of-Directors-Meeting-pack-15-January-2026.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/03/KCH-PUBLIC-Board-meeting-pack-12-March-2026-new.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/05/KCH-PUBLIC-Board-meeting-pack-14-May-2026-v3.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/07/KCH-Public-Board-pack-15-July-2026-v2.pdf",
+     "title": "Download",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] King's College Hospital - publishes no forward calendar; packs appear only retrospectively. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RQW",
    "papers_url": "https://www.pah.nhs.uk/about/board/board-papers/",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2026/06/TB1.04.06.26-papers-final-v1.pdf",
+     "title": "Trust Board papers – 4 June 2026 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2026/04/TB1.02.04.26-Papers-v2-Final.pdf",
+     "title": "Trust Board papers – 2 April 2026 V2 (10MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2026/02/TB1.05.02.26-papers-final-v2.pdf",
+     "title": "Trust Board papers – 5 February 2026 V2 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/12/TB1.11.12.25-papers-final-v2.pdf",
+     "title": "Trust Board papers – 11 December 2025 V2 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/10/TB1.02.10.25-papers-final-v3.pdf",
+     "title": "Trust Board papers – 2 October 2025 V3 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.06.25-papers-final-v3.pdf",
+     "title": "Trust Board papers – 5 June 2025 V3 (7MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.03.04.25-papers-final-v3-1.pdf",
+     "title": "Trust board papers – 3 April 2025 V3 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.03.04.25-papers-final-v3.pdf",
+     "title": "Trust board papers – 6 February 2025 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.12.24-papers-final-v2.pdf",
+     "title": "Trust board papers – 5 December 2024 V2 (7MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.03.10.24-papers-final-v3-2.pdf",
+     "title": "Trust board papers – 3 October 2024 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.06.06.24-Papers-Final-v1.pdf",
+     "title": "Trust Board Papers – 6 June 2024 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.04.04.24-Papers-v2.pdf",
+     "title": "Trust Board Papers – 4 April 2024 (7MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.01.02.24-papers-final-v2.pdf",
+     "title": "Trust Board Papers – 1 February 2024 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-Board-Papers-7-December-2023.pdf",
+     "title": "Trust Board Papers – 7 December 2023 (6MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.10.23-papers-final-v3.pdf",
+     "title": "Trust Board Papers 5 October 2023 V3 (10MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.10.23-papers-final-v3-1.pdf",
+     "title": "Trust board papers – 14 September 2023 (10MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.08.06.23-papers-final-v2-2.pdf",
+     "title": "Trust board papers – 8 June 2023 (5MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-papers-6-April-2023-v2.pdf",
+     "title": "Trust board papers – 6 April 2023 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.02.02.23-papers-final-v3_revised-post-meeting.pdf",
+     "title": "Trust board papers – February 2023 (14MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-papers-December-2022.pdf",
+     "title": "Trust board papers – December 2022 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.06.10.22-papers-final-v2.pdf",
+     "title": "Trust board papers – October 2022 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.04.08.22-papers-final-v2.pdf",
+     "title": "Trust board papers – August 2022 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.09.06.22-papers-final-v3.pdf",
+     "title": "Trust board papers – June 2022 (13MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-7-April-2022-v2.pdf",
+     "title": "Trust board papers – April 2022 (20MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.03.02.22-papers-final-v2.pdf",
+     "title": "Trust board papers – February 2022 (12MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.02.12.21-Papers-v2-1.pdf",
+     "title": "Trust board papers – December 2021 (17MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1-07.10.21-Papers-Final.pdf",
+     "title": "Trust board papers – October 2021 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.08.21-papers-final-v1.pdf",
+     "title": "Trust board papers – August 2021 (15MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.11.06.21-papers-final-v2.pdf",
+     "title": "Trust board papers – June 2021 (16MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.01.04.21-papers-final-v1.pdf",
+     "title": "Trust board papers – April 2021 (13MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.04.02.21-papers-final-v1.pdf",
+     "title": "Trust board papers – February 2021 (10MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-papers-November-2020.pdf",
+     "title": "Trust board papers – December 2020 (13MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.01.10.20-papers-final-v1.pdf",
+     "title": "Trust board papers – October 2020 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.06.08.20-papers-final-v2.pdf",
+     "title": "Trust board papers – August 2020 (7MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-papers-June-2020-v2.pdf",
+     "title": "Trust board papers – June 2020 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Trust-board-papers-April-2020.pdf",
+     "title": "Trust board papers – April 2020 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/Public-board-papers-February-2020.pdf",
+     "title": "Trust board papers – February 2020 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.05.12.19-papers-final-v3.pdf",
+     "title": "Trust board papers – December 2019 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.03.10.19-papers-final-v3.pdf",
+     "title": "Trust board papers – October 2019 (15MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.01.08.19-v3-1.pdf",
+     "title": "Trust board papers – August 2019 (9MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.06.06.19-papers-final-v2-2.pdf",
+     "title": "Trust board papers – June 2019 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.04.04.19-papers-final-v2.pdf",
+     "title": "Trust board papers – April 2019 (10MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.07.02.19-papers-final-v1-1.pdf",
+     "title": "Trust board papers – February 2019 (11MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.06.12.18-papers-final-v1.pdf",
+     "title": "Trust board papers – December 2018 (12MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.04.10.18-papers-final-v3-1.pdf",
+     "title": "Trust board papers – October 2018 (14MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.02.08.18-papers-final-v3-1-209.pdf",
+     "title": "Trust board papers – August 2018 (5MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.pah.nhs.uk/wp-content/uploads/2025/06/TB1.07.06.18-papers-final-v2.pdf",
+     "title": "Trust board papers – June 2018 (8MB pdf)",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Princess Alexandra - board-papers page lists past papers only; bi-monthly, no schedule published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RBV",
    "papers_url": "https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.christie.nhs.uk/media/nbxh0s24/christie-public-board-papers-25062026.pdf",
+     "title": "view the papers for the Thursday 25 June 2026 meeting now",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/uyhn0nym/public-board-papers-260326.pdf",
+     "title": "26 March 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/hxmn04ud/public-board-of-directors-papers-29012026.pdf",
+     "title": "29 January 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/ut4kvcpc/trust-report-dec-25.pdf",
+     "title": "Trust board report for December 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/1ywfbjxt/public-board-of-directors-papers-271125.pdf",
+     "title": "27 November 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/yz5forsv/public-board-of-directors-papers-231025.pdf",
+     "title": "23 October 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/duvdjp42/public-board-of-directors-papers-250925.pdf",
+     "title": "25 September 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/4orp5x5p/trust-report-june-2025.pdf",
+     "title": "Trust board report for July 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/ao0kxvt5/public-board-papers-260625.pdf",
+     "title": "26 June 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/iy2nex02/trust-report-april-2025-v2.pdf",
+     "title": "Trust board report for May 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/b05hkaxa/public-christie-board-papers-240425.pdf",
+     "title": "24 April 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/z50lgb2n/public-board-papers-270325.pdf",
+     "title": "27 March 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/e1gjl0k5/public-board-of-directors-30012025.pdf",
+     "title": "30 January 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/oo2lgznd/trust-report-dec-2024.pdf",
+     "title": "Trust board report for December 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/5fxhqsqn/public-board-of-directors-papers-281124.pdf",
+     "title": "28 November 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/pepd1rl3/public-board-of-directors-papers-311024.pdf",
+     "title": "31 October 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/smgdza1r/public-board-of-directors-agenda-papers-26092024.pdf",
+     "title": "26 September 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/oy0cqora/trust-report-july-2024.pdf",
+     "title": "Trust board report for July 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/2rpht5lf/public-board-of-directors-agenda-papers-27062024.pdf",
+     "title": "27 June 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/qi2jsxwl/trust-report-may-2024.pdf",
+     "title": "Trust board report for May 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/mgwjwex1/public-board-of-directors-papers-250424.pdf",
+     "title": "25 April 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/ohxizizx/public-board-of-directors-papers-28032024-copy_redacted.pdf",
+     "title": "28 March 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/crkj1ttm/public-board-of-directors-papers-250124.pdf",
+     "title": "25 January 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/t0vfesid/public-board-of-directors-papers-301123.pdf",
+     "title": "30 November 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/u3snbbjq/public-board-of-directors-papers-261023.pdf",
+     "title": "26 October 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/3azplj5c/public-bod-papers-280923.pdf",
+     "title": "28 September 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/imrda1an/public-board-papers-290623.pdf",
+     "title": "29 June 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/0gkphpy0/public-board-of-directors-250523.pdf",
+     "title": "25 May 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/r33dcgbb/public-board-of-directors-papers-27423.pdf",
+     "title": "27 April 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/qmhd0ybu/public-board-of-directors-papers-300323.pdf",
+     "title": "30 March 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.christie.nhs.uk/media/suzlhkum/foi-q005-board-minutes-2021.pdf",
+     "title": "January, March, April, May, June, September, October and November 2021",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] The Christie - past dates only; autumn 2026 schedule not yet published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RN3",
    "papers_url": "https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.gwh.nhs.uk/media/2kjjakla/150126-trust-board-agenda-papers.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/bl4psc5u/public-only-trust-board-agenda-papers-20260312.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/qjrdl3vb/public-only-trust-board-agenda-papers-20260409.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/ub2f34jh/public-only-trust-board-agenda-papers-20260611.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/mx4pmyxe/jan-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/f15px05s/feb-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/qytlyv1g/mar-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/5kclsmh1/may-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/x3zh4ldm/july-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/qy5hmlq5/sep-2025.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/v0lhtlf5/jan-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/q0wjio0n/feb-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/0ytneigb/mar-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/0h2jtwa5/may-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/eaqp0wzw/jun-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/kavbuqj5/jul-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/bsnps4ke/aug-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/tdmofsis/sep-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/1tdjy5mj/nov-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/rymdv3hf/dec-2024.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/svkfatam/jan-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/lijbrdfz/feb-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/x5dl0boh/mar-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/zpwhj3yj/may-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/vnidzfvk/jun-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/p4xbqugk/aug-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/uq5jx5c0/sep-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/131d0drg/nov-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/yqfjbous/dec-2023.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/zbzj0vl2/jan-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/mg1pdgef/feb-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/kj5nk3yp/mar-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/lyocwxew/apr-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/434ptjl0/may-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/qbbpgji1/jul-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/sjga3uop/aug-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/imjjpu3c/oct-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/srddvktf/nov-2022.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/3aknwko4/jan-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/fightzqa/feb-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/14vnje0v/mar-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/xrhne2zx/apr-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/szhpk1tm/may-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/i2hk0hvr/jun-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/ahadfwke/jul-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/1fapqa4k/aug-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/rbqjugkr/sep-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/55bjmgyw/oct-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/ohmnvo5w/nov-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/2ekldelz/dec-2021.pdf",
+     "title": "Adobe PDF",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/5zloeaxw/20260702-bsw-hospitals-group-board-public-agenda-papers-v2.pdf",
+     "title": "Agenda and papers",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.gwh.nhs.uk/media/hyyojcss/20260702-bsw-hospitals-group-board-public-reading-room.pdf",
+     "title": "Reading room",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Great Western - no forward schedule on the board-meetings page. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RDY",
    "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": null,
-   "known_files": [],
-   "notes": "[2026-08-17] Dorset Healthcare - Board in Common with RBD; H2 2026 dates not yet published. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/fd19add4-21ae-4e29-8b51-d7838cce701b/282",
+     "title": "the structure and responsibilities of the&nbsp;Board",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e416c400-6e80-4cc1-b36f-8c64b5b9a755/282",
+     "title": "Trust Board - Board in Common agenda and papers, August 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/1c266e7d-6f7d-4e8f-a453-4235e8b6fe63/282",
+     "title": "Trust Board - Board in Common agenda and papers, June 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/220fa9ab-01e0-43d6-b9ca-17547b32ed75/282",
+     "title": "Trust Board - Board in Common agenda and papers, April 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/f485351b-0dae-472f-9e09-7b8fb39cb1ae/282",
+     "title": "Trust Board - Board in Common agenda and papers, February 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/33090eb0-c031-4a94-96ee-c63a97815d52/282",
+     "title": "Trust Board - Board in Common December 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/d99a0933-b2b1-4566-b914-dc72ac437d8f/282",
+     "title": "Trust Board - Board in Common - Paper Pack October 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e810bd9b-9c1a-417a-ae03-a6ca1578e52c/282",
+     "title": "Trust Board - agendas and papers August 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
+     "title": "Trust Board - agendas and papers June 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9017/4963/4140/DHC_April_Part_1_Board_of_Directors_Final_Paper_Pack.pdf",
+     "title": "Trust Board - agendas and papers April 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/5517/4963/4140/DHC_Board_of_Directors_February_2025_Part_1_Boardbook.pdf",
+     "title": "Trust Board - agendas and papers February 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/8517/4963/3967/DHC_Board_of_Directors_-_Agenda_and_Papers_-_Part_1_-_11_December_2024.pdf",
+     "title": "Trust Board - agendas and papers December 2024&nbsp;",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4317/4963/3985/Trust_board_agenda_and_papers_-_October_2024.pdf",
+     "title": "Trust Board - agendas and papers October 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1917/4963/3967/Combined_Agenda_and_Papers_Board_070824_website_ver_2.pdf",
+     "title": "Trust Board - agendas and papers August 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4817/4963/3967/Board_Papers_05_June_2024.pdf",
+     "title": "Trust Board - agendas and papers June 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1617/4963/3966/Board_of_Directors_Papers_-_3_April_2024.pdf",
+     "title": "Trust Board - agendas and papers April 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9217/4963/3985/Trust_Board_Agenda_and_Papers_February_2024.pdf",
+     "title": "Trust Board - agendas and papers February 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.england.nhs.uk/wp-content/uploads/2023/03/PRN00191-nhs-provider-licence-v4.pdf",
+     "title": "Read the full licence, with all conditions",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
+   "notes": "[2026-08-20] Baselined. The August 2026 'Board in Common agenda and papers' pack was found here and analysed (meeting 11 Aug 2026); RDY now has a dated meeting in state."
   },
   {
    "ods_code": "RW5",
    "papers_url": "https://www.lscft.nhs.uk/about-us/board/board-papers",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3486/1439",
+     "title": "Public Board of Directors Meeting Papers - 05.02.26.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3544/1439",
+     "title": "Board of Directors Public Meeting Pack - 05 03 2026.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3575/1439",
+     "title": "Board of Directors Public Meeting Papers - 02.04.2026.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3619/1439",
+     "title": "Board of Directors Public Board Meeting Papers - 07.05.2026.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3764/1439",
+     "title": "Board of Directors Meeting Papers - 04.06.2026.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3769/1439",
+     "title": "Board of Directors Meeting Papers - 02.07.2026.pdf",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3411/1439",
+     "title": "Board of Directors Public Meeting Pack - 04.12.25",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3365/1439",
+     "title": "Board of Directors Public Meeting Pack - 06.11.25",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3247/1439",
+     "title": "Board of Directors Public Meeting Pack - 02.10.25",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3149/1439",
+     "title": "Board of Directors Public Meeting Pack - 04.09.25",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/3061/1439",
+     "title": "Board of Directors Public Meeting Pack - 03.07.25",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1135/1439",
+     "title": "Board of Directors Public Meeting Pack - 26.01.23",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1163/1439",
+     "title": "Board of Directors Public Meeting Pack - 23.02.23",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1244/1439",
+     "title": "Board of Directors Public Meeting Pack - 30.03.23",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1479/1439",
+     "title": "Board of Directors Public Meeting Pack - 04.05.23",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1820/1439",
+     "title": "Board of Directors Public Meeting Pack - 05.10.23",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/2683/1439",
+     "title": "Board of Directors Public Meeting Pack - 05.12.24",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/2594/1439",
+     "title": "Board of Directors Public Meeting Pack - 07.11.24",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/2435/1439",
+     "title": "Board of Directors Public Meeting Pack - 03.10.24",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/2360/1439",
+     "title": "Board of Directors Public Meeting Pack - 05.09.24",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/2704/1439",
+     "title": "Board of Directors Public Meeting Pack - 09.07.24",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/1013/1439",
+     "title": "Board of Directors Public Meeting Pack - 24.11.22",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/863/1439",
+     "title": "Board of Directors Public Meeting Pack - 29.09.22",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/765/1439",
+     "title": "Board of Directors Public Meeting Pack - 28.07.22",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/708/1439",
+     "title": "Board of Directors Public Meeting Pack - 26.05.22",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/706/1439",
+     "title": "Board of Directors Public Meeting Pack - 31.03.22",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/670/1439",
+     "title": "Board of Directors Public Meeting Pack - 25.11.21",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/671/1439",
+     "title": "Board of Directors Public Meeting Pack - 30.09.21",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/672/1439",
+     "title": "Board of Directors Public Meeting Pack - 29.07.21",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/673/1439",
+     "title": "Board of Directors Public Meeting Pack - 27.05.21",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/862/1439",
+     "title": "Board of Directors Public Meeting Pack - 25.03.21",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/676/1439",
+     "title": "Board of Directors Public Meeting Pack - 26.11.20",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/677/1439",
+     "title": "Board of Directors Public Meeting Pack - 29.10.20",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/678/1439",
+     "title": "Board of Directors Public Meeting Pack - 24.09.20",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/679/1439",
+     "title": "Board of Directors Public Meeting Pack - 30.07.20",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lscft.nhs.uk/download_file/680/1439",
+     "title": "Board of Directors Public Meeting Pack - 25.06.20",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Lancashire and South Cumbria - forward dates all lapsed, none republished. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RTR",
    "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
-   "last_checked": null,
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [],
    "notes": "[2026-08-17] South Tees - joint UHT group board page shows only the next meeting and is stale. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RVW",
    "papers_url": "https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/",
-   "last_checked": null,
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [],
    "notes": "[2026-08-17] North Tees and Hartlepool - shares the stale UHT group board page with RTR. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RX7",
    "papers_url": "https://www.nwas.nhs.uk/about/directors/board-meetings/",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/07/BoD-Meeting-Pack-29.07.2026.pdf",
+     "title": "29 July 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/05/BoD-Part-1-Meeting-Pack-27.05.2026-1.pdf",
+     "title": "27 May 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/05/BoD-Meeting-Pack-29.04.2026.pdf",
+     "title": "29 April 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/03/BoD-Part-1-Agenda-Pack-25.03.26.pdf",
+     "title": "25 March 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] North West Ambulance - no forward calendar; stale 'next meeting' line only. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RXN",
    "papers_url": "https://www.lancsteachinghospitals.nhs.uk/board-meetings-and-papers",
-   "last_checked": null,
-   "known_files": [],
+   "last_checked": "2026-08-20T12:10:00Z",
+   "known_files": [
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a6c5dcf5f57b9.66075796",
+     "title": "Board of Directors Part I Main Pack - 6 August 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk/resources/download/sthk-6a6c60840c09c2.71196780",
+     "title": "Board of Directors Part I Ancillary Papers - 6 August 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6a6c5dcf5f57b9.66075796",
+     "title": "Board of Directors Part I Main Pack - 6 August 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6a6c60840c09c2.71196780",
+     "title": "Board of Directors Part I Ancillary Papers - 6 August 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6a18593e48e5a2.75242298",
+     "title": "Board of Directors Part I Ancillary Papers - 4 June 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6a1856c80c0176.47427306",
+     "title": "Board of Directors Part I Main Pack - 4 June 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-69c564ce0d2c72.02573810",
+     "title": "Board of Directors Part I Ancillary Pack - 2 April 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-69c563ded10977.83954757",
+     "title": "Board of Directors Part I Board Pack - 2 April 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-697cb9bac6b670.23459549",
+     "title": "Board Papers 5th February 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-697cba171e3b54.58306013",
+     "title": "Board Ancillary Pack 5th February 2026",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-67e69da6448949.56894769",
+     "title": "Board of Directors Meeting 3 April 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-69414930bee328.83128400",
+     "title": "Board of Directors Meeting 3 June - Main Pack",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-692881c1e4dd11.22073483",
+     "title": "Board Papers 4th December 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-692882060ae8b0.79711431",
+     "title": "Board Ancillary Pack 4th December 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-68d6c04ea2ed33.32095317",
+     "title": "Board Papers 2nd October 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-68d6c2596a79f3.44205440",
+     "title": "Board Ancillary October 2nd",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-688cbe674c9543.18429756",
+     "title": "Board of Directors Meeting - 7 August 2025 - Ancillary Pack",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-688cbecb7cd389.78563475",
+     "title": "Board of Directors Meeting - 7 August 2025 - Main Pack",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6836fa4daeba73.56055005",
+     "title": "Board of Directors Meeting 3rd June 2025 - Ancillary Pack",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-679cff87e2e396.73410614",
+     "title": "Board of Directors Meeting 6 February 2025",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6749dcc6d2fb18.03685225",
+     "title": "Board of Directors Meeting - 5 December 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6723aa1e61f3c7.51081577",
+     "title": "Board of Directors - 1st August 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6723a9d49db391.55593541",
+     "title": "Board of Directors - 6th June 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66f6bd089c1ff6.69860154",
+     "title": "Board of Directors - 3rd October 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66d19e0045f3d8.96257293",
+     "title": "Board of Directors - 4th April 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66d199b392f704.80051389",
+     "title": "Board of Directors - 1st February 2024",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-6723706b9a0b36.63187468",
+     "title": "Board of Directors - 6th April 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-67236fd28f8245.79278736",
+     "title": "Board of Directors - 2nd February 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-67236efa819c77.09089419",
+     "title": "Board of Directors - 1st June 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66d198dde85d48.19636286",
+     "title": "Board of Directors - 7th December 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66d197b79f73a9.91112925",
+     "title": "Board of Directors - 5th October 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    },
+    {
+     "url": "https://www.lancsteachinghospitals.nhs.uk//resources/download/sthk-66d080425b0ed3.12633111",
+     "title": "Board of Directors - 3rd August 2023",
+     "first_seen": "2026-08-20T12:10:00Z"
+    }
+   ],
    "notes": "[2026-08-17] Lancashire Teaching - page rolls forward, only ever shows the next meeting. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   },
   {
    "ods_code": "RJ1",
    "papers_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers",
-   "last_checked": null,
+   "last_checked": "2026-08-20T12:10:00Z",
    "known_files": [],
    "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
   }
