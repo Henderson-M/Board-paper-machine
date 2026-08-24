@@ -27,6 +27,23 @@ USER_AGENT = (
 )
 
 
+def write_out(text):
+    """Write extracted text to stdout as UTF-8, whatever the console codepage is.
+
+    Board packs are full of £ and — . On Windows, sys.stdout defaults to cp1252 and
+    `sys.stdout.write` raises UnicodeEncodeError on the first character it cannot map
+    (a ballot-box glyph killed this script on 2026-08-24), so the caller sees a traceback
+    and an empty file rather than the pack text.
+    """
+    data = text.encode("utf-8", "replace")
+    buf = getattr(sys.stdout, "buffer", None)
+    if buf is not None:
+        buf.write(data)
+        buf.flush()
+    else:
+        sys.stdout.write(data.decode("utf-8", "replace"))
+
+
 def fetch_pdf_requests(url, dest):
     import urllib.request
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/pdf,*/*"})
@@ -42,7 +59,59 @@ def fetch_pdf_playwright(url, dest):
     render(url, mode="download", out_path=dest, timeout=45)
 
 
-def extract_text(pdf_path):
+def sniff(path):
+    """What did we actually download? Trusts serve documents from extension-less handler
+    URLs (/download_file/view/8769/2198), so the URL tells you nothing about the format."""
+    head = Path(path).read_bytes()[:8]
+    if head.startswith(b"%PDF"):
+        return "pdf"
+    if head.startswith(b"PK\x03\x04"):
+        return "ooxml"          # .docx / .xlsx / .pptx — a zip
+    if head.startswith(b"\xd0\xcf\x11\xe0"):
+        return "ole"            # legacy .doc / .xls
+    if head[:5].lower() in (b"<!doc", b"<html"):
+        return "html"           # usually a login wall or an error page
+    return "unknown"
+
+
+def extract_ooxml(path):
+    """Text from a .docx (and enough of .pptx/.xlsx to be useful).
+
+    Surrey and Sussex publishes its entire board pack as Word files served from
+    extension-less URLs. They download intact and pypdf then rejects every one with
+    "Stream has ended unexpectedly", so on 2026-08-24 eight of ten papers — including the
+    auditor's report carrying a section 30 referral to the Secretary of State — looked
+    unreadable. Sniff the header instead of trusting the URL.
+    """
+    import re
+    import zipfile
+    with zipfile.ZipFile(path) as z:
+        names = z.namelist()
+        if "word/document.xml" in names:
+            targets = ["word/document.xml"]
+            targets += sorted(n for n in names
+                              if re.match(r"word/(header|footer)\d*\.xml$", n))
+        elif any(n.startswith("ppt/slides/slide") for n in names):
+            targets = sorted(n for n in names
+                             if re.match(r"ppt/slides/slide\d+\.xml$", n))
+        elif "xl/sharedStrings.xml" in names:
+            targets = ["xl/sharedStrings.xml"]
+        else:
+            raise RuntimeError("zip is not a recognised Office document: %s" % names[:5])
+        parts = []
+        for t in targets:
+            x = z.read(t).decode("utf-8", "replace")
+            x = re.sub(r"</w:p>|</a:p>|</w:tr>", "\n", x)
+            x = re.sub(r"<w:tab[^>]*/>|</w:tc>", "\t", x)
+            x = re.sub(r"<[^>]+>", "", x)
+            for a, b in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
+                         ("&quot;", '"'), ("&apos;", "'")):
+                x = x.replace(a, b)
+            parts.append(re.sub(r"\n{3,}", "\n\n", x))
+    return "\n\n".join(parts)
+
+
+def extract_pdf(pdf_path):
     from pypdf import PdfReader
     reader = PdfReader(pdf_path)
     parts = []
@@ -52,6 +121,19 @@ def extract_text(pdf_path):
         except Exception as e:
             parts.append(f"[page extract error: {e}]")
     return "\n\n".join(parts)
+
+
+def extract_text(path):
+    kind = sniff(path)
+    if kind == "ooxml":
+        return extract_ooxml(path)
+    if kind == "html":
+        raise RuntimeError(
+            "downloaded an HTML page, not a document — the URL is probably a landing page "
+            "or the host served a block page; retry with --playwright")
+    if kind == "ole":
+        raise RuntimeError("legacy .doc/.xls binary format — not supported, open manually")
+    return extract_pdf(path)
 
 
 def main():
@@ -83,7 +165,7 @@ def main():
         text = extract_text(dest)
         if args.head:
             text = text[: args.head]
-        sys.stdout.write(text)
+        write_out(text)
     finally:
         if tmp:
             try:

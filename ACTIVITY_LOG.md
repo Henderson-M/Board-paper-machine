@@ -1,3 +1,100 @@
+## 2026-08-24 (follow-up) - the three tooling fixes, and the audit's own false positive
+
+Henry asked for the three fixes handed back from the sweep earlier the same day. All three
+are done and tested. No emails, no state changes to meetings - tooling only.
+
+**1. `reverify_dates.py` now understands what year a date belongs to.**
+
+Two bugs, both silent and both pointing the reassuring way:
+
+- `find_date()` returned on its FIRST day-month match and accepted a bare match as
+  confirmation. That is how "3 September 2024", sitting in Birmingham Women's and
+  Children's archive listing, confirmed a "3 September 2026" meeting the current schedule
+  does not contain.
+- `page_future_dates()` only recognised named months with an adjacent year, so any org
+  publishing numeric dates (Greater Manchester: `Date: 18/11/2026`) or a bare list under a
+  year heading (Kettering: "Future 2026 meetings: 10 September, 9 October...") looked like
+  it published no forward schedule at all - which means its wrong dates could never be
+  contradicted.
+
+Both now resolve a year the same way: a year written next to the date wins; otherwise the
+date inherits the nearest year heading **above** it; bare dates under a "past meetings"
+heading are rejected. `page_future_dates` also reads DD/MM/YYYY, YYYY-MM-DD and DD-Mon-YY.
+
+**The fix had a false positive of its own, and it is worth recording how it was caught.**
+The first version judged the year from a +/-120 character window around the match. On
+Birmingham and Solihull's page the 2026 list is long, so the window around "Wednesday 7
+October" reached forward into the "2025" archive heading below it and reported 7 October
+2026 - a date the page plainly publishes - as an error. A symmetric window is simply the
+wrong model: a year heading governs what comes after it, not what surrounds it.
+
+That was only noticed because the run printed `page_dates` alongside the contradiction and
+the contradicted date was **in its own list of dates found on the page**. There is now a
+hard guard for exactly that: if `page_future_dates` found the date, the meeting cannot be
+reported as contradicted, whatever `find_date` says - it is logged as confirmed with a
+stderr warning that the matcher is broken. A withdrawal email for a meeting that is going
+ahead is worse than a missed check.
+
+Over a 250-meeting slice the corrected audit produces **0 contradictions and 0 overrides**,
+so the feared wave of new retractions did not materialise. `test_reverify_dates.py` pins all
+of it - six find_date cases and three page_future_dates cases, every one a real failure.
+
+**2. `fetch_pdf_text.py` now sniffs the file header instead of trusting the URL.**
+
+Surrey and Sussex serves its entire board pack as Word files from extension-less URLs
+(`/download_file/view/8769/2198`). They download intact; pypdf then rejects every one with
+"Stream has ended unexpectedly". On the morning's sweep that meant eight of ten papers -
+including the auditor's report carrying the section 30 referral - would have been reported
+unreadable. `PK` headers are now extracted as OOXML (docx, and enough of pptx/xlsx to be
+useful), HTML and legacy .doc give a clear error rather than a stack trace.
+
+Same file: stdout is now written as UTF-8 explicitly. It was crashing with
+UnicodeEncodeError on Windows the moment a pack contained a character cp1252 cannot map -
+a ballot-box glyph killed the very first download of the sweep. Verified on the real
+Isle of Wight pack: the offending glyph and every pound sign survive, no mojibake.
+
+**3. `extract_board_html.py` can follow document landing pages.**
+
+New `--follow-landing [N]`. It always reports `landing_links` now, so "this org publishes
+nothing" is distinguishable from "the documents are one click deeper", and with the flag it
+follows them up to **two** hops. Two, not one, because that is the shape RDaSH actually
+uses: board page -> `/document-sections/board-of-directors/` index -> `/documents/board-of-
+directors-packs-july-2026/` -> the PDFs. Stopping at one hop finds the index, reports zero
+documents, and looks exactly like an org that publishes nothing. It only goes deeper when a
+followed page yielded nothing itself, so it will not crawl a whole publications archive.
+
+**Re-polling the eleven blind watchlist orgs, four came back:**
+
+| Org | Before | After |
+|---|---|---|
+| RXE RDaSH | 0 | 8 documents, incl. the 30 July pack |
+| RXG South West Yorkshire | 0 | 265 documents |
+| RBS Alder Hey | 0 | 10 documents (all 2017-2025 - see below) |
+| S1Y5D Central East ICB | 0 | 8 documents |
+
+Still returning nothing: QYG, RJ1, RNZ, RRJ, RTR, RVW, RXA.
+
+**A correction to this morning's run report.** It said RDaSH and South West Yorkshire were
+both blind for the same reason - document landing pages. That was right about RDaSH and
+wrong about South West Yorkshire. RXG reads fine over plain `requests` and returns 265
+documents, twice in a row on retest; during the sweep its requests fetch failed transiently
+and the Playwright fallback returned a page with nothing in it. So RXG was an intermittent
+fetch failure, not a structural one. Worth watching rather than fixing.
+
+Alder Hey's ten recovered documents are all dated 2017-2025, which is consistent with the
+existing diagnosis: the page is a stale archive. The landing-page fix works there
+mechanically and changes nothing editorially. It still needs a replacement URL.
+
+**Still pending**
+- Replace the Alder Hey URL. Six failed runs; now demonstrably a content problem, not a
+  fetch one.
+- Wire `--follow-landing` into the Step 7b watchlist poll and the Step 7 pack scan, so the
+  recovery is automatic rather than something the operator has to remember.
+- Re-check the 1-3 September packs - 39 meetings were in this morning's window and only the
+  four from 26-27 August had published.
+- Both Dorset trusts' 2025-26 annual reports are still unread.
+
+
 ## 2026-08-24 - full sweep: a section 30 referral, a joint board whose dates were wrong at both trusts, and the date audit caught confirming a 2024 date
 
 Henry asked for a run. Full sweep with live emails - the last full date sweep was a week

@@ -47,7 +47,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 # --- Encoding guard (same rationale as fetch_with_playwright.py) ------------
 for _stream in (sys.stdout, sys.stderr):
@@ -77,6 +77,23 @@ _DOWNLOAD_HANDLER_RE = re.compile(
     r"/(?:download[-_]?attachment|download[-_]?file|downloadfile"
     r"|seecmsfile|getfile|servefile|attachment)\b|/download/",
     re.I)
+
+# Some CMSs never link a document directly. Instead each pack gets its own HTML
+# *landing page*, and the PDFs live one hop deeper:
+#   /document-sections/board-of-directors/            (RDaSH — an index of landing pages)
+#   /documents/board-of-directors-packs-july-2026/    (RDaSH — the landing page itself)
+#   /events/board-of-directors-meeting-9-september-2026/   (CUH — per-meeting event page)
+#   /about/publications/trust-board-meeting-3rd-september/ (Alder Hey)
+# To this extractor those look like ordinary navigation, so it reported "0 documents"
+# for pages that load perfectly. On 2026-08-20 and again on 2026-08-24 that left RDaSH
+# and South West Yorkshire — both on the papers watchlist, both with no confirmed future
+# meeting date — with nothing watching them at all.
+_LANDING_PATH_RE = re.compile(
+    r"/(?:documents?|document-sections?|publications?|events?|meetings?|resources?)/[^/]+/?$",
+    re.I)
+# ...but only follow ones that look like board business, or we would crawl the whole site.
+_LANDING_TOPIC_RE = re.compile(
+    r"board|trust[-\s]?board|papers?|pack|agenda|minutes|meeting|governors?", re.I)
 
 _MONTHS = {
     "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
@@ -245,6 +262,78 @@ def find_pdf_links(html, base_url):
     return out
 
 
+def find_landing_links(html, base_url):
+    """Board-related HTML pages that probably hold the documents one hop deeper.
+
+    These are NOT documents — do not try to download them. They are candidates for
+    `--follow-landing`, which fetches each and pulls the real document links out.
+    """
+    out, seen = [], set()
+    host = urlparse(base_url).netloc.lower()
+    for m in _ANCHOR_RE.finditer(html):
+        href, inner = m.group(1), m.group(2)
+        if _is_doc(href):
+            continue                      # already a document; not a landing page
+        url = urljoin(base_url, href.strip()).split("#")[0]
+        p = urlparse(url)
+        if p.scheme not in ("http", "https") or p.netloc.lower() != host:
+            continue                      # same site only
+        if not _LANDING_PATH_RE.search(p.path):
+            continue
+        text = _clean(inner)
+        if not _LANDING_TOPIC_RE.search(text + " " + p.path):
+            continue
+        if url in seen or url.rstrip("/") == base_url.rstrip("/"):
+            continue
+        seen.add(url)
+        out.append({"url": url, "text": text})
+    return out
+
+
+def follow_landing(landings, base_url, limit, use_playwright, max_depth=2):
+    """Fetch landing pages and return the document links found on them.
+
+    Up to `max_depth` hops, because two levels is the shape that actually occurs: RDaSH's
+    board page links to a document-section INDEX (/document-sections/board-of-directors/),
+    that index lists one landing page per pack (/documents/board-of-directors-packs-july-
+    2026/), and only the landing page carries the PDFs. Stopping at one hop finds the index,
+    reports zero documents, and looks exactly like an org that publishes nothing.
+
+    `limit` is a total page budget across all depths, not per level. Each returned document
+    carries `via` (the page it was found on) and `depth`.
+    """
+    docs, followed, errors = [], [], []
+    seen = {base_url.rstrip("/")}
+    queue = [(L, 1) for L in landings]
+    budget = limit
+    while queue and budget > 0:
+        L, depth = queue.pop(0)
+        url = L["url"]
+        if url.rstrip("/") in seen:
+            continue
+        seen.add(url.rstrip("/"))
+        budget -= 1
+        try:
+            sub_html, _ = fetch_html(url, use_playwright=use_playwright)
+        except Exception as e:
+            errors.append({"url": url, "error": str(e), "depth": depth})
+            continue
+        found = find_pdf_links(sub_html, url)
+        for d in found:
+            d["via"], d["depth"] = url, depth
+        docs.extend(found)
+        followed.append({"url": url, "text": L.get("text", ""),
+                         "depth": depth, "documents": len(found)})
+        # Only go deeper when this page yielded nothing itself — that is the signature of an
+        # index of landing pages rather than the landing page proper. Prevents crawling a
+        # whole publications archive off a page that already gave us what we came for.
+        if not found and depth < max_depth:
+            for nxt in find_landing_links(sub_html, url):
+                if nxt["url"].rstrip("/") not in seen:
+                    queue.append((nxt, depth + 1))
+    return docs, followed, errors
+
+
 def find_rows(html, base_url):
     """
     Table-row pairing: for each <tr>, the dates and document links inside it.
@@ -313,6 +402,12 @@ def main():
     ap.add_argument("--base-url",
                     help="Base URL for resolving relative links (default: url)")
     ap.add_argument("--pretty", action="store_true", help="Indent the JSON")
+    ap.add_argument("--follow-landing", nargs="?", type=int, const=12, default=0,
+                    metavar="N",
+                    help="Follow up to N board-related landing pages (default 12) and merge "
+                         "the documents found on them into pdf_links. Use where a CMS gives "
+                         "each pack its own page instead of linking the PDF (RDaSH, South "
+                         "West Yorkshire, CUH event pages).")
     args = ap.parse_args()
 
     base = args.base_url or args.url
@@ -328,15 +423,43 @@ def main():
                               "pdf_links": [], "dates": [], "rows": []}))
             return 1
 
+    docs = find_pdf_links(html, base)
+    landings = find_landing_links(html, base)
+
     result = {
         "source_url": args.url,
         "fetched_via": via,
-        "pdf_links": find_pdf_links(html, base),
+        "pdf_links": docs,
         "dates": find_dates(_visible_text(html)),
         "rows": find_rows(html, base),
+        # Candidate second-hop pages. Present even without --follow-landing so a caller that
+        # sees pdf_links == [] can tell "this org publishes nothing" apart from "the documents
+        # are one click deeper" — a distinction that was previously invisible.
+        "landing_links": landings,
     }
-    sys.stdout.write(json.dumps(result, indent=2 if args.pretty else None,
-                               ensure_ascii=False))
+
+    if args.follow_landing and landings and not args.html_file:
+        found, followed, errors = follow_landing(
+            landings, base, args.follow_landing, use_playwright=args.playwright)
+        have = {d["url"] for d in docs}
+        docs.extend(d for d in found if d["url"] not in have)
+        result["pdf_links"] = docs
+        result["followed_landing"] = followed
+        if errors:
+            result["landing_errors"] = errors
+    elif args.follow_landing and args.html_file:
+        result["landing_errors"] = [
+            {"error": "--follow-landing needs to fetch; it cannot run against --html-file"}]
+
+    out = json.dumps(result, indent=2 if args.pretty else None, ensure_ascii=False)
+    # UTF-8 regardless of console codepage: these titles carry £, en-dashes and curly quotes,
+    # and a cp1252 stdout raises UnicodeEncodeError on the first one.
+    buf = getattr(sys.stdout, "buffer", None)
+    if buf is not None:
+        buf.write(out.encode("utf-8", "replace"))
+        buf.flush()
+    else:
+        sys.stdout.write(out)
     return 0
 
 
