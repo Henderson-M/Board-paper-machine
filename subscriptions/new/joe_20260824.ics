@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RVN-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Avon and Wiltshire Mental Health Partnership NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.awp.nhs.uk/about-us/our-trust-board
+URL:https://www.awp.nhs.uk/about-us/our-trust-board
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RDR-2027-09-30@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Sussex Community NHS Foundation Trust — Trust Board Meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
+URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
+END:VEVENT
+END:VCALENDAR

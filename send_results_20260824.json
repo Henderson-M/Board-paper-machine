@@ -1,0 +1,86 @@
+[
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates-matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 10 new meeting date(s) detected",
+  "id": "dates-annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates-caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates-joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates-nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "id": "dates-alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 6 meeting(s) withdrawn \u2014 please delete from your calendar",
+  "id": "withdraw-annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Isle of Wight / Portsmouth boards in common board \u2014 Wednesday 26 August 2026 \u2014 6 leads",
+  "id": "papers-R1F-mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service board \u2014 Thursday 27 August 2026 \u2014 5 leads",
+  "id": "papers-RX9-annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service board \u2014 Thursday 27 August 2026 \u2014 5 leads",
+  "id": "papers-RX9-alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex Healthcare board \u2014 Thursday 27 August 2026 \u2014 7 leads",
+  "id": "papers-RTP-alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 2026-08-24 \u2014 21 dates, 3 packs, 5 orgs need attention",
+  "id": "runreport-henry",
+  "ok": true,
+  "err": ""
+ }
+]

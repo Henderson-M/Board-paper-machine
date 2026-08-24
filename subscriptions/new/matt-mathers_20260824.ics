@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QHM-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:North East and North Cumbria ICB — Integrated Care Board meeting held in public
+DESCRIPTION:Detected by Board paper machine. Source: https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
+URL:https://northeastnorthcumbria.nhs.uk/about-us/corporate-information/governance/meetings-and-agendas/integrated-care-board/
+END:VEVENT
+END:VCALENDAR

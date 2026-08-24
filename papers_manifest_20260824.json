@@ -1,0 +1,38 @@
+[
+ {
+  "id": "papers-R1F-mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Isle of Wight / Portsmouth boards in common board \u2014 Wednesday 26 August 2026 \u2014 6 leads",
+  "body_file": "dry_run_output/20260824_mimi_papers_R1F.md",
+  "attach": [
+   "summaries/R1F_2026-08-26.md"
+  ]
+ },
+ {
+  "id": "papers-RX9-annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service board \u2014 Thursday 27 August 2026 \u2014 5 leads",
+  "body_file": "dry_run_output/20260824_annabelle_papers_RX9.md",
+  "attach": [
+   "summaries/RX9_2026-08-27.md"
+  ]
+ },
+ {
+  "id": "papers-RX9-alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service board \u2014 Thursday 27 August 2026 \u2014 5 leads",
+  "body_file": "dry_run_output/20260824_alison_papers_RX9.md",
+  "attach": [
+   "summaries/RX9_2026-08-27.md"
+  ]
+ },
+ {
+  "id": "papers-RTP-alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex Healthcare board \u2014 Thursday 27 August 2026 \u2014 7 leads",
+  "body_file": "dry_run_output/20260824_alison_papers_RTP.md",
+  "attach": [
+   "summaries/RTP_2026-08-27.md"
+  ]
+ }
+]

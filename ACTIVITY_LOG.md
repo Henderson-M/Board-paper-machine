@@ -1,3 +1,132 @@
+## 2026-08-24 - full sweep: a section 30 referral, a joint board whose dates were wrong at both trusts, and the date audit caught confirming a 2024 date
+
+Henry asked for a run. Full sweep with live emails - the last full date sweep was a week
+earlier on 17 August, the last packs-only run on 20 August. Twelve emails went out.
+
+**The run started by pushing someone else's work.** The repo was level with origin on the
+fetch but two commits ahead - the 20 August run had committed and never pushed. Those went up
+before anything else was done. A committed-but-unpushed run is exactly the condition that
+caused the 30 July duplicate incident, and it had been sitting there for four days.
+
+**Method: deterministic first, then WebFetch.** All 220 unique board-page URLs were run through
+`extract_board_html.py` first - 219 succeeded, one (Somerset) needed Playwright. That gave a
+literal date set for every org, which is both the anti-omission backstop and the anti-fabrication
+check. WebFetch was then run on 99 orgs: the 50 where the deterministic pass found no future
+date at all (an empty result is not a veto), the 32 with literal dates we do not hold, and all
+of Henry's own patch. The other 138 orgs had every literal future date on their page already in
+state, so there was nothing new to find at them.
+
+**21 new dates, 8 retractions.** New dates for Alison (5), Annabelle (10), Caitlin (2), Joe (1),
+Matt Mathers (1) and Nick (2).
+
+**The Northamptonshire joint board was wrong at both trusts, and had been emailed.** Kettering
+and Northampton meet as one University Hospitals of Northamptonshire board in common. The KGH
+page publishes the schedule for both under a "Future 2026 meetings" heading: 10 September,
+9 October, 6 November, 4 December, and no 2027 dates at all. State held 8 October, 6 November,
+10 December, plus 5 February and 9 April 2027 at NGH. Only 6 November was right. Six alerted
+dates were retracted and withdrawn to Annabelle with a cancellation file, and the three real
+dates went out in her date alert.
+
+**The date audit did not catch it, and at Birmingham Women's and Children's it actively said the
+wrong thing.** This is the more important finding of the run.
+
+`reverify_dates.py` was run twice - a 130-meeting rolling slice, then a targeted pass over the
+suspect orgs. It returned one contradiction (RXM Derbyshire Healthcare, 22 September, correct
+and acted on). Everything else it got wrong in the reassuring direction:
+
+- At Kettering it classed 8 October and 10 December as **unverifiable** - "the page publishes no
+  forward schedule, so we cannot say" - when the page plainly publishes one. This is the
+  `page_future_dates()` bug reported on 20 August, which only matches named-month formats with an
+  adjacent year. Kettering writes bare day-months under a year heading, so the function returned
+  an empty list and the classifier fell through to "unverifiable".
+- At NGH it **confirmed** 5 February 2027 and 9 April 2027. Those strings are on the page - under
+  the heading "Past 2026 meetings".
+- At Birmingham Women's and Children's it **confirmed** 3 September 2026. The current schedule
+  reads "2026 meeting dates: 8 January, 10 March, 7 May, 2 July, 9 September, 5 November". There
+  is no 3 September. What it matched was "3 September 2024" in the archive listing further down
+  the same page.
+
+So the audit has two failure modes, not one: it cannot see a forward schedule written in numeric
+or bare day-month form, and it will confirm a date against any year on the page. Both were found
+by hand this run. The 3 September error mattered operationally as well - that date was inside the
+pack detection window, so the run had been checking the wrong date for papers.
+
+The fix needs a year-context check, not just a day-month match. It has deliberately not been
+made mid-run: changing the classifier will turn a batch of currently-"unverifiable" dates into
+contradictions, and every retraction owes somebody a withdrawal email.
+
+**A 403 hid a full forward schedule at Sussex Community.** WebFetch got 403; the deterministic
+extractor read the page over plain requests and returned a schedule running to January 2028 -
+five dates we did not hold, all literal, all Thursdays matching the page's own stated weekday.
+Alison has them. Without the deterministic cross-check none of them would have been seen.
+
+**Greater Manchester ICB.** The 27 October date spotted by hand on 20 August, and deliberately
+left out of state so it would alert properly, came through as new. The same calendar carries a
+22 December entry explicitly labelled "Board Meeting" that we also did not hold. Both went to
+Nick. The other 34 future dates on that page are committee and locality-board meetings and were
+correctly not recorded - the page labels each one, which is what made them separable.
+
+**Packs: 3 analysed, and all four meetings flagged on 20 August as "due in a few days" delivered.**
+
+- **Surrey and Sussex (27 Aug)** is the strongest item of the run. KPMG has issued a **section 30
+  referral to the Secretary of State** under the Local Audit and Accountability Act because the
+  trust is in breach of its cumulative break-even duty, and separately found **one significant
+  weakness** in value-for-money arrangements over risk management: 31 risks past their review
+  date, six estates risks with no improvement actions at all, some risks on the register more
+  than ten years. £20.5m deficit against a £9.1m plan, accumulated deficit £103m, cash down to
+  £4.2m from £10.2m, internal audit downgraded to partial assurance. 7 LEAD to Alison.
+- **Isle of Wight / Portsmouth boards in common (26 Aug)**, 6 LEAD to Mimi. Portsmouth accounts
+  for about a third of all patients in England waiting over six months for an endoscopy. NHS
+  England has told both trusts deficit support funding "could be recovered retrospectively" if
+  targets are missed, and ran a CIP deep dive into Portsmouth on 8 July whose outcome may inform
+  that. A critical incident was declared at Portsmouth at the end of June when the chillers
+  failed in the heatwave, taking out theatres, MRI, cath labs, pathology and digital. 11-15% of
+  activity uncoded against a 5% contract tolerance, about £3.5m of income. Two never events.
+- **East Midlands Ambulance (27 Aug)**, 5 LEAD to Annabelle and Alison. BME staff reporting
+  harassment, bullying or abuse from patients and the public rose from 28.7% to 46.81% in a year;
+  the trust says the level "is not acceptable". EMAS ceased its 2026/27 private ambulance
+  procurement and extended the incumbent contract, with non-pay £3.06m overspent - "funded by the
+  vacancies on the front line". It is not replacing its director of operations, creating a COO
+  role instead. 12,603 handover hours lost in July, 49,632 year to date.
+
+**Two packs that were nearly mishandled.**
+
+- Isle of Wight and Portsmouth publish the **same** 236-page file on both websites - byte-identical,
+  MD5 4d274bf24d70f7b30c137f0c9c10ea36. Caught by hashing both downloads before reading. Analysed
+  once, alerted once. This is the Dorset trap (10 and 20 August) recurring at a different pair of
+  trusts; both org records now carry a note.
+- Surrey and Sussex publishes its board papers as **Word documents** served from
+  `/download_file/view/NNNN/2198` with no file extension. They download intact and then fail in
+  pypdf with "Stream has ended unexpectedly". The header is `PK` - they are zips. Eight of the
+  ten papers, including the auditor's report carrying the section 30 referral, would have been
+  reported as unreadable. `fetch_pdf_text.py` should sniff the header and fall back to docx.
+
+**Watchlist: 23 polled, no new packs, nothing re-alerted.** Eleven orgs returned zero documents -
+QYG, RRJ, RXA, RXE, RXG, S1Y5D, RBS, RNZ, RTR, RVW, RJ1. Unchanged from 20 August. RDaSH and South
+West Yorkshire, both Henry's patch, remain blind: they publish packs as document landing pages
+rather than direct PDFs, they have no confirmed future date, and the watchlist poll is the only
+thing watching them.
+
+**Scan health: 2 broken, 3 degraded, 0 stale, 0 not checked, of 239 orgs.** Alder Hey and Cheshire
+and Wirral have now failed six runs each. Alder Hey is not merely unreadable - its page returns
+board meetings titled with 2025 and 2026 dates which the extractor re-dates into 2026 and 2027.
+Seven such dates were generated and dropped this run. That URL is actively manufacturing false
+dates and needs replacing, not retrying. Newly degraded: UHCW (403), West London (404),
+Hertfordshire Partnership (403).
+
+**Still pending**
+- Fix the year-context bug in `reverify_dates.py` - both the `page_future_dates()` numeric-date
+  blind spot and the archive-year false confirm - then re-run the audit deliberately and work
+  through the contradictions it produces, each of which may owe a withdrawal.
+- Teach `extract_board_html.py` the document-landing-page pattern (RDaSH, South West Yorkshire).
+  Carried over from 20 August.
+- Teach `fetch_pdf_text.py` to detect a `PK` zip header and extract docx.
+- Replace the Alder Hey URL.
+- Re-check the 1-3 September packs on the next run - 39 meetings were in the window, only the four
+  from 26-27 August had published.
+- Both Dorset trusts' 2025-26 annual reports are still unread. Carried over from 20 August.
+
+
 ## 2026-08-20 - packs-only run: 1 second-pass alert, 1 bad date withdrawn, and a hole found in the date audit
 
 Henry asked for a run. Packs-only with live emails, because the last full sweep was three days

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QOP-2026-10-27@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
+DESCRIPTION:Detected by Board paper machine. Source: https://gmintegratedcare.org.uk/meetings-and-events/
+URL:https://gmintegratedcare.org.uk/meetings-and-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:QOP-2026-12-22@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Greater Manchester ICB — Greater Manchester Integrated Care Board
+DESCRIPTION:Detected by Board paper machine. Source: https://gmintegratedcare.org.uk/meetings-and-events/
+URL:https://gmintegratedcare.org.uk/meetings-and-events/
+END:VEVENT
+END:VCALENDAR

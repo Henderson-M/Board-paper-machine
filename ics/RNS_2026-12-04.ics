@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNS-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+END:VCALENDAR

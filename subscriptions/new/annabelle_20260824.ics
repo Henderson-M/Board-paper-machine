@@ -1,0 +1,95 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNQ-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RWE-2026-09-11@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:University Hospitals of Leicester NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXM-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Derbyshire Healthcare NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+URL:https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNQ-2026-10-09@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-10-09@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RWE-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:University Hospitals of Leicester NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RNQ-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RWE-2027-02-11@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:University Hospitals of Leicester NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+END:VEVENT
+END:VCALENDAR

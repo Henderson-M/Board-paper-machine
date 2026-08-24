@@ -1,0 +1,65 @@
+[
+ {
+  "id": "dates-matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_matt-mathers_dates.md",
+  "attach": [
+   "subscriptions/new/matt-mathers_20260824.ics"
+  ]
+ },
+ {
+  "id": "dates-annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 10 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_annabelle_dates.md",
+  "attach": [
+   "subscriptions/new/annabelle_20260824.ics"
+  ]
+ },
+ {
+  "id": "dates-caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_caitlin_dates.md",
+  "attach": [
+   "subscriptions/new/caitlin_20260824.ics"
+  ]
+ },
+ {
+  "id": "dates-joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260824.ics"
+  ]
+ },
+ {
+  "id": "dates-nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_nick_dates.md",
+  "attach": [
+   "subscriptions/new/nick_20260824.ics"
+  ]
+ },
+ {
+  "id": "dates-alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260824_alison_dates.md",
+  "attach": [
+   "subscriptions/new/alison_20260824.ics"
+  ]
+ },
+ {
+  "id": "withdraw-annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 6 meeting(s) withdrawn \u2014 please delete from your calendar",
+  "body_file": "dry_run_output/20260824_annabelle_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/annabelle_20260824.ics"
+  ]
+ }
+]

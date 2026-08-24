@@ -25,7 +25,7 @@
   "ics": "Sussex",
   "correspondent": "Alison",
   "url": "https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers",
-  "notes": "[2026-07-21] Needs Playwright; top-level scan_url returns zero PDFs by design. | [2026-07-13] Confirmed: WebFetch blocked, Playwright renders full future dates list fine. Papers published the Friday before each meeting. [2026-07-16] WebFetch blocked; Playwright renders full future dates. Contact Zoe Smith to attend.",
+  "notes": "[2026-08-24] Returns HTTP 403 to WebFetch but reads fine via extract_board_html.py (requests). Publishes a full forward schedule to 2028 as \"Thursday DD Month YYYY, from 10:00am to 1:00pm\". Go straight to the deterministic extractor. | [2026-07-21] Needs Playwright; top-level scan_url returns zero PDFs by design. | [2026-07-13] Confirmed: WebFetch blocked, Playwright renders full future dates list fine. Papers published the Friday before each meeting. [2026-07-16] WebFetch blocked; Playwright renders full future dates. Contact Zoe Smith to attend.",
   "schedule_url": null
  },
  {
@@ -101,7 +101,7 @@
   "ics": "Surrey Heartlands",
   "correspondent": "Alison",
   "url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
-  "notes": "[2026-08-03] Publishes individual papers, not a combined pack. Page states 'The next meeting will be on Thursday, 27 August 2026' - the 6 Aug and 13 Aug entries we held were unsupported.",
+  "notes": "[2026-08-24] Board papers are published as Word .docx files served from /download_file/view/NNNN/2198 with no extension - they download fine but are NOT PDFs (zip \"PK\" header). Extract with docx handling, not pypdf. | [2026-08-03] Publishes individual papers, not a combined pack. Page states 'The next meeting will be on Thursday, 27 August 2026' - the 6 Aug and 13 Aug entries we held were unsupported.",
   "schedule_url": null
  },
  {
@@ -276,7 +276,7 @@
   "ics": "Northamptonshire",
   "correspondent": "Annabelle",
   "url": "https://www.kgh.nhs.uk/board-of-directors-and-board-meetings",
-  "notes": "[2026-07-13] KGH now runs joint UHN/UHL public boards. Excluded past date 11 June 2026. [2026-07-16] Joint UHN group boards (shared with RNS Northampton).",
+  "notes": "[2026-08-24] KGH and NGH meet as ONE University Hospitals of Northamptonshire (UHN) board in common. The KGH page carries the full schedule for both under a \"Future 2026 meetings\" heading with bare day-months; NGH publishes only the next meeting. Treat the KGH page as authoritative for both and mirror dates to RNS. Beware: the page also lists \"Past 2026 meetings\" with bare day-months, which a day+month matcher will wrongly read as future dates. | [2026-07-13] KGH now runs joint UHN/UHL public boards. Excluded past date 11 June 2026. [2026-07-16] Joint UHN group boards (shared with RNS Northampton).",
   "schedule_url": null
  },
  {
@@ -290,7 +290,7 @@
   "ics": "Northamptonshire",
   "correspondent": "Annabelle",
   "url": "https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx",
-  "notes": "[2026-08-03] No August meeting: page reads 'The next public meeting will take place in September 2026, with date and venue to be advised.' WebFetch fabricated 1 Sep / 8 Oct / 6 Nov / 10 Dec. Joint UHN board shared with KGH (RNQ) and UHL (RWE). | [2026-07-13] Shares joint UHN group boards with KGH (RNQ) - same dates. [2026-07-16] Joint UHN group boards (shared with RNQ Kettering).",
+  "notes": "[2026-08-24] Shares one board in common with Kettering (RNQ) as University Hospitals of Northamptonshire. NGH page shows only the next meeting; the full schedule for both trusts is on the KGH page. Mirror dates from RNQ. | [2026-08-03] No August meeting: page reads 'The next public meeting will take place in September 2026, with date and venue to be advised.' WebFetch fabricated 1 Sep / 8 Oct / 6 Nov / 10 Dec. Joint UHN board shared with KGH (RNQ) and UHL (RWE). | [2026-07-13] Shares joint UHN group boards with KGH (RNQ) - same dates. [2026-07-16] Joint UHN group boards (shared with RNQ Kettering).",
   "schedule_url": null
  },
  {
@@ -632,7 +632,7 @@
   "ics": "Birmingham and Solihull",
   "correspondent": "Caitlin",
   "url": "https://bwc.nhs.uk/board-meetings-and-minutes/",
-  "notes": "[2026-07-21] Schedule stops at end-2026 despite a stated bimonthly cadence - no 2027 dates published. Re-scan in autumn. | [2026-05-27] URL updated: Board meetings and minutes page lists full 2026 schedule: 8 Jan, 10 Mar, 7 May, 2 Jul, 3 Sep, 5 Nov.",
+  "notes": "[2026-08-24] Forward schedule sits under a \"2026 meeting dates\" heading as bare day-months. The same page carries an archive listing years back to 2021, so a day+month match without a year check will confirm a wrong date against an old entry - this happened with 3 September (archive 2024) vs the real 9 September 2026. | [2026-07-21] Schedule stops at end-2026 despite a stated bimonthly cadence - no 2027 dates published. Re-scan in autumn. | [2026-05-27] URL updated: Board meetings and minutes page lists full 2026 schedule: 8 Jan, 10 Mar, 7 May, 2 Jul, 3 Sep, 5 Nov.",
   "schedule_url": null
  },
  {
@@ -2180,7 +2180,7 @@
   "ics": "Hampshire and Isle of Wight",
   "correspondent": "Mimi",
   "url": "https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers",
-  "notes": "[2026-05-27] URL updated: The '2026-board-papers' subpage lists all six 2026 joint board dates with Portsmouth Hospitals (28 Jan, 25 Mar, 3 Jun, 26 Aug, 30 Sep, 2 Dec 2026, 9:30-12:30). Current parent page lacks dates. IoW now meets jointly with Portsmouth Hospitals University NHS Trust; venues alternate. [2026-07-16] Joint board with Portsmouth Hospitals; 28 Jan/25 Mar/3 Jun 2026 now past.",
+  "notes": "[2026-08-24] Boards in Common with Portsmouth (RHU); identical pack published on both sites. | [2026-05-27] URL updated: The '2026-board-papers' subpage lists all six 2026 joint board dates with Portsmouth Hospitals (28 Jan, 25 Mar, 3 Jun, 26 Aug, 30 Sep, 2 Dec 2026, 9:30-12:30). Current parent page lacks dates. IoW now meets jointly with Portsmouth Hospitals University NHS Trust; venues alternate. [2026-07-16] Joint board with Portsmouth Hospitals; 28 Jan/25 Mar/3 Jun 2026 now past.",
   "schedule_url": null
  },
  {
@@ -2226,7 +2226,7 @@
   "ics": "Hampshire and Isle of Wight",
   "correspondent": "Mimi",
   "url": "https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board",
-  "notes": "[2026-07-16] Joint board with Isle of Wight NHS Trust.",
+  "notes": "[2026-08-24] Boards in Common with Isle of Wight (R1F). The SAME pack file is published on both trusts websites (byte-identical). Check both orgs before treating a pack as new - same trap as Dorset (RBD/RDY). | [2026-07-16] Joint board with Isle of Wight NHS Trust.",
   "schedule_url": null
  },
  {
@@ -2656,7 +2656,7 @@
   "ics": "Cheshire and Merseyside",
   "correspondent": "Zoe",
   "url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
-  "notes": "[2026-08-06] CONFIRMED WORKING SOURCE: /about/publications/?type=board-papers (needs Playwright; requests returns 0 links). It is a PER-MEETING TWO-HOP - the listing links to pages like /about/publications/trust-board-meeting-2nd-april-2026/ and the PDFs live on those child pages. The listing is alphabetical, not chronological, and is NOT paginated (116 entries). PATTERN: Thursdays, roughly monthly, NO AUGUST MEETING IN ANY YEAR 2016-2026. The archive runs ~4 months behind, so the trust publishes no forward dates at all - expect this org to sit on the papers watchlist rather than yield future dates. DO NOT USE /about-us/trust-board/ - it serves 2018 content and produced four fabricated 2026 dates (retracted 2026-08-06). | [2026-08-06] STILL DEAD (2nd run running). /about-us/trust-board/ serves 2018 content under both WebFetch and Playwright; the 5 Aug 2026 meeting could not be checked for papers. NEEDS A CORRECTED URL before this org is scannable. | [2026-08-03] WebFetch must NOT be trusted on this domain: it returned Royal United Bath's schedule verbatim as if it were Alder Hey's, and separately invented dates from flatpickr date-picker cells in the archive filter widget. Alder Hey publishes no board dates on its site at all; the pack archive runs ~4 months behind. | [2026-07-21] DEAD 3 consecutive runs - scan_url serves only 2018/2020 content. Needs URL rediscovery. | [2026-07-13] scan_url confirmed dead: renders a single 10 Apr 2018 board-paper page (last reviewed 2023). Also checked /publications_type/public-meeting/ - only a Jun-2024 entry, no forward dates. No current board-meeting calendar found; scan_url needs rediscovery. [2026-07-16] Page dead; only a single 2018 board meeting rendered. No forward board calendar found; needs URL rediscovery. | [2026-07-27] URL REDISCOVERED: old /about-us/trust-board/ dead (2018 content). Site restructured; board packs now on the filtered publications listing (type=board-papers). Verified HTTP 200 via plain WebFetch (no Playwright needed); lists Jan/Feb/Mar/Apr 2026 Trust Board packs. Board hub: /about/trust/board/. WP archive alt: /publications_type/board-papers/.",
+  "notes": "[2026-08-24] STILL BROKEN, 6th consecutive run. Worse than unreadable: the page returns board meetings titled with 2025 and 2026 dates which the extractor re-dates into 2026/2027 (e.g. \"Trust Board Meeting - 3rd September 2025\" -> 2026-09-03). All such dates must be dropped. Needs a replacement URL, not a retry. | [2026-08-06] CONFIRMED WORKING SOURCE: /about/publications/?type=board-papers (needs Playwright; requests returns 0 links). It is a PER-MEETING TWO-HOP - the listing links to pages like /about/publications/trust-board-meeting-2nd-april-2026/ and the PDFs live on those child pages. The listing is alphabetical, not chronological, and is NOT paginated (116 entries). PATTERN: Thursdays, roughly monthly, NO AUGUST MEETING IN ANY YEAR 2016-2026. The archive runs ~4 months behind, so the trust publishes no forward dates at all - expect this org to sit on the papers watchlist rather than yield future dates. DO NOT USE /about-us/trust-board/ - it serves 2018 content and produced four fabricated 2026 dates (retracted 2026-08-06). | [2026-08-06] STILL DEAD (2nd run running). /about-us/trust-board/ serves 2018 content under both WebFetch and Playwright; the 5 Aug 2026 meeting could not be checked for papers. NEEDS A CORRECTED URL before this org is scannable. | [2026-08-03] WebFetch must NOT be trusted on this domain: it returned Royal United Bath's schedule verbatim as if it were Alder Hey's, and separately invented dates from flatpickr date-picker cells in the archive filter widget. Alder Hey publishes no board dates on its site at all; the pack archive runs ~4 months behind. | [2026-07-21] DEAD 3 consecutive runs - scan_url serves only 2018/2020 content. Needs URL rediscovery. | [2026-07-13] scan_url confirmed dead: renders a single 10 Apr 2018 board-paper page (last reviewed 2023). Also checked /publications_type/public-meeting/ - only a Jun-2024 entry, no forward dates. No current board-meeting calendar found; scan_url needs rediscovery. [2026-07-16] Page dead; only a single 2018 board meeting rendered. No forward board calendar found; needs URL rediscovery. | [2026-07-27] URL REDISCOVERED: old /about-us/trust-board/ dead (2018 content). Site restructured; board packs now on the filtered publications listing (type=board-papers). Verified HTTP 200 via plain WebFetch (no Playwright needed); lists Jan/Feb/Mar/Apr 2026 Trust Board packs. Board hub: /about/trust/board/. WP archive alt: /publications_type/board-papers/.",
   "papers_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
   "schedule_url": null
  },

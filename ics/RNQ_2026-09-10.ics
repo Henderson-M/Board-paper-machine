@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RNQ-2026-09-10@board-paper-machine.hsj
+DTSTAMP:20260824T120726Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+END:VCALENDAR
