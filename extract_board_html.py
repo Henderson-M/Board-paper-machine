@@ -397,6 +397,10 @@ def main():
     ap.add_argument("url")
     ap.add_argument("--playwright", action="store_true",
                     help="Force the browser fetch (skip requests)")
+    ap.add_argument("--ods", metavar="CODE",
+                    help="Read this org's stored fetch_mode hint. If it is 'playwright', go "
+                         "straight to the browser instead of spending a doomed requests "
+                         "attempt on a host known to block us.")
     ap.add_argument("--html-file",
                     help="Parse this already-fetched HTML file instead of fetching")
     ap.add_argument("--base-url",
@@ -411,6 +415,26 @@ def main():
     args = ap.parse_args()
 
     base = args.base_url or args.url
+
+    # A host that has blocked us before will block us again. Recording that per-org means the
+    # ladder starts where it will actually succeed, and — more importantly — a 403 on the
+    # cheap fetcher stops being mistaken for "this org is broken". Three orgs were recorded
+    # as blocked on 2026-08-24 off a single 403; all three read fine under Playwright.
+    if args.ods and not args.playwright:
+        try:
+            for f in ("data/trust_urls.json", "data/icb_urls.json"):
+                fp = Path(__file__).resolve().parent / f
+                if not fp.exists():
+                    continue
+                for o in json.loads(fp.read_text(encoding="utf-8")):
+                    if o.get("ods_code", "").upper() == args.ods.upper():
+                        if (o.get("fetch_mode") or "").lower() == "playwright":
+                            args.playwright = True
+                        raise StopIteration
+        except StopIteration:
+            pass
+        except Exception:
+            pass
 
     if args.html_file:
         html = Path(args.html_file).read_text(encoding="utf-8", errors="replace")

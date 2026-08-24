@@ -221,6 +221,32 @@ def report(fmt="text", today=None, since=None):
                 add("| %s | %s | %s | %s | %s |" % (n[:44], r["ods_code"], corr, la, r["reason"]))
             else:
                 add("  %-7s %-42s %-14s last attempted %s" % (r["ods_code"], n[:42], corr, la))
+    # An org that has failed repeatedly needs somebody to DO something, and until now the
+    # report only ever described the problem. Alder Hey was reported as broken on six
+    # consecutive runs and nothing happened, because nothing in the output said what to run
+    # or asked for anything. Name the URL and the exact command.
+    actionable = a["broken"] + a["degraded"]
+    if actionable:
+        add("")
+        add(("### ACTION REQUIRED — %d org(s)" % len(actionable)) if fmt == "markdown"
+            else "ACTION REQUIRED — %d org(s)" % len(actionable))
+        add("Re-probe with the full fetch ladder first: a single failed fetch is not evidence "
+            "an org is broken, and several orgs have sat on this list while their pages read "
+            "perfectly under Playwright.")
+        add("")
+        add("    python org_urls.py recheck --write")
+        add("")
+        add("If a page really has moved, supply the replacement — it is validated before "
+            "anything is written, so a wrong URL cannot quietly replace a broken one:")
+        add("")
+        for r in actionable:
+            n, corr, url = nm.get(r["ods_code"], (r["ods_code"], "-", ""))
+            add("    # %s (%s) — currently %s" % (n[:52], corr, url or "no URL stored"))
+            add("    python org_urls.py set --ods %s --url <REPLACEMENT> --compare"
+                % r["ods_code"])
+        add("")
+        add("`--compare` re-probes the stored URL too and refuses a downgrade. Nothing is "
+            "written unless the candidate actually yields board dates or documents.")
     if a["muted"]:
         add("")
         add("(%d org(s) muted and not reported)" % len(a["muted"]))

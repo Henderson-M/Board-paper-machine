@@ -1,3 +1,81 @@
+## 2026-08-24 (follow-up 2) - a way to fix a broken link, and four orgs that were never broken
+
+Henry asked whether the tool had any provision for fixing a broken link, or whether a list of
+up-to-date board pages would help. It had none: `org_health.py` could only ever *describe* a
+failure, nothing acted on it, and the only route to correcting a URL was hand-editing
+`data/trust_urls.json` and hoping. That is why Alder Hey served a 2017 archive for six runs.
+
+Three things built. The third turned out to matter most.
+
+**1. `org_urls.py` - probe, and validate before writing.**
+
+`probe --ods X [--url CANDIDATE]` runs the full ladder (requests -> Playwright ->
+landing-follow) and returns a verdict: `ok_schedule`, `ok_no_schedule`, `stale_content`,
+`empty`, `blocked`, `dead`.
+
+`set --ods X --url NEW` probes the candidate **before** storing it and refuses anything that
+yields no dates and no documents; `--compare` also probes the stored URL and refuses a
+downgrade. On success it writes the field, adds a dated audit note, and clears the stale
+health record. Tested both ways: a junk URL is refused with exit code 1 and the data file is
+left untouched; a good one writes and updates health.
+
+This matters because a wrong URL and a right one look identical in a data file until the next
+sweep runs. Now they don't.
+
+**2. The health report asks for something instead of just describing.**
+
+`org_health.py report` gains an ACTION REQUIRED block listing, per failing org, the current
+URL and the exact command to fix it. Alder Hey was reported as broken six times and nothing
+happened, partly because nothing in the output said what to do.
+
+**3. Never record a failure from a single fetch - and four orgs were never broken.**
+
+This is the real finding. The sweep recorded org health from whatever the first fetcher
+returned. A 403 from `requests` therefore became "blocked", which became "broken" after three
+runs. Re-probing the five flagged orgs with the full ladder:
+
+| Org | Was | Actually |
+|---|---|---|
+| RXA Cheshire and Wirral | broken x6 | reads fine under Playwright; publishes no forward schedule |
+| RBS Alder Hey | broken x6 | reads fine; 10 documents via landing pages; no forward schedule |
+| RKB UH Coventry and Warwickshire | degraded | reads fine; 23 documents; no forward schedule |
+| RWR Hertfordshire Partnership | degraded | reads fine; 75 documents; no forward schedule |
+| RKL West London | degraded | genuinely returns nothing under any fetcher |
+
+**Cheshire and Wirral had carried a false `broken` status for six runs.** Its page was fine
+every time. The scan health block now reads 0 broken, 1 degraded - and the one is real.
+
+Step 12b of the skill now forbids recording `fail` without escalating the ladder first, and
+points at `org_urls.py probe --write`. Hosts that reliably block the cheap fetcher carry
+`"fetch_mode": "playwright"` (set for RXA, RKB, RWR, RBS); pass `--ods CODE` to
+`extract_board_html.py` and it honours the hint instead of spending a doomed request.
+
+**Reclassifying an org as healthy is not free, and one of them nearly went dark.** An org that
+publishes no forward schedule belongs on the papers watchlist - that is where the skill says
+such orgs go. RWR holds four verified future dates so it is date-tracked; RBS and RXA were
+already on the watchlist. **RKB was on neither**, so calling it healthy would have left it
+genuinely unwatched, which is worse than being wrongly flagged. It has been added, with its
+23 existing documents baselined into `known_files` so they are not all re-alerted as new
+(the empty-baseline trap from 3 August).
+
+**On the question of a list of up-to-date pages.** Only one org now needs one: West London
+(RKL), which returns nothing under requests, Playwright or landing-follow, and whose three
+future dates in state are unverified. The other four never needed a new URL - they needed the
+ladder applied before judgement. A list would not have fixed them, and would have decayed.
+
+**Still pending**
+- West London (RKL) needs a working board page, or confirmation the trust has moved its
+  governance publishing. It is the only genuine URL problem left.
+- Alder Hey's newest published content is 2 April 2026. It is not broken, but a board that
+  meets regularly and has published nothing in four months is worth a look - the probe reports
+  `newest_content` for exactly this reason.
+- Wire `--follow-landing` and `--ods` into the Step 7b watchlist poll and Step 7 pack scan, so
+  the recovery is automatic rather than something the operator remembers.
+- Re-check the 1-3 September packs; 39 meetings were in this morning's window and only four
+  had published.
+- Both Dorset trusts' 2025-26 annual reports are still unread.
+
+
 ## 2026-08-24 (follow-up) - the three tooling fixes, and the audit's own false positive
 
 Henry asked for the three fixes handed back from the sweep earlier the same day. All three

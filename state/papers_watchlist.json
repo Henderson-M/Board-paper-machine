@@ -3839,8 +3839,131 @@
    "last_checked": "2026-08-24T12:12:11Z",
    "known_files": [],
    "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b)."
+  },
+  {
+   "ods_code": "RKB",
+   "papers_url": "https://www.uhcw.nhs.uk/our-organisation/trust-board-meetings/",
+   "last_checked": "2026-08-24T15:13:52Z",
+   "known_files": [
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Board%20Papers%20v2%206%20August%202026-compressed.pdf",
+     "title": "here (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%202%20April%202026_compressed.pdf",
+     "title": "2nd April 2026 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Public%20Board%20Papers%20v4%204%20June%202026_compressed(1).pdf",
+     "title": "4th June 2026 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Papers%20Public%20Trust%20Board%206%20August%202026-compressed.pdf",
+     "title": "6th August 2026 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Papers%20v3_compressed.pdf",
+     "title": "3rd April 2025 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Board%20Papers%20v2%20Public%20Board%207%20August%202025-compressed.pdf",
+     "title": "7th August 2025 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%20v3%2002-10-25_compressed.pdf",
+     "title": "2nd October 2025 (PDF) (opens in new window)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20papers%20Public%20TB%20(v2)%204-12-25_compressed%20web.pdf",
+     "title": "4th December 2025 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Public%20Trust%20Board%20Papers%205%20February%202026-%20Combined%20Pack%20v2_compressed.pdf",
+     "title": "5th February 2026 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Public%20Trust%20Board%20Meeting%20Pack%204%20April%202024__compressed%20(1).pdf",
+     "title": "4th April 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20TB%20papers%2006-06-24_compressed.pdf",
+     "title": "6th June 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Papers%20Public%20Trust%20Board%201%20August%202024%20v3(1).pdf",
+     "title": "1st August 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%20v4_compressed%20(1).pdf",
+     "title": "3rd October 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%20v3%2012-12-2024_compressed%20(1).pdf",
+     "title": "12th December 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%2006%20February%202025%20v2_compressed.pdf",
+     "title": "6th February 2025 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20papers%20V2%2003-08-23_compressed.pdf",
+     "title": "3 August 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Papers%20Public%20Trust%20Board%20Meeting%201%20June%202023_compressed.pdf",
+     "title": "1 June 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20papers%20Public%20Trust%20Board%2006-04-23.pdf",
+     "title": "6 April 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%2002-11-23_compressed%20(1).pdf",
+     "title": "2 November 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Public%20Trust%20Board%20Meeting%20pack%2007-12-23_compressed.pdf",
+     "title": "7 December 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Papers%20v3%2001-02-24(1).pdf",
+     "title": "1 February 2024 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Public%20Trust%20Board%20Meeting%20Papers%20v2%2002-02-2023_compressed.pdf",
+     "title": "2 February 2023 (PDF)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    },
+    {
+     "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Combined%20Papers%20Public%20TB%2001-12-2022(1).pdf",
+     "title": "1 December 2022 (PDF) (opens in new window)",
+     "first_seen": "2026-08-24T15:13:52Z"
+    }
+   ],
+   "notes": "[2026-08-24] Added after re-probe. Was wrongly recorded as blocked off a single 403; the page reads fine under Playwright (fetch_mode=playwright is set) but publishes no forward schedule, and we hold no future date for it - so the watchlist poll is the only thing watching this org. Baselined with the 23 documents already on the page so they are not re-alerted as new."
   }
  ],
- "_last_updated": "2026-08-24T12:12:11Z",
+ "_last_updated": "2026-08-24T15:13:52Z",
  "_last_poll": "2026-08-24T12:12:11Z"
 }
