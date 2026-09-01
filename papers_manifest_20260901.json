@@ -1,0 +1,173 @@
+[
+ {
+  "id": "papers-RP5-henry-20260901",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust board - Tuesday 01 September 2026 - 6 leads",
+  "body_file": "dry_run_output/20260901_henry_papers_RP5.md",
+  "attach": [
+   "summaries/RP5_2026-09-01.md"
+  ]
+ },
+ {
+  "id": "papers-RY5-annabelle-20260901",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Lincolnshire Community and Hospitals NHS Group (LCHS / ULTH) board - Tuesday 01 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_annabelle_papers_RY5.md",
+  "attach": [
+   "summaries/RY5_2026-09-01.md"
+  ]
+ },
+ {
+  "id": "papers-RAL-matt-discombe-20260901",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Royal Free London NHS Foundation Trust board - Wednesday 02 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_matt-discombe_papers_RAL.md",
+  "attach": [
+   "summaries/RAL_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RAL-ella-20260901",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Royal Free London NHS Foundation Trust board - Wednesday 02 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_ella_papers_RAL.md",
+  "attach": [
+   "summaries/RAL_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RLT-caitlin-20260901",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] George Eliot Hospital NHS Trust and South Warwickshire University FT - Joint Board board - Wednesday 02 September 2026 - 4 leads",
+  "body_file": "dry_run_output/20260901_caitlin_papers_RLT.md",
+  "attach": [
+   "summaries/RLT_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RT2-nick-20260901",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Pennine Care NHS Foundation Trust board - Wednesday 02 September 2026 - 3 leads",
+  "body_file": "dry_run_output/20260901_nick_papers_RT2.md",
+  "attach": [
+   "summaries/RT2_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RTX-zoe-20260901",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of Morecambe Bay NHS Foundation Trust board - Wednesday 02 September 2026 - 6 leads",
+  "body_file": "dry_run_output/20260901_zoe_papers_RTX.md",
+  "attach": [
+   "summaries/RTX_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RPA-alison-20260901",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Medway NHS Foundation Trust board - Wednesday 02 September 2026 - 6 leads",
+  "body_file": "dry_run_output/20260901_alison_papers_RPA.md",
+  "attach": [
+   "summaries/RPA_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-TAJ-caitlin-20260901",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Black Country Healthcare NHS Foundation Trust board - Wednesday 02 September 2026 - 4 leads",
+  "body_file": "dry_run_output/20260901_caitlin_papers_TAJ.md",
+  "attach": [
+   "summaries/TAJ_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RM3-nick-20260901",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Northern Care Alliance NHS Foundation Trust board - Wednesday 02 September 2026 - 6 leads",
+  "body_file": "dry_run_output/20260901_nick_papers_RM3.md",
+  "attach": [
+   "summaries/RM3_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RCF-henry-20260901",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Airedale NHS Foundation Trust board - Wednesday 02 September 2026 - pack detected but NOT retrievable",
+  "body_file": "dry_run_output/20260901_henry_papers_RCF.md",
+  "attach": [
+   "summaries/RCF_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-QF7-henry-20260901",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] NHS South Yorkshire Integrated Care Board board - Wednesday 02 September 2026 - 7 leads",
+  "body_file": "dry_run_output/20260901_henry_papers_QF7.md",
+  "attach": [
+   "summaries/QF7_2026-09-02.md"
+  ]
+ },
+ {
+  "id": "papers-RA9-joe-20260901",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Torbay and South Devon NHS Foundation Trust board - Thursday 03 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_joe_papers_RA9.md",
+  "attach": [
+   "summaries/RA9_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-RAN-matt-discombe-20260901",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Royal National Orthopaedic Hospital NHS Trust board - Thursday 03 September 2026 - 0 leads",
+  "body_file": "dry_run_output/20260901_matt-discombe_papers_RAN.md",
+  "attach": [
+   "summaries/RAN_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-RAN-ella-20260901",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Royal National Orthopaedic Hospital NHS Trust board - Thursday 03 September 2026 - 0 leads",
+  "body_file": "dry_run_output/20260901_ella_papers_RAN.md",
+  "attach": [
+   "summaries/RAN_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-RAX-ella-20260901",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Kingston and Richmond NHS Foundation Trust board - Thursday 03 September 2026 - 4 leads",
+  "body_file": "dry_run_output/20260901_ella_papers_RAX.md",
+  "attach": [
+   "summaries/RAX_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-REF-joe-20260901",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Royal Cornwall Hospitals NHS Trust board - Thursday 03 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_joe_papers_REF.md",
+  "attach": [
+   "summaries/REF_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-RJN-zoe-20260901",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] East Cheshire NHS Trust board - Thursday 03 September 2026 - 6 leads",
+  "body_file": "dry_run_output/20260901_zoe_papers_RJN.md",
+  "attach": [
+   "summaries/RJN_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-RPG-ella-20260901",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Oxleas NHS Foundation Trust board - Thursday 03 September 2026 - 5 leads",
+  "body_file": "dry_run_output/20260901_ella_papers_RPG.md",
+  "attach": [
+   "summaries/RPG_2026-09-03.md"
+  ]
+ }
+]

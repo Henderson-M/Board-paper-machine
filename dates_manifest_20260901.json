@@ -1,0 +1,20 @@
+[
+ {
+  "id": "dates-zoe-20260901",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260901_zoe_dates.md",
+  "attach": [
+   "subscriptions/new/zoe_20260901.ics"
+  ]
+ },
+ {
+  "id": "dates-matt-mathers-20260901",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "dry_run_output/20260901_matt-mathers_dates.md",
+  "attach": [
+   "subscriptions/new/matt-mathers_20260901.ics"
+  ]
+ }
+]

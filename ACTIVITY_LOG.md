@@ -1,3 +1,151 @@
+## 2026-09-01 — Full sweep, live emails. 17 packs, 2 new dates, and a regional NHSE letter that shouldn't be public
+
+Full run from Henry's machine: 240 in-scope orgs scanned for dates, 76 in-window meetings
+checked for packs, 24 watchlist orgs polled, 120 existing dates re-verified. 22 emails sent
+live. **0 orgs broken, 2 degraded, 0 stale, 0 not checked.**
+
+**Dates: 2 new, out of 61 raw candidates.** That ratio is the story of this run. The
+deterministic extractor threw up 61 candidate dates and 59 of them were page furniture:
+"page last reviewed / next review due" pairs (RFR, RXE, RA7, RWK, R1D), AGMs and annual
+members' meetings (RVN, RJR, RJ8, RYC, RWD, RY5), councils of governors (RPA, RA9, RN5),
+question-submission deadlines and paper-publication dates (RX3, RYR), a cancer wellbeing
+event (RRK), a schedule-period heading read as a meeting ("Board meeting schedule to 31
+March 2027", RXL), year-inference artefacts where a 2025 archive row became a 2026 date
+(RTE, RT5, QF7), and — the biggest single block — 33 Greater Manchester ICB *locality
+board* and *committee* meetings (Bury, Trafford, Stockport; Audit, Strategic Commissioning,
+People and Resources, Primary Care Commissioning). Every one was checked against the
+literal page text before being dropped. The two survivors: **RXR East Lancashire 16 Sep**
+and **RX3 Tees Esk and Wear Valleys 23 Sep**.
+
+**The anti-omission cross-check earned its place again.** Northern Care Alliance publishes
+its pack behind an opaque `download_file/view/NNNNN` link whose anchor text is just
+"Download the meeting papers" — no date anywhere in the URL or the link text. Both the
+regex matcher and a summarising fetch would have concluded "no papers yet". Reading the raw
+HTML around the string "02 September 2026" found the pack sitting immediately after the
+date. Same shape as the Leeds Community miss in July.
+
+**Two orgs needed the notes field to be readable at all.** Airedale's note says "INVERTED
+LADDER: 403s Playwright on every path; WebFetch works fine" — and that is exactly right;
+WebFetch found its 2 September pack when both fetchers had returned nothing. South
+Yorkshire ICB's meeting `papers_url` was a stale direct `download_file` link; the org
+record's meetings page held the full 18-enclosure pack. That is the Alder Hey lesson
+(org record beats the meeting snapshot) paying off a second time. The QF7 meeting
+`papers_url` has now been corrected in state.
+
+**Packs: 17 analysed, 19 emails.** The strongest by a distance:
+
+- **QF7 South Yorkshire ICB (7 LEAD).** Two NHS England letters of 24 July reproduced in
+  full. NHSE has **withheld the ICB's Q2 deficit support funding**, requiring "100% of the
+  value of CIP is fully developed and being implemented" before more is released, decision
+  due by 30 September. The ICB is categorised regionally as **"Watch: Targeted support"**
+  under a new NEY regime replacing earned autonomy with **"earned intervention"**. The
+  finance annex is regional, not local: **NEY ended 2025/26 £378.6m in deficit, £145.3m
+  off plan, "one of the most challenged levels of performance against plan across all
+  regions"**; at M3 2026/27 the region is £152.7m in deficit against a £119m plan with 13
+  of 33 providers adverse and CIPs £35m behind. NHSE's statutory annual assessment
+  separately records the ICB **"did not meet two statutory financial duties"** on a £48.9m
+  deficit, and calls South Yorkshire "one of the poorest performing systems in England" for
+  LDA inpatient reliance among adults. Whole-region numbers surfacing in one ICB's public
+  pack.
+- **RP5 Doncaster & Bassetlaw (6 LEAD).** Underlying deficit **£51m at M4** against a
+  £10.1m committed exit rate; NHSE cash support application in preparation for September on
+  the worst case; savings £46.3m target vs £27.7m risk-adjusted; **Richard Jenkins now
+  interim CEO here while remaining joint CEO of Barnsley and Rotherham** — one chief
+  executive across three South Yorkshire acutes, plus interim chair, interim assistant CEO
+  and interim company secretary; and the winter board assurance statement answers **"No"**
+  to NHSE's corridor-care question and **"No"** on IPC rapid reconfiguration.
+- **RM3 Northern Care Alliance (6 LEAD).** **Section 29A warning notice, NHSE enforcement
+  undertakings and a System Improvement Board** following a July well-led inspection;
+  independent review of spinal and gynaecology starting 10 September; forecasting a
+  possible **"cash distress position"** from October.
+- **RPA Medway (6 LEAD).** Underlying deficit **£74.6m = 13.5% of turnover, "the highest
+  percentage deficit in the provider table"**; modelled **£41m cash shortfall** with
+  **£41.8m of creditor payments to be stretched** to hold the £2.765m NHSE minimum;
+  fortnightly RTT monitoring imposed by NHSE with a system turnaround director.
+- **RTX Morecambe Bay (6 LEAD).** External auditor's **significant weakness in financial
+  sustainability**; NOF segment 4 and a single improvement plan triggered; **CPO, COO and
+  CFO all departed between 17 April and 23 June**; PwC extended; MIAA **"No Assurance"** on
+  disability reasonable adjustments.
+- **RJN East Cheshire (6 LEAD).** C&M ICB has stood up a **task force on "Sustainable
+  Hospital Services at East Cheshire Trust"** led by its turnaround director, first
+  programme board this month; an **arms-length review of the structural deficit**
+  commissioned with NHSE; **£2m of distressed revenue support drawn in April**; segment 4,
+  UEC tier 1, elective tier 2. New CEO **Zara Jones starts 1 October — she is currently
+  DBTH's deputy chief executive**, so two of this run's packs are connected.
+- **REF Royal Cornwall (5 LEAD).** Underlying deficit **£54.4m, up from £43.5m at M2**, on
+  a revised assumption that only half the savings plan lands; internal forecast of a
+  **£24.1m year-end overspend** drawing "significant concern"; **two never events** in
+  April (a retained vaginal swab; three retained NG guidewires); acting chief executive
+  following the previous CEO's departure.
+- **RA9 Torbay & South Devon (5 LEAD).** **Segment 4, ranked 102 of 134 providers, down
+  from 83rd** the previous quarter; breakeven plan built on **£57.8m of deficit support**
+  (£27.5m deficit without it); winter modelling shows a **170-bed shortfall** at peak.
+- **RAX Kingston & Richmond (4 LEAD).** A mortuary services review found **11 major and 11
+  minor shortfalls**, majors to be closed by 17 September — worth reading against the
+  national post-Nottingham mortuary letter. The same pack discloses that **Caroline Clarke
+  is leaving as NHSE London regional director to become founding chief executive of the new
+  Online NHS Trust**, launching 2027.
+- **RY5 Lincolnshire group (5 LEAD).** The audit committee found the **Lincoln community
+  diagnostic centre "was not providing financial value for money"** and that "due to
+  regional and national pressures to develop the CDC after COVID, the usually routine
+  options evaluation was not systematically undertaken". Plus an explicit **Regulation 28
+  risk** on the register should a patient die awaiting PCI, a stroke service down to one
+  substantive consultant, respiratory at 9 against a GIRFT-recommended 15, and a proposed
+  **"Seated and Corridor Care Areas" quality framework** — corridor care being formalised
+  rather than eliminated.
+- **RLT/RJC George Eliot + South Warwickshire joint board (4 LEAD).** A named NED
+  **"formally recorded his continued lack of confidence"** in the joint EPR programme;
+  Deloitte's annual auditor's report flags **VfM weaknesses on financial sustainability**;
+  NHSE consulted about NED strain across the joint board.
+- Also: **RAL Royal Free** (£23m recurrent FIP shortfall, segment 4 on patient safety after
+  breaching three bloodstream infection thresholds, three never events); **RPG Oxleas**
+  (breakeven bought with £8.6m of one-off support, audit committee alert on rising
+  employment tribunals, three CFOs in a year, 1,460 children waiting 52+ weeks for ADHD
+  assessment); **TAJ Black Country Healthcare** (GP withdrawal from psychotropic prescribing
+  risking a "prescription-only" secondary care service, seven open CQC requirement notices,
+  chair shared with Birmingham and Solihull MH); **RT2 Pennine Care** (segment 4 on the
+  24-hour crisis metric); **RAN RNOH** (thin — a never event, and the board chaired by the
+  SID in lieu of a chair).
+
+**One pack detected and not read: Airedale (RCF).** The 2 September pack is published and
+linked, but the trust's front end returns 403 to requests, Playwright and a browser-UA curl
+alike, and the file exceeds WebFetch's 10MB limit. Henry's alert carries the direct link and
+a plain statement that it has NOT been analysed; the meeting is left at `papers_found`, not
+`analysed`. A stub summary records what was tried. **This needs a fix before Airedale's
+4 November board.**
+
+**Re-verification: 107 confirmed, 2 contradicted, 10 unverifiable, 1 unreadable.** Both
+contradictions (RVN 16 Sep, RXR 9 Sep) had **never been alerted**, so no withdrawal emails
+were owed — and RXR's contradiction is what surfaced its real date of 16 September, which
+was then added and alerted. Nothing else in state is awaiting a withdrawal.
+
+**Watchlist: five false positives, zero alerts.** RDaSH, Central East ICB, Alder Hey, YAS
+and NWAS all appeared to have new files. None did: RDaSH and NWAS were older archive packs,
+Central East was the April meeting book, YAS was committee terms of reference, and Alder
+Hey's "8 new" were the same documents its `known_files` already held under landing-page
+URLs rather than resolved PDF URLs. 35 files baselined, nothing sent. The empty-baseline
+trap from 3 August did not recur, but **Alder Hey shows a second version of it** — a
+`known_files` list holding a different URL *form* is as good as empty for dedup purposes.
+Worth normalising landing-page vs resolved-PDF URLs in a future patch.
+
+**Encoding.** `org_health.py report --markdown` emits a U+FFFD replacement character where
+an em-dash should be, and a plain shell redirect of its output writes Windows-1252. Both
+were caught and fixed before the run report was built (captured via subprocess with
+`PYTHONIOENCODING=utf-8`, then patched). Worth fixing at source in `org_health.py`.
+
+**Still open**
+- Airedale (RCF): needs a working fetch route for its PDFs, or a manual download step.
+- Clatterbridge (REN): 403 to WebFetch, nothing under Playwright. Its dates live inside a
+  "2026-27" folder not linked from the landing page — needs a corrected `schedule_url`,
+  not a retry.
+- The Online NHS Trust (K0N6A): no URL, no board, launches 2027. Decide whether to mute it
+  until then. It now has a named founding chief executive.
+- Avon and Wiltshire (RVN): 16 Sep retracted; the page shows 23 and 30 September but the
+  date scan read the 23rd as an AGM. One manual look needed.
+- East Cheshire (RJN): the papers contradict themselves on whether Q2 DSF has been
+  received. Flagged in the summary; worth putting to the trust.
+
+
 ## 2026-08-24 (follow-up 2) - a way to fix a broken link, and four orgs that were never broken
 
 Henry asked whether the tool had any provision for fixing a broken link, or whether a list of
