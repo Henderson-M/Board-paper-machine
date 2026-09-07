@@ -63,6 +63,16 @@ broken, not right. A veto was also added so a document whose own name carries a 
 meeting date cannot be attached to the wrong meeting; that alone removed Mersey Care's July
 pack and Great Western's 3 September pack from the September alerts.
 
+**Pushing from this repo.** Plain `git push` used to fail here with "Password
+authentication is not supported" because the repo inherited Git Credential Manager. It is now
+wired to the shared helper, same as the other repos:
+
+    git config --local credential.https://github.com.helper ""
+    git config --local --add credential.https://github.com.helper       "!'/c/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/tools/git-credential-hsj.sh'"
+
+The helper reads GITHUB_TOKEN from .claude/.env, so nothing secret is in .git/config. Re-run
+those two lines after a fresh clone.
+
 **Encoding.** `org_health.py report --markdown` writes cp1252 on this machine, so piping it
 straight into an email body produces mojibake. It was decoded and normalised before sending.
 
