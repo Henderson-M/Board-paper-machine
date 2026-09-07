@@ -1,0 +1,67 @@
+Hi Joe,
+
+New papers detected for South Western Ambulance Service NHS Foundation Trust's board meeting on Thursday 10 September 2026.
+The pack-analyser found 1 LEAD / 6 WORTH WATCHING / 2 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+
+# South Western Ambulance Service Foundation Trust board — 10 September 2026
+
+- **Source:** https://www.swast.nhs.uk/about-us/trust-board
+- **Pack:** 1 file (357pp)
+- **Analysed:** 2026-09-07
+
+## Top lines
+
+[LEAD] Internal audit gave South Western Ambulance a limited assurance opinion on its physical security arrangements.
+[Evidence] "Internal Audit had issued a Limited Assurance opinion regarding Physical Security arrangements. The Committee explored the findings in detail and would continue to oversee the delivery of management actions." — p.18, [Minutes, Audit and Risk Committee Assurance Report]
+
+[WORTH WATCHING] The trust is in segment 3 of the oversight framework but 8th of the ambulance trusts nationally, improving from 10th and 9th in earlier quarters.
+[Evidence] "NHS England published in June its latest national performance results for ambulance Trusts, covering January to March 2026. The Trust currently is in Segment 3, and is at 8th place nationally (improving from 10th in Quarter 2 and 9th in Quarter 4)." — p.42, [Chief Executive's report, NHS Oversight Framework]
+
+[WORTH WATCHING] Month 4 shows a £14,000 deficit, reported as breakeven under NHSE's measure, with risks on savings and on funding outside the trust's control.
+[Evidence] "Income and Expenditure (I&E) the overall position was a £14k deficit for month 4. This is reported as breakeven as measured by NHSE due to the impact of charitable/donated depreciation. The overall position has risks associated with the delivery of the cost improvement plan and confirmation of funding for elements outside of the Trust control." — p.43, [Chief Executive's report, in-year financial position]
+
+[WORTH WATCHING] Two cost improvement schemes are rated amber, and part of the overhead reduction programme's savings rest on non-recurrent funding.
+[Evidence] "Two cost improvement schemes remained rated Amber, and attention was drawn to the overhead reduction programme, noting that elements of the savings were supported by non-recurrent funding. Cash flow continued to be a key area of focus for both the Trust and NHS England." — p.17, [Minutes, finance report]
+
+[WORTH WATCHING] Turnover in the emergency operations centre has fallen from 32.8 per cent to 25.3 per cent since October 2025, following a new exit interview process.
+[Evidence] "EOC turnover reducing from 32.8% in October 2025 to 25.3% in July 2026 and below the rolling average for the last 5 months." — p.68, [People report]
+
+[WORTH WATCHING] The trust has one case with the Parliamentary and Health Service Ombudsman for independent review.
+[Evidence] "The Trust currently has one file with the Parliamentary and Health Service Ombudsman (PHSO) for independent review." — p.46, [Chief Executive's report]
+
+[WORTH WATCHING] The capital plan is £33.103m for 2026-27, with a further £3.69m of schemes identified in case more capital is released.
+[Evidence] "The Trust capital plan for 2026/27 is £33.103m. At month four the Trust has included £1.321m of capital and" — p.43, [Chief Executive's report]; "In anticipation of any additional capital being released, schemes totaling £3.69 million had been iden[tified]" — p.17, [Minutes]
+
+[FOI] Request the internal audit report on physical security arrangements and the management action plan — from South Western Ambulance Service.
+[Evidence] p.18, [Minutes, Audit and Risk Committee]
+
+[FOI] Request the annual accounts and annual report considered at the extraordinary audit committee, including the auditor's ISA 260 report — from South Western Ambulance Service. They are referenced in the minutes but not included in this pack.
+[Evidence] "An extraordinary Committee meeting had considered the Trust's Annual Accounts and Annu[al Report]" — p.18, [Minutes, Audit and Risk Committee]
+
+## Verbatim colour
+
+> "Internal Audit had issued a Limited Assurance opinion regarding Physical Security arrangements." — p.18, [Minutes]
+> "elements of the savings were supported by non-recurrent funding" — p.17, [Minutes, on the overhead reduction programme]
+> "Cash flow continued to be a key area of focus for both the Trust and NHS England." — p.17, [Minutes]
+
+## Files reviewed
+
+- agenda-pack-board-of-directors-in-public-september-2026pdf.pdf — 357pp (agenda, minutes, Chief Executive's report including oversight framework and in-year financial position, Finance and Infrastructure Committee assurance report, Audit and Risk Committee assurance report, People Committee assurance report with Freedom to Speak Up biannual report and EDI annual report)
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 9 (LEAD: 1, WORTH WATCHING: 6, FOI: 2)
+- Colour quotes: 3
+- Annual accounts / annual report present: no in this pack — the minutes record an extraordinary audit committee considering the annual accounts and annual report (p.18), and a Freedom to Speak Up biannual report and EDI annual report are on this agenda, but the statutory accounts are not included
+
+
+---
+
+Pack source: https://www.swast.nhs.uk/board-meeting-schedule-and-public-papers/
+
+- Board paper machine

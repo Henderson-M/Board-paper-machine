@@ -1,0 +1,73 @@
+Hi Annabelle,
+
+New papers detected for Kettering General Hospital NHS Foundation Trust's board meeting on Thursday 10 September 2026.
+The pack-analyser found 3 LEAD / 5 WORTH WATCHING / 2 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+
+# University Hospitals of Northamptonshire (Kettering General / Northampton General) boards in public — 10 September 2026
+
+- **Source:** https://www.kgh.nhs.uk/board-papers
+- **Pack:** 1 file (174pp), covering the KGH and NGH boards meeting in common
+- **Analysed:** 2026-09-07
+
+**Attribution note:** the minutes in this pack (item 3.1) are of a joint meeting of the KGH, NGH **and University Hospitals of Leicester** boards on 11 June 2026. Items attributed to UHL below happened at Leicester, not Northamptonshire. Check the speaker before using anything from that section.
+
+## Top lines
+
+[LEAD] Both Kettering General and Northampton General submitted non-compliant operational plans, and are relying on monthly cash support as a result.
+[Evidence] "Both KGH and NGH had submitted non compliant operational plans which meant monthly cash support was being relied upon and capital expenditure management. - Underlying risks regarding the cash position and CIP delivery heightened the need to ensure the financial the financial plan was delivered." — p.12, [Minutes of the boards in common, 11 June 2026, UHN Chief Financial Officer]
+
+[LEAD] The cash support runs to £5m for Kettering and £1m for Northampton.
+[Evidence] "h support of £5m for Kettering General Hospital (KGH) and £1m for Northampton General Hospital (NGH)." — p.14, [Minutes, 11 June 2026]
+
+[LEAD] Payment performance has collapsed to 58 per cent of invoices by volume against a 95 per cent target.
+[Evidence] "YTD BPPC performance to 58% by invoice volume and 64% by value, significantly below the 95% target." — p.74, [July 2026 IPR financial tables]
+
+[WORTH WATCHING] 90 per cent of savings schemes are identified but the group says delivery risk remains high, with £3.2m achieved in April — 5 per cent of the total.
+[Evidence] "The Cost Improvement Plan (CIP) achieved £3.2m in April, which was 5% of the total. 90% of the schemes had now been identified for the CIP, but delivery risk remained high." — p.12, [Minutes, UHN Chief Financial Officer]
+
+[WORTH WATCHING] The trusts took £3.6m of revenue support public dividend capital in month, alongside £4.1m of capital allocation.
+[Evidence] "PDC Capital Increase of £7.7m in month includes Capital programme allocation of £4.1m plus £3.6m of Revenue Support PDC received. • Income & Expenditure movement reflects in-month deficit of £3.1m." — p.74, [July 2026 IPR financial tables]
+
+[WORTH WATCHING] Kettering's maternity service is under the national Maternity and Neonatal Improvement Support Team programme, with a perinatal report to this meeting.
+[Evidence] Agenda item 7, "Perinatal Report (including KGH Maternity and Neonatal Improvement Support Team update)" — p.1, [Agenda]
+
+[WORTH WATCHING] Board members discussed whether closer working with Leicester would improve medical recruitment at Northamptonshire.
+[Evidence] "The attractiveness of UHN for medical recruitment was considered, in terms of its attractiveness as a place to work and whether closer working with UHL would improve this. The collaboration between KGH and NGH had improved recruitment" — p.11, [Minutes, 11 June 2026]
+
+[WORTH WATCHING] [Leicester, not Northamptonshire] University Hospitals of Leicester reported three never events in April.
+[Evidence] "The UHL Medical Director reported 3 never events in the month of April with full investigation and review of procedures having taken place in response ... It was assured that there was minimal patient harm." — p.10, [Minutes, 11 June 2026]
+
+[FOI] Request both non-compliant operational plans, NHS England's response to them, and the terms and monthly schedule of the cash support — from Kettering General, Northampton General and NHSE Midlands.
+[Evidence] p.12 and p.14, [Minutes, 11 June 2026]
+
+[FOI] Request the external review of patient safety governance and the action plan tracking its recommendations — from University Hospitals of Northamptonshire.
+[Evidence] "Received an update on delivery of actions arising from the external review of patient safety governance. Significant progress has been made in strengthening patient safety leadership, risk management and organisational learning arrangements" — p.89, [Board committees upward report]
+
+## Verbatim colour
+
+> "Both KGH and NGH had submitted non compliant operational plans which meant monthly cash support was being relied upon" — p.12, [Minutes, UHN Chief Financial Officer]
+> "90% of the schemes had now been identified for the CIP, but delivery risk remained high" — p.12, [Minutes, UHN Chief Financial Officer]
+> "the increasing challenge of meeting Cost Improvement Plan targets as the plan transitioned into quarter 2, specifically with regard to workforce targets" — p.13, [Minutes, committee chair's report]
+> "Concern was expressed that such incidents were underreported due to a general view that action would not be taken." — p.11, [Minutes, on violence against staff and civil enforcement orders]
+
+## Files reviewed
+
+- uhn-public-boards-100926-agenda-and-paperspdf.pdf — 174pp (agenda, patient story, minutes of the 11 June boards-in-common with UHL, action log, CEO report, July Integrated Performance Report and financial tables, board committees upward report, perinatal report)
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 10 (LEAD: 3, WORTH WATCHING: 5, FOI: 2)
+- Colour quotes: 4
+- Annual accounts / annual report present: no
+
+
+---
+
+Pack source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+
+- Board paper machine

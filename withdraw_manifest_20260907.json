@@ -1,0 +1,11 @@
+[
+ {
+  "id": "wd_alison_20260907",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn - please delete from your calendar",
+  "body_file": "outbox/20260907_alison_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/alison_20260907.ics"
+  ]
+ }
+]

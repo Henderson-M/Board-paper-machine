@@ -1,0 +1,47 @@
+[
+ {
+  "id": "dates_ella_20260907",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "outbox/20260907_ella_dates.md",
+  "attach": [
+   "subscriptions/new/ella_20260907.ics"
+  ]
+ },
+ {
+  "id": "dates_james_20260907",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "outbox/20260907_james_dates.md",
+  "attach": [
+   "subscriptions/new/james_20260907.ics"
+  ]
+ },
+ {
+  "id": "dates_matt-discombe_20260907",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260907_matt-discombe_dates.md",
+  "attach": [
+   "subscriptions/new/matt-discombe_20260907.ics"
+  ]
+ },
+ {
+  "id": "dates_mimi_20260907",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 6 new meeting date(s) detected",
+  "body_file": "outbox/20260907_mimi_dates.md",
+  "attach": [
+   "subscriptions/new/mimi_20260907.ics"
+  ]
+ },
+ {
+  "id": "dates_zoe_20260907",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260907_zoe_dates.md",
+  "attach": [
+   "subscriptions/new/zoe_20260907.ics"
+  ]
+ }
+]

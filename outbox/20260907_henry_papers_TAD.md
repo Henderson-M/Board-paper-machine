@@ -1,0 +1,64 @@
+Hi Henry,
+
+New papers detected for Bradford District Care NHS Foundation Trust's board meeting on Thursday 10 September 2026.
+The pack-analyser found 3 LEAD / 3 WORTH WATCHING / 2 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+
+# Bradford District Care Foundation Trust board — 10 September 2026
+
+- **Source:** https://www.bdct.nhs.uk/about-us/trust-board/
+- **Pack:** 1 file (376pp)
+- **Analysed:** 2026-09-07
+
+## Top lines
+
+[LEAD] NHS England has put Bradford District Care in its "Watch category", bringing heightened scrutiny of recovery planning, savings delivery, workforce costs and governance.
+[Evidence] "NHS England's decision to place the Trust in the 'Watch category' reflects concern over deliverability rather than current financial failure, and there is heightened scrutiny on recovery planning, CIP delivery, workforce costs and governance." — p.112, [Month 4 finance report, key messages and risks]
+
+[LEAD] The trust is forecasting a £4.1m savings shortfall and carrying a £4.5m residual financial risk, with breakeven dependent on non-recurrent mitigations.
+[Evidence] "The Trust remains technically on plan and forecasting a breakeven position, but delivery of the year-end financial target is becoming increasingly dependent on mitigating a significant Cost Improvement Programme (CIP) shortfall and addressing a residual financial risk of £4.5 million ... A £4.1m forecast CIP shortfall has been recognised within the reported position, with non-recurrent mitigations identified to maintain financial balance." — p.109, [Month 4 finance report, executive summary]
+
+[LEAD] Bradford District Care is proposing a joint chief people officer shared with Airedale Foundation Trust, prompted in part by the current postholder's planned departure.
+[Evidence] "B Champion presented the proposed Joint Chief People Officer model between the Trust and Airedale NHS Foundation Trust. The proposal reflected on the shared Chair arrangement and earlier joint working discussions, B Champion's planned departure, the emerging place provider partnership and wider direction of travel for people and organisational development services ... It had been discussed at Airedale's Board and BDCFT's Board Nomination and Remuneration Committee, with broad support in principle." — p.17, [Minutes]
+
+[WORTH WATCHING] The trust has deployed its risk contingency to absorb the savings shortfall and told programme leads to find further mitigations.
+[Evidence] "The Month 4 position includes under delivery on the efficiency programme of £527k YTD and £4.2m forecast. To manage the delivery shortfall, the Trust will deployed its risk contingency and require the SRO leads for programmes to identify mitigating actions to cover risks to ensure that the Trust can deliver its breakeven duty." — p.116, [Month 4 finance report]
+
+[WORTH WATCHING] No never events were reported in the period, but there are nine open patient safety incident investigations including two suspected suicides and an unexpected death among the three newest.
+[Evidence] "Since the last report 0 Never Events were reported. There were three new Patient Safety Incident Investigations (PSIIs) reported since the last report, 2 suspected suicides and 1 unexpected death. There are nine open PSIIs, currently, three ongoing SJRs and six ongoing LLRs." — p.42, [Quality/safety report]
+
+[WORTH WATCHING] The coroner made no criticism of the trust across the inquests reported, which returned six narrative conclusions among them.
+[Evidence] "There was no criticism made of the Trust by the Coroner in any of the cases. The coroner's conclusions for all cases were: ▪Accident x 2 ▪Narrative x 6 ▪Natural x 3 ▪Misadventure x 1 ▪Suicide x 1 ▪Alcohol and drug related x 1 ▪Drug related x 2" — p.42, [Quality/safety report]
+
+[FOI] Request NHS England's correspondence placing the trust in the Watch category, the criteria applied and the recovery plan submitted in response — from Bradford District Care and NHSE North East and Yorkshire. Worth checking which other trusts are in the same category.
+[Evidence] p.112, [Month 4 finance report]
+
+[FOI] Request the joint chief people officer business case and the Airedale and Bradford board and nomination committee papers on it, including cost and governance arrangements — from both trusts.
+[Evidence] p.17, [Minutes]
+
+## Verbatim colour
+
+> "NHS England's decision to place the Trust in the 'Watch category' reflects concern over deliverability rather than current financial failure" — p.112, [Month 4 finance report]
+> "The Trust remains technically on plan and forecasting a breakeven position, but delivery of the year-end financial target is becoming increasingly dependent on mitigating a significant Cost Improvement Programme (CIP) shortfall" — p.109, [Month 4 finance report]
+> "the Trust will deployed its risk contingency and require the SRO leads for programmes to identify mitigating actions to cover risks to ensure that the Trust can deliver its breakeven duty" — p.116, [Month 4 finance report]
+
+## Files reviewed
+
+- Pubic-Board-10-September-2026.pdf — 376pp (agenda, minutes including the joint chief people officer proposal, governance report, quality and safety report covering inquests and patient safety incident investigations, Month 4 finance report)
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 8 (LEAD: 3, WORTH WATCHING: 3, FOI: 2)
+- Colour quotes: 3
+- Annual accounts / annual report present: no — the minutes note a report due to Audit Committee in June and board in July, but no statutory accounts in this pack
+
+
+---
+
+Pack source: https://www.bdct.nhs.uk/about-us/our-trust/our-board/board-meetings-and-papers/
+
+- Board paper machine

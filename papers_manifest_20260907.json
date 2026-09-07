@@ -1,0 +1,182 @@
+[
+ {
+  "id": "papers_joe_RA7_20260907",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Bristol and Weston NHS Foundation Trust board - Tuesday 8 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_joe_papers_RA7.md",
+  "attach": [
+   "summaries/RA7_2026-09-08.md"
+  ]
+ },
+ {
+  "id": "papers_joe_RH5_20260907",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Somerset NHS Foundation Trust board - Tuesday 8 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_joe_papers_RH5.md",
+  "attach": [
+   "summaries/RH5_2026-09-08.md"
+  ]
+ },
+ {
+  "id": "papers_joe_R0D_20260907",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Dorset NHS Foundation Trust board - Wednesday 9 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_joe_papers_R0D.md",
+  "attach": [
+   "summaries/R0D_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_ella_R1H_20260907",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Barts Health NHS Trust board - Wednesday 9 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_ella_papers_R1H.md",
+  "attach": [
+   "summaries/R1H_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_matt-discombe_R1H_20260907",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Barts Health NHS Trust board - Wednesday 9 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_matt-discombe_papers_R1H.md",
+  "attach": [
+   "summaries/R1H_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_ella_RKL_20260907",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] West London NHS Trust board - Wednesday 9 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_ella_papers_RKL.md",
+  "attach": [
+   "summaries/RKL_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_matt-discombe_RKL_20260907",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] West London NHS Trust board - Wednesday 9 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_matt-discombe_papers_RKL.md",
+  "attach": [
+   "summaries/RKL_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_emily_RWH_20260907",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] East and North Hertfordshire NHS Trust board - Wednesday 9 September 2026 - 2 leads",
+  "body_file": "outbox/20260907_emily_papers_RWH.md",
+  "attach": [
+   "summaries/RWH_2026-09-09.md"
+  ]
+ },
+ {
+  "id": "papers_mimi_RHM_20260907",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] University Hospital Southampton NHS Foundation Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_mimi_papers_RHM.md",
+  "attach": [
+   "summaries/RHM_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_joe_RJ8_20260907",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Cornwall Partnership NHS Foundation Trust board - Thursday 10 September 2026 - 4 leads",
+  "body_file": "outbox/20260907_joe_papers_RJ8.md",
+  "attach": [
+   "summaries/RJ8_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_annabelle_RNQ_20260907",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Kettering General Hospital NHS Foundation Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_annabelle_papers_RNQ.md",
+  "attach": [
+   "summaries/RNQ_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_alison_RRU_20260907",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] London Ambulance Service NHS Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_alison_papers_RRU.md",
+  "attach": [
+   "summaries/RRU_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_ella_RRU_20260907",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] London Ambulance Service NHS Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_ella_papers_RRU.md",
+  "attach": [
+   "summaries/RRU_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_matt-discombe_RRU_20260907",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] London Ambulance Service NHS Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_matt-discombe_papers_RRU.md",
+  "attach": [
+   "summaries/RRU_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_emily_RWG_20260907",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] West Hertfordshire Teaching Hospitals NHS Trust board - Thursday 10 September 2026 - 1 leads",
+  "body_file": "outbox/20260907_emily_papers_RWG.md",
+  "attach": [
+   "summaries/RWG_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_henry_RWY_20260907",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Calderdale and Huddersfield NHS Foundation Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_henry_papers_RWY.md",
+  "attach": [
+   "summaries/RWY_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_nick_RXV_20260907",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Greater Manchester Mental Health NHS Foundation Trust board - Thursday 10 September 2026 - 4 leads",
+  "body_file": "outbox/20260907_nick_papers_RXV.md",
+  "attach": [
+   "summaries/RXV_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_alison_RYF_20260907",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] South Western Ambulance Service NHS Foundation Trust board - Thursday 10 September 2026 - 1 leads",
+  "body_file": "outbox/20260907_alison_papers_RYF.md",
+  "attach": [
+   "summaries/RYF_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_joe_RYF_20260907",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] South Western Ambulance Service NHS Foundation Trust board - Thursday 10 September 2026 - 1 leads",
+  "body_file": "outbox/20260907_joe_papers_RYF.md",
+  "attach": [
+   "summaries/RYF_2026-09-10.md"
+  ]
+ },
+ {
+  "id": "papers_henry_TAD_20260907",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Bradford District Care NHS Foundation Trust board - Thursday 10 September 2026 - 3 leads",
+  "body_file": "outbox/20260907_henry_papers_TAD.md",
+  "attach": [
+   "summaries/TAD_2026-09-10.md"
+  ]
+ }
+]

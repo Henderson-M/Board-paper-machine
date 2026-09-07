@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RY3-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260907T113516Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:East of England Community Health and Care NHS Trust - Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/
+URL:https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/
+END:VEVENT
+END:VCALENDAR

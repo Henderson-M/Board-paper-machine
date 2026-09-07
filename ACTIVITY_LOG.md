@@ -1,3 +1,71 @@
+## 2026-09-07 - Full sweep, live emails. 15 packs, 17 new dates, and a false-positive problem worth knowing about
+
+Full run from Dave's machine (first time he has operated it). 239 in-scope orgs scanned for
+dates, 76 in-window meetings checked for packs, 120 existing dates re-verified. 27 emails
+sent live, all delivered. **0 orgs broken, 1 degraded, 0 stale, 0 not checked.**
+
+**The thing to take away from this run: most detected dates were not real.** The scan threw up
+87 candidate future dates and only 17 survived checking. The rest fell into four groups, and
+they will recur every run:
+
+- page furniture: "Page last reviewed / Next review due" footers, and print timestamps that
+  render today's date ("This document was correct at the time of printing - 07-09-2026"). Six
+  different orgs appeared to have a board meeting today purely because of this.
+- deadlines rather than meetings: "questions must be submitted by 10am on 15 September".
+- the wrong kind of meeting: Council of Governors, Annual Members' Meetings, AGMs.
+- Greater Manchester ICB's events page, which lists every committee and locality board and
+  produced 32 candidates. Its four genuine ICB board dates were already in state.
+
+Nothing was recorded until the surrounding text was read. Anyone extending the date scan
+should keep that check, because all of the above pass a date-validity test comfortably.
+
+**New dates (17 state entries, 11 distinct meetings):** Solent/Southern Health's shared
+Hampshire and Isle of Wight board published its 2027-28 schedule (6 dates, Apr 27 to Feb 28,
+recorded against both ods codes but sent to Mimi once); Oxleas 5 Nov; Barking Havering and
+Redbridge 5 Nov; Morecambe Bay 4 Nov; East of England Community Health and Care 30 Sep;
+Cambridgeshire and Peterborough 13 Jan 27.
+
+**Packs analysed (15):** Bristol, Somerset, University Hospitals Dorset, Barts Health, West
+London, East and North Herts, Southampton, Cornwall Partnership, Kettering/UHN boards in
+common, London Ambulance, West Herts, Calderdale and Huddersfield, Greater Manchester Mental
+Health, South Western Ambulance, Bradford District Care.
+
+Strongest: GMMH has a CQC regulation 29A warning notice dated 12 August on community mental
+health, after four core-service inspections since June, and says its response does not resolve
+the CMHT safer-staffing requirement or the medical establishment gap. Bradford District Care
+has been put in NHSE's "Watch category". Cornwall's plan was approved with conditions to
+de-risk the CIP. Kettering and Northampton both submitted non-compliant operational plans and
+are on monthly cash support. Calderdale's medical director told the board it benchmarks higher
+than comparators on never events. London Ambulance's annual report and accounts were in its
+pack (clean opinion, £5.052m adjusted surplus, 37 exit packages worth £1.378m).
+
+**Withdrawal:** Kent and Medway 24 September retracted and withdrawn to Alison. Their page
+shows an AGM on 23 September and nothing on the 24th. The 23rd was already alerted, so this
+was a delete-only correction.
+
+**Two problems handed back to the operator, not fixed here:**
+
+1. Great Western (RN3) 10 September looks wrong. The page shows a BSW group board on
+   3 September and that is the pack published. It was not in this run's re-verification slice
+   so it has not been formally contradicted; run `reverify_dates.py --orgs RN3` to settle it.
+2. Royal Berkshire (RHW) 16 September is the AGM, not a board meeting - the board meets
+   23 September. The only document for the 16th is an AGM agenda, so it was deliberately not
+   sent as a board pack.
+
+Both need a human decision, since the retraction rule requires the org's own schedule to
+contradict the date.
+
+**Tooling note.** The pack matcher used this run initially returned zero packs across all 76
+in-window meetings, which was a bug rather than a finding: a regex character class written as
+`[_%20]` stripped the digits 2 and 0 out of every filename, so no year could ever match. Worth
+remembering the shape of it - a matcher that returns nothing everywhere is almost always
+broken, not right. A veto was also added so a document whose own name carries a different
+meeting date cannot be attached to the wrong meeting; that alone removed Mersey Care's July
+pack and Great Western's 3 September pack from the September alerts.
+
+**Encoding.** `org_health.py report --markdown` writes cp1252 on this machine, so piping it
+straight into an email body produces mojibake. It was decoded and normalised before sending.
+
 ## 2026-09-01 — Full sweep, live emails. 17 packs, 2 new dates, and a regional NHSE letter that shouldn't be public
 
 Full run from Henry's machine: 240 in-scope orgs scanned for dates, 76 in-window meetings
