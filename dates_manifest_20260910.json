@@ -1,0 +1,94 @@
+[
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_caitlin_dates.md",
+  "attach": [
+   "subscriptions/new/caitlin_20260910.ics"
+  ],
+  "id": "dates_caitlin_20260910",
+  "recipient": "Caitlin",
+  "meeting_ids": [
+   "RKB:2026-10-01",
+   "RRE:2027-02-11"
+  ]
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_henry_dates.md",
+  "attach": [
+   "subscriptions/new/henry_20260910.ics"
+  ],
+  "id": "dates_henry_20260910",
+  "recipient": "Henry",
+  "meeting_ids": [
+   "RJL:2026-11-12"
+  ]
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_matt-discombe_dates.md",
+  "attach": [
+   "subscriptions/new/matt-discombe_20260910.ics"
+  ],
+  "id": "dates_matt-discombe_20260910",
+  "recipient": "Matt Discombe",
+  "meeting_ids": [
+   "RKL:2026-12-07"
+  ]
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_ella_dates.md",
+  "attach": [
+   "subscriptions/new/ella_20260910.ics"
+  ],
+  "id": "dates_ella_20260910",
+  "recipient": "Ella",
+  "meeting_ids": [
+   "RKL:2026-12-07"
+  ]
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_matt-mathers_dates.md",
+  "attach": [
+   "subscriptions/new/matt-mathers_20260910.ics"
+  ],
+  "id": "dates_matt-mathers_20260910",
+  "recipient": "Matt Mathers",
+  "meeting_ids": [
+   "RXP:2026-09-24"
+  ]
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_zoe_dates.md",
+  "attach": [
+   "subscriptions/new/zoe_20260910.ics"
+  ],
+  "id": "dates_zoe_20260910",
+  "recipient": "Zoe",
+  "meeting_ids": [
+   "RJN:2026-11-05"
+  ]
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260910/20260910_joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260910.ics"
+  ],
+  "id": "dates_joe_20260910",
+  "recipient": "Joe",
+  "meeting_ids": [
+   "RNZ:2026-09-10"
+  ]
+ }
+]

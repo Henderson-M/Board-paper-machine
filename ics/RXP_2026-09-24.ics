@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXP-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260910T090803Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:County Durham and Darlington NHS Foundation Trust - Extra-Ordinary Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers
+URL:https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers
+END:VEVENT
+END:VCALENDAR

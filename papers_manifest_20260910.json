@@ -1,0 +1,321 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Bath and North East Somerset, Swindon and Wiltshire ICB board - 16 Sep 2026 - 0 leads",
+  "body_file": "outbox/20260910/20260910_joe_papers_QOX_2026-09-16.md",
+  "attach": [
+   "summaries/QOX_2026-09-16.md"
+  ],
+  "id": "papers_QOX_2026-09-16_joe",
+  "recipient": "Joe",
+  "meeting_id": "QOX:2026-09-16",
+  "also_marks": [],
+  "leads": 0
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Black Country ICB board - 14 Sep 2026 - 5 leads",
+  "body_file": "outbox/20260910/20260910_caitlin_papers_QUA_2026-09-14.md",
+  "attach": [
+   "summaries/QUA_2026-09-14.md"
+  ],
+  "id": "papers_QUA_2026-09-14_caitlin",
+  "recipient": "Caitlin",
+  "meeting_id": "QUA:2026-09-14",
+  "also_marks": [],
+  "leads": 5
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Chesterfield Royal Hospital NHS Foundation Trust board - 08 Sep 2026 - 4 leads",
+  "body_file": "outbox/20260910/20260910_annabelle_papers_RFS_2026-09-08.md",
+  "attach": [
+   "summaries/RFS_2026-09-08.md"
+  ],
+  "id": "papers_RFS_2026-09-08_annabelle",
+  "recipient": "Annabelle",
+  "meeting_id": "RFS:2026-09-08",
+  "also_marks": [],
+  "leads": 4
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] Cambridge University Hospitals NHS Foundation Trust board - 09 Sep 2026 - 7 leads",
+  "body_file": "outbox/20260910/20260910_james_papers_RGT_2026-09-09.md",
+  "attach": [
+   "summaries/RGT_2026-09-09.md"
+  ],
+  "id": "papers_RGT_2026-09-09_james",
+  "recipient": "James",
+  "meeting_id": "RGT:2026-09-09",
+  "also_marks": [],
+  "leads": 7
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Sheffield Teaching Hospitals NHS Foundation Trust board - 08 Sep 2026 - 6 leads",
+  "body_file": "outbox/20260910/20260910_henry_papers_RHQ_2026-09-08.md",
+  "attach": [
+   "summaries/RHQ_2026-09-08.md"
+  ],
+  "id": "papers_RHQ_2026-09-08_henry",
+  "recipient": "Henry",
+  "meeting_id": "RHQ:2026-09-08",
+  "also_marks": [],
+  "leads": 6
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Royal Berkshire NHS Foundation Trust board - 16 Sep 2026 - 0 leads",
+  "body_file": "outbox/20260910/20260910_mimi_papers_RHW_2026-09-16.md",
+  "attach": [
+   "summaries/RHW_2026-09-16.md"
+  ],
+  "id": "papers_RHW_2026-09-16_mimi",
+  "recipient": "Mimi",
+  "meeting_id": "RHW:2026-09-16",
+  "also_marks": [],
+  "leads": 0
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] St George's University Hospitals NHS Foundation Trust board - 11 Sep 2026 - 5 leads",
+  "body_file": "outbox/20260910/20260910_ella_papers_RJ7_2026-09-11.md",
+  "attach": [
+   "summaries/RJ7_2026-09-11.md"
+  ],
+  "id": "papers_RJ7_2026-09-11_ella",
+  "recipient": "Ella",
+  "meeting_id": "RJ7:2026-09-11",
+  "also_marks": [
+   "RVR"
+  ],
+  "leads": 5
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Northern Lincolnshire and Goole NHS Foundation Trust board - 10 Sep 2026 - 8 leads",
+  "body_file": "outbox/20260910/20260910_henry_papers_RJL_2026-09-10.md",
+  "attach": [
+   "summaries/RJL_2026-09-10.md"
+  ],
+  "id": "papers_RJL_2026-09-10_henry",
+  "recipient": "Henry",
+  "meeting_id": "RJL:2026-09-10",
+  "also_marks": [
+   "RWA"
+  ],
+  "leads": 8
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] North Staffordshire Combined Healthcare NHS Trust board - 10 Sep 2026 - 6 leads",
+  "body_file": "outbox/20260910/20260910_caitlin_papers_RLY_2026-09-10.md",
+  "attach": [
+   "summaries/RLY_2026-09-10.md"
+  ],
+  "id": "papers_RLY_2026-09-10_caitlin",
+  "recipient": "Caitlin",
+  "meeting_id": "RLY:2026-09-10",
+  "also_marks": [],
+  "leads": 6
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Great Western Hospitals NHS Foundation Trust board - 03 Sep 2026 - 6 leads",
+  "body_file": "outbox/20260910/20260910_joe_papers_RN3_2026-09-03.md",
+  "attach": [
+   "summaries/RN3_2026-09-03.md"
+  ],
+  "id": "papers_RN3_2026-09-03_joe",
+  "recipient": "Joe",
+  "meeting_id": "RN3:2026-09-03",
+  "also_marks": [
+   "RD1",
+   "RNZ"
+  ],
+  "leads": 6
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Queen Victoria Hospital NHS Foundation Trust board - 16 Sep 2026 - 8 leads",
+  "body_file": "outbox/20260910/20260910_alison_papers_RPC_2026-09-16.md",
+  "attach": [
+   "summaries/RPC_2026-09-16.md"
+  ],
+  "id": "papers_RPC_2026-09-16_alison",
+  "recipient": "Alison",
+  "meeting_id": "RPC:2026-09-16",
+  "also_marks": [],
+  "leads": 8
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham Women's and Children's NHS Foundation Trust board - 09 Sep 2026 - 4 leads",
+  "body_file": "outbox/20260910/20260910_caitlin_papers_RQ3_2026-09-09.md",
+  "attach": [
+   "summaries/RQ3_2026-09-09.md"
+  ],
+  "id": "papers_RQ3_2026-09-09_caitlin",
+  "recipient": "Caitlin",
+  "meeting_id": "RQ3:2026-09-09",
+  "also_marks": [],
+  "leads": 4
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] South West London and St George's Mental Health NHS Trust board - 10 Sep 2026 - 6 leads",
+  "body_file": "outbox/20260910/20260910_ella_papers_RQY_2026-09-10.md",
+  "attach": [
+   "summaries/RQY_2026-09-10.md"
+  ],
+  "id": "papers_RQY_2026-09-10_ella",
+  "recipient": "Ella",
+  "meeting_id": "RQY:2026-09-10",
+  "also_marks": [],
+  "leads": 6
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Midlands Partnership University NHS Foundation Trust board - 09 Sep 2026 - 1 leads",
+  "body_file": "outbox/20260910/20260910_caitlin_papers_RRE_2026-09-09.md",
+  "attach": [
+   "summaries/RRE_2026-09-09.md"
+  ],
+  "id": "papers_RRE_2026-09-09_caitlin",
+  "recipient": "Caitlin",
+  "meeting_id": "RRE:2026-09-09",
+  "also_marks": [],
+  "leads": 1
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Gloucestershire Hospitals NHS Foundation Trust board - 10 Sep 2026 - 7 leads",
+  "body_file": "outbox/20260910/20260910_joe_papers_RTE_2026-09-10.md",
+  "attach": [
+   "summaries/RTE_2026-09-10.md"
+  ],
+  "id": "papers_RTE_2026-09-10_joe",
+  "recipient": "Joe",
+  "meeting_id": "RTE:2026-09-10",
+  "also_marks": [],
+  "leads": 7
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of Derby and Burton NHS Foundation Trust board - 08 Sep 2026 - 7 leads",
+  "body_file": "outbox/20260910/20260910_annabelle_papers_RTG_2026-09-08.md",
+  "attach": [
+   "summaries/RTG_2026-09-08.md"
+  ],
+  "id": "papers_RTG_2026-09-08_annabelle",
+  "recipient": "Annabelle",
+  "meeting_id": "RTG:2026-09-08",
+  "also_marks": [],
+  "leads": 7
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Bristol NHS Foundation Trust board - 08 Sep 2026 - 8 leads",
+  "body_file": "outbox/20260910/20260910_joe_papers_RVJ_2026-09-08.md",
+  "attach": [
+   "summaries/RVJ_2026-09-08.md"
+  ],
+  "id": "papers_RVJ_2026-09-08_joe",
+  "recipient": "Joe",
+  "meeting_id": "RVJ:2026-09-08",
+  "also_marks": [],
+  "leads": 8
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Lancashire and South Cumbria NHS Foundation Trust board - 03 Sep 2026 - 2 leads",
+  "body_file": "outbox/20260910/20260910_zoe_papers_RW5_2026-09-03.md",
+  "attach": [
+   "summaries/RW5_2026-09-03.md"
+  ],
+  "id": "papers_RW5_2026-09-03_zoe",
+  "recipient": "Zoe",
+  "meeting_id": "RW5:2026-09-03",
+  "also_marks": [],
+  "leads": 2
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of Leicester NHS Trust board - 11 Sep 2026 - 5 leads",
+  "body_file": "outbox/20260910/20260910_annabelle_papers_RWE_2026-09-11.md",
+  "attach": [
+   "summaries/RWE_2026-09-11.md"
+  ],
+  "id": "papers_RWE_2026-09-11_annabelle",
+  "recipient": "Annabelle",
+  "meeting_id": "RWE:2026-09-11",
+  "also_marks": [],
+  "leads": 5
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Worcestershire Acute Hospitals NHS Trust board - 08 Sep 2026 - 5 leads",
+  "body_file": "outbox/20260910/20260910_caitlin_papers_RWP_2026-09-08.md",
+  "attach": [
+   "summaries/RWP_2026-09-08.md"
+  ],
+  "id": "papers_RWP_2026-09-08_caitlin",
+  "recipient": "Caitlin",
+  "meeting_id": "RWP:2026-09-08",
+  "also_marks": [],
+  "leads": 5
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Berkshire Healthcare NHS Foundation Trust board - 08 Sep 2026 - 4 leads",
+  "body_file": "outbox/20260910/20260910_mimi_papers_RWX_2026-09-08.md",
+  "attach": [
+   "summaries/RWX_2026-09-08.md"
+  ],
+  "id": "papers_RWX_2026-09-08_mimi",
+  "recipient": "Mimi",
+  "meeting_id": "RWX:2026-09-08",
+  "also_marks": [],
+  "leads": 4
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Nottingham University Hospitals NHS Trust board - 10 Sep 2026 - 7 leads",
+  "body_file": "outbox/20260910/20260910_annabelle_papers_RX1_2026-09-10.md",
+  "attach": [
+   "summaries/RX1_2026-09-10.md"
+  ],
+  "id": "papers_RX1_2026-09-10_annabelle",
+  "recipient": "Annabelle",
+  "meeting_id": "RX1:2026-09-10",
+  "also_marks": [],
+  "leads": 7
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Sussex Healthcare NHS Trust board - 15 Sep 2026 - 7 leads",
+  "body_file": "outbox/20260910/20260910_alison_papers_RXC_2026-09-15.md",
+  "attach": [
+   "summaries/RXC_2026-09-15.md"
+  ],
+  "id": "papers_RXC_2026-09-15_alison",
+  "recipient": "Alison",
+  "meeting_id": "RXC:2026-09-15",
+  "also_marks": [],
+  "leads": 7
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Mid Yorkshire Teaching NHS Trust board - 10 Sep 2026 - 5 leads",
+  "body_file": "outbox/20260910/20260910_henry_papers_RXF_2026-09-10.md",
+  "attach": [
+   "summaries/RXF_2026-09-10.md"
+  ],
+  "id": "papers_RXF_2026-09-10_henry",
+  "recipient": "Henry",
+  "meeting_id": "RXF:2026-09-10",
+  "also_marks": [],
+  "leads": 5
+ }
+]

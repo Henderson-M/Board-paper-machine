@@ -1,0 +1,10 @@
+[
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report - 10 Sep 2026 - 8 dates, 24 packs, 1 org needs attention",
+  "body_file": "outbox/20260910/20260910_operator_report.md",
+  "attach": [],
+  "id": "runreport_20260910",
+  "recipient": "Dave"
+ }
+]

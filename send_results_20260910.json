@@ -1,0 +1,240 @@
+[
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_caitlin_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_henry_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_matt-discombe_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_ella_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_matt-mathers_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_zoe_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates_joe_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Bath and North East Somerset, Swindon and Wiltshire ICB board - 16 Sep 2026 - 0 leads",
+  "id": "papers_QOX_2026-09-16_joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Black Country ICB board - 14 Sep 2026 - 5 leads",
+  "id": "papers_QUA_2026-09-14_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Chesterfield Royal Hospital NHS Foundation Trust board - 08 Sep 2026 - 4 leads",
+  "id": "papers_RFS_2026-09-08_annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] Cambridge University Hospitals NHS Foundation Trust board - 09 Sep 2026 - 7 leads",
+  "id": "papers_RGT_2026-09-09_james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Sheffield Teaching Hospitals NHS Foundation Trust board - 08 Sep 2026 - 6 leads",
+  "id": "papers_RHQ_2026-09-08_henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Royal Berkshire NHS Foundation Trust board - 16 Sep 2026 - 0 leads",
+  "id": "papers_RHW_2026-09-16_mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] St George's University Hospitals NHS Foundation Trust board - 11 Sep 2026 - 5 leads",
+  "id": "papers_RJ7_2026-09-11_ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Northern Lincolnshire and Goole NHS Foundation Trust board - 10 Sep 2026 - 8 leads",
+  "id": "papers_RJL_2026-09-10_henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] North Staffordshire Combined Healthcare NHS Trust board - 10 Sep 2026 - 6 leads",
+  "id": "papers_RLY_2026-09-10_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Great Western Hospitals NHS Foundation Trust board - 03 Sep 2026 - 6 leads",
+  "id": "papers_RN3_2026-09-03_joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Queen Victoria Hospital NHS Foundation Trust board - 16 Sep 2026 - 8 leads",
+  "id": "papers_RPC_2026-09-16_alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham Women's and Children's NHS Foundation Trust board - 09 Sep 2026 - 4 leads",
+  "id": "papers_RQ3_2026-09-09_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] South West London and St George's Mental Health NHS Trust board - 10 Sep 2026 - 6 leads",
+  "id": "papers_RQY_2026-09-10_ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Midlands Partnership University NHS Foundation Trust board - 09 Sep 2026 - 1 leads",
+  "id": "papers_RRE_2026-09-09_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Gloucestershire Hospitals NHS Foundation Trust board - 10 Sep 2026 - 7 leads",
+  "id": "papers_RTE_2026-09-10_joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of Derby and Burton NHS Foundation Trust board - 08 Sep 2026 - 7 leads",
+  "id": "papers_RTG_2026-09-08_annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Bristol NHS Foundation Trust board - 08 Sep 2026 - 8 leads",
+  "id": "papers_RVJ_2026-09-08_joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Lancashire and South Cumbria NHS Foundation Trust board - 03 Sep 2026 - 2 leads",
+  "id": "papers_RW5_2026-09-03_zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals of Leicester NHS Trust board - 11 Sep 2026 - 5 leads",
+  "id": "papers_RWE_2026-09-11_annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Worcestershire Acute Hospitals NHS Trust board - 08 Sep 2026 - 5 leads",
+  "id": "papers_RWP_2026-09-08_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Berkshire Healthcare NHS Foundation Trust board - 08 Sep 2026 - 4 leads",
+  "id": "papers_RWX_2026-09-08_mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Nottingham University Hospitals NHS Trust board - 10 Sep 2026 - 7 leads",
+  "id": "papers_RX1_2026-09-10_annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Sussex Healthcare NHS Trust board - 15 Sep 2026 - 7 leads",
+  "id": "papers_RXC_2026-09-15_alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Mid Yorkshire Teaching NHS Trust board - 10 Sep 2026 - 5 leads",
+  "id": "papers_RXF_2026-09-10_henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting withdrawn - please delete from your calendar",
+  "id": "withdrawn_matt-discombe_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting withdrawn - please delete from your calendar",
+  "id": "withdrawn_ella_20260910",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report - 10 Sep 2026 - 8 dates, 24 packs, 1 org needs attention",
+  "id": "runreport_20260910",
+  "ok": true,
+  "err": ""
+ }
+]

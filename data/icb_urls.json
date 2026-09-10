@@ -77,7 +77,7 @@
   "url_root": "https://humberandnorthyorkshire.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": null,
+  "notes": "[2026-09-10] meeting_papers_url slug is '9-sept-2026' but the page's own content confirms the meeting is actually 16 September 2026 - slug does not reflect the true date, don't let it cause a date mismatch flag. WebFetch could not verify this domain (network/enterprise policy block) - use fetch_with_playwright.py --text instead. | [2026-09-10] Watch WebFetch-supplied papers_url slugs on this page: for the 16 Sep and 18 Nov 2026 meetings the slug date did not match the meeting date and extract_board_html.py found no corroborating row/link, so treat per-meeting papers_url from WebFetch here with suspicion unless the slug date matches.",
   "schedule_url": null
  },
  {
@@ -141,7 +141,7 @@
   "url_root": "https://blackcountry.icb.nhs.uk",
   "cluster_id": "BSOL-BC",
   "cluster_meeting_url": "https://www.birminghamsolihull.icb.nhs.uk/about-us/our-committees/integrated-care-board/integrated-care-board-papers/",
-  "notes": "[2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; shares joint cluster board with Birmingham & Solihull",
+  "notes": "[2026-09-10] org_url page (blackcountry.icb.nhs.uk/about-us/how-we-make-decisions) works fine as a direct requests fetch and has a clean date/download-link table - no need to route via the birminghamsolihull.icb.nhs.uk events page as previously suggested. | [2026-07-13] Papers page (scan_url) shows year folders only with no inline dates. Dates found on events listing: https://www.birminghamsolihull.icb.nhs.uk/news-and-events/events - recommend switching scan_url to the events page. [2026-07-16] BSOL-BC cluster; shares joint cluster board with Birmingham & Solihull",
   "schedule_url": null
  },
  {
@@ -157,7 +157,7 @@
   "url_root": "https://www.happyhealthylives.uk",
   "cluster_id": "CW-HW",
   "cluster_meeting_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-  "notes": "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; 403 on WebFetch, Playwright render succeeded",
+  "notes": "[2026-09-10] WebFetch failed with ECONNRESET this run (previously 403); extract_board_html.py's plain requests fetch worked fine and surfaced the forward dates directly, so a full Playwright render wasn't actually needed this time - worth trying requests-based extraction first before escalating. | [2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; 403 on WebFetch, Playwright render succeeded",
   "schedule_url": null
  },
  {
@@ -173,7 +173,7 @@
   "url_root": "https://www.hwics.org.uk",
   "cluster_id": "CW-HW",
   "cluster_meeting_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
-  "notes": "[2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; own /meetings page has no inline dates, shares joint CWHW board dates from happyhealthylives.uk",
+  "notes": "[2026-09-10] Actual PDF downloads are served from hwics.org.uk/download_file/... even though the listing page is on herefordshireandworcestershire.icb.nhs.uk. As of this scan, happyhealthylives.uk/about-us/how-we-work/board-meetings/ is NOT the right joint-board URL (0 dates/docs returned) - if hunting for the joint CWHW page again, this exact path can be ruled out. | [2026-07-13] WebFetch blocked (403) per prior note; Playwright render succeeded. Dates listed inline; papers embedded per-meeting (no stable papers_url). [2026-07-16] CW-HW cluster; own /meetings page has no inline dates, shares joint CWHW board dates from happyhealthylives.uk",
   "schedule_url": null
  },
  {
@@ -189,7 +189,7 @@
   "url_root": "https://www.derbyandderbyshireicb.nhs.uk",
   "cluster_id": "DLN",
   "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "[2026-07-21] Renders dates as 17-Sep-26 - standard DD-Month-YYYY regexes miss this entirely. | DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common",
+  "notes": "[2026-09-10] DLN cluster papers publish ~5pm Friday before the Board meeting (per web search re: Lincolnshire ICB cluster page), so re-scan after 2026-09-12 for the 17 Sep meeting. The joinedupcarederbyshire.co.uk calendar page itself never carries document links (confirmed by both requests and Playwright fetch) - true papers location is elsewhere (notts.icb.nhs.uk or lincolnshire.icb.nhs.uk); exact URL not yet confirmed, still needs identifying. | [2026-09-10] WebFetch hits a domain-verification block on notts.icb.nhs.uk ('Unable to verify if domain is safe to fetch') - go straight to Playwright, extract_board_html.py --ods QJ2 (requests) works fine though. Confirmed future dates 17 Sep 26 / 19 Nov 26 / 21 Jan 27 / 18 Mar 27. | [2026-07-21] Renders dates as 17-Sep-26 - standard DD-Month-YYYY regexes miss this entirely. | DLN cluster (Derby + Lincs + Notts) holds joint Boards in Common; cluster papers hosted on notts.icb.nhs.uk [2026-07-16] DLN cluster (Derby + Lincs + Notts) joint Boards in Common",
   "schedule_url": null
  },
  {
@@ -205,7 +205,7 @@
   "url_root": "https://lincolnshire.icb.nhs.uk",
   "cluster_id": "DLN",
   "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund â€” note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common",
+  "notes": "[2026-09-10] WebFetch domain-verification block on notts.icb.nhs.uk; go straight to Playwright. | DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund â€” note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common",
   "schedule_url": null
  },
  {
@@ -221,7 +221,7 @@
   "url_root": "https://notts.icb.nhs.uk",
   "cluster_id": "DLN",
   "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "DLN cluster; hosts joint board pack PDFs at /wp-content/uploads/sites/2/",
+  "notes": "[2026-09-10] WebFetch domain-verification block on notts.icb.nhs.uk; go straight to Playwright. | DLN cluster; hosts joint board pack PDFs at /wp-content/uploads/sites/2/",
   "schedule_url": null
  },
  {
@@ -238,7 +238,7 @@
   "url_root": "https://leicesterleicestershireandrutland.icb.nhs.uk",
   "cluster_id": "LNR",
   "cluster_meeting_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
-  "notes": "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster",
+  "notes": "[2026-09-10] scan_url now correctly set to https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ (per prior note) and it works via Playwright; WebFetch hits a domain-verification block on this host so go straight to Playwright. Confirmed dates 15 Oct 26 / 17 Dec 26 / 18 Feb 27. | [2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster",
   "schedule_url": null
  },
  {
@@ -254,7 +254,7 @@
   "url_root": "https://www.icnorthamptonshire.org.uk",
   "cluster_id": "LNR",
   "cluster_meeting_url": "https://leicesterleicestershireandrutland.icb.nhs.uk/about-us/our-board/board-meeting-papers/",
-  "notes": "[2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster; only in-common meetings with LLR identifiable from shared LLR board page (20 Aug, 17 Dec); any Northamptonshire-only dates not listed there",
+  "notes": "[2026-09-10] WebFetch domain-verification block on this host; go straight to Playwright. | [2026-07-13] OLD scan_url now 404s. New canonical board page: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/ - update scan_url. [2026-07-16] LNR cluster; only in-common meetings with LLR identifiable from shared LLR board page (20 Aug, 17 Dec); any Northamptonshire-only dates not listed there",
   "schedule_url": null
  },
  {
@@ -271,7 +271,7 @@
   "url_root": "https://www.shropshiretelfordandwrekin.nhs.uk",
   "cluster_id": "STW-SSOT",
   "cluster_meeting_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "notes": "Joint Board in Common with Staffs and Stoke-on-Trent (QNC) [2026-07-16] STW-SSOT cluster; joint Board in Common",
+  "notes": "[2026-09-10] WebFetch domain-verification block on this host; go straight to Playwright. Confirmed dates 24 Sep 26 / 26 Nov 26 / 28 Jan 27 / 25 Mar 27. | Joint Board in Common with Staffs and Stoke-on-Trent (QNC) [2026-07-16] STW-SSOT cluster; joint Board in Common",
   "schedule_url": null
  },
  {
@@ -288,7 +288,7 @@
   "url_root": "https://staffsstoke.icb.nhs.uk",
   "cluster_id": "STW-SSOT",
   "cluster_meeting_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
-  "notes": "Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T&W page | [2026-08-17] FIXED: QNC's own board-papers page carries year folders only. As the STW-SSOT cluster partner it shares Shropshire, Telford and Wrekin's (QOC) Board in Common dates, which ARE published on the QOC page - schedule_url now points there. Confirms 24 Sep, 26 Nov 2026, 28 Jan, 25 Mar 2027.",
+  "notes": "[2026-09-10] WebFetch domain-verification block on this host; go straight to Playwright. | Joint Board in Common with Shropshire, Telford and Wrekin (QOC) [2026-07-16] STW-SSOT cluster; own board-papers page shows only year folders, shares joint Board in Common dates from Shropshire T&W page | [2026-08-17] FIXED: QNC's own board-papers page carries year folders only. As the STW-SSOT cluster partner it shares Shropshire, Telford and Wrekin's (QOC) Board in Common dates, which ARE published on the QOC page - schedule_url now points there. Confirms 24 Sep, 26 Nov 2026, 28 Jan, 25 Mar 2027.",
   "schedule_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/"
  },
  {
@@ -308,8 +308,8 @@
   "url_root": "https://www.centraleast.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-13] hertsandwestessex.ics.nhs.uk now 301-redirects to https://www.centraleast.icb.nhs.uk/ (new Central East ICB, formed 1 April 2026). Central East events page (/events/) shows 'no upcoming events'; CPICS predecessor lists only the past 1 April 2026 inaugural meeting. No future board dates published yet - update scan_url to a Central East domain and re-check for a forward schedule. MANUAL REVIEW. [2026-07-16] Central East ICB (formed 1 April 2026); events page shows no upcoming events. No forward board schedule published yet. MANUAL REVIEW.",
-  "schedule_url": null
+  "notes": "[2026-09-10] schedule_url updated to https://www.centraleast.icb.nhs.uk/events/ by 2026-09-10 sweep (verified readable that day). | [2026-09-10] Still no forward board schedule published on centraleast.icb.nhs.uk/events/ ('no upcoming events'). WebFetch domain-verification block on this host; go straight to Playwright. MANUAL REVIEW. | [2026-07-13] hertsandwestessex.ics.nhs.uk now 301-redirects to https://www.centraleast.icb.nhs.uk/ (new Central East ICB, formed 1 April 2026). Central East events page (/events/) shows 'no upcoming events'; CPICS predecessor lists only the past 1 April 2026 inaugural meeting. No future board dates published yet - update scan_url to a Central East domain and re-check for a forward schedule. MANUAL REVIEW. [2026-07-16] Central East ICB (formed 1 April 2026); events page shows no upcoming events. No forward board schedule published yet. MANUAL REVIEW.",
+  "schedule_url": "https://www.centraleast.icb.nhs.uk/events/"
  },
  {
   "ods_code": "D7T5G",
@@ -328,7 +328,7 @@
   "url_root": "https://www.essex.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) â€” team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they're issued. Events>board-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)",
+  "notes": "[2026-09-10] New forward dates now published: 15 Oct 2026 and 21 Jan 2027 (previous scan only had 16 Jul 2026, since excluded as past). WebFetch domain-verification block on this host; go straight to Playwright. | Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) â€” team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they're issued. Events>board-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)",
   "schedule_url": null
  },
  {
@@ -364,7 +364,7 @@
   "url_root": "https://northeastlondon.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Canonical page rendered fine via WebFetch. Per-meeting papers_url slugs (board-meeting-NN) appeared non-sequential/likely guessed by extractor so nulled; verify slugs on the page when a pack is needed. [2026-07-16] Per-meeting papers_url slugs nulled per existing note (extractor guesses non-sequential board-meeting-NN slugs); verify on page when a pack is needed.",
+  "notes": "[2026-09-10] Confirmed via Playwright text that the 'coming year' dates are Sep 30/Nov 25/Jan 28/Mar 31 (year not stated on page but Sep 30 is next-in-sequence after the last past entry Jul 29 2026, so 2026/2026/2027/2027). extract_board_html.py's landing_links order is not reliable for distinguishing upcoming vs past on this page - don't use it alone here, cross-check with rendered text. | [2026-07-13] Canonical page rendered fine via WebFetch. Per-meeting papers_url slugs (board-meeting-NN) appeared non-sequential/likely guessed by extractor so nulled; verify slugs on the page when a pack is needed. [2026-07-16] Per-meeting papers_url slugs nulled per existing note (extractor guesses non-sequential board-meeting-NN slugs); verify on page when a pack is needed.",
   "schedule_url": null
  },
  {
@@ -381,7 +381,7 @@
   "url_root": "https://www.selondonics.org",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Dates sit in a collapsed accordion - needs --html. WebFetch also fabricated a January 2027 meeting. | Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately",
+  "notes": "[2026-09-10] Confirmed only two future dates on the accordion table: 14 Oct 2026 (Walworth Town Hall) and 27 Jan 2027 (TBC). Re-confirms need for --html/--text over WebFetch on this page (accordion; WebFetch previously fabricated a January 2027 date - this scan's 27 Jan 2027 is genuinely present in the table so is not a repeat of that error, but keep verifying literally each time). | [2026-07-21] Dates sit in a collapsed accordion - needs --html. WebFetch also fabricated a January 2027 meeting. | Six borough place committees (Lambeth, Southwark, Lewisham, Greenwich, Bromley, Bexley) publish separately",
   "schedule_url": null
  },
  {
@@ -418,7 +418,7 @@
   "url_root": "https://www.westandnorthlondon.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Dates sit in a collapsed accordion - --text returns ZERO dates despite five being present. Needs --html. | Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical 'Boards in Common' packs from late 2025/early 2026.",
+  "notes": "[2026-09-10] Confirmed: AGM 23 Sep 2026, then regular Board meetings 21 Oct 2026 / 27 Jan 2027 / 24 Mar 2027. --html (not just --text) needed; extract_board_html.py --html-file cross-check matched exactly. | [2026-07-21] Dates sit in a collapsed accordion - --text returns ZERO dates despite five being present. Needs --html. | Formed 1 April 2026 from merger of North Central London (QMJ, nclhealthandcare.org.uk) and North West London (QRV, nwlondonicb.nhs.uk). Predecessor sites still host historical 'Boards in Common' packs from late 2025/early 2026.",
   "schedule_url": "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings"
  },
  {
@@ -435,7 +435,7 @@
   "url_root": "https://www.hantsiow.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-13] Extractor attached navigate id 7133 to the 2 Sep meeting, but per existing note 7133 is the 3 Jun pack - stale, so nulled. navigate IDs change per meeting; re-enumerate each scan. [2026-07-16] papers_url nulled - extractor attached stale navigate id 7133 (the 3 Jun pack) per existing note; re-enumerate per meeting when a pack is needed.",
+  "notes": "[2026-09-10] extract_board_html.py without --ods playwright hint lands on an old paginated view of this page (returns 2023 dates) - not useful for cross-check as requests; use Playwright text for this org's anti-omission check instead. | [2026-07-13] Extractor attached navigate id 7133 to the 2 Sep meeting, but per existing note 7133 is the 3 Jun pack - stale, so nulled. navigate IDs change per meeting; re-enumerate each scan. [2026-07-16] papers_url nulled - extractor attached stale navigate id 7133 (the 3 Jun pack) per existing note; re-enumerate per meeting when a pack is needed.",
   "schedule_url": null
  },
  {
@@ -451,7 +451,7 @@
   "url_root": "https://www.kentandmedway.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Full 2026/27 schedule now published, incl. an unusual extra 2 Feb 2027 meeting alongside 19 Jan. Per-event pack page: /events-calender/event/board-meeting-july-2026-NN/. | ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site.",
+  "notes": "[2026-09-10] Full schedule confirmed unchanged from prior scan through March 2027, including the AGM sharing 22 Sep 2026 with the board meeting and the unusual extra 2 Feb 2027 meeting alongside 19 Jan. | [2026-07-21] Full 2026/27 schedule now published, incl. an unusual extra 2 Feb 2027 meeting alongside 19 Jan. Per-event pack page: /events-calender/event/board-meeting-july-2026-NN/. | ICB website board pack links have historically been broken; mirrors sometimes available via shepwayvox.org [2026-07-16] Events calendar only lists dates through Jul 2026; no forward schedule beyond 21 Jul published yet. Board pack links historically broken on ICB site.",
   "schedule_url": null
  },
  {
@@ -470,7 +470,7 @@
   "url_root": "https://www.thamesvalley.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-07-13] New TV ICB dates confirmed: 15 Jul, 16 Sep, 18 Nov 2026, 20 Jan, 17 Mar 2027 (prior note had 22 Jul - superseded). [2026-07-16] Matches confirmed dates in existing note (15 Jul now past).",
+  "notes": "[2026-09-10] Confirms dates from prior note (15 Jul 26 now past): 16 Sep 26 / 18 Nov 26 / 20 Jan 27 / 17 Mar 27 unchanged. | [2026-07-13] New TV ICB dates confirmed: 15 Jul, 16 Sep, 18 Nov 2026, 20 Jan, 17 Mar 2027 (prior note had 22 Jul - superseded). [2026-07-16] Matches confirmed dates in existing note (15 Jul now past).",
   "schedule_url": null
  },
  {
@@ -507,7 +507,7 @@
   "url_root": "https://bsw.icb.nhs.uk",
   "cluster_id": "BSW-DOR-SOM",
   "cluster_meeting_url": null,
-  "notes": "[2026-07-21] Meets on varying weekdays (Wed then Mondays) - do not assume a fixed weekday. | [2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note.",
+  "notes": "[2026-09-10] documents-and-reports (meeting_papers_url) carries no per-meeting document links - confirms the prior note. Use https://bsw.icb.nhs.uk/cluster-board-meetings/ as the working scan_url instead; it follows a 'Read more'-style landing link per meeting. Only the AGM agenda is published for 16 Sep 2026 so far (147KB); no full pack as of 2026-09-10. | [2026-09-10] Confirms AGM + Cluster Board both on 16 Sep 2026, then 16 Nov 26 / 18 Jan 27 / 15 Mar 27. 16 Jul 2026 business meeting was cancelled, so excluded from the counted series. | [2026-07-21] Meets on varying weekdays (Wed then Mondays) - do not assume a fixed weekday. | [2026-07-13] scan_url (governance/meetings) no longer lists dates - the three ICBs now meet as a joint Cluster Board every other month in public. Canonical dates page is https://bsw.icb.nhs.uk/cluster-board-meetings/ . Suggest updating scan_url to that. [2026-07-16] Joint Cluster Board (BSW-DOR-SOM) via canonical https://bsw.icb.nhs.uk/cluster-board-meetings/ per existing note.",
   "schedule_url": "https://bsw.icb.nhs.uk/cluster-board-meetings/"
  },
  {

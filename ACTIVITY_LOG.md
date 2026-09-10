@@ -1,3 +1,76 @@
+## 2026-09-10 - Full sweep, live emails. 24 packs analysed, 8 new dates, and a session limit mid-run
+
+Full run from Dave's machine. All 239 in-scope orgs scanned for dates (227 unique board
+pages after cluster dedup), 54 in-window meetings checked for packs, 150 existing dates
+re-verified, 24 watchlist orgs polled. 34 emails sent live.
+**0 orgs broken, 1 degraded, 0 stale, 0 not checked.**
+
+**Dates:** 605 existing entries had last_checked refreshed; 8 new meetings added (Coventry
+and Warwickshire, Midlands Partnership, Humber Health Partnership boards-in-common,
+West London, County Durham and Darlington, East Cheshire, Salisbury). The re-verification
+pass confirmed 135 dates, contradicted none, and found 14 unverifiable (orgs that publish
+no forward schedule at all, which is not an error).
+
+**Packs:** 24 new packs analysed. The strongest: Nottingham University Hospitals (Ockenden
+maternity review, Operation Perth corporate manslaughter investigation naming the trust as
+a suspect, 34.6m deficit, Segment 4); Sheffield Teaching (oversight ranking fell 26th to
+86th into Segment 3, coroner's narrative verdict on a baby's death with a PFD to RCOG and
+NICE, NHSE recorded its planning self-assessment as "not sufficiently assured");
+Gloucestershire (its own committee flags a governance and potential fraud risk in the new
+finance system, 66.5m underlying deficit); Worcestershire Acute (NHSE withheld Q2 deficit
+support, cash down to 2.8m, suppliers could go "on stop"); Bristol FT's first full pack
+since the merger (28m savings shortfall, 4,000+ corridor care episodes at Southmead since
+April); Berkshire Healthcare (criminal charges authorised in a bribery investigation);
+Leicester (the UHL/Northamptonshire group model is being unwound); GESH (water
+contamination in St Helier's E Block with no technical end-point for the mitigations);
+Black Country and Birmingham cluster ICBs (8m+ in exit packages); Birmingham Women's and
+Children's (redevelopment paused after a construction worker died on site in July);
+Lancashire and South Cumbria (CEO leaving for Greater Manchester Mental Health).
+
+**Withdrawal:** West London's 2 December 2026 board was retracted - the trust now lists
+7 December instead. That date had been alerted on 9 June, so Matt Discombe and Ella got a
+cancellation .ics plus the new date in the same run.
+
+**What went wrong, and what it cost:** the run hit the account session limit twice. The
+second time killed 16 pack-analyser agents mid-flight and the watchlist batch 2 agent.
+Eight summaries had already been written to disk and were recovered intact (their tier
+counts were re-derived from the files rather than re-running the analysis); the other 16
+were re-run on Sonnet in controlled waves of about six rather than all at once, which held
+fine. Lesson for next time: do not launch ~18 Opus pack-analyser agents simultaneously.
+Wave them, or use Sonnet for the analysis tier.
+
+**Data fixes made this run:**
+- **Bristol.** North Bristol (RVJ) and University Hospitals Bristol and Weston (RA7)
+  merged into Bristol NHS Foundation Trust on 1 July 2026 with a single group board.
+  Both records renamed and repointed at bristolft.nhs.uk; nbt.nhs.uk is being retired.
+  RVJ is now the record carrying the merged board's meetings and packs.
+- **Yorkshire Ambulance (RX8).** Its tracked papers_url only linked out to the real
+  archive, so four meetings back to January 2026 were never tracked. Corrected to
+  /publications/trust-board-meetings/ and all 101 documents baselined **without**
+  alerting, since they are historic rather than newly published. The latest pack held
+  is 23 July 2026 and has never been analysed - worth a decision.
+- **BSW Hospitals Group Board** is a *three*-trust joint board (Great Western, RUH Bath
+  and Salisbury), not two. All three are Joe's, so one email covered it.
+- schedule_url set for Tameside (points at Stockport's page - they share a joint board),
+  West London, Alder Hey and Central East ICB. fetch_mode set to playwright for
+  Clatterbridge. 122 org notes updated.
+
+**Still open:**
+1. Bradford Teaching (RAE) - Incapsula bot challenge defeats requests and Playwright.
+   First consecutive failure; escalate if it recurs.
+2. Sheffield Children's (RCU) - board papers sit behind a JS/AJAX year-tab widget. Dates
+   scan fine but packs are undetectable by any current tool.
+3. Guy's and St Thomas' (RJ1) - Playwright does not error, it silently redirects to
+   /access-forbidden and returns an empty body, so the deterministic extractor reports
+   "no documents" on a page that is actually fine. Only WebFetch works. Needs a UA fix
+   in fetch_with_playwright.py.
+4. Sheffield Teaching Paper K (Maternity Outcomes Signal System alert) 403'd on every
+   route after 8 attempts. Worth opening by hand given the maternity findings.
+5. The pack-analyser summaries use em dashes in their evidence-citation template, against
+   house style. Not mass-replaced this run because these are verbatim-quotation documents
+   and a blind find-and-replace could corrupt real quotes. The fix belongs in the
+   pack-analyser skill template.
+
 ## 2026-09-07 - Full sweep, live emails. 15 packs, 17 new dates, and a false-positive problem worth knowing about
 
 Full run from Dave's machine (first time he has operated it). 239 in-scope orgs scanned for

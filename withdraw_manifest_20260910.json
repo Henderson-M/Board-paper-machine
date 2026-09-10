@@ -1,0 +1,28 @@
+[
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting withdrawn - please delete from your calendar",
+  "body_file": "outbox/20260910/20260910_matt-discombe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/matt-discombe_20260910.ics"
+  ],
+  "id": "withdrawn_matt-discombe_20260910",
+  "recipient": "Matt Discombe",
+  "meeting_ids": [
+   "RKL:2026-12-02"
+  ]
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting withdrawn - please delete from your calendar",
+  "body_file": "outbox/20260910/20260910_ella_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/ella_20260910.ics"
+  ],
+  "id": "withdrawn_ella_20260910",
+  "recipient": "Ella",
+  "meeting_ids": [
+   "RKL:2026-12-02"
+  ]
+ }
+]
