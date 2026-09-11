@@ -1,0 +1,16 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS - SUPPLEMENT] BSW Hospitals Group Board, 3 Sep - items the first note missed",
+  "body_file": "outbox/20260911/20260911_joe_bsw_supplement.md",
+  "attach": [],
+  "id": "bsw_supplement_joe_20260911"
+ },
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Note: what the 10 Sep sweep missed, and the model test behind it",
+  "body_file": "outbox/20260911/20260911_dave_note.md",
+  "attach": [],
+  "id": "dave_note_20260911"
+ }
+]
