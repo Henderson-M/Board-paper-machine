@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+
+UID:QOP-2026-09-16@board-paper-machine.hsj
+
+DTSTAMP:20260915T120000Z
+
+DTSTART;VALUE=DATE:20260916
+
+DTEND;VALUE=DATE:20260917
+
+SUMMARY:Greater Manchester ICB - NHS Greater Manchester Integrated Care Board / Annual General Meeting (public)
+
+DESCRIPTION:Detected by Board paper machine. Source: https://gmintegratedcare.org.uk/meetings-and-events/
+
+URL:https://gmintegratedcare.org.uk/meetings-and-events/
+
+END:VEVENT
+END:VCALENDAR

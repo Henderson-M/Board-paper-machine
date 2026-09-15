@@ -1,0 +1,83 @@
+[
+ {
+  "id": "dates-alison-20260915",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_alison_dates.md",
+  "attach": [
+   "subscriptions/new/alison_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-caitlin-20260915",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_caitlin_dates.md",
+  "attach": [
+   "subscriptions/new/caitlin_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-ella-20260915",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "body_file": "outbox/20260915_ella_dates.md",
+  "attach": [
+   "subscriptions/new/ella_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-henry-20260915",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_henry_dates.md",
+  "attach": [
+   "subscriptions/new/henry_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-james-20260915",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_james_dates.md",
+  "attach": [
+   "subscriptions/new/james_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-joe-20260915",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-mimi-20260915",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "outbox/20260915_mimi_dates.md",
+  "attach": [
+   "subscriptions/new/mimi_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-nick-20260915",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260915_nick_dates.md",
+  "attach": [
+   "subscriptions/new/nick_20260915.ics"
+  ]
+ },
+ {
+  "id": "dates-zoe-20260915",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 6 new meeting date(s) detected",
+  "body_file": "outbox/20260915_zoe_dates.md",
+  "attach": [
+   "subscriptions/new/zoe_20260915.ics"
+  ]
+ }
+]

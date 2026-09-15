@@ -1,0 +1,103 @@
+Hi Matt,
+
+New papers detected for County Durham and Darlington Foundation Trust board meeting on Thursday 24 September 2026.
+The pack-analyser found 3 LEAD / 3 WORTH WATCHING / 2 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+# County Durham and Darlington Foundation Trust board (EXTRA-ORDINARY) – 24 September 2026
+
+- **Source:** https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers/navigate/3201/23922
+- **Pack:** 1 file, agenda only (1 page, 0.16MB, image-only PDF with no extractable text; read by rendering the page) – https://www.cddft.nhs.uk/download_file/36bb39a6-cbac-49e3-9811-4031a984fd9c/273
+- **Analysed:** 2026-09-15T10:28:24Z
+
+> **The full papers for this meeting have not been published.** As of 15 September 2026 the only document on the trust's board papers page for 24 September is the one-page agenda. The 2026/27 list on that page carries three entries: "August 2026 - Open Trust Board Papers", "June 2026 Open Trust Board Papers" and "Agenda - Open Board Meeting (Thursday 24 September 2026)". Everything below is therefore drawn from the agenda itself, from the trust's own website, and from the 5 August 2026 board pack (265pp, verified directly), which is what sets up this meeting. Nothing here is drawn from unpublished 24 September papers.
+
+**This is an extra-ordinary meeting, not a scheduled one.** The trust's board page lists it as "Thursday 24 September 2026 (Extra-Ordinary Meeting), Prospect House, Durham at 9am". The next ordinary open board is Wednesday 7 October 2026 at Darlington Memorial Hospital at 10am. The trust has called a special public board, at an unusual time and venue, two weeks before its scheduled one.
+
+**Full agenda as published (verbatim):**
+
+1. Welcome, Apologies for Absence and Declarations of Interest – Standing item, Chair, 09:00
+2. Breast Service Look Back Exercise Scope – Discussion item, Gill Hunt, 09:05
+3. Winter Plan – Information item, Matt Graham, 10:15
+4. Maternity (Post Northampton) Assurance Statements – Information item, G Hunt, 10:45
+5. Meeting Close – Standing item, Chair, 11:00
+
+## Top lines
+
+[LEAD] The trust has called an extra-ordinary public board for 24 September whose lead item, and only discussion item, is the scope of the look-back into its breast service, with 70 minutes of a two-hour meeting given over to it.
+[Evidence] "2. Breast Service Look Back Exercise Scope" / "Discussion item   Gill Hunt   09:05" – p.1, [Agenda - Open Board Meeting (Thursday 24 September 2026)]. It is the only item on the agenda marked "Discussion item"; items 3 and 4 are both marked "Information item". The next item starts at 10:15, giving the look-back scope a 70-minute slot in a meeting that runs 09:00 to 11:00.
+[Evidence] Gill Hunt is the trust's chief nurse. The 5 August 2026 pack lists her twice as "Gill Hunt, Chief Nurse" as executive sponsor and presenter of the breast papers, and the attendance table for the open board names "Ms Gill Hunt" in the chief nursing officer line. – pp.903-905, 3044-3046 of extracted text, [August 2026 Open Trust Board Papers, Item 8.2 Breast Service Improvement Programme]
+
+[LEAD] The August board pack confirms this meeting is the decision point on how far back the breast look-back goes, a decision the trust has been preparing with its lawyers, its regulators and three other trusts that have run look-backs.
+[Evidence] "Note the planned process for agreement of the scope and timescale of the full look-back exercise, which will be presented for Board consideration in September 2026." / "A separate decision on the scope and duration of the full look-back exercise will be sought in September 2026." – Overall page 71 of 337, [August 2026 pack, Item 8.2 Breast Service Improvement Programme, recommendations to the board]
+[Evidence] "We have engaged with patients, regulators, Trusts who have undertaken look-back exercises, legal advisers and clinical experts to finalise our view on the scope and period of the full look-back exercise. A draft is progressing through governance channels and will be presented to the Board for a final decision in September." – Overall page 72 of 337, [August 2026 pack, Item 8.2]
+[Evidence] "A comprehensive proposal and options appraisal paper has been developed to support decision making on the future scope and timescale of the lookback." Stakeholder engagement listed includes: "The Trust's legal advisers have provided a view based on the legal position", "Discussions have occurred with three Trusts who have undertaken five lookbacks collectively", and "Review of the recently published independent review of lookback exercises conducted in the North West Region." – Overall page 74 of 337, [August 2026 pack, Item 8.2]
+
+[LEAD] The stake in that decision, on the trust's own published figures: 500 case reviews completed so far have produced 19 cases of severe harm and one death, with statutory duty of candour triggered in 75 cases and three patients still uncontactable.
+[Evidence] "Some 500 reviews have been completed to 21.7.26, and 75 cases have met the threshold for statutory duty of candour. There have been 55 incidents resulting in moderate harm, 19 cases of severe harm and 1 death. Duty of candour has been fulfilled for 72 of these incidents; 3 patients remain uncontactable despite sustained efforts." – Overall page 74 of 337, [August 2026 pack, Item 8.2, "Look-back exercise to 21.7.26"]
+[Evidence] The trust has expanded its reviewer capacity ahead of the decision: "Three additional expert Oncoplastic Breast Surgeons have been recruited and contracted, to strengthen our capacity and increase the pace of the current look-back activity. We currently have nine external reviewers and a second independent radiologist within the Clinical Reference Group is going through medical bank recruitment with the aim of commencing reviews in September. This will take the total number of reviewers to ten. NHS England continues to provide support to help us source further reviewers." – Overall page 74 of 337, [August 2026 pack, Item 8.2]
+[Evidence] Prior HSJ coverage established the direction of travel: HSJ reported in November 2025 that "Some 12 cases of patient harm have already been identified as a result of the failures, but HSJ understands this number is expected to rise significantly as the trust reviews more cases" – ['Systemic' failings resulted in avoidable cancer harm, storycode 7040457, 25 November 2025]
+
+[WORTH WATCHING] The trust has published a one-page agenda and nothing else for a public board it called specially to take a decision on the scope of a harm look-back, at an organisation whose own website promises to publish "our findings and plans openly and transparently".
+[Evidence] Board papers page, 2026/27 list, as at 15 September 2026: "August 2026 - Open Trust Board Papers" / "June 2026 Open Trust Board Papers" / "Agenda - Open Board Meeting (Thursday 24 September 2026)". No supporting papers for 24 September are listed. – [cddft.nhs.uk, Trust Board Meetings & Papers]
+[Evidence] Standing caveat on the same page: "We publish agendas and supporting documents in advance of meetings. In order to manage the size of the packs, appendices and late papers are not included but are available on request." – [cddft.nhs.uk, Trust Board Meetings & Papers]
+[Evidence] The trust's Breast Surgery Services Review page commits the trust to "Publishing our findings and plans openly and transparently, so patients, staff and local people can see what we are doing and why." – [cddft.nhs.uk, Breast Surgery Services Review, "Assuring safety more widely"]
+
+[WORTH WATCHING] The winter plan is coming to this board as an "Information item", days before the NHS England deadline by which the trust's own August pack said the board must "review and approve" a winter board assurance statement.
+[Evidence] "3. Winter Plan" / "Information item   Matt Graham   10:15" – p.1, [Agenda - Open Board Meeting (Thursday 24 September 2026)]. Matt Graham is the trust's acting chief operating officer, per the August pack ("Executive Sponsor Matt Graham, Acting Chief Operating Officer").
+[Evidence] "NHS England's winter planning letter sets out the national approach to winter 2026/27 and requires every local area to have a robust, clinically led and deliverable winter plan. The core expectations include draft plans completed by the end of August, a named executive winter lead, testing through NHS England regional stress-test exercises in September, and Board sign-off using the Board Assurance Statement." / "The Board will need to review and approve the Assurance Statement before submission by 30 September 2026." – [August 2026 pack, national policy horizon-scan table, "Winter planning 2026/27 - expectations and assurance", published 17 July 2026]
+[INFERENCE] The 24 September extra-ordinary board is the last scheduled public board before that 30 September deadline (the next ordinary board is 7 October), so an item labelled "Information" is carrying a decision the trust has told itself the board must make. Worth asking the trust whether the assurance statement was signed off here, elsewhere, or under delegated authority.
+
+[WORTH WATCHING] An agenda item titled "Maternity (Post Northampton) Assurance Statements" is listed for the chief nurse, and the agenda gives no explanation of what "Post Northampton" refers to.
+[Evidence] "4. Maternity (Post Northampton) Assurance Statements" / "Information item   G Hunt   10:45" – p.1, [Agenda - Open Board Meeting (Thursday 24 September 2026)]
+[Evidence] The phrase does not appear anywhere in the 265-page August 2026 board pack: a search of the full extracted text of that pack returns no occurrence of "Northampton". The trust's public Breast Surgery Services Review page does not use it either.
+[INFERENCE] The term is unexplained in every published trust document available, and is the single most obvious reporting question on this agenda. [Context, not from the pack, and not asserted as the explanation:] HSJ reported on 13 August 2026 that NHS England had written to trust leaders requiring a baseline assessment against 25 maternity "deliverables" by 25 September 2026 ["Hospitals must report on 25 maternity 'deliverables'", storycode 8124026], and on 1 July 2026 that Sir Jim Mackey had issued a 10-point maternity plan following the Amos and Ockenden reports ["Mackey issues 10-point 'urgent' maternity plan", storycode 8123753]. Whether the 24 September item relates to that national reporting round, or to something specific to Northampton, is not established by anything published.
+
+[FOI] Request from County Durham and Darlington Foundation Trust the "comprehensive proposal and options appraisal paper" on the scope and timescale of the full breast look-back, and the papers and minutes of the 24 September extra-ordinary board.
+[Evidence] "A comprehensive proposal and options appraisal paper has been developed to support decision making on the future scope and timescale of the lookback." – Overall page 74 of 337, [August 2026 pack, Item 8.2]. Specify: the options appraisal and all annexes, including the capacity and timescale modelling for each option ("A paper synthesising these perspectives and setting out an appraisal of options, including capacity required and timescales to complete, has been developed"); the legal advisers' written view on the legal position referenced in the same paper; and the record of the decision taken on 24 September. Why it matters: the option chosen determines how many women's cases are reviewed and over what period, at a trust that has already found 19 severe harm cases and one death in its first 500 reviews.
+
+[FOI] Request from the trust the maternity assurance statements tabled at the 24 September board and the correspondence behind the "Post Northampton" reference, and ask NHS England's North East and Yorkshire region for the same.
+[Evidence] "4. Maternity (Post Northampton) Assurance Statements" – p.1, [Agenda - Open Board Meeting (Thursday 24 September 2026)]. Specify: the assurance statements themselves, the covering paper, and any letter or instruction from NHS England or the integrated care board that prompted them, including anything referring to Northampton. Why it matters: the trust's maternity service was already under heightened national oversight as of August, having received its first four Maternity Outcomes Signal System signals in May and June 2026 and requested intensive support from the national Maternity and Neonatal Improvement Programme from September ["During May and June 2026, the Trust received four Maternity Outcomes Signal System (MOSS) signals... These were the first MOSS signals received by the Trust", August 2026 pack, Item 7.1 CEO Board Report].
+
+## Verbatim colour
+
+The 24 September agenda itself carries no substantive prose beyond standing-item boilerplate. The only body text on the page is:
+
+> "Any Committee Member who is aware of a private or personal conflict of interest relating to any item on the agenda will be required to disclose it at this stage or when the conflict arises during consideration of the item." – p.1, [Agenda - Open Board Meeting (Thursday 24 September 2026), Item 1]
+
+Note the drafting: the agenda for a trust board refers throughout item 1 to "Committee Member", not board member or director.
+
+The quotes below are not from this agenda. They are the trust's own published language on the subject item 2 will decide, and are included because they are the context a reporter would want alongside it.
+
+> "We are deeply sorry for the distress, pain and loss of trust experienced by patients and families affected by the failures in our breast services. We recognise the trauma many have endured - missed cancers, delays in diagnosis, unnecessary procedures and care that fell far below the standards they deserved. We let our patients down, and for that we are profoundly sorry." – Alison Marshall, interim chair, and Steve Russell, chief executive, [cddft.nhs.uk, Breast Surgery Services Review]
+
+> "These reports make for extremely difficult reading. They highlight multiple missed opportunities, failures to act with curiosity, and a lack of the problem-sensing mindset needed to keep patients safe." – Alison Marshall and Steve Russell, [cddft.nhs.uk, Breast Surgery Services Review]
+
+> "Whilst the report notes progress in a number of areas, this in no way diminishes the Trust's responsibility for the unacceptable past service failures and the harm caused to women in our care." – Overall page 72 of 337, [August 2026 pack, Item 8.2 Breast Service Improvement Programme]
+
+## Files reviewed
+
+- `Agenda - Open Board Meeting (Thursday 24 September 2026)` (1 page, 171,118 bytes) – the entire published pack for this meeting. The PDF contains no fonts, no embedded images and no extractable text; `pdftotext` and pypdf both return an empty string. It was read by rendering the page with pypdfium2 at 3x and reading the resulting image. The full agenda is transcribed above.
+
+Consulted for verification and context, not part of this pack:
+
+- `August 2026 - Open Trust Board Papers` (265 pages, 16.3MB) – downloaded and text-extracted in full to verify the September decision commitment, the look-back harm figures, the winter assurance statement deadline, the presenters' job titles, and the absence of any "Northampton" reference.
+- cddft.nhs.uk, Trust Board Meetings & Papers – meeting date, extra-ordinary status, venue and time, and the list of published documents.
+- cddft.nhs.uk, Breast Surgery Services Review – the trust's standing public page on the breast service reviews.
+- HSJ archive via the Abacus API, storycodes 7039154, 7040457, 7041409, 8023691, 8123739, 8123753, 8124026 – prior coverage check. HSJ has covered the breast service reviews extensively since April 2025, but has not previously reported the scope decision or this extra-ordinary board.
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 8 (LEAD: 3, WORTH WATCHING: 3, FOI: 2)
+- Colour quotes: 4 (1 from the agenda, 3 from the trust's other published material, flagged as such)
+- Annual accounts / annual report present: no. The published pack is a one-page agenda and contains no accounts, annual report or auditor's report.
+- Caveat: this analysis rests on an agenda plus verified prior documents. The substantive papers for 24 September were not published at the time of analysis. Re-check the board papers page before writing; the trust's stated practice is to publish supporting documents in advance.
+
+---
+
+Pack source: https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers/navigate/3201/23922
+
+Board paper machine

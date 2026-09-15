@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXA-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260915T120000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Cheshire and Wirral Partnership NHS Foundation Trust - Board of Directors meeting in public, 9.30am
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cwp.nhs.uk/about-us/our-board-and-governors/
+URL:https://www.cwp.nhs.uk/about-us/our-board-and-governors/
+END:VEVENT
+END:VCALENDAR

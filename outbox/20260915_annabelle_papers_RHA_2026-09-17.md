@@ -1,0 +1,104 @@
+Hi Annabelle,
+
+New papers detected for Nottinghamshire Healthcare Foundation Trust board meeting on Thursday 17 September 2026.
+The pack-analyser found 7 LEAD / 5 WORTH WATCHING / 4 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+# Nottinghamshire Healthcare Foundation Trust board, 17 September 2026
+
+- **Source:** https://www.nottinghamshirehealthcare.nhs.uk/board-papers/?smbfolder=2084
+- **Pack:** 1 file (combined public bundle, 333 pages)
+- **Analysed:** 2026-09-15T10:20:03Z
+
+## Top lines
+
+[LEAD] Trust is £6.8m adverse to plan four months into the year, with a full-year planned deficit of £35.8m its finance committee calls "very challenging", and has taken an extra £7m from the ICB after mediation.
+[Evidence] "The M4 year-to-date financial deficit was £25m and the full year target of £35m deficit is therefore very challenging, with high risks in our position, partially mitigated by an additional £7m funding from the ICB following mediation." (p.96, [Finance, Cash & Performance Committee Highlight Report, 24 August meeting]). Supporting: "The year-to-date financial position is a deficit of (£25.0m) against a deficit plan of (£18.2m). This is (£6.8m) adverse to plan." (p.103, [Integrated Performance Report Executive Summary, Item 5.2]). Full-year forecast £35,795k deficit, NOF combined finance score 4 (p.302, [IPR Appendix 1, NOF Indicator Trust Finance]).
+
+[LEAD] Trust is applying to NHS England for cash support for October and November while its September application is still undecided, and its committee warns late cash is already hitting supplier payments.
+[Evidence] "The committee approved applications for NHSE cash support for October and November while recognising that the Trust's cash position remains continues to create creditor and supplier risks. The previously approved September application remains subject to NHSE decision. The Committee remained concerned that delayed cash support is affecting supplier payments and could damage the Trust's supplier base." (p.96, [Finance, Cash & Performance Committee Highlight Report]). Also: "The Trust will not have sufficient cash to meet its liabilities without additional cash loans." (p.299, [IPR Appendix 1, Performance Escalation: Trust Finance]).
+
+[LEAD] CQC imposed registration conditions on Rowan 2 ward at Highbury Hospital on 9 July 2026, one of four services with unpublished CQC activity in train, including Rampton high secure hospital.
+[Evidence] "Rowan 2, Highbury Hospital, following an MHA monitoring visit on 2 July 2026 and a risk-based inspection on 6 July 2026, the CQC imposed registration conditions on 9 July 2026." (p.108, [Regulatory Report, Item 6.2]). The same paper lists awaited reports on the January 2026 adult mental health inpatient inspection at Highbury and Sherwood Oaks, the 7 to 9 July crisis services and health-based places of safety inspection, and the 13 to 15 April Rampton inspection, with factual accuracy comments returned on 27 August 2026 (pp.108-109).
+
+[LEAD] Trust has moved out of the bottom NHS oversight framework segment, from segment 4 to segment 3, and from 57th of 61 to 41st of 58 in the provider league table.
+[Evidence] "The Trust has moved from Segment 4 to Segment 3, and from 57th to 41st in the league table." Table in the same paper: "Q4 2025/26 2.99 4 57 (out of 61)" and "Q1 2026/27 2.49 3 41 (out of 58)". CEO Mark Axcell adds that "the change in methodology means this movement cannot be read as a like-for-like comparison" (p.34, [Chief Executive's Update, Item 1.8]).
+
+[LEAD] A lessons-learned review into the trust's electronic patient record contracts found a compliance risk known since 2024 did not lead to timely executive decision making, and identified systemic internal control weaknesses.
+[Evidence] "The lessons learned review into the Electronic Patient Record (EPR) contracts considered why a compliance risk, known and discussed since 2024, did not lead to timely executive decision making. It also identified systemic internal control weaknesses and set out the action plan now in place to address them." The committee "took limited assurance on the completeness of current contracting arrangements until these actions are fully embedded." (p.104, [Audit & Risk Committee Highlight Report, 3 September 2026]).
+
+[LEAD] Trust's first-time implementation rate for high and medium risk internal audit actions has fallen to 29 per cent, which its audit committee says will damage the head of internal audit opinion.
+[Evidence] "The first-time implementation rate for high and medium risk actions had fallen significantly to 29%, which will adversely impact the Head of Internal Audit Opinion. Most outstanding actions related to the waiting list management review reported in the previous highlight report." Also: "An executive-level discussion is needed to ensure Internal Audit can complete enough work to give a Head of Internal Audit Opinion at year end." (p.105, [Audit & Risk Committee Highlight Report]).
+
+[LEAD] Trust had 135 patients in private mental health beds at the end of July and 32 placed inappropriately out of area, the highest in two years, with independent sector bed spend £3.1m above plan in the month.
+[Evidence] "There were 135 patients in private beds at the end of July (111 acute and 24 PICU beds)... Of these 135 patients, 32 patients were inappropriately placed out of area at the end of July (30 acute and 2 PICU), the highest level reported in the last 24 months." (p.285, [IPR Appendix 1, AMH Inpatient Services Private Beds]). And: "Independent sector beds spend was £4.5m in month 4, £3.1m more than plan." (p.301, [IPR Appendix 1, Performance Escalation: Trust Finance]). The long-term average for inappropriate out-of-area placements is given as 9 (p.101, [IPR Executive Summary, Item 5.2]).
+
+[WORTH WATCHING] Board is being asked to sign off closure of the Theemis homicide review and CQC section 48 special review programmes, with 36 of 44 recommendations "fully achieved and embedded", months before the Nottingham Inquiry reports.
+[Evidence] "Of the forty-four recommendations, 36 (82%) have been fully achieved and embedded. The remaining eight have been implemented and will continue to be monitored through routine governance arrangements." (p.117, [Theemis and Section 48 Reviews, Item 6.2.1]). The eight partially met cover clinical information sharing, multi-agency communication, peer support, equitable access to care, community mental health transformation, primary care integration, Mental Health Act assurance, and family and carer involvement (pp.118-119). The CEO refers to "the Inquiry's report next spring" (p.33, [Chief Executive's Update]).
+
+[WORTH WATCHING] Operational responsibility for St Andrew's Healthcare in Northampton passed to Northamptonshire Healthcare Foundation Trust on 15 September, with Nottinghamshire Healthcare carrying twin risks as IMPACT lead provider and as commissioner of 134 relocating patients.
+[Evidence] "From 15 September 2026, operational responsibility for the site transfers to Northamptonshire Healthcare NHS Foundation Trust... Work to relocate patients to more appropriate placements continues, though this remains constrained nationally by the limited availability of specialist secure beds." (p.34, [Chief Executive's Update]). The risk register carries both an "*AS A LEAD PROVIDER*" entry (CORP425) and an "*AS A COMMISSIONER*" entry (CORP211), each citing "the NHS England decision on 9 March 2026 to relocate 134 patients", both scored High 16 with limited assurance (pp.135-136, [Significant Risks of Most Concern to the Board, Item 6.5]). Finance committee: "An Extraordinary Meeting is likely to be needed to agree our contractual position before the 15 September deadline." (p.97).
+
+[WORTH WATCHING] A corporate services savings programme expected to deliver about £12m will need redundancy funding, and business cases are being drawn up to cut, redesign or exit loss-making services.
+[Evidence] "The Committee was updated on the corporate-services savings programme expected to deliver approximately £12m, noting the need for redundancy funding, careful phasing, and protection of essential clinical support. Executives were asked to cross-check the whole-time-equivalent figures against the earlier NHSE savings request." And: "Business cases are being developed for loss-making services to either reduce costs or change the service model, or withdraw from services altogether subject to appropriate governance." (p.97, [Finance, Cash & Performance Committee Highlight Report]).
+
+[WORTH WATCHING] Trust's freedom to speak up annual report has been deferred a second time because of guardian capacity, leaving one guardian handling referrals.
+[Evidence] "The Freedom to Speak Up (FTSU) Annual Report, which should have been presented to the Committee in July, has been deferred for a second time because of capacity constraints among the FTSU Guardians... The Committee recognised that the remaining Guardian has focused on dealing with referrals, but the Annual Report remains important, and resilience needs to be strengthened." (p.105, [Audit & Risk Committee Highlight Report]).
+
+[WORTH WATCHING] Service line reporting put quarter four deficits at £42m in mental health and £14m in forensics, and the trust says its block income may be materially higher than an activity-based model would pay.
+[Evidence] "Quarter-four deficits were reported as £42m in mental health and £14m in forensics." And: "The Trust's raw data suggests block income could be materially higher than activity-based value, creating a risk in funding discussions. The Trust does not consistently collect subcontracting activity, diagnostic information, or other data required to map services to national currencies, so work is needed to validate records and identify missing activity." (p.97, [Finance, Cash & Performance Committee Highlight Report]).
+
+[FOI] Request the CQC section 29A warning notice on long-term segregation and the trust's response letter, from Nottinghamshire Healthcare Foundation Trust and from CQC. The pack confirms the notice is live and that the reply was circulated to board members but never published.
+[Evidence] Regulatory report confirms "the Trust's ongoing statutory position under the Section 29A Warning Notice and Regulation 13 enforcement action relating to Long-Term Segregation" (p.111, [Regulatory Report, Item 6.2]). Action log entry 362: "MM confirmed she will provide copy of S29a Letter and Trust response for circulation to Board Members" (p.29, [Action items]). July minutes: "CS explained that the largest regulatory risk related to the Section 29A Enforcement Act relating to long term segregation." (p.18, [Draft Minutes 16 July 2026]).
+
+[FOI] Request the full lessons-learned review into the EPR contracts, plus its action plan, from Nottinghamshire Healthcare Foundation Trust. Only a committee summary is public and the review itself is not in the pack.
+[Evidence] "The lessons learned review into the Electronic Patient Record (EPR) contracts considered why a compliance risk, known and discussed since 2024, did not lead to timely executive decision making." (p.104, [Audit & Risk Committee Highlight Report]).
+
+[FOI] Request the external review of complaints commissioned by the chief nurse and received in July 2026, together with who carried it out, its cost and its terms of reference, from Nottinghamshire Healthcare Foundation Trust. Its findings are not described anywhere in the pack.
+[Evidence] "In the reporting year, the Chief Nurse requested an external review of Complaints with the report received in July 2026. Although this is outside of the reporting period, the review with be utilised to redesign the Complaints process for the Trust over the next 6 months." (p.51, [Complaints Annual Report 2025/26, Item 2.3]). Quality committee adds: "Recovery plan awaited and informed by review commissioned by the Chief Nurse." (p.49, [Quality Committee report, July and August 2026]).
+
+[FOI] Request the internal audit reports on waiting list management, cost improvement plans and health and safety, from Nottinghamshire Healthcare Foundation Trust. All three are cited as limited assurance but none is published in the pack.
+[Evidence] "The committee reviewed overdue actions from the waiting-list management audit and noted evidence has now been uploaded in substantial part and is awaiting sign-off, but that the actions will still be recorded as late, potentially affecting the year end internal audit opinion." (p.97, [Finance, Cash & Performance Committee Highlight Report]). Quality committee: "The report also included the response to a recent internal audit on waiting list management, which was rated as limited assurance." (p.49). July minutes record audit committee escalation "because of a group of internal and external audit reports, including on health and safety, waiting list management, cost improvement plans, and two further areas identified by internal audit", which "highlighted weaknesses in basic internal controls that increased operational risk" (p.17, [Draft Minutes 16 July 2026]).
+
+## Verbatim colour
+
+> "The Trust faces significant risk in achieving the 2026/27 plan due to ongoing operational pressures. The Trust is working transparently with NHSE and system partners, though this remains the area of highest delivery risk within the Undertakings." (p.110, [Regulatory Report, Item 6.2, NHSE Enforcement Undertakings section])
+
+> "The Committee remained concerned that delayed cash support is affecting supplier payments and could damage the Trust's supplier base. The committee recorded the applications as approved while continuing to recognise the wider financial and reputational risks." (p.96, [Finance, Cash & Performance Committee Highlight Report])
+
+> "The Trust recognises that these reviews arose from circumstances in which individuals and families experienced care that fell below the standards they were entitled to expect. The impact of those experiences should not be underestimated." (p.120, [Theemis and Section 48 Reviews, Item 6.2.1])
+
+> "The Committee saw the evidence of two single point of risk failures at this meeting which demonstrates the importance of ensuring resilience and not becoming dependent on key individuals. Executive level discussion is needed on how single point of failure risks can be identified and addressed." (p.105, [Audit & Risk Committee Highlight Report])
+
+## Other items noted, not tiered
+
+- Mental health liaison in emergency departments: "134 patients leaving the ED without being seen in July, an increase from 76 in May and 105 in June"; 28 patients breached the 12-hour ED standard on a mental health pathway in July, 14 attributed to the trust (p.290, [IPR Appendix 1]).
+- Rampton high secure occupancy 79.6 per cent in July, which "carries a potential significant financial risk"; 50 episodes of early confinement or late opening of bedrooms totalling 92 hours in July, "primarily linked to sickness absence across the Hospital" (p.101, [IPR Executive Summary]).
+- Board has been accepted onto the year-long NHS England Board Development Programme, with the chair and CEO "working closely with representatives of NHS England and Deloitte" (p.31, [Chair's Report, Item 1.7]).
+- NHS Staff Standards: 50 standards, mandatory, feeding NOF ratings from Q4 2026/27, and "There is no funding allocated to this initiative. Employers are expected to implement the NHS Staff Standards from within existing budgets." (p.93, [NHS Staff Standards, Item 4.3]).
+- Single tender waivers: audit committee took limited assurance because "a significant proportion are still being presented retrospectively" (p.104, [Audit & Risk Committee Highlight Report]).
+- Lings Bar: Mental Health Legislation Committee flags "potential uncommissioned expansion of services provided due to system-wide pressures" and notes the unit "has entered an intensive improvement programme" (pp.44-45, [MHLC Highlight Report, Item 2.1]).
+- Nottingham Centre for Transgender Health: "Waits for the Nottinghamshire Gender Service remain high at 5697 patients waiting" (p.101); national waiting list began accepting referrals on 17 August 2026 and a leadership restructure starts organisational change in October 2026 (pp.128-130, [NCTH Levy Review update, Item 6.4]).
+- BAF: two risks scored Extreme (20), sustainable finances and trust/confidence; the current BAF is being closed and replaced, and the replacement papers "were not available in time for the Committee to consider them in detail" (pp.122-124 and p.105).
+- Risk register: 58 high risks, up from 55 in August, and 3 extreme; 48 of the 61 assessed as having "limited assurance" (p.132, [Significant Risks, Item 6.5]).
+- Sickness absence 7.65 per cent in July, 0.77 percentage points above July 2025; 360 Assurance is auditing management of sickness absence (p.100, [IPR Executive Summary]).
+- July minutes record that on the Mental Health Partnership Board "the ICB had withdrawn support and where questions remained about future time and resource" (p.12, [Draft Minutes 16 July 2026]).
+
+## Files reviewed
+
+- Public Board of Directors 17 September 2026, single combined bundle, 333 pages. Contains agenda, declarations of interest, draft minutes of 16 July 2026, action log, Chair's report, Chief Executive's update, strategy implementation update, Mental Health Legislation / Quality / Strategy and Partnerships / People and Culture / Finance, Cash and Performance / Audit and Risk highlight reports, complaints annual report, infection prevention and control annual report, antimicrobial stewardship annual report, annual involvement report, winter plan 2026/27, NHS Staff Standards paper, regulatory report with enforcement undertakings appendix, Theemis and section 48 report, BAF report, transgender health levy review update, significant risks report, accountability framework, full integrated performance report, Framework for Quality Assurance and Improvement, and Guardian of Safe Working Hours annual report.
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 16 (LEAD: 7, WORTH WATCHING: 5, FOI: 4)
+- Colour quotes: 4
+- Annual accounts / annual report present: no. There is no set of statutory annual accounts, annual report and accounts, ISA 260 or auditor's report in this pack. The pack does contain six service-level annual reports (complaints, infection prevention and control, antimicrobial stewardship, involvement, Framework for Quality Assurance and Improvement, and Guardian of Safe Working Hours). The audit committee refers to "the action plan arising from the 2025/26 external audit" having been completed (p.105), but the audit report itself is not included, and the trust's AGM is on 23 September 2026 (p.35).
+
+---
+
+Pack source: https://www.nottinghamshirehealthcare.nhs.uk/board-papers/?smbfolder=2084
+
+Board paper machine

@@ -1,3 +1,71 @@
+## 2026-09-15 - Full run (LIVE emails), Dave's machine
+
+**Scope:** all 239 in-scope orgs (227 scan units after cluster dedup), run by Dave
+via 16 date-scan agents, 8 pack-detection agents, 3 watchlist agents and 24 pack
+analyses.
+
+**Dates:** 239 org results, 237 ok / 2 fail. **18 new meetings** added. Rolling
+re-verification checked 127 existing dates: 112 confirmed, **0 contradicted**, 14
+unverifiable, 1 unreadable. No withdrawal alerts owed, and the Step 8b backlog was
+already clear.
+
+**Packs:** 30 meetings had new pack files; **27 packs analysed** (plus 3 that share
+a summary with another meeting: Walsall shares Royal Wolverhampton's joint group
+board bundle, South Tees shares North Tees', and the DLN ICBs share one
+meetings-in-common pack).
+
+**Emails:** LIVE. 9 date alerts, 27 papers alerts, 1 operator run report, sent
+staggered via send_batch.py.
+
+**Standout leads:** King's College Hospital (14 LEAD) - NHS England lifted every
+enforcement undertaking on the licence, in place since 2017, in the same pack as a
+£62.9m recurrent savings shortfall the new CEO calls a material risk. Dorset ICB
+(13) - three of six acute trusts under enhanced NHSE escalation, cluster net
+financial risk £45.1m at month 4. North Tees/South Tees joint board (13) - both
+trusts put in NHSE North East and Yorkshire's new "amber watch" category while the
+published finance report says only "in line with plan". Croydon (8) - auditors
+unable to form an opinion on 2023/24, three years of accounts restated. Coventry
+and Warwickshire Partnership (8) - Deloitte forced a restatement from a £3.9m
+surplus to a £2.9m deficit. County Durham and Darlington (3) - extraordinary board
+called solely on the scope of a breast service look-back that has already found 19
+severe-harm cases and one death.
+
+**Data fixes landed:** 20 orgs updated. Cheshire and Wirral (RXA) resolved after
+carrying a false `broken` status for six runs: its schedule is in a collapsed
+accordion on /about-us/our-board-and-governors/, not /board. schedule_url set for
+11 orgs, papers_url for 4, plus durable notes for 20.
+
+**Scan health: 0 broken, 2 degraded, 0 stale, 0 unchecked.** Both degraded orgs are
+Imperva/Incapsula blocks: Blackpool Teaching Hospitals (RXL) and East Lancashire
+Hospitals (RXR).
+
+**Watchlist:** baselines merged for all 24 polled orgs (48 files added); the two
+orgs with an EMPTY `known_files` (RTR, RVW) now have one, closing the bug that makes
+every document look new. QYG, RXA and RJZ left the watchlist on confirmed schedules.
+Seven orgs stay despite holding future dates, because those dates are unverifiable
+rather than confirmed. The watchlist found three packs the window scan could not:
+Alder Hey's 4 and 23 June packs (published in September on a 3-4 month lag), the
+Tees 3 September joint pack, and King's 16 September pack.
+
+**Corrections:** King's September board is the 16th, not the 10th. The 10 Sept
+record came from the 13 July sweep, was never verified, and had been alerted to
+Ella; now retracted. No withdrawal was owed because the date is already past.
+Medway's 23 Sept entry is an Annual Members' Meeting, not a board, and still needs
+reclassifying.
+
+**Flagged, not resolved:** the Herefordshire and Worcestershire ICB pack says the
+children's neurodiversity service is suspended; the trust's own pack the next day
+does not corroborate it, describing only "planned temporary waiting-list controls".
+Both alerts go to Caitlin with the gap written up as the question to put.
+
+**Tooling bugs found** (see tmp_scan/tooling_findings_20260915.md): fetch_pdf_text.py
+emits raw PDF bytes instead of failing on a text-free PDF; concurrent analysers share
+one scratch folder and delete each other's downloads; a date-scan agent ran
+`git checkout` on state/ and destroyed the re-verification write-back mid-run
+(recovered by replaying the saved JSON); and tmp_scan/ still held all 23 outputs from
+the 10 Sept run, which OneDrive would not let us move, so the merge needed a
+modification-time gate to avoid replaying them.
+
 ## 2026-09-10 - Full sweep, live emails. 24 packs analysed, 8 new dates, and a session limit mid-run
 
 Full run from Dave's machine. All 239 in-scope orgs scanned for dates (227 unique board

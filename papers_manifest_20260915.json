@@ -1,0 +1,245 @@
+[
+ {
+  "id": "papers-zoe-QE1-2026-09-17",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Lancashire and South Cumbria ICB board - Thursday 17 September 2026 - 5 leads",
+  "body_file": "outbox/20260915_zoe_papers_QE1_2026-09-17.md",
+  "attach": [
+   "summaries\\QE1_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-caitlin-QGH-2026-09-16",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Herefordshire and Worcestershire ICB board - Wednesday 16 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_caitlin_papers_QGH_2026-09-16.md",
+  "attach": [
+   "summaries\\QGH_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-annabelle-QJ2-2026-09-17",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Derbyshire, Lincolnshire and Nottinghamshire ICBs (meetings in common) - Thursday 17 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_annabelle_papers_QJ2_2026-09-17.md",
+  "attach": [
+   "summaries\\QJ2_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-henry-QOQ-2026-09-16",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Humber and North Yorkshire ICB board - Wednesday 16 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_henry_papers_QOQ_2026-09-16.md",
+  "attach": [
+   "summaries\\QOQ_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-joe-QVV-2026-09-16",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Dorset ICB board - Wednesday 16 September 2026 - 13 leads",
+  "body_file": "outbox/20260915_joe_papers_QVV_2026-09-16.md",
+  "attach": [
+   "summaries\\QVV_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-henry-QWO-2026-09-22",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] West Yorkshire ICB board - Tuesday 22 September 2026 - 9 leads",
+  "body_file": "outbox/20260915_henry_papers_QWO_2026-09-22.md",
+  "attach": [
+   "summaries\\QWO_2026-09-22.md"
+  ]
+ },
+ {
+  "id": "papers-caitlin-QWU-2026-09-16",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Coventry and Warwickshire ICB board - Wednesday 16 September 2026 - 5 leads",
+  "body_file": "outbox/20260915_caitlin_papers_QWU_2026-09-16.md",
+  "attach": [
+   "summaries\\QWU_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-caitlin-R1A-2026-09-17",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Herefordshire and Worcestershire Health and Care Trust board - Thursday 17 September 2026 - 6 leads",
+  "body_file": "outbox/20260915_caitlin_papers_R1A_2026-09-17.md",
+  "attach": [
+   "summaries\\R1A_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-caitlin-RL4-2026-09-15",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Royal Wolverhampton and Walsall Healthcare (joint group board) - Tuesday 15 September 2026 - 10 leads",
+  "body_file": "outbox/20260915_caitlin_papers_RL4_2026-09-15.md",
+  "attach": [
+   "summaries\\RL4_2026-09-15.md"
+  ]
+ },
+ {
+  "id": "papers-zoe-RBS-2026-06-04",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board - Thursday 4 June 2026 (papers published late) - 10 leads",
+  "body_file": "outbox/20260915_zoe_papers_RBS_2026-06-04.md",
+  "attach": [
+   "summaries\\RBS_2026-06-04.md"
+  ]
+ },
+ {
+  "id": "papers-zoe-RBS-2026-06-23",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board - Tuesday 23 June 2026 (papers published late) - 6 leads",
+  "body_file": "outbox/20260915_zoe_papers_RBS_2026-06-23.md",
+  "attach": [
+   "summaries\\RBS_2026-06-23.md"
+  ]
+ },
+ {
+  "id": "papers-zoe-REM-2026-09-17",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Liverpool University Hospitals Foundation Trust board - Thursday 17 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_zoe_papers_REM_2026-09-17.md",
+  "attach": [
+   "summaries\\REM_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-annabelle-RHA-2026-09-17",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Nottinghamshire Healthcare Foundation Trust board - Thursday 17 September 2026 - 7 leads",
+  "body_file": "outbox/20260915_annabelle_papers_RHA_2026-09-17.md",
+  "attach": [
+   "summaries\\RHA_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-ella-RJ6-2026-09-16",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Croydon Health Services Trust board - Wednesday 16 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_ella_papers_RJ6_2026-09-16.md",
+  "attach": [
+   "summaries\\RJ6_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-ella-RJZ-2026-09-16",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] King's College Hospital Foundation Trust board - Wednesday 16 September 2026 - 14 leads",
+  "body_file": "outbox/20260915_ella_papers_RJZ_2026-09-16.md",
+  "attach": [
+   "summaries\\RJZ_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-alison-RPC-2026-09-16",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Queen Victoria Hospital Foundation Trust - Wednesday 16 September 2026 - REPUBLISHED pack (V4), what is new - 3 leads",
+  "body_file": "outbox/20260915_alison_papers_RPC_2026-09-16.md",
+  "attach": [
+   "summaries\\RPC_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-matt-mathers-RVW-2026-09-03",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] North Tees and Hartlepool and South Tees Hospitals (joint group board) - Thursday 3 September 2026 (papers published late) - 13 leads",
+  "body_file": "outbox/20260915_matt-mathers_papers_RVW_2026-09-03.md",
+  "attach": [
+   "summaries\\RVW_2026-09-03.md"
+  ]
+ },
+ {
+  "id": "papers-zoe-RW4-2026-09-17",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Mersey Care Foundation Trust board - Thursday 17 September 2026 - 10 leads",
+  "body_file": "outbox/20260915_zoe_papers_RW4_2026-09-17.md",
+  "attach": [
+   "summaries\\RW4_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-joe-RWV-2026-09-15",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Devon Partnership Trust board - Tuesday 15 September 2026 - 10 leads",
+  "body_file": "outbox/20260915_joe_papers_RWV_2026-09-15.md",
+  "attach": [
+   "summaries\\RWV_2026-09-15.md"
+  ]
+ },
+ {
+  "id": "papers-matt-mathers-RXP-2026-09-24",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] County Durham and Darlington Foundation Trust board - Thursday 24 September 2026 - 3 leads",
+  "body_file": "outbox/20260915_matt-mathers_papers_RXP_2026-09-24.md",
+  "attach": [
+   "summaries\\RXP_2026-09-24.md"
+  ]
+ },
+ {
+  "id": "papers-henry-RY6-2026-09-17",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Leeds Community Healthcare Trust board - Thursday 17 September 2026 - 9 leads",
+  "body_file": "outbox/20260915_henry_papers_RY6_2026-09-17.md",
+  "attach": [
+   "summaries\\RY6_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-caitlin-RYG-2026-09-15",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Coventry and Warwickshire Partnership Trust board - Tuesday 15 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_caitlin_papers_RYG_2026-09-15.md",
+  "attach": [
+   "summaries\\RYG_2026-09-15.md"
+  ]
+ },
+ {
+  "id": "papers-alison-RYR-2026-09-17",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Sussex Foundation Trust board - Thursday 17 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_alison_papers_RYR_2026-09-17.md",
+  "attach": [
+   "summaries\\RYR_2026-09-17.md"
+  ]
+ },
+ {
+  "id": "papers-alison-RYY-2026-09-16",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Kent Community Health Foundation Trust board - Wednesday 16 September 2026 - 7 leads",
+  "body_file": "outbox/20260915_alison_papers_RYY_2026-09-16.md",
+  "attach": [
+   "summaries\\RYY_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-mimi-S0E4D-2026-09-16",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Thames Valley ICB board - Wednesday 16 September 2026 - 8 leads",
+  "body_file": "outbox/20260915_mimi_papers_S0E4D_2026-09-16.md",
+  "attach": [
+   "summaries\\S0E4D_2026-09-16.md"
+  ]
+ },
+ {
+  "id": "papers-matt-discombe-Z9B2Z-2026-09-23",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] West and North London ICB board - Wednesday 23 September 2026 - 6 leads",
+  "body_file": "outbox/20260915_matt-discombe_papers_Z9B2Z_2026-09-23.md",
+  "attach": [
+   "summaries\\Z9B2Z_2026-09-23.md"
+  ]
+ },
+ {
+  "id": "papers-ella-Z9B2Z-2026-09-23",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] West and North London ICB board - Wednesday 23 September 2026 - 6 leads",
+  "body_file": "outbox/20260915_ella_papers_Z9B2Z_2026-09-23.md",
+  "attach": [
+   "summaries\\Z9B2Z_2026-09-23.md"
+  ]
+ }
+]

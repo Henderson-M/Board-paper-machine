@@ -21,3 +21,6 @@ Thumbs.db
 
 # scan working scratch (batch outputs, extracted pack text)
 tmp_scan/
+
+# stray local bundle, not part of the repo
+board-paper-machine-files.zip
