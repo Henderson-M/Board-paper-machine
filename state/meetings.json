@@ -28521,15 +28521,26 @@
    "date": "2026-09-17",
    "title": "NHS University Hospitals of Liverpool Group Board Meeting (public)",
    "source_url": "https://www.lhch.nhs.uk/board-of-directors-meetings",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings",
+   "pack_files": [
+    {
+     "url": "https://www.uhliverpool.nhs.uk/download_file/22983/423",
+     "title": "UHLG Board of Directors Public Information Pack - 17 September 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.uhliverpool.nhs.uk/download_file/22984/423",
+     "title": "UHLG Board of Directors Public Pack - 17 September 2026",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-15T13:00:00Z",
+    "summary": "2026-09-15T13:00:00Z"
    },
    "detection": {
     "run": "2026-07-20",
@@ -28543,7 +28554,8 @@
     "run": "2026-09-17",
     "evidence": "2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive."
    },
-   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: the group board pack for 17 Sep was published and analysed on 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive."
+   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: the group board pack for 17 Sep was published and analysed on 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive. [2026-09-17] RBQ and REM sit on one joint UHLG group board; this is the SAME pack already analysed for REM:2026-09-17 (summaries/REM_2026-09-17.md) and alerted to Zoe on 15 Sep. Recorded here for completeness. No second alert sent: RBQ and REM share the same correspondent, so alerting again would duplicate.",
+   "summary_path": "summaries/REM_2026-09-17.md"
   },
   {
    "id": "REM:2026-09-17",
