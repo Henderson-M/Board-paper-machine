@@ -1,8 +1,15 @@
 [
  {
   "to": "alison.moore@hsj.co.uk",
-  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
   "id": "dates_alison_20260917",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_caitlin_20260917",
   "ok": true,
   "err": ""
  },
@@ -22,7 +29,7 @@
  },
  {
   "to": "henry.anderson@hsj.co.uk",
-  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
   "id": "dates_henry_20260917",
   "ok": true,
   "err": ""
@@ -38,6 +45,69 @@
   "to": "mimi.launder@hsj.co.uk",
   "subject": "[Board paper machine] 3 new meeting date(s) detected",
   "id": "dates_mimi_20260917",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Sandwell and West Birmingham Hospitals NHS Trust / The Dudley Group NHS Foundation Trust board - 16 September 2026 - 10 leads",
+  "id": "papers_caitlin_RXK-RNA_2026-09-16",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Greater Manchester ICB board - 16 September 2026 - 7 leads",
+  "id": "papers_nick_QOP_2026-09-16",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] Norfolk and Suffolk ICB board - 23 September 2026 - 8 leads",
+  "id": "papers_james_T6Y0W_2026-09-23",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Central London Community Healthcare NHS Trust board - 24 September 2026 - 5 leads",
+  "id": "papers_ella_RYX_2026-09-24",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Royal Cornwall Hospitals NHS Trust board - 17 September 2026 - 7 leads",
+  "id": "papers_joe_REF_2026-09-17",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Shropshire, Telford and Wrekin ICB / Staffordshire and Stoke-on-Trent ICB board - 24 September 2026 - 6 leads",
+  "id": "papers_caitlin_QOC-QNC_2026-09-24",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 7 meeting(s) withdrawn - please delete from your calendar",
+  "id": "withdraw_alison_20260917",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 7 meeting(s) withdrawn - please delete from your calendar",
+  "id": "withdraw_caitlin_20260917",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report - 17 Sep 2026 - 17 dates, 6 packs, 2 orgs need attention",
+  "id": "runreport_20260917",
   "ok": true,
   "err": ""
  }

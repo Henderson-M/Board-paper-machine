@@ -722,6 +722,11 @@
      "title": "Board pack 2026-09-02",
      "kind": "pdf",
      "first_seen": "2026-09-01T12:30:00Z"
+    },
+    {
+     "url": "https://www.medway.nhs.uk/wp-content/uploads/2026/09/meeting-papers-trust-board-in-public-september-2026.pdf",
+     "title": "Meeting papers, Trust Board in public, September 2026 (re-upload, 2026/09 folder)",
+     "kind": "pdf"
     }
    ],
    "status": "analysed",
@@ -732,7 +737,7 @@
     "papers": "2026-09-01T13:15:00Z",
     "summary": "2026-09-01T13:15:00Z"
    },
-   "notes": null,
+   "notes": " [2026-09-17] The trust re-published the same 571-page 2 September pack under a 2026/09 upload path. Both URLs now recorded. The pack header reads \"DATE 02/09/2026\".",
    "last_verified": "2026-09-01T09:59:35Z",
    "summary_path": "summaries/RPA_2026-09-02.md"
   },
@@ -29871,7 +29876,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-08-03] detected via deterministic; literal evidence: The next Annual Members' Meeting will be held on Wednesday 23 September 2026, 5pm to 7pm",
+   "notes": "[2026-08-03] detected via deterministic; literal evidence: The next Annual Members' Meeting will be held on Wednesday 23 September 2026, 5pm to 7pm [2026-09-17] This is the Annual Members Meeting, not an ordinary board, and it has NO pack. A 17 Sep scan matched the file meeting-papers-trust-board-in-public-september-2026.pdf to this date on its filename; the document is in fact the 2 September board pack (its header reads DATE 02/09/2026) and was already analysed as RPA:2026-09-02. Do not re-match it here. AMM papers are published separately.",
    "last_verified": "2026-09-17T16:31:33Z"
   },
   {

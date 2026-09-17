@@ -1,0 +1,112 @@
+[
+ {
+  "id": "papers_caitlin_RXK-RNA_2026-09-16",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Sandwell and West Birmingham Hospitals NHS Trust / The Dudley Group NHS Foundation Trust board - 16 September 2026 - 10 leads",
+  "body_file": "outbox/20260917/20260917_caitlin_papers_RXK-RNA_2026-09-16.md",
+  "attach": [
+   "summaries/RXK_2026-09-16.md"
+  ],
+  "_meeting_ids": [
+   "RXK:2026-09-16",
+   "RNA:2026-09-16"
+  ],
+  "_recipient": "Caitlin",
+  "_tiers": [
+   10,
+   10,
+   9
+  ]
+ },
+ {
+  "id": "papers_nick_QOP_2026-09-16",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Greater Manchester ICB board - 16 September 2026 - 7 leads",
+  "body_file": "outbox/20260917/20260917_nick_papers_QOP_2026-09-16.md",
+  "attach": [
+   "summaries/QOP_2026-09-16.md"
+  ],
+  "_meeting_ids": [
+   "QOP:2026-09-16"
+  ],
+  "_recipient": "Nick",
+  "_tiers": [
+   7,
+   7,
+   5
+  ]
+ },
+ {
+  "id": "papers_james_T6Y0W_2026-09-23",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] Norfolk and Suffolk ICB board - 23 September 2026 - 8 leads",
+  "body_file": "outbox/20260917/20260917_james_papers_T6Y0W_2026-09-23.md",
+  "attach": [
+   "summaries/T6Y0W_2026-09-23.md"
+  ],
+  "_meeting_ids": [
+   "T6Y0W:2026-09-23"
+  ],
+  "_recipient": "James",
+  "_tiers": [
+   8,
+   17,
+   3
+  ]
+ },
+ {
+  "id": "papers_ella_RYX_2026-09-24",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Central London Community Healthcare NHS Trust board - 24 September 2026 - 5 leads",
+  "body_file": "outbox/20260917/20260917_ella_papers_RYX_2026-09-24.md",
+  "attach": [
+   "summaries/RYX_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RYX:2026-09-24"
+  ],
+  "_recipient": "Ella",
+  "_tiers": [
+   5,
+   8,
+   3
+  ]
+ },
+ {
+  "id": "papers_joe_REF_2026-09-17",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Royal Cornwall Hospitals NHS Trust board - 17 September 2026 - 7 leads",
+  "body_file": "outbox/20260917/20260917_joe_papers_REF_2026-09-17.md",
+  "attach": [
+   "summaries/REF_2026-09-17.md"
+  ],
+  "_meeting_ids": [
+   "REF:2026-09-17"
+  ],
+  "_recipient": "Joe",
+  "_tiers": [
+   7,
+   8,
+   9
+  ]
+ },
+ {
+  "id": "papers_caitlin_QOC-QNC_2026-09-24",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Shropshire, Telford and Wrekin ICB / Staffordshire and Stoke-on-Trent ICB board - 24 September 2026 - 6 leads",
+  "body_file": "outbox/20260917/20260917_caitlin_papers_QOC-QNC_2026-09-24.md",
+  "attach": [
+   "summaries/QOC_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "QOC:2026-09-24",
+   "QNC:2026-09-24"
+  ],
+  "_recipient": "Caitlin",
+  "_tiers": [
+   6,
+   14,
+   5
+  ]
+ }
+]
