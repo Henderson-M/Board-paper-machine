@@ -69,7 +69,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RAE:2026-11-25",
@@ -197,7 +197,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RFF:2026-12-03",
@@ -362,7 +362,7 @@
     "papers": "2026-07-09T11:13:27Z",
     "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â alert was suppressed.",
+   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' — possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json — alert was suppressed.",
    "summary_path": "summaries/QOQ_2026-07-15.md"
   },
   {
@@ -382,8 +382,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify.",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 — verify.",
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QOQ:2026-11-18",
@@ -402,7 +402,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify.",
+   "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 — verify.",
    "last_verified": "2026-08-24T11:48:16Z"
   },
   {
@@ -1156,7 +1156,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RTK:2026-11-25",
@@ -1439,7 +1439,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RVV:2026-12-03",
@@ -1663,7 +1663,7 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "summary_path": "summaries/RXC_2026-09-15.md"
   },
   {
@@ -1971,7 +1971,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RHA:2026-11-19",
@@ -2139,7 +2139,7 @@
     "papers": "2026-06-11T18:09:11.460120+00:00",
     "summary": "2026-06-11T18:09:11.460120+00:00"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "summary_path": "summaries/RNS_2026-06-09.md"
   },
   {
@@ -2160,7 +2160,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-03T12:00:00Z",
@@ -2186,7 +2186,7 @@
     "summary": null,
     "withdrawn": "2026-08-24T13:51:36Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "last_verified": "2026-08-24T11:48:16Z",
    "date_review": {
     "action": "retracted",
@@ -2212,7 +2212,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "last_verified": "2026-08-24T11:48:16Z"
   },
   {
@@ -2233,7 +2233,7 @@
     "summary": null,
     "withdrawn": "2026-08-24T13:51:36Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-24T11:51:34Z",
@@ -2384,7 +2384,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RP1:2026-11-26",
@@ -2611,7 +2611,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RT5:2026-11-24",
@@ -2914,7 +2914,7 @@
     "papers": "2026-06-09T19:10:18",
     "summary": "2026-06-09T19:10:18"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id.",
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id.",
    "summary_path": "summaries/RWE_2026-06-11.md"
   },
   {
@@ -2935,7 +2935,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id.",
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-03T12:00:00Z",
@@ -2961,7 +2961,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-11-06",
@@ -2981,7 +2981,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-12-10",
@@ -3001,7 +3001,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RX1:2026-07-09",
@@ -3265,7 +3265,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RY8:2026-12-03",
@@ -3335,7 +3335,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "R1A:2026-11-19",
@@ -3483,7 +3483,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RBK:2026-11-17",
@@ -3668,7 +3668,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RL4:2026-11-17",
@@ -3779,7 +3779,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RLQ:2026-12-03",
@@ -4100,7 +4100,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RYG:2026-11-17",
@@ -4272,7 +4272,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RJ6:2026-11-11",
@@ -4405,7 +4405,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RCB:2026-10-28",
@@ -4578,7 +4578,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RCD:2026-11-25",
@@ -4870,7 +4870,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RGD:2026-11-26",
@@ -5104,7 +5104,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RY6:2026-11-19",
@@ -5304,7 +5304,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://www.shsc.nhs.uk/about-us/board-directors",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "TAH:2026-11-25",
@@ -5383,7 +5383,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting Ã¢â‚¬â€ WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
+   "notes": "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting — WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
   },
   {
    "id": "RCX:2026-09-25",
@@ -5602,7 +5602,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RGM:2026-11-05",
@@ -5714,7 +5714,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RGR:2026-11-27",
@@ -5831,7 +5831,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RT1:2026-11-25",
@@ -6304,7 +6304,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RK9:2026-10-28",
@@ -6775,7 +6775,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RKE:2026-11-26",
@@ -6963,7 +6963,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RAN:2026-11-05",
@@ -7078,7 +7078,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RP4:2026-11-19",
@@ -7310,7 +7310,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RV3:2026-12-09",
@@ -7382,7 +7382,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RWK:2026-12-04",
@@ -7492,7 +7492,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RNN:2026-11-25",
@@ -7595,7 +7595,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RTD:2026-11-27",
@@ -8113,7 +8113,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RHU:2026-12-02",
@@ -8152,7 +8152,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RHW:2026-11-25",
@@ -8231,7 +8231,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RNU:2026-11-25",
@@ -8371,7 +8371,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RTH:2026-11-25",
@@ -8792,7 +8792,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RMP:2026-12-03",
@@ -9120,7 +9120,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RWJ:2026-12-03",
@@ -9407,7 +9407,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RBN:2026-10-28",
@@ -10114,7 +10114,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QHM:2026-06-16",
@@ -10456,7 +10456,7 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "summary_path": "summaries/QUA_2026-09-14.md"
   },
   {
@@ -10537,7 +10537,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QJ2:2026-11-19",
@@ -10636,7 +10636,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QJM:2026-11-19",
@@ -10735,7 +10735,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QT1:2026-11-19",
@@ -10838,7 +10838,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QOC:2026-11-26",
@@ -10934,7 +10934,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QNC:2026-11-26",
@@ -11041,7 +11041,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "T6Y0W:2026-11-25",
@@ -11461,7 +11461,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QKS:2026-11-24",
@@ -11678,7 +11678,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "S9B9J:2026-11-25",
@@ -11794,7 +11794,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QHL:2026-11-09",
@@ -11864,7 +11864,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QJK:2026-11-26",
@@ -11972,7 +11972,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QT6:2026-11-26",
@@ -12098,7 +12098,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "S0E4D:2026-11-18",
@@ -12392,7 +12392,7 @@
      "title": null
     },
     {
-     "url": "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-Ã¢â‚¬â€œ-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
+     "url": "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-–-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
      "title": null
     }
    ],
@@ -12425,7 +12425,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QR1:2026-11-25",
@@ -12528,7 +12528,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "R0A:2026-11-25",
@@ -12566,7 +12566,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] Stale Ã¢â‚¬â€ actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
+   "notes": "[2026-07-09 scan] Stale — actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
   },
   {
    "id": "R0D:2026-09-09",
@@ -12690,7 +12690,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "R1F:2026-12-02",
@@ -12812,7 +12812,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RA2:2026-11-26",
@@ -13311,7 +13311,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RJE:2026-10-07",
@@ -13507,7 +13507,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RJR:2026-11-24",
@@ -13639,7 +13639,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RK5:2026-12-03",
@@ -13871,7 +13871,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RN5:2026-11-26",
@@ -13936,7 +13936,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RNA:2026-11-18",
@@ -14160,7 +14160,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RR8:2026-09-24",
@@ -14180,7 +14180,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RR8:2026-11-26",
@@ -14283,7 +14283,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RV9:2026-11-25",
@@ -14798,7 +14798,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RWV:2026-11-17",
@@ -14903,7 +14903,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RX6:2026-11-19",
@@ -15095,7 +15095,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RXK:2026-11-18",
@@ -15219,7 +15219,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RXL:2026-11-05",
@@ -15525,7 +15525,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RXQ:2026-11-26",
@@ -16015,7 +16015,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RYD:2026-12-03",
@@ -16236,7 +16236,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RYW:2026-12-03",
@@ -16323,7 +16323,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RYX:2026-10-21",
@@ -16424,7 +16424,7 @@
     "papers": "2026-06-05T08:56:10Z",
     "summary": "2026-06-05T08:56:10Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-06-03.md"
   },
   {
@@ -16461,7 +16461,7 @@
     "papers": "2026-08-03T15:55:00Z",
     "summary": "2026-08-03T15:55:00Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
   },
   {
@@ -16481,7 +16481,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2026-12-02",
@@ -16500,7 +16500,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2027-02-03",
@@ -16519,7 +16519,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2027-04-07",
@@ -16538,7 +16538,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2026-06-03",
@@ -16563,7 +16563,7 @@
     "papers": "2026-06-05T08:56:10Z",
     "summary": "2026-06-05T08:56:10Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-06-03.md"
   },
   {
@@ -16600,7 +16600,7 @@
     "papers": "2026-08-03T15:55:00Z",
     "summary": "2026-08-03T15:55:00Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
   },
   {
@@ -16620,7 +16620,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2026-12-02",
@@ -16639,7 +16639,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2027-02-03",
@@ -16658,7 +16658,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2027-04-07",
@@ -16677,7 +16677,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "QK1:2026-06-18",
@@ -17049,7 +17049,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RDR:2026-11-26",
@@ -17224,7 +17224,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RET:2026-12-03",
@@ -17327,7 +17327,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RH8:2026-11-25",
@@ -17767,7 +17767,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RPY:2026-11-25",
@@ -17878,7 +17878,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RRV:2026-11-26",
@@ -17944,7 +17944,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RW4:2026-11-19",
@@ -19202,7 +19202,7 @@
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback).",
    "_previous_source_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RWF:2026-10-29",
@@ -19366,7 +19366,7 @@
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RPA:2027-01-06",
@@ -19664,7 +19664,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RV5:2026-11-24",
@@ -19709,7 +19709,7 @@
     "papers": "2026-07-13T12:20:45Z",
     "summary": "2026-07-13T12:20:45Z"
    },
-   "notes": "[2026-07-13] Pack file URL says '9 July' but documents are internally headed 14 July 2026 Ã¢â‚¬â€ meeting date is 14 July.",
+   "notes": "[2026-07-13] Pack file URL says '9 July' but documents are internally headed 14 July 2026 — meeting date is 14 July.",
    "summary_path": "summaries/RGN_2026-07-09.md"
   },
   {
@@ -20785,7 +20785,7 @@
     "papers": "2026-07-21T10:31:26Z",
     "summary": "2026-07-21T10:31:26Z"
    },
-   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) Ã¢â‚¬â€ verify before relying.",
+   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) — verify before relying.",
    "summary_path": "summaries/TAJ_2026-07-23.md",
    "date_review": {
     "action": "cancelled",
@@ -21608,7 +21608,7 @@
    },
    "notes": "",
    "_previous_source_url": "https://www.boltonft.nhs.uk/about-us/our-board/",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RMC:2026-11-26",
@@ -22108,7 +22108,7 @@
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RJC:2026-07-01",
@@ -22403,7 +22403,7 @@
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RTF:2026-11-26",
@@ -22521,7 +22521,7 @@
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "Z9B2Z:2027-01-27",
@@ -23097,7 +23097,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "R1D:2026-07-09",
@@ -23423,7 +23423,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting Ã¢â‚¬â€ 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
+   "notes": "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting — 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
   },
   {
    "id": "RL1:2026-09-10",
@@ -24097,7 +24097,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RY6:2026-06-24",
@@ -24180,7 +24180,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RL1:2026-10-07",
@@ -25337,7 +25337,7 @@
     "summary": null
    },
    "id": "R0B:2026-10-01",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "ods_code": "RJN",
@@ -26008,7 +26008,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QOX:2026-09-16",
@@ -26035,7 +26035,7 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "summary_path": "summaries/QOX_2026-09-16.md"
   },
   {
@@ -26056,7 +26056,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QVV:2026-09-16",
@@ -26076,7 +26076,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QWU:2026-09-16",
@@ -26096,7 +26096,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "QUY:2026-09-30",
@@ -26116,7 +26116,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RW5:2026-10-01",
@@ -27131,7 +27131,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2026-10-30",
@@ -27151,7 +27151,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2026-12-18",
@@ -27171,7 +27171,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-02-26",
@@ -27191,7 +27191,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-04-30",
@@ -27211,7 +27211,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-06-25",
@@ -27231,7 +27231,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RHW:2026-08-29",
@@ -27275,7 +27275,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RJ2:2026-10-27",
@@ -27323,7 +27323,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "TAD:2026-07-23",
@@ -27572,7 +27572,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "REM:2026-09-17",
@@ -27596,7 +27596,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RV5:2026-07-21",
@@ -27860,7 +27860,7 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "summary_path": "summaries/RPC_2026-09-16.md"
   },
   {
@@ -27881,7 +27881,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RYE:2026-10-28",
@@ -28338,7 +28338,7 @@
     "summary": null
    },
    "notes": "[2026-07-21] The 'Future board meetings' list omits the year entirely. A separate 'Our next board meeting' line is STALE (still 28 May 2026) - ignore it. | ",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RX7:2026-07-29",
@@ -28384,7 +28384,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RH5:2027-05-11",
@@ -28730,7 +28730,7 @@
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: AGM Monday 14 September 2026 9.30-16.00, Thackray Museum of Medicine, 141 Beckett St",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RHW:2026-09-16",
@@ -28757,7 +28757,7 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 16 September 2026, 17.30 Annual General Meeting *Details to be confirmed",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "summary_path": "summaries/RHW_2026-09-16.md"
   },
   {
@@ -28818,7 +28818,7 @@
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: 16 September 2026",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RPA:2026-09-23",
@@ -28838,7 +28838,7 @@
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: The next Annual Members' Meeting will be held on Wednesday 23 September 2026, 5pm to 7pm",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RXY:2026-09-23",
@@ -28858,7 +28858,7 @@
     "summary": null
    },
    "notes": "[2026-08-03] detected via playwright; literal evidence: Annual General meeting - Wednesday 23rd September 2026 via MS Teams",
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-14T14:53:34Z"
   },
   {
    "id": "RAJ:2026-09-24",
@@ -29659,7 +29659,7 @@
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
    "last_checked": "2026-09-10T08:25:34Z",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
@@ -29909,7 +29909,7 @@
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
    "last_checked": "2026-09-10T08:25:34Z",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
@@ -30074,7 +30074,7 @@
    },
    "first_seen": "2026-09-01T12:30:00Z",
    "last_checked": "2026-09-10T08:27:21Z",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "notes": "[2026-09-01] Literal text on board page: \"Other upcoming board meetings: Wednesday, 16 September 2026\". Replaces the retracted 9 September entry, which the page does not list."
   },
   {
@@ -30094,7 +30094,7 @@
    },
    "first_seen": "2026-09-01T12:30:00Z",
    "last_checked": "2026-09-10T08:25:34Z",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "notes": "[2026-09-01] Literal text: \"The next meeting will be held on Wednesday 23 September 2026 at 10.00am.\" Papers due to be published 17 September; questions deadline 10am Friday 18 September."
   },
   {
@@ -30409,7 +30409,7 @@
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
    "last_checked": "2026-09-10T08:25:34Z",
-   "last_verified": "2026-09-10T08:15:22Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -30523,7 +30523,7 @@
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
    "last_checked": "2026-09-10T08:25:34Z",
-   "last_verified": "2026-09-10T08:25:34Z",
+   "last_verified": "2026-09-14T14:53:34Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    }
@@ -31360,7 +31360,7 @@
   {
    "ods_code": "RY3",
    "ts": "2026-07-01T11:48:28Z",
-   "error": "no_future_dates_found Ã¢â‚¬â€ page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
+   "error": "no_future_dates_found — page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
    "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/"
   },
   {
@@ -31705,7 +31705,7 @@
     "RBD"
    ],
    "dead_urls": [
-    "RBS (Alder Hey) scan_url serves 2018 content Ã¢â‚¬â€ needs rediscovery",
+    "RBS (Alder Hey) scan_url serves 2018 content — needs rediscovery",
     "RX4 (CNTW) corrected URL renders only past listings",
     "RWF (Maidstone & TW) papers page 404 on non-browser UA"
    ]
@@ -31776,7 +31776,7 @@
  },
  "_run_2026_07_30_reconciled": {
   "ran": "2026-07-31T12:07:06Z",
-  "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state â€” not re-stamped).",
+  "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
   "duplicate_note": "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
  },
  "_last_updated": "2026-09-01T13:15:00Z"

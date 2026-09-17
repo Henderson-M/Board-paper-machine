@@ -41,6 +41,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `reverify_dates.py` | **Runs Step 5b for you.** Year-aware: a bare day-month inherits the nearest year heading *above* it, and a date carrying a different year next to it (an archive row) is never treated as confirmation. It also refuses to report a date as contradicted when its own `page_future_dates` found that exact date — that combination means the matcher failed, not the org, and it warns on stderr instead. `test_reverify_dates.py` covers every one of these cases; run it after touching the matcher. `--limit 120` picks the rolling slice (nothing verified in 28 days, oldest first, plus everything due within 21 days regardless), re-checks each against the org's `schedule_url`, writes `last_verified` on what it confirms, updates org health, and prints a CONTRADICTED list. It deliberately does NOT retract or email — retraction owes a withdrawal alert, and that judgement stays with this skill. `--orgs`, `--all`, `--json`, `--no-write` for testing. |
 | `org_urls.py` | **Probe and correct the URLs the sweep reads.** `probe --ods X [--url CANDIDATE]` runs the full ladder (requests → Playwright → landing-follow) and returns a verdict — `ok_schedule`, `ok_no_schedule`, `stale_content`, `empty`, `blocked`, `dead` — so a judgement about an org is never made off one failed fetch. `set --ods X --url NEW [--compare]` validates the candidate BEFORE writing it, refuses anything that yields no dates or documents (and with `--compare`, refuses a downgrade on the stored URL), then updates the data file, adds an audit note and clears the stale health record. `recheck [--write]` re-probes every broken/degraded org. This is what closes the loop that left Alder Hey broken for six runs with nothing to act on. |
 | `org_health.py` | **Per-org scan health.** `record --ods X --result ok\|fail [--kind K] [--detail "..."]` after each org; `report [--markdown]` at the end. Keeps `state/org_health.json` with consecutive-failure counts, last success, and a broken/degraded/stale classification. This is what makes a persistent failure escalate instead of scrolling past. |
+| `prescan.py` | **Run this FIRST (Step 3b). Deterministic, no-LLM sweep of every in-scope org.** Thread-pools `extract_board_html.py` across all orgs and sorts them into `resolved` (forward dates found literally in the HTML — no agent needed) and `needs_agent` (blocked, JS-rendered, two-hop, or no forward schedule). Writes run-stamped artefacts to `tmp_scan/run-{stamp}/` and prints a JSON handle on stdout. Typically resolves the large majority of orgs in a couple of minutes at zero model cost, so agents are spent only where a literal read genuinely failed. **An empty result never means "no meetings"** — it means escalate to the agent ladder, which is what keeps this cheaper without making it lossier. `--ods`, `--trusts-only`, `--icbs-only`, `--workers`, `--purge-days`. |
 | `extract_board_html.py` | **Deterministic (no-LLM) cross-check.** Fetches raw HTML (`requests` → Playwright fallback) and reports, verbatim, every date and every document link actually present, plus a table-row pairing (date ↔ its papers link / "unavailable" cell). Use it to catch content the WebFetch summariser silently *dropped* — see the anti-omission cross-check in Step 4 and Step 7. Also recognises **extension-less CMS download-handler links** (`/download-attachment/NNNN`, `/download_file/…`, `/seecmsfile/?id=…`) that have no `.pdf` suffix, and recovers **year-headed date lists** ("board dates 2026: 5 August, 7 October, 2 December") — those come back with `year_inferred: true`, so still run the literal day/month check before recording them. `--html-file FILE` parses HTML you already fetched (e.g. a Playwright `--html` dump) so no page is fetched twice; `--pretty` indents the JSON. **`--follow-landing [N]`** handles CMSs that give each pack its own HTML page instead of linking the PDF: it reports `landing_links` always, and with the flag follows them up to 2 hops and merges what it finds into `pdf_links` (each tagged with `via` and `depth`). RDaSH needs both hops — board page → `/document-sections/…` index → `/documents/<pack>/` landing page → PDFs. Use it whenever `pdf_links` comes back empty but `landing_links` does not. |
 
 ## Arguments
@@ -60,6 +61,53 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `--operator NAME` | Who is running this sweep (`Henry`, `Dave`, or an email address). Determines who gets the run report. If omitted, resolve from `git config user.email`; if that fails, ASK before sending anything live. |
 
 If no arguments, scan every org in both files (all 233 in-scope orgs) and run the full pipeline.
+
+## Run budget — models, concurrency and scratch (MANDATORY)
+
+A full sweep is big enough to exhaust the account's **5-hour session limit**, and when it does the run dies mid-flight: state half-written, no emails sent, and the team silently missing a week of packs. This has happened three times — twice on 2026-09-10 and again on 2026-09-14, when ~40 Opus agents were launched in two bursts and the whole allowance went in 33 minutes. Overage is disabled at organisation level, so there is no spillover to absorb it. Treat the budget as a hard design constraint of this skill, not an afterthought.
+
+### Model tiers — do not launch agents on a model heavier than its tier
+
+| Work | Model | Why |
+|---|---|---|
+| Orchestration (this skill, the main session) | Opus | Holds the run, makes the judgement calls, decides what is sent |
+| Date + pack **scan** agents (Steps 4, 7, 7b) | **Sonnet** | Reconciling two lists and applying the literal-source guard. Not a reading task — WebFetch already extracts with its own small model regardless of what the agent runs on, so an Opus agent here buys nothing |
+| Pack **analysis** (Step 8 / `/pack-analyser`) | **Fable** | The 11 Sep three-way test: 20/23 substantive items vs Opus's 21, zero factual errors, no em dashes. This is the story-finding tier — do not downgrade it below Fable |
+
+Pass the tier explicitly when dispatching (`model: "sonnet"` / `model: "fable"`). Never leave it to inherit Opus from the orchestrator — that inheritance is what made both September runs unaffordable.
+
+**Do not put scan agents on Haiku.** The saving is marginal once `prescan.py` has done its work, and the scan agent's job is exactly the reconciliation where a silent miss is born (see the Leeds Community failure in Step 4). Sonnet is the floor here.
+
+### Concurrency — waves, not bursts
+
+- **Maximum 6 agents in flight at any moment**, across the whole run, of any tier.
+- **Pack analysis: waves of 3.** These are the heaviest agents (a 400-page pack each).
+- Launch a wave, wait for it to complete, then launch the next. Do not top up continuously.
+- If you find yourself hitting the harness's concurrent-agent ceiling, you are already far past this rule — that ceiling is 20 and it is not the budget.
+
+Set `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS=6` in the environment so the cap is enforced rather than remembered.
+
+### Pre-extract pack text once
+
+Before dispatching an analyser for a pack, extract each PDF's text **once** with `fetch_pdf_text.py` and hand the analyser the extracted text files. Do not let every analyser re-download and re-extract. This also removes the flaky-host failure mode, where one agent gets a 403 on a file another agent read fine.
+
+### Scratch is run-stamped — never read another run's working files
+
+All scan working files live in `tmp_scan/run-{stamp}/`, created by `prescan.py`, and every artefact carries a `run_id`.
+
+- **Never read a scan artefact whose `run_id` is not this run's.** Check it before you consume any batch/scan file.
+- **Never write to a fixed path** like `tmp_scan/batch_00.json`. If you shard work for agents, shard it inside this run's directory.
+- `tmp_scan/` is in `.gitignore`, so stale files there survive every pull, checkout and clean indefinitely. Nothing else will catch this for you.
+
+Worked failure (2026-09-14): `tmp_scan/` still held `batch_00.json`–`batch_11.json` from **1 July**. Twenty agents were dispatched against them and scanned a ten-week-old org list. Two finished before it was caught; ~62m tokens were spent on work that had to be thrown away and redone, inside the same 5-hour window that then ran out. The run never recovered.
+
+### If the limit is hit anyway
+
+Stop cleanly rather than leaving the sweep half-done:
+
+1. **Commit and push state immediately** — whatever has been detected so far. Uncommitted state is invisible to the rest of the team and blocks their next run (Step 1's hard gate).
+2. Record in the chat summary exactly which orgs were and were not scanned, and which packs were analysed but not yet alerted.
+3. Do **not** send a partial batch of papers alerts and leave the rest — finish the send for what was analysed, or send nothing and say so.
 
 ## Workflow
 
@@ -156,11 +204,47 @@ An override never *removes* a recipient and never changes who the primary corres
 
 In `icb_urls.json`, some ICBs share a board meeting via `cluster_id` and `cluster_meeting_url`. Group these so you only scan the cluster meeting URL once per cluster, then report detected meetings to all correspondents in the cluster (de-duplicating if they're the same person).
 
+### Step 3b — Deterministic pre-scan (RUN THIS BEFORE ANY AGENT)
+
+Run the whole org list through the no-LLM extractor first:
+
+```bash
+python prescan.py --workers 10
+```
+
+It prints a JSON handle on stdout — keep the `run_id` and `run_dir`; everything downstream in this run reads from that directory and nowhere else.
+
+It writes three files into `tmp_scan/run-{stamp}/`:
+
+| File | Contents |
+|---|---|
+| `manifest.json` | Counts: orgs in scope, resolved, needs_agent by reason |
+| `prescan.json` | Every org's literal result — `forward_dates`, `pdf_links`, `rows`, `landing_links` |
+| `needs_agent.json` | Only the orgs a literal read could not resolve |
+
+**What "resolved" means.** The org's raw HTML literally contained one or more forward-dated meetings. Those dates are literal by construction, so they pass the anti-fabrication literal-source check trivially — they came *from* the source text. Feed them straight into Step 5. **Do not send an agent to an org that pre-scan resolved.**
+
+**What `needs_agent` means, by reason:**
+
+| Reason | Route |
+|---|---|
+| `blocked` | Straight to 4b (Playwright) — skip the doomed WebFetch |
+| `empty_or_js` | Full ladder 4a → 4b → 4c |
+| `two_hop_landing` | `extract_board_html.py --follow-landing` first; agent only if that still returns nothing |
+| `no_forward_schedule` | Page read fine, genuinely lists no future meetings. **Not a failure** — record `ok --kind no_schedule_published` and put the org on the papers watchlist (Step 7b). Send an agent only if `org_health` does not already have it recorded as a known no-schedule org |
+| `fetch_failed` / `no_url` | Agent, then `org_urls.py probe` if it also fails |
+
+**An empty deterministic result is never evidence an org has no meetings.** It is the trigger to escalate, exactly as the anti-omission rule in Step 4 already says. The pre-scan only ever *removes work that was provably unnecessary* — it can never remove an org from the sweep.
+
+Report the split in the chat summary (`N resolved deterministically, M needed an agent`) so a sudden jump in `needs_agent` — a CMS change, a new WAF — is visible rather than silently expensive.
+
 ### Step 4 — Scan each org's board page for dates
 
-(Skip if `--packs-only`.)
+(Skip if `--packs-only`. **Only runs for orgs in `needs_agent.json`** — see Step 3b.)
 
 There is a **three-step fallback ladder**. Try cheap fetchers first, escalate only on failure.
+
+Dispatch these on **Sonnet, in waves of at most 6** (see Run budget). Shard the `needs_agent` list inside this run's `run_dir` — never to a fixed filename.
 
 #### 4a — WebFetch (default)
 
@@ -216,9 +300,9 @@ If all three steps fail, log a `_scan_errors` entry in state and move on. Do NOT
   Worked failure (2026-07-16 run, RTD Newcastle): the extractor returned six even-month/2027 Fridays (plus one Saturday) that were **nowhere on the page** — the trust actually meets bi-monthly in odd months and publishes 2026 only. All six passed the old date-range/real-date validation and were alerted in error. The literal-source check above would have dropped every one.
 
 - **Anti-omission cross-check (MANDATORY — the mirror image of the guard above).** The anti-fabrication guard catches dates the extractor *invented*. The opposite failure is just as damaging and is **invisible** without a check: WebFetch (and Playwright `--text`) summarise with a small model that sometimes **drops real dates that ARE on the page** — most often on long, non-chronological tables where most rows say "Currently unavailable" or "papers to follow". A dropped date is never detected, so no meeting is created and its pack is never scanned. Nothing in the run looks wrong.
-  1. **Run the deterministic extractor** on the same URL and reconcile:
+  1. **Run the deterministic extractor** on the same URL and reconcile. **If Step 3b's pre-scan covered this org, that work is already done** — read its entry in `{run_dir}/prescan.json` rather than fetching the page again. Only run the extractor directly for an org the pre-scan could not reach:
      ```bash
-     python extract_board_html.py URL --pretty > c:/tmp/deterministic.json
+     python extract_board_html.py URL --pretty > {run_dir}/deterministic_{ods}.json
      ```
      It does no summarising — it regexes every date and every document link literally present in the raw HTML, and pairs them by table row. If you already fetched the page with Playwright `--html`, pass `--html-file` to avoid a second fetch.
   2. **Recover the difference.** Any date in `deterministic.json.dates` that is a valid future public board date (apply the *same* validation and anti-fabrication literal-source rules as above — these recovered dates are literal by construction, so they pass trivially) but is **missing** from the WebFetch/Playwright extraction MUST be added as a `new_meeting`. Use the `rows` pairing to attach the right `papers_url`/pack link where the date shares a table row with a document link.
@@ -310,27 +394,29 @@ Do:
    **Never reach for a meeting's `source_url` before checking the org record.** A meeting's `source_url` is a snapshot of where that date was found, sometimes months ago; the org record's `url` is the *maintained* field and is what earlier runs correct when they discover a URL has moved. Preferring the stale snapshot silently re-scans a page a previous run already declared dead — the scan "fails", the org gets logged as broken, and the fix that was already made is invisible.
 
    Worked failure (2026-08-06, RBS Alder Hey): the 3 Aug run had already corrected the org `url` to the working publications archive, but the 6 Aug packs-only run read the meeting's `source_url` — the dead `/about-us/trust-board/` page that serves 2018 content — concluded the org was still unscannable, and reported "needs a corrected URL" for a URL that had already been corrected. If the meeting `source_url` and the org `url` disagree, the org record wins; update the meeting's `source_url` to match so the divergence does not persist.
-2. **WebFetch** that URL with this prompt:
+2. **Check this run's pre-scan first (Step 3b).** `prescan.json` already holds every document link literally present on that org's page, paired to dates by table row. If the pre-scan resolved the org and its `rows` pair document links to this meeting's `{date}`, take them from there — no fetch, no agent. Only fall through to WebFetch below when the pre-scan has nothing for this org, or its links do not cover the target meeting.
+
+3. **WebFetch** that URL with this prompt:
 
    > Today is {today}. The page is the board papers page for a meeting on {date}. Return JSON ONLY: `{"pack_files":[{"url":"...","title":"...","kind":"pdf|other"}]}`. List every PDF or document linked from this page that appears to be a paper for the {date} meeting (agenda, finance report, performance report, CEO report, minutes, action tracker, risk register, etc.). Exclude documents from other meetings. Make URLs absolute. If nothing found return `{"pack_files":[]}`.
 
-3. If WebFetch fails (same conditions as Step 4a — 403, needs_js, empty), fall back to `python fetch_with_playwright.py URL --html` and parse the HTML for `<a href="*.pdf">` links yourself. Apply the same "is this for the {date} meeting?" filter.
+4. If WebFetch fails (same conditions as Step 4a — 403, needs_js, empty), fall back to `python fetch_with_playwright.py URL --html` and parse the HTML for `<a href="*.pdf">` links yourself. Apply the same "is this for the {date} meeting?" filter.
 
-4. When downloading the actual PDFs (for the pack-analyser sub-skill), use `python fetch_pdf_text.py PDF_URL [--playwright]` — many trust sites that allow WebFetch on HTML still block direct PDF GETs from non-browser UAs.
+5. When downloading the actual PDFs (for the pack-analyser sub-skill), use `python fetch_pdf_text.py PDF_URL [--playwright]` — many trust sites that allow WebFetch on HTML still block direct PDF GETs from non-browser UAs.
 
-5. **Two-hop papers pages — follow the per-meeting link before concluding "no papers".** Some trusts publish a board-meetings *listing* page (just a list of dates, often year-tabbed) where the actual pack PDF lives one click deeper, on a per-meeting page. If the `papers_url` returns meeting dates/titles but **zero PDF links**, do not record "no papers yet" — look for an anchor whose text or href matches the target meeting `{date}` (e.g. CUH: `/events/board-of-directors-meeting-10-june-2026/`), fetch THAT page, and extract the PDFs from it. With Playwright, parse anchor `href`s (`--html`), not just the `--text` dump, because these links are frequently absent from rendered text. Honour the org `notes` field — if it documents a per-meeting/event-page pattern, go straight there. (CUH/RGT is the worked example; the same shape recurs on other trusts using an events-calendar CMS.)
+6. **Two-hop papers pages — follow the per-meeting link before concluding "no papers".** Some trusts publish a board-meetings *listing* page (just a list of dates, often year-tabbed) where the actual pack PDF lives one click deeper, on a per-meeting page. If the `papers_url` returns meeting dates/titles but **zero PDF links**, do not record "no papers yet" — look for an anchor whose text or href matches the target meeting `{date}` (e.g. CUH: `/events/board-of-directors-meeting-10-june-2026/`), fetch THAT page, and extract the PDFs from it. With Playwright, parse anchor `href`s (`--html`), not just the `--text` dump, because these links are frequently absent from rendered text. Honour the org `notes` field — if it documents a per-meeting/event-page pattern, go straight there. (CUH/RGT is the worked example; the same shape recurs on other trusts using an events-calendar CMS.)
 
-6. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
+7. **Do not infer pack completeness from filenames.** A title like "Agenda" can mean either an agenda-only file *or* a full combined pack — trusts use inconsistent naming. Before deciding a meeting "has no papers yet", download the candidate file and check its size and page count. Full packs are typically >5MB and >100 pages; agendas-only are <1MB and <20 pages. If a file the same size as previous months' packs exists, treat it as the pack regardless of what its filename says.
 
-7. **Anti-omission cross-check (MANDATORY — same failure mode as Step 4, applied to pack links).** The WebFetch pack prompt is summarised by the same small model and will silently drop PDF links on a cluttered or non-chronological papers table — exactly how the Leeds Community (RY6) 23 July pack was missed even though the meeting date was known. Before concluding a meeting has "no new papers", run the deterministic extractor and **union** its document links with WebFetch's:
+8. **Anti-omission cross-check (MANDATORY — same failure mode as Step 4, applied to pack links).** The WebFetch pack prompt is summarised by the same small model and will silently drop PDF links on a cluttered or non-chronological papers table — exactly how the Leeds Community (RY6) 23 July pack was missed even though the meeting date was known. Before concluding a meeting has "no new papers", run the deterministic extractor and **union** its document links with WebFetch's:
    ```bash
    python extract_board_html.py {papers_or_source_url} --pretty > c:/tmp/deterministic.json
    ```
    Use the `rows` pairing to keep only links that share a table row with the target `{date}` (or whose anchor text/filename names that meeting), then merge them into `pack_files`. A document link present in the raw HTML for this meeting must not be dropped just because the summariser omitted it. As in Step 4: an empty `requests` result is not a veto — escalate with `--playwright` or keep the WebFetch result; the cross-check only ever adds links back, never removes them.
 
-8. Compare the reconciled `pack_files` against the meeting's existing `pack_files` in state.
+9. Compare the reconciled `pack_files` against the meeting's existing `pack_files` in state.
 
-9. **If new files found:**
+10. **If new files found:**
    - Append to `pack_files` in state.
    - Set meeting status to `papers_found`.
    - Add the meeting (with full new pack URL list) to a `new_packs` list for the analyser step.
@@ -387,6 +473,18 @@ A watchlist org is **added** the first time the scanner runs after the org's las
 (Skip if `--dates-only` or if `new_packs` is empty.)
 
 For each entry in `new_packs`, invoke the **pack-analyser sub-skill** — read `.claude/skills/pack-analyser/SKILL.md` and follow its workflow for this meeting's pack URLs and org context.
+
+**Dispatch rules (see Run budget — this step is what exhausted the session limit on 10 and 14 September):**
+
+1. **Extract every pack file's text ONCE, before dispatching anything:**
+   ```bash
+   python fetch_pdf_text.py {pdf_url} [--playwright] > {run_dir}/packs/{ods}_{date}/{n}_{slug}.txt
+   ```
+   Write them under **this run's** `run_dir` (Step 3b), never a fixed path.
+2. **Hand the analyser the extracted text**, plus the `pack_files` metadata (url, title, size, page count). It only re-downloads if text is missing or it needs something the extract cannot answer.
+3. **Model: Fable.** Pass it explicitly. This is the story-finding tier — the 11 Sep three-way comparison (`MODEL_COMPARISON_2026-09-11.md`) put Fable at 20/23 substantive items against Opus's 21, with zero factual errors and no em dashes. Do not drop below it: Sonnet scored 15/23 with two factual errors on the same packs, and missed a statutory section 30 referral to the health and social care secretary at Nottingham.
+4. **Waves of 3, and wait for each wave to finish before launching the next.** These are the heaviest agents in the run. Sixteen launched in one burst is what killed the 10 September sweep.
+5. **Commit and push state after each wave.** A limit hit then costs you one wave, not the sweep.
 
 The sub-skill will:
 
@@ -628,6 +726,9 @@ Send it through `send_batch.py` in the same batch as everything else, so a failu
 - **A failure must never be able to vanish.** Record an outcome for EVERY org in `org_health.py` (Step 12b), success or failure, and surface the broken/degraded/stale counts in the first three lines of the chat summary. An org that cannot be read contributes nothing and nobody finds out unless the run says so. Alder Hey served 2018 content for two months, and Cheshire and Wirral failed on three runs across ten weeks, before either was noticed.
 - **Report to the operator, not just the correspondents.** Correspondents get their own patch; only the person running the sweep can fix a broken scraper. With `--live-emails` they get a run report by email (Step 13B) as well as the chat summary. Resolve who they are from `--operator` or `git config user.email` — and if you cannot, ask before sending anything live.
 - **'Publishes no forward schedule' is not a failure.** Record it as `ok --kind no_schedule_published`. Counting it as a failure buries the orgs that are genuinely broken. Those orgs belong on the papers watchlist instead (Step 7b).
+- **Deterministic first, agents only for the residue.** Run `prescan.py` (Step 3b) before dispatching a single agent. It resolves most orgs from raw HTML at zero model cost; agents are for the pages a literal read genuinely cannot handle. An empty deterministic result always means *escalate*, never "no meetings" — that is what keeps this cheaper without making it lossier.
+- **The run budget is a correctness rule, not an efficiency one.** Sonnet for scan agents, Fable for pack analysis, **never more than 6 agents in flight** (3 for analysis), pack text pre-extracted once. A sweep that exhausts the 5-hour limit does not degrade gracefully: it dies with state half-written and no emails sent, and the team silently loses a week of packs. That has happened three times — twice on 10 September, again on 14 September. Overage is disabled at organisation level, so nothing absorbs it.
+- **Never read another run's scratch.** All working files live in `tmp_scan/run-{stamp}/` and carry a `run_id`; check it before consuming any batch file, and never write to a fixed filename. `tmp_scan/` is gitignored, so stale files there survive every pull and clean indefinitely — on 14 September twenty agents scanned a ten-week-old org list from `batch_00..11.json` left behind on 1 July, and ~62m tokens had to be thrown away and redone inside the window that then ran out.
 - **Never run on unsynced state.** See Step 1 — a `git status` "up to date" is meaningless without a fresh `git fetch`. If you can't confirm the local repo is level with `origin/main`, STOP; don't scan or send. Stale state = duplicate alerts to the whole team. Also re-fetch and drop already-alerted meetings immediately before a live send (Step 11 pre-send guard).
 - **UTF-8 everywhere (Windows/PowerShell gotcha that garbled a live send on 2026-07-30).** Board packs are full of `£` and `—`. Any file the emailer reads — the summary being inlined, the composed body, the manifest — MUST be read and written as UTF-8. On PowerShell 5.1, `Get-Content`/`Set-Content` default to the ANSI code page (Windows-1252), not UTF-8: `Get-Content summary.md` reads a UTF-8 `£` as `Â£`, and `Set-Content -Encoding utf8` writes a BOM that breaks `json.loads` and Outlook `.ics` parsing. Always use `Get-Content -Encoding utf8` (or `[System.IO.File]::ReadAllText`) to read, and write with a **no-BOM** UTF-8 encoder (`New-Object System.Text.UTF8Encoding($false)` via `[System.IO.File]::WriteAllText`). `send_email.py`/`send_batch.py` themselves read `body_file` as UTF-8 and set the MIME charset correctly — the danger is only in how the calling steps build those files.
 

@@ -205,7 +205,7 @@
   "url_root": "https://lincolnshire.icb.nhs.uk",
   "cluster_id": "DLN",
   "cluster_meeting_url": "https://notts.icb.nhs.uk/about-us/our-icb-board/",
-  "notes": "[2026-09-10] WebFetch domain-verification block on notts.icb.nhs.uk; go straight to Playwright. | DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund â€” note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common",
+  "notes": "[2026-09-10] WebFetch domain-verification block on notts.icb.nhs.uk; go straight to Playwright. | DLN cluster; transformation fund page at https://lincolnshire.icb.nhs.uk/transformation-fund — note the April 2026 walk-back text [2026-07-16] DLN cluster joint Boards in Common",
   "schedule_url": null
  },
  {
@@ -328,7 +328,7 @@
   "url_root": "https://www.essex.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "[2026-09-10] New forward dates now published: 15 Oct 2026 and 21 Jan 2027 (previous scan only had 16 Jul 2026, since excluded as past). WebFetch domain-verification block on this host; go straight to Playwright. | Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) â€” team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they're issued. Events>board-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)",
+  "notes": "[2026-09-10] New forward dates now published: 15 Oct 2026 and 21 Jan 2027 (previous scan only had 16 Jul 2026, since excluded as past). WebFetch domain-verification block on this host; go straight to Playwright. | Formed 1 April 2026 from Mid and South Essex (QH8, midandsouthessex.ics.nhs.uk) plus the North East Essex part of former Suffolk and North East Essex (QJG, suffolkandnortheastessex.icb.nhs.uk). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Mid and South Essex (Emily), NE Essex part of former Suffolk and NE Essex (James) — team decision: Emily. | [2026-05-27] URL updated: New Essex ICB (launched 1 April 2026, merged from MSE, SNEE, HWE). Publications page only shows board pack PDFs as they're issued. Events>board-and-committee-meetings page lists upcoming dates: 16 Jul new_icb_april_2026; midandsouthessex.ics.nhs.uk now 301 redirects to essex.icb.nhs.uk [2026-07-16] 16 Jul 2026 meeting excluded (today/past)",
   "schedule_url": null
  },
  {
@@ -490,7 +490,7 @@
   "url_root": "https://www.surreysussex.icb.nhs.uk",
   "cluster_id": null,
   "cluster_meeting_url": null,
-  "notes": "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Surrey Heartlands (Alison), Sussex (Alison), Surrey part of former Frimley (Mimi) â€” team decision: Alison.",
+  "notes": "Formed 1 April 2026 from Surrey Heartlands (QXU), Sussex (QNX, sussex.ics.nhs.uk) and the Surrey parts of former Frimley (QNQ). Predecessor sites still host historical packs. | Correspondent confirmed by Henry 2026-05-27. Predecessors: Surrey Heartlands (Alison), Sussex (Alison), Surrey part of former Frimley (Mimi) — team decision: Alison.",
   "schedule_url": null
  },
  {

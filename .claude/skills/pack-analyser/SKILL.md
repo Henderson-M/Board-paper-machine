@@ -71,6 +71,13 @@ If `pack_files` was passed in, use it. Otherwise WebFetch the `papers_url` with 
 
 ### Step 3 — Download and **verify** each PDF before deciding what's in scope
 
+**If the caller passed pre-extracted text, use it and skip the download.** When `/scan-boards` dispatches you it extracts each pack file's text ONCE with `fetch_pdf_text.py` and hands you a directory of `.txt` files plus the original `pack_files` metadata (url, title, size, page count). Read those instead of re-fetching. Two reasons this matters:
+
+- **Cost.** Every analyser re-downloading and re-extracting the same 300-page pack is the single largest avoidable expense in a sweep, and sweeps have twice died on the session limit.
+- **Reliability.** It removes the flaky-host failure mode, where one agent gets a 403 on a file another agent read fine. The 11 Sep model comparison had to pre-extract the Sheffield pack for exactly this reason — `www.sth.nhs.uk` served 403 for one paper across requests, Playwright and PowerShell alike.
+
+Fall back to the download path below when text was not supplied, when a supplied file is empty, or when you need to check something the text extract cannot answer (page count, scanned-image pages, a table that lost its structure).
+
 For each file in the pack:
 
 1. Use `Bash` (or PowerShell `Invoke-WebRequest`) to download the PDF into a temporary folder, e.g.:
@@ -125,6 +132,10 @@ For each item that you think is worth flagging:
   - **`FOI`** — paper hints at info we'd want but doesn't disclose it (redacted appendix, mentioned-but-not-quoted correspondence, unscoped review, departure euphemism).
 
 Aim for **5–10 top lines per pack**, weighted toward LEAD tier where the evidence supports it. If a pack has nothing worth flagging, that's a valid output — say so.
+
+**Board-level appointments and departures always get a top line.** Before reading the substantive papers, check the **agenda header, attendance list and apologies** for who is in the chair and who is new, and read any induction, appointment, interim or "welcome" mention as a signal in its own right. Flag as `LEAD` a new or interim **chair, chief executive, medical director, director of nursing or finance director**; as `WORTH WATCHING` any other board-level arrival, departure, acting-up arrangement or unexplained absence. Who runs a trust is a story to HSJ's readers even when the pack treats it as housekeeping.
+
+Worked failure (2026-09-11 model comparison): **Berkshire Healthcare has a new chair.** Frances West chaired the 8 September board and the 25 August committee minutes record her observing "as part of her induction process". It is on the first line of the agenda. **All three models — Sonnet, Opus and Fable — missed it**, because nothing in this skill told them to look. That is a gap in the signal patterns, not in the model: no analysis tier fixes it, only this instruction does.
 
 **Annual accounts always get a top line.** If a set of accounts / annual report is in the pack, always include at least one top line noting they have been published — tiered by newsworthiness: `LEAD` if the opinion is qualified, there's a VfM qualification / section 24 recommendation, or the exit-packages / remuneration disclosures are notable; otherwise `WORTH WATCHING` as a "the accounts are now public" flag carrying the headline surplus/deficit outturn and the audit opinion. Never let a pack that contains accounts go out without this line, even when the pack is otherwise routine.
 
