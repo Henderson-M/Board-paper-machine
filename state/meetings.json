@@ -362,7 +362,7 @@
     "papers": "2026-07-09T11:13:27Z",
     "summary": "2026-07-09T11:13:27Z"
    },
-   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â alert was suppressed.",
+   "notes": "Date returned by WebFetch was 2026-07-15 but papers URL slug says '8-july-2026' — possible WebFetch misread. Verify by opening the papers page next run. No correspondent assigned to this ICB in icb_urls.json — alert was suppressed.",
    "summary_path": "summaries/QOQ_2026-07-15.md"
   },
   {
@@ -617,7 +617,7 @@
     "papers": "2026-09-15T13:00:00Z",
     "summary": "2026-09-15T13:00:00Z"
    },
-   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify.",
+   "notes": "Slug says '9-sept-2026' but date returned was 2026-09-16 — verify.",
    "last_verified": "2026-09-15T09:55:21Z",
    "summary_path": "summaries/QOQ_2026-09-16.md"
   },
@@ -638,7 +638,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â verify.",
+   "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 — verify.",
    "last_verified": "2026-08-24T11:48:16Z"
   },
   {
@@ -2383,7 +2383,7 @@
     "papers": "2026-06-11T18:09:11.460120+00:00",
     "summary": "2026-06-11T18:09:11.460120+00:00"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "summary_path": "summaries/RNS_2026-06-09.md"
   },
   {
@@ -2404,7 +2404,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-03T12:00:00Z",
@@ -2430,7 +2430,7 @@
     "summary": null,
     "withdrawn": "2026-08-24T13:51:36Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "last_verified": "2026-08-24T11:48:16Z",
    "date_review": {
     "action": "retracted",
@@ -2456,7 +2456,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "last_verified": "2026-08-24T11:48:16Z"
   },
   {
@@ -2477,7 +2477,7 @@
     "summary": null,
     "withdrawn": "2026-08-24T13:51:36Z"
    },
-   "notes": "RNQ + RNS appear to share most meeting dates ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
+   "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-24T11:51:34Z",
@@ -3158,7 +3158,7 @@
     "papers": "2026-06-09T19:10:18",
     "summary": "2026-06-09T19:10:18"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id.",
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id.",
    "summary_path": "summaries/RWE_2026-06-11.md"
   },
   {
@@ -3179,7 +3179,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id.",
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-08-03T12:00:00Z",
@@ -3205,7 +3205,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-11-06",
@@ -3225,7 +3225,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RWE:2026-12-10",
@@ -3245,7 +3245,7 @@
     "summary": null,
     "withdrawn": "2026-08-17T18:00:00Z"
    },
-   "notes": "Joint with UH Northamptonshire (RNQ/RNS) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
+   "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03."
   },
   {
    "id": "RX1:2026-07-09",
@@ -5693,7 +5693,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting Ã¢â‚¬â€ WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
+   "notes": "[2026-07-09 scan] No real 9 Jul 2026 QEHKL meeting — WebFetch matched old 09.07.2025 pack. Next QEHKL public group board 2 Dec 2026. Likely bad date; verify/retire."
   },
   {
    "id": "RCX:2026-09-25",
@@ -12881,7 +12881,7 @@
      "title": null
     },
     {
-     "url": "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-Ã¢â‚¬â€œ-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
+     "url": "https://www.nhsglos.nhs.uk/wp-content/uploads/2026/07/6-Finance-Update-–-Gloucestershire-and-BNSSG-ICBs-July-2026.pdf",
      "title": null
     }
    ],
@@ -13055,7 +13055,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] Stale Ã¢â‚¬â€ actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
+   "notes": "[2026-07-09 scan] Stale — actual UHD board sits 15 Jul 2026 (analysed under R0D:2026-07-15). This 8 Jul entry appears erroneous."
   },
   {
    "id": "R0D:2026-09-09",
@@ -16927,7 +16927,7 @@
     "papers": "2026-06-05T08:56:10Z",
     "summary": "2026-06-05T08:56:10Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-06-03.md"
   },
   {
@@ -16964,7 +16964,7 @@
     "papers": "2026-08-03T15:55:00Z",
     "summary": "2026-08-03T15:55:00Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
   },
   {
@@ -16984,7 +16984,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2026-12-02",
@@ -17003,7 +17003,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2027-02-03",
@@ -17022,7 +17022,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RGP:2027-04-07",
@@ -17041,7 +17041,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2026-06-03",
@@ -17066,7 +17066,7 @@
     "papers": "2026-06-05T08:56:10Z",
     "summary": "2026-06-05T08:56:10Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-06-03.md"
   },
   {
@@ -17103,7 +17103,7 @@
     "papers": "2026-08-03T15:55:00Z",
     "summary": "2026-08-03T15:55:00Z"
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group.",
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
    "summary_path": "summaries/RM1_2026-08-05.md"
   },
   {
@@ -17123,7 +17123,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2026-12-02",
@@ -17142,7 +17142,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2027-02-03",
@@ -17161,7 +17161,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "RCX:2027-04-07",
@@ -17180,7 +17180,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "NWUHG Group Board Ã¢â‚¬â€ joint with the other 2 trusts in the group."
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group."
   },
   {
    "id": "QK1:2026-06-18",
@@ -20221,7 +20221,7 @@
     "papers": "2026-07-13T12:20:45Z",
     "summary": "2026-07-13T12:20:45Z"
    },
-   "notes": "[2026-07-13] Pack file URL says '9 July' but documents are internally headed 14 July 2026 Ã¢â‚¬â€ meeting date is 14 July.",
+   "notes": "[2026-07-13] Pack file URL says '9 July' but documents are internally headed 14 July 2026 — meeting date is 14 July.",
    "summary_path": "summaries/RGN_2026-07-09.md"
   },
   {
@@ -21297,7 +21297,7 @@
     "papers": "2026-07-21T10:31:26Z",
     "summary": "2026-07-21T10:31:26Z"
    },
-   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) Ã¢â‚¬â€ verify before relying.",
+   "notes": "[2026-07-13] FLAG: pack found was the past 1 July board; 23 July 2026 may be a Council of Governors (not public board) — verify before relying.",
    "summary_path": "summaries/TAJ_2026-07-23.md",
    "date_review": {
     "action": "cancelled",
@@ -24035,7 +24035,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting Ã¢â‚¬â€ 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
+   "notes": "[2026-07-09 scan] No 9 Jul 2026 RJAH meeting — 2026/27 dates 6 May, 1 Jul, 29 Jul, 30 Sep AGM, 7 Oct, 2 Dec, 3 Feb 2027. Likely bad date; verify/retire."
   },
   {
    "id": "RL1:2026-09-10",
@@ -27867,7 +27867,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2026-10-30",
@@ -27887,7 +27887,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2026-12-18",
@@ -27907,7 +27907,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-02-26",
@@ -27927,7 +27927,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-04-30",
@@ -27947,7 +27947,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RTD:2027-06-25",
@@ -27967,7 +27967,7 @@
     "summary": null,
     "withdrawn": "2026-08-06T11:15:24Z"
    },
-   "notes": "[2026-07-17] RETRACTED Ã¢â‚¬â€ fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
+   "notes": "[2026-07-17] RETRACTED — fabricated by WebFetch date extraction (hallucinated an even-month/2027 series). Trust actually meets bi-monthly on Fridays in ODD months (Jan/Mar/May/Jul/Sep/Nov); no 2027 schedule published. This date is not on the trust site. Correction sent to Matt Mathers 2026-07-17."
   },
   {
    "id": "RHW:2026-08-29",
@@ -32576,7 +32576,7 @@
   {
    "ods_code": "RY3",
    "ts": "2026-07-01T11:48:28Z",
-   "error": "no_future_dates_found Ã¢â‚¬â€ page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
+   "error": "no_future_dates_found — page only surfaced past meeting (20 May 2026); no forward 2026/27 schedule parseable",
    "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/"
   },
   {
@@ -32921,7 +32921,7 @@
     "RBD"
    ],
    "dead_urls": [
-    "RBS (Alder Hey) scan_url serves 2018 content Ã¢â‚¬â€ needs rediscovery",
+    "RBS (Alder Hey) scan_url serves 2018 content — needs rediscovery",
     "RX4 (CNTW) corrected URL renders only past listings",
     "RWF (Maidstone & TW) papers page 404 on non-browser UA"
    ]
@@ -33002,7 +33002,7 @@
  },
  "_run_2026_07_30_reconciled": {
   "ran": "2026-07-31T12:07:06Z",
-  "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state â€” not re-stamped).",
+  "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
   "duplicate_note": "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
  },
  "_last_updated": "2026-09-15T13:00:00Z"

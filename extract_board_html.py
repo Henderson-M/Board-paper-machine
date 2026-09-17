@@ -46,6 +46,7 @@ import argparse
 import json
 import re
 import sys
+from html import unescape
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -164,6 +165,27 @@ _YEAR_HEAD = re.compile(
     r"(?:meetings?|dates?|schedule|programme|calendar)\s+(20\d\d)\b"
     r"|\b(20\d\d)\s*[:–—]",
     re.I)
+# A FINANCIAL-year list head — "2026/27 schedule", "2026-27 board dates",
+# "board meetings 2026/2027". The NHS writes its board calendars this way
+# constantly, and the plain _YEAR_HEAD above misses them because the year sits
+# BEFORE the keyword and carries a second year on its tail.
+#
+# These need month-aware year assignment: under a 2026/27 head, April-December
+# belong to 2026 and January-March to 2027. Assigning the head year to the whole
+# run (as pass 2 does for a single-year head) would date a bare "28 January"
+# twelve months early.
+#
+# Worked failure (2026-09-17): Buckinghamshire Healthcare (RXQ) publishes
+# "2026/27 schedule – dates and venues / Thursday 24 September / Thursday 26
+# November". Both are bare day-months under a financial-year head, so neither
+# was recovered, and once the deterministic extractor became the PRIMARY date
+# source rather than a cross-check, that stopped being a harmless gap and became
+# two missed meetings.
+_FY_HEAD = re.compile(
+    r"\b(20\d\d)\s*[/-]\s*(\d{2}|20\d\d)\b"
+    r"(?=[^.]{0,40}?(?:meetings?|dates?|schedule|programme|calendar))"
+    r"|(?:meetings?|dates?|schedule|programme|calendar)\s+(20\d\d)\s*[/-]\s*(\d{2}|20\d\d)\b",
+    re.I)
 
 
 def find_dates(text):
@@ -191,6 +213,13 @@ def find_dates(text):
     # run up to the next 4-digit year (a new head) or 300 chars, whichever first.
     for hm in _YEAR_HEAD.finditer(text):
         year = hm.group(1) or hm.group(2)
+        # "board dates 2026/27:" matches here too, but the run under it spans TWO
+        # calendar years and only pass 3 splits it correctly. Yield to pass 3, or
+        # a bare "13 January" under that head is emitted twice — once right and
+        # once a year early — and the wrong one is indistinguishable downstream.
+        year_end = hm.end(1) if hm.group(1) else hm.end(2)
+        if re.match(r"\s*[/-]\s*(?:\d{2}|20\d\d)\b", text[year_end:year_end + 8]):
+            continue
         chunk_start = hm.end()
         nxt = re.search(r"\b20\d\d\b", text[chunk_start:])
         chunk_end = chunk_start + (nxt.start() if nxt else 300)
@@ -203,6 +232,33 @@ def find_dates(text):
             ctx = re.sub(r"\s+", " ", text[max(0, abs_start - 60):abs_start + m.end() - m.start() + 20]).strip()
             out.append({"iso": iso, "raw": m.group(0), "context": ctx,
                         "year_inferred": True})
+    # Pass 3 — bare day-months under a FINANCIAL-year head ("2026/27 schedule").
+    # Same discipline as pass 2 (an explicit head only, never a stray number),
+    # but the year is chosen by month: Apr-Dec -> first year, Jan-Mar -> second.
+    for hm in _FY_HEAD.finditer(text):
+        g = hm.groups()
+        y1s, y2s = (g[0], g[1]) if g[0] else (g[2], g[3])
+        if not y1s:
+            continue
+        y1 = int(y1s)
+        # "2026/27" -> 2027; "2026/2027" -> 2027.
+        y2 = int(y2s) if len(y2s) == 4 else y1 - (y1 % 100) + int(y2s)
+        if not 0 < y2 - y1 <= 1:
+            continue
+        chunk_start = hm.end()
+        nxt = re.search(r"\b20\d\d\b", text[chunk_start:])
+        chunk_end = chunk_start + (nxt.start() if nxt else 300)
+        for m in _BARE_DM.finditer(text[chunk_start:chunk_end]):
+            mon = _MONTHS[m.group(2).lower().rstrip(".")]
+            iso = _norm(y1 if mon >= 4 else y2, mon, m.group(1))
+            if not iso or iso in seen:
+                continue
+            seen.add(iso)
+            abs_start = chunk_start + m.start()
+            ctx = re.sub(r"\s+", " ",
+                         text[max(0, abs_start - 60):abs_start + m.end() - m.start() + 20]).strip()
+            out.append({"iso": iso, "raw": m.group(0), "context": ctx,
+                        "year_inferred": True})
     return sorted(out, key=lambda r: r["iso"])
 
 
@@ -213,13 +269,32 @@ _ANCHOR_RE = re.compile(
 _ROW_RE = re.compile(r"<tr\b[^>]*>(.*?)</tr>", re.I | re.S)
 
 
+def _unescape(s):
+    """Decode HTML entities, then treat the results as real whitespace.
+
+    Without this, `6 Jan&nbsp;2027` never parses: the date patterns want
+    whitespace between the month and the year, and `&nbsp;` is six literal
+    characters. CMS editors paste non-breaking spaces into schedule tables
+    constantly, and en/em dashes arrive as `&#8211;`/`&#8212;`.
+
+    Worked failure (2026-09-17): Black Country Healthcare (TAJ) lists
+    "6 Jan&nbsp;2027 (Wed)" in its board schedule. The date was literally on the
+    page and was silently dropped — invisible, because nothing downstream can
+    tell "the page doesn't list it" from "we couldn't read it".
+    """
+    s = unescape(s)
+    # NBSP and friends are whitespace for our purposes; the `\s+` collapse below
+    # does not match them on its own.
+    return s.replace(" ", " ").replace(" ", " ").replace(" ", " ")
+
+
 def _visible_text(html):
     html = _SCRIPT_STYLE_RE.sub(" ", html)
-    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", html))
+    return re.sub(r"\s+", " ", _unescape(_TAG_RE.sub(" ", html)))
 
 
 def _clean(s):
-    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", s)).strip()
+    return re.sub(r"\s+", " ", _unescape(_TAG_RE.sub(" ", s))).strip()
 
 
 def _is_doc(href):
