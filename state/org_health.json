@@ -2513,16 +2513,16 @@
   },
   "RX6": {
    "ods_code": "RX6",
-   "last_attempt": "2026-09-15T10:40:17Z",
-   "last_success": "2026-09-15T10:40:17Z",
+   "last_attempt": "2026-09-17T15:13:58Z",
+   "last_success": "2026-09-17T15:13:58Z",
    "consecutive_failures": 0,
    "first_failed": null,
    "last_error": null,
    "failure_kind": null,
    "status": "ok",
    "muted_until": null,
-   "runs_seen": 10,
-   "dates_found": 4
+   "runs_seen": 11,
+   "dates_found": null
   },
   "RX7": {
    "ods_code": "RX7",
