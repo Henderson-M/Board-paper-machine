@@ -1,0 +1,38 @@
+[
+ {
+  "id": "papers_alison_QKS_2026-09-22",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Kent and Medway ICB board - 22 September 2026 - 8 leads",
+  "body_file": "outbox/20260917/20260917_alison_papers_QKS_2026-09-22.md",
+  "attach": [
+   "summaries/QKS_2026-09-22.md"
+  ],
+  "_meeting_ids": [
+   "QKS:2026-09-22"
+  ],
+  "_recipient": "Alison",
+  "_tiers": [
+   8,
+   8,
+   5
+  ]
+ },
+ {
+  "id": "papers_alison_RA2_2026-09-24",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Royal Surrey County Hospital NHS Foundation Trust board - 24 September 2026 - 8 leads",
+  "body_file": "outbox/20260917/20260917_alison_papers_RA2_2026-09-24.md",
+  "attach": [
+   "summaries/RA2_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RA2:2026-09-24"
+  ],
+  "_recipient": "Alison",
+  "_tiers": [
+   8,
+   8,
+   5
+  ]
+ }
+]

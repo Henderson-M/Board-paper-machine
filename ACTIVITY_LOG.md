@@ -1,3 +1,63 @@
+## 2026-09-17 (later) - Quality audit of the same run, on stronger models
+
+Dave asked for the run to be audited because parts of it had been moved to Sonnet.
+Every one of the 49 pack verdicts was re-checked by a Fable agent told explicitly not
+to treat the original verdict as a starting point. **42 agreed (86%), 7 did not.**
+
+**The model tier was not the main problem.** Of the seven disagreements, two were the
+deterministic date matcher's fault rather than any agent's, two had already been caught
+and fixed before anything was sent, one was neutralised by cluster handling, and one was
+publication timing. Two were genuine uncaught misses, and both hid behind a route the
+agent did not take rather than a judgement it got wrong:
+
+- **Kent and Medway ICB, 22 Sept** (21MB, 525pp, created 16 Sept): the pack sits on a
+  per-event page; the scan read the calendar's "Past events" list. Recovered, analysed
+  (8 LEAD) and sent to Alison the same evening. It would otherwise have been lost.
+- **Somerset / BSW cluster, 16 Sept**: the pack has no parent post at all and the page's
+  own "Meeting pack" anchor points at a public-question response. Found via the WordPress
+  REST media API. No alert owed: Joe had the same pack's summary via Dorset on 15 Sept.
+
+Royal Surrey's 24 Sept pack also turned up, but its PDFs are timestamped 17:58 and 18:00
+against a 17:34 check, so it was published after the first pass, not missed. Analysed
+(8 LEAD) and sent anyway.
+
+**The serious find had nothing to do with models.** Kent and Medway NHS and Social Care
+Partnership's 24 September board was retracted on 7 September and a withdrawal emailed to
+Alison, for a meeting the trust's page lists under "Upcoming Board meetings". Root cause,
+reproduced and fixed: the page carries a nav link "Our organisational strategy 2026-2031"
+above the meeting list, and `_inherited_year` took the closing **2031** as the governing
+year for the bare "Thursday 24th September". The date then looked like another year's and
+was retracted automatically. `_inherited_year` now skips both halves of a 20xx-20xx range,
+and an inherited-year mismatch is no longer strong enough to retract on: that now needs a
+year written next to the date itself. The Birmingham Women's archive-row case still
+contradicts, as its test asserts. Two regression cases added; suite passes.
+
+**A bad date also went out in this run.** Salisbury "17 September" was read from the site
+header's date widget, the only occurrence on the page and that day's date. It passed the
+anti-fabrication guard because the guard asks whether a date is literally present, and it
+is, as furniture. Retracted, and corrected to Joe.
+
+**Emails: 4 more, LIVE, 4/4 sent.** Corrections to Joe (bad date) and Alison (reinstated
+meeting), plus the two recovered packs to Alison.
+
+**Other fixes banked:** University Hospitals Birmingham, which this skill listed as
+unsolved, is solved. Packs are not on the configured URL at all but in a Nextcloud public
+share listable over WebDAV (`curl -u 'prTEizKrRnYnjaD:' -X PROPFIND -H 'Depth: 1'
+https://docs.uhb.nhs.uk/public.php/webdav/2026/`); recorded in notes. Liverpool's main
+pack URL had rotted to a UUID handler and was refreshed; the 15 Sept summary was
+unaffected because the analyser had read the pack itself.
+
+**Left for a human:** East Lancashire defeated eight fetch routes, but one fetch that got
+through showed an embedded PDF at `download_file/30721/191` with a higher file id than
+anything else on the page. It may be the 16 September pack. Someone should open it in a
+real browser.
+
+**Tooling gaps worth fixing next**, all recall rather than reasoning: the extractor does
+not walk smbfolder / DOCman folder trees (Royal Surrey, Northampton, Mid and South Essex,
+Staffordshire), does not follow per-event pages (Kent and Medway ICB, Cambridge), and is
+PDF-only so it misses Leeds Teaching's .zip packs. A date-extraction guard should also
+discard site furniture: header date widgets, "printed on", "page last updated".
+
 ## 2026-09-17 - Full run (LIVE emails), Dave's machine
 
 **Scope:** ran on top of an earlier scan the same day (17:03) which had found 13 new

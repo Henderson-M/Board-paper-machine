@@ -11977,18 +11977,25 @@
    "date": "2026-09-22",
    "title": "Board meeting September 2026",
    "source_url": "https://www.kentandmedway.icb.nhs.uk/events-calender",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.kentandmedway.icb.nhs.uk/events-calender/event/board-meeting-september-2026-40/",
+   "pack_files": [
+    {
+     "url": "https://www.kentandmedway.icb.nhs.uk/download/nhs-kent-and-medway-board-part-1-agenda-and-paperspdf.pdf?ver=7577&doc=docm93jijm4n4445.pdf",
+     "title": "NHS Kent and Medway Board (Part 1) agenda and papers",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T19:47:07Z",
+    "summary": "2026-09-17T19:47:07Z"
    },
-   "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "notes": " [2026-09-17 audit] MISSED by the first pass: the pack is on the per-event page, not in the calendar page list that was read. Recovered and alerted the same day.",
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/QKS_2026-09-22.md"
   },
   {
    "id": "QKS:2026-11-24",
@@ -13338,17 +13345,29 @@
    "title": "Board Meeting",
    "source_url": "https://www.royalsurrey.nhs.uk/board-meeting-dates",
    "papers_url": "https://www.royalsurrey.nhs.uk/board-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33459.pdf&ver=85322",
+     "title": "Agenda Pack - Trust Board 24 September 2026 - Part 1",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33460.pdf&ver=85323",
+     "title": "Agenda Pack - Trust Board 24 September 2026 - Part 2",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T19:47:07Z",
+    "summary": "2026-09-17T19:47:07Z"
    },
-   "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "notes": " [2026-09-17 audit] Published ~25 minutes AFTER the first pass checked (PDF ModDates 17:58/18:00 vs a 17:34 check), so a timing gap rather than a miss. Papers live in a smbfolder tree the extractor does not walk.",
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/RA2_2026-09-24.md"
   },
   {
    "id": "RA2:2026-11-26",
@@ -30038,7 +30057,7 @@
     "summary": null,
     "withdrawn": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: Public Board - Thursday 24th September in person (year not stated; taken from the same 'Upcoming Board meetings' block as the 23 September 2026 AGM, and 24 Sep 2026 is a Thursday) | 2026-09-07: retracted, page shows 23 September (AGM), not 24 September. | 2026-09-17 audit: RESTORED. This meeting is real. The trust board meetings page (the same URL in state) reads under \"Upcoming Board meetings\": \"Public Board - Thursday 24th September in person\", and the trust publishes a dedicated landing page for it. The 2026-09-07 re-verification retracted it because the page states the year only for the archive list below (\"Annual General Meeting Wednesday 23 September 2026\"), while the upcoming block gives \"24th September\" with no adjacent year. A withdrawal was sent to Alison on 2026-09-07 in error and a correction has now been sent.",
+   "notes": "[2026-08-03] detected via playwright; literal evidence: Public Board - Thursday 24th September in person (year not stated; taken from the same 'Upcoming Board meetings' block as the 23 September 2026 AGM, and 24 Sep 2026 is a Thursday) | 2026-09-07: retracted, page shows 23 September (AGM), not 24 September. | 2026-09-17 audit: RESTORED. This meeting is real. The trust board meetings page (the same URL in state) reads under \"Upcoming Board meetings\": \"Public Board - Thursday 24th September in person\", and the trust publishes a dedicated landing page for it. The 2026-09-07 re-verification retracted it because the page states the year only for the archive list below (\"Annual General Meeting Wednesday 23 September 2026\"), while the upcoming block gives \"24th September\" with no adjacent year. A withdrawal was sent to Alison on 2026-09-07 in error and a correction has now been sent. [2026-09-17] Correction sent to Alison reinstating this meeting.",
    "last_verified": "2026-09-17T19:20:00Z",
    "date_review": {
     "action": "restored_after_false_retraction",
@@ -32379,9 +32398,10 @@
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T19:47:07Z"
    },
-   "notes": "detected 2026-09-17 via prescan; literal source text: \"17 September 2026\" 2026-09-17 audit: this date was extracted from the site HEADER widget, not a meeting listing. The raw HTML is <div class=\"header-section\"><div class=\"top-bar\">...<div class=\"text-block\">Thursday 17 September 2026</div>, the string occurs exactly once on the page, and it is the run date. The trust board meetings page lists 2026 meetings only to 15 June. The date was alerted to Joe in error and a correction was sent.",
+   "notes": "detected 2026-09-17 via prescan; literal source text: \"17 September 2026\" 2026-09-17 audit: this date was extracted from the site HEADER widget, not a meeting listing. The raw HTML is <div class=\"header-section\"><div class=\"top-bar\">...<div class=\"text-block\">Thursday 17 September 2026</div>, the string occurs exactly once on the page, and it is the run date. The trust board meetings page lists 2026 meetings only to 15 June. The date was alerted to Joe in error and a correction was sent. [2026-09-17] Correction sent to Joe.",
    "date_review": {
     "action": "retracted",
     "reviewed": "2026-09-17T19:10:00Z",

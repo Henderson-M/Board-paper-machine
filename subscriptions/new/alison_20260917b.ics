@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXY-2026-09-24-restored@board-paper-machine.hsj
+DTSTAMP:20260917T193555Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Kent and Medway NHS and Social Care Partnership Trust - Public Board
+DESCRIPTION:Reinstated after an incorrect withdrawal on 7 September 2026. Source: https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+END:VCALENDAR
