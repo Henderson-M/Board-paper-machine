@@ -2,259 +2,42 @@
  {
   "to": "alison.moore@hsj.co.uk",
   "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-alison-20260915",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-caitlin-20260915",
+  "id": "dates_alison_20260917",
   "ok": true,
   "err": ""
  },
  {
   "to": "ella.devereux@hsj.co.uk",
   "subject": "[Board paper machine] 4 new meeting date(s) detected",
-  "id": "dates-ella-20260915",
+  "id": "dates_ella_20260917",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_emily_20260917",
   "ok": true,
   "err": ""
  },
  {
   "to": "henry.anderson@hsj.co.uk",
-  "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-henry-20260915",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "james.illman@hsj.co.uk",
-  "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-james-20260915",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_henry_20260917",
   "ok": true,
   "err": ""
  },
  {
   "to": "joe.talora@hsj.co.uk",
   "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-joe-20260915",
+  "id": "dates_joe_20260917",
   "ok": true,
   "err": ""
  },
  {
   "to": "mimi.launder@hsj.co.uk",
   "subject": "[Board paper machine] 3 new meeting date(s) detected",
-  "id": "dates-mimi-20260915",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "nick.kituno@hsj.co.uk",
-  "subject": "[Board paper machine] 1 new meeting date(s) detected",
-  "id": "dates-nick-20260915",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[Board paper machine] 6 new meeting date(s) detected",
-  "id": "dates-zoe-20260915",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Lancashire and South Cumbria ICB board - Thursday 17 September 2026 - 5 leads",
-  "id": "papers-zoe-QE1-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Herefordshire and Worcestershire ICB board - Wednesday 16 September 2026 - 8 leads",
-  "id": "papers-caitlin-QGH-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "annabelle.collins@hsj.co.uk",
-  "subject": "[PAPERS] Derbyshire, Lincolnshire and Nottinghamshire ICBs (meetings in common) - Thursday 17 September 2026 - 8 leads",
-  "id": "papers-annabelle-QJ2-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "henry.anderson@hsj.co.uk",
-  "subject": "[PAPERS] Humber and North Yorkshire ICB board - Wednesday 16 September 2026 - 8 leads",
-  "id": "papers-henry-QOQ-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "joe.talora@hsj.co.uk",
-  "subject": "[PAPERS] Dorset ICB board - Wednesday 16 September 2026 - 13 leads",
-  "id": "papers-joe-QVV-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "henry.anderson@hsj.co.uk",
-  "subject": "[PAPERS] West Yorkshire ICB board - Tuesday 22 September 2026 - 9 leads",
-  "id": "papers-henry-QWO-2026-09-22",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Coventry and Warwickshire ICB board - Wednesday 16 September 2026 - 5 leads",
-  "id": "papers-caitlin-QWU-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Herefordshire and Worcestershire Health and Care Trust board - Thursday 17 September 2026 - 6 leads",
-  "id": "papers-caitlin-R1A-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Royal Wolverhampton and Walsall Healthcare (joint group board) - Tuesday 15 September 2026 - 10 leads",
-  "id": "papers-caitlin-RL4-2026-09-15",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board - Thursday 4 June 2026 (papers published late) - 10 leads",
-  "id": "papers-zoe-RBS-2026-06-04",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board - Tuesday 23 June 2026 (papers published late) - 6 leads",
-  "id": "papers-zoe-RBS-2026-06-23",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Liverpool University Hospitals Foundation Trust board - Thursday 17 September 2026 - 8 leads",
-  "id": "papers-zoe-REM-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "annabelle.collins@hsj.co.uk",
-  "subject": "[PAPERS] Nottinghamshire Healthcare Foundation Trust board - Thursday 17 September 2026 - 7 leads",
-  "id": "papers-annabelle-RHA-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "ella.devereux@hsj.co.uk",
-  "subject": "[PAPERS] Croydon Health Services Trust board - Wednesday 16 September 2026 - 8 leads",
-  "id": "papers-ella-RJ6-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "ella.devereux@hsj.co.uk",
-  "subject": "[PAPERS] King's College Hospital Foundation Trust board - Wednesday 16 September 2026 - 14 leads",
-  "id": "papers-ella-RJZ-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] Queen Victoria Hospital Foundation Trust - Wednesday 16 September 2026 - REPUBLISHED pack (V4), what is new - 3 leads",
-  "id": "papers-alison-RPC-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "matt.mathers@hsj.co.uk",
-  "subject": "[PAPERS] North Tees and Hartlepool and South Tees Hospitals (joint group board) - Thursday 3 September 2026 (papers published late) - 13 leads",
-  "id": "papers-matt-mathers-RVW-2026-09-03",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Mersey Care Foundation Trust board - Thursday 17 September 2026 - 10 leads",
-  "id": "papers-zoe-RW4-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "joe.talora@hsj.co.uk",
-  "subject": "[PAPERS] Devon Partnership Trust board - Tuesday 15 September 2026 - 10 leads",
-  "id": "papers-joe-RWV-2026-09-15",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "matt.mathers@hsj.co.uk",
-  "subject": "[PAPERS] County Durham and Darlington Foundation Trust board - Thursday 24 September 2026 - 3 leads",
-  "id": "papers-matt-mathers-RXP-2026-09-24",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "henry.anderson@hsj.co.uk",
-  "subject": "[PAPERS] Leeds Community Healthcare Trust board - Thursday 17 September 2026 - 9 leads",
-  "id": "papers-henry-RY6-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Coventry and Warwickshire Partnership Trust board - Tuesday 15 September 2026 - 8 leads",
-  "id": "papers-caitlin-RYG-2026-09-15",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] University Hospitals Sussex Foundation Trust board - Thursday 17 September 2026 - 8 leads",
-  "id": "papers-alison-RYR-2026-09-17",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] Kent Community Health Foundation Trust board - Wednesday 16 September 2026 - 7 leads",
-  "id": "papers-alison-RYY-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "mimi.launder@hsj.co.uk",
-  "subject": "[PAPERS] Thames Valley ICB board - Wednesday 16 September 2026 - 8 leads",
-  "id": "papers-mimi-S0E4D-2026-09-16",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "matt.discombe@hsj.co.uk",
-  "subject": "[PAPERS] West and North London ICB board - Wednesday 23 September 2026 - 6 leads",
-  "id": "papers-matt-discombe-Z9B2Z-2026-09-23",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "ella.devereux@hsj.co.uk",
-  "subject": "[PAPERS] West and North London ICB board - Wednesday 23 September 2026 - 6 leads",
-  "id": "papers-ella-Z9B2Z-2026-09-23",
-  "ok": true,
-  "err": ""
- },
- {
-  "to": "dave.west@hsj.co.uk",
-  "subject": "[Board paper machine] Run report - 15 September 2026 - 18 dates, 27 packs, 2 orgs need attention",
-  "id": "runreport-dave-20260915",
+  "id": "dates_mimi_20260917",
   "ok": true,
   "err": ""
  }

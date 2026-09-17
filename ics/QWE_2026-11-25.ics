@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QWE-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:South West London ICB - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestlondon.icb.nhs.uk/events/
+URL:https://www.southwestlondon.icb.nhs.uk/events/
+END:VEVENT
+END:VCALENDAR

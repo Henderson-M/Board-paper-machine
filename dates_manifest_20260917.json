@@ -1,0 +1,103 @@
+[
+ {
+  "id": "dates_alison_20260917",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_alison_dates.md",
+  "attach": [
+   "subscriptions/new/alison_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "RYA:2027-01-27",
+   "RYA:2027-03-31",
+   "RYD:2027-02-04"
+  ],
+  "_recipient": "Alison"
+ },
+ {
+  "id": "dates_caitlin_20260917",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_caitlin_dates.md",
+  "attach": [
+   "subscriptions/new/caitlin_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "RYA:2027-01-27",
+   "RYA:2027-03-31"
+  ],
+  "_recipient": "Caitlin"
+ },
+ {
+  "id": "dates_ella_20260917",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_ella_dates.md",
+  "attach": [
+   "subscriptions/new/ella_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "QWE:2026-11-25",
+   "RJ6:2027-11-10",
+   "RJ6:2028-01-12",
+   "RJ6:2028-03-15"
+  ],
+  "_recipient": "Ella"
+ },
+ {
+  "id": "dates_emily_20260917",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_emily_dates.md",
+  "attach": [
+   "subscriptions/new/emily_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "S1Y5D:2026-09-25",
+   "S1Y5D:2026-12-18"
+  ],
+  "_recipient": "Emily"
+ },
+ {
+  "id": "dates_henry_20260917",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_henry_dates.md",
+  "attach": [
+   "subscriptions/new/henry_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "RJL:2026-10-09",
+   "RWA:2026-10-09"
+  ],
+  "_recipient": "Henry"
+ },
+ {
+  "id": "dates_joe_20260917",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_joe_dates.md",
+  "attach": [
+   "subscriptions/new/joe_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "RNZ:2026-09-17"
+  ],
+  "_recipient": "Joe"
+ },
+ {
+  "id": "dates_mimi_20260917",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "outbox/20260917/20260917_mimi_dates.md",
+  "attach": [
+   "subscriptions/new/mimi_20260917.ics"
+  ],
+  "_meeting_ids": [
+   "RHM:2027-11-11",
+   "RHM:2028-01-20",
+   "RHM:2028-03-09"
+  ],
+  "_recipient": "Mimi"
+ }
+]

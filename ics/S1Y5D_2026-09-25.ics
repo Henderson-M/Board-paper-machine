@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:S1Y5D-2026-09-25@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Central East ICB - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.centraleast.icb.nhs.uk/about/board/icb-board-meet-dates-and-papers/
+URL:https://www.centraleast.icb.nhs.uk/about/board/icb-board-meet-dates-and-papers/
+END:VEVENT
+END:VCALENDAR

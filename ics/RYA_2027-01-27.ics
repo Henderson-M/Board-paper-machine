@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYA-2027-01-27@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:West Midlands Ambulance Service University NHS Foundation Trust - Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.wmas.nhs.uk/about-us/events/
+URL:https://www.wmas.nhs.uk/about-us/events/
+END:VEVENT
+END:VCALENDAR

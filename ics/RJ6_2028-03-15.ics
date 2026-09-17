@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ6-2028-03-15@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:Croydon Health Services NHS Trust - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+END:VCALENDAR

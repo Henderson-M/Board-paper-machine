@@ -622,8 +622,9 @@
   "ics": "Black Country",
   "correspondent": "Caitlin",
   "url": "https://www.dgft.nhs.uk/about-our-trust/our-board/board-meetings/",
-  "notes": "[2026-07-13] Dates match the Group Board schedule (Dudley/Sandwell group model) noted previously; confirmed on the live page. [2026-07-16] Dudley/Sandwell group board schedule (aligns with Sandwell RXK).",
-  "schedule_url": null
+  "notes": "[2026-07-13] Dates match the Group Board schedule (Dudley/Sandwell group model) noted previously; confirmed on the live page. [2026-07-16] Dudley/Sandwell group board schedule (aligns with Sandwell RXK). [2026-09-17] Dudley Group (RNA) and Sandwell and West Birmingham (RXK) both published a byte-identical 16,801,617-byte pack named 26-09-16-Group-Board_Agenda_PAPERSV2.pdf for 16 September 2026, uploaded six minutes apart, breaking Dudley's own \"Public-Board-Agenda\" naming convention. They appear to have moved to a joint Group Board from this date. Analyse the pack ONCE and alert both. Flagged for human confirmation - the cluster_id was inferred from the identical file, not from an announcement.",
+  "schedule_url": null,
+  "cluster_id": "DUD-SWB"
  },
  {
   "ods_code": "RQ3",
@@ -712,8 +713,9 @@
   "ics": "Black Country",
   "correspondent": "Caitlin",
   "url": "https://www.swbh.nhs.uk/our-trust/trust-board/board-meeting-dates/",
-  "notes": "[2026-09-10] Structure is actually FOUR-hop, not three: dates page -> /our-trust/trust-board/public-trust-board-papers/ (index) -> /public-trust-board-papers-2026/ (year folder, links only appear once a month's papers exist) -> /trust-board-paper/{month}-N/ (month page with the actual PDFs, e.g. 'may-2', 'july-2' – note the trailing incrementing suffix). As of 2026-09-10 the year folder has no September tile. | [2026-07-21] THREE hops: dates page -> papers index -> year folder. | [2026-07-13] Dates align with the Dudley/Sandwell group board schedule. [2026-07-16] Aligns with Dudley/Sandwell group board schedule. || [2026-09-17] Correction to prior note: the year-folder URL is nested under the index path, i.e. https://www.swbh.nhs.uk/our-trust/trust-board/public-trust-board-papers/public-trust-board-papers-2026/ (NOT https://www.swbh.nhs.uk/our-trust/trust-board/public-trust-board-papers-2026/, which 404s). For September 2026 the year-folder's month tile links straight to the combined PDF (wp-content/uploads/2026/09/26-09-16-Group-Board_Agenda_PAPERSV2.pdf, 16.8MB) rather than to an intermediate /trust-board-paper/{month}-N/ page - so the hop count can be 3, not always 4; check the tile's href before assuming another hop is needed.",
-  "schedule_url": null
+  "notes": "[2026-09-10] Structure is actually FOUR-hop, not three: dates page -> /our-trust/trust-board/public-trust-board-papers/ (index) -> /public-trust-board-papers-2026/ (year folder, links only appear once a month's papers exist) -> /trust-board-paper/{month}-N/ (month page with the actual PDFs, e.g. 'may-2', 'july-2' – note the trailing incrementing suffix). As of 2026-09-10 the year folder has no September tile. | [2026-07-21] THREE hops: dates page -> papers index -> year folder. | [2026-07-13] Dates align with the Dudley/Sandwell group board schedule. [2026-07-16] Aligns with Dudley/Sandwell group board schedule. || [2026-09-17] Correction to prior note: the year-folder URL is nested under the index path, i.e. https://www.swbh.nhs.uk/our-trust/trust-board/public-trust-board-papers/public-trust-board-papers-2026/ (NOT https://www.swbh.nhs.uk/our-trust/trust-board/public-trust-board-papers-2026/, which 404s). For September 2026 the year-folder's month tile links straight to the combined PDF (wp-content/uploads/2026/09/26-09-16-Group-Board_Agenda_PAPERSV2.pdf, 16.8MB) rather than to an intermediate /trust-board-paper/{month}-N/ page - so the hop count can be 3, not always 4; check the tile's href before assuming another hop is needed. [2026-09-17] Dudley Group (RNA) and Sandwell and West Birmingham (RXK) both published a byte-identical 16,801,617-byte pack named 26-09-16-Group-Board_Agenda_PAPERSV2.pdf for 16 September 2026, uploaded six minutes apart, breaking Dudley's own \"Public-Board-Agenda\" naming convention. They appear to have moved to a joint Group Board from this date. Analyse the pack ONCE and alert both. Flagged for human confirmation - the cluster_id was inferred from the identical file, not from an announcement.",
+  "schedule_url": null,
+  "cluster_id": "DUD-SWB"
  },
  {
   "ods_code": "RXT",
@@ -1098,8 +1100,10 @@
   "ics": "Humber and North Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
-  "notes": "[2026-09-10] Two-hop confirmed: events page (org_url) lists dates only, 0 docs even after following the per-meeting event page. Actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/ (per-month PDFs), reached from the top-level /resources/?resources_type=board-papers page via a 'Board papers 2026' year link. Use the 2026 archive URL directly next time. | [2026-07-13] NLAG/Hull Boards-in-Common dates confirmed via NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. (11 Jun/9 Jul now past.) Papers separately at /resources/?resources_type=board-papers. [2026-07-16] NLAG/Hull Boards-in-Common via NLG events page. Papers at /resources/?resources_type=board-papers.",
-  "schedule_url": null
+  "notes": "[2026-09-10] Two-hop confirmed: events page (org_url) lists dates only, 0 docs even after following the per-meeting event page. Actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/ (per-month PDFs), reached from the top-level /resources/?resources_type=board-papers page via a 'Board papers 2026' year link. Use the 2026 archive URL directly next time. | [2026-07-13] NLAG/Hull Boards-in-Common dates confirmed via NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. (11 Jun/9 Jul now past.) Papers separately at /resources/?resources_type=board-papers. [2026-07-16] NLAG/Hull Boards-in-Common via NLG events page. Papers at /resources/?resources_type=board-papers. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer.",
+  "schedule_url": null,
+  "cluster_id": "HUMBER",
+  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings"
  },
  {
   "ods_code": "RP5",
@@ -1128,7 +1132,7 @@
   "ics": "West Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.leedsth.nhs.uk/about/board/meetings/",
-  "notes": "[2026-07-13] Full 2026/27 schedule confirmed. 28 May 2026 now past and dropped. [2026-07-16] 28 May 2026 dropped as past. || [2026-09-17] Per-meeting pages live at /documents/board-meeting-<d-month-yyyy>/ and /documents/annual-general-meeting-agm-<d-month-yyyy>/, found via 'View All Board Papers' -> /about/documents/?department=all&type=board-papers&sort=all. Most recent past pack (30 Jul 2026) was a .zip at /wp-content/uploads/2026/07/LTHT-PUBLIC-Board-280526.zip (note: filename date doesn't match page date - worth watching for naming quirks).",
+  "notes": "[2026-07-13] Full 2026/27 schedule confirmed. 28 May 2026 now past and dropped. [2026-07-16] 28 May 2026 dropped as past. || [2026-09-17] Per-meeting pages live at /documents/board-meeting-<d-month-yyyy>/ and /documents/annual-general-meeting-agm-<d-month-yyyy>/, found via 'View All Board Papers' -> /about/documents/?department=all&type=board-papers&sort=all. Most recent past pack (30 Jul 2026) was a .zip at /wp-content/uploads/2026/07/LTHT-PUBLIC-Board-280526.zip (note: filename date doesn't match page date - worth watching for naming quirks). [2026-09-17] Leeds Teaching publishes board packs as .zip, not .pdf, so the PDF-only deterministic extractor misses them. Check for a .zip when deciding 'no papers yet'.",
   "schedule_url": null
  },
  {
@@ -1157,8 +1161,10 @@
   "ics": "Humber and North Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
-  "notes": "[2026-09-10] Same finding as RJL: actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/, not the NLG events page. | [2026-09-10] Page now also lists a 12 Nov 2026 Boards-in-Common meeting (previous stored note only had 10 Sep/8 Oct/10 Dec 2026). | [2026-07-13] HUTH shares Boards-in-Common with NLAG; dates sourced from NLG events page: 10 Sep, 8 Oct, 10 Dec 2026.",
-  "schedule_url": null
+  "notes": "[2026-09-10] Same finding as RJL: actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/, not the NLG events page. | [2026-09-10] Page now also lists a 12 Nov 2026 Boards-in-Common meeting (previous stored note only had 10 Sep/8 Oct/10 Dec 2026). | [2026-07-13] HUTH shares Boards-in-Common with NLAG; dates sourced from NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer.",
+  "schedule_url": null,
+  "cluster_id": "HUMBER",
+  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings"
  },
  {
   "ods_code": "RWY",
@@ -1214,7 +1220,8 @@
   "names": [
    "South West Yorkshire Partnership NHS Foundation Trust",
    "South West Yorkshire Partnership",
-   "SWYPFT"
+   "SWYPFT",
+   "South West Yorkshire Partnership Teaching NHS Foundation Trust"
   ],
   "type": "Mental Health & Learning Disability and Mental Health, Learning Disability & Community Trusts",
   "region": "North East and Yorkshire",
@@ -1624,9 +1631,9 @@
   "ics": "Bath and North East Somerset, Swindon and Wiltshire",
   "correspondent": "Joe",
   "url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
-  "notes": "[2026-09-10] Salisbury also publishes a joint \"BSW Hospitals Group Board\" pack in its board-papers-2026 folder alongside its own trust board packs - check both. [2026-09-10] H2 2026 dates are now published: next meeting Thursday 10 September 2026 (confirmed literal). Previously the page only showed H1 2026 dates, all past. Continue to verify year on any further rows given the 2026-08-17 fabrication incident on this trust. | [2026-07-13] Page fetched OK but only lists 2026 dates 8 Jan, 5 Mar, 13 May, 15 Jun (all past). H2 2026 dates not yet published. [2026-07-16] Only 2026 dates shown (8 Jan, 5 Mar, 13 May, 15 Jun) are past. H2 2026 dates not yet published. | [2026-08-17] Page lists board dates under a bare year heading ('2026') with no year on each row - the extractor previously projected these into 2027 and four fabricated dates were alerted on 29 Jun and withdrawn today. Only record dates for this trust after confirming the year heading. Currently no forward schedule published; on papers watchlist. | [2026-09-15] Packs are under /board-papers/board-papers-2026/, not the board landing page. Page header prints today's date, which the extractor can misread as a meeting date.",
+  "notes": "[2026-09-10] Salisbury also publishes a joint \"BSW Hospitals Group Board\" pack in its board-papers-2026 folder alongside its own trust board packs - check both. [2026-09-10] H2 2026 dates are now published: next meeting Thursday 10 September 2026 (confirmed literal). Previously the page only showed H1 2026 dates, all past. Continue to verify year on any further rows given the 2026-08-17 fabrication incident on this trust. | [2026-07-13] Page fetched OK but only lists 2026 dates 8 Jan, 5 Mar, 13 May, 15 Jun (all past). H2 2026 dates not yet published. [2026-07-16] Only 2026 dates shown (8 Jan, 5 Mar, 13 May, 15 Jun) are past. H2 2026 dates not yet published. | [2026-08-17] Page lists board dates under a bare year heading ('2026') with no year on each row - the extractor previously projected these into 2027 and four fabricated dates were alerted on 29 Jun and withdrawn today. Only record dates for this trust after confirming the year heading. Currently no forward schedule published; on papers watchlist. | [2026-09-15] Packs are under /board-papers/board-papers-2026/, not the board landing page. Page header prints today's date, which the extractor can misread as a meeting date. [2026-09-17] papers_url corrected: the site restructured from /about-us/trust-board/ to /about-us/the-trust-board/ and the old path 404s. The 2026 listing page links each meeting to its own page rather than linking PDFs directly, so packs need a landing hop.",
   "schedule_url": null,
-  "papers_url": "https://www.salisbury.nhs.uk/about-us/trust-board/board-papers/board-papers-2026/"
+  "papers_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/board-papers/board-papers-2026/"
  },
  {
   "ods_code": "RTE",
@@ -2138,7 +2145,7 @@
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
   "url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
-  "notes": "[2026-09-10] TEWV does state the next meeting date in body prose ('The next meeting will be held on...') even though the page otherwise only lists past packs. Re-check this sentence each run rather than relying on the PDF filename list, which only shows past packs. | [2026-07-13] TEWV board/events/papers pages show only past meetings (last: 11 June 2026). No forward-dates page found via webfetch, playwright render of /about/board/, or search. Trust appears to post only the next meeting. Re-discover a dedicated dates page next run. [2026-07-16] TEWV posts only past/next meeting; no forward-dates page. Last past meeting 11 Jun 2026. || [2026-09-17] Candidate URL 1 in this org's list (https://www.tewv.nhs.uk/about-us/our-board-of-directors/board-meetings-and-papers/) now 404s on both requests and Playwright. Working URL is candidate 2: https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/ - consider promoting it to first candidate. Page also confirms the trust publishes papers exactly on a stated date (today, 17 Sep, for the 23 Sep meeting) rather than a fixed N-days-before rule - re-check same day/next run since publication was due today.",
+  "notes": "[2026-09-10] TEWV does state the next meeting date in body prose ('The next meeting will be held on...') even though the page otherwise only lists past packs. Re-check this sentence each run rather than relying on the PDF filename list, which only shows past packs. | [2026-07-13] TEWV board/events/papers pages show only past meetings (last: 11 June 2026). No forward-dates page found via webfetch, playwright render of /about/board/, or search. Trust appears to post only the next meeting. Re-discover a dedicated dates page next run. [2026-07-16] TEWV posts only past/next meeting; no forward-dates page. Last past meeting 11 Jun 2026. || [2026-09-17] Candidate URL 1 in this org's list (https://www.tewv.nhs.uk/about-us/our-board-of-directors/board-meetings-and-papers/) now 404s on both requests and Playwright. Working URL is candidate 2: https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/ - consider promoting it to first candidate. Page also confirms the trust publishes papers exactly on a stated date (today, 17 Sep, for the 23 Sep meeting) rather than a fixed N-days-before rule - re-check same day/next run since publication was due today. [2026-09-17] papers_url corrected: the previous value 404s. The working page returns 56 pack PDFs with sizes in the link text. The trust states each pack is published on the Thursday before the meeting.",
   "schedule_url": null,
   "papers_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/"
  },
@@ -2910,7 +2917,7 @@
   "ics": "Lancashire and South Cumbria",
   "correspondent": "Zoe",
   "url": "https://elht.nhs.uk/about-us/our-trust-board/board-meetings-including-agenda-and-papers",
-  "notes": "[2026-09-10] WebFetch intermittently returns empty content for this page even though a direct requests fetch (extract_board_html.py) works fine - if WebFetch comes back empty here, don't treat it as a hard block; fall back to extract_board_html.py before escalating to Playwright. | [2026-07-13] WebFetch now OK (previous 404 no longer occurs); 4 forward dates extracted. || [2026-09-17] Playwright fetch succeeded (full page incl. footer/Incapsula script tag, not blocked). Papers list runs through July 2026 only; Sept 2026 meeting shown as upcoming-only notice with no linked documents.",
+  "notes": "[2026-09-10] WebFetch intermittently returns empty content for this page even though a direct requests fetch (extract_board_html.py) works fine - if WebFetch comes back empty here, don't treat it as a hard block; fall back to extract_board_html.py before escalating to Playwright. | [2026-07-13] WebFetch now OK (previous 404 no longer occurs); 4 forward dates extracted. || [2026-09-17] Playwright fetch succeeded (full page incl. footer/Incapsula script tag, not blocked). Papers list runs through July 2026 only; Sept 2026 meeting shown as upcoming-only notice with no linked documents. [2026-09-17] elht.nhs.uk now sits behind Incapsula for automated traffic: requests, headless Playwright and WebFetch all get only the anti-bot iframe. May need an archive route (web.archive.org/save) on future runs.",
   "schedule_url": null
  },
  {
@@ -3030,8 +3037,8 @@
    "Alison"
   ],
   "url": "https://www.wmas.nhs.uk/about/publications/?category=board-papers",
-  "notes": "[2026-07-21] Publishes no forward calendar. | [2026-07-13] Confirmed: WMAS publishes no forward calendar - board-papers filter only lists agendas already released (latest 27 May 2026); no future dates as of 13 Jul 2026. Re-scan for newly posted agendas. [2026-07-16] board-papers filter lists only released agendas (latest 27 May 2026, past); no forward calendar published. || WMAS never publishes a forward calendar on the board-papers listing page. To find the next date: open the most recently published 'WMAS Board Meeting Agenda' item from the listing and read its final agenda item ('...date of the next meeting: The next meeting will be on [date]'). This item URL changes every cycle (currently the 29 July 2026 agenda), so re-identify the latest agenda link each run rather than reusing this specific URL.",
-  "schedule_url": null
+  "notes": "[2026-07-21] Publishes no forward calendar. | [2026-07-13] Confirmed: WMAS publishes no forward calendar - board-papers filter only lists agendas already released (latest 27 May 2026); no future dates as of 13 Jul 2026. Re-scan for newly posted agendas. [2026-07-16] board-papers filter lists only released agendas (latest 27 May 2026, past); no forward calendar published. || WMAS never publishes a forward calendar on the board-papers listing page. To find the next date: open the most recently published 'WMAS Board Meeting Agenda' item from the listing and read its final agenda item ('...date of the next meeting: The next meeting will be on [date]'). This item URL changes every cycle (currently the 29 July 2026 agenda), so re-identify the latest agenda link each run rather than reusing this specific URL. [2026-09-17] schedule_url set to the events page: `url` is the publications archive and lists only papers ALREADY published, so the date scan never saw a forward schedule and seven wrong dates accumulated. The events page also carries Council of Governors meetings - exclude those, they are not board meetings.",
+  "schedule_url": "https://www.wmas.nhs.uk/about-us/events/"
  },
  {
   "ods_code": "RYC",
@@ -3048,7 +3055,7 @@
    "Alison"
   ],
   "url": "https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers",
-  "notes": "[2026-09-10] Trust does not publish papers online in advance; only available on request from Esther.Kingsmill@eastamb.nhs.uk nearer the date. Also note a 17 Sep 2026 EEAST AGM (Teams) shown on the same page, separate from the 16 Sep public board meeting. | [2026-07-16] Only one future date shown on page.",
+  "notes": "[2026-09-10] Trust does not publish papers online in advance; only available on request from Esther.Kingsmill@eastamb.nhs.uk nearer the date. Also note a 17 Sep 2026 EEAST AGM (Teams) shown on the same page, separate from the 16 Sep public board meeting. | [2026-07-16] Only one future date shown on page. [2026-09-17] the trust's own site dates the In Public Board Meeting to 16 September 2026 and lists 17 September as the AGM. State holds both; check which is the board before treating the 17th as one. Papers are 'available on request nearer the event', so the page often carries no pack links at all.",
   "schedule_url": null
  },
  {

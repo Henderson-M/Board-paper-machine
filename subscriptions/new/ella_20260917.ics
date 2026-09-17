@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QWE-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:South West London ICB - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestlondon.icb.nhs.uk/events/
+URL:https://www.southwestlondon.icb.nhs.uk/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-11-10@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:Croydon Health Services NHS Trust - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2028-01-12@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:Croydon Health Services NHS Trust - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2028-03-15@board-paper-machine.hsj
+DTSTAMP:20260917T163535Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:Croydon Health Services NHS Trust - Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+END:VCALENDAR
