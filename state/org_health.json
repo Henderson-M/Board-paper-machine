@@ -459,16 +459,16 @@
   },
   "RKB": {
    "ods_code": "RKB",
-   "last_attempt": "2026-09-17T16:31:33Z",
-   "last_success": "2026-09-17T16:01:11Z",
-   "consecutive_failures": 1,
-   "first_failed": "2026-09-17T16:31:33Z",
-   "last_error": "re-verification could not read the schedule page",
-   "failure_kind": "unparseable",
-   "status": "degraded",
+   "last_attempt": "2026-09-17T16:39:06Z",
+   "last_success": "2026-09-17T16:39:06Z",
+   "consecutive_failures": 0,
+   "first_failed": null,
+   "last_error": null,
+   "failure_kind": "no_schedule_published",
+   "status": "ok",
    "muted_until": null,
-   "runs_seen": 9,
-   "dates_found": 1
+   "runs_seen": 10,
+   "dates_found": null
   },
   "RL1": {
    "ods_code": "RL1",
@@ -1044,15 +1044,15 @@
   },
   "RXG": {
    "ods_code": "RXG",
-   "last_attempt": "2026-09-17T16:34:16Z",
+   "last_attempt": "2026-09-17T16:39:09Z",
    "last_success": "2026-09-15T10:41:05Z",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "first_failed": "2026-09-17T16:01:25Z",
-   "last_error": "2026-09-17: full ladder exhausted - requests, headless Playwright, Playwright+follow-landing and WebFetch all return zero dates and zero documents from the stored URL. URL is NOT stale (web search confirms it is still the live meetings-and-papers page). Site is WordPress; packs live under /wp-content/uploads/. Needs an archive/alternative route or a human look. Trust has also renamed to 'South Wes",
+   "last_error": "no dates and no documents",
    "failure_kind": "blocked",
-   "status": "degraded",
+   "status": "broken",
    "muted_until": null,
-   "runs_seen": 10,
+   "runs_seen": 11,
    "dates_found": 0
   },
   "RY6": {
@@ -2474,15 +2474,15 @@
   },
   "RXR": {
    "ods_code": "RXR",
-   "last_attempt": "2026-09-17T16:01:26Z",
+   "last_attempt": "2026-09-17T16:39:31Z",
    "last_success": "2026-09-17T16:01:26Z",
-   "consecutive_failures": 0,
-   "first_failed": null,
-   "last_error": null,
-   "failure_kind": null,
-   "status": "ok",
+   "consecutive_failures": 2,
+   "first_failed": "2026-09-17T16:38:54Z",
+   "last_error": "no dates and no documents",
+   "failure_kind": "blocked",
+   "status": "degraded",
    "muted_until": null,
-   "runs_seen": 12,
+   "runs_seen": 14,
    "dates_found": 4
   },
   "RY2": {
@@ -2630,15 +2630,15 @@
   },
   "G6V2S": {
    "ods_code": "G6V2S",
-   "last_attempt": "2026-09-17T16:31:33Z",
-   "last_success": "2026-09-17T16:00:58Z",
-   "consecutive_failures": 1,
-   "first_failed": "2026-09-17T16:31:33Z",
-   "last_error": "re-verification could not read the schedule page",
-   "failure_kind": "unparseable",
-   "status": "degraded",
+   "last_attempt": "2026-09-17T16:39:02Z",
+   "last_success": "2026-09-17T16:39:02Z",
+   "consecutive_failures": 0,
+   "first_failed": null,
+   "last_error": null,
+   "failure_kind": null,
+   "status": "ok",
    "muted_until": null,
-   "runs_seen": 13,
+   "runs_seen": 14,
    "dates_found": 4
   },
   "QYG": {
@@ -3111,15 +3111,15 @@
   },
   "K0N6A": {
    "ods_code": "K0N6A",
-   "last_attempt": "2026-09-01T12:30:00Z",
+   "last_attempt": "2026-09-17T16:39:04Z",
    "last_success": null,
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "first_failed": "2026-09-01T12:30:00Z",
-   "last_error": "No board page URL held. New organisation (The Online NHS Trust), due to launch 2027; founding CEO named in Kingston & Richmond board pack.",
-   "failure_kind": "other",
+   "last_error": "no dates and no documents",
+   "failure_kind": "blocked",
    "status": "degraded",
    "muted_until": "2027-01-31",
-   "runs_seen": 1
+   "runs_seen": 2
   }
  }
 }
