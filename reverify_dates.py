@@ -166,9 +166,23 @@ def _inherited_year(text, pos):
     Forward-only by design: "Trust board meeting 2026" applies to every day-month under it
     until the next year heading. This is the same rule page_future_dates uses, so the two
     functions agree about what year a bare date belongs to.
+
+    Year RANGES are skipped entirely. Kent and Medway's board page carries a navigation link,
+    "Doing well together: Our organisational strategy 2026-2031", above its meeting list, and
+    the closing 2031 was inherited by "Public Board - Thursday 24th September", making a real
+    meeting look like it belonged to 2031. That retracted it and sent a withdrawal to the
+    correspondent on 2026-09-07 for a meeting that was going ahead (found by audit 2026-09-17).
+    A "2026-2031" strategy label is never the heading of a date list. Note this deliberately
+    does NOT touch financial-year headings like "2026/27", which are two digits after the
+    slash and are genuine list headings.
     """
     last = None
     for m in re.finditer(r"\b(20\d\d)\b", text[:pos]):
+        s, e = m.start(), m.end()
+        if re.match(r"\s*[-–—/]\s*20\d\d\b", text[e:e + 8]):
+            continue                      # first half of "2026-2031"
+        if re.search(r"\b20\d\d\s*[-–—/]\s*$", text[max(0, s - 8):s]):
+            continue                      # second half of "2026-2031"
         last = m
     return int(last.group(1)) if last else None
 
@@ -207,8 +221,17 @@ def find_date(iso, text):
                 inh = _inherited_year(text, m.start())
                 if inh is None:
                     verdict = "DAYMONTH"        # no year anywhere above it; cannot judge
+                elif inh == yr:
+                    verdict = "CONFIRMED"
                 else:
-                    verdict = "CONFIRMED" if inh == yr else "WRONGYEAR"
+                    # An INHERITED year that disagrees is weak evidence, and must never on
+                    # its own drive a retraction. Inheritance walks back over arbitrary body
+                    # copy, so it is only as good as the nearest stray 4-digit number. An
+                    # ADJACENT wrong year ("3 September 2024" in an archive row) stays
+                    # WRONGYEAR above, because that genuinely names another year's meeting.
+                    # A withdrawal email for a meeting that is going ahead costs a
+                    # correspondent more than leaving a stale date in for one more run.
+                    verdict = "DAYMONTH"
             if verdict == "CONFIRMED":
                 return verdict, ev
             if rank[verdict] > rank[best]:

@@ -26,6 +26,25 @@ PAD = ("The Trust Board of Directors holds its meetings in public and welcomes o
 
 CASES = [
     (
+        "Kent and Medway: a strategy year-RANGE above the list must not poison inheritance "
+        "(2026-09-17)",
+        # The live page carries "Our organisational strategy 2026-2031" in its navigation,
+        # above an upcoming-meetings block whose entry has no year of its own. Inheriting
+        # the 2031 made a real board meeting look like another year's, and a withdrawal was
+        # emailed on 2026-09-07 for a meeting that was going ahead.
+        PAD + "Doing well together: Our organisational strategy 2026-2031. Trust Board. "
+              "Upcoming Board meetings Public Board - Thursday 24th September in person. "
+              "Board meeting papers. 2026 Board Meetings Annual General Meeting "
+              "Wednesday 23 September 2026 Board Meeting Thursday 30 July 2026.",
+        [("2026-09-24", "confirm"),      # bare day-month in the upcoming block: real
+         ("2026-09-23", "confirm")],     # carries its own year
+    ),
+    (
+        "A year-range must not confirm a date that belongs to neither end of it",
+        PAD + "Our strategy 2026-2031 sets our direction. Past meetings: 14 March.",
+        [("2031-03-14", "unverifiable")],   # no forward schedule published, so never retract
+    ),
+    (
         "BWC: archive row for another year must not confirm (2026-08-24)",
         PAD + "Board meetings and minutes. 2026 meeting dates 8 January 10 March 7 May 2 July "
               "9 September 5 November. Previous meetings archive: 9 January 2024, 5 March 2024, "

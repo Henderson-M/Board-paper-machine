@@ -11441,7 +11441,7 @@
     "papers": "2026-09-17T17:53:09Z",
     "summary": "2026-09-17T17:53:09Z"
    },
-   "notes": null,
+   "notes": " [2026-09-17 audit] Staffordshire publishes its own copy of the STW/SSOT Boards in Common pack in a DOCman folder (board-papers/2026/september-2026/). The 17 Sep scan reported no September folder; there is one. No alert owed: the same pack was found via QOC and Caitlin's alert covered both ods codes.",
    "last_verified": "2026-09-17T16:31:33Z",
    "summary_path": "summaries/QOC_2026-09-24.md"
   },
@@ -27046,17 +27046,29 @@
    "title": "BSW, Dorset and Somerset ICBs Cluster Board Meeting in Public",
    "source_url": "https://nhssomerset.nhs.uk/publications/board-papers/",
    "papers_url": "https://bsw.icb.nhs.uk/documents-and-reports/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://bsw.icb.nhs.uk/wp-content/uploads/sites/6/2026/09/260916_Cluster-Board-Meeting-in-Public-Paper-Pack.pdf",
+     "title": "Cluster Board Meeting in Public Paper Pack, 16 September 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://bsw.icb.nhs.uk/wp-content/uploads/sites/6/2026/09/260916_Cluster-ICBs-AGM-Agenda_FINAL-1.pdf",
+     "title": "Cluster ICBs AGM Agenda, 16 September 2026 (agenda only)",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-13T12:00:00Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-15T11:35:00Z",
+    "summary": "2026-09-15T11:35:00Z"
    },
-   "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-09-15T09:55:21Z"
+   "notes": "detected in full sweep 2026-07-13 [2026-09-17 audit] The 16 Sep pack is the BSW/Dorset/Somerset Cluster Board pack (cluster BSW-DOR-SOM). The 17 Sep scan missed it because the pack has no parent post: the cluster-board-meetings page's 'Meeting pack' anchor points at the public-question response, and the documents-and-reports folder tree loads its contents client-side. It is reachable via the WordPress REST media API (/wp-json/wp/v2/media?search=Cluster%20Board). No alert owed: Joe is correspondent for all three cluster ICBs and received this same pack's summary via QVV on 15 Sep.",
+   "last_verified": "2026-09-15T09:55:21Z",
+   "summary_path": "summaries/QVV_2026-09-16.md"
   },
   {
    "id": "QVV:2026-09-16",
@@ -28603,7 +28615,7 @@
      "kind": "pdf"
     },
     {
-     "url": "https://www.uhliverpool.nhs.uk/download_file/22984/423",
+     "url": "https://www.uhliverpool.nhs.uk/download_file/78f03ac9-bc88-4160-9b96-7912b95bbe65/423",
      "title": "UHLG Board of Directors Public Pack - 17 September 2026",
      "kind": "pdf"
     }
@@ -28628,7 +28640,7 @@
     "run": "2026-09-17",
     "evidence": "2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive."
    },
-   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: the group board pack for 17 Sep was published and analysed on 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive. [2026-09-17] RBQ and REM sit on one joint UHLG group board; this is the SAME pack already analysed for REM:2026-09-17 (summaries/REM_2026-09-17.md) and alerted to Zoe on 15 Sep. Recorded here for completeness. No second alert sent: RBQ and REM share the same correspondent, so alerting again would duplicate.",
+   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: the group board pack for 17 Sep was published and analysed on 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive. [2026-09-17] RBQ and REM sit on one joint UHLG group board; this is the SAME pack already analysed for REM:2026-09-17 (summaries/REM_2026-09-17.md) and alerted to Zoe on 15 Sep. Recorded here for completeness. No second alert sent: RBQ and REM share the same correspondent, so alerting again would duplicate. [2026-09-17 audit] The CMS reissued the main pack under a UUID handler. The old numeric URL /download_file/22984/423 now returns an HTML page, not a PDF. The pack itself was read correctly on 15 Sep (751pp public pack + 333pp information pack), so the summary is unaffected; only the stored URL was stale.",
    "summary_path": "summaries/REM_2026-09-17.md"
   },
   {
@@ -28647,7 +28659,7 @@
      "first_seen": "2026-09-15T12:00:00Z"
     },
     {
-     "url": "https://www.uhliverpool.nhs.uk/download_file/22984/423",
+     "url": "https://www.uhliverpool.nhs.uk/download_file/78f03ac9-bc88-4160-9b96-7912b95bbe65/423",
      "title": "UHLG Board of Directors Public Pack - 17 September 2026",
      "kind": "other",
      "first_seen": "2026-09-15T12:00:00Z"
@@ -28674,7 +28686,7 @@
     "run": "2026-09-17",
     "evidence": "2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive."
    },
-   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: pack analysed and alerted 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive."
+   "notes": "2026-09-17: date is today; the trust's 'future meetings' widget has simply dropped it. Real: pack analysed and alerted 15 Sep. Not a contradiction. 2026-09-17 re-verification flagged this as contradicted because the shared UHLG board page lists only meetings still to come, so it drops a meeting on the day it happens. NOT retracted: the published pack is titled 'UHLG Board of Directors Public Pack - 17 September 2026'. Treat a same-day 'contradiction' on this page as a false positive. [2026-09-17 audit] The CMS reissued the main pack under a UUID handler. The old numeric URL /download_file/22984/423 now returns an HTML page, not a PDF. The pack itself was read correctly on 15 Sep (751pp public pack + 333pp information pack), so the summary is unaffected; only the stored URL was stale."
   },
   {
    "id": "RV5:2026-07-21",
@@ -30017,21 +30029,22 @@
    "source_url": "https://www.kentmedwaymentalhealth.nhs.uk/about-us/trust-board/board-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "retracted",
+   "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
    "last_checked": "2026-09-10T08:25:34Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null,
-    "withdrawn": "2026-09-07T11:56:32Z"
+    "withdrawn": null
    },
-   "notes": "[2026-08-03] detected via playwright; literal evidence: Public Board - Thursday 24th September in person (year not stated; taken from the same 'Upcoming Board meetings' block as the 23 September 2026 AGM, and 24 Sep 2026 is a Thursday) | 2026-09-07: retracted, page shows 23 September (AGM), not 24 September.",
-   "last_verified": "2026-08-24T11:47:35Z",
+   "notes": "[2026-08-03] detected via playwright; literal evidence: Public Board - Thursday 24th September in person (year not stated; taken from the same 'Upcoming Board meetings' block as the 23 September 2026 AGM, and 24 Sep 2026 is a Thursday) | 2026-09-07: retracted, page shows 23 September (AGM), not 24 September. | 2026-09-17 audit: RESTORED. This meeting is real. The trust board meetings page (the same URL in state) reads under \"Upcoming Board meetings\": \"Public Board - Thursday 24th September in person\", and the trust publishes a dedicated landing page for it. The 2026-09-07 re-verification retracted it because the page states the year only for the archive list below (\"Annual General Meeting Wednesday 23 September 2026\"), while the upcoming block gives \"24th September\" with no adjacent year. A withdrawal was sent to Alison on 2026-09-07 in error and a correction has now been sent.",
+   "last_verified": "2026-09-17T19:20:00Z",
    "date_review": {
-    "action": "retracted",
-    "reviewed": "2026-09-07T11:35:16Z",
-    "evidence": "Rolling re-verification 2026-09-07: the trust board meetings page lists an Annual General Meeting on Wednesday 23 September 2026 and no meeting on 24 September. Our 24 September entry is not on the page."
+    "action": "restored_after_false_retraction",
+    "reviewed": "2026-09-17T19:20:00Z",
+    "run": "2026-09-17-audit",
+    "evidence": "2026-09-17 audit: RESTORED. This meeting is real. The trust board meetings page (the same URL in state) reads under \"Upcoming Board meetings\": \"Public Board - Thursday 24th September in person\", and the trust publishes a dedicated landing page for it. The 2026-09-07 re-verification retracted it because the page states the year only for the archive list below (\"Annual General Meeting Wednesday 23 September 2026\"), while the upcoming block gives \"24th September\" with no adjacent year. A withdrawal was sent to Alison on 2026-09-07 in error and a correction has now been sent."
    }
   },
   {
@@ -31184,7 +31197,7 @@
    "first_seen": "2026-09-01T12:30:00Z",
    "last_checked": "2026-09-10T08:27:21Z",
    "last_verified": "2026-09-15T09:55:21Z",
-   "notes": "[2026-09-01] Literal text on board page: \"Other upcoming board meetings: Wednesday, 16 September 2026\". Replaces the retracted 9 September entry, which the page does not list."
+   "notes": "[2026-09-01] Literal text on board page: \"Other upcoming board meetings: Wednesday, 16 September 2026\". Replaces the retracted 9 September entry, which the page does not list. [2026-09-17 audit] UNRESOLVED. elht.nhs.uk is behind Incapsula and defeated eight fetch routes. One fetch that did get through showed an unlabelled embedded PDF viewer pointing at download_file/30721/191, a HIGHER file id than the July 2026 pack (30649) and than anything else on the page, so it may be the 16 September pack. A human should open https://elht.nhs.uk/download_file/30721/191 in a real browser and check."
   },
   {
    "id": "RX3:2026-09-23",
@@ -32359,7 +32372,7 @@
    "source_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-09-17T15:59:44Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T16:31:33Z",
@@ -32368,8 +32381,13 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected 2026-09-17 via prescan; literal source text: \"17 September 2026\"",
-   "date_review": null,
+   "notes": "detected 2026-09-17 via prescan; literal source text: \"17 September 2026\" 2026-09-17 audit: this date was extracted from the site HEADER widget, not a meeting listing. The raw HTML is <div class=\"header-section\"><div class=\"top-bar\">...<div class=\"text-block\">Thursday 17 September 2026</div>, the string occurs exactly once on the page, and it is the run date. The trust board meetings page lists 2026 meetings only to 15 June. The date was alerted to Joe in error and a correction was sent.",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-09-17T19:10:00Z",
+    "run": "2026-09-17-audit",
+    "evidence": "2026-09-17 audit: this date was extracted from the site HEADER widget, not a meeting listing. The raw HTML is <div class=\"header-section\"><div class=\"top-bar\">...<div class=\"text-block\">Thursday 17 September 2026</div>, the string occurs exactly once on the page, and it is the run date. The trust board meetings page lists 2026 meetings only to 15 June. The date was alerted to Joe in error and a correction was sent."
+   },
    "superseded_by": null
   },
   {
