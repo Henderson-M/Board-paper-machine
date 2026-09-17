@@ -11321,17 +11321,25 @@
    "title": "NHS Shropshire, Telford and Wrekin Board Meeting",
    "source_url": "https://www.shropshiretelfordandwrekin.nhs.uk/about-us/how-we-are-run/meetings-committees-and-events/governing-body-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.shropshiretelfordandwrekin.nhs.uk/wp-content/uploads/NHS-STW-SSOT-Agenda-Paper-Pack-September-2026.pdf",
+     "title": "NHS STW / SSOT Agenda and Paper Pack, September 2026",
+     "kind": "pdf",
+     "size_mb": 12.65
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/QOC_2026-09-24.md"
   },
   {
    "id": "QOC:2026-11-26",
@@ -11417,17 +11425,25 @@
    "title": "NHS Shropshire, Telford and Wrekin Board Meeting (cluster)",
    "source_url": "https://staffsstoke.icb.nhs.uk/your-nhs-integrated-care-board/our-publications/board-papers/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.shropshiretelfordandwrekin.nhs.uk/wp-content/uploads/NHS-STW-SSOT-Agenda-Paper-Pack-September-2026.pdf",
+     "title": "NHS STW / SSOT Agenda and Paper Pack, September 2026",
+     "kind": "pdf",
+     "size_mb": 12.65
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/QOC_2026-09-24.md"
   },
   {
    "id": "QNC:2026-11-26",
@@ -11524,17 +11540,35 @@
    "title": "ICB Board Meeting",
    "source_url": "https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/09/20260923-NSICB-Agenda-and-Reports.pdf",
+     "title": "Board Meeting 23 September 2026 Agenda and Reports",
+     "kind": "pdf",
+     "size_mb": 3.68
+    },
+    {
+     "url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/09/13.-QMM_ICB_Annual_Report_2025-26_FINAL-1.pdf",
+     "title": "NHS Norfolk and Waveney Annual Report and Accounts 2025-26",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/09/14.-QJG_ICB_2025-26_Annual_Report_FINAL.pdf",
+     "title": "NHS Suffolk and North East Essex Annual Report and Accounts 2025-26",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/T6Y0W_2026-09-23.md"
   },
   {
    "id": "T6Y0W:2026-11-25",
@@ -14435,17 +14469,25 @@
    "title": "Board of Directors Meeting (Public session)",
    "source_url": "https://www.dgft.nhs.uk/about-our-trust/our-board/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.swbh.nhs.uk/wp-content/uploads/2026/09/26-09-16-Group-Board_Agenda_PAPERSV2.pdf",
+     "title": "Group Board Agenda and Papers V2, 16 September 2026",
+     "kind": "pdf",
+     "size_mb": 16.02
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-15T09:55:21Z"
+   "last_verified": "2026-09-15T09:55:21Z",
+   "summary_path": "summaries/RXK_2026-09-16.md"
   },
   {
    "id": "RNA:2026-11-18",
@@ -15764,17 +15806,25 @@
    "title": "Trust Board (Public)",
    "source_url": "https://www.swbh.nhs.uk/our-trust/trust-board/board-meeting-dates/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.swbh.nhs.uk/wp-content/uploads/2026/09/26-09-16-Group-Board_Agenda_PAPERSV2.pdf",
+     "title": "Group Board Agenda and Papers V2, 16 September 2026",
+     "kind": "pdf",
+     "size_mb": 16.02
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-15T09:55:21Z"
+   "last_verified": "2026-09-15T09:55:21Z",
+   "summary_path": "summaries/RXK_2026-09-16.md"
   },
   {
    "id": "RXK:2026-11-18",
@@ -16994,17 +17044,29 @@
    "title": "Board Meeting",
    "source_url": "https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://clch.nhs.uk/download_file/view/5159/785",
+     "title": "Board agenda and papers, 24 September 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://clch.nhs.uk/download_file/view/5160/785",
+     "title": "Annexes A-E, 24 September 2026",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
    "notes": null,
-   "last_verified": "2026-09-17T16:31:33Z"
+   "last_verified": "2026-09-17T16:31:33Z",
+   "summary_path": "summaries/RYX_2026-09-24.md"
   },
   {
    "id": "RYX:2026-10-21",
@@ -20249,7 +20311,8 @@
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "notes": "2026-09-17: the WMAS events page lists its forward schedule as Wed 28 Oct 2026, Thu 29 Oct 2026 (Council of Governors), Wed 16 Dec 2026, Wed 27 Jan 2027 and Wed 31 Mar 2027 Public Board Meetings, and nothing else.",
    "last_verified": "2026-09-15T09:55:21Z",
@@ -20295,7 +20358,8 @@
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "notes": "2026-09-17: the WMAS events page lists its forward schedule as Wed 28 Oct 2026, Thu 29 Oct 2026 (Council of Governors), Wed 16 Dec 2026, Wed 27 Jan 2027 and Wed 31 Mar 2027 Public Board Meetings, and nothing else.",
    "date_review": {
@@ -25485,7 +25549,8 @@
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "notes": "2026-09-17: the WMAS events page lists its forward schedule as Wed 28 Oct 2026, Thu 29 Oct 2026 (Council of Governors), Wed 16 Dec 2026, Wed 27 Jan 2027 and Wed 31 Mar 2027 Public Board Meetings, and nothing else.",
    "last_verified": "2026-08-24T11:48:16Z",
@@ -25511,7 +25576,8 @@
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "notes": "2026-09-17: the WMAS events page lists its forward schedule as Wed 28 Oct 2026, Thu 29 Oct 2026 (Council of Governors), Wed 16 Dec 2026, Wed 27 Jan 2027 and Wed 31 Mar 2027 Public Board Meetings, and nothing else.",
    "last_verified": "2026-08-24T11:48:16Z",
@@ -25537,7 +25603,8 @@
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "notes": "2026-09-17: the WMAS events page lists its forward schedule as Wed 28 Oct 2026, Thu 29 Oct 2026 (Council of Governors), Wed 16 Dec 2026, Wed 27 Jan 2027 and Wed 31 Mar 2027 Public Board Meetings, and nothing else.",
    "last_verified": "2026-08-24T11:48:16Z",
@@ -25589,7 +25656,8 @@
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "id": "RYA:2026-09-23",
    "last_verified": "2026-09-15T09:55:21Z",
@@ -25615,7 +25683,8 @@
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-17T17:53:09Z"
    },
    "id": "RYA:2026-12-09",
    "date_review": {
@@ -31911,19 +31980,27 @@
    "date": "2026-09-16",
    "title": "NHS Greater Manchester Integrated Care Board / Annual General Meeting (public)",
    "org_type": "icb",
-   "status": "date_found",
+   "status": "analysed",
    "source_url": "https://gmintegratedcare.org.uk/meetings-and-events/",
    "papers_url": "https://gmintegratedcare.org.uk/wp-content/uploads/2026/09/20260916-nhs-gm-board-public-papers-combined.pdf",
-   "pack_files": [],
+   "pack_files": [
+    {
+     "url": "https://gmintegratedcare.org.uk/wp-content/uploads/2026/09/20260916-nhs-gm-board-public-papers-combined.pdf",
+     "title": "NHS GM Board public papers combined, 16 September 2026",
+     "kind": "pdf",
+     "size_mb": 3.32
+    }
+   ],
    "first_seen": "2026-09-15T12:00:00Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
-   "notes": "detected 2026-09-15"
+   "notes": "detected 2026-09-15",
+   "summary_path": "summaries/QOP_2026-09-16.md"
   },
   {
    "id": "RJZ:2026-09-16",
@@ -31959,19 +32036,27 @@
    "date": "2026-09-17",
    "title": "Annual Public Meeting",
    "org_type": "Acute and Acute & Community Trusts",
-   "status": "date_found",
+   "status": "analysed",
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "papers_url": null,
-   "pack_files": [],
+   "pack_files": [
+    {
+     "url": "https://doclibrary-rcht.cornwall.nhs.uk/DocumentsLibrary/RoyalCornwallHospitalsTrust/ChiefExecutive/TrustBoard/Minutes/2627/202609AnnualPublicMeeting/AgendaPackAnnualPublicMeeting17September2026.pdf",
+     "title": "Agenda Pack, Annual Public Meeting, 17 September 2026",
+     "kind": "pdf",
+     "size_mb": 4.55
+    }
+   ],
    "first_seen": "2026-09-15T12:00:00Z",
    "last_checked": "2026-09-15T12:00:00Z",
    "last_verified": "2026-09-17T16:31:33Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-17T17:53:09Z",
+    "summary": "2026-09-17T17:53:09Z"
    },
-   "notes": "detected 2026-09-15"
+   "notes": "detected 2026-09-15",
+   "summary_path": "summaries/REF_2026-09-17.md"
   },
   {
    "id": "RHM:2027-05-13",
@@ -32103,7 +32188,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32125,7 +32210,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32147,7 +32232,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32169,7 +32254,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32191,7 +32276,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32213,7 +32298,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32235,7 +32320,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32257,7 +32342,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32279,7 +32364,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T16:31:33Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32301,7 +32386,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -32323,7 +32408,7 @@
    "last_checked": "2026-09-17T15:59:44Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -34581,7 +34666,7 @@
    "last_checked": "2026-09-17T16:00:58Z",
    "last_verified": "2026-09-17T16:31:33Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -34603,7 +34688,7 @@
    "last_checked": "2026-09-17T16:00:58Z",
    "last_verified": "2026-09-17T16:00:58Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -34647,7 +34732,7 @@
    "last_checked": "2026-09-17T17:55:00Z",
    "last_verified": "2026-09-17T17:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -34667,7 +34752,7 @@
    "last_checked": "2026-09-17T17:55:00Z",
    "last_verified": "2026-09-17T17:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-17T17:53:09Z",
     "papers": null,
     "summary": null
    },
@@ -35785,7 +35870,7 @@
    "error": "Four future dates (17 Jun / 5 Aug / 7 Oct / 2 Dec 2026) retracted as unverifiable - sourced from the dead 2018 board page and inconsistent with the trust's real Thursday, monthly, no-August pattern. Correction sent to Zoe."
   }
  ],
- "_last_full_scan": "2026-08-03T12:00:00Z",
+ "_last_full_scan": "2026-09-17T17:53:09Z",
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
   "ts": "2026-08-06T09:58:24Z",

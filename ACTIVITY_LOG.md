@@ -1,3 +1,108 @@
+## 2026-09-17 - Full run (LIVE emails), Dave's machine
+
+**Scope:** ran on top of an earlier scan the same day (17:03) which had found 13 new
+dates but never wrote the .ics files or sent the alerts. Those went out in this run.
+239 orgs pre-scanned; 48 in-window meetings without a pack in state were checked.
+
+**Cost shape:** the deterministic pre-scan resolved 175 of 239 orgs with no model at
+all, in 25 seconds. Only 64 needed an agent. Eight Sonnet scan agents and seven Fable
+analysers, in waves of six and three. No session-limit trouble.
+
+**Dates:** 7 candidate new dates from the pre-scan diff; the anti-fabrication guard
+killed six of them. They were page furniture, not meetings: "Next review due: 4
+September 2027" at two Bristol records, a "Posted on 17/09/2026" news date at
+Northampton, a "Papers to be published by 12 March 2027" deadline at Central East ICB,
+and one bad year inference on a St George's date already in state. The seventh, a 24
+September event named on Shropshire Community's page, belongs to Shrewsbury and Telford,
+whose own board page does not list it and which reads like an AGM. Not added.
+
+**Re-verification:** 133 checked, 115 confirmed, 2 flagged as contradicted. Both flags
+were wrong and were NOT acted on. Liverpool Heart and Chest and Liverpool University
+Hospitals share a UHLG board page that lists only meetings still to come, so it drops a
+meeting on the day it happens; the published pack is titled "UHLG Board of Directors
+Public Pack - 17 September 2026". Annotated in state so a future run does not retract
+them either.
+
+**The real find - West Midlands Ambulance (RYA).** Its stored `url` was the publications
+archive, which by design lists only papers already published. So the date scan had never
+seen a forward schedule, and seven wrong dates had accumulated and been emailed to
+Caitlin and Alison. The trust publishes its actual schedule on its events page:
+Wed 28 Oct, Wed 16 Dec, Wed 27 Jan, Wed 31 Mar, all Public Board Meetings. `schedule_url`
+now set there. Seven dates retracted, two real ones added, withdrawal alerts sent to both
+correspondents. The raw page also showed something the WebFetch summary had dropped: the
+29 October entry is a Council of Governors meeting, not a board.
+
+**Packs:** 7 found, 6 analysed and alerted.
+
+| Org | Date | To | LEAD | WATCH | FOI |
+|---|---|---|---|---|---|
+| Sandwell and West Birmingham / Dudley Group (joint) | 16 Sep | Caitlin | 10 | 10 | 9 |
+| Norfolk and Suffolk ICB | 23 Sep | James | 8 | 17 | 3 |
+| Greater Manchester ICB | 16 Sep | Nick | 7 | 7 | 5 |
+| Royal Cornwall (Annual Public Meeting) | 17 Sep | Joe | 7 | 8 | 9 |
+| Shropshire Telford and Wrekin / Staffordshire and Stoke (in common) | 24 Sep | Caitlin | 6 | 14 | 5 |
+| Central London Community Healthcare | 24 Sep | Ella | 5 | 8 | 3 |
+
+**Standout leads:** Royal Cornwall was referred to the health and social care secretary
+under section 30 on 15 May for an ongoing break-even breach, with the accounts stating no
+recovery plan has been agreed and a further breach expected at March 2027, and its £50.7m
+eCare EPR paused after £48.1m spent while another part of the same document still claims a
+June go-live. Norfolk and Waveney paid 144 exit packages costing £9.39m against £403k the
+year before, including named compulsory redundancies for the former chief executive and
+three ex-directors, and neither published annual report actually contains the auditor's
+opinion though both say it does. Greater Manchester is being asked to let its finance,
+workforce and estates committee meet "solely in private" and to rewrite the constitution
+so committees may meet "wholly or partly in private", in the same pack as a CQC warning
+notice served on Greater Manchester Mental Health on 12 August. Staffordshire and
+Stoke-on-Trent has had its April 2024 undertakings lifted, and both Midlands ICBs are
+being asked to make permanent the closure of two birthing units shut "temporarily" since
+March 2020. Sandwell's underlying deficit is now stated at £64.6m against a planned £29m.
+
+**Two pack matches caught and corrected before sending:**
+1. **Medway.** `meeting-papers-trust-board-in-public-september-2026.pdf` was matched to the
+   23 September meeting on its filename. Its header reads DATE 02/09/2026: it is the 2
+   September board pack, already analysed and sent to Alison on 1 September, re-published
+   under a 2026/09 path. Re-pointed to RPA:2026-09-02 with both URLs recorded; the 23rd is
+   the Annual Members' Meeting and still has no pack. No duplicate reached Alison.
+2. **Bolton.** The deterministic matcher paired two 2020 archive PDFs to the 24 September
+   meeting because "2026" appeared in their upload path. Dropped.
+
+**Clusters recorded (both were causing real duplication):** RJL and RWA hold one Humber
+Board-in-Common, so Henry was about to get the same 9 October meeting as two calendar
+entries; now `cluster_id` HUMBER and de-duplicated to one. RNA and RXK published a
+byte-identical 16,801,617-byte Group Board pack six minutes apart; now `cluster_id`
+DUD-SWB, analysed once. I had inferred from the identical file that the joint board was
+new as of 16 September; the analyser corrected that against the pack text, which calls it
+a Committee in Common whose first meeting was 20 May and never uses the word merger. The
+note in trust_urls.json was amended.
+
+**URL fixes:** RX3 Tees Esk and Wear Valleys `papers_url` 404'd (the working page returns
+56 packs); RNZ Salisbury restructured from /trust-board/ to /the-trust-board/; RWF
+Maidstone and Tunbridge Wells 404'd on the trailing-slash form. Durable notes added for
+RR8 (Leeds Teaching publishes packs as .zip, which the PDF-only extractor misses), RXR
+(East Lancashire now behind Incapsula for all automated traffic) and RWF (posts a bare
+agenda days before the full pack, so a filename must not be read as "pack published").
+
+**Watchlist:** 15 polled, no new packs. RJZ's empty `known_files` baselined with 35 files,
+closing the bug that makes every document look new. Seven pages (RJ1, RN7, RNZ, RRJ, RTR,
+RVW, RXG) returned nothing even under Playwright; they were readable on earlier runs, so
+this may be transient, but a new pack at any of them would currently go unnoticed.
+
+**Scan health: 1 broken, 1 degraded, 0 stale, 0 unchecked.** Re-probing cleared two false
+failures that re-verification had recorded off a single fetch (North London and UHCW both
+read perfectly) and correctly escalated RXG South West Yorkshire Partnership to broken:
+four separate routes return zero dates and zero documents, and the URL has not moved. That
+one needs a human. The trust has also restyled itself "South West Yorkshire Partnership
+Teaching NHS Foundation Trust".
+
+**Emails: LIVE, 16/16 sent.** 7 date alerts, 6 papers alerts, 2 withdrawals, 1 run report
+to Dave. State stamped from the ok:true rows only.
+
+**Open for a human:** RXG needs an archive route or a manual look. Greater Manchester's
+NHSE "at a glance" slide (£175m CIP, £42.5m deficit support) does not reconcile with the
+ICB's own month 4 report (£150.0m, £17.7m). East of England Ambulance dates its board to
+16 September and its AGM to the 17th, and state holds both.
+
 ## 2026-09-15 - Full run (LIVE emails), Dave's machine
 
 **Scope:** all 239 in-scope orgs (227 scan units after cluster dedup), run by Dave
