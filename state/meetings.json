@@ -7093,7 +7093,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7920,7 +7920,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10249,7 +10249,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17763,9 +17763,9 @@
      "first_seen": "2026-09-21T14:42:12Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17842,7 +17842,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -22433,7 +22433,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -25948,7 +25948,7 @@
     }
    ],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
@@ -31290,7 +31290,7 @@
     "summary": null
    },
    "first_seen": "2026-09-01T12:30:00Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "last_verified": "2026-09-21T14:29:53Z",
    "notes": "[2026-09-01] Literal text: \"The next meeting will be held on Wednesday 23 September 2026 at 10.00am.\" Papers due to be published 17 September; questions deadline 10am Friday 18 September."
   },
@@ -34764,7 +34764,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-09-17T16:00:58Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "last_verified": "2026-09-21T14:29:53Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -34927,7 +34927,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-09-21T14:57:48Z",
+   "last_checked": "2026-09-21T14:58:36Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -36105,5 +36105,5 @@
   "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
   "duplicate_note": "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
  },
- "_last_updated": "2026-09-21T14:57:48Z"
+ "_last_updated": "2026-09-21T14:58:36Z"
 }
