@@ -1,0 +1,114 @@
+[
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] North London NHS Foundation Trust board \u2014 Tuesday 22 September 2026 \u2014 7 leads",
+  "id": "papers:G6V2S_2026-09-22:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] North London NHS Foundation Trust board \u2014 Tuesday 22 September 2026 \u2014 7 leads",
+  "id": "papers:G6V2S_2026-09-22:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Mid Cheshire Hospitals NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 6 leads",
+  "id": "papers:RBT_2026-09-24:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] The Christie NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 2 leads",
+  "id": "papers:RBV_2026-09-24:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Sussex Community NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 6 leads",
+  "id": "papers:RDR_2026-09-24:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Whittington Health NHS Trust board \u2014 Friday 25 September 2026 \u2014 6 leads",
+  "id": "papers:RKE_2026-09-25:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Whittington Health NHS Trust board \u2014 Friday 25 September 2026 \u2014 6 leads",
+  "id": "papers:RKE_2026-09-25:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Bolton NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 5 leads",
+  "id": "papers:RMC_2026-09-24:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] The Newcastle upon Tyne Hospitals NHS Foundation Trust board \u2014 Friday 25 September 2026 \u2014 5 leads",
+  "id": "papers:RTD_2026-09-25:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Tees, Esk and Wear Valleys NHS Foundation Trust board \u2014 Wednesday 23 September 2026 \u2014 7 leads",
+  "id": "papers:RX3_2026-09-23:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Rotherham Doncaster and South Humber NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 6 leads",
+  "id": "papers:RXE_2026-09-24:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Central East ICB board \u2014 Friday 25 September 2026 \u2014 5 leads",
+  "id": "papers:S1Y5D_2026-09-25:emily",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 21-22 Sep 2026 \u2014 3 dates, 10 packs, 1 org needs attention",
+  "id": "runreport:henry",
+  "ok": true,
+  "err": ""
+ }
+]

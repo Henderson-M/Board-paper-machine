@@ -433,16 +433,16 @@
   },
   "RJC": {
    "ods_code": "RJC",
-   "last_attempt": "2026-09-17T16:31:33Z",
-   "last_success": "2026-09-17T16:31:33Z",
+   "last_attempt": "2026-09-22T10:56:32Z",
+   "last_success": "2026-09-22T10:56:32Z",
    "consecutive_failures": 0,
    "first_failed": null,
    "last_error": null,
    "failure_kind": null,
    "status": "ok",
    "muted_until": null,
-   "runs_seen": 11,
-   "dates_found": null
+   "runs_seen": 13,
+   "dates_found": 2
   },
   "RJE": {
    "ods_code": "RJE",
@@ -732,29 +732,29 @@
   },
   "RJ6": {
    "ods_code": "RJ6",
-   "last_attempt": "2026-09-17T16:01:10Z",
-   "last_success": "2026-09-17T16:01:10Z",
+   "last_attempt": "2026-09-22T10:56:32Z",
+   "last_success": "2026-09-22T10:56:32Z",
    "consecutive_failures": 0,
    "first_failed": null,
    "last_error": null,
    "failure_kind": null,
    "status": "ok",
    "muted_until": null,
-   "runs_seen": 11,
+   "runs_seen": 13,
    "dates_found": 9
   },
   "RJ7": {
    "ods_code": "RJ7",
-   "last_attempt": "2026-09-17T16:01:10Z",
-   "last_success": "2026-09-17T16:01:10Z",
+   "last_attempt": "2026-09-22T10:56:32Z",
+   "last_success": "2026-09-22T10:56:32Z",
    "consecutive_failures": 0,
    "first_failed": null,
    "last_error": null,
    "failure_kind": null,
    "status": "ok",
    "muted_until": null,
-   "runs_seen": 12,
-   "dates_found": 3
+   "runs_seen": 14,
+   "dates_found": 4
   },
   "RJZ": {
    "ods_code": "RJZ",
@@ -1356,15 +1356,15 @@
   },
   "RJ8": {
    "ods_code": "RJ8",
-   "last_attempt": "2026-09-17T16:01:44Z",
-   "last_success": "2026-09-17T16:01:44Z",
+   "last_attempt": "2026-09-22T10:56:32Z",
+   "last_success": "2026-09-22T10:56:32Z",
    "consecutive_failures": 0,
    "first_failed": null,
    "last_error": null,
    "failure_kind": null,
    "status": "ok",
    "muted_until": null,
-   "runs_seen": 12,
+   "runs_seen": 14,
    "dates_found": 4
   },
   "RK9": {

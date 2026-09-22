@@ -7093,11 +7093,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": null,
    "last_verified": "2026-09-21T14:29:53Z"
@@ -7920,11 +7920,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": null,
    "last_verified": "2026-09-21T14:29:53Z"
@@ -10249,11 +10249,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": null
   },
@@ -17765,11 +17765,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-09-15T09:55:21Z"
@@ -17842,11 +17842,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-09-21T14:29:53Z"
@@ -22433,11 +22433,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "",
    "_previous_source_url": "https://www.boltonft.nhs.uk/about-us/our-board/",
@@ -25948,11 +25948,11 @@
     }
    ],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "id": "RBV:2026-09-24",
    "last_verified": "2026-09-21T14:29:53Z"
@@ -31286,11 +31286,11 @@
    ],
    "alerts_sent": {
     "date": "2026-09-01T13:15:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "first_seen": "2026-09-01T12:30:00Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "last_verified": "2026-09-21T14:29:53Z",
    "notes": "[2026-09-01] Literal text: \"The next meeting will be held on Wednesday 23 September 2026 at 10.00am.\" Papers due to be published 17 September; questions deadline 10am Friday 18 September."
   },
@@ -34762,14 +34762,14 @@
      "first_seen": "2026-09-21T14:42:12Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-09-17T16:00:58Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "last_verified": "2026-09-21T14:29:53Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "detected 2026-09-17 (run-20260917-162940): literal: 'Next board meeting Date - Friday 25 September 2026'; 25 Sep 2026 is a Friday",
    "date_review": null,
@@ -34872,7 +34872,7 @@
    "first_seen": "2026-09-21T14:27:13Z",
    "last_checked": "2026-09-21T14:27:13Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-22T11:19:37Z",
     "papers": null,
     "summary": null
    },
@@ -34894,7 +34894,7 @@
    "first_seen": "2026-09-21T14:27:13Z",
    "last_checked": "2026-09-21T14:27:13Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-22T11:19:37Z",
     "papers": null,
     "summary": null
    },
@@ -34927,11 +34927,11 @@
    ],
    "status": "analysed",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-09-21T14:58:36Z",
+   "last_checked": "2026-09-22T11:01:54Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-22T11:19:37Z",
+    "papers": "2026-09-22T11:19:37Z",
+    "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "[2026-09-21] detected via agent (run-20260921-151157); literal evidence: Our next board of directors meeting is being held at 9:30am on Thursday 24 September in Rossington Miner's Welfare, West End Lane, Rossington, Doncaster, DN11 0DU.",
    "date_review": null,
@@ -36105,5 +36105,5 @@
   "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
   "duplicate_note": "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
  },
- "_last_updated": "2026-09-21T14:58:36Z"
+ "_last_updated": "2026-09-22T11:19:37Z"
 }

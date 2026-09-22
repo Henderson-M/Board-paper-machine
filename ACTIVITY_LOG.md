@@ -1,3 +1,96 @@
+## 2026-09-21/22 - Full sweep, live emails. 10 packs analysed, 3 new dates, and a session limit on the last pack
+
+Run from Henry's machine, started 15:12 on 21 September and finished the following
+morning. All 239 in-scope orgs scanned. **0 orgs broken, 1 degraded, 0 stale, 0 not
+checked.** 16 emails sent live.
+
+**First run under the new pre-scan budget, and it worked.** `prescan.py` resolved
+**178 of 239 orgs deterministically in 27 seconds** with no model at all. Of the 61
+left, 18 were already-known no-schedule orgs that went straight to the watchlist,
+leaving 43 for **7 Sonnet date-scan agents** - against roughly 40 Opus agents under
+the old design. Pack analysis ran on Fable in waves of three. The date half of the
+sweep, which caused all three September blowouts, is now the cheap half.
+
+**Dates:** 3 new meetings added (RDaSH 24 Sep, Lancashire and South Cumbria ICB
+5 Nov, University Hospitals Sussex 12 Nov). The rolling re-verification checked 122
+dates: 108 confirmed, **0 contradicted**, 11 unverifiable, 3 unreadable. No
+retractions, so no withdrawal alerts were owed.
+
+**Two candidate dates were rejected as not being meetings at all.** Both were
+literally on the page, which is exactly why the old literal-source check would have
+let them through: University Hospitals Sussex "10 November" is the deadline for
+submitting questions to the board, and Central East ICB "12 March 2027" is a papers
+publication deadline. A deadline-context guard now rejects these.
+
+**Packs:** 10 analysed - North London, TEWV, Bolton, Christie, Sussex Community,
+RDaSH, Mid Cheshire, Newcastle, Whittington, Central East ICB. 55 LEAD, 45 WORTH
+WATCHING, 42 FOI.
+
+**Standout leads:** TEWV (7 LEAD) - the statutory public inquiry opened on 21
+September with the trust told only on the 17th, NOF ranking fell 15th to 27th and
+NHSE designated it "Tier 2", delayed discharges now costed at £21.49m a year against
+"circa £18 million" in the June pack. Whittington (6) - chair Julia Neuberger stands
+down 30 Sept with the conflict-of-interest arrangements for her CQC chairmanship
+minuted in July, a maternal death in August after cardiac collapse in triage, a
+"professional of concern" who diverted a substantial volume of controlled drugs, and
+the trust restricted to segment 3 on financial grounds despite scoring segment 2.
+Mid Cheshire (6) - worst-case £60.6m deficit against a £24.4m plan, and Cheshire Fire
+Authority has issued a "Notice of Deficiencies" over patients on the ED corridor with
+enforcement flagged at the next audit. Bolton (5) - £24.3m forecast deficit against a
+£7m plan, PSC and PwC both engaged, NHSE board-to-board on 1 October. RDaSH (6) -
+proposal to stop adding adult autism referrals from April 2027 with c.2,310 people
+waiting, longest 343 weeks. Central East ICB (5) - the chief executive's secondment
+to NHS England disclosed only as a constitution housekeeping item in the audit
+committee report. Newcastle (5) - acting CEO, "Amber" under a new regional financial
+oversight framework, and auditors refusing to lift the value-for-money significant
+weakness until a CQC re-inspection.
+
+**Tooling gap found - two real packs were nearly missed.** `extract_board_html.py`
+does not recognise Sussex Community's `/documents/<slug>/file` links or Whittington's
+`document.ashx?id=NNNNN` handler links, so both packs came back as "no papers yet".
+They were only recovered because the deterministic output was checked against a raw
+grep of the rendered HTML, which found document hrefs the extractor had reported as
+zero. A run-local anchor harvester recovered them. **The extractor should learn both
+patterns** - this class of miss is silent and nothing else catches it.
+
+**Royal Papworth 1 Oct was dropped as a false positive.** The row-pairing branch of
+pack detection matched an old item file because it searches a whole table row; the
+trust has not published its 1 October pack. Row pairing is looser than filename
+matching and over-captures on pages with large sections.
+
+**A wrong-year guard was needed too.** A bare "24 September" token matches any year,
+so the first pass attached 2020 and 2023 files to 2026 meetings at RNOH, Harrogate,
+East Kent and Sheffield Health Partnership. Eleven candidates were dropped. The title
+is checked on its own first, because a CMS upload path carries the date the file was
+uploaded, not the meeting it belongs to.
+
+**The run hit the account session limit** at about 20:00 on 21 September, on the
+final pack (Central East ICB). Because state and summaries were committed and pushed
+after every wave, nothing was lost - the failure cost one agent, not the run. The
+pack was re-analysed on 22 September and its strongest claims (the CEO secondment,
+the £15.8m combined legacy surplus, the HWE continuing-healthcare value-for-money
+weakness, the Finance Recovery Programme) were checked verbatim against the pack text
+before sending. This is the first limit hit that did not kill a sweep.
+
+**Agendas only, no pack yet:** Leeds Teaching (24 Sep) and EMAS (24 Sep) have
+published agendas but no full pack. Both will be picked up next run.
+
+**Handed back for a human:**
+1. **RJ1 Guy's and St Thomas'** - HTTP 403 to all three fetchers on every URL tried.
+   First consecutive failure.
+2. **QMF North East London ICB** - has real upcoming dates but the page never prints
+   a year, so none could be safely year-stamped. Dropped rather than guessed.
+3. **RY2 Bridgewater** - merged into Warrington and Halton to form North Cheshire and
+   Mersey on 1 April 2026. No longer a reporting entity; needs removing or relabelling.
+4. **RRJ Royal Orthopaedic** - stored URL is a statutory-documents archive, not a
+   meeting-dates page.
+5. **RCF Airedale** - the page reads "Wednesday 4 March 2027"; that date is a Thursday.
+   Worth checking with the trust before the date is relied on.
+6. **Collapsed accordions** defeated the deterministic pass at Northampton General,
+   Birmingham Women's and Children's, Maidstone and Tunbridge Wells, North West Anglia,
+   UHNM, Derby and Derbyshire ICB and Manchester FT - all had published schedules the
+   agents found. Worth teaching the extractor to expand accordion markup.
+
 ## 2026-09-17 (later) - Quality audit of the same run, on stronger models
 
 Dave asked for the run to be audited because parts of it had been moved to Sonnet.
