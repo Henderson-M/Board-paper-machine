@@ -1,0 +1,266 @@
+[
+ {
+  "id": "papers:QMF_2026-09-30:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] North East London ICB board — Wednesday 30 September 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-discombe_papers_QMF_2026-09-30.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QMF_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "QMF:2026-09-30"
+  ]
+ },
+ {
+  "id": "papers:QMF_2026-09-30:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] North East London ICB board — Wednesday 30 September 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_ella_papers_QMF_2026-09-30.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QMF_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "QMF:2026-09-30"
+  ]
+ },
+ {
+  "id": "papers:RAE_2026-09-24:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Bradford Teaching Hospitals NHS Foundation Trust board — Thursday 24 September 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_papers_RAE_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RAE_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RAE:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RGD_2026-09-24:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Leeds and York Partnership NHS Foundation Trust board — Thursday 24 September 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_papers_RGD_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RGD_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RGD:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RGR_2026-09-25:james",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] West Suffolk NHS Foundation Trust board — Friday 25 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_james_papers_RGR_2026-09-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RGR_2026-09-25.md"
+  ],
+  "_meeting_ids": [
+   "RGR:2026-09-25"
+  ]
+ },
+ {
+  "id": "papers:RHW_2026-09-23:mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Royal Berkshire NHS Foundation Trust board — Wednesday 23 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_mimi_papers_RHW_2026-09-23.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RHW_2026-09-23.md"
+  ],
+  "_meeting_ids": [
+   "RHW:2026-09-23"
+  ]
+ },
+ {
+  "id": "papers:RJR_2026-09-29:zoe",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Countess of Chester Hospital NHS Foundation Trust board — Tuesday 29 September 2026 — 3 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_zoe_papers_RJR_2026-09-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RJR_2026-09-29.md"
+  ],
+  "_meeting_ids": [
+   "RJR:2026-09-29"
+  ]
+ },
+ {
+  "id": "papers:RP6_2026-09-24:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Moorfields Eye Hospital NHS Foundation Trust board — Thursday 24 September 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_ella_papers_RP6_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RP6_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RP6:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RR7_2026-09-29:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Gateshead Health NHS Foundation Trust board — Tuesday 29 September 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-mathers_papers_RR7_2026-09-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RR7_2026-09-29.md"
+  ],
+  "_meeting_ids": [
+   "RR7:2026-09-29"
+  ]
+ },
+ {
+  "id": "papers:RR8_2026-09-24:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Leeds Teaching Hospitals NHS Trust board — Thursday 24 September 2026 — 10 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_papers_RR8_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RR8_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RR8:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RRV_2026-09-24:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] University College London Hospitals NHS Foundation Trust board — Thursday 24 September 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-discombe_papers_RRV_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RRV_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RRV:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RRV_2026-09-24:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] University College London Hospitals NHS Foundation Trust board — Thursday 24 September 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_ella_papers_RRV_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RRV_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RRV:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RT5_2026-09-29:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Leicestershire Partnership NHS Trust board — Tuesday 29 September 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_annabelle_papers_RT5_2026-09-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RT5_2026-09-29.md"
+  ],
+  "_meeting_ids": [
+   "RT5:2026-09-29"
+  ]
+ },
+ {
+  "id": "papers:RWF_2026-09-24:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Maidstone and Tunbridge Wells NHS Trust board — Thursday 24 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_alison_papers_RWF_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RWF_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RWF:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RWK_2026-09-24:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] East London NHS Foundation Trust board — Thursday 24 September 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-discombe_papers_RWK_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RWK_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RWK:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RWK_2026-09-24:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] East London NHS Foundation Trust board — Thursday 24 September 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_ella_papers_RWK_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RWK_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RWK:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RX8_2026-09-24:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Yorkshire Ambulance Service NHS Trust board — Thursday 24 September 2026 — 8 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_papers_RX8_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX8_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RX8:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RX8_2026-09-24:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Yorkshire Ambulance Service NHS Trust board — Thursday 24 September 2026 — 8 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_alison_papers_RX8_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX8_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RX8:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RX9_2026-09-24:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board — Thursday 24 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_annabelle_papers_RX9_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX9_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RX9:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RX9_2026-09-24:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board — Thursday 24 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_alison_papers_RX9_2026-09-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX9_2026-09-24.md"
+  ],
+  "_meeting_ids": [
+   "RX9:2026-09-24"
+  ]
+ },
+ {
+  "id": "papers:RXG_2026-09-29:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] South West Yorkshire Partnership NHS Foundation Trust board — Tuesday 29 September 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_papers_RXG_2026-09-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RXG_2026-09-29.md"
+  ],
+  "_meeting_ids": [
+   "RXG:2026-09-29"
+  ]
+ },
+ {
+  "id": "papers:RY3_2026-09-30:james",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] East of England Community Health and Care NHS Trust board — Wednesday 30 September 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_james_papers_RY3_2026-09-30.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RY3_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RY3:2026-09-30"
+  ]
+ }
+]

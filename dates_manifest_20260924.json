@@ -1,0 +1,107 @@
+[
+ {
+  "id": "dates:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_alison_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/alison_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "RX8:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_ella_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/ella_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "G6V2S:2026-10-06",
+   "QKK:2026-11-24",
+   "RAL:2026-09-24",
+   "RP6:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:emily",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_emily_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/emily_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "RD8:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_henry_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/henry_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "QWO:2026-12-15",
+   "RX8:2026-09-24",
+   "RXG:2026-09-29"
+  ]
+ },
+ {
+  "id": "dates:james",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_james_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/james_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "RGT:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_joe_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/joe_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "QOX:2026-09-25",
+   "QSL:2026-09-25",
+   "QVV:2026-09-25",
+   "RNZ:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-discombe_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/matt-discombe_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "G6V2S:2026-10-06",
+   "RAL:2026-09-24"
+  ]
+ },
+ {
+  "id": "dates:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20260924_matt-mathers_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/matt-mathers_20260924.ics"
+  ],
+  "_meeting_ids": [
+   "RR7:2026-09-29"
+  ]
+ }
+]

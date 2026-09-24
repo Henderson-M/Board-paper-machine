@@ -1,3 +1,115 @@
+## 2026-09-24 — Full sweep, live emails. 17 packs analysed, 14 new dates, and two multi-file packs the scan nearly under-read
+
+Run from Henry's machine, started 11:40. All 239 in-scope orgs scanned.
+**0 orgs broken, 3 blocked, 21 publish no forward schedule, 0 not checked.**
+32 emails sent live.
+
+**The pre-scan budget held again.** `prescan.py` resolved **179 of 239 orgs in 29
+seconds** with no model at all. Eighteen of the remaining 60 were already-known
+no-schedule orgs routed straight to the papers watchlist, leaving **42 orgs for 7
+Sonnet date-scan agents**. Pack analysis ran on Fable in waves of three. Total
+agent count for the run: 7 Sonnet + 17 Fable.
+
+**Pack detection was almost entirely deterministic.** Of 19 meetings with new
+papers, 16 were found with no agent at all — first from the pre-scan's own link
+harvest, then by running `extract_board_html.py --follow-landing` against each
+in-window meeting's papers page, then by a raw-anchor harvest that catches the
+CMS handler URLs (`document.ashx`, `/download_file/`, `/documents/<slug>/file`)
+the extractor's extension check still misses. That last pass is what recovered
+Devon and Cornwall's shared pack.
+
+**Dates:** 14 new meetings. The rolling re-verification checked 122 dates: 110
+confirmed, **1 contradicted**, 11 unverifiable, 0 unreadable.
+
+**Retraction:** QKK South East London ICB 14 October. Its schedule page publishes
+24 November 2026 and 27 January 2027 and does not list 14 October. It had never
+been alerted, so no withdrawal notice was owed.
+
+**The deadline guard needed rebuilding, and it matters.** The first version keyed
+on "questions to the board" and rejected real meetings at six trusts — that
+phrase is boilerplate sitting next to genuine date lists on most NHS board pages.
+Rewritten to require deadline language *immediately adjacent* to the date, it now
+correctly rejects University Hospitals Sussex's "please do so before 10:00am on
+Tuesday 10 November 2026" (the questions deadline; the real meeting, 12 November,
+is already in state) and Central East ICB's "(Papers to be published by 12 March
+2027)". A separate year-heading guard caught two more: Leicestershire's "29
+September" mis-yeared to 2027 when its own context says 2026, and Birmingham
+Women's and Children's "5 November 2027", where the year token actually heads the
+*next* list and 2026-11-05 was already held.
+
+**Four pack false positives were dropped after checking each against the live
+page** — Royal Papworth 1 Oct (the same row-pairing over-capture the 21 Sep run
+logged; the board page now carries zero document links), Walton Centre 1 Oct (the
+matched file is "Trust Board - February 2025"), and Manchester and BNSSG 30 Sep,
+whose per-meeting landing pages were fetched with Playwright and have no papers
+up yet.
+
+**The watchlist earned its keep twice.** Moorfields (RP6) and Gateshead (RR7)
+publish no forward schedule, so the detection-window scan could never have found
+them. Moorfields returned 6 LEAD including a Bevan Brittan review commissioned
+after the consultant committee chair alleged a "coercive (bullying) culture";
+Gateshead returned 6 including its finance director writing that the trust "will
+need revenue support funding in March 2027".
+
+**Tooling gap found — pack detection under-captures multi-file packs.** At East of
+England (RY3) the scan captured **3 of 18** files and at Yorkshire Ambulance (RX8)
+**2 of 37**, because both trusts publish each paper as its own file whose name does
+not carry the meeting date. Both analysers recovered the rest themselves, but only
+because they were explicitly told to go looking — that is not a property of the
+detector, it is luck. **The matcher should follow a dated per-meeting sub-page and
+take every document on it.** Left unfixed this is a silent under-read: the pack
+looks detected, the summary looks complete, and nothing reports a gap.
+What it nearly cost: RY3's two predecessor annual reports carry £160,000 in
+redundancy payments to a named former finance director, and RX8's annual accounts
+carry 13 exit packages totalling £732k.
+
+**Process note for whoever runs this next: do not hand-type a papers_url into an
+agent prompt.** I did it twice (RY3, RX9) and both were wrong; both agents lost
+time rediscovering the correct live page. The org record is the maintained field —
+pass it through from the data file.
+
+**Supplementary papers at two already-alerted meetings** — Mid Cheshire (RBT) and
+RDaSH (RXE), both 24 Sep, analysed and alerted on 21 September. They were NOT
+re-analysed and no second email was sent; the new files are recorded in state so
+the next run does not re-flag them.
+
+**One pack could not be read at all.** swpboard.nhs.uk (the South West Peninsula
+joint board, serving NHS Devon and NHS Cornwall and IoS) returns 403 to plain
+requests, Playwright and a browser download alike. Joe was sent the four pack
+links with a plain statement that the machine could not read them — no invented
+summary. The same block stopped the date scan for both ICBs, so they are
+currently untracked and need an alternative source.
+
+**Packs:** 17 analysed — **96 LEAD, 113 WORTH WATCHING, 80 FOI**.
+
+**Standout leads:** Leeds Teaching (10 LEAD) rates itself only "Partial" on all
+nine of NHSE's post-Ockenden maternity actions, is red-rated on the Provider
+Capability Assessment for a second year under section 106 enforcement
+undertakings, and is advertising for a permanent CEO while its current one is on
+secondment under arrangements set by a regional director who has since left NHSE.
+Yorkshire Ambulance (8) admits in its own BAF that Manchester Arena Inquiry
+recommendations cannot be implemented for lack of resource and has formally
+"tolerated" the risk — **East Midlands Ambulance reports the same problem
+independently**, red-rated at all ten ambulance trusts pending a Treasury
+decision. Bradford (7) is £9.9m down at month 5 while still filing a breakeven
+forecast with NHSE, with its A&E called "not fit for purpose". Leeds and York (7)
+has been downgraded by the CQC on two ward types and served a warning notice on
+its rehabilitation wards, and is disputing "several findings". East London (4)
+discloses a coroner's finding that an inpatient was unlawfully killed with
+neglect contributing. UCLH (4) holds Julia Neuberger's final board before she
+chairs the CQC. NEL ICB (6) is £29.1m adverse at M5 — which the ICB itself puts
+at 65% of all London's overspend.
+
+**A cross-trust pattern worth a story:** four trusts this run disclose a gap
+between the forecast they file with NHSE and their own internal likely case —
+Bradford ("material issues to be resolved before the Committee could conclude
+that the best case would not be a deficit outturn"), Leicestershire (break-even
+filed, £2.7m likely, £8.8m worst), Countess of Chester (£30.1m risk-adjusted
+against a break-even plan) and Royal Berkshire (£2.93m on-plan deficit over a
+£16.45m underlying one). Maidstone and Tunbridge Wells is a fifth: breakeven plan,
+£15.4m mid-case.
+
+
 ## 2026-09-21/22 - Full sweep, live emails. 10 packs analysed, 3 new dates, and a session limit on the last pack
 
 Run from Henry's machine, started 15:12 on 21 September and finished the following

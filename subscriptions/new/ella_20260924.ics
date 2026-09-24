@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:G6V2S-2026-10-06@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:North London NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QKK-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:South East London ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAL-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Royal Free London NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RP6-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Moorfields Eye Hospital NHS Foundation Trust — Board of Directors - Part 1
+DESCRIPTION:Detected by Board paper machine. Source: https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings
+URL:https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings
+END:VEVENT
+END:VCALENDAR

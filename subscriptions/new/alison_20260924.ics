@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RX8-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/publications/trust-board-meetings/
+URL:https://www.yas.nhs.uk/publications/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+[
+ {
+  "id": "papers-unreadable:SWP:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] South West Peninsula joint board (NHS Devon / NHS Cornwall and IoS) — Thursday 24 September 2026 — pack detected, not readable",
+  "body_file": "outbox/20260924_joe_papers_unreadable_SWP.md",
+  "attach": [],
+  "_meeting_ids": [
+   "QJK:2026-09-24",
+   "QT6:2026-09-24"
+  ]
+ }
+]

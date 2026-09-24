@@ -1,533 +1,563 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//HSJ//Board paper machine//EN
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:QJ2-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Derby and Derbyshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJM-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Lincolnshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QT1-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Nottingham and Nottinghamshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RHA-2026-09-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Nottinghamshire Healthcare Foundation Trust - Board of Directors Meeting
-URL:https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RP1-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Northamptonshire Healthcare Foundation Trust - Trust Board of Directors Meeting
-URL:https://www.nhft.nhs.uk/board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RP1-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:Northamptonshire Healthcare Foundation Trust - NHFT/LPT Group Board (public, 3-5pm)
-URL:https://www.nhft.nhs.uk/board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RT5-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:Leicestershire Partnership Trust - Trust Board
-URL:https://www.leicspart.nhs.uk/about-us/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RXM-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Derbyshire Healthcare Foundation Trust - Board of Directors Meeting
-URL:https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RK5-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Sherwood Forest Hospitals Foundation Trust - Board of Directors Meeting
-URL:https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RY8-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Derbyshire Community Health Services Foundation Trust - DCHS Board Meeting
-URL:https://dchs.nhs.uk/about-us/our-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RP7-2026-10-08@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Lincolnshire Partnership Foundation Trust - Board of Directors Meeting
-URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RNQ-2026-10-09@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:Kettering General Hospital Foundation Trust - UHN Group Boards of Directors (public, in common with NGH)
-URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RNS-2026-10-09@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-SUMMARY:Northampton General Hospital Trust - UHN Group Boards of Directors (public, in common with KGH)
-URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
-END:VEVENT
-BEGIN:VEVENT
-UID:QK1-2026-10-15@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Leicester, Leicestershire and Rutland ICB - ICB Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QPM-2026-10-15@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Northamptonshire ICB - Integrated Care Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2026-10-29@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RWD-2026-11-03@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:United Lincolnshire Hospitals Trust - Board Meeting
-URL:https://www.ulh.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RY5-2026-11-03@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:Lincolnshire Community Health Services Trust - Trust Board Meeting
-URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RNQ-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Kettering General Hospital Foundation Trust - University Hospitals of Northamptonshire Public Meeting
-URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RNS-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Northampton General Hospital Trust - University Hospitals of Northamptonshire Public Meeting
-URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
-END:VEVENT
-BEGIN:VEVENT
-UID:RFS-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:Chesterfield Royal Hospital Foundation Trust - Board of Directors Meeting in Public
-URL:https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes
-END:VEVENT
-BEGIN:VEVENT
-UID:RTG-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:University Hospitals of Derby and Burton Foundation Trust - Trust Board Meeting
-URL:https://www.uhdb.nhs.uk/trust-board-members/
-END:VEVENT
-BEGIN:VEVENT
-UID:RWE-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:University Hospitals of Leicester Trust - Trust Board Meeting
-URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX1-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Nottingham University Hospitals Trust - Trust Board Meeting
-URL:https://www.nuh.nhs.uk/board-and-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJ2-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Derby and Derbyshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJM-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Lincolnshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QT1-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Nottingham and Nottinghamshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RHA-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Nottinghamshire Healthcare Foundation Trust - Board of Directors Meeting
-URL:https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RT5-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Leicestershire Partnership Trust - Trust Board
-URL:https://www.leicspart.nhs.uk/about-us/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RXM-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Derbyshire Healthcare Foundation Trust - Public Board of Directors Meeting
-URL:https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RP1-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Northamptonshire Healthcare Foundation Trust - Trust Board of Directors Meeting
-URL:https://www.nhft.nhs.uk/board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RK5-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:Sherwood Forest Hospitals Foundation Trust - Board of Directors Meeting
-URL:https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RY8-2026-12-03@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:Derbyshire Community Health Services Foundation Trust - DCHS Board Meeting
-URL:https://dchs.nhs.uk/about-us/our-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RNQ-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Kettering General Hospital Foundation Trust - UHN Group Boards of Directors (public, in common with NGH)
-URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RNS-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Northampton General Hospital Trust - UHN Group Boards of Directors (public, in common with KGH)
-URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
-END:VEVENT
-BEGIN:VEVENT
-UID:RP7-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Lincolnshire Partnership Foundation Trust - Board of Directors Meeting
-URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:QK1-2026-12-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:Leicester, Leicestershire and Rutland ICB - ICB Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QPM-2026-12-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:Northamptonshire ICB - Integrated Care Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2026-12-22@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261222
-DTEND;VALUE=DATE:20261223
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RWD-2027-01-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270106
-SUMMARY:United Lincolnshire Hospitals Trust - Board Meeting
-URL:https://www.ulh.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RY5-2027-01-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270106
-SUMMARY:Lincolnshire Community Health Services Trust - Trust Board Meeting
-URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RTG-2027-01-12@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270112
-DTEND;VALUE=DATE:20270113
-SUMMARY:University Hospitals of Derby and Burton Foundation Trust - Trust Board Meeting
-URL:https://www.uhdb.nhs.uk/trust-board-members/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX1-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270114
-DTEND;VALUE=DATE:20270115
-SUMMARY:Nottingham University Hospitals Trust - Trust Board Meeting
-URL:https://www.nuh.nhs.uk/board-and-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJ2-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
-SUMMARY:Derby and Derbyshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJM-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
-SUMMARY:Lincolnshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QT1-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
-SUMMARY:Nottingham and Nottinghamshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RT5-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:Leicestershire Partnership Trust - Trust Board
-URL:https://www.leicspart.nhs.uk/about-us/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RP1-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:Northamptonshire Healthcare Foundation Trust - Trust Board of Directors Meeting
-URL:https://www.nhft.nhs.uk/board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RP7-2027-02-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-SUMMARY:Lincolnshire Partnership Foundation Trust - Board of Directors Meeting
-URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RWE-2027-02-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-SUMMARY:University Hospitals of Leicester Trust - Trust Board Meeting
-URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QK1-2027-02-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270218
-DTEND;VALUE=DATE:20270219
-SUMMARY:Leicester, Leicestershire and Rutland ICB - LLR ICB Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QPM-2027-02-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270218
-DTEND;VALUE=DATE:20270219
-SUMMARY:Northamptonshire ICB - LLR ICB Board meeting
-URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2027-02-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270225
-DTEND;VALUE=DATE:20270226
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RWD-2027-03-02@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270302
-DTEND;VALUE=DATE:20270303
-SUMMARY:United Lincolnshire Hospitals Trust - Board Meeting
-URL:https://www.ulh.nhs.uk/about/board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RY5-2027-03-02@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270302
-DTEND;VALUE=DATE:20270303
-SUMMARY:Lincolnshire Community Health Services Trust - Trust Board Meeting
-URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RTG-2027-03-09@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
-SUMMARY:University Hospitals of Derby and Burton Foundation Trust - Trust Board Meeting
-URL:https://www.uhdb.nhs.uk/trust-board-members/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX1-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270311
-DTEND;VALUE=DATE:20270312
-SUMMARY:Nottingham University Hospitals Trust - Trust Board Meeting
-URL:https://www.nuh.nhs.uk/board-and-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJ2-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:Derby and Derbyshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QJM-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:Lincolnshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:QT1-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:Nottingham and Nottinghamshire ICB - NHS Derby and Derbyshire, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
-URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RP1-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270325
-DTEND;VALUE=DATE:20270326
-SUMMARY:Northamptonshire Healthcare Foundation Trust - Trust Board of Directors Meeting
-URL:https://www.nhft.nhs.uk/board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RX9-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270325
-DTEND;VALUE=DATE:20270326
-SUMMARY:East Midlands Ambulance Service Trust - Trust Board Meeting
-URL:
-END:VEVENT
-BEGIN:VEVENT
-UID:RT5-2027-03-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270330
-DTEND;VALUE=DATE:20270331
-SUMMARY:Leicestershire Partnership Trust - Trust Board
-URL:https://www.leicspart.nhs.uk/about-us/trust-board/
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RP1-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RT5-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Leicestershire Partnership NHS Trust — Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.leicspart.nhs.uk/about-us/trust-board/
+URL:https://www.leicspart.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RP1-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — NHFT/LPT Group Board (public\, 3-5pm)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXM-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Derbyshire Healthcare NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+URL:https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RY8-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Derbyshire Community Health Services NHS Foundation Trust — DCHS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://dchs.nhs.uk/about-us/our-board
+URL:https://dchs.nhs.uk/about-us/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RK5-2026-10-01@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Sherwood Forest Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+URL:https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RP7-2026-10-08@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Lincolnshire Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNQ-2026-10-09@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public\, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-10-09@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public\, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:QK1-2026-10-15@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Leicester\, Leicestershire and Rutland ICB — ICB Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QPM-2026-10-15@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Northamptonshire ICB — Integrated Care Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-10-29@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RWD-2026-11-03@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:United Lincolnshire Hospitals NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ulh.nhs.uk/about/board-meetings/
+URL:https://www.ulh.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY5-2026-11-03@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Lincolnshire Community Health Services NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RNQ-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Kettering General Hospital NHS Foundation Trust — University Hospitals of Northamptonshire Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Northampton General Hospital NHS Trust — University Hospitals of Northamptonshire Public Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RFS-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Chesterfield Royal Hospital NHS Foundation Trust — Board of Directors Meeting in Public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes
+URL:https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes
+END:VEVENT
+BEGIN:VEVENT
+UID:RTG-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:University Hospitals of Derby and Burton NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhdb.nhs.uk/trust-board-members/
+URL:https://www.uhdb.nhs.uk/trust-board-members/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX1-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Nottingham University Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nuh.nhs.uk/board-and-board-papers/
+URL:https://www.nuh.nhs.uk/board-and-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RWE-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:University Hospitals of Leicester NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RHA-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Nottinghamshire Healthcare NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings
+URL:https://www.nottinghamshirehealthcare.nhs.uk/board-of-directors-and-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:QJ2-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Derby and Derbyshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QJM-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Lincolnshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QT1-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Nottingham and Nottinghamshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://notts.icb.nhs.uk/about-us/our-icb-board/
+URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT5-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Leicestershire Partnership NHS Trust — Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.leicspart.nhs.uk/about-us/trust-board/
+URL:https://www.leicspart.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXM-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Derbyshire Healthcare NHS Foundation Trust — Public Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+URL:https://www.derbyshirehealthcareft.nhs.uk/get-involved/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RP1-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RY8-2026-12-03@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Derbyshire Community Health Services NHS Foundation Trust — DCHS Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://dchs.nhs.uk/about-us/our-board
+URL:https://dchs.nhs.uk/about-us/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RK5-2026-12-03@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Sherwood Forest Hospitals NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+URL:https://www.sfh-tr.nhs.uk/about-us/board-of-directors/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RNQ-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Kettering General Hospital NHS Foundation Trust — UHN Group Boards of Directors (public\, in common with NGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+URL:https://www.kgh.nhs.uk/board-of-directors-and-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RNS-2026-12-04@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Northampton General Hospital NHS Trust — UHN Group Boards of Directors (public\, in common with KGH)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+URL:https://www.northamptongeneral.nhs.uk/About/Our-Trust-Board/Meeting-and-papers/Meeting-papers.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:RP7-2026-12-10@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Lincolnshire Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:QK1-2026-12-17@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Leicester\, Leicestershire and Rutland ICB — ICB Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QPM-2026-12-17@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Northamptonshire ICB — Integrated Care Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2026-12-22@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RWD-2027-01-05@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:United Lincolnshire Hospitals NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ulh.nhs.uk/about/board-meetings/
+URL:https://www.ulh.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY5-2027-01-05@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Lincolnshire Community Health Services NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RTG-2027-01-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:University Hospitals of Derby and Burton NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhdb.nhs.uk/trust-board-members/
+URL:https://www.uhdb.nhs.uk/trust-board-members/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX1-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Nottingham University Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nuh.nhs.uk/board-and-board-papers/
+URL:https://www.nuh.nhs.uk/board-and-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QJ2-2027-01-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Derby and Derbyshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QJM-2027-01-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Lincolnshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QT1-2027-01-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Nottingham and Nottinghamshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://notts.icb.nhs.uk/about-us/our-icb-board/
+URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT5-2027-01-26@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Leicestershire Partnership NHS Trust — Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.leicspart.nhs.uk/about-us/trust-board/
+URL:https://www.leicspart.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RP1-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RP7-2027-02-11@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Lincolnshire Partnership NHS Foundation Trust — Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+URL:https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RWE-2027-02-11@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:University Hospitals of Leicester NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+URL:https://www.uhleicester.nhs.uk/about/board/board-papers-and-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QK1-2027-02-18@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Leicester\, Leicestershire and Rutland ICB — LLR ICB Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QPM-2027-02-18@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Northamptonshire ICB — LLR ICB Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-02-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RWD-2027-03-02@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:United Lincolnshire Hospitals NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ulh.nhs.uk/about/board-meetings/
+URL:https://www.ulh.nhs.uk/about/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RY5-2027-03-02@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Lincolnshire Community Health Services NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+URL:https://lincolnshirecommunityhealthservices.nhs.uk/about-us/our-trust-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RTG-2027-03-09@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:University Hospitals of Derby and Burton NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhdb.nhs.uk/trust-board-members/
+URL:https://www.uhdb.nhs.uk/trust-board-members/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX1-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Nottingham University Hospitals NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nuh.nhs.uk/board-and-board-papers/
+URL:https://www.nuh.nhs.uk/board-and-board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:QJ2-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Derby and Derbyshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+URL:https://joinedupcarederbyshire.co.uk/derbyshire-integrated-care-board/integrated-care-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QJM-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Lincolnshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+URL:https://lincolnshire.icb.nhs.uk/about-us/our-board-and-committees/icb-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:QT1-2027-03-18@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Nottingham and Nottinghamshire ICB — NHS Derby and Derbyshire\, Lincolnshire and Nottingham and Nottinghamshire ICB Cluster Board
+DESCRIPTION:Detected by Board paper machine. Source: https://notts.icb.nhs.uk/about-us/our-icb-board/
+URL:https://notts.icb.nhs.uk/about-us/our-icb-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RP1-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Northamptonshire Healthcare NHS Foundation Trust — Trust Board of Directors Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.nhft.nhs.uk/board/
+URL:https://www.nhft.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX9-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:East Midlands Ambulance Service NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: 
+URL:
+END:VEVENT
+BEGIN:VEVENT
+UID:RT5-2027-03-30@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Leicestershire Partnership NHS Trust — Trust Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.leicspart.nhs.uk/about-us/trust-board/
+URL:https://www.leicspart.nhs.uk/about-us/trust-board/
+END:VEVENT
+END:VCALENDAR

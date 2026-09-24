@@ -58,18 +58,26 @@
    "date": "2026-09-24",
    "title": "Board of Directors Meeting",
    "source_url": "https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/",
+   "pack_files": [
+    {
+     "url": "https://www.bradfordhospitals.nhs.uk/wp-content/uploads/2026/09/Public-board-papers-24.9.26.pdf",
+     "title": "Papers",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RAE_2026-09-24.md"
   },
   {
    "id": "RAE:2026-11-25",
@@ -2852,18 +2860,32 @@
    "date": "2026-09-29",
    "title": "Trust Board",
    "source_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.leicspart.nhs.uk/about-us/trust-board/",
+   "pack_files": [
+    {
+     "url": "https://www.leicspart.nhs.uk/wp-content/uploads/2026/09/29-September-2026-Public-Trust-Board-Agenda.pdf",
+     "title": "Public Trust Board 29 September 2026 – Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://www.leicspart.nhs.uk/wp-content/uploads/2026/09/29-September-2026-Public-Trust-Board-Combined-Paper-Pack-v2.pdf",
+     "title": "Public Trust Board 29 September 2026 – Combined Paper Pack",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RT5_2026-09-29.md"
   },
   {
    "id": "RT5:2026-11-24",
@@ -5170,18 +5192,26 @@
    "date": "2026-09-24",
    "title": "Board of Directors Meeting",
    "source_url": "https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.leedsandyorkpft.nhs.uk/about-us/board-of-directors/board-of-directors-meetings/",
+   "pack_files": [
+    {
+     "url": "https://www.leedsandyorkpft.nhs.uk/about-us/wp-content/uploads/sites/8/2026/09/LYPFT-BoD-Papers-Part-A-24-September-2026.pdf",
+     "title": "Agenda and Papers – Board Meeting – 24 September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RGD_2026-09-24.md"
   },
   {
    "id": "RGD:2026-11-26",
@@ -6022,18 +6052,26 @@
    "date": "2026-09-25",
    "title": "Trust Board Meeting",
    "source_url": "https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.wsh.nhs.uk/our-organisation/how-we-are-run/trust-board",
+   "pack_files": [
+    {
+     "url": "https://www.wsh.nhs.uk/asset-library/trust-board-meeting-pack-25-september-2026.pdf",
+     "title": "Trust board meeting pack - 25 September 2026 (opens in new tab)",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RGR_2026-09-25.md"
   },
   {
    "id": "RGR:2026-11-27",
@@ -7698,17 +7736,25 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings",
    "papers_url": "https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings/trust-board-papers",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.elft.nhs.uk/sites/default/files/2026-09/PUBLIC-2026-09-24-Combined-Papers.pdf",
+     "title": "Combined board papers for the Public meeting scheduled for",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RWK_2026-09-24.md"
   },
   {
    "id": "RWK:2026-12-04",
@@ -8476,18 +8522,26 @@
    "date": "2026-09-23",
    "title": "Board of Directors",
    "source_url": "http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings",
+   "pack_files": [
+    {
+     "url": "http://www.royalberkshire.nhs.uk/media/dymbzrli/public-board-23-september-2026.pdf",
+     "title": "Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-21T14:29:53Z"
+   "last_verified": "2026-09-21T14:29:53Z",
+   "summary_path": "summaries/RHW_2026-09-23.md"
   },
   {
    "id": "RHW:2026-11-25",
@@ -11679,7 +11733,7 @@
    "source_url": "https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-21T14:27:13Z",
    "alerts_sent": {
@@ -11687,7 +11741,7 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": "retracted 2026-09-24: schedule page publishes 24 November 2026 and 27 January 2027 and does not list 14 October. Never alerted, so no withdrawal owed."
   },
   {
    "id": "Z9B2Z:2026-07-22",
@@ -12412,16 +12466,41 @@
    "title": "Board meeting",
    "source_url": "https://swpboard.nhs.uk/board-meetings/",
    "papers_url": "https://swpboard.nhs.uk/board-meetings/board-meeting-papers-and-minutes/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/SWP-Board-24.09.2026-Agenda-and-Reports.pdf",
+     "title": "South West Peninsula Board meeting &#8211; 24 September 2026 &#8211; Agenda and Papers",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/South-West-Peninsula-Board-meeting-24-September-2026-Appendices.pdf",
+     "title": "South West Peninsula Board meeting &#8211; 24 September 2026 &#8211; Appendices",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/SWPB26-039ii-Patient-Journey-Maternity.pdf",
+     "title": "South West Peninsula Board meeting – 24 September 2026 – Executive Summaries",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/NHS-CIOS-and-NHSD-AGM-24.09.2026-1.pdf",
+     "title": "NHS Cornwall and Isles of Scilly and NHS Devon &#8211; Annual General Meeting (AGM) &#8211; 24 September 2026 &#8211; Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
    "last_verified": "2026-09-24T10:44:31Z"
   },
   {
@@ -12520,16 +12599,41 @@
    "title": "Board meeting",
    "source_url": "https://swpboard.nhs.uk/board-meetings/",
    "papers_url": "https://swpboard.nhs.uk/board-meetings/board-meeting-papers-and-minutes/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/SWP-Board-24.09.2026-Agenda-and-Reports.pdf",
+     "title": "South West Peninsula Board meeting &#8211; 24 September 2026 &#8211; Agenda and Papers",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/South-West-Peninsula-Board-meeting-24-September-2026-Appendices.pdf",
+     "title": "South West Peninsula Board meeting &#8211; 24 September 2026 &#8211; Appendices",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/SWPB26-039ii-Patient-Journey-Maternity.pdf",
+     "title": "South West Peninsula Board meeting – 24 September 2026 – Executive Summaries",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://swpboard.nhs.uk/wp-content/uploads/2026/09/NHS-CIOS-and-NHSD-AGM-24.09.2026-1.pdf",
+     "title": "NHS Cornwall and Isles of Scilly and NHS Devon &#8211; Annual General Meeting (AGM) &#8211; 24 September 2026 &#8211; Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
    "last_verified": "2026-09-24T10:44:31Z"
   },
   {
@@ -12861,17 +12965,25 @@
    "title": "North East London ICB Board Meeting",
    "source_url": "https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/",
    "papers_url": "https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-board-meeting-18/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://northeastlondon.icb.nhs.uk/download-attachment/55940",
+     "title": "NHS North East London ICB Board - 30 September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/QMF_2026-09-30.md"
   },
   {
    "id": "QMF:2026-11-25",
@@ -14083,17 +14195,25 @@
    "title": "Board of Directors Meeting",
    "source_url": "https://www.coch.nhs.uk/corporate-information/board-of-directors/public-meetings.aspx",
    "papers_url": "https://www.coch.nhs.uk/corporate-information/board-of-directors/board-of-directors-meeting-packs.aspx",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.coch.nhs.uk/media/236668/PAPERS-Board-of-Driectors-29th-September-2026.pdf",
+     "title": "Agenda and Papers - September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RJR_2026-09-29.md"
   },
   {
    "id": "RJR:2026-11-24",
@@ -14764,18 +14884,26 @@
    "date": "2026-09-24",
    "title": "Trust Board Meeting",
    "source_url": "https://www.leedsth.nhs.uk/about/board/meetings/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.leedsth.nhs.uk/about/board/meetings/",
+   "pack_files": [
+    {
+     "url": "https://www.leedsth.nhs.uk/wp-content/uploads/2026/09/0-Board-Agenda-Public-24-Sept-2026.pdf",
+     "title": "Agenda – Board Meeting – September 2026 (PDF)",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RR8_2026-09-24.md"
   },
   {
    "id": "RR8:2026-11-26",
@@ -17761,25 +17889,32 @@
    "date": "2026-09-24",
    "title": "Board of Directors meeting",
    "source_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
-   "papers_url": null,
+   "papers_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
    "pack_files": [
     {
      "url": "https://www.mcht.nhs.uk/download_file/0cd5dd45-3b95-42f6-a981-6659ada0ad50/228",
      "title": "Board of Directors Bundle Part I (Public) - 24 Sep 2026",
      "kind": "pdf",
      "first_seen": "2026-09-21T14:42:12Z"
+    },
+    {
+     "url": "https://www.mcht.nhs.uk/download_file/f9955c26-5181-48cd-be0f-b33a2efd733d/228",
+     "title": "Board of Directors Bundle Part I (Public) - 24 September 2026 v3.0",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
     }
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-22T11:01:54Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": "2026-09-22T11:19:37Z",
     "summary": "2026-09-22T11:19:37Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-15T09:55:21Z"
+   "last_verified": "2026-09-15T09:55:21Z",
+   "summary_path": "summaries/RBT_2026-09-24.md"
   },
   {
    "id": "RDR:2026-05-28",
@@ -18674,18 +18809,26 @@
    "date": "2026-09-24",
    "title": "Board meeting",
    "source_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers",
+   "pack_files": [
+    {
+     "url": "https://www.uclh.nhs.uk/download_file/fccac2e1-b5df-4d4b-9169-bd2a15aa3f50/680",
+     "title": "UCLH Board Papers September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RRV_2026-09-24.md"
   },
   {
    "id": "RRV:2026-11-26",
@@ -20007,10 +20150,17 @@
    "title": "Trust Board meeting",
    "source_url": "https://www.mtw.nhs.uk/board-meetings-and-papers",
    "papers_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.mtw.nhs.uk/download/agenda-and-board-papers-september-2026pdf.pdf?ver=19213&doc=docm93jijm4n14661.pdf",
+     "title": "Agenda and Board papers September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20018,7 +20168,8 @@
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback).",
    "_previous_source_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RWF_2026-09-24.md"
   },
   {
    "id": "RWF:2026-10-29",
@@ -29045,18 +29196,26 @@
    "date": "2026-09-24",
    "title": "Trust Board Meeting",
    "source_url": null,
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.emas.nhs.uk/about-us/trust-board/next-board-meeting",
+   "pack_files": [
+    {
+     "url": "https://www.emas.nhs.uk/download_file/a83e88f7-a813-47e0-ae78-c755426d7308/299",
+     "title": "Agenda - Public Trust Board - 24 September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RX9_2026-09-24.md"
   },
   {
    "id": "RYE:2026-10-28",
@@ -31612,18 +31771,50 @@
    "date": "2026-09-30",
    "title": "Trust Board",
    "source_url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/",
+   "pack_files": [
+    {
+     "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/tmogyjpq/2026-09-30-cambridgeshire-community-services-ccs-annual-general-meeting_agenda.pdf",
+     "title": "Cambridgeshire Community Services (CCS) Annual General Meeting Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/bh4h5fko/2026-09-30-norfolk-community-health-and-care-nhs-trust-nchc-annual-general-meeting_agenda.pdf",
+     "title": "Norfolk Community Health And Care NHS Trust (NCHC) Annual General Meeting Agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/kuwfpksk/00-2026-09-30-trust-board-meeting-in-public-agenda.pdf",
+     "title": "0.0 Trust Board Meeting In Public Agenda September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/ysofrw5t/21-trust-board-register-of-interests-2627-230926.pdf",
+     "title": "2.1 Trust Board Register Of Interests",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/yf0peoxd/30-2026-07-22-trust-board-meeting-in-public-minutes.pdf",
+     "title": "3.0 Trust Board Meeting In Public Minutes",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "last_verified": "2026-09-24T10:44:31Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-09-07; verified as literal text on the source page."
+   "notes": "Detected 2026-09-07; verified as literal text on the source page.",
+   "summary_path": "summaries/RY3_2026-09-30.md"
   },
   {
    "id": "RT1:2027-01-13",
@@ -34921,7 +35112,7 @@
    "date": "2026-09-24",
    "title": "Board of directors meeting",
    "source_url": "https://www.rdash.nhs.uk/about-us/governance/board-of-directors/board-of-directors-meetings/",
-   "papers_url": null,
+   "papers_url": "https://www.rdash.nhs.uk/about-us/governance/board-of-directors/board-of-directors-meetings/",
    "pack_files": [
     {
      "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/09/Board-of-Directors-24.09.2026-Agenda-pack-A.pdf",
@@ -34934,11 +35125,23 @@
      "title": "Board of directors September 2026 agenda pack B (PDF, 2MB)",
      "kind": "pdf",
      "first_seen": "2026-09-21T14:42:12Z"
+    },
+    {
+     "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/09/Board-of-Directors-24.09.2026-Agenda-pack-A-v2.pdf",
+     "title": "Board of directors September 2026 agenda pack A (PDF, 15MB)",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/09/Easy-Read-Board-of-Directors-24.09.2026-v1-CLEARED.docx",
+     "title": "Board of directors September 2026 easy read (DOCX, 32KB)",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
     }
    ],
    "status": "analysed",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-09-22T11:01:54Z",
+   "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-09-22T11:19:37Z",
     "papers": "2026-09-22T11:19:37Z",
@@ -34947,7 +35150,326 @@
    "notes": "[2026-09-21] detected via agent (run-20260921-151157); literal evidence: Our next board of directors meeting is being held at 9:30am on Thursday 24 September in Rossington Miner's Welfare, West End Lane, Rossington, Doncaster, DN11 0DU.",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RXE_2026-09-24.md"
+  },
+  {
+   "id": "G6V2S:2026-10-06",
+   "ods_code": "G6V2S",
+   "org_type": "trust",
+   "date": "2026-10-06",
+   "title": "Board meeting",
+   "source_url": "https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-10-06 via prescan; literal source: 6 October 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "QKK:2026-11-24",
+   "ods_code": "QKK",
+   "org_type": "icb",
+   "date": "2026-11-24",
+   "title": "Board meeting",
+   "source_url": "https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-11-24 via prescan; literal source: 24 November 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "QOX:2026-09-25",
+   "ods_code": "QOX",
+   "org_type": "icb",
+   "date": "2026-09-25",
+   "title": "Board meeting",
+   "source_url": "https://bsw.icb.nhs.uk/cluster-board-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-25 via prescan; literal source: 25 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "QSL:2026-09-25",
+   "ods_code": "QSL",
+   "org_type": "icb",
+   "date": "2026-09-25",
+   "title": "Board meeting",
+   "source_url": "https://bsw.icb.nhs.uk/cluster-board-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-25 via prescan; literal source: 25 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "QVV:2026-09-25",
+   "ods_code": "QVV",
+   "org_type": "icb",
+   "date": "2026-09-25",
+   "title": "Board meeting",
+   "source_url": "https://bsw.icb.nhs.uk/cluster-board-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-25 via prescan; literal source: 25 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "QWO:2026-12-15",
+   "ods_code": "QWO",
+   "org_type": "icb",
+   "date": "2026-12-15",
+   "title": "Board meeting",
+   "source_url": "https://www.westyorkshire.icb.nhs.uk/meetings/integrated-care-board",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-12-15 via prescan; literal source: 15 December 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "RAL:2026-09-24",
+   "ods_code": "RAL",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board meeting",
+   "source_url": "https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via prescan; literal source: 24 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "RD8:2026-09-24",
+   "ods_code": "RD8",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board meeting",
+   "source_url": "https://www.mkuh.nhs.uk/about-us/our-structure/board-of-directors/agendas-and-meetings",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via prescan; literal source: 24-09-2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "RGT:2026-09-24",
+   "ods_code": "RGT",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board meeting",
+   "source_url": "https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/2026-board-of-directors-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via prescan; literal source: 24-09-2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "RNZ:2026-09-24",
+   "ods_code": "RNZ",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board meeting",
+   "source_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via prescan; literal source: 24 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z"
+  },
+  {
+   "id": "RR7:2026-09-29",
+   "ods_code": "RR7",
+   "org_type": "trust",
+   "date": "2026-09-29",
+   "title": "Board meeting",
+   "source_url": "https://www.gatesheadhealth.nhs.uk/news/resources_type/board-papers/",
+   "papers_url": "https://www.gatesheadhealth.nhs.uk/about-us/trust-board/",
+   "pack_files": [
+    {
+     "url": "https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/09/Board-of-Directors-29-September-2026-Part-1-Agenda-and-Papers.pdf",
+     "title": "Board of Directors Part 1 Agenda and Papers - September 2026",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-29 via prescan; literal source: 29 September 2026",
+   "last_verified": "2026-09-24T17:34:29Z",
+   "summary_path": "summaries/RR7_2026-09-29.md"
+  },
+  {
+   "id": "RX8:2026-09-24",
+   "ods_code": "RX8",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board Meeting",
+   "source_url": "https://www.yas.nhs.uk/publications/trust-board-meetings/",
+   "papers_url": "https://www.yas.nhs.uk/publications/trust-board-meetings/",
+   "pack_files": [
+    {
+     "url": "https://www.yas.nhs.uk/media/5866/1-20260924-public-agenda-v10.pdf",
+     "title": "Board Meeting 24 September 2026 - public agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    },
+    {
+     "url": "https://www.yas.nhs.uk/media/5858/20260924-agm-agenda.pdf",
+     "title": "AGM 24 September 2026 - agenda",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via agent; literal source: Board Meeting 24 September 2026 (list item on Latest Board Meeting Papers / Board Meeting Papers 2026-27)",
+   "last_verified": "2026-09-24T17:34:29Z",
+   "summary_path": "summaries/RX8_2026-09-24.md"
+  },
+  {
+   "id": "RXG:2026-09-29",
+   "ods_code": "RXG",
+   "org_type": "trust",
+   "date": "2026-09-29",
+   "title": "Trust Board Meeting",
+   "source_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+   "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.southwestyorkshire.nhs.uk/wp-content/uploads/2026/09/Public-Trust-Board-agenda-and-papers-29.09.26.pdf",
+     "title": "Download 29 September 2026 meeting",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-29 via agent; literal source: Next meeting: Tuesday 29 September 2026 at 9:15am, Cheswold Park Hospital",
+   "last_verified": "2026-09-24T17:34:29Z",
+   "summary_path": "summaries/RXG_2026-09-29.md"
+  },
+  {
+   "id": "RP6:2026-09-24",
+   "ods_code": "RP6",
+   "org_type": "trust",
+   "date": "2026-09-24",
+   "title": "Board of Directors - Part 1",
+   "source_url": "https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings",
+   "papers_url": "https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings",
+   "pack_files": [
+    {
+     "url": "https://www.moorfields.nhs.uk/mediaLocal/woknuwwb/0-260924-tb-part-i-meeting-pack-v10.pdf",
+     "title": "Combined board meeting pack",
+     "kind": "pdf",
+     "first_seen": "2026-09-24T17:34:29Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-09-24T17:34:29Z",
+   "last_checked": "2026-09-24T17:34:29Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "detected 2026-09-24 via papers_watchlist; literal source: Bundle Board of Directors - Part 1 24 September 2026 (pack p.1)",
+   "last_verified": "2026-09-24T17:34:29Z",
+   "summary_path": "summaries/RP6_2026-09-24.md"
   }
  ],
  "_scan_errors": [

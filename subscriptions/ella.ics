@@ -1,709 +1,347 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//HSJ//Board paper machine//EN
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:RJ6-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RJZ-2026-09-16@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:King's College Hospital Foundation Trust - Board of Directors meeting in public
-URL:https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/
-END:VEVENT
-BEGIN:VEVENT
-UID:G6V2S-2026-09-22@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:North London Foundation Trust - NLFT Board (in Public) Meeting
-URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:Z9B2Z-2026-09-23@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:West and North London ICB - NHS West and North London Board of Members (AGM)
-URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Royal National Orthopaedic Hospital Trust - Annual General Meeting (AGM)
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RRV-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:University College London Hospitals Foundation Trust - Board meeting
-URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RWK-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:East London Foundation Trust - Trust Board Meeting
-URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RYX-2026-09-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Central London Community Healthcare Trust - Board Meeting
-URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
-END:VEVENT
-BEGIN:VEVENT
-UID:RKE-2026-09-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:Whittington Health Trust - Trust Board Meeting (2025-26 AGM)
-URL:https://www.whittington.nhs.uk/default.asp?c=20208
-END:VEVENT
-BEGIN:VEVENT
-UID:RV5-2026-09-29@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:South London and Maudsley Foundation Trust - Public Board Meeting
-URL:https://www.slam.nhs.uk/about-us/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:QMF-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:North East London ICB - North East London ICB Board Meeting
-URL:https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RP4-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Great Ormond Street Hospital for Children Foundation Trust - Trust Board Meeting
-URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:RPY-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:The Royal Marsden Foundation Trust - Public Board of Directors meeting
-URL:https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RV3-2026-09-30@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:Central and North West London Foundation Trust - Trust Board Meeting
-URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
-END:VEVENT
-BEGIN:VEVENT
-UID:RAL-2026-10-07@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-SUMMARY:Royal Free London Foundation Trust - Trust Board Meeting
-URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RAT-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:North East London Foundation Trust - Public Board of Directors Meeting
-URL:https://www.nelft.nhs.uk/about-us-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:QKK-2026-10-14@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:South East London ICB - Integrated Care Board meeting in public
-URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:R1K-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:London North West University Healthcare Trust - Board in Common - Tuesday 20 October 2026
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RAS-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:The Hillingdon Hospitals Foundation Trust - Board in Common - Public Meeting
-URL:https://www.nwl-acute-provider-group.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RQM-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:Chelsea and Westminster Hospital Foundation Trust - Board in Common - Tuesday 20 October 2026
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RYJ-2026-10-20@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:Imperial College Healthcare Trust - Board in Common - Tuesday 20 October 2026
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:QWE-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:South West London ICB - Integrated Care Board meeting - October 2026
-URL:https://www.southwestlondon.icb.nhs.uk/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ1-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:Guy's and St Thomas' Foundation Trust - Board of Directors meeting
-URL:https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RKL-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:West London Trust - Trust Board Meeting (Part 1, public)
-URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RYX-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:Central London Community Healthcare Trust - Board-in-Common
-URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
-END:VEVENT
-BEGIN:VEVENT
-UID:Z9B2Z-2026-10-21@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-SUMMARY:West and North London ICB - NHS West and North London Board Meeting
-URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ2-2026-10-27@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:Lewisham and Greenwich Trust - Trust Board meeting (public)
-URL:https://www.lewishamandgreenwich.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RAX-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Kingston Hospital Foundation Trust - Trust Board Meeting
-URL:https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RF4-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Barking, Havering and Redbridge University Hospitals Trust - Board meeting (public)
-URL:https://www.bhrhospitals.nhs.uk/papers-minutes/
-END:VEVENT
-BEGIN:VEVENT
-UID:RPG-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Oxleas Foundation Trust - Board of Directors
-URL:https://oxleas.nhs.uk/our-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ7-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:St George's University Hospitals Foundation Trust - GESH Group Board Meeting (Public)
-URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
-END:VEVENT
-BEGIN:VEVENT
-UID:RVR-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Epsom and St Helier University Hospitals Trust - Group Board Meeting (Public)
-URL:https://www.epsom-sthelier.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:R1H-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Barts Health Trust - Trust Board Meeting
-URL:https://www.bartshealth.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2026-11-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RQY-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:South West London and St George's Mental Health Trust - Trust Board Meeting (Public)
-URL:https://swlstg.nhs.uk/our-board
-END:VEVENT
-BEGIN:VEVENT
-UID:RP4-2026-11-19@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Great Ormond Street Hospital for Children Foundation Trust - Trust Board Meeting
-URL:https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:G6V2S-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:North London Foundation Trust - NLFT Board (in Public) Meeting
-URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RV5-2026-11-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:South London and Maudsley Foundation Trust - Public Board Meeting
-URL:https://www.slam.nhs.uk/about-us/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:QMF-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:North East London ICB - North East London ICB Board Meeting
-URL:https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RPY-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:The Royal Marsden Foundation Trust - Public Board of Directors meeting
-URL:https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RKE-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Whittington Health Trust - Trust Board Meeting
-URL:https://www.whittington.nhs.uk/default.asp?c=20208
-END:VEVENT
-BEGIN:VEVENT
-UID:RRV-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:University College London Hospitals Foundation Trust - Board meeting
-URL:https://www.uclh.nhs.uk/about-us/who-we-are/board-directors/board-meetings-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RYX-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Central London Community Healthcare Trust - Board Meeting
-URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
-END:VEVENT
-BEGIN:VEVENT
-UID:RAT-2026-12-01@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:North East London Foundation Trust - Public Board of Directors Meeting
-URL:https://www.nelft.nhs.uk/about-us-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RAL-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:Royal Free London Foundation Trust - Trust Board Meeting
-URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RWK-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:East London Foundation Trust - Trust Board Meeting
-URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RKL-2026-12-07@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:West London Trust - Board Meeting - Part 1 (Open to Public)
-URL:https://www.westlondon.nhs.uk/about-us/trust-board/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RV3-2026-12-09@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:Central and North West London Foundation Trust - Trust Board Meeting
-URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
-END:VEVENT
-BEGIN:VEVENT
-UID:RRU-2026-12-10@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:London Ambulance Service Trust - Public Board Meeting
-URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ7-2027-01-07@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270107
-DTEND;VALUE=DATE:20270108
-SUMMARY:St George's University Hospitals Foundation Trust - GESH Group Board Meeting (Public)
-URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
-END:VEVENT
-BEGIN:VEVENT
-UID:RVR-2027-01-07@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270107
-DTEND;VALUE=DATE:20270108
-SUMMARY:Epsom and St Helier University Hospitals Trust - Group Board Meeting (Public)
-URL:https://www.epsom-sthelier.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:R1H-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270113
-DTEND;VALUE=DATE:20270114
-SUMMARY:Barts Health Trust - Trust Board Meeting
-URL:https://www.bartshealth.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2027-01-13@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270113
-DTEND;VALUE=DATE:20270114
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:QWE-2027-01-20@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270121
-SUMMARY:South West London ICB - Integrated Care Board meeting - January 2027
-URL:https://www.southwestlondon.icb.nhs.uk/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:G6V2S-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:North London Foundation Trust - NLFT Board (in Public) Meeting
-URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:R1K-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:London North West University Healthcare Trust - Board in Common - Tuesday 26 January 2027
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RAS-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:The Hillingdon Hospitals Foundation Trust - Board in Common - Public Meeting
-URL:https://www.nwl-acute-provider-group.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RQM-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:Chelsea and Westminster Hospital Foundation Trust - Board in Common - Tuesday 26 January 2027
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:RWK-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:East London Foundation Trust - Trust Board Meeting
-URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RYJ-2027-01-26@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270126
-DTEND;VALUE=DATE:20270127
-SUMMARY:Imperial College Healthcare Trust - Board in Common - Tuesday 26 January 2027
-URL:https://www.nwl-acute-provider-collaborative.nhs.uk/events
-END:VEVENT
-BEGIN:VEVENT
-UID:QKK-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270127
-DTEND;VALUE=DATE:20270128
-SUMMARY:South East London ICB - ICB meeting in public
-URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:Z9B2Z-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270127
-DTEND;VALUE=DATE:20270128
-SUMMARY:West and North London ICB - NHS West and North London Board of Members
-URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:QMF-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:North East London ICB - North East London ICB Board Meeting
-URL:https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RKE-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:Whittington Health Trust - Trust Board Meeting
-URL:https://www.whittington.nhs.uk/default.asp?c=20208
-END:VEVENT
-BEGIN:VEVENT
-UID:RYX-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-SUMMARY:Central London Community Healthcare Trust - Board Meeting
-URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
-END:VEVENT
-BEGIN:VEVENT
-UID:RAT-2027-02-02@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270202
-DTEND;VALUE=DATE:20270203
-SUMMARY:North East London Foundation Trust - Public Board of Directors Meeting
-URL:https://www.nelft.nhs.uk/about-us-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ7-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-SUMMARY:St George's University Hospitals Foundation Trust - GESH Group Board Meeting (Public)
-URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
-END:VEVENT
-BEGIN:VEVENT
-UID:RVR-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-SUMMARY:Epsom and St Helier University Hospitals Trust - Group Board Meeting (Public)
-URL:https://www.epsom-sthelier.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:R1H-2027-03-10@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270310
-DTEND;VALUE=DATE:20270311
-SUMMARY:Barts Health Trust - Trust Board Meeting
-URL:https://www.bartshealth.nhs.uk/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RRU-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270311
-DTEND;VALUE=DATE:20270312
-SUMMARY:London Ambulance Service Trust - Public Board Meeting
-URL:https://www.londonambulance.nhs.uk/about-us/how-we-are-run/trust-board/
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270318
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RWK-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270318
-DTEND;VALUE=DATE:20270319
-SUMMARY:East London Foundation Trust - Trust Board Meeting
-URL:https://www.elft.nhs.uk/information-about-elft/our-board/trust-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:G6V2S-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270323
-DTEND;VALUE=DATE:20270324
-SUMMARY:North London Foundation Trust - NLFT Board (in Public) Meeting
-URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RAT-2027-03-23@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270323
-DTEND;VALUE=DATE:20270324
-SUMMARY:North East London Foundation Trust - Public Board of Directors Meeting
-URL:https://www.nelft.nhs.uk/about-us-board-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:Z9B2Z-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270324
-DTEND;VALUE=DATE:20270325
-SUMMARY:West and North London ICB - West and North London Board of Members
-URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RKE-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270325
-DTEND;VALUE=DATE:20270326
-SUMMARY:Whittington Health Trust - Trust Board Meeting
-URL:https://www.whittington.nhs.uk/default.asp?c=20208
-END:VEVENT
-BEGIN:VEVENT
-UID:RYX-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270325
-DTEND;VALUE=DATE:20270326
-SUMMARY:Central London Community Healthcare Trust - Board Meeting
-URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
-END:VEVENT
-BEGIN:VEVENT
-UID:QMF-2027-03-31@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270331
-DTEND;VALUE=DATE:20270401
-SUMMARY:North East London ICB - North East London ICB Board Meeting
-URL:https://northeastlondon.icb.nhs.uk/about-us/about-nhs-north-east-london/our-board/board-meetings-and-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-05-06@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270507
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2027-05-12@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270512
-DTEND;VALUE=DATE:20270513
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-07-01@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270701
-DTEND;VALUE=DATE:20270702
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2027-07-14@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270714
-DTEND;VALUE=DATE:20270715
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-09-09@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270909
-DTEND;VALUE=DATE:20270910
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RJ6-2027-09-15@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270915
-DTEND;VALUE=DATE:20270916
-SUMMARY:Croydon Health Services Trust - One Croydon Health and Care Board and CHS Trust Board meeting in public
-URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-09-23@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20270923
-DTEND;VALUE=DATE:20270924
-SUMMARY:Royal National Orthopaedic Hospital Trust - Annual General Meeting (AGM)
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-BEGIN:VEVENT
-UID:RAN-2027-11-04@board-paper-machine.hsj
-DTSTAMP:20260915T120000Z
-DTSTART;VALUE=DATE:20271104
-DTEND;VALUE=DATE:20271105
-SUMMARY:Royal National Orthopaedic Hospital Trust - Trust Board Meeting
-URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYX-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Central London Community Healthcare NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+BEGIN:VEVENT
+UID:RP6-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Moorfields Eye Hospital NHS Foundation Trust — Board of Directors - Part 1
+DESCRIPTION:Detected by Board paper machine. Source: https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings
+URL:https://www.moorfields.nhs.uk/about-us/board-directors/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RV5-2026-09-29@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:South London and Maudsley NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.slam.nhs.uk/about-us/trust-board/
+URL:https://www.slam.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RPY-2026-09-30@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:The Royal Marsden NHS Foundation Trust — Public Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
+URL:https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2026-10-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Central London Community Healthcare NHS Trust — Board-in-Common
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ1-2026-10-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Guy's and St Thomas' NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers
+URL:https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QWE-2026-10-21@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:South West London ICB — Integrated Care Board meeting - October 2026
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestlondon.icb.nhs.uk/events/
+URL:https://www.southwestlondon.icb.nhs.uk/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ2-2026-10-27@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Lewisham and Greenwich NHS Trust — Trust Board meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lewishamandgreenwich.nhs.uk/board-meetings
+URL:https://www.lewishamandgreenwich.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RAX-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Kingston Hospital NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings
+URL:https://www.kingstonandrichmond.nhs.uk/about-us/trust-board/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RPG-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Oxleas NHS Foundation Trust — Board of Directors
+DESCRIPTION:Detected by Board paper machine. Source: https://oxleas.nhs.uk/our-board/
+URL:https://oxleas.nhs.uk/our-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RVR-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Epsom and St Helier University Hospitals NHS Trust — Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.epsom-sthelier.nhs.uk/board-meetings
+URL:https://www.epsom-sthelier.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ7-2026-11-06@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:St George's University Hospitals NHS Foundation Trust — GESH Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2026-11-11@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RV5-2026-11-11@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:South London and Maudsley NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.slam.nhs.uk/about-us/trust-board/
+URL:https://www.slam.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2026-11-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:South West London and St George's Mental Health NHS Trust — Trust Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RV5-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:South London and Maudsley NHS Foundation Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.slam.nhs.uk/about-us/trust-board/
+URL:https://www.slam.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:QKK-2026-11-24@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:South East London ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RPY-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:The Royal Marsden NHS Foundation Trust — Public Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
+URL:https://www.royalmarsden.nhs.uk/about-royal-marsden/how-we-run-ourselves/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:QWE-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:South West London ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestlondon.icb.nhs.uk/events/
+URL:https://www.southwestlondon.icb.nhs.uk/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Central London Community Healthcare NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+BEGIN:VEVENT
+UID:RVR-2027-01-07@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Epsom and St Helier University Hospitals NHS Trust — Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.epsom-sthelier.nhs.uk/board-meetings
+URL:https://www.epsom-sthelier.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ7-2027-01-07@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:St George's University Hospitals NHS Foundation Trust — GESH Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-01-13@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RV5-2027-01-13@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:South London and Maudsley NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.slam.nhs.uk/about-us/trust-board/
+URL:https://www.slam.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:QWE-2027-01-20@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:South West London ICB — Integrated Care Board meeting - January 2027
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southwestlondon.icb.nhs.uk/events/
+URL:https://www.southwestlondon.icb.nhs.uk/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:QKK-2027-01-27@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:South East London ICB — ICB meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+URL:https://www.selondonics.org/icb/meetings-board-papers-reports/icb-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Central London Community Healthcare NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+BEGIN:VEVENT
+UID:RVR-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Epsom and St Helier University Hospitals NHS Trust — Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.epsom-sthelier.nhs.uk/board-meetings
+URL:https://www.epsom-sthelier.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ7-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:St George's University Hospitals NHS Foundation Trust — GESH Group Board Meeting (Public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/group-board-papers-and-agenda/
+END:VEVENT
+BEGIN:VEVENT
+UID:RV5-2027-03-10@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:South London and Maudsley NHS Foundation Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.slam.nhs.uk/about-us/trust-board/
+URL:https://www.slam.nhs.uk/about-us/trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-03-17@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RYX-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Central London Community Healthcare NHS Trust — Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+URL:https://clch.nhs.uk/about-us/publications/board-papers-and-committee-tor
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-05-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-07-14@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-09-15@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Croydon Health Services NHS Trust — One Croydon Health and Care Board and CHS Trust Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2027-11-10@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:Croydon Health Services NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2028-01-12@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:Croydon Health Services NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ6-2028-03-15@board-paper-machine.hsj
+DTSTAMP:20260924T173429Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:Croydon Health Services NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+URL:https://www.croydonhealthservices.nhs.uk/board-timetable-and-papers
+END:VEVENT
+END:VCALENDAR

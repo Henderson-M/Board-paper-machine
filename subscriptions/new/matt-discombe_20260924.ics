@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:G6V2S-2026-10-06@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:North London NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAL-2026-09-24@board-paper-machine.hsj
+DTSTAMP:20260924T173440Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Royal Free London NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+END:VEVENT
+END:VCALENDAR
