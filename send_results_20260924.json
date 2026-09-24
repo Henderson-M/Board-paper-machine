@@ -1,0 +1,226 @@
+[
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "id": "dates:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:emily",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 4 new meeting date(s) detected",
+  "id": "dates:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] North East London ICB board \u2014 Wednesday 30 September 2026 \u2014 6 leads",
+  "id": "papers:QMF_2026-09-30:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] North East London ICB board \u2014 Wednesday 30 September 2026 \u2014 6 leads",
+  "id": "papers:QMF_2026-09-30:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Bradford Teaching Hospitals NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 7 leads",
+  "id": "papers:RAE_2026-09-24:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Leeds and York Partnership NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 7 leads",
+  "id": "papers:RGD_2026-09-24:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] West Suffolk NHS Foundation Trust board \u2014 Friday 25 September 2026 \u2014 5 leads",
+  "id": "papers:RGR_2026-09-25:james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Royal Berkshire NHS Foundation Trust board \u2014 Wednesday 23 September 2026 \u2014 5 leads",
+  "id": "papers:RHW_2026-09-23:mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Countess of Chester Hospital NHS Foundation Trust board \u2014 Tuesday 29 September 2026 \u2014 3 leads",
+  "id": "papers:RJR_2026-09-29:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Moorfields Eye Hospital NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 6 leads",
+  "id": "papers:RP6_2026-09-24:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Gateshead Health NHS Foundation Trust board \u2014 Tuesday 29 September 2026 \u2014 6 leads",
+  "id": "papers:RR7_2026-09-29:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Leeds Teaching Hospitals NHS Trust board \u2014 Thursday 24 September 2026 \u2014 10 leads",
+  "id": "papers:RR8_2026-09-24:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] University College London Hospitals NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 4 leads",
+  "id": "papers:RRV_2026-09-24:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] University College London Hospitals NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 4 leads",
+  "id": "papers:RRV_2026-09-24:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Leicestershire Partnership NHS Trust board \u2014 Tuesday 29 September 2026 \u2014 4 leads",
+  "id": "papers:RT5_2026-09-29:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Maidstone and Tunbridge Wells NHS Trust board \u2014 Thursday 24 September 2026 \u2014 5 leads",
+  "id": "papers:RWF_2026-09-24:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] East London NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 4 leads",
+  "id": "papers:RWK_2026-09-24:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] East London NHS Foundation Trust board \u2014 Thursday 24 September 2026 \u2014 4 leads",
+  "id": "papers:RWK_2026-09-24:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Yorkshire Ambulance Service NHS Trust board \u2014 Thursday 24 September 2026 \u2014 8 leads",
+  "id": "papers:RX8_2026-09-24:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Yorkshire Ambulance Service NHS Trust board \u2014 Thursday 24 September 2026 \u2014 8 leads",
+  "id": "papers:RX8_2026-09-24:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board \u2014 Thursday 24 September 2026 \u2014 5 leads",
+  "id": "papers:RX9_2026-09-24:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board \u2014 Thursday 24 September 2026 \u2014 5 leads",
+  "id": "papers:RX9_2026-09-24:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] South West Yorkshire Partnership NHS Foundation Trust board \u2014 Tuesday 29 September 2026 \u2014 5 leads",
+  "id": "papers:RXG_2026-09-29:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] East of England Community Health and Care NHS Trust board \u2014 Wednesday 30 September 2026 \u2014 6 leads",
+  "id": "papers:RY3_2026-09-30:james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] South West Peninsula joint board (NHS Devon / NHS Cornwall and IoS) \u2014 Thursday 24 September 2026 \u2014 pack detected, not readable",
+  "id": "papers-unreadable:SWP:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 24 September 2026 \u2014 14 dates, 17 packs, 3 orgs need attention",
+  "id": "runreport:henry",
+  "ok": true,
+  "err": ""
+ }
+]

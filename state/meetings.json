@@ -72,8 +72,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -2880,8 +2880,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -5206,8 +5206,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -6066,8 +6066,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -7749,8 +7749,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -8536,8 +8536,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-21T14:29:53Z",
@@ -12497,7 +12497,7 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-09-24T18:01:28Z",
     "summary": null
    },
    "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
@@ -12630,7 +12630,7 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-09-24T18:01:28Z",
     "summary": null
    },
    "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
@@ -12978,8 +12978,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -14208,8 +14208,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -14898,8 +14898,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -18823,8 +18823,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-09-24T10:44:31Z",
@@ -20163,8 +20163,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback).",
    "_previous_source_url": "https://www.mtw.nhs.uk/about-us/trust-board/board-meetings-and-papers/",
@@ -29210,8 +29210,8 @@
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": null,
    "last_verified": "2026-09-24T10:44:31Z",
@@ -31810,8 +31810,8 @@
    "last_verified": "2026-09-24T10:44:31Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "Detected 2026-09-07; verified as literal text on the source page.",
    "summary_path": "summaries/RY3_2026-09-30.md"
@@ -35166,7 +35166,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35186,7 +35186,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35206,7 +35206,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35226,7 +35226,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35246,7 +35246,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35266,7 +35266,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35286,7 +35286,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35306,7 +35306,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35326,7 +35326,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35346,7 +35346,7 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-24T18:01:28Z",
     "papers": null,
     "summary": null
    },
@@ -35373,9 +35373,9 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-24T18:01:28Z",
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "detected 2026-09-29 via prescan; literal source: 29 September 2026",
    "last_verified": "2026-09-24T17:34:29Z",
@@ -35407,9 +35407,9 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-24T18:01:28Z",
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "detected 2026-09-24 via agent; literal source: Board Meeting 24 September 2026 (list item on Latest Board Meeting Papers / Board Meeting Papers 2026-27)",
    "last_verified": "2026-09-24T17:34:29Z",
@@ -35435,9 +35435,9 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-24T18:01:28Z",
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "detected 2026-09-29 via agent; literal source: Next meeting: Tuesday 29 September 2026 at 9:15am, Cheswold Park Hospital",
    "last_verified": "2026-09-24T17:34:29Z",
@@ -35463,9 +35463,9 @@
    "first_seen": "2026-09-24T17:34:29Z",
    "last_checked": "2026-09-24T17:34:29Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-24T18:01:28Z",
+    "papers": "2026-09-24T18:01:28Z",
+    "summary": "2026-09-24T18:01:28Z"
    },
    "notes": "detected 2026-09-24 via papers_watchlist; literal source: Bundle Board of Directors - Part 1 24 September 2026 (pack p.1)",
    "last_verified": "2026-09-24T17:34:29Z",
