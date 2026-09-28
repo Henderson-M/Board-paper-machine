@@ -1,4 +1,4 @@
-## 2026-09-28: Full sweep, Dave's machine. 22 packs analysed, 2 dates, 2 withdrawals, 1 reinstatement. State NOT pushed, emails NOT yet sent
+## 2026-09-28: Full sweep, Dave's machine. 23 packs analysed, 2 dates, 2 withdrawals, 1 reinstatement. 32/32 emails sent live
 
 Run from Dave's machine, started 20:14. All 239 in-scope orgs scanned.
 **0 orgs broken, 1 degraded (RRJ Royal Orthopaedic), 0 stale, 0 not checked.**
@@ -34,14 +34,13 @@ Fable in waves of three. Supplement: Countess of Chester's IPR ("to follow" in t
 draft agenda; recorded, analysis deferred until the full pack lands.
 
 **Not done:**
-- **Oxford Health (RNU) 30 Sep: NOT analysed, NOT alerted.** The Fable agent
-  launch was blocked by the permission classifier. Text is extracted; needs
-  /pack-analyser.
-- **State not pushed.** The commit-and-push to GitHub was blocked by the permission
-  classifier on this machine. Everything above is in the local working tree only
-  until someone pushes. Until then, another run would not see any of it.
-- **Emails composed but not sent** (31 incl. run report), pending the push decision:
-  sending without pushing would leave alerts_sent invisible to the next run.
+- Oxford Health (RNU) 30 Sep: first analyser launch was blocked by the auto-mode
+  classifier; re-run later the same evening and alerted (6 LEAD). Pack pages 433-455
+  are marked "RESTRICTED PAGE" in the PDF and were unreadable.
+- The auto-mode classifier also blocked the git push to Henry's repo ("Out-of-Place
+  Publication"). Dave pushed detection state by hand (4a5e3c4) and added an
+  autoMode.allow exception in his user settings. Sends went out after the push:
+  31/31 main batch plus 1 Oxford Health alert, all ok.
 
 **Tooling notes.** The reverify matcher treats a month-only link label ("Trust Board -
 October 2026") as not confirming a day; consider accepting a month-level match when

@@ -3555,8 +3555,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:27:11Z",
@@ -4108,8 +4108,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:27:11Z",
@@ -4953,8 +4953,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -5852,8 +5852,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "_previous_source_url": "https://www.shsc.nhs.uk/about-us/board-directors",
@@ -6159,8 +6159,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:27:11Z",
@@ -6404,8 +6404,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -6885,8 +6885,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -8732,8 +8732,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -8867,16 +8867,17 @@
      "first_seen": "2026-09-28T19:27:11Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
-   "notes": "[2026-09-28] Pack detected and text extracted, but the analyser agent launch was blocked by the permission classifier on Dave's run; NOT analysed, NOT alerted. Re-run /pack-analyser for this meeting.",
-   "last_verified": "2026-09-28T19:15:42Z"
+   "notes": "[2026-09-28] Pack detected and text extracted, but the analyser agent launch was blocked by the permission classifier on Dave's run; analysed later the same evening after the classifier setting was changed, and alerted.",
+   "last_verified": "2026-09-28T19:15:42Z",
+   "summary_path": "summaries/RNU_2026-09-30.md"
   },
   {
    "id": "RNU:2026-11-25",
@@ -13456,8 +13457,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "[2026-09-28] Joint cluster board with BNSSG (QUY); pack shared, analysed once under QUY:2026-09-30.",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -13567,8 +13568,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:27:11Z",
@@ -13738,8 +13739,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -14597,7 +14598,8 @@
    "alerts_sent": {
     "date": null,
     "papers": "2026-09-24T18:01:28Z",
-    "summary": "2026-09-24T18:01:28Z"
+    "summary": "2026-09-24T18:01:28Z",
+    "supplement": "2026-09-28T20:53:13Z"
    },
    "notes": "[2026-09-28] IPR (listed \"to follow\" in the main pack) published as 2 files; supplementary summary written, supplementary papers alert due.",
    "last_verified": "2026-09-28T19:27:11Z",
@@ -14740,8 +14742,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -18573,8 +18575,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked). [2026-09-28] reverify flagged CONTRADICTED (schedule lists \"Trust Board - October 2026\" as a link, not the day); hand-checked: the October 2026 pack p.1 reads \"PUBLIC TRUST BOARD MEETING 1ST OCTOBER 2026\". Date confirmed; matcher miss, not an org error.",
    "last_verified": "2026-09-28T19:27:11Z",
@@ -18684,8 +18686,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -19133,8 +19135,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -21084,8 +21086,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -23789,8 +23791,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
-    "papers": null,
-    "summary": null,
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z",
     "withdrawn": "2026-08-17T16:00:00Z"
    },
    "notes": "Retracted 2026-08-17: not on the page. Homerton publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. 1 Sep/1 Nov were day-defaulted. [2026-09-28] REINSTATED (run-20260928-201453): retracted in Aug and withdrawal sent 17 Aug, but that retraction was wrong. Homerton published \"september-2026.pdf\" on its board papers page; p.1 reads \"Board of Directors Meeting To be held in public Wednesday, 30 September 2026\". Detected via papers watchlist.",
@@ -25606,8 +25608,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": null,
    "last_verified": "2026-09-28T19:15:42Z",
@@ -27941,8 +27943,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "detected in full sweep 2026-07-13",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -27969,8 +27971,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "detected in full sweep 2026-07-13",
    "last_verified": "2026-09-15T09:55:21Z",
@@ -27991,7 +27993,8 @@
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-28T20:53:13Z"
    },
    "notes": "detected in full sweep 2026-07-13 [2026-09-28] Retracted: wrong date. The published pack shows the board meets Thursday 1 October 2026 (see RMY:2026-10-01). Alerted 13 Jul, so withdrawal owed.",
    "last_verified": "2026-09-15T09:55:21Z"
@@ -30241,8 +30244,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "[2026-07-21] The 'Future board meetings' list omits the year entirely. A separate 'Our next board meeting' line is STALE (still 28 May 2026) - ignore it. | ",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -30880,8 +30883,8 @@
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "[2026-08-03] detected via pdf; literal evidence: DATE AND TIME OF NEXT MEETING - 30th September 2026 at 09:45 am in the Oak Room, Ladybridge Hall, Trust Headquarters, Bolton",
    "last_verified": "2026-09-28T19:15:42Z",
@@ -35751,7 +35754,8 @@
    "alerts_sent": {
     "date": "2026-09-24T18:01:28Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-09-28T20:53:13Z"
    },
    "notes": "detected 2026-10-06 via prescan; literal source: 6 October 2026 [2026-09-28] Retracted (run-20260928-201453): 6 Oct 2026 is the NLFT Annual Members' Meeting (\"NLFT 2025-26 AMM Agenda, 16:00 to 17:30 Tuesday 6 October 2026\"), not a board meeting. Board in public met 22 Sep; next 24 Nov 2026. Alerted 24 Sep, so withdrawal owed.",
    "last_verified": "2026-09-24T17:34:29Z"
@@ -36067,7 +36071,7 @@
    "first_seen": "2026-09-28T19:27:11Z",
    "last_checked": "2026-09-28T19:27:11Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-09-28T20:53:13Z",
     "papers": null,
     "summary": null
    },
@@ -36094,9 +36098,9 @@
    "first_seen": "2026-09-28T20:03:12Z",
    "last_checked": "2026-09-28T20:03:12Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-09-28T20:53:13Z",
+    "papers": "2026-09-28T20:53:13Z",
+    "summary": "2026-09-28T20:53:13Z"
    },
    "notes": "[2026-09-28] Correct date for the October board. Pack agenda: \"to be held on 1st October 2026 at Main Hall, Hellesdon Hospital\". Replaces RMY:2026-10-02, which was the wrong date.",
    "last_verified": "2026-09-28T20:03:12Z",
