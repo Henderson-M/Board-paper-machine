@@ -1,3 +1,53 @@
+## 2026-09-28: Full sweep, Dave's machine. 22 packs analysed, 2 dates, 2 withdrawals, 1 reinstatement. State NOT pushed, emails NOT yet sent
+
+Run from Dave's machine, started 20:14. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RRJ Royal Orthopaedic), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 178 of 239 orgs in 33 seconds. 18 known no-schedule orgs went
+to the watchlist; 43 went to six Sonnet agents in a single wave. Every pre-scan
+candidate date (7) was a false positive: "next review due" footers (RA7, RVJ), a
+questions deadline (RYR 10 Nov), a papers-by deadline (S1Y5D), and three mis-yeared
+tokens (RJ7, RQ3, RT5) whose real dates were already held. None recorded.
+
+**Dates.** New: RXY 26 Nov 2026; RMY 1 Oct 2026 (correction, see below).
+Re-verification: 120 checked, 109 confirmed, 2 contradicted, 7 unverifiable,
+2 unreadable. QWE 21 Oct retracted (SWL ICB lists 25 Nov and 20 Jan only; never
+alerted). RET 1 Oct was a false contradiction: the schedule lists "Trust Board -
+October 2026" as a link rather than a day, and the pack itself says 1 October.
+
+**Three date corrections owed to correspondents:**
+- G6V2S North London FT 6 Oct was the Annual Members' Meeting, not a board.
+  Retracted; withdrawal to Matt Discombe (and Ella via the override).
+- RMY Norfolk and Suffolk: we held 2 Oct; the pack agenda says "to be held on 1st
+  October 2026". 2 Oct retracted and withdrawn, 1 Oct added and date-alerted.
+- RQX Homerton 30 Sep: retracted and withdrawn in August, but the watchlist picked
+  up the pack, which confirms a board in public on 30 Sep. Reinstated; the papers
+  alert says plainly the August withdrawal was our error.
+
+**Packs.** 23 detected, almost all deterministically: a run-scoped matcher paired
+each in-window meeting to links harvested from its papers page (row pairing, then
+day/month tokens in link text and URL, with month-only matches allowed only when
+the org has one meeting that month). All matches were hand-vetted. 22 analysed on
+Fable in waves of three. Supplement: Countess of Chester's IPR ("to follow" in the
+24 Sep pack) is now up; Part 1 cover sheet summarised by hand (CIP £1.602m v
+£5.045m YTD plan), Part 2 is image-only. Sussex Partnership 8 Oct has only a 3KB
+draft agenda; recorded, analysis deferred until the full pack lands.
+
+**Not done:**
+- **Oxford Health (RNU) 30 Sep: NOT analysed, NOT alerted.** The Fable agent
+  launch was blocked by the permission classifier. Text is extracted; needs
+  /pack-analyser.
+- **State not pushed.** The commit-and-push to GitHub was blocked by the permission
+  classifier on this machine. Everything above is in the local working tree only
+  until someone pushes. Until then, another run would not see any of it.
+- **Emails composed but not sent** (31 incl. run report), pending the push decision:
+  sending without pushing would leave alerts_sent invisible to the next run.
+
+**Tooling notes.** The reverify matcher treats a month-only link label ("Trust Board -
+October 2026") as not confirming a day; consider accepting a month-level match when
+the org has only one meeting that month. Pack date slips like RMY suggest checking
+the pack's own agenda date against state on every analysed pack.
+
 ## 2026-09-24 — Full sweep, live emails. 17 packs analysed, 14 new dates, and two multi-file packs the scan nearly under-read
 
 Run from Henry's machine, started 11:40. All 239 in-scope orgs scanned.

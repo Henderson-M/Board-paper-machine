@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:G6V2S-2026-10-06@board-paper-machine.hsj
+DTSTAMP:20260928T201322Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:North London Foundation Trust: Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+URL:https://www.northlondonmentalhealth.nhs.uk/meetings-and-papers/
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR
