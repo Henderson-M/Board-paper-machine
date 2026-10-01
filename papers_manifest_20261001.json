@@ -1,5 +1,18 @@
 [
  {
+  "id": "papers:QHM_2026-09-30:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] North East and North Cumbria ICB board, Wednesday 30 September 2026: 6 leads",
+  "body_file": "outbox/20261001/20261001_matt-mathers_papers_QHM_2026-09-30.md",
+  "attach": [
+   "summaries/QHM_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "QHM:2026-09-30"
+  ],
+  "_recipient": "Matt Mathers"
+ },
+ {
   "id": "papers:RBN_2026-09-30:zoe",
   "to": "zoe.tidman@hsj.co.uk",
   "subject": "[PAPERS] Mersey and West Lancashire Teaching Hospitals Trust board, Wednesday 30 September 2026: 5 leads",
@@ -65,6 +78,19 @@
   "_recipient": "Mimi"
  },
  {
+  "id": "papers:RN7_2026-10-01:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Dartford and Gravesham Trust board, Thursday 1 October 2026: 7 leads",
+  "body_file": "outbox/20261001/20261001_alison_papers_RN7_2026-10-01.md",
+  "attach": [
+   "summaries/RN7_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RN7:2026-10-01"
+  ],
+  "_recipient": "Alison"
+ },
+ {
   "id": "papers:RQW_2026-10-01:emily",
   "to": "emily.townsend@hsj.co.uk",
   "subject": "[PAPERS] The Princess Alexandra Hospital Trust board, Thursday 1 October 2026: 5 leads",
@@ -76,6 +102,19 @@
    "RQW:2026-10-01"
   ],
   "_recipient": "Emily"
+ },
+ {
+  "id": "papers:RTH_2026-09-30:mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Oxford University Hospitals Foundation Trust board, Wednesday 30 September 2026: 8 leads",
+  "body_file": "outbox/20261001/20261001_mimi_papers_RTH_2026-09-30.md",
+  "attach": [
+   "summaries/RTH_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RTH:2026-09-30"
+  ],
+  "_recipient": "Mimi"
  },
  {
   "id": "papers:RV3_2026-09-30:matt-discombe",

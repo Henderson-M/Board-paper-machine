@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:RN5-2026-10-01@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Hampshire Hospitals Foundation Trust: Board of Directors meeting
@@ -13,7 +13,7 @@ URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-m
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Solent Trust: Board of Directors Meeting
@@ -22,7 +22,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2026-10-13@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Southern Health Foundation Trust: Board of Directors Meeting
@@ -31,7 +31,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2026-10-28@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:South Central Ambulance Service Foundation Trust: Board Meeting with Annual Members Meeting
@@ -40,7 +40,7 @@ URL:None
 END:VEVENT
 BEGIN:VEVENT
 UID:QRL-2026-11-04@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Hampshire and Isle of Wight ICB: Hampshire and Isle of Wight Integrated Care Board Public Meeting
@@ -49,7 +49,7 @@ URL:https://www.hantsiow.icb.nhs.uk/icb/integrated-care-board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:South Central Ambulance Service Foundation Trust: Board Meeting
@@ -58,7 +58,7 @@ URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RDU-2026-11-06@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Frimley Health Foundation Trust: Board of directors - public meeting
@@ -67,7 +67,7 @@ URL:https://www.fhft.nhs.uk/about-us/how-we-are-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:RWX-2026-11-10@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Berkshire Healthcare Foundation Trust: Trust Board meeting
@@ -76,7 +76,7 @@ URL:https://www.berkshirehealthcare.nhs.uk/about-us/our-board-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2026-11-12@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board Meeting
@@ -85,7 +85,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2026-11-18@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Thames Valley ICB: NHS Thames Valley ICB Board Meeting in public
@@ -94,7 +94,7 @@ URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RHW-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Royal Berkshire Foundation Trust: Board of Directors
@@ -103,7 +103,7 @@ URL:http://www.royalberkshire.nhs.uk/about-us/governance/open-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:RNU-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Oxford Health Foundation Trust: Board of Directors Meeting
@@ -112,7 +112,7 @@ URL:https://www.oxfordhealth.nhs.uk/about-us/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2026-11-25@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Oxford University Hospitals Foundation Trust: Trust Board meeting
@@ -121,7 +121,7 @@ URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RN5-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Hampshire Hospitals Foundation Trust: Board of Directors meeting
@@ -130,7 +130,7 @@ URL:https://www.hampshirehospitals.nhs.uk/about-us/board-and-management/events-m
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Buckinghamshire Healthcare Trust: Trust Board Meeting
@@ -139,7 +139,7 @@ URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1F-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Isle of Wight Trust: Trust Board in common - IWT and PHU
@@ -148,7 +148,7 @@ URL:https://www.iow.nhs.uk/about-us/our-trust-board/2026-board-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHU-2026-12-02@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Portsmouth Hospitals University National Health Service Trust: Trust Board Meeting
@@ -157,7 +157,7 @@ URL:https://www.porthosp.nhs.uk/about-us/our-trust/our-trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Solent Trust: Board of Directors Meeting
@@ -166,7 +166,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2026-12-15@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Southern Health Foundation Trust: Board of Directors Meeting
@@ -175,7 +175,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-01-14@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board Meeting
@@ -184,7 +184,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2027-01-20@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Thames Valley ICB: NHS Thames Valley ICB Board Meeting in public
@@ -193,7 +193,7 @@ URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2027-01-27@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Oxford University Hospitals Foundation Trust: Trust Board meeting
@@ -202,7 +202,7 @@ URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Buckinghamshire Healthcare Trust: Trust Board Meeting
@@ -211,7 +211,7 @@ URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-02-09@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Solent Trust: Board of Directors Meeting
@@ -220,7 +220,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-02-09@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Southern Health Foundation Trust: Board of Directors Meeting
@@ -229,7 +229,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RYE-2027-03-04@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:South Central Ambulance Service Foundation Trust: Board Meeting
@@ -238,7 +238,7 @@ URL:https://www.scas.nhs.uk/about-scas/our-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-03-11@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board Meeting
@@ -247,7 +247,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:S0E4D-2027-03-17@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Thames Valley ICB: NHS Thames Valley ICB Board Meeting in public
@@ -256,7 +256,7 @@ URL:https://www.thamesvalley.icb.nhs.uk/about-us/board-meetings-in-public
 END:VEVENT
 BEGIN:VEVENT
 UID:RTH-2027-03-24@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Oxford University Hospitals Foundation Trust: Trust Board meeting
@@ -265,7 +265,7 @@ URL:https://www.ouh.nhs.uk/about/trust-board/meetings-and-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:RXQ-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Buckinghamshire Healthcare Trust: Trust Board Meeting
@@ -274,7 +274,7 @@ URL:https://www.buckshealthcare.nhs.uk/our-organisation/our-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-04-13@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Solent Trust: Board Meeting
@@ -283,7 +283,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-04-13@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -292,7 +292,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-05-13@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board meeting (public)
@@ -301,7 +301,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-06-08@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270609
 SUMMARY:Solent Trust: Board Meeting
@@ -310,7 +310,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-06-08@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270609
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -319,7 +319,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-07-08@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270709
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board meeting (public)
@@ -328,7 +328,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-08-10@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270811
 SUMMARY:Solent Trust: Board Meeting
@@ -337,7 +337,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-08-10@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270811
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -346,7 +346,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-09-09@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20270909
 DTEND;VALUE=DATE:20270910
 SUMMARY:University Hospital Southampton Foundation Trust: Trust Board meeting (public)
@@ -355,7 +355,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-10-12@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20271012
 DTEND;VALUE=DATE:20271013
 SUMMARY:Solent Trust: Board Meeting
@@ -364,7 +364,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-10-12@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20271012
 DTEND;VALUE=DATE:20271013
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -373,7 +373,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2027-11-11@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271112
 SUMMARY:University Hospital Southampton Foundation Trust: Board meeting
@@ -382,7 +382,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2027-12-14@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20271214
 DTEND;VALUE=DATE:20271215
 SUMMARY:Solent Trust: Board Meeting
@@ -391,7 +391,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2027-12-14@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20271214
 DTEND;VALUE=DATE:20271215
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -400,7 +400,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2028-01-20@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20280120
 DTEND;VALUE=DATE:20280121
 SUMMARY:University Hospital Southampton Foundation Trust: Board meeting
@@ -409,7 +409,7 @@ URL:https://www.uhs.nhs.uk/about-the-trust/how-the-trust-is-run/trust-board
 END:VEVENT
 BEGIN:VEVENT
 UID:R1C-2028-02-08@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20280208
 DTEND;VALUE=DATE:20280209
 SUMMARY:Solent Trust: Board Meeting
@@ -418,7 +418,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RW1-2028-02-08@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20280208
 DTEND;VALUE=DATE:20280209
 SUMMARY:Southern Health Foundation Trust: Board Meeting
@@ -427,7 +427,7 @@ URL:https://hiowhealthcare.nhs.uk/about-us/our-board/meetings-and-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:RHM-2028-03-09@board-paper-machine.hsj
-DTSTAMP:20261001T144502Z
+DTSTAMP:20261001T145725Z
 DTSTART;VALUE=DATE:20280309
 DTEND;VALUE=DATE:20280310
 SUMMARY:University Hospital Southampton Foundation Trust: Board meeting

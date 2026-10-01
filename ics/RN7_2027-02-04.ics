@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RN7-2027-02-04@board-paper-machine.hsj
+DTSTAMP:20261001T145725Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Dartford and Gravesham Trust: Trust Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dgt.nhs.uk/download_file/27376/289
+URL:https://www.dgt.nhs.uk/download_file/27376/289
+END:VEVENT
+END:VCALENDAR

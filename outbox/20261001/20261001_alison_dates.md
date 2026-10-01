@@ -1,7 +1,16 @@
 Hi Alison,
 
-The board paper machine found 3 new meeting date(s) for orgs you cover.
+The board paper machine found 5 new meeting date(s) for orgs you cover.
 
+
+## Dartford and Gravesham Trust (RN7)
+
+| Date | Meeting | Source |
+|---|---|---|
+| Thursday 3 December 2026 | Trust Board meeting | [board page](https://www.dgt.nhs.uk/download_file/27376/289) |
+| Thursday 4 February 2027 | Trust Board meeting | [board page](https://www.dgt.nhs.uk/download_file/27376/289) |
+
+The trust still has not published a 2026/27 schedule on its website. These two dates are printed on the agenda of the 1 October board pack ('Dates of future meetings').
 
 ## Yorkshire Ambulance Service Trust (RX8)
 
@@ -16,7 +25,7 @@ The trust has now published its 2026-27 schedule. These Thursday dates replace t
 ## Add to your calendar
 
 A calendar file (alison_20261001.ics) is attached containing the
-3 new date(s) above and nothing else.
+5 new date(s) above and nothing else.
 
 **To add them:** open the attachment, then Outlook, then 'Save & Close' (once).
 Import it only once: Outlook does not de-duplicate .ics file imports, so
