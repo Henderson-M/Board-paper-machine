@@ -11,6 +11,8 @@ The board paper machine found 3 new meeting date(s) for orgs you cover.
 | Thursday 28 January 2027 | Board meeting | [board page](https://www.yas.nhs.uk/about-us/the-trust-board/) |
 | Thursday 25 March 2027 | Board meeting | [board page](https://www.yas.nhs.uk/about-us/the-trust-board/) |
 
+The trust has now published its 2026-27 schedule. These Thursday dates replace the Friday dates (27 November, 29 January, 26 March) withdrawn on 17 August.
+
 ## Add to your calendar
 
 A calendar file (henry_20261001.ics) is attached containing the

@@ -26,6 +26,58 @@
   "_recipient": "Emily"
  },
  {
+  "id": "papers:RV3_2026-09-30:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "body_file": "outbox/20261001/20261001_matt-discombe_papers_RV3_2026-09-30.md",
+  "attach": [
+   "summaries/RV3_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RV3:2026-09-30"
+  ],
+  "_recipient": "Matt Discombe"
+ },
+ {
+  "id": "papers:RV3_2026-09-30:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "body_file": "outbox/20261001/20261001_ella_papers_RV3_2026-09-30.md",
+  "attach": [
+   "summaries/RV3_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RV3:2026-09-30"
+  ],
+  "_recipient": "Ella"
+ },
+ {
+  "id": "papers:RXA_2026-09-30:zoe",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Cheshire and Wirral Partnership Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "body_file": "outbox/20261001/20261001_zoe_papers_RXA_2026-09-30.md",
+  "attach": [
+   "summaries/RXA_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RXA:2026-09-30"
+  ],
+  "_recipient": "Zoe"
+ },
+ {
+  "id": "papers:RXM_2026-09-30:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Derbyshire Healthcare Foundation Trust board, Wednesday 30 September 2026: 4 leads",
+  "body_file": "outbox/20261001/20261001_annabelle_papers_RXM_2026-09-30.md",
+  "attach": [
+   "summaries/RXM_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "RXM:2026-09-30"
+  ],
+  "_recipient": "Annabelle"
+ },
+ {
   "id": "papers:RYW_2026-10-01:caitlin",
   "to": "caitlin.tilley@hsj.co.uk",
   "subject": "[PAPERS] Birmingham Community Healthcare Foundation Trust board, Thursday 1 October 2026: 3 leads",

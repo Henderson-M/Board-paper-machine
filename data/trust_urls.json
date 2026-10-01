@@ -307,7 +307,7 @@
   "ics": "Northamptonshire",
   "correspondent": "Annabelle",
   "url": "https://www.nhft.nhs.uk/board/",
-  "notes": "[2026-09-10] Page also carries a separate 'Group board meetings' schedule, joint with Leicestershire Partnership (RT5): 29 Sep 2026, 28 Jan 2027 (28 May 2026 now past). Worth checking whether RT5's own page also carries/should mirror these joint dates. | [2026-07-21] Papers behind a JS folder browser; 2026 folder IDs recorded. Dates in JS tab panels - needs --html. | || [2026-09-17] Confirmed folder IDs: 2328=2023, 2673=2024, 3068=2025 Group, 2939=2025 Trust, 3216=2026 Group, 3215=2026 Trust. 2026 Trust subfolders use pattern 'M0N - <date> Board Papers' (M01/M03/M05/M07 seen); September subfolder not yet created.",
+  "notes": "[2026-10-01] PAPERS ARE IN FOLDERS: /board?smbfolder=ID (plain requests works; hrefs are HTML-entity encoded, unescape before matching). 2026 Trust Board = 3215 with one subfolder per meeting (M09 24 Sep = 3312, 16 files); 2026 Group Board (with LPT) = 3216 (M09 29 Sep = 3318). The board landing page shows only the shell, which is why the 24 Sep pack was missed on two runs. Walk both year folders every run. | [2026-09-10] Page also carries a separate 'Group board meetings' schedule, joint with Leicestershire Partnership (RT5): 29 Sep 2026, 28 Jan 2027 (28 May 2026 now past). Worth checking whether RT5's own page also carries/should mirror these joint dates. | [2026-07-21] Papers behind a JS folder browser; 2026 folder IDs recorded. Dates in JS tab panels - needs --html. | || [2026-09-17] Confirmed folder IDs: 2328=2023, 2673=2024, 3068=2025 Group, 2939=2025 Trust, 3216=2026 Group, 3215=2026 Trust. 2026 Trust subfolders use pattern 'M0N - <date> Board Papers' (M01/M03/M05/M07 seen); September subfolder not yet created.",
   "schedule_url": null
  },
  {
@@ -1044,7 +1044,7 @@
   "ics": "South Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.barnsleyhospital.nhs.uk/about/how-we-are-run/board-of-directors/meetings-and-papers",
-  "notes": "[2026-10-01] 29 September 2026 was the Annual General Meeting, not a board (retracted). | [2026-07-21] SOURCE ERROR: the AGM is written Thursday 29 September 2026, but that date is a Tuesday. The 6 Aug meeting is marked CANCELLED on the page. | [2026-06-05] Board packs are published as posts in the /news section (news?field_news_type_target_id=37), NOT on the board page. Board page lists dates only. [2026-07-16] Packs published in /news section, not on board page (per org notes).",
+  "notes": "[2026-10-01] Packs are posted as news items (https://www.barnsleyhospital.nhs.uk/news?field_news_type_target_id=37), about six days ahead. 1 October 2026 is on the board page's date list but no pack post existed on the day. | [2026-10-01] 29 September 2026 was the Annual General Meeting, not a board (retracted). | [2026-07-21] SOURCE ERROR: the AGM is written Thursday 29 September 2026, but that date is a Tuesday. The 6 Aug meeting is marked CANCELLED on the page. | [2026-06-05] Board packs are published as posts in the /news section (news?field_news_type_target_id=37), NOT on the board page. Board page lists dates only. [2026-07-16] Packs published in /news section, not on board page (per org notes).",
   "schedule_url": null
  },
  {
@@ -1500,7 +1500,7 @@
   "ics": "Dorset",
   "correspondent": "Joe",
   "url": "https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/",
-  "notes": "[2026-07-13] Page fetched OK. Only Board-in-Common dates shown are 8 Apr 2026 and 17 Jun 2026 (both past). H2 2026 dates not yet published. Runs Board in Common with Dorset Healthcare (RDY). [2026-07-16] Only Board-in-Common dates shown (8 Apr, 17 Jun 2026) are past. H2 2026 dates not yet published. Board in Common with Dorset Healthcare (RDY).",
+  "notes": "[2026-10-01] 7 October 2026 and 1 December 2026 are UNVERIFIED: the page's only '7 October' is 2025, and the 2026 list stops at 11 August. Added to the papers watchlist. | [2026-07-13] Page fetched OK. Only Board-in-Common dates shown are 8 Apr 2026 and 17 Jun 2026 (both past). H2 2026 dates not yet published. Runs Board in Common with Dorset Healthcare (RDY). [2026-07-16] Only Board-in-Common dates shown (8 Apr, 17 Jun 2026) are past. H2 2026 dates not yet published. Board in Common with Dorset Healthcare (RDY).",
   "schedule_url": null
  },
  {
@@ -1530,7 +1530,7 @@
   "ics": "Dorset",
   "correspondent": "Joe",
   "url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-  "notes": "[2026-07-21] Stale note cleared: the page now renders fine without JS. | [2026-07-13] Page fetched OK. Only Board-in-Common dates shown are 1 Feb, 1 Apr, 1 Jun 2026 (all past). H2 2026 dates not yet published. Runs Board in Common with Dorset County Hospital (RBD). [2026-07-16] Only Board-in-Common dates shown (1 Feb, 1 Apr, 1 Jun 2026) are past. H2 2026 dates not yet published. Board in Common with Dorset County (RBD).",
+  "notes": "[2026-10-01] 1 October and 1 December 2026 were day-defaulted from 'month only' and are UNVERIFIED. Board in Common with RBD; added to the papers watchlist. | [2026-07-21] Stale note cleared: the page now renders fine without JS. | [2026-07-13] Page fetched OK. Only Board-in-Common dates shown are 1 Feb, 1 Apr, 1 Jun 2026 (all past). H2 2026 dates not yet published. Runs Board in Common with Dorset County Hospital (RBD). [2026-07-16] Only Board-in-Common dates shown (1 Feb, 1 Apr, 1 Jun 2026) are past. H2 2026 dates not yet published. Board in Common with Dorset County (RBD).",
   "schedule_url": null
  },
  {
@@ -1696,8 +1696,9 @@
   "ics": "Bath and North East Somerset, Swindon and Wiltshire",
   "correspondent": "Joe",
   "url": "https://www.awp.nhs.uk/about-us/our-trust-board",
-  "notes": "[2026-09-10] Correction: the 30 September 2026 date (Bath NHS House) is confirmed literal on-page this run. The 2026-05-27 note recorded '16 Sep' for what looks like the same slot in the cycle - that figure appears to have been wrong, or the trust has since moved the date. Going with 30 Sept as the literally-confirmed figure. | [2026-05-27] URL updated: Trust board page lists 2026 dates: 15 Jul, 16 Sep, 18 Nov, plus 13 Jan 2027 and 17 Mar 2027.",
-  "schedule_url": null
+  "notes": "[2026-10-01] Packs are NOT on the 'Our trust board' page (stale: 'Latest Board meeting - 15 July'). They sit in Publications > Board papers library, year folder 2026-2027 (/publications/board-papers/navigate/8881/35520), one row per meeting. papers_url set to that folder; the folder ID will change each financial year. | [2026-09-10] Correction: the 30 September 2026 date (Bath NHS House) is confirmed literal on-page this run. The 2026-05-27 note recorded '16 Sep' for what looks like the same slot in the cycle - that figure appears to have been wrong, or the trust has since moved the date. Going with 30 Sept as the literally-confirmed figure. | [2026-05-27] URL updated: Trust board page lists 2026 dates: 15 Jul, 16 Sep, 18 Nov, plus 13 Jan 2027 and 17 Mar 2027.",
+  "schedule_url": null,
+  "papers_url": "https://www.awp.nhs.uk/about-us/publications/board-papers/navigate/8881/35520"
  },
  {
   "ods_code": "RWV",
@@ -2434,8 +2435,9 @@
   "ics": "Greater Manchester",
   "correspondent": "Nick",
   "url": "https://tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board",
-  "notes": "[2026-09-10] schedule_url updated to https://www.stockport.nhs.uk/about/board/board-meetings/ by 2026-09-10 sweep (verified readable that day). | [2026-09-10] Trust's own 'Trust Board Minutes/Agendas' page (www.tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board/trust-board-minutesagendas) confirms minutes only go to April 2026 and says Joint Board content moved to southeastsector-hcp.nhs.uk, but that site has no board-dates page of its own - it just links back to Stockport's page. So Tameside now has NO forward schedule of its own anywhere; use Stockport's (RWJ) forthcoming dates as the joint board's dates going forward. | [2026-08-06] Joint pack confirmed at tamesideandglossopicft.nhs.uk/download_file/5690/0, linked from southeastsector-hcp.nhs.uk. The PDF opens with the PREVIOUS meeting's minutes, not the agenda - verify which pack it is by its reporting month (Aug 2026 pack carries Month 3 / Q1 2026-27), not by its first page. | [2026-08-03] Papers are now published as a JOINT pack with Stockport FT on southeastsector-hcp.nhs.uk; the trust's own board page carries zero document links. Two-hop required. | [2026-07-21] Dates in collapsed accordions - needs --html / raw source. | [2026-07-13] Dates listed on trust site. Note reminder: papers hosted on southeastsector-hcp.nhs.uk. [2026-07-16] Papers hosted on southeastsector-hcp.nhs.uk.",
-  "schedule_url": "https://www.stockport.nhs.uk/about/board/board-meetings/"
+  "notes": "[2026-10-01] Joint Board packs (with Stockport) are listed at southeastsector-hcp.nhs.uk under Joint Board Minutes/Agendas, hosted on tamesideandglossopicft.nhs.uk/download_file/. papers_url set to that page. | [2026-09-10] schedule_url updated to https://www.stockport.nhs.uk/about/board/board-meetings/ by 2026-09-10 sweep (verified readable that day). | [2026-09-10] Trust's own 'Trust Board Minutes/Agendas' page (www.tamesideandglossopicft.nhs.uk/about-us/trust-oversight/trust-board/trust-board-minutesagendas) confirms minutes only go to April 2026 and says Joint Board content moved to southeastsector-hcp.nhs.uk, but that site has no board-dates page of its own - it just links back to Stockport's page. So Tameside now has NO forward schedule of its own anywhere; use Stockport's (RWJ) forthcoming dates as the joint board's dates going forward. | [2026-08-06] Joint pack confirmed at tamesideandglossopicft.nhs.uk/download_file/5690/0, linked from southeastsector-hcp.nhs.uk. The PDF opens with the PREVIOUS meeting's minutes, not the agenda - verify which pack it is by its reporting month (Aug 2026 pack carries Month 3 / Q1 2026-27), not by its first page. | [2026-08-03] Papers are now published as a JOINT pack with Stockport FT on southeastsector-hcp.nhs.uk; the trust's own board page carries zero document links. Two-hop required. | [2026-07-21] Dates in collapsed accordions - needs --html / raw source. | [2026-07-13] Dates listed on trust site. Note reminder: papers hosted on southeastsector-hcp.nhs.uk. [2026-07-16] Papers hosted on southeastsector-hcp.nhs.uk.",
+  "schedule_url": "https://www.stockport.nhs.uk/about/board/board-meetings/",
+  "papers_url": "https://www.southeastsector-hcp.nhs.uk/"
  },
  {
   "ods_code": "RRF",
@@ -2479,8 +2481,9 @@
   "ics": "Greater Manchester",
   "correspondent": "Nick",
   "url": "https://www.stockport.nhs.uk/about/board/board-meetings/",
-  "notes": "[2026-07-13] Note reminder: joint board papers hosted on southeastsector-hcp.nhs.uk. [2026-07-16] Joint board (Stockport/Tameside SE Sector); papers hosted on southeastsector-hcp.nhs.uk.",
-  "schedule_url": null
+  "notes": "[2026-10-01] Joint Board packs (with Tameside and Glossop) are listed at southeastsector-hcp.nhs.uk, not on the Stockport page, which holds only the date list and packs up to March 2026. papers_url set to that page. | [2026-07-13] Note reminder: joint board papers hosted on southeastsector-hcp.nhs.uk. [2026-07-16] Joint board (Stockport/Tameside SE Sector); papers hosted on southeastsector-hcp.nhs.uk.",
+  "schedule_url": null,
+  "papers_url": "https://www.southeastsector-hcp.nhs.uk/"
  },
  {
   "ods_code": "RXV",
@@ -2889,7 +2892,7 @@
   "ics": "Lancashire and South Cumbria",
   "correspondent": "Zoe",
   "url": "https://www.blackpoolteachinghospitals.nhs.uk/about-us/meet-board/board-meetings-public/upcoming-meetings",
-  "notes": "[2026-08-06] PAPERS TWO-HOP (confirmed): /upcoming-meetings carries no documents. Papers live under /board-meetings-public/previous-meetings-year then the '2026/27 Meetings' folder at /navigate/53518/11922 (files named 'Board of Directors Meeting in Public - DD.MM.YY - full papers'). WAF WARNING: the domain is now behind Imperva/Incapsula and returns an HTML block page for PDF downloads via both requests and Playwright --download; text extraction may still work, but expect to lose exact page numbers. | [2026-07-21] CAUTION: '31 March 2027' appears only in the section heading 'Board meeting schedule to 31 March 2027' - it is NOT a meeting. | [2026-07-13] WebFetch OK, 6 forward dates. papers_url points to archive page.",
+  "notes": "[2026-10-01] 1 Oct: the 2026/27 papers folder (/previous-meetings-year/navigate/53518/11922) served only an Imperva/Incapsula challenge to curl, requests, headless Playwright and headed real Chrome, then HTTP 429. Could not check for the 1 October pack. | [2026-08-06] PAPERS TWO-HOP (confirmed): /upcoming-meetings carries no documents. Papers live under /board-meetings-public/previous-meetings-year then the '2026/27 Meetings' folder at /navigate/53518/11922 (files named 'Board of Directors Meeting in Public - DD.MM.YY - full papers'). WAF WARNING: the domain is now behind Imperva/Incapsula and returns an HTML block page for PDF downloads via both requests and Playwright --download; text extraction may still work, but expect to lose exact page numbers. | [2026-07-21] CAUTION: '31 March 2027' appears only in the section heading 'Board meeting schedule to 31 March 2027' - it is NOT a meeting. | [2026-07-13] WebFetch OK, 6 forward dates. papers_url points to archive page.",
   "schedule_url": null
  },
  {
