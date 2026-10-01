@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+METHOD:CANCEL
+BEGIN:VEVENT
+UID:RAN-2027-09-23@board-paper-machine.hsj
+DTSTAMP:20261001T141313Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:Royal National Orthopaedic Hospital Trust: Annual General Meeting (AGM)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+URL:https://www.rnoh.nhs.uk/about-us/corporate-information/board-meetings
+STATUS:CANCELLED
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

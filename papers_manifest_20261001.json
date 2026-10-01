@@ -1,0 +1,41 @@
+[
+ {
+  "id": "papers:RN5_2026-10-01:mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Hampshire Hospitals Foundation Trust board, Thursday 1 October 2026: 6 leads",
+  "body_file": "outbox/20261001/20261001_mimi_papers_RN5_2026-10-01.md",
+  "attach": [
+   "summaries/RN5_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RN5:2026-10-01"
+  ],
+  "_recipient": "Mimi"
+ },
+ {
+  "id": "papers:RQW_2026-10-01:emily",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] The Princess Alexandra Hospital Trust board, Thursday 1 October 2026: 5 leads",
+  "body_file": "outbox/20261001/20261001_emily_papers_RQW_2026-10-01.md",
+  "attach": [
+   "summaries/RQW_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RQW:2026-10-01"
+  ],
+  "_recipient": "Emily"
+ },
+ {
+  "id": "papers:RYW_2026-10-01:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham Community Healthcare Foundation Trust board, Thursday 1 October 2026: 3 leads",
+  "body_file": "outbox/20261001/20261001_caitlin_papers_RYW_2026-10-01.md",
+  "attach": [
+   "summaries/RYW_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RYW:2026-10-01"
+  ],
+  "_recipient": "Caitlin"
+ }
+]

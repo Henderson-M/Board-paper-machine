@@ -1,0 +1,32 @@
+[
+ {
+  "id": "dates:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "outbox/20261001/20261001_alison_dates.md",
+  "attach": [
+   "subscriptions/new/alison_20261001.ics"
+  ],
+  "_meeting_ids": [
+   "RX8:2026-11-26",
+   "RX8:2027-01-28",
+   "RX8:2027-03-25"
+  ],
+  "_recipient": "Alison"
+ },
+ {
+  "id": "dates:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "outbox/20261001/20261001_henry_dates.md",
+  "attach": [
+   "subscriptions/new/henry_20261001.ics"
+  ],
+  "_meeting_ids": [
+   "RX8:2026-11-26",
+   "RX8:2027-01-28",
+   "RX8:2027-03-25"
+  ],
+  "_recipient": "Henry"
+ }
+]
