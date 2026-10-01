@@ -1,0 +1,10 @@
+[
+ {
+  "id": "runreport:dave",
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report, 1 October 2026: 5 dates, 20 packs, 1 org needs attention",
+  "body_file": "outbox/20261001/20261001_runreport_dave.md",
+  "attach": [],
+  "_meeting_ids": []
+ }
+]

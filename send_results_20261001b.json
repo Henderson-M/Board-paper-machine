@@ -1,0 +1,44 @@
+[
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Tameside and Glossop Integrated Care Foundation Trust board, Thursday 1 October 2026: 5 leads",
+  "id": "papers:RMP_2026-10-01:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Northamptonshire Healthcare Foundation Trust board, Thursday 24 September 2026: 2 leads",
+  "id": "papers:RP1_2026-09-24:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Northamptonshire Healthcare Foundation Trust board, Tuesday 29 September 2026: 2 leads",
+  "id": "papers:RP1_2026-09-29:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Avon and Wiltshire Mental Health Partnership Trust board, Wednesday 30 September 2026: 3 leads",
+  "id": "papers:RVN_2026-09-30:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex ICB board, Wednesday 30 September 2026: 5 leads",
+  "id": "papers:S9B9J_2026-09-30:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report, 1 October 2026: 5 dates, 20 packs, 1 org needs attention",
+  "id": "runreport:dave",
+  "ok": true,
+  "err": ""
+ }
+]

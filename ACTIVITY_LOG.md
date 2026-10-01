@@ -1,3 +1,89 @@
+## 2026-10-01: Full sweep, Dave's machine. 20 packs analysed, 5 new dates, 1 withdrawal. 26/26 emails sent live. Session limit hit mid-run and recovered
+
+Run from Dave's machine, started 14:52. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RXG South West Yorkshire Partnership, every sub-page now 403), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 177 of 239 orgs in 91 seconds. 19 known no-schedule orgs went
+to the watchlist; 43 went to six Sonnet agents in a single wave. One more Sonnet
+agent hunted packs for 11 in-window meetings whose stored URL is a dates page.
+Fourteen pre-scan candidate dates were false positives (review-due footers, print and
+last-edited stamps, a header date widget, governors' meetings, two deadlines, two
+mis-yeared tokens). None recorded.
+
+**Dates.** New: Yorkshire Ambulance 26 Nov 2026, 28 Jan 2027, 25 Mar 2027 (the trust
+has finally published its 2026-27 schedule; these are the Thursdays next to the
+Fridays withdrawn in August). Dartford and Gravesham 3 Dec 2026 and 4 Feb 2027, read
+from the "Dates of future meetings" line on its 1 October pack agenda, because the
+trust still publishes no schedule on its site.
+Re-verification: 120 checked, 108 confirmed, 10 unverifiable, 1 unreadable,
+1 contradicted (Walton Centre 1 Oct, the same false contradiction as 28 Sep).
+
+**Retractions.**
+- RAN Royal National Orthopaedic 23 Sep 2027 is the AGM, not a board. It had been
+  alerted, so a withdrawal went to Matt Discombe and Ella.
+- RFF Barnsley 29 Sep and RL1 Robert Jones and Agnes Hunt 30 Sep were AGMs. Past,
+  no withdrawal owed.
+- RNZ Salisbury 23 Jul, 10 Sep and 24 Sep were never meetings. The site header prints
+  today's date and the extractor read it as a board on whichever day the scan ran.
+  Three false date alerts went to Joe over three months. All past now. Org notes
+  carry a warning; the pre-scan needs a guard (reject a candidate equal to the run
+  date unless it sits in a schedule list).
+
+**Packs.** 20 analysed on Fable: 96 LEAD, 229 WORTH WATCHING, 108 FOI.
+- Thirteen were found deterministically from the papers pages (row and date
+  matching, raw anchors, per-meeting landing pages). A Sonnet agent found four more
+  on pages the stored URL does not reach.
+- Four multi-file packs were taken whole from their dated section (NENC ICB 36
+  files, Surrey and Sussex ICB 20, Oxford University Hospitals 19, Northamptonshire
+  Healthcare 16).
+- **Northamptonshire Healthcare's 24 September board was a missed pack.** The trust
+  keeps each meeting in its own folder (/board?smbfolder=...), which the 24 and 28
+  Sep runs never opened. Found while locating its 29 Sep group board pack. Sent late,
+  and the alert says so. Folder IDs are now in the org notes.
+- The watchlist found two: Alder Hey's 3 September pack (published weeks late) and
+  Dartford's 1 October pack. Dartford changed its document-library block ID today
+  (58107 to 68487), which made the old folder URL return an empty shell.
+- Tameside and Glossop and Stockport share one joint board pack: analysed once, one
+  alert to Nick.
+
+**Standout leads.** East Kent: an external review of 11 stillbirths says failures
+"may have contributed to the deaths of at least 4 babies", with an NHS England
+maternity diagnostic visit in September. York and Scarborough: the Resources
+Committee says the trust "cannot maintain its core functions without additional
+cash support". Coventry and Warwickshire: chief medical officer has "stepped away",
+and a £31m residual recovery gap. Dartford: new "extremely high" PFI risk and a
+53-bed reduction going into winter. South East Coast Ambulance: group chief executive starts
+5 October. Surrey and Sussex ICB: five-year plan says the "current configuration is
+no longer affordable".
+
+**Session limit.** The account's limit was hit during the sixth analysis wave, with
+15 packs analysed and pushed. Nothing was lost because state went up after every
+wave. The run resumed after the 20:00 reset: the first 20 emails went out while the
+last five packs were analysed, then a second batch of six.
+
+**Not done / handed back:**
+- No pack was online for Barnsley (1 Oct), Humber Teaching (30 Sep), South Tyneside
+  and Sunderland (1 Oct) or Great Ormond Street (30 Sep). They leave the detection
+  window after 3 October.
+- Blackpool (1 Oct): papers folder served an Incapsula challenge to every fetcher,
+  including headed Chrome. Not checked.
+- Dorset (RBD and RDY): the October and December dates held look wrong (day-defaulted
+  to the 1st; "7 October" is on the page only for 2025) but the trusts publish no
+  forward schedule, so they are marked unverified rather than retracted, and both
+  trusts are now on the papers watchlist.
+- Sussex Partnership 8 Oct is still agenda only.
+- Wirral University Teaching Hospital's page lists "Wednesday 3 February 2026" after
+  November, probably a typo for 2027. Not recorded.
+
+**Watchlist** now 22 orgs: added Christie, TEWV, NWAS, UHCW, Mid Cheshire, EEAST,
+Dorset County, Dorset Healthcare; removed Yorkshire Ambulance.
+
+**Tooling notes.** swpboard.nhs.uk (Devon and Cornwall ICBs), Royal Cornwall, Airedale
+and Ashford and St Peter's all 403 Playwright but read with plain curl and a Chrome
+user agent. Guy's and St Thomas' reads with headed real Chrome. papers_url set for
+Avon and Wiltshire, Tameside and Glossop and Stockport, whose packs are not on the
+page the date scan reads.
+
 ## 2026-09-28: Full sweep, Dave's machine. 23 packs analysed, 2 dates, 2 withdrawals, 1 reinstatement. 32/32 emails sent live
 
 Run from Dave's machine, started 20:14. All 239 in-scope orgs scanned.
