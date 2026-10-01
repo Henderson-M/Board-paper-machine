@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:RX8-2026-11-26@board-paper-machine.hsj
-DTSTAMP:20261001T142240Z
+DTSTAMP:20261001T143406Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Yorkshire Ambulance Service Trust: Board meeting
@@ -13,7 +13,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2027-01-28@board-paper-machine.hsj
-DTSTAMP:20261001T142240Z
+DTSTAMP:20261001T143406Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Yorkshire Ambulance Service Trust: Board meeting
@@ -22,7 +22,7 @@ URL:https://www.yas.nhs.uk/about-us/the-trust-board/
 END:VEVENT
 BEGIN:VEVENT
 UID:RX8-2027-03-25@board-paper-machine.hsj
-DTSTAMP:20261001T142240Z
+DTSTAMP:20261001T143406Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Yorkshire Ambulance Service Trust: Board meeting

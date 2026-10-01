@@ -1,5 +1,18 @@
 [
  {
+  "id": "papers:RKB_2026-10-01:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Coventry and Warwickshire Trust board, Thursday 1 October 2026: 5 leads",
+  "body_file": "outbox/20261001/20261001_caitlin_papers_RKB_2026-10-01.md",
+  "attach": [
+   "summaries/RKB_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RKB:2026-10-01"
+  ],
+  "_recipient": "Caitlin"
+ },
+ {
   "id": "papers:RN5_2026-10-01:mimi",
   "to": "mimi.launder@hsj.co.uk",
   "subject": "[PAPERS] Hampshire Hospitals Foundation Trust board, Thursday 1 October 2026: 6 leads",
@@ -52,6 +65,19 @@
   "_recipient": "Ella"
  },
  {
+  "id": "papers:RVV_2026-10-01:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Kent Hospitals University Foundation Trust board, Thursday 1 October 2026: 8 leads",
+  "body_file": "outbox/20261001/20261001_alison_papers_RVV_2026-10-01.md",
+  "attach": [
+   "summaries/RVV_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RVV:2026-10-01"
+  ],
+  "_recipient": "Alison"
+ },
+ {
   "id": "papers:RXA_2026-09-30:zoe",
   "to": "zoe.tidman@hsj.co.uk",
   "subject": "[PAPERS] Cheshire and Wirral Partnership Foundation Trust board, Wednesday 30 September 2026: 3 leads",
@@ -76,6 +102,19 @@
    "RXM:2026-09-30"
   ],
   "_recipient": "Annabelle"
+ },
+ {
+  "id": "papers:RYD_2026-10-01:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] South East Coast Ambulance Service Foundation Trust board, Thursday 1 October 2026: 5 leads",
+  "body_file": "outbox/20261001/20261001_alison_papers_RYD_2026-10-01.md",
+  "attach": [
+   "summaries/RYD_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RYD:2026-10-01"
+  ],
+  "_recipient": "Alison"
  },
  {
   "id": "papers:RYW_2026-10-01:caitlin",
