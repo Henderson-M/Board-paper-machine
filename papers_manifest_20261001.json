@@ -1,210 +1,67 @@
 [
  {
-  "id": "papers:QHM_2026-09-30:matt-mathers",
-  "to": "matt.mathers@hsj.co.uk",
-  "subject": "[PAPERS] North East and North Cumbria ICB board, Wednesday 30 September 2026: 6 leads",
-  "body_file": "outbox/20261001/20261001_matt-mathers_papers_QHM_2026-09-30.md",
+  "id": "papers:RMP_2026-10-01:nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Tameside and Glossop Integrated Care Foundation Trust board, Thursday 1 October 2026: 5 leads",
+  "body_file": "outbox/20261001/20261001_nick_papers_RMP_2026-10-01.md",
   "attach": [
-   "summaries/QHM_2026-09-30.md"
+   "summaries/RMP_2026-10-01.md"
   ],
   "_meeting_ids": [
-   "QHM:2026-09-30"
+   "RMP:2026-10-01"
   ],
-  "_recipient": "Matt Mathers"
+  "_recipient": "Nick"
  },
  {
-  "id": "papers:RBN_2026-09-30:zoe",
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Mersey and West Lancashire Teaching Hospitals Trust board, Wednesday 30 September 2026: 5 leads",
-  "body_file": "outbox/20261001/20261001_zoe_papers_RBN_2026-09-30.md",
-  "attach": [
-   "summaries/RBN_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RBN:2026-09-30"
-  ],
-  "_recipient": "Zoe"
- },
- {
-  "id": "papers:RBS_2026-09-03:zoe",
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board, Thursday 3 September 2026: 6 leads",
-  "body_file": "outbox/20261001/20261001_zoe_papers_RBS_2026-09-03.md",
-  "attach": [
-   "summaries/RBS_2026-09-03.md"
-  ],
-  "_meeting_ids": [
-   "RBS:2026-09-03"
-  ],
-  "_recipient": "Zoe"
- },
- {
-  "id": "papers:RCB_2026-09-30:henry",
-  "to": "henry.anderson@hsj.co.uk",
-  "subject": "[PAPERS] York and Scarborough Teaching Hospitals Foundation Trust board, Wednesday 30 September 2026: 5 leads",
-  "body_file": "outbox/20261001/20261001_henry_papers_RCB_2026-09-30.md",
-  "attach": [
-   "summaries/RCB_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RCB:2026-09-30"
-  ],
-  "_recipient": "Henry"
- },
- {
-  "id": "papers:RKB_2026-10-01:caitlin",
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] University Hospitals Coventry and Warwickshire Trust board, Thursday 1 October 2026: 5 leads",
-  "body_file": "outbox/20261001/20261001_caitlin_papers_RKB_2026-10-01.md",
-  "attach": [
-   "summaries/RKB_2026-10-01.md"
-  ],
-  "_meeting_ids": [
-   "RKB:2026-10-01"
-  ],
-  "_recipient": "Caitlin"
- },
- {
-  "id": "papers:RN5_2026-10-01:mimi",
-  "to": "mimi.launder@hsj.co.uk",
-  "subject": "[PAPERS] Hampshire Hospitals Foundation Trust board, Thursday 1 October 2026: 6 leads",
-  "body_file": "outbox/20261001/20261001_mimi_papers_RN5_2026-10-01.md",
-  "attach": [
-   "summaries/RN5_2026-10-01.md"
-  ],
-  "_meeting_ids": [
-   "RN5:2026-10-01"
-  ],
-  "_recipient": "Mimi"
- },
- {
-  "id": "papers:RN7_2026-10-01:alison",
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] Dartford and Gravesham Trust board, Thursday 1 October 2026: 7 leads",
-  "body_file": "outbox/20261001/20261001_alison_papers_RN7_2026-10-01.md",
-  "attach": [
-   "summaries/RN7_2026-10-01.md"
-  ],
-  "_meeting_ids": [
-   "RN7:2026-10-01"
-  ],
-  "_recipient": "Alison"
- },
- {
-  "id": "papers:RQW_2026-10-01:emily",
-  "to": "emily.townsend@hsj.co.uk",
-  "subject": "[PAPERS] The Princess Alexandra Hospital Trust board, Thursday 1 October 2026: 5 leads",
-  "body_file": "outbox/20261001/20261001_emily_papers_RQW_2026-10-01.md",
-  "attach": [
-   "summaries/RQW_2026-10-01.md"
-  ],
-  "_meeting_ids": [
-   "RQW:2026-10-01"
-  ],
-  "_recipient": "Emily"
- },
- {
-  "id": "papers:RTH_2026-09-30:mimi",
-  "to": "mimi.launder@hsj.co.uk",
-  "subject": "[PAPERS] Oxford University Hospitals Foundation Trust board, Wednesday 30 September 2026: 8 leads",
-  "body_file": "outbox/20261001/20261001_mimi_papers_RTH_2026-09-30.md",
-  "attach": [
-   "summaries/RTH_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RTH:2026-09-30"
-  ],
-  "_recipient": "Mimi"
- },
- {
-  "id": "papers:RV3_2026-09-30:matt-discombe",
-  "to": "matt.discombe@hsj.co.uk",
-  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
-  "body_file": "outbox/20261001/20261001_matt-discombe_papers_RV3_2026-09-30.md",
-  "attach": [
-   "summaries/RV3_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RV3:2026-09-30"
-  ],
-  "_recipient": "Matt Discombe"
- },
- {
-  "id": "papers:RV3_2026-09-30:ella",
-  "to": "ella.devereux@hsj.co.uk",
-  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
-  "body_file": "outbox/20261001/20261001_ella_papers_RV3_2026-09-30.md",
-  "attach": [
-   "summaries/RV3_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RV3:2026-09-30"
-  ],
-  "_recipient": "Ella"
- },
- {
-  "id": "papers:RVV_2026-10-01:alison",
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] East Kent Hospitals University Foundation Trust board, Thursday 1 October 2026: 8 leads",
-  "body_file": "outbox/20261001/20261001_alison_papers_RVV_2026-10-01.md",
-  "attach": [
-   "summaries/RVV_2026-10-01.md"
-  ],
-  "_meeting_ids": [
-   "RVV:2026-10-01"
-  ],
-  "_recipient": "Alison"
- },
- {
-  "id": "papers:RXA_2026-09-30:zoe",
-  "to": "zoe.tidman@hsj.co.uk",
-  "subject": "[PAPERS] Cheshire and Wirral Partnership Foundation Trust board, Wednesday 30 September 2026: 3 leads",
-  "body_file": "outbox/20261001/20261001_zoe_papers_RXA_2026-09-30.md",
-  "attach": [
-   "summaries/RXA_2026-09-30.md"
-  ],
-  "_meeting_ids": [
-   "RXA:2026-09-30"
-  ],
-  "_recipient": "Zoe"
- },
- {
-  "id": "papers:RXM_2026-09-30:annabelle",
+  "id": "papers:RP1_2026-09-24:annabelle",
   "to": "annabelle.collins@hsj.co.uk",
-  "subject": "[PAPERS] Derbyshire Healthcare Foundation Trust board, Wednesday 30 September 2026: 4 leads",
-  "body_file": "outbox/20261001/20261001_annabelle_papers_RXM_2026-09-30.md",
+  "subject": "[PAPERS] Northamptonshire Healthcare Foundation Trust board, Thursday 24 September 2026: 2 leads",
+  "body_file": "outbox/20261001/20261001_annabelle_papers_RP1_2026-09-24.md",
   "attach": [
-   "summaries/RXM_2026-09-30.md"
+   "summaries/RP1_2026-09-24.md"
   ],
   "_meeting_ids": [
-   "RXM:2026-09-30"
+   "RP1:2026-09-24"
   ],
   "_recipient": "Annabelle"
  },
  {
-  "id": "papers:RYD_2026-10-01:alison",
-  "to": "alison.moore@hsj.co.uk",
-  "subject": "[PAPERS] South East Coast Ambulance Service Foundation Trust board, Thursday 1 October 2026: 5 leads",
-  "body_file": "outbox/20261001/20261001_alison_papers_RYD_2026-10-01.md",
+  "id": "papers:RP1_2026-09-29:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Northamptonshire Healthcare Foundation Trust board, Tuesday 29 September 2026: 2 leads",
+  "body_file": "outbox/20261001/20261001_annabelle_papers_RP1_2026-09-29.md",
   "attach": [
-   "summaries/RYD_2026-10-01.md"
+   "summaries/RP1_2026-09-29.md"
   ],
   "_meeting_ids": [
-   "RYD:2026-10-01"
+   "RP1:2026-09-29"
   ],
-  "_recipient": "Alison"
+  "_recipient": "Annabelle"
  },
  {
-  "id": "papers:RYW_2026-10-01:caitlin",
-  "to": "caitlin.tilley@hsj.co.uk",
-  "subject": "[PAPERS] Birmingham Community Healthcare Foundation Trust board, Thursday 1 October 2026: 3 leads",
-  "body_file": "outbox/20261001/20261001_caitlin_papers_RYW_2026-10-01.md",
+  "id": "papers:RVN_2026-09-30:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Avon and Wiltshire Mental Health Partnership Trust board, Wednesday 30 September 2026: 3 leads",
+  "body_file": "outbox/20261001/20261001_joe_papers_RVN_2026-09-30.md",
   "attach": [
-   "summaries/RYW_2026-10-01.md"
+   "summaries/RVN_2026-09-30.md"
   ],
   "_meeting_ids": [
-   "RYW:2026-10-01"
+   "RVN:2026-09-30"
   ],
-  "_recipient": "Caitlin"
+  "_recipient": "Joe"
+ },
+ {
+  "id": "papers:S9B9J_2026-09-30:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex ICB board, Wednesday 30 September 2026: 5 leads",
+  "body_file": "outbox/20261001/20261001_alison_papers_S9B9J_2026-09-30.md",
+  "attach": [
+   "summaries/S9B9J_2026-09-30.md"
+  ],
+  "_meeting_ids": [
+   "S9B9J:2026-09-30"
+  ],
+  "_recipient": "Alison"
  }
 ]

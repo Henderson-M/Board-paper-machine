@@ -1,0 +1,142 @@
+[
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "id": "dates:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn: please delete from your calendar",
+  "id": "withdraw:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn: please delete from your calendar",
+  "id": "withdraw:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] North East and North Cumbria ICB board, Wednesday 30 September 2026: 6 leads",
+  "id": "papers:QHM_2026-09-30:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Mersey and West Lancashire Teaching Hospitals Trust board, Wednesday 30 September 2026: 5 leads",
+  "id": "papers:RBN_2026-09-30:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Alder Hey Children's Foundation Trust board, Thursday 3 September 2026: 6 leads",
+  "id": "papers:RBS_2026-09-03:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] York and Scarborough Teaching Hospitals Foundation Trust board, Wednesday 30 September 2026: 5 leads",
+  "id": "papers:RCB_2026-09-30:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Coventry and Warwickshire Trust board, Thursday 1 October 2026: 5 leads",
+  "id": "papers:RKB_2026-10-01:caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Hampshire Hospitals Foundation Trust board, Thursday 1 October 2026: 6 leads",
+  "id": "papers:RN5_2026-10-01:mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Dartford and Gravesham Trust board, Thursday 1 October 2026: 7 leads",
+  "id": "papers:RN7_2026-10-01:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] The Princess Alexandra Hospital Trust board, Thursday 1 October 2026: 5 leads",
+  "id": "papers:RQW_2026-10-01:emily",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Oxford University Hospitals Foundation Trust board, Wednesday 30 September 2026: 8 leads",
+  "id": "papers:RTH_2026-09-30:mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "id": "papers:RV3_2026-09-30:matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Central and North West London Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "id": "papers:RV3_2026-09-30:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Kent Hospitals University Foundation Trust board, Thursday 1 October 2026: 8 leads",
+  "id": "papers:RVV_2026-10-01:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Cheshire and Wirral Partnership Foundation Trust board, Wednesday 30 September 2026: 3 leads",
+  "id": "papers:RXA_2026-09-30:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Derbyshire Healthcare Foundation Trust board, Wednesday 30 September 2026: 4 leads",
+  "id": "papers:RXM_2026-09-30:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] South East Coast Ambulance Service Foundation Trust board, Thursday 1 October 2026: 5 leads",
+  "id": "papers:RYD_2026-10-01:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham Community Healthcare Foundation Trust board, Thursday 1 October 2026: 3 leads",
+  "id": "papers:RYW_2026-10-01:caitlin",
+  "ok": true,
+  "err": ""
+ }
+]
