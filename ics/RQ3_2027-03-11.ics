@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RQ3-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20261005T095822Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+END:VCALENDAR

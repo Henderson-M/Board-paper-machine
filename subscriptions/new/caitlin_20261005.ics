@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RQ3-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQ3-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQ3-2027-06-10@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQ3-2027-09-09@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RQ3-2027-11-11@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+END:VCALENDAR

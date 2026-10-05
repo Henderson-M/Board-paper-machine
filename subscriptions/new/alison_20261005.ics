@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RDR-2028-03-30@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20280330
+DTEND;VALUE=DATE:20280331
+SUMMARY:Sussex Community NHS Foundation Trust — Board meeting in public
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
+URL:https://www.sussexcommunity.nhs.uk/about-us/how-we-are-run/board-of-directors/board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RYC-2026-11-11@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:East of England Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+URL:https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RYC-2027-02-10@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:East of England Ambulance Service NHS Trust — Public Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+URL:https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:S9B9J-2027-02-26@board-paper-machine.hsj
+DTSTAMP:20261005T095753Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Surrey and Sussex ICB — NHS Surrey and Sussex Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
+URL:https://www.surreysussex.icb.nhs.uk/board-meetings-and-papers/
+END:VEVENT
+END:VCALENDAR

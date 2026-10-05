@@ -4387,7 +4387,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -4396,7 +4396,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RLT_2026-10-07.md"
   },
   {
    "id": "RLT:2026-12-02",
@@ -8539,7 +8540,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -8548,7 +8549,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RXP_2026-10-07.md"
   },
   {
    "id": "RXP:2026-12-02",
@@ -10674,7 +10676,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -10684,7 +10686,8 @@
    },
    "notes": null,
    "_previous_source_url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RWW_2026-10-07.md"
   },
   {
    "id": "RWW:2026-12-02",
@@ -10798,7 +10801,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -10808,7 +10811,8 @@
    },
    "notes": null,
    "_previous_source_url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RWW_2026-10-07.md"
   },
   {
    "id": "RY2:2026-12-02",
@@ -15011,7 +15015,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -15020,7 +15024,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RJE_2026-10-07.md"
   },
   {
    "id": "RJE:2026-12-09",
@@ -15473,7 +15478,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -15482,7 +15487,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RM1_2026-10-07.md"
   },
   {
    "id": "RM1:2026-12-02",
@@ -17746,7 +17752,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -17755,7 +17761,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RXW_2026-10-08.md"
   },
   {
    "id": "RXW:2026-12-10",
@@ -18511,7 +18518,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:18:52Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -18520,7 +18527,8 @@
     "summary": null
    },
    "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RM1_2026-10-07.md"
   },
   {
    "id": "RGP:2026-12-02",
@@ -18665,7 +18673,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:18:52Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -18674,7 +18682,8 @@
     "summary": null
    },
    "notes": "NWUHG Group Board — joint with the other 2 trusts in the group.",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RM1_2026-10-07.md"
   },
   {
    "id": "RCX:2026-12-02",
@@ -20655,7 +20664,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T16:02:50Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -20664,7 +20673,8 @@
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/REN_2026-10-07.md"
   },
   {
    "id": "REN:2026-11-04",
@@ -25526,7 +25536,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-24T09:49:55Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -25535,7 +25545,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RXW_2026-10-08.md"
   },
   {
    "id": "R1D:2026-12-10",
@@ -25602,7 +25613,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-24T09:49:55Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -25611,7 +25622,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/R1L_2026-10-07.md"
   },
   {
    "id": "R1L:2026-12-02",
@@ -28837,7 +28849,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-07-13T12:00:00Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -28846,7 +28858,8 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RAL_2026-10-07.md"
   },
   {
    "id": "RY7:2026-10-07",
@@ -29517,7 +29530,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "alerts_sent": {
@@ -29526,7 +29539,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RLT_2026-10-07.md"
   },
   {
    "id": "RJC:2026-12-02",
@@ -32604,7 +32618,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-08-24T11:51:34Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "last_verified": "2026-10-05T09:10:52Z",
@@ -32613,7 +32627,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page."
+   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page.",
+   "summary_path": "summaries/RNQ_2026-10-09.md"
   },
   {
    "id": "RNQ:2026-12-04",
@@ -32678,7 +32693,7 @@
      "first_seen": "2026-10-05T09:27:48Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-08-24T11:51:34Z",
    "last_checked": "2026-10-05T09:27:48Z",
    "last_verified": "2026-10-05T09:10:52Z",
@@ -32687,7 +32702,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page."
+   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page.",
+   "summary_path": "summaries/RNQ_2026-10-09.md"
   },
   {
    "id": "RNS:2026-12-04",
