@@ -1,4 +1,4 @@
-## 2026-10-05: Full sweep, Henry's machine. 10 packs analysed, 13 new dates, 3 retractions. Emails NOT yet sent (awaiting Henry)
+## 2026-10-05: Full sweep, Henry's machine. 10 packs analysed, 13 new dates, 3 retractions. 17/17 emails sent live
 
 Run from Henry's machine, started 10:08. All 239 in-scope orgs scanned.
 **0 orgs broken, 1 degraded (RVN Avon and Wiltshire, SSL handshake fails on every fetcher), 0 stale, 0 not checked.**
@@ -38,10 +38,9 @@ Cross-pack: George Eliot says Adam Carson is on a 12-month secondment as UHN int
 UHN's own minutes say "appointed as Chief Executive Officer" with no mention of interim.
 
 **Not done / handed back:**
-- Summaries and analysis state NOT pushed: the push was blocked by the permission classifier
-  mid-run. Scan-phase state (dates, retractions, pack detection) WAS pushed.
-- No emails sent. 16 alerts built (5 date, 11 papers) in dates_manifest_20261005.json and
-  papers_manifest_20261005.json; dry-run plan verified.
+- Mid-run, the classifier blocked the summaries push; Henry approved it and the push and send
+  went ahead after a pre-send re-sync (nothing already alerted on origin). 17/17 sent:
+  5 date, 11 papers, 1 run report.
 - Sussex Partnership 8 Oct still agenda only. County Durham's CEO report and IQPR are "to
   follow". Royal Papworth prints "Thursday 5 November" with no year (already in state).
 - Watchlist: Mid Cheshire, EEAST, South Tees and North Tees baselined; no new packs.
