@@ -102,8 +102,9 @@
   "ics": "Surrey Heartlands",
   "correspondent": "Alison",
   "url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers",
-  "notes": "[2026-09-10] 27 Aug 2026 meeting has now passed; current forward schedule is 15 Oct 2026, 10 Dec 2026. | [2026-08-24] Board papers are published as Word .docx files served from /download_file/view/NNNN/2198 with no extension - they download fine but are NOT PDFs (zip \"PK\" header). Extract with docx handling, not pypdf. | [2026-08-03] Publishes individual papers, not a combined pack. Page states 'The next meeting will be on Thursday, 27 August 2026' - the 6 Aug and 13 Aug entries we held were unsupported.",
-  "schedule_url": null
+  "notes": "[2026-09-10] 27 Aug 2026 meeting has now passed; current forward schedule is 15 Oct 2026, 10 Dec 2026. | [2026-08-24] Board papers are published as Word .docx files served from /download_file/view/NNNN/2198 with no extension - they download fine but are NOT PDFs (zip \"PK\" header). Extract with docx handling, not pypdf. | [2026-08-03] Publishes individual papers, not a combined pack. Page states 'The next meeting will be on Thursday, 27 August 2026' - the 6 Aug and 13 Aug entries we held were unsupported. | [2026-10-05] papers_url set to https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026 (was None); found by run-20261005-100838 pack hunt.",
+  "schedule_url": null,
+  "papers_url": "https://www.surreyandsussex.nhs.uk/about-us/our-board/board-papers/2026"
  },
  {
   "ods_code": "RVV",
@@ -322,7 +323,9 @@
   "ics": "Lincolnshire",
   "correspondent": "Annabelle",
   "url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings",
-  "schedule_url": null
+  "schedule_url": null,
+  "notes": " | [2026-10-05] papers_url set to https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings/navigate/13049/53923 (was None); found by run-20261005-100838 pack hunt.",
+  "papers_url": "https://www.lpft.nhs.uk/get-involved/meeting-dates-and-minutes/board-directors-meetings/navigate/13049/53923"
  },
  {
   "ods_code": "RT5",
@@ -550,7 +553,8 @@
   "correspondent": "Caitlin",
   "url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
   "schedule_url": null,
-  "notes": "[2026-10-01] 30 September 2026 is listed as '(Annual General Meeting - 12.30pm)', not a board (retracted). Next board in public 7 October 2026. | "
+  "notes": "[2026-10-01] 30 September 2026 is listed as '(Annual General Meeting - 12.30pm)', not a board (retracted). Next board in public 7 October 2026. |  | [2026-10-05] papers_url set to https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/ (was None); found by run-20261005-100838 pack hunt.",
+  "papers_url": "https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/"
  },
  {
   "ods_code": "RL4",
@@ -1102,10 +1106,11 @@
   "ics": "Humber and North Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
-  "notes": "[2026-09-10] Two-hop confirmed: events page (org_url) lists dates only, 0 docs even after following the per-meeting event page. Actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/ (per-month PDFs), reached from the top-level /resources/?resources_type=board-papers page via a 'Board papers 2026' year link. Use the 2026 archive URL directly next time. | [2026-07-13] NLAG/Hull Boards-in-Common dates confirmed via NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. (11 Jun/9 Jul now past.) Papers separately at /resources/?resources_type=board-papers. [2026-07-16] NLAG/Hull Boards-in-Common via NLG events page. Papers at /resources/?resources_type=board-papers. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer.",
+  "notes": "[2026-09-10] Two-hop confirmed: events page (org_url) lists dates only, 0 docs even after following the per-meeting event page. Actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/ (per-month PDFs), reached from the top-level /resources/?resources_type=board-papers page via a 'Board papers 2026' year link. Use the 2026 archive URL directly next time. | [2026-07-13] NLAG/Hull Boards-in-Common dates confirmed via NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. (11 Jun/9 Jul now past.) Papers separately at /resources/?resources_type=board-papers. [2026-07-16] NLAG/Hull Boards-in-Common via NLG events page. Papers at /resources/?resources_type=board-papers. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer. | [2026-10-05] papers_url set to https://www.nlg.nhs.uk/resources/board-papers-2026/ (was None); found by run-20261005-100838 pack hunt.",
   "schedule_url": null,
   "cluster_id": "HUMBER",
-  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings"
+  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
+  "papers_url": "https://www.nlg.nhs.uk/resources/board-papers-2026/"
  },
  {
   "ods_code": "RP5",
@@ -1163,10 +1168,11 @@
   "ics": "Humber and North Yorkshire",
   "correspondent": "Henry",
   "url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
-  "notes": "[2026-09-10] Same finding as RJL: actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/, not the NLG events page. | [2026-09-10] Page now also lists a 12 Nov 2026 Boards-in-Common meeting (previous stored note only had 10 Sep/8 Oct/10 Dec 2026). | [2026-07-13] HUTH shares Boards-in-Common with NLAG; dates sourced from NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer.",
+  "notes": "[2026-09-10] Same finding as RJL: actual packs live at https://www.nlg.nhs.uk/resources/board-papers-2026/, not the NLG events page. | [2026-09-10] Page now also lists a 12 Nov 2026 Boards-in-Common meeting (previous stored note only had 10 Sep/8 Oct/10 Dec 2026). | [2026-07-13] HUTH shares Boards-in-Common with NLAG; dates sourced from NLG events page: 10 Sep, 8 Oct, 10 Dec 2026. Humber Health Partnership: RJL and RWA hold a single Board-in-Common, published on the shared nlg.nhs.uk events page. One meeting, two ods codes - dedupe at the alert and calendar layer. | [2026-10-05] papers_url set to https://www.nlg.nhs.uk/resources/board-papers-2026/ (was None); found by run-20261005-100838 pack hunt.",
   "schedule_url": null,
   "cluster_id": "HUMBER",
-  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings"
+  "cluster_meeting_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
+  "papers_url": "https://www.nlg.nhs.uk/resources/board-papers-2026/"
  },
  {
   "ods_code": "RWY",
@@ -2182,8 +2188,9 @@
   "ics": "North East and North Cumbria",
   "correspondent": "Matt Mathers",
   "url": "https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers",
-  "notes": "[2026-08-03] Papers live in a year-tabbed document library. 2026/27 tab is /navigate/3201/23922 (2025/26 was /navigate/2507/23922 and stops at March 2026). Update the tab each financial year.",
-  "schedule_url": null
+  "notes": "[2026-08-03] Papers live in a year-tabbed document library. 2026/27 tab is /navigate/3201/23922 (2025/26 was /navigate/2507/23922 and stops at March 2026). Update the tab each financial year. | [2026-10-05] papers_url set to https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers/navigate/3201/23922 (was None); found by run-20261005-100838 pack hunt.",
+  "schedule_url": null,
+  "papers_url": "https://www.cddft.nhs.uk/about-us/corporate-information/trust-board/board-meetings-and-papers/navigate/3201/23922"
  },
  {
   "ods_code": "R1C",
@@ -2511,8 +2518,9 @@
   "ics": "Mid and South Essex",
   "correspondent": "Emily",
   "url": "https://eput.nhs.uk/about-us/board-of-directors/board-meetings/",
-  "notes": "[2026-08-03] scan_url moved: the /board-papers/ page carries month names only with no day, which is what generated the fabricated day-01 dates. Real schedule (5 Aug, 7 Oct, 2 Dec 2026) is on /board-meetings/. | [2026-07-21] WebFetch invented day-01 dates from a papers archive listing month names only. No days are published.",
-  "schedule_url": "https://eput.nhs.uk/about-us/board-of-directors/board-meetings/"
+  "notes": "[2026-08-03] scan_url moved: the /board-papers/ page carries month names only with no day, which is what generated the fabricated day-01 dates. Real schedule (5 Aug, 7 Oct, 2 Dec 2026) is on /board-meetings/. | [2026-07-21] WebFetch invented day-01 dates from a papers archive listing month names only. No days are published. | [2026-10-05] papers_url set to https://www.eput.nhs.uk/about/board/board-papers/ (was None); found by run-20261005-100838 pack hunt.",
+  "schedule_url": "https://eput.nhs.uk/about-us/board-of-directors/board-meetings/",
+  "papers_url": "https://www.eput.nhs.uk/about/board/board-papers/"
  },
  {
   "ods_code": "RAJ",
