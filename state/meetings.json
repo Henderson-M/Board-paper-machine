@@ -1821,7 +1821,7 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
@@ -1830,7 +1830,8 @@
     "summary": null
    },
    "notes": "[2026-09-28] Only a 3KB draft agenda is up. Analysis deliberately deferred until the full pack is published so the correspondent gets one papers alert, not two. [2026-10-01] Agenda reissued as v2 (01_-_BoD_Agenda_October_2026_PUBLIC_v2.pdf); still agenda only, full pack not yet published as of 1 Oct. Analysis deferred until the pack lands.",
-   "last_verified": "2026-10-08T11:21:37Z"
+   "last_verified": "2026-10-08T11:21:37Z",
+   "summary_path": "summaries/RX2_2026-10-08.md"
   },
   {
    "id": "RX2:2026-12-10",
@@ -22114,7 +22115,7 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-05T08:52:37Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
@@ -22123,7 +22124,8 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-08T11:21:37Z"
+   "last_verified": "2026-10-08T11:21:37Z",
+   "summary_path": "summaries/RGN_2026-10-13.md"
   },
   {
    "id": "RGN:2026-12-08",
@@ -23930,7 +23932,7 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
@@ -23939,7 +23941,8 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-08T11:21:37Z"
+   "last_verified": "2026-10-08T11:21:37Z",
+   "summary_path": "summaries/RRE_2026-10-08.md"
   },
   {
    "id": "RAN:2027-09-09",
