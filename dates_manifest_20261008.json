@@ -1,0 +1,16 @@
+[
+ {
+  "id": "dates:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_joe_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/joe_20261008.ics"
+  ],
+  "_meeting_ids": [
+   "RNZ:2026-11-10",
+   "RNZ:2027-01-07",
+   "RNZ:2027-03-04"
+  ]
+ }
+]

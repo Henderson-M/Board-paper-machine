@@ -1,0 +1,72 @@
+[
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] North West Anglia NHS Foundation Trust board \u2014 Tuesday 13 October 2026 \u2014 8 leads",
+  "id": "papers:RGN_2026-10-13:james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Northern Lincolnshire and Goole and Hull University Teaching Hospitals (Boards-in-Common) board \u2014 Friday 9 October 2026 \u2014 10 leads",
+  "id": "papers:RJL_2026-10-09:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Lincolnshire Partnership NHS Foundation Trust board \u2014 Thursday 8 October 2026 \u2014 5 leads",
+  "id": "papers:RP7_2026-10-08:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Midlands Partnership University NHS Foundation Trust board \u2014 Thursday 8 October 2026 \u2014 5 leads",
+  "id": "papers:RRE_2026-10-08:caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Hampshire and Isle of Wight Healthcare NHS Foundation Trust board \u2014 Tuesday 13 October 2026 \u2014 7 leads",
+  "id": "papers:RW1_2026-10-13:mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Sussex Partnership NHS Foundation Trust board \u2014 Thursday 8 October 2026 \u2014 11 leads",
+  "id": "papers:RX2_2026-10-08:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham and Solihull Mental Health NHS Foundation Trust board \u2014 Wednesday 7 October 2026 \u2014 8 leads",
+  "id": "papers:RXT_2026-10-07:caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meetings withdrawn - please delete from your calendar",
+  "id": "withdrawn:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 8 Oct 2026 \u2014 3 dates, 7 packs, 0 orgs need attention",
+  "id": "run_report:henry",
+  "ok": true,
+  "err": ""
+ }
+]

@@ -1826,8 +1826,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": "[2026-09-28] Only a 3KB draft agenda is up. Analysis deliberately deferred until the full pack is published so the correspondent gets one papers alert, not two. [2026-10-01] Agenda reissued as v2 (01_-_BoD_Agenda_October_2026_PUBLIC_v2.pdf); still agenda only, full pack not yet published as of 1 Oct. Analysis deferred until the pack lands.",
    "last_verified": "2026-10-08T11:21:37Z",
@@ -3044,16 +3044,17 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": null,
-   "last_verified": "2026-10-08T11:21:37Z"
+   "last_verified": "2026-10-08T11:21:37Z",
+   "summary_path": "summaries/RP7_2026-10-08.md"
   },
   {
    "id": "RP7:2026-12-10",
@@ -8819,8 +8820,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": null,
    "last_verified": "2026-10-08T11:21:37Z",
@@ -9684,8 +9685,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": null,
    "last_verified": "2026-10-08T11:21:37Z",
@@ -17797,8 +17798,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": null,
    "last_verified": "2026-10-05T09:10:52Z",
@@ -22120,8 +22121,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": "",
    "last_verified": "2026-10-08T11:21:37Z",
@@ -23937,8 +23938,8 @@
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": "",
    "last_verified": "2026-10-08T11:21:37Z",
@@ -33341,7 +33342,8 @@
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-10-08T11:55:36Z"
    },
    "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page. | [2026-10-08] retracted (run-20261008-121729): Hand-checked 2026-10-08 against https://gmintegratedcare.org.uk/meetings-and-events/ (Playwright render). The only \"Greater Manchester Integrated Care Board\" board-meeting entries are 18/11/2026, 18/01/2027 and 17/02/2027. No entry of any kind on 27/10/2026; the only \"27 October\" string on the page is a 2025 public-questions deadline.",
    "date_review": {
@@ -33367,7 +33369,8 @@
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-10-08T11:55:36Z"
    },
    "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page. | [2026-10-08] retracted (run-20261008-121729): Hand-checked 2026-10-08 against https://gmintegratedcare.org.uk/meetings-and-events/ (Playwright render). The only \"Greater Manchester Integrated Care Board\" board-meeting entries are 18/11/2026, 18/01/2027 and 17/02/2027. The 22/12/2026 2-4pm entry is the Manchester Partnership Board (a locality board), not the ICB board.",
    "date_review": {
@@ -34731,8 +34734,8 @@
    "last_verified": "2026-10-08T11:21:37Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": "detected 2026-09-17 via prescan; literal source text: \"09/10/2026\"",
    "date_review": null,
@@ -34789,8 +34792,8 @@
    "last_verified": "2026-10-08T11:21:37Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-08T11:55:36Z",
+    "summary": "2026-10-08T11:55:36Z"
    },
    "notes": "detected 2026-09-17 via prescan; literal source text: \"09/10/2026\"",
    "date_review": null,
@@ -38093,7 +38096,7 @@
    "first_seen": "2026-10-08T11:29:41Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-08T11:55:36Z",
     "papers": null,
     "summary": null
    },
@@ -38113,7 +38116,7 @@
    "first_seen": "2026-10-08T11:29:41Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-08T11:55:36Z",
     "papers": null,
     "summary": null
    },
@@ -38133,7 +38136,7 @@
    "first_seen": "2026-10-08T11:29:41Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-08T11:55:36Z",
     "papers": null,
     "summary": null
    },

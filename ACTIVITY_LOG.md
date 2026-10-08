@@ -1,3 +1,42 @@
+## 2026-10-08: Full sweep, Henry's machine. 7 packs analysed, 3 new dates, 2 withdrawals. 10/10 emails sent live
+
+Run from Henry's machine, started 12:17. All 239 in-scope orgs scanned.
+**0 orgs broken, 0 degraded, 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 178 of 239 orgs in 20 seconds. 23 known no-schedule orgs went to the watchlist;
+38 went to four Sonnet date agents in one wave, alongside a Sonnet pack hunter and a watchlist agent.
+One date agent skipped Countess of Chester and GOSH; both were re-scanned by hand and match state.
+Pre-scan false positives rejected again: print/review stamps, header date widgets, a job advert (YAS),
+a question deadline (UH Sussex), Medway's Council of Governors, mis-yeared tokens (St George's, LPT, BWC).
+
+**Dates.** New: Salisbury now lists the BSW Hospitals Group Board public meetings, 10 Nov 2026, 7 Jan
+and 4 Mar 2027. RUH Bath lists the same group board as Thursday 5 Nov, so the November date conflicts;
+flagged to Joe, and only 10 Nov went in his .ics (Jan and Mar are already in his calendar via RUH Bath).
+Re-verification: 120 checked, 104 confirmed, 12 unverifiable, 1 unreadable, 3 contradicted.
+
+**Withdrawals.** Greater Manchester ICB 27 Oct and 22 Dec 2026, both alerted to Nick on 24 Aug. The
+ICB's page lists its board only on 18 Nov, 18 Jan and 17 Feb; 22 Dec is the Manchester Partnership
+Board. Withdrawal with cancellation .ics sent to Nick. Blackpool 3 Dec and Black Country 8 Dec were
+flagged by the re-verifier but are matcher artefacts; kept. Mid Cheshire's four later-2027 dates are
+not in its rolling two-item widget; left in place, worth a manual look.
+
+**Packs.** 7 analysed on Fable in three waves: 54 LEAD, 68 WORTH WATCHING, 51 FOI.
+Hull/NLAG Boards-in-Common (9 Oct), Sussex Partnership (8 Oct, full pack finally published),
+BSMHFT (7 Oct), North West Anglia (13 Oct), HIOW Healthcare (13 Oct), Midlands Partnership (8 Oct),
+Lincolnshire Partnership (8 Oct, 19 separate files). Headline figures spot-checked against pack text.
+
+**Standout leads.** Hull/NLAG: M5 forecast £119.1m deficit, NHSE approved £5.7m of a £21.6m cash
+request, suppliers threatening to put the trusts "on stop". HIOW: NHSE has lifted the 2023
+undertakings; counter-fraud overtime case "may result in criminal proceedings". Sussex Partnership:
+£13.8m underlying exit deficit vs £2.6m planned, KPMG brought in. BSMHFT: CQC well-led 17-19 Nov.
+NW Anglia: chief nurse and medical director both acting; HSMR 105.4 with 99.7% of spells uncoded.
+
+**Not done / handed back:**
+- NW Anglia's published pack omits the CEO report, IPR and finance report listed on its agenda.
+- 12 in-window meetings have no papers yet (Wigan, Pennine Care, Dorset, RJAH, Worcestershire,
+  Herts Community, NELFT, Surrey and Borders, Essex ICB, LLR/Northants ICB, Surrey and Sussex).
+- Watchlist: no new packs. Homerton's September pack reappeared under a new URL version; baselined.
+
 ## 2026-10-05: Full sweep, Henry's machine. 10 packs analysed, 13 new dates, 3 retractions. 17/17 emails sent live
 
 Run from Henry's machine, started 10:08. All 239 in-scope orgs scanned.

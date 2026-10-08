@@ -1,0 +1,88 @@
+[
+ {
+  "id": "papers:RGN_2026-10-13:james",
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[PAPERS] North West Anglia NHS Foundation Trust board — Tuesday 13 October 2026 — 8 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_james_papers_RGN_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RGN_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RGN:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RJL_2026-10-09:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Northern Lincolnshire and Goole and Hull University Teaching Hospitals (Boards-in-Common) board — Friday 9 October 2026 — 10 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_henry_papers_RJL_2026-10-09.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RJL_2026-10-09.md"
+  ],
+  "_meeting_ids": [
+   "RJL:2026-10-09",
+   "RWA:2026-10-09"
+  ]
+ },
+ {
+  "id": "papers:RP7_2026-10-08:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Lincolnshire Partnership NHS Foundation Trust board — Thursday 8 October 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_annabelle_papers_RP7_2026-10-08.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RP7_2026-10-08.md"
+  ],
+  "_meeting_ids": [
+   "RP7:2026-10-08"
+  ]
+ },
+ {
+  "id": "papers:RRE_2026-10-08:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Midlands Partnership University NHS Foundation Trust board — Thursday 8 October 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_caitlin_papers_RRE_2026-10-08.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RRE_2026-10-08.md"
+  ],
+  "_meeting_ids": [
+   "RRE:2026-10-08"
+  ]
+ },
+ {
+  "id": "papers:RW1_2026-10-13:mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Hampshire and Isle of Wight Healthcare NHS Foundation Trust board — Tuesday 13 October 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_mimi_papers_RW1_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RW1_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RW1:2026-10-13",
+   "R1C:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RX2_2026-10-08:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Sussex Partnership NHS Foundation Trust board — Thursday 8 October 2026 — 11 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_alison_papers_RX2_2026-10-08.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX2_2026-10-08.md"
+  ],
+  "_meeting_ids": [
+   "RX2:2026-10-08"
+  ]
+ },
+ {
+  "id": "papers:RXT_2026-10-07:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham and Solihull Mental Health NHS Foundation Trust board — Wednesday 7 October 2026 — 8 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261008_caitlin_papers_RXT_2026-10-07.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RXT_2026-10-07.md"
+  ],
+  "_meeting_ids": [
+   "RXT:2026-10-07"
+  ]
+ }
+]
