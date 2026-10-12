@@ -2042,8 +2042,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": null,
    "last_verified": "2026-10-12T13:13:18Z",
@@ -4845,7 +4845,7 @@
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
@@ -4865,7 +4865,7 @@
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
@@ -4885,7 +4885,7 @@
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-10-08T11:29:41Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
@@ -13971,8 +13971,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": null,
    "last_verified": "2026-10-12T13:13:18Z",
@@ -16762,8 +16762,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": null,
    "last_verified": "2026-10-12T13:13:18Z",
@@ -19093,8 +19093,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "last_verified": "2026-10-12T13:13:18Z",
@@ -19195,8 +19195,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
    "_previous_source_url": "https://www.icnorthamptonshire.org.uk/icbboardmeetings/",
@@ -23341,7 +23341,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-10-12T13:57:41Z"
    },
    "notes": "[2026-10-12] Retracted: 22 October 2026 is in the COUNCIL OF GOVERNORS table, not the board table (board: 4 Nov 2026, 6 Jan, 3 Mar 2027). Alerted 9 Jun as a board meeting: withdrawal owed.",
    "last_verified": "2026-10-12T13:13:18Z",
@@ -23367,7 +23368,8 @@
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-10-12T13:57:41Z"
    },
    "notes": "[2026-10-12] Retracted: 26 January 2027 is in the COUNCIL OF GOVERNORS table, not the board table. Alerted 9 Jun as a board meeting: withdrawal owed.",
    "last_verified": "2026-10-12T13:13:18Z",
@@ -26571,8 +26573,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": null,
    "last_verified": "2026-10-12T13:13:18Z",
@@ -30249,8 +30251,8 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": null,
    "last_verified": "2026-10-12T13:13:18Z",
@@ -38449,7 +38451,7 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "last_verified": "2026-10-12T13:43:20Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
@@ -38476,9 +38478,9 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "last_verified": "2026-10-12T13:43:20Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-10-12T13:57:41Z",
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": "[2026-10-12] Literal: \"Tuesday, 13 October, 2026\" on the meetings page, linked to Oct-26-Board-of-Directors-in-Common-Part-1.pdf. Found via papers watchlist.",
    "summary_path": "summaries/RBD_2026-10-13.md"
@@ -38504,9 +38506,9 @@
    "last_checked": "2026-10-12T13:43:20Z",
    "last_verified": "2026-10-12T13:43:20Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-10-12T13:57:41Z",
+    "papers": "2026-10-12T13:57:41Z",
+    "summary": "2026-10-12T13:57:41Z"
    },
    "notes": "[2026-10-12] Literal: \"Trust Board - Board in Common agenda and papers, October 2026\"; pack cover \"Tuesday 13 October 2026\". Same pack as RBD:2026-10-13.",
    "summary_path": "summaries/RBD_2026-10-13.md"

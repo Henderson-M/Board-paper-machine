@@ -1,4 +1,4 @@
-## 2026-10-12: Full sweep, Henry's machine. 7 packs analysed, 5 dates sent, 1 withdrawal. Emails sending live
+## 2026-10-12: Full sweep, Henry's machine. 7 packs analysed, 5 dates sent, 1 withdrawal. 13/13 emails sent live
 
 Run from Henry's machine, started 14:07. All 239 in-scope orgs scanned.
 **0 orgs broken, 1 degraded (R1D Shropshire Community, now behind Incapsula bot protection on every fetcher), 0 stale, 0 not checked.**
