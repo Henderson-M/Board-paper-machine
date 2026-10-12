@@ -1,0 +1,9 @@
+[
+ {
+  "id": "run_report:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report — 12 Oct 2026 — 5 dates, 7 packs, 1 org needs attention",
+  "body_file": "outbox/20261012_henry_run_report.md",
+  "attach": []
+ }
+]

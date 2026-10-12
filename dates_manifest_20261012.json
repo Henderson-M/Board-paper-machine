@@ -1,0 +1,41 @@
+[
+ {
+  "id": "dates:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_alison_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/alison_20261012.ics"
+  ],
+  "_meeting_ids": [
+   "RVV:2027-02-04"
+  ]
+ },
+ {
+  "id": "dates:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 3 board meeting date(s) for Black Country Healthcare (corrected)",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_caitlin_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/caitlin_20261012.ics"
+  ],
+  "_meeting_ids": [
+   "TAJ:2026-11-04",
+   "TAJ:2027-01-06",
+   "TAJ:2027-03-03"
+  ]
+ },
+ {
+  "id": "dates:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_joe_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/joe_20261012.ics"
+  ],
+  "_meeting_ids": [
+   "RBD:2026-10-13",
+   "RDY:2026-10-13"
+  ]
+ }
+]

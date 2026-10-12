@@ -1,0 +1,15 @@
+[
+ {
+  "id": "withdrawn:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meetings withdrawn - please delete from your calendar",
+  "body_file": "outbox/20261012_caitlin_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/caitlin_20261012.ics"
+  ],
+  "_meeting_ids": [
+   "TAJ:2026-10-22",
+   "TAJ:2027-01-26"
+  ]
+ }
+]

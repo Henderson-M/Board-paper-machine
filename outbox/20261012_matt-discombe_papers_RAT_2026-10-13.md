@@ -1,0 +1,175 @@
+Hi Matt,
+
+New papers detected for North East London NHS Foundation Trust's board meeting on Tuesday 13 October 2026.
+The pack-analyser found 6 LEAD / 11 WORTH WATCHING / 7 FOI items.
+
+Full summary below (also attached as markdown).
+
+---
+
+# North East London Foundation Trust board — 13 October 2026
+
+- **Source:** https://www.nelft.nhs.uk/about-us-board-papers/
+- **Pack:** 1 file (single combined PDF, 110 pages, 15MB)
+- **Analysed:** 2026-10-12T13:28:38Z
+
+Board-level context: Jan Ditheridge is Interim Chief Executive and chairs the CEO report; Eileen Taylor is Trust Chair (and Joint Chair with ELFT). Edwin Ndlovu MBE's appointment as substantive CEO was flagged in the 30 July summary; this pack gives his start date. Apologies for 13 October are not listed in the pack (verbal item). Membership list p.3-4.
+
+## Top lines
+
+[LEAD] NHS England has issued NELFT a c£1.6m financial penalty, cutting its capital limit, for underspending on the Daisy and Tulip mental health ward schemes in 2025/26; the regional team has let the trust spread the hit over two years, and the Finance and Investment Committee has asked for a lessons-learnt report on the "Daisy and Tulip review".
+[Evidence] "Financial penalty has been issued by NHSE for 20% of the Daisy and Tulip 25/26 under spend, this is c£1.6m and through support from the regional team this has been split equally across this year and next." — p.66, [Finance Report 2026/27 Month 5, Item 12.1 slide deck, Capital Programme]
+[Evidence] "Financial Penalty of reduced CDEL from NHSE for 25/26 MH wards has been issued" — p.66, [Finance Report Month 5 slide deck, Capital Programme, Horizon scanning]
+[Evidence] "The committee requested a lessons learnt report for the recent Daisy and Tulip review." — p.45, [Finance and Investment Committee assurance report, Item 11]
+[INFERENCE] Daisy and Tulip are not described in the pack; the horizon-scanning line links the penalty to "25/26 MH wards", so they appear to be the mental health ward schemes funded from the national MHLDA capital allocation referenced at p.50. The trust also says "Development of wards ongoing with revised business case to follow" (p.66).
+
+[LEAD] The trust is carrying up to £2.1m of "stranded" costs from the transfer of its Kent services to a new provider, and transitional support from Kent ICB is "not yet agreed".
+[Evidence] "Kent sunk costs — Best (£m) £0.00 / Most Likely (£m) £2.10 / Worst (£m) £2.10 / Latest Position (£m) £0.88 — Stranded fixed costs from the transfer of Kent services to new provider, Trust in discussion with Kent ICB around transitional support." — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+[Evidence] Mitigations line: "Kent ICB sunk cost transitional support — -£2.10 / -£2.10 — not yet agreed" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+[INFERENCE] The pack does not name the Kent services or the new provider. The £0.88m "latest position" reads as cost incurred to Month 5 against a £2.1m most-likely full-year figure.
+
+[LEAD] Lampard Inquiry costs of up to £2.1m this year sit outside the board-approved plan, with £0.5m already incurred, £1.5m of hoped-for "support" not yet agreed, and £1m-£2m of redundancy costs from savings-programme consultations also on the risk list; the worst case for the year is a £9.62m deficit against a breakeven plan.
+[Evidence] "Lampard Inquiry — £1.50 / £1.50 / £2.10 / £0.54 — Continued support of the Lampard Inquiry not included in the signed off board approved plan" and "Lampard Inquiry support — -£1.50 / -£1.50 — not yet agreed" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+[Evidence] "2026/27 Redundancy costs — £1.00 / £1.00 / £2.00 — Costs from consultations from Savings Programme (DV)" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+[Evidence] "Net position after mitigations (Surplus)/Deficit — Best -£4.68 / Most Likely -£0.18 / Worst £9.62 / Latest Position £0.00" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+[Evidence] "The continued cost pressure of both the increased pay award costs and Lampard Inquiry are reflected in the month 5 position and are flagged within our risks. The total costs within the position are £0.7m and £0.5m respectively." — p.48, [Finance Report 2026/27 Month 5, Item 12, Executive Summary]
+[Evidence] Pay award line: "Additional pay award — £1.60 / £1.60 / £1.60 / £0.67 — Due to Trust weighted pay to non pay ratio 80:20 against national 70:30 differential" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+
+[LEAD] A Redbridge Safeguarding Adults Board enquiry into NELFT's adult mental health inpatient services has surfaced "emerging themes"; cases have been referred with immediate action taken, an integrated improvement plan is being built with NEL ICB and Redbridge council, the clinical executives have begun a review of safeguarding and quality in mental health inpatient services, and the Quality and Safety Committee said the paper "did not yet provide sufficient evidence about the nature and scale of the concerns".
+[Evidence] "The Committee received an early alert on emerging concerns relating to adult mental-health inpatient services. The work brings together themes from the Redbridge Safeguarding Adults Board enquiry with wider quality, patient-safety, workforce and patient-experience information." — p.36, [Quality and Safety Committee assurance report, Item 9]
+[Evidence] "The Committee was advised that the cases identified through the safeguarding enquiry had been referred and reviewed, and that immediate action had been taken where required to safeguard the people concerned. Members were also advised that the work had been considered with NHS North East London Integrated Care Board and the London Borough of Redbridge." — p.36, [Quality and Safety Committee assurance report, Item 9]
+[Evidence] "Committee members commented that the paper presented did not yet provide sufficient evidence about the nature and scale of the concerns, consistency of implementation of actions, measurable impact or sustained improvement." — p.36, [Quality and Safety Committee assurance report, Item 9]
+[Evidence] "The clinical executives have commenced a review of safeguarding and quality in mental health inpatient services" — p.31, [Chief Executive Officer's Report, Item 7, section 6.2]
+[Evidence] IPR: "Recent serious incidents, increasing levels of reported harm, and ongoing concerns relating to violence and aggression, restrictive practice, safeguarding, workforce resilience and environmental risks continue to require enhanced executive oversight and focused improvement activity." — p.81, [Integrated Performance Report, Item 15]
+[INFERENCE] The 30 July summary flagged unexplained "additional executive oversight arrangements" in Redbridge; this pack appears to be the first public explanation of what sits behind them. Goodmayes Hospital (Redbridge) is the trust's main adult inpatient site, but the pack does not name the wards involved.
+
+[LEAD] Counter fraud: £107,260 of fraud recorded against two people who got jobs at the trust using false information, plus a separate c£690,000 non-fraud loss from incorrect local-authority charges which the trust is trying to recover.
+[Evidence] "Members noted that the recorded £107,260 of fraud identified related to two individuals who had obtained employment using false information. This represented salary received rather than a direct financial loss, as the individuals had undertaken work for the Trust. The Committee also noted a non-fraud loss of approximately £690,000 arising from incorrect local-authority charges, which the Trust is seeking to recover." — p.75, [Audit and Risk Committee assurance report, Item 14, Counter fraud]
+
+[LEAD] Board-level changes: substantive CEO Edwin Ndlovu MBE starts "in early November" (interim Jan Ditheridge remains in post for this meeting), and Chief Digital Information Officer Umesh Gadhvi is leaving the trust, with no reason or destination given.
+[Evidence] "I would like to place on record my sincere thanks to Jan Ditheridge, who has led the Trust admirably as Interim Chief Executive Officer... We look forward to welcoming Edwin Ndlovu MBE as our new substantive Chief Executive Officer in early November" — p.23, [Chair's Report, Item 6, para 2.7]
+[Evidence] "As Umesh Gadhvi, our Chief Digital Information Officer, prepares to leave NELFT, I would like to thank him for his significant contribution to the Trust." — p.23, [Chair's Report, Item 6, para 2.8]
+[Evidence] Agenda lists "Jan Ditheridge, Interim Chief Executive Officer" presenting Item 7 — p.1, [Agenda]
+[Evidence] NED Neil Swift has also been appointed a NED at Barking, Havering and Redbridge University Hospitals Trust: "An update to the register of interests was noted in respect of Neil Swift's appointment as a Non-Executive Director at Barking, Havering and Redbridge University Hospitals NHS Trust." — p.73, [Audit and Risk Committee assurance report, Item 14]; register entry dated 08 October 2026, p.6
+Note: the Ndlovu appointment itself was the LEAD in the 30 July summary; the new elements here are the November start date and the CDIO departure.
+
+[WORTH WATCHING] NHSE London has told the trust it will not need a comprehensive half-year check-in and the trust expects the "triple lock" spending controls to be lifted after month 6; separately the trust has moved to segment 2 in the first 2026/27 Oversight Framework segmentation, joint 14th of 58 mental health and community providers, from segment 3 and 32nd of 61.
+[Evidence] "The Trust, due to its recent consistently stable performance both from a financial and qualitive perspective have been notified by the regulator that there will not be a need for a comprehensive half year check in with NHSE London region and that if there any queries or KLOEs these will be notified through a high-level desk top review discussions. This further assurance of the Trusts continued financial stability will help to remove the triple lock after month 6." — p.48, [Finance Report 2026/27 Month 5, Item 12, Executive Summary]
+[Evidence] "The Committee noted that the draft Month 6 financial position remained broadly on plan and that relaxation of the externally imposed triple-lock controls was anticipated." — p.76, [Audit and Risk Committee assurance report, Item 14]
+[Evidence] "NELFT has been placed in segment 2, with an average metric score of 2.04, ranking joint 14th of 58 mental health and community providers nationally. In the previous segmentation exercise in Q3 2025/26, NELFT was placed in segment 3, ranking 32nd of 61 mental health and community providers." — p.30, [Chief Executive Officer's Report, Item 7, para 5.1]
+Note: the 30 July pack said the Q4 2025/26 improvement to segment 2 "followed removal of the financial deficit cap and should not, by itself, be interpreted as evidence of underlying performance improvement"; this pack's CEO report cites Q3 2025/26 as the comparator and does not repeat that caveat.
+
+[WORTH WATCHING] A pest infestation forced the short-term closure of a ward, pushing patients into beds bought from other providers; out-of-trust bed use is c£1.0m adverse to plan year to date, with 60 non-NELFT beds and 91 patients in August alone, and the trust is using 15 beds at ELFT.
+[Evidence] "The main drivers of the year-to-date movement include the additional use of ACB beds in the month; this was due to a pest infestation on a ward which required to be closed due to health and safety issues on a short-term basis whilst the ward was deep cleaned. The Trust continues to maximise the 15 beds that are being made available at ELFT." — p.48, [Finance Report 2026/27 Month 5, Item 12, Executive Summary]
+[Evidence] "ACB beds increased usage c(£1.0m)." — p.54, [Finance Report Month 5 slide deck, Trust Financial Performance Summary]
+[Evidence] "non-NELFT beds — In M05 reporting 60 beds and 91 clients in month with 1873 total days." — p.53, [Finance Report Month 5 slide deck, Key Performance Indicators]
+[Evidence] "the Trust continuing to forecast breakeven despite in-year pressures including the Lampard Inquiry and the temporary closure of Monet Ward." — p.43, [Finance and Investment Committee assurance report, Item 11]
+[INFERENCE] The finance report does not name the infested ward; the FIC report names "the temporary closure of Monet Ward" as an in-year pressure. The two may be the same event but the pack does not say so.
+
+[WORTH WATCHING] Breakeven forecast rests on a £42k year-to-date surplus; the savings programme is c£1.6m short of its £28.5m target on a risk-adjusted basis, £9.8m of it is non-recurrent against the committee's own aim of no more than 30% non-recurrent, and the trust models a c£3.7m underlying deficit into 2027/28.
+[Evidence] "A year-to-date income and expenditure surplus position of £42k was reported at the end of month 5 (August), which is £26k favourable position against the planned position, inclusive of £0.5m of Lampard Inquiry costs being offset by contingencies and delays in startup of service developments." — p.48, [Finance Report 2026/27 Month 5, Item 12]
+[Evidence] "as at month 5 assessment the risk adjusted forecast delivery is c£26.9m which is c£1.6m off plan." — p.49, [Finance Report 2026/27 Month 5, Item 12, Savings Programme Performance]
+[Evidence] "the forecast value of recurrent Savings Programme (SP) is £18.7m, while non-recurrent SP value is £9.8m." — p.56, [Finance Report Month 5 slide deck, Savings Programme]
+[Evidence] "the internal aim that no more than 30% of savings should be non-recurrent." — p.44, [Finance and Investment Committee assurance report, Item 11]
+[Evidence] "Modelling through the impacts of decisions in 2026/27 on the underlying position into 2027/28 has highlighted a c£3.7m underlying forecast deficit." — p.49, [Finance Report 2026/27 Month 5, Item 12, Financial Sustainability]; slide shows "2026/27 Underlying Position ... (3,726)" £'000 with "Forecast non-recurring efficiencies (9,805)" — p.55
+[INFERENCE] £9.8m of £28.5m is roughly 34% non-recurrent, above the committee's stated 30% aim; the pack does not make that calculation.
+
+[WORTH WATCHING] Energy prices: the trust flags "the Middle East conflict" as a risk to its c£3m energy budget and says it does not know whether government will fund inflationary shocks as it did after the Ukraine invasion; utilities inflation is scored at up to £2m in the worst case.
+[Evidence] "Emerging risks on utilities prices due to the Middle East conflict has not materially affected the monthly position yet, though this may materialise later in the winter months, with the budgeted spend for energy set at c£3m... it is unknown as yet whether the government will provide additional funding for inflationary shocks as was provided by the government from the inflationary impact due to the Ukraine-Russia war." — p.48, [Finance Report 2026/27 Month 5, Item 12, Executive Summary]
+[Evidence] "Inflation cost effects re utilities — £0.60 / £1.00 / £2.00 / £0.10 — Higher energy charges" — p.62, [Finance Report Month 5 slide deck, Risks and Mitigations]
+
+[WORTH WATCHING] Quality and Safety Committee "expressed concern" at reported instances where Mental Health Act detention processes were not completed in line with statutory requirements, and noted that benchmarking data on Deprivation of Liberty Safeguards it had previously asked for was still missing.
+[Evidence] "Members expressed concern about the reported instances where detention processes had not been completed in accordance with statutory requirements and requested clearer reporting on remedial action and improvement in practice. The Committee also noted that previously requested benchmarking data on Deprivation of Liberty Safeguards had not been included and agreed that this action should remain open." — p.36, [Quality and Safety Committee assurance report, Item 9]
+
+[WORTH WATCHING] The trust is exploring a wholly owned subsidiary (linked to its "relational care" and Open Dialogue training ambitions); the Finance and Investment Committee has refused to let it be formally established until it sees setup costs and governance in writing, and has ruled the WOS out for the current Open Dialogue opportunity.
+[Evidence] "Relational care and Wholly Owned Subsidiary — FURTHER INFORMATION TO BE PROVIDED — Before proceeding to formal establishment, a written update is required on setup costs, ongoing governance and administrative responsibilities for the committee to consider. Any future trading proposal will require a separate business case and Committee approval." — p.43, [Finance and Investment Committee assurance report, Item 11, Decision log]
+[Evidence] "The proposed WOS will not be used for the current Open Dialogue opportunity." — p.45, [Finance and Investment Committee assurance report, Item 11]
+
+[WORTH WATCHING] Estates: the committee flagged "governance, compliance and efficiency risks" in proposals for central management of NHS Property Services assets, backed paying for independent professional advice in dilapidations negotiations over the CEME site, and wants an options appraisal for future inpatient capacity and "PFI decant"; the estates BAF risk sits at 20, the highest in the pack.
+[Evidence] "The Committee supported continued use of independent professional advice in the CEME dilapidations negotiations and noted the governance, compliance and efficiency risks associated with proposals for central management of NHS Property Services assets." — p.45, [Finance and Investment Committee assurance report, Item 11]
+[Evidence] "Members requested a clear timetable and options appraisal for future inpatient capacity and PFI decant arrangements." — p.44; "BAF 7 – Estates — 4 × 5 = 20 (High) — No change — Without (15) — ... PFI decant, future bed requirements, estate compliance, NHS Property Services arrangements and constrained capital remain key dependencies." — p.42, [Finance and Investment Committee assurance report, Item 11]
+[Evidence] Thorpe Coombe sale: "Trust has sold Thorpe Coombe resulting in £8.7m of additional CDEL. c£5m brokerage into 2027/28 with agreement of NHSE." — p.66, [Finance Report Month 5 slide deck, Capital Programme]
+[INFERENCE] CEME is the Centre for Engineering and Manufacturing Excellence in Rainham, NELFT's former headquarters site; the pack does not spell this out or give a dilapidations figure.
+
+[WORTH WATCHING] National policy signals read through the trust's lens: NHSE's "deconstructing the block" payment reform timetable has slipped so a mandated tariff is "unlikely to affect 2027/28 planning"; the chair notes Health Bill proposals affecting "the future requirement for NHS foundation trusts to have a Council of Governors"; and NELFT and ELFT are taking over formal coordination of the NEL mental health, LD and autism collaborative from the ICB.
+[Evidence] "The Committee noted that the national timetable had moved and that a mandated tariff was unlikely to affect 2027/28 planning, but significant data quality and methodological uncertainty remained and prevailed across all Providers across the Mental Health and Community sectors" — p.44, [Finance and Investment Committee assurance report, Item 11, Deconstructing the block]
+[Evidence] "The report notes proposed legislative changes affecting the future requirement for NHS foundation trusts to have a Council of Governors." — p.21; "We continue to keep abreast of the Health Bill as it progresses through Parliament, including the proposals relating to the future role of governors." — p.24, [Chair's Report, Item 6]
+[Evidence] "I look forward to these new developments as NELFT and ELFT take on the formal coordination of the MHLDA from the Integrated Care Board." — p.24, [Chair's Report, Item 6, para 2.11]
+
+[WORTH WATCHING] A philanthropic foundation is buying two crisis houses for the trust, alongside £343m-programme capital for three 24/7 community mental health hubs (Waltham Forest and Barking and Dagenham in 2028, Redbridge in 2030) and a second crisis assessment service at Whipps Cross; the purchase price and ownership terms are not disclosed.
+[Evidence] "completion had taken place on the purchase of NELFT's new Waltham Forest crisis house, due to open next spring. The house has been purchased for NELFT by the Pears Foundation and the Foundation has also confirmed that it will purchase a second crisis house benefitting residents in Barking and Dagenham." — p.28, [Chief Executive Officer's Report, Item 7, para 4.2]
+[Evidence] "NELFT has been allocated capital funding to develop three new 24/7 Community Mental Health Hubs... The hubs in Waltham Forest and Barking and Dagenham are expected to open in 2028, with a third hub in Redbridge due for completion in 2030." — p.28, [Chief Executive Officer's Report, Item 7, para 4.1]
+
+[WORTH WATCHING] Performance and workforce deterioration behind the headline: moderate-or-worse harm incidents and formal complaints are rising, children's 18-week and A&E mental health waits are worsening, 52-week community waits reached 8.49% in Q1, sickness is 5.33% with vacancies at 12.8%, and an internal audit of sickness absence gave only partial assurance; the IPR says "assurance is mixed".
+[Evidence] "Reported incidents resulting in moderate or greater harm increased during the period and remain subject to detailed review... Complaints performance remains a concern, with increasing volumes and response timeliness continuing to require focused management attention." — p.82, [Integrated Performance Report, Item 15]
+[Evidence] "These areas of progress sit alongside deterioration in children's 18-week waiting-time performance and four-week pathway measures, 72-hour follow-up, mental health waits in A&E, reported harm and aspects of workforce resilience... However, executive assessment remains that assurance is mixed." — p.81, [Integrated Performance Report, Item 15]
+[Evidence] NOF table: "% of patients waiting over 52 weeks for community services — 2.19% / 5.49% / 5.25% / 5.49% / 8.49%" (Q1 2025/26 to Q1 2026/27); "% of total children and young people's mental health waits for help that are over 104 weeks — 25% / 29% / 24% / 23% / 21%" scored 3 — p.97, [Integrated Performance Report appendix, NOF 2026/27]
+[Evidence] "sickness absence (5.33%), vacancy data (12.8%) and employment relations issues in specific areas across the organisation that highlighted the impact of increased operational demand and workload, fatigue from organisational change" — p.39, [People and Culture Committee assurance report, Item 10]
+[Evidence] "The Sickness Absence review provided Partial assurance, identifying inconsistent application and evidencing of the Attendance Management Policy alongside absence levels that remain well above the Trust target." — p.75, [Audit and Risk Committee assurance report, Item 14]
+
+[WORTH WATCHING] Board Assurance Framework: of ten strategic risks seven are High and eight are outside tolerance, and the Audit and Risk Committee records that "none of the predicted trajectories is currently assessed as High confidence"; a "Confidence in the organisation" risk is scored 16 against a tolerance of 9.
+[Evidence] "Across the ten BAF risks, seven are rated High and three Significant. Two are within tolerance and eight are outside tolerance... Although the overall position is expected to improve, none of the predicted trajectories is currently assessed as High confidence." — p.73, [Audit and Risk Committee assurance report, Item 14]
+[Evidence] "As lead committee for BAF 10, Confidence in the organisation, the Committee supported the current score of 16 against a tolerance score of 9" — p.73-74, [Audit and Risk Committee assurance report, Item 14]
+
+## FOI leads
+
+[FOI] Redbridge Safeguarding Adults Board enquiry into NELFT adult mental health inpatients. Request from NELFT: the "early alert" paper presented to the Quality and Safety Committee on 28 September 2026; the terms of reference and any findings of the Redbridge SAB enquiry; the scope and terms of the clinical executives' "review of safeguarding and quality in mental health inpatient services"; the number of cases referred and the wards involved. Request from the London Borough of Redbridge / Redbridge SAB: the enquiry's terms of reference, correspondence with NELFT and NEL ICB, and any section 42 enquiry outcomes relating to NELFT inpatient units. Why: the pack confirms an external safeguarding enquiry with cases requiring immediate safeguarding action but withholds the nature and scale.
+[Evidence] "The safeguarding enquiry identified emerging themes that required further examination alongside the Trust's wider information about adult mental-health inpatient care." — p.36, [Quality and Safety Committee assurance report, Item 9]
+
+[FOI] NHSE capital penalty and the "Daisy and Tulip review". Request from NELFT: the Daisy and Tulip review report, the lessons-learnt report requested by the Finance and Investment Committee, the NHSE letter or notification imposing the "20%" CDEL penalty, and correspondence with the London regional team agreeing to split it across two years. Request from NHS England (London region): the same notification and the policy basis for the 20% penalty. Why: a regulator levying a c£1.6m penalty on a mental health trust for underspending national ward capital is a story in itself and a test of how NHSE is policing capital.
+[Evidence] "Financial penalty has been issued by NHSE for 20% of the Daisy and Tulip 25/26 under spend, this is c£1.6m" — p.66; "The committee requested a lessons learnt report for the recent Daisy and Tulip review." — p.45
+
+[FOI] Kent services transfer and stranded costs. Request from NELFT: which Kent services transferred, to which provider and on what date; the calculation of "stranded fixed costs" (£2.1m most likely); correspondence with Kent and Medway ICB seeking transitional support; and any staff TUPE / redundancy numbers. Request from NHS Kent and Medway ICB: the procurement decision and correspondence with NELFT on transitional support. Why: an unfunded £2.1m hole from a lost contract, with the commissioner not yet agreeing to help, is a direct accountability story about how contract transfers are being handled.
+[Evidence] "Stranded fixed costs from the transfer of Kent services to new provider, Trust in discussion with Kent ICB around transitional support." — p.62
+
+[FOI] Lampard Inquiry costs and support. Request from NELFT: total Lampard Inquiry costs to date and forecast by year, the breakdown (legal, disclosure, staffing), and correspondence with NHSE and NEL ICB requesting the £1.5m "Lampard Inquiry support" that is "not yet agreed". Why: inquiry costs sitting outside an approved plan at a trust under a triple lock, and the question of who pays for a statutory inquiry's provider costs, is of wider sector interest.
+[Evidence] "Continued support of the Lampard Inquiry not included in the signed off board approved plan"; "Lampard Inquiry support — -£1.50 — not yet agreed" — p.62
+
+[FOI] CQC inspection of Brookside. The 30 July minutes record a two-day CQC inspection at Brookside (the trust's CAMHS inpatient unit) and the October pack carries no outcome. Request from NELFT: the CQC's post-inspection feedback letter, any draft report or factual accuracy correspondence, and any section 29A warning notice or action plan. Why: the only reference is an AOB line; absence of any update in the October committee reports is itself notable.
+[Evidence] "The Board noted that the Care Quality Commission had carried out a two-day inspection at Brookside. No immediate feedback had been received, and the usual process would be followed." — p.19, [Minutes of 30 July 2026, Item 18]
+
+[FOI] Mental Health Act detention process failures. Request from NELFT: the number of instances in 2025/26 and 2026/27 to date where detention under the Mental Health Act was found not to have been completed in accordance with statutory requirements, the wards involved, whether any patient was unlawfully detained as a result, and notifications made to the CQC. Why: the committee "expressed concern" but the pack gives no numbers.
+[Evidence] "Members expressed concern about the reported instances where detention processes had not been completed in accordance with statutory requirements" — p.36
+
+[FOI] Pears Foundation crisis houses and the wholly owned subsidiary. Request from NELFT: the purchase price, ownership and lease terms of the Waltham Forest crisis house bought by the Pears Foundation, any gift or partnership agreement, and the FIC paper on setup costs and governance of the proposed wholly owned subsidiary. Why: philanthropic ownership of NHS crisis facilities and a new WOS are both structures HSJ readers will want to see the terms of.
+[Evidence] "The house has been purchased for NELFT by the Pears Foundation" — p.28; "a written update is required on setup costs, ongoing governance and administrative responsibilities" — p.43
+
+## Verbatim colour
+
+> "Emerging risks on utilities prices due to the Middle East conflict has not materially affected the monthly position yet, though this may materialise later in the winter months... it is unknown as yet whether the government will provide additional funding for inflationary shocks as was provided by the government from the inflationary impact due to the Ukraine-Russia war." — p.48, [Finance Report 2026/27 Month 5, Item 12]
+> "Members agreed that significant expenditure reductions inevitably affect services. Assurance should therefore demonstrate that impacts and unintended consequences are identified, monitored and mitigated, with patient safety maintained, rather than asserting that there has been no impact." — p.44, [Finance and Investment Committee assurance report, Item 11]
+> "Committee members commented that the paper presented did not yet provide sufficient evidence about the nature and scale of the concerns, consistency of implementation of actions, measurable impact or sustained improvement." — p.36, [Quality and Safety Committee assurance report, Item 9]
+> "Although the overall position is expected to improve, none of the predicted trajectories is currently assessed as High confidence." — p.73, [Audit and Risk Committee assurance report, Item 14]
+> "The commitment and resilience of NELFT staff through the health and safety trial and wider public scrutiny reflected the strength of the people working in the organisation." — p.15, [Minutes of 30 July 2026, Item 11, reflections from outgoing CEO Paul Calaminus]
+
+## Files reviewed
+
+Single combined public board pack, 110 pages (Public Trust Board Papers - 13 October 2026.pdf). Pre-extracted text used throughout; the PDF was re-downloaded once to read image-only slides. Papers deep-read / skimmed:
+- Agenda, membership list and register of interests (pp.1-7) — interim CEO in the chair for Item 7; Neil Swift's new BHRUT NED role — DEEP READ
+- Minutes of 30 July 2026 and action log (Items 4-5, pp.8-20) — Calaminus reflections, CQC Brookside inspection, provider collaborative funding escalation — DEEP READ
+- Chair's Report (Item 6, pp.21-24) — Ndlovu start date, CDIO departure, Provider Capability Assessment (four Green, two Amber-Green), Health Bill / governors, MHLDA coordination — DEEP READ
+- Chief Executive Officer's Report (Item 7, pp.25-31) — NOF segment 2, crisis hubs and Pears Foundation, Thirlwall, exec review of MH inpatient safeguarding, estate strategy review — DEEP READ
+- Patient Leadership Committee assurance report (Item 8, pp.32-34) — limited assurance on involvement arrangements — skim
+- Quality and Safety Committee assurance report (Item 9, pp.35-37) — Redbridge SAB enquiry early alert, MHA detention concerns, BAF Care at 16 — DEEP READ
+- People and Culture Committee assurance report (Item 10, pp.38-40) — sickness 5.33%, vacancies 12.8%, Workforce and Culture risks outside tolerance — DEEP READ
+- Finance and Investment Committee assurance report (Item 11, pp.41-46) — WOS, CEME dilapidations, NHSPS, deconstructing the block, Daisy and Tulip lessons learnt, Monet Ward — DEEP READ
+- Finance Report Month 5 and slide deck (Items 12 and 12.1, pp.47-68) — breakeven, savings gap, underlying deficit, triple lock, NHSE penalty, Kent stranded costs, Lampard costs, risks table (p.62 read as image) — DEEP READ
+- Partnerships and Integrated Care Committee assurance report (Item 13, pp.69-72) — Essex positioning, Redbridge section 75 — skim
+- Audit and Risk Committee assurance report (Item 14, pp.73-77) — BAF confidence, counter fraud losses, sickness audit partial assurance, patient-record access case, AI governance — DEEP READ
+- Integrated Performance Report and appendix (Item 15, pp.78-99) — narrative deep-read; SPC chart pages 85-95 are image-only and were viewed but not used for figures; NOF tables pp.96-98 — DEEP READ
+- NELFT Winter Plan 2026/27 and Board Assurance Statement (Item 16, pp.100-109) — self-rated "5 - Full assurance" overall, one "No" on seven-day discharge pathway pending system decision on a single SPA — skim
+- Cycle of business (Item 19, p.110) — skim
+
+## Pack assessment
+
+- Routine: false
+- Top lines: 24 (LEAD: 6, WORTH WATCHING: 11, FOI: 7)
+- Colour quotes: 5
+- Annual accounts / annual report present: no — the 30 July minutes record that the Audit and Risk Committee "had approved the Annual Report and Accounts 2025/26" (p.18) but the document itself is not in this pack; the Annual Members' Meeting follows the Council of Governors on 20 October (p.24).
+
+
+---
+
+Pack source: https://www.nelft.nhs.uk/about-us-board-papers/
+
+— Board paper machine

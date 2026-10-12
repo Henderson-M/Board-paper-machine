@@ -1,3 +1,43 @@
+## 2026-10-12: Full sweep, Henry's machine. 7 packs analysed, 5 dates sent, 1 withdrawal. Emails sending live
+
+Run from Henry's machine, started 14:07. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (R1D Shropshire Community, now behind Incapsula bot protection on every fetcher), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 176 of 239 orgs in 80 seconds. 43 went to four Sonnet date agents; one Sonnet pack hunter
+covered the 18 meetings in the 10-22 Oct window and one Sonnet watchlist agent read the 11 watchlist orgs the
+pre-scan couldn't. All 43 agent-read orgs matched state. Pre-scan false positives rejected again: print/review
+stamps (Royal Free, MK, CUH, Bristol x2, ELFT), Salisbury header date, YAS job advert, UH Sussex question
+deadline, Central East ICB "papers published by", UHB event, Medway governors, mis-yeared tokens (St George's, LPT, BWC).
+
+**Dates.** New: East Kent 4 Feb 2027; Dorset Board in Common 13 Oct 2026 (not in state; caught because the pack
+appeared on both Dorset trusts' watchlist pages). Black Country Healthcare's three real board dates (4 Nov, 6 Jan,
+3 Mar) had been in state since the May seed but never sent; sent to Caitlin now.
+Re-verification: 120 checked, 98 confirmed, 14 unverifiable, 3 unreadable, 5 contradicted.
+
+**Retractions.** Black Country Healthcare 22 Oct and 26 Jan were Council of Governors dates alerted as board
+meetings in June: withdrawal sent to Caitlin. Also retracted (past or never alerted, so no withdrawal):
+Dorset County 7 Oct and Dorset HealthCare 1 Oct (real meeting 13 Oct; Joe told), CPFT 27 Jan (page now says
+13 Jan), Maidstone 29 Oct (web-search artefact). Blackpool and Black Country ICB re-verifier flags are matcher
+artefacts again; kept.
+
+**Packs.** 7 analysed on Fable in three waves: 52 LEAD, 58 WORTH WATCHING, 44 FOI. Dorset Board in Common
+(13 Oct, both trusts covered after August's DHC under-read), NELFT (13 Oct), Worcestershire Acute (13 Oct, 4 parts),
+Surrey and Borders (14 Oct), Essex ICB (15 Oct), LLR/Northants ICB joint board (15 Oct), Surrey and Sussex
+(15 Oct, 19 separate files). Headline quotes spot-checked against pack text for every summary.
+
+**Standout leads.** NHSE has paused mergers of clustered ICBs "until at least summer 2027" (LLR/Northants).
+Essex ICB SAF records Claire Fuller's departure from NHSE neighbourhood health. Surrey and Sussex IPQR says NHSE has
+"substantially watered down" the national SPoA programme. Worcestershire: NHSE regional financial escalation,
+£33.4m M5 deficit. Surrey and Sussex: cash at "approximately one day of operating expenditure", chair leaving.
+Dorset County: NHSE "not fully assured", national escalation meeting. NELFT: c£1.6m NHSE capital penalty.
+
+**Not done / handed back:**
+- R1D Shropshire Community blocked; re-probe next run, needs a new route if it persists.
+- 10 in-window meetings have no papers yet: Herts Community, East Sussex, NWL acute Board in Common (4 trusts),
+  West and North London ICB, CLCH, GSTT, West London.
+- Herts Partnership 24 Sep: no pack ever detected. Dorset 1 Dec dates still unverified.
+- Surrey and Sussex agenda items 5.5 and 6.3 not published. NELFT's £2.1m stranded-cost line read from an image page.
+
 ## 2026-10-08: Full sweep, Henry's machine. 7 packs analysed, 3 new dates, 2 withdrawals. 10/10 emails sent live
 
 Run from Henry's machine, started 12:17. All 239 in-scope orgs scanned.

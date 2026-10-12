@@ -1,0 +1,100 @@
+[
+ {
+  "id": "papers:D7T5G_2026-10-15:emily",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Essex ICB board — Thursday 15 October 2026 — 9 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_emily_papers_D7T5G_2026-10-15.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/D7T5G_2026-10-15.md"
+  ],
+  "_meeting_ids": [
+   "D7T5G:2026-10-15"
+  ]
+ },
+ {
+  "id": "papers:QK1_2026-10-15:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Leicester, Leicestershire and Rutland ICB and Northamptonshire ICB (joint board) board — Thursday 15 October 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_annabelle_papers_QK1_2026-10-15.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QK1_2026-10-15.md"
+  ],
+  "_meeting_ids": [
+   "QK1:2026-10-15",
+   "QPM:2026-10-15"
+  ]
+ },
+ {
+  "id": "papers:RAT_2026-10-13:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] North East London NHS Foundation Trust board — Tuesday 13 October 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_matt-discombe_papers_RAT_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RAT_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RAT:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RAT_2026-10-13:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] North East London NHS Foundation Trust board — Tuesday 13 October 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_ella_papers_RAT_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RAT_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RAT:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RBD_2026-10-13:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Dorset County Hospital and Dorset HealthCare (Board in Common) board — Tuesday 13 October 2026 — 9 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_joe_papers_RBD_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RBD_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RBD:2026-10-13",
+   "RDY:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RTP_2026-10-15:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex Healthcare NHS Trust board — Thursday 15 October 2026 — 8 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_alison_papers_RTP_2026-10-15.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RTP_2026-10-15.md"
+  ],
+  "_meeting_ids": [
+   "RTP:2026-10-15"
+  ]
+ },
+ {
+  "id": "papers:RWP_2026-10-13:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Worcestershire Acute Hospitals NHS Trust board — Tuesday 13 October 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_caitlin_papers_RWP_2026-10-13.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RWP_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RWP:2026-10-13"
+  ]
+ },
+ {
+  "id": "papers:RXX_2026-10-14:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Borders Partnership NHS Foundation Trust board — Wednesday 14 October 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261012_alison_papers_RXX_2026-10-14.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RXX_2026-10-14.md"
+  ],
+  "_meeting_ids": [
+   "RXX:2026-10-14"
+  ]
+ }
+]

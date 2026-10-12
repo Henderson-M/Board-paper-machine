@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RVV-2027-02-04@board-paper-machine.hsj
+DTSTAMP:20261012T134331Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:East Kent Hospitals University NHS Foundation Trust — Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ekhuft.nhs.uk/about-us/board-of-directors/
+URL:https://www.ekhuft.nhs.uk/about-us/board-of-directors/
+END:VEVENT
+END:VCALENDAR
