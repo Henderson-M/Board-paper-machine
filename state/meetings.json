@@ -3590,10 +3590,11 @@
    "first_seen": "2026-05-27T13:09:43Z",
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": "2026-05-27T13:09:43Z",
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null,
-    "withdrawn": "2026-08-17T18:00:00Z"
+    "withdrawn": "2026-08-17T18:00:00Z",
+    "first_date_alert": "2026-05-27T13:09:43Z"
    },
    "notes": "Joint with UH Northamptonshire (RNQ/RNS) — shared 'Boards in Common' meetings. Worth a cluster_id. | [2026-08-17] Retracted by full re-verification: not present on the org's schedule page. Page lists: 2026-09-03. | [2026-10-18] REINSTATED: the schedule page now literally lists 'Thursday 10 December 2026 9.30am Cumulus Room, Leicester Diabetes Centre, Leicester General Hospital'. It was withdrawn on 2026-08-17 when the page showed only 3 Sep; re-alerted as a new date this run.",
    "last_verified": "2026-10-18T10:58:59Z"
