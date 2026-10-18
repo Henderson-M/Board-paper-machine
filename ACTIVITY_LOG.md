@@ -1,3 +1,44 @@
+## 2026-10-18: Full sweep, Dave's machine. 5 packs analysed, 9 dates sent, 0 withdrawals. 13/13 emails sent live
+
+Run from Dave's machine, started 11:35. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RBT Mid Cheshire, host not responding to WebFetch, Playwright or curl), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 174 of 239 orgs in 91 seconds. 15 known no-schedule orgs went to the watchlist; 50 went to four
+Sonnet date agents, alongside one Sonnet pack hunter (16 meetings in the 16-28 Oct window) and one Sonnet watchlist
+agent (11 orgs; the other 9 watchlist orgs were cleared deterministically from pre-scan links). All 50 agent-read orgs
+matched state. Pre-scan false positives rejected again: print/review stamps, YAS job advert, UH Sussex question deadline,
+Central East ICB "papers published by", George Eliot registration deadline, Medway/UHB governors, mis-yeared tokens,
+and the Greater Manchester locality and committee dates.
+
+**Dates.** New: University Hospitals Tees group board 3 Dec, 7 Jan, 4 Mar (RTR and RVW; sent once to Matt Mathers);
+CNWL 21 Oct Board in Common plus 10 Mar, 23 Jun, 29 Sep, 8 Dec 2027. UHL 10 Dec reinstated: withdrawn 17 Aug, but the
+page now lists it literally; re-sent to Annabelle with an explanation.
+Re-verification: 120 checked, 95 confirmed, 14 unverifiable, 6 unreadable, 5 contradicted (all known matcher artefacts:
+BWC, Black Country ICB, Blackpool x2, Central East ICB; none alerted, all kept).
+
+**Packs.** 5 analysed on Fable in two waves: 39 LEAD, 50 WORTH WATCHING, 28 FOI. East Sussex (20 Oct), NW London acute
+Board in Common (20 Oct, 4 trusts), West and North London ICB (21 Oct, 12 separate files), CNWL/CLCH/West London Board
+in Common (21 Oct), Guy's and St Thomas' (21 Oct). Headline figures spot-checked against pack text.
+GSTT now 403s every direct fetcher for PDFs; text came via web.archive.org/save + id_ (sizes match live).
+
+**Standout leads.** CLCH CEO James Benson appointed interim National Director for Neighbourhood Healthcare alongside his
+trust role. London North West drops from oversight segment 1 to 3; GSTT out of segment 1 (12th to 25th), seven never
+events in Q2. WNL ICB strategy: £1.8bn-plus annual deficit by 2035/36 on current course; elective clawback exposure
+£135m/£244.5m. East Sussex: most likely outturn £29.5m deficit vs breakeven plan, cash at minimum.
+
+**Fixes.** RWR Herts Partnership schedule_url set to /about-us/our-board-of-directors/ (validated by org_urls.py).
+R1D Shropshire Community readable again.
+
+**Not done / handed back:**
+- RBT Mid Cheshire unreachable; also on the watchlist, so packs there are unseen this run.
+- 6 in-window meetings have no papers yet: Lewisham and Greenwich 27 Oct; York, Plymouth, Mersey and West Lancs,
+  WMAS, SCAS 28 Oct.
+- HPFT table also lists 45-minute slots on 22 Oct, 17 Dec, 25 Feb with ambiguous Public/Private labels: not added.
+  HPFT 24 Sep pack still never detected.
+- 267 future meetings from the 27 May seed have never been date-alerted. Left alone as in earlier runs; decision for
+  Dave and Henry.
+- Pack-text extraction loop wrote filenames with a trailing CR (CRLF job list); fixed by hand.
+
 ## 2026-10-12: Full sweep, Henry's machine. 7 packs analysed, 5 dates sent, 1 withdrawal. 13/13 emails sent live
 
 Run from Henry's machine, started 14:07. All 239 in-scope orgs scanned.

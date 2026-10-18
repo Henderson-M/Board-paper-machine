@@ -1978,8 +1978,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": null,
    "last_verified": "2026-10-18T10:39:40Z",
@@ -12868,8 +12868,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": null,
    "last_verified": "2026-10-18T10:39:40Z",
@@ -14988,8 +14988,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "[2026-10-18] Shared pack with R1K:2026-10-20; summary summaries/R1K_2026-10-20.md.",
    "last_verified": "2026-10-18T10:39:40Z",
@@ -18770,8 +18770,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": null,
    "last_verified": "2026-10-18T10:39:40Z",
@@ -21237,8 +21237,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
    "last_verified": "2026-10-18T10:39:40Z",
@@ -21316,8 +21316,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "Detected via Group C re-extraction (visible_text). | [2026-10-18] Shared pack with R1K:2026-10-20; summary summaries/R1K_2026-10-20.md.",
    "last_verified": "2026-10-18T10:39:40Z",
@@ -21404,8 +21404,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback). | [2026-10-18] GSTT returns 403 to requests, Playwright and curl for PDFs; text obtained via web.archive.org/save then id_ copy (sizes match live).",
    "_previous_source_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/board-meetings",
@@ -21464,8 +21464,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "Detected via Group C re-extraction (visible_text). | [2026-10-18] Shared pack with R1K:2026-10-20; summary summaries/R1K_2026-10-20.md.",
    "last_verified": "2026-10-18T10:39:40Z",
@@ -24739,8 +24739,8 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "[2026-10-18] Shared pack with RYX:2026-10-21; summary summaries/RYX_2026-10-21.md. | [2026-10-18] West London's own page still said 'to be confirmed'; pack taken from the CLCH and CNWL pages (same 6,033,908-byte PDF).",
    "last_verified": "2026-10-18T10:39:40Z",
@@ -38741,7 +38741,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38761,7 +38761,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38781,7 +38781,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38801,7 +38801,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38821,7 +38821,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38841,7 +38841,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38868,9 +38868,9 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
-    "summary": null
+    "date": "2026-10-18T14:47:42Z",
+    "papers": "2026-10-18T14:47:42Z",
+    "summary": "2026-10-18T14:47:42Z"
    },
    "notes": "[2026-10-18] detected via prescan (run-20261018-113533); literal evidence: 21 October 2026, 11.30am to 12.45pm (Board in Common with Central London Co... | [2026-10-18] Shared pack with RYX:2026-10-21; summary summaries/RYX_2026-10-21.md.",
    "summary_path": "summaries/RYX_2026-10-21.md"
@@ -38889,7 +38889,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38909,7 +38909,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38929,7 +38929,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
@@ -38949,7 +38949,7 @@
    "last_checked": "2026-10-18T10:58:59Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-18T14:47:42Z",
     "papers": null,
     "summary": null
    },
