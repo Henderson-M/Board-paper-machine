@@ -35,8 +35,13 @@ R1D Shropshire Community readable again.
   WMAS, SCAS 28 Oct.
 - HPFT table also lists 45-minute slots on 22 Oct, 17 Dec, 25 Feb with ambiguous Public/Private labels: not added.
   HPFT 24 Sep pack still never detected.
-- 267 future meetings from the 27 May seed have never been date-alerted. Left alone as in earlier runs; decision for
-  Dave and Henry.
+- CORRECTED after the send: I first reported 267 seed-era future meetings as "never date-alerted", from
+  `alerts_sent.date` being null. That was wrong. An IMAP audit of the sender's Sent Mail shows every one (260 still
+  future and undelivered-flagged) was inside a full-calendar .ics emailed to its primary correspondent between 27 May
+  and 13 Jul, when date alerts still attached the whole snapshot. The flag was only stamped on that run's new meetings.
+  Nothing owed. Only gap: Ella (shadow on Matt Discombe from 28 Jul) never had his pre-July dates, by design.
+  Implication: a null `alerts_sent.date` on a seed meeting does NOT mean the correspondent lacks it (the 12 Oct Black
+  Country "never sent" catch-up was likely already in Caitlin's calendar).
 - Pack-text extraction loop wrote filenames with a trailing CR (CRLF job list); fixed by hand.
 
 ## 2026-10-12: Full sweep, Henry's machine. 7 packs analysed, 5 dates sent, 1 withdrawal. 13/13 emails sent live
