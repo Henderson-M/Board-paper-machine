@@ -18,7 +18,7 @@
   {
    "ods_code": "RBS",
    "papers_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-27th-june-2023/",
@@ -1299,14 +1299,54 @@
      "url": "https://www.alderhey.nhs.uk/about/publications/alder-hey-workforce-disability-equality-standard-wdes-2024/",
      "title": "Alder Hey Workforce Disability Equality Standard (WDES) 2024",
      "first_seen": "2026-10-12T13:43:20Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/imgs/favicons/apple-touch-icon.png?ver=7.1.3",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/imgs/favicons/favicon-32x32.png?ver=1788517214",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/imgs/favicons/favicon-16x16.png?ver=1788517214",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/imgs/favicons/manifest.json?ver=1788517214",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/imgs/favicons/safari-pinned-tab.svg?ver=1788517214",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/themes/karabiner/assets/dist/style.css?ver=1788517214",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/plugins/searchwp-live-ajax-search/assets/styles/style.min.css?ver=1.8.8",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.alderhey.nhs.uk/wp-content/plugins/searchwp/assets/css/frontend/search-forms.min.css?ver=4.6.1.1",
+     "title": null,
+     "first_seen": "2026-10-18T10:58:59Z"
     }
    ],
-   "notes": "[2026-08-06] Added after all four fabricated future dates were retracted; trust publishes NO forward schedule. Needs Playwright (requests returns 0 links). PER-MEETING TWO-HOP: this listing links to child pages like /about/publications/trust-board-meeting-2nd-april-2026/ which hold the PDFs - treat a NEW CHILD PAGE as the new-pack signal, not a new PDF on this page. Listing is alphabetical and unpaginated. Meets Thursdays, ~monthly, NEVER in August. Archive runs ~4 months behind, so expect packs long after the meeting. [2026-08-13] No change: latest 2026 publication is the 2 April 2026 trust board page, already in known_files. Playwright listing enumerated only four 2026 child pages. | [2026-08-17] requests fetch returned 0 links (blocked/JS shell); escalated to WebFetch - latest pack still July 2026 or older, nothing new. | [2026-09-15] [2026-09-15] Playwright still required (requests returns 0 links). Listing now 119 child pages (was 117). Two genuinely new child pages appeared: 4 June 2026 trust board and 23 June 2026 extraordinary board, PDFs uploaded under /wp-content/uploads/2026/09/ - confirming the ~3-4 month archive lag. Still NO forward schedule. NB files_seen lists the 119 listing child pages plus the 2 new child-page PDFs; the 8 wp-content PDFs already in known_files sit on older child pages and are NOT on the listing, so do not drop them when rewriting known_files. | [2026-10-01] New child page 'Trust Board Meeting - 3rd September 2026' appeared (20MB pack); analysed and alerted this run. Three old 2016/2024 PDFs also baselined."
+   "notes": "[2026-08-06] Added after all four fabricated future dates were retracted; trust publishes NO forward schedule. Needs Playwright (requests returns 0 links). PER-MEETING TWO-HOP: this listing links to child pages like /about/publications/trust-board-meeting-2nd-april-2026/ which hold the PDFs - treat a NEW CHILD PAGE as the new-pack signal, not a new PDF on this page. Listing is alphabetical and unpaginated. Meets Thursdays, ~monthly, NEVER in August. Archive runs ~4 months behind, so expect packs long after the meeting. [2026-08-13] No change: latest 2026 publication is the 2 April 2026 trust board page, already in known_files. Playwright listing enumerated only four 2026 child pages. | [2026-08-17] requests fetch returned 0 links (blocked/JS shell); escalated to WebFetch - latest pack still July 2026 or older, nothing new. | [2026-09-15] [2026-09-15] Playwright still required (requests returns 0 links). Listing now 119 child pages (was 117). Two genuinely new child pages appeared: 4 June 2026 trust board and 23 June 2026 extraordinary board, PDFs uploaded under /wp-content/uploads/2026/09/ - confirming the ~3-4 month archive lag. Still NO forward schedule. NB files_seen lists the 119 listing child pages plus the 2 new child-page PDFs; the 8 wp-content PDFs already in known_files sit on older child pages and are NOT on the listing, so do not drop them when rewriting known_files. | [2026-10-01] New child page 'Trust Board Meeting - 3rd September 2026' appeared (20MB pack); analysed and alerted this run. Three old 2016/2024 PDFs also baselined. | [2026-10-18] 2026-10-18: no new child pages; latest still 3 Sept 2026 board (analysed). Do not drop the older wp-content PDFs from known_files."
   },
   {
    "ods_code": "RJ1",
    "papers_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.guysandstthomas.nhs.uk/media/15030/Board%2Bof%2BDirectors%2Bmeeting%2Bagenda%2B-%2BWednesday%2B22%2BJuly%2B2026",
@@ -1472,14 +1512,24 @@
      "url": "https://www.guysandstthomas.nhs.uk/media/14236/Board%2Bof%2BDirectors%2Bmeeting%2Bpapers%2B%25E2%2580%2593%2BWednesday%2B30%2BApril%2B2025",
      "title": "Board of Directors meeting papers – Wednesday 30 April 2025 (PDF 9.99MB)",
      "first_seen": "2026-10-12T13:43:20Z"
+    },
+    {
+     "url": "https://www.guysandstthomas.nhs.uk/media/15187/Board%2Bof%2BDirectors%2Bmeeting%2Bagenda%2B-%2BWednesday%2B21%2BOctober%2B2026",
+     "title": "Board of Directors meeting agenda - Wednesday 21 October 2026",
+     "first_seen": "2026-10-18T10:58:59Z"
+    },
+    {
+     "url": "https://www.guysandstthomas.nhs.uk/media/15188/Board%2Bof%2BDirectors%2Bmeeting%2Bpapers%2B-%2BWednesday%2B21%2BOctober%2B2026",
+     "title": "Board of Directors meeting papers - Wednesday 21 October 2026 (PDF 7.86MB)",
+     "first_seen": "2026-10-18T10:58:59Z"
     }
    ],
-   "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b). | [2026-09-15] [2026-09-15] No new files - latest remains 22 Jul 2026. FETCH ROUTE: use WebFetch for this org. requests returns HTTP 403 and fetch_with_playwright.py returns the site's /access-forbidden page while reporting success (same 791,379-byte body whatever the URL), so extract_board_html.py reports 0 links and a live page looks dead. Baseline extended from 14 to 31 files - the 2023 and 2024 meetings plus an 'IT critical incident review' document were previously unrecorded. Next meeting 21 Oct 2026; papers not yet published. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 31 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] Deterministic poll returned 0 links (access-forbidden shell). Date agent read the page with headed real Chrome: next meeting 21 October 2026, no new papers."
+   "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b). | [2026-09-15] [2026-09-15] No new files - latest remains 22 Jul 2026. FETCH ROUTE: use WebFetch for this org. requests returns HTTP 403 and fetch_with_playwright.py returns the site's /access-forbidden page while reporting success (same 791,379-byte body whatever the URL), so extract_board_html.py reports 0 links and a live page looks dead. Baseline extended from 14 to 31 files - the 2023 and 2024 meetings plus an 'IT critical incident review' document were previously unrecorded. Next meeting 21 Oct 2026; papers not yet published. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 31 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] Deterministic poll returned 0 links (access-forbidden shell). Date agent read the page with headed real Chrome: next meeting 21 October 2026, no new papers. | [2026-10-18] 2026-10-18: 21 Oct 2026 agenda (media/15187) and papers (media/15188) now published."
   },
   {
    "ods_code": "RJZ",
    "papers_url": "https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/09/KCH-Public-Board-pack-16-September-2026-v3.pdf",
@@ -1662,7 +1712,7 @@
   {
    "ods_code": "RN3",
    "papers_url": "https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.gwh.nhs.uk/media/2kjjakla/150126-trust-board-agenda-papers.pdf",
@@ -1940,7 +1990,7 @@
   {
    "ods_code": "RN7",
    "papers_url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas/navigate/68487/27541",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.dgt.nhs.uk/download_file/27376/289",
@@ -1973,7 +2023,7 @@
   {
    "ods_code": "RNZ",
    "papers_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.salisbury.nhs.uk/media/fcgdest2/8-january-2026-public-trust-board-agenda.pdf",
@@ -2031,12 +2081,12 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "notes": "[2026-09-10] 10 Sept 2026 meeting confirmed in state has NO pack published yet as of 2026-09-10. Also: this trust publishes an additional 'BSW Hospitals Group Board' joint-board pack in the same board-papers-2026 folder (2 July 2026 seen) - worth deciding whether the machine should track this as a second meeting stream for RNZ or leave to the BSW lead org if one is tracked separately. | [2026-08-17] Added after all four fabricated 2027 dates were retracted. Page publishes a single '2026' heading (8 Jan, 5 Mar, 13 May, 15 Jun) - all past. No forward schedule published. | [2026-09-15] [2026-09-15] No new files. The 2026 board-papers folder still holds only the five meetings up to BSW 2 July; no pack for the 10 Sept 2026 meeting, and no 2026-27 forward dates on the meetings page. Suggest changing papers_url to https://www.salisbury.nhs.uk/about-us/the-trust-board/board-papers/board-papers-2026/ - the current papers_url has zero documents on it, so it can never trigger. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 6 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] No change. board-papers-2026 folder still holds only the five meetings up to BSW 2 July; schedule page lists only 8 Jan, 5 Mar, 13 May, 15 Jun 2026. The three later dates held in state (23 Jul, 10 Sep, 24 Sep) were header-widget artefacts and are retracted."
+   "notes": "[2026-09-10] 10 Sept 2026 meeting confirmed in state has NO pack published yet as of 2026-09-10. Also: this trust publishes an additional 'BSW Hospitals Group Board' joint-board pack in the same board-papers-2026 folder (2 July 2026 seen) - worth deciding whether the machine should track this as a second meeting stream for RNZ or leave to the BSW lead org if one is tracked separately. | [2026-08-17] Added after all four fabricated 2027 dates were retracted. Page publishes a single '2026' heading (8 Jan, 5 Mar, 13 May, 15 Jun) - all past. No forward schedule published. | [2026-09-15] [2026-09-15] No new files. The 2026 board-papers folder still holds only the five meetings up to BSW 2 July; no pack for the 10 Sept 2026 meeting, and no 2026-27 forward dates on the meetings page. Suggest changing papers_url to https://www.salisbury.nhs.uk/about-us/the-trust-board/board-papers/board-papers-2026/ - the current papers_url has zero documents on it, so it can never trigger. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 6 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] No change. board-papers-2026 folder still holds only the five meetings up to BSW 2 July; schedule page lists only 8 Jan, 5 Mar, 13 May, 15 Jun 2026. The three later dates held in state (23 Jul, 10 Sep, 24 Sep) were header-widget artefacts and are retracted. | [2026-10-18] 2026-10-18: meetings page body now publishes a schedule: 3 Sep 2026 (past, no pack in board-papers-2026), 10 Nov 2026, 7 Jan 2027, 4 Mar 2027. No new files."
   },
   {
    "ods_code": "RP6",
    "papers_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.moorfields.nhs.uk/mediaLocal/itnbduhv/260204-tb-part-i-meeting-bundle-v1.pdf",
@@ -2069,7 +2119,7 @@
   {
    "ods_code": "RQX",
    "papers_url": "https://www.homerton.nhs.uk/board-papers/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.homerton.nhs.uk/download/papers-january-2026.pdf?ver=47050&amp;doc=docm93jijm4n19127.pdf",
@@ -2182,7 +2232,7 @@
   {
    "ods_code": "RR7",
    "papers_url": "https://www.gatesheadhealth.nhs.uk/news/resources_type/board-papers/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026-v2.pdf",
@@ -2220,7 +2270,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -2481,310 +2531,9 @@
    "notes": "[2026-08-03] No change since 16 July; latest board paper still doc 501 (July 2026). Note the deterministic extractor returns 0 pdf_links here even under --playwright, because ROH links are extension-less /doc-men-hidden/ paths - diff raw HTML hrefs filtered on '/board-papers/' instead. | [2026-05-27] Low-confidence URL — kept as-is. Reason: Statutory documents page lists past 2026 board packs (Feb, Apr) but no forward dates page found on the ROH site. News-events page does not list bo [2026-06-29] Baselined 14 pre-existing archive file(s) into known_files (first proper baseline; not new packs). [2026-07-16] New July 2026 meeting book (doc 501) detected; day-of-month not in filename. DATE-UNKNOWN papers alert sent to Caitlin; org stays on watchlist. [2026-08-13] No change: latest board paper still doc 501 (July 2026). Extractor returns 0 even under --playwright (extension-less /doc-men-hidden/ links); WebFetch is the working cross-check here. | [2026-08-17] requests fetch returned 0 links (blocked/JS shell); escalated to WebFetch - latest pack still July 2026 or older, nothing new. | [2026-09-15] [2026-09-15] No change: 51 links, latest still doc 501 (July 2026). Confirmed working method is fetch_with_playwright.py --html then filter raw hrefs on '/board-papers/'. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 51 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] No change: 2026 tab still stops at the July meeting book, which gives 'Date of next meeting: Wednesday, 9 September 2026' (past). No September pack published."
   },
   {
-   "ods_code": "RTR",
-   "papers_url": "https://www.southtees.nhs.uk/resources/?topic=board-of-directors",
-   "last_checked": "2026-10-12T13:43:20Z",
-   "known_files": [
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/09/board-of-Directors-Public-papers-3-September-2026-v1.pdf",
-     "title": "Group Board of Directors Papers - 3 September 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-papers-2-July-2026-UPDATED-01.07.26.pdf",
-     "title": "Group Board of Directors Papers - 2 July 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/06/Board-of-Directors-papers-7-May-2026-SIGNED-I.pdf",
-     "title": "Group Board of Directors Papers - 7 May 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/03/Board-of-Directors-papers-5-March-2026.pdf",
-     "title": "Group Board of Directors Papers - 5 March 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/02/Public-Board-Papers-8-January-2026-SIGNED.pdf",
-     "title": "Group Board of Directors Papers - 8 January 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/02/Group-Board-of-Directors-papers-6-November-2025-SIGNED-UPDATED-27.02.2026.pdf",
-     "title": "Group Board of Directors Papers - 6 November 2025",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/04/Board-of-Directors-papers-3-July-2025-16.04.2026.pdf",
-     "title": "Group Board of Directors Papers - 3 July 2025",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2025/05/Group-Board-of-Directors-papers-Thursday-8-May-2025-SIGNED-v2.pdf",
-     "title": "Group Board of Directors Papers - 8 May 2025",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-september-2026/",
-     "title": "Group Board of Directors Agenda – 3 September 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-2-july-2026/",
-     "title": "Group Board of Directors Agenda – 2 July 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-may-2026/",
-     "title": "Group Board of Directors Agenda – 7 May 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-5-march-2026/",
-     "title": "Group Board of Directors Agenda – 5 March 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/board-of-directors-declaration-of-interest-2025-26/",
-     "title": "Board of directors’ register of interest 2025/26",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-january-2026/",
-     "title": "Group Board of Directors Agenda – 8 January 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-6-november-2025/",
-     "title": "Group Board of Directors Agenda – 6 November 2025",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-july-2025/",
-     "title": "Group Board of Directors Agenda – 3 July 2025",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-may-2025/",
-     "title": "Group Board of Directors Agenda – 8 May 2025",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-september-2026",
-     "title": "Group Board of Directors Agenda – 3 September 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-2-july-2026",
-     "title": "Group Board of Directors Agenda – 2 July 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-may-2026",
-     "title": "Group Board of Directors Agenda – 7 May 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-5-march-2026",
-     "title": "Group Board of Directors Agenda – 5 March 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/board-of-directors-declaration-of-interest-2025-26",
-     "title": "Board of directors’ register of interest 2025/26",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-january-2026",
-     "title": "Group Board of Directors Agenda – 8 January 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-6-november-2025",
-     "title": "Group Board of Directors Agenda – 6 November 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-july-2025",
-     "title": "Group Board of Directors Agenda – 3 July 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-may-2025",
-     "title": "Group Board of Directors Agenda – 8 May 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    }
-   ],
-   "notes": "[2026-08-17] South Tees - joint UHT group board page shows only the next meeting and is stale. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b). | [2026-09-15] [2026-09-15] FIX THE URL: papers_url has no documents on it and never will. South Tees publishes packs at https://www.southtees.nhs.uk/resources/?topic=board-of-directors (paginated, 7 pages; each entry is a landing page holding one PDF). That is why known_files was empty. Baselined 8 PDFs from page 1. Newest is the 3 September 2026 group board pack: state already holds RTR:2026-09-03 as date_found, but pack_files is empty and there is no summary, so the pack has not been analysed. Board-meetings page 'next meeting' text is stale (still 2 July 2026); no forward date published. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 8 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] papers_url switched to the resources archive as the 15 Sep note asked. Landing pages baselined. Latest: Group Board 3 September 2026, already analysed."
-  },
-  {
-   "ods_code": "RVW",
-   "papers_url": "https://www.southtees.nhs.uk/resources/?for=&topic=hospital-group&type=agendas&audience=all",
-   "last_checked": "2026-10-12T13:43:20Z",
-   "known_files": [
-    {
-     "url": "https://www.southtees.nhs.uk/resources/?for=&topic=hospital-group&type=agendas&audience=all",
-     "title": "View meeting agenda archive (index page - the only document route from the board-meetings page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-september-2026/",
-     "title": "Group Board of Directors Agenda - 3 September 2026 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/09/board-of-Directors-Public-papers-3-September-2026-v1.pdf",
-     "title": "Group Board of Directors Paper - 3 September 2026",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-2-july-2026/",
-     "title": "Group Board of Directors Agenda - 2 July 2026 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-may-2026/",
-     "title": "Group Board of Directors Agenda - 7 May 2026 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-5-march-2026/",
-     "title": "Group Board of Directors Agenda - 5 March 2026 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-january-2026/",
-     "title": "Group Board of Directors Agenda - 8 January 2026 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-6-november-2025/",
-     "title": "Group Board of Directors Agenda - 6 November 2025 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-july-2025/",
-     "title": "Group Board of Directors Agenda - 3 July 2025 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-may-2025/",
-     "title": "Group Board of Directors Agenda - 8 May 2025 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-4-march-2025/",
-     "title": "Group Board of Directors Agenda - 4 March 2025 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-january-2025/",
-     "title": "Group Board of Directors Agenda - 7 January 2025 (landing page)",
-     "first_seen": "2026-09-15T12:00:00Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-papers-2-July-2026-UPDATED-01.07.26.pdf",
-     "title": "Group Board of Directors Paper – 2 July 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/06/Board-of-Directors-papers-7-May-2026-SIGNED-I.pdf",
-     "title": "Group Board of Directors Agenda – 7 May 2026 (10.79MB, PDF)",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/03/Board-of-Directors-papers-5-March-2026.pdf",
-     "title": "Group Board of Directors papers – 5 March 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/02/Public-Board-Papers-8-January-2026-SIGNED.pdf",
-     "title": "Group Board of Directors papers – 8 January 2026",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/02/Group-Board-of-Directors-papers-6-November-2025-SIGNED-UPDATED-27.02.2026.pdf",
-     "title": "Group Board of Directors papers – 6 November2025",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2026/04/Board-of-Directors-papers-3-July-2025-16.04.2026.pdf",
-     "title": "Group Board of Directors papers – 3 July 2025 (20.05MB, PDF)",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2025/05/Group-Board-of-Directors-papers-Thursday-8-May-2025-SIGNED-v2.pdf",
-     "title": "Group Board of Directors – 8 May 2025 (10.98MB, PDF)",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2025/03/Group-Board-of-Directors-4-March-2025-SIGNED.pdf",
-     "title": "Group Board of Directors – 4 March 2025 (7.26MB, PDF)",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/wp-content/uploads/2025/03/Combined-Public-Board-Pack-07-01-25-printed-06-01-25-SIGNED-1.pdf",
-     "title": "Group Board of Directors Agenda – 7 January 2025 (9.36MB, PDF)",
-     "first_seen": "2026-10-01T14:09:36Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-september-2026",
-     "title": "Group Board of Directors Agenda – 3 September 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-2-july-2026",
-     "title": "Group Board of Directors Agenda – 2 July 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-may-2026",
-     "title": "Group Board of Directors Agenda – 7 May 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-5-march-2026",
-     "title": "Group Board of Directors Agenda – 5 March 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-january-2026",
-     "title": "Group Board of Directors Agenda – 8 January 2026",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-6-november-2025",
-     "title": "Group Board of Directors Agenda – 6 November 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-3-july-2025",
-     "title": "Group Board of Directors Agenda – 3 July 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-8-may-2025",
-     "title": "Group Board of Directors Agenda – 8 May 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-4-march-2025",
-     "title": "Group Board of Directors Agenda – 4 March 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    },
-    {
-     "url": "https://www.southtees.nhs.uk/resources/group-board-of-directors-agenda-7-january-2025",
-     "title": "Group Board of Directors Agenda – 7 January 2025",
-     "first_seen": "2026-10-05T09:27:48Z"
-    }
-   ],
-   "notes": "[2026-08-17] North Tees and Hartlepool - shares the stale UHT group board page with RTR. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b). | [2026-09-15] [2026-09-15] papers_url https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/ is a dead end: it lists NO documents and is stale (still advertises the 2 Jul 2026 meeting, last updated 15/06/2026). CHANGE papers_url to the resources archive: https://www.southtees.nhs.uk/resources/?for=&topic=hospital-group&type=agendas&audience=all - it lists every Group Board agenda back to Jan 2025, each on a landing page carrying the pack PDF. This is why known_files was empty and why the 3 Sept 2026 pack was missed. Group board is shared with South Tees (RTR): one pack covers both trusts. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 12 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] papers_url switched to the resources archive as the 15 Sep note asked. Direct PDF links baselined (previous baseline held landing pages only, so nine old packs looked new; none were). Latest pack: 3 September 2026, already analysed."
-  },
-  {
    "ods_code": "RXE",
    "papers_url": "https://www.rdash.nhs.uk/document-sections/board-of-directors/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-30.07.2026-Agenda-Pack-A.pdf",
@@ -2937,7 +2686,7 @@
   {
    "ods_code": "RXG",
    "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.southwestyorkshire.nhs.uk/wp-content/uploads/2026/07/Public-agenda-and-Papers-TB-28.07.26-v2.pdf",
@@ -4275,12 +4024,12 @@
      "first_seen": "2026-10-08T11:29:41Z"
     }
    ],
-   "notes": "[2026-08-03] 28 Jul 2026 pack published (620pp, 19.1MB) plus approved 30 Jun 2026 minutes. Page's 'next meeting' still reads 28 July 2026 (now past); trust publishes only one forward date at a time. NOTE: requests-mode extraction returns zero links on this page - it needs --playwright (265 pdf links found that way). |  [2026-08-13] No new files; 265 known links unchanged. | [2026-08-17] requests fetch returned 0 links (blocked/JS shell); escalated to WebFetch - latest pack still July 2026 or older, nothing new. | [2026-09-15] [2026-09-15] No change: 265 links, all known. Latest pack still 28 July 2026. Page still shows no forward meeting date. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 265 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] NOT POLLED: every sub-page of southwestyorkshire.nhs.uk returned 403 to requests, headless Playwright and headed real Chrome (site root returns 200). Latest pack held is 29 Sep 2026, already analysed."
+   "notes": "[2026-08-03] 28 Jul 2026 pack published (620pp, 19.1MB) plus approved 30 Jun 2026 minutes. Page's 'next meeting' still reads 28 July 2026 (now past); trust publishes only one forward date at a time. NOTE: requests-mode extraction returns zero links on this page - it needs --playwright (265 pdf links found that way). |  [2026-08-13] No new files; 265 known links unchanged. | [2026-08-17] requests fetch returned 0 links (blocked/JS shell); escalated to WebFetch - latest pack still July 2026 or older, nothing new. | [2026-09-15] [2026-09-15] No change: 265 links, all known. Latest pack still 28 July 2026. Page still shows no forward meeting date. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 265 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] NOT POLLED: every sub-page of southwestyorkshire.nhs.uk returned 403 to requests, headless Playwright and headed real Chrome (site root returns 200). Latest pack held is 29 Sep 2026, already analysed. | [2026-10-18] 2026-10-18: WebFetch works again for this host (full page read). Playwright still returns a shell. No new files."
   },
   {
    "ods_code": "RBV",
    "papers_url": "https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.christie.nhs.uk/media/eh4pymcu/christie-public-board-papers-24092026.pdf",
@@ -4448,7 +4197,7 @@
   {
    "ods_code": "RX3",
    "papers_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.tewv.nhs.uk/wp-content/uploads/2026/09/2026-09-23-Meeting-Book-Board-of-Directors-public-session-V2.pdf",
@@ -4741,7 +4490,7 @@
   {
    "ods_code": "RX7",
    "papers_url": "https://www.nwas.nhs.uk/about/directors/board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/09/BoD-Part-1-Meeting-Pack-30.09.2026.pdf",
@@ -4924,7 +4673,7 @@
   {
    "ods_code": "RKB",
    "papers_url": "https://www.uhcw.nhs.uk/our-organisation/trust-board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.uhcw.nhs.uk/download/clientfiles/files/Public%20Trust%20Board%20Combined%20Papers%201%20October%202026%20v2_compressed_compressed.pdf",
@@ -5047,7 +4796,7 @@
   {
    "ods_code": "RBT",
    "papers_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.mcht.nhs.uk/download_file/9425a926-03c5-46b4-92b2-4c6bbb8533d5/228",
@@ -5140,12 +4889,12 @@
      "first_seen": "2026-10-12T13:43:20Z"
     }
    ],
-   "notes": "[2026-10-01] Added: org_urls probe verdict ok_no_schedule (reads fine under Playwright, latest content 24 Sep 2026, no future dates), and every future date held in state is unverified. The deterministic extractor returns 0 document links here even under Playwright, so known_files is EMPTY: baseline on the next poll via raw anchors and raise no alert on that pass. | [2026-10-05] known_files baselined; latest is the 24 Sep 2026 bundle, already analysed 22 Sep. No alert."
+   "notes": "[2026-10-01] Added: org_urls probe verdict ok_no_schedule (reads fine under Playwright, latest content 24 Sep 2026, no future dates), and every future date held in state is unverified. The deterministic extractor returns 0 document links here even under Playwright, so known_files is EMPTY: baseline on the next poll via raw anchors and raise no alert on that pass. | [2026-10-05] known_files baselined; latest is the 24 Sep 2026 bundle, already analysed 22 Sep. No alert. | [2026-10-18] 2026-10-18: host unreachable (all fetch methods timed out incl. site root). Retry next run."
   },
   {
    "ods_code": "RYC",
    "papers_url": "https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.eastamb.nhs.uk/about-us/trust-board/in-public-board-minutes-february-2026",
@@ -5213,7 +4962,7 @@
   {
    "ods_code": "RBD",
    "papers_url": "https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://dchft.nhs.uk/wp-content/uploads/2026/08/Board-in-Common-Part-1-Paper-Pack-V2.pdf",
@@ -5376,7 +5125,7 @@
   {
    "ods_code": "RDY",
    "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-10-12T13:43:20Z",
+   "last_checked": "2026-10-18T10:58:59Z",
    "known_files": [
     {
      "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/fd19add4-21ae-4e29-8b51-d7838cce701b/282",

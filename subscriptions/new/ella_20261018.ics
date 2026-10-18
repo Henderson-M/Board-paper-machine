@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RV3-2026-10-21@board-paper-machine.hsj
+DTSTAMP:20261018T110121Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Central and North West London NHS Foundation Trust: Board in Common (with Central London Community Healthcare and West London NHS Trust)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2027-03-10@board-paper-machine.hsj
+DTSTAMP:20261018T110121Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Central and North West London NHS Foundation Trust: Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2027-06-23@board-paper-machine.hsj
+DTSTAMP:20261018T110121Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Central and North West London NHS Foundation Trust: Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2027-09-29@board-paper-machine.hsj
+DTSTAMP:20261018T110121Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:Central and North West London NHS Foundation Trust: Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+BEGIN:VEVENT
+UID:RV3-2027-12-08@board-paper-machine.hsj
+DTSTAMP:20261018T110121Z
+DTSTART;VALUE=DATE:20271208
+DTEND;VALUE=DATE:20271209
+SUMMARY:Central and North West London NHS Foundation Trust: Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+URL:https://www.cnwl.nhs.uk/about/planning-performance-and-reports
+END:VEVENT
+END:VCALENDAR

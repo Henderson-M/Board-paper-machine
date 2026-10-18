@@ -1,0 +1,108 @@
+[
+ {
+  "id": "papers:R1K_2026-10-20:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] North West London acute Board in Common (Imperial, Chelsea and Westminster, Hillingdon, London North West), Tuesday 20 October 2026, 10 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_matt-discombe_papers_R1K_2026-10-20.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/R1K_2026-10-20.md"
+  ],
+  "_meeting_ids": [
+   "R1K:2026-10-20",
+   "RAS:2026-10-20",
+   "RYJ:2026-10-20",
+   "RQM:2026-10-20"
+  ]
+ },
+ {
+  "id": "papers:R1K_2026-10-20:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] North West London acute Board in Common (Imperial, Chelsea and Westminster, Hillingdon, London North West), Tuesday 20 October 2026, 10 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_ella_papers_R1K_2026-10-20.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/R1K_2026-10-20.md"
+  ],
+  "_meeting_ids": [
+   "R1K:2026-10-20",
+   "RAS:2026-10-20",
+   "RYJ:2026-10-20",
+   "RQM:2026-10-20"
+  ]
+ },
+ {
+  "id": "papers:RJ1_2026-10-21:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Guy's and St Thomas' Foundation Trust board, Wednesday 21 October 2026, 9 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_ella_papers_RJ1_2026-10-21.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RJ1_2026-10-21.md"
+  ],
+  "_meeting_ids": [
+   "RJ1:2026-10-21"
+  ]
+ },
+ {
+  "id": "papers:RXC_2026-10-20:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Sussex Healthcare Trust board, Tuesday 20 October 2026, 6 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_alison_papers_RXC_2026-10-20.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RXC_2026-10-20.md"
+  ],
+  "_meeting_ids": [
+   "RXC:2026-10-20"
+  ]
+ },
+ {
+  "id": "papers:RYX_2026-10-21:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] CNWL, CLCH and West London Board in Common, Wednesday 21 October 2026, 7 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_ella_papers_RYX_2026-10-21.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RYX_2026-10-21.md"
+  ],
+  "_meeting_ids": [
+   "RYX:2026-10-21",
+   "RV3:2026-10-21",
+   "RKL:2026-10-21"
+  ]
+ },
+ {
+  "id": "papers:RYX_2026-10-21:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] CNWL, CLCH and West London Board in Common, Wednesday 21 October 2026, 7 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_matt-discombe_papers_RYX_2026-10-21.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RYX_2026-10-21.md"
+  ],
+  "_meeting_ids": [
+   "RYX:2026-10-21",
+   "RV3:2026-10-21",
+   "RKL:2026-10-21"
+  ]
+ },
+ {
+  "id": "papers:Z9B2Z_2026-10-21:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[PAPERS] West and North London ICB board, Wednesday 21 October 2026, 7 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_matt-discombe_papers_Z9B2Z_2026-10-21.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/Z9B2Z_2026-10-21.md"
+  ],
+  "_meeting_ids": [
+   "Z9B2Z:2026-10-21"
+  ]
+ },
+ {
+  "id": "papers:Z9B2Z_2026-10-21:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] West and North London ICB board, Wednesday 21 October 2026, 7 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_ella_papers_Z9B2Z_2026-10-21.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/Z9B2Z_2026-10-21.md"
+  ],
+  "_meeting_ids": [
+   "Z9B2Z:2026-10-21"
+  ]
+ }
+]

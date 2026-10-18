@@ -1,0 +1,63 @@
+[
+ {
+  "id": "dates:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_annabelle_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/annabelle_20261018.ics"
+  ],
+  "_meeting_ids": [
+   "RWE:2026-12-10"
+  ]
+ },
+ {
+  "id": "dates:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_ella_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/ella_20261018.ics"
+  ],
+  "_meeting_ids": [
+   "RV3:2026-10-21",
+   "RV3:2027-03-10",
+   "RV3:2027-06-23",
+   "RV3:2027-09-29",
+   "RV3:2027-12-08"
+  ]
+ },
+ {
+  "id": "dates:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_matt-discombe_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/matt-discombe_20261018.ics"
+  ],
+  "_meeting_ids": [
+   "RV3:2026-10-21",
+   "RV3:2027-03-10",
+   "RV3:2027-06-23",
+   "RV3:2027-09-29",
+   "RV3:2027-12-08"
+  ]
+ },
+ {
+  "id": "dates:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261018_matt-mathers_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/matt-mathers_20261018.ics"
+  ],
+  "_meeting_ids": [
+   "RTR:2026-12-03",
+   "RTR:2027-01-07",
+   "RTR:2027-03-04",
+   "RVW:2026-12-03",
+   "RVW:2027-01-07",
+   "RVW:2027-03-04"
+  ]
+ }
+]

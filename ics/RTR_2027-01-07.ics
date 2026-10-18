@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTR-2027-01-07@board-paper-machine.hsj
+DTSTAMP:20261018T105859Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:South Tees Hospitals NHS Foundation Trust: University Hospitals Tees group board meeting (South Tees and North Tees and Hartlepool)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+URL:https://www.southtees.nhs.uk/about/university-hospitals-tees/board-meetings/
+END:VEVENT
+END:VCALENDAR
