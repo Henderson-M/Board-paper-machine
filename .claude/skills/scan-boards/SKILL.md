@@ -1,6 +1,6 @@
 ---
 name: scan-boards
-description: Scan NHS trust and ICB board pages for new meeting dates and (for meetings from the previous 2 days through the next 10 days) new board packs, then alert the assigned HSJ correspondent. Use when the user types /scan-boards, asks to "check board meetings", "refresh board dates", or similar.
+description: Scan NHS trust and ICB board pages for new meeting dates and (for meetings from the previous 21 days through the next 10 days) new board packs, then alert the assigned HSJ correspondent. Use when the user types /scan-boards, asks to "check board meetings", "refresh board dates", or similar.
 ---
 
 # /scan-boards
@@ -10,7 +10,7 @@ You are running a scan of NHS trust and ICB board pages on behalf of an HSJ jour
 The skill has two purposes that run in the same sweep:
 
 1. **Detect new meeting dates** for every in-scope org and email each correspondent a list of new dates they cover (with `.ics` attachments).
-2. **Detect new board packs** for meetings in the detection window (the previous 2 days through the next 10 days, inclusive of today), run the pack through the `pack-analyser` sub-skill, and email the assigned correspondent the analyser's output.
+2. **Detect new board packs** for meetings in the detection window (the previous 21 days through the next 10 days, inclusive of today), run the pack through the `pack-analyser` sub-skill, and email the assigned correspondent the analyser's output.
 
 By default everything is **dry-run** — emails are written to `dry_run_output/` rather than sent. Add `--live-emails` to actually send via Gmail SMTP, staggered 30–60s apart (using `send_batch.py`).
 
@@ -20,7 +20,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 2. For each in-scope org, fetch the board page and extract upcoming meeting dates.
 3. Compare against `state/meetings.json`. Anything new becomes a date alert.
 4. Generate `.ics` files for new meetings.
-5. For meetings with a date in the detection window (previous 2 days through next 10 days, inclusive of today), check the papers page for new pack files.
+5. For meetings with a date in the detection window (previous 21 days through next 10 days, inclusive of today), check the papers page for new pack files.
 6. For each newly detected pack, invoke the `pack-analyser` sub-skill — applies HSJ editorial context, writes a markdown summary to `summaries/`, returns top lines.
 7. Rebuild `subscriptions/{firstname}.ics` for each correspondent — one combined `.ics` per person, containing every meeting tracked for the orgs they cover (not just the new ones from this scan). "Orgs they cover" means every org for which the person is a **recipient** — primary `correspondent` *or* listed in `additional_correspondents` (see Step 2). So an org's meetings appear in the calendars of all its recipients. This full snapshot is kept for audit / re-seeding a fresh calendar but is **NOT** attached to routine date alerts (see Step 9).
 8. Compose two kinds of email per correspondent:
@@ -52,7 +52,7 @@ By default everything is **dry-run** — emails are written to `dry_run_output/`
 | `--orgs CODE1,CODE2` | Only scan these ods_codes (e.g. `--orgs RA2,QYG`). Useful for testing. |
 | `--region NAME` | Only scan orgs in this region (e.g. `--region "North West"`). |
 | `--dates-only` | Skip pack detection and analysis. Just refresh meeting dates. |
-| `--packs-only` | Skip date scanning. Only check papers for meetings in the detection window (previous 2 days → next 10 days, inclusive of today). |
+| `--packs-only` | Skip date scanning. Only check papers for meetings in the detection window (previous 21 days → next 10 days, inclusive of today). |
 | `--no-reverify` | Skip Step 5b, the rolling re-verification of dates already in state. Faster, but stale bad dates survive. |
 | `--no-pull` | Skip the initial `git pull`. Use for testing offline. |
 | `--no-push` | Skip the final `git commit && git push`. Use for testing. |
@@ -376,16 +376,20 @@ END:VCALENDAR
 
 The file is committed to the repo as an audit trail AND attached to the alert email (as `text/calendar; method=PUBLISH`), so Outlook renders an "Add to calendar" button inline.
 
-### Step 7 — Detect new packs (detection window: previous 2 days → next 10 days)
+### Step 7 — Detect new packs (detection window: previous 21 days → next 10 days)
 
 (Skip if `--dates-only`.)
 
 For each meeting in state where:
 
-- The date falls in the detection window: from **2 days before today** through **10 days after today**, inclusive of today (i.e. `today - 2 days <= meeting_date <= today + 10 days`)
+- The date falls in the detection window: from **21 days before today** through **10 days after today**, inclusive of today (i.e. `today - 21 days <= meeting_date <= today + 10 days`)
 - AND status is `date_found` or `papers_found` (re-check in case supplementary papers were added)
 
-The window reaches back 2 days because many trusts publish (or only finish uploading) the board pack on the morning of the meeting or the day after, so a meeting that has just happened often only now has papers online. Treat a meeting from the last 2 days exactly like an upcoming one — detect, analyse, and alert. (Example: a scan on Thu 28 May picks up a pack for a Wed 27 May meeting that wasn't online when the previous scan ran.)
+The window reaches back 21 days because trusts publish late, and a meeting that has already happened is not a reason to stop looking for its papers. Many trusts publish (or only finish uploading) the pack on the morning of the meeting or the day after; some take a week or more. Treat a meeting from the last 21 days exactly like an upcoming one — detect, analyse, and alert. The papers are still new to the correspondent, and a pack is a primary source whether the meeting is tomorrow or a fortnight ago. (Example: a scan on Thu 28 May picks up a pack for a Wed 27 May meeting that wasn't online when the previous scan ran.)
+
+The cost is bounded: a meeting leaves the window the moment it is `analysed`, so a passed meeting costs one papers-page read per run until its pack appears or 21 days elapse. The pre-scan (Step 3b) already holds every document link on the org's page, so most of these resolve with no fetch at all.
+
+Worked failure (2026-10-07, RL1 Robert Jones and Agnes Hunt): the trust uploaded its 7 October pack on Monday 12 October, five days after the meeting. The 8 October run looked and correctly found nothing. Under the old 2-day lookback the meeting left the window on 10 October, so the 12 October run (which started three hours after the upload) and the 18 October run never read the papers page again. The pack was never analysed and the correspondent never got a papers alert. The org was not on the papers watchlist either, because its dates are verified, so nothing else was watching. Across the 60 days to 19 October, 52 of 267 non-retracted meetings in state had no pack ever attached; late publication is a large part of that.
 
 Do:
 
@@ -467,10 +471,13 @@ For each org in the watchlist:
    - checking `state/meetings.json` for that org/date.
 
    Worked failure (2026-08-03): the watchlist reported 7 "new" packs; 6 of them — RR7, RX7, RXE, RXG, RXY, RP6 — had already been analysed and alerted by the 23–31 Jul runs and only looked new because their `known_files` was `[]`. Alerting them would have repeated the 30 July duplicate incident by a different route. After each poll, ALWAYS write every file you saw back into `known_files`, even when you raise no alert — an empty baseline is the bug.
-4. **If new files**:
+4. **If new files** (a new pack on the watchlist is a pack to ANALYSE, not just a pack to announce):
    - Append to `known_files` with `first_seen` = now.
-   - Try to infer a meeting date from the new filename or first page: titles like `Trust Board 8 July 2026.pdf` or `Board pack 2026-07-08.pdf` are common. If you find a date and it's future, **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, source `source_url = papers_url`, and the new pack already in `pack_files`. The org now leaves the watchlist (it has a dated meeting in state).
-   - If you can't infer the date, still alert **each recipient** of the org (see Step 2): subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, body lists the file(s) and asks the journalist to confirm the date manually. Keep the org on the watchlist with the new files added to `known_files`.
+   - Find the meeting date. First try the filename or page title (`Trust Board 8 July 2026.pdf`, `Board pack 2026-07-08.pdf`). If that fails, **read the document itself**: `python fetch_pdf_text.py {url} --head 5` (add `--playwright` if the host blocks it) returns the cover and agenda, which almost always state the meeting date. **File size is never a reason to skip this.** The ROH meeting books are 26MB and extension-less, and the helper reads them in under three minutes; the June 2026 alert that called the pack "too large to open" was wrong, and that pack was never analysed because of it.
+   - If you now have a date and it is in the future **or within the last 21 days** (the Step 7 window), **add a real meeting entry** to `state/meetings.json` with `status: papers_found`, `source_url = papers_url`, the pack in `pack_files`, and put the meeting on `new_packs` so Step 8 analyses it and Step 10 sends the papers alert like any other pack. The org leaves the watchlist once that date is verified (below). A date older than 21 days is a pack earlier runs should have caught: record the meeting as `papers_found` with a note, analyse it if the correspondent has never had a papers alert for that org, and otherwise baseline it.
+   - Only if the document genuinely carries no readable date after that: alert **each recipient** of the org (see Step 2) with subject `[PAPERS — DATE UNKNOWN] {org name} board — new pack detected`, **still run the analyser** on the pack (summary path `summaries/{ods_code}_{first_seen date}.md`), paste the summary into that alert body exactly as Step 10 does, and ask the journalist to confirm the date. Keep the org on the watchlist with the new files added to `known_files`, and record the summary path against the file in `known_files` so it is not analysed twice.
+
+   The old rule only created a meeting entry when the inferred date was in the future, and otherwise sent a bare DATE-UNKNOWN alert with no analysis step after it. ROH (RRJ) publishes each meeting book around or after the meeting, so its June and July 2026 packs were both past by the time they were seen: the correspondent received two "please confirm the date" emails and no analysis of either pack, and reported on 19 October that the machine was not reading ROH papers at all. An alert that asks the journalist to do the machine's job is not an alert.
 
 A watchlist org is **removed** the moment it has a future-dated meeting in state that is actually **verified** — i.e. one whose date was found as literal text on the org's schedule page (Step 5b sets `last_verified`). Holding an *unverified* future date is not enough.
 
@@ -598,6 +605,8 @@ For each analysed pack, send one alert to **each recipient** of the pack's org (
 
 4. Subject: `[PAPERS] {org name} board — {date_human} — {N_LEAD} leads`
    (Use `0 leads` if no LEAD-tier items found.)
+
+5. **If the meeting date is already past** (late publication caught by the Step 7 lookback, or a watchlist pack dated by Step 7b), change the first body line to `Papers now published for {org name}'s board meeting on {date_human} (the meeting has already taken place; the pack went online late).` Everything else is identical. Do not drop or downgrade the alert because the meeting has happened: the pack is still unread by the correspondent.
 
 ### Step 11 — Send (or dry-run)
 

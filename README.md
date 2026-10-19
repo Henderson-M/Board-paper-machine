@@ -6,7 +6,7 @@ A Claude Code skill that tracks NHS trust and ICB board meeting dates and board 
 
 Two Claude Code skills, run from inside the repo directory:
 
-- **`/scan-boards`** — the main weekly sweep. Scans 233 in-scope NHS trusts and ICBs for new meeting dates, generates `.ics` files, checks papers pages for meetings in the next 10 days, runs the pack-analyser on any new packs, and emails each correspondent the items relevant to their patch.
+- **`/scan-boards`** — the main weekly sweep. Scans 233 in-scope NHS trusts and ICBs for new meeting dates, generates `.ics` files, checks papers pages for meetings from the previous 21 days to the next 10 days, runs the pack-analyser on any new packs, and emails each correspondent the items relevant to their patch.
 - **`/pack-analyser`** — a sub-skill, invoked by `/scan-boards` for each new pack, or directly by the user with `/pack-analyser` plus a papers URL. Reads PDFs, applies the editorial context, writes a structured tiered summary to `summaries/`.
 
 State is held in `state/meetings.json` and pushed to GitHub after every run, so multiple team members can run the skill from their own machines without duplicating alerts.

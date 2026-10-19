@@ -553,7 +553,7 @@
   "correspondent": "Caitlin",
   "url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
   "schedule_url": null,
-  "notes": "[2026-10-01] 30 September 2026 is listed as '(Annual General Meeting - 12.30pm)', not a board (retracted). Next board in public 7 October 2026. |  | [2026-10-05] papers_url set to https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/ (was None); found by run-20261005-100838 pack hunt.",
+  "notes": "[2026-10-01] 30 September 2026 is listed as '(Annual General Meeting - 12.30pm)', not a board (retracted). Next board in public 7 October 2026. |  | [2026-10-05] papers_url set to https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/ (was None); found by run-20261005-100838 pack hunt. | [2026-10-19] Publishes the combined pack as /media/<id>/board-of-directors-public-meeting-DDMMYYYY.pdf on the 2026-2027 papers page, sometimes days after the meeting (7 Oct pack went up 12 Oct). ~25MB single file; plain curl with a browser UA works.",
   "papers_url": "https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/"
  },
  {

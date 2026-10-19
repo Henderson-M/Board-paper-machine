@@ -1,0 +1,16 @@
+[
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust board \u2014 Wednesday 7 October 2026 \u2014 3 leads",
+  "id": "papers:RL1_2026-10-07:caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 19 Oct 2026 (one-off) \u2014 0 dates, 1 pack, RJAH/ROH fixes",
+  "id": "runreport:20261019:henry",
+  "ok": true,
+  "err": ""
+ }
+]

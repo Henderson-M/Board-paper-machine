@@ -1,3 +1,30 @@
+## 2026-10-19: One-off catch-up (Henry). RJAH 7 Oct pack analysed and sent to Caitlin; skill fixed for late packs and watchlist packs. 2/2 emails sent live
+
+Prompted by Caitlin: she gets date emails for RJAH and ROH but never a papers summary. No sweep was run.
+
+**What was wrong.** RJAH (RL1) uploaded its 7 October pack on Monday 12 October, five days after the meeting. The
+8 October run correctly found nothing; by 12 October the meeting was outside the 2-day lookback, so the 12 and 18 October
+runs never looked again. RJAH also had no papers page on its org record until 5 October, so its May and July packs were
+never seen. No RJAH pack had ever been analysed. ROH (RRJ) publishes no forward schedule so has never had a date alert;
+its June and July meeting books were found on the watchlist and Caitlin got two "date unknown, please confirm" emails, but
+the skill had no step that analysed a watchlist pack afterwards, and the June alert wrongly called the 26MB pack "too
+large to open" (fetch_pdf_text.py reads it in under three minutes). Nothing newer than the July book is on the ROH site
+today (checked via Playwright); that book gives the next meeting as 9 September 2026 and no September pack is published.
+
+**Pack.** RL1 7 Oct analysed on Fable: 3 LEAD, 7 WORTH WATCHING, 3 FOI. Segment 1 trust forecasting £1.8m adverse before
+mitigations, 1,240-case theatre shortfall, insourcing at 45% of plan; efficiency business case "declined by the region";
+outsourced occupational health provider's immunisation data could not be validated and the provider is being replaced.
+Sent to Caitlin with a note explaining the delay. Run report to Henry.
+
+**Fixes (scan-boards SKILL.md).** Step 7 window now reaches back 21 days (was 2); a meeting leaves it once analysed.
+Step 7b watchlist packs are dated by reading the document, accepted when future or within the last 21 days, and go to the
+analyser like any other pack; DATE-UNKNOWN alerts are only for documents with no readable date and still carry a summary.
+Step 10 wording for packs whose meeting has already happened. README updated.
+
+**Still open.** Caitlin's other date-alerted meetings in the last 60 days with no pack attached were not checked:
+Wye Valley 3 Sep, UHNM 16 Sep, UHB 24 Sep. Across the team, 52 of 267 non-retracted meetings in the last 60 days have
+no pack attached; the next sweep catches any within 21 days under the new window, older ones will not be revisited.
+
 ## 2026-10-18: Full sweep, Dave's machine. 5 packs analysed, 9 dates sent, 0 withdrawals. 13/13 emails sent live
 
 Run from Dave's machine, started 11:35. All 239 in-scope orgs scanned.

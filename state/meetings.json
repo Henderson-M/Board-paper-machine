@@ -27284,18 +27284,27 @@
    "date": "2026-10-07",
    "title": "Trust Board of Directors",
    "source_url": "https://www.rjah.nhs.uk/about-us/board-of-directors/board-of-directors-meeting-dates",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.rjah.nhs.uk/about-us/publications/trust-board-meeting-papers/2026-2027-trust-board-meeting-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.rjah.nhs.uk/media/5cei40gs/board-of-directors-public-meeting-07102026.pdf",
+     "title": "Board of Directors Public Meeting 07.10.2026 (combined pack)",
+     "kind": "pdf",
+     "size_bytes": 25006518,
+     "server_last_modified": "2026-10-12T10:57:23Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-10-05T09:27:48Z",
+   "last_checked": "2026-10-19T11:31:40Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
-    "papers": null,
+    "papers": "2026-10-19T11:33:35Z",
     "summary": null
    },
-   "notes": "",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "notes": "[2026-10-19] Pack uploaded by the trust on 12 Oct (server Last-Modified), five days after the meeting; missed by the 12 and 18 Oct runs because the meeting was outside the then 2-day lookback. Analysed in a one-off catch-up run on 19 Oct after Caitlin flagged it.",
+   "last_verified": "2026-10-05T09:10:52Z",
+   "summary_path": "summaries/RL1_2026-10-07.md"
   },
   {
    "id": "RL1:2026-12-02",
