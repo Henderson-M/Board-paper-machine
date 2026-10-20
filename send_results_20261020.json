@@ -1,0 +1,72 @@
+[
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 7 new meeting date(s) detected",
+  "id": "dates:caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] South Tyneside and Sunderland NHS Foundation Trust board \u2014 Thursday 8 October 2026 \u2014 5 leads",
+  "id": "papers:R0B_2026-10-08:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] The Christie NHS Foundation Trust board \u2014 Thursday 22 October 2026 \u2014 5 leads",
+  "id": "papers:RBV_2026-10-22:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust board \u2014 Wednesday 7 October 2026 \u2014 9 leads",
+  "id": "papers:RRF_2026-10-07:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Blackpool Teaching Hospitals NHS Foundation Trust board \u2014 Thursday 1 October 2026 \u2014 8 leads",
+  "id": "papers:RXL_2026-10-01:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Hertfordshire Community NHS Trust board \u2014 Tuesday 13 October 2026 \u2014 6 leads",
+  "id": "papers:RY4_2026-10-13:emily",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn: please delete from your calendar",
+  "id": "withdraw:zoe:20261020",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "dave.west@hsj.co.uk",
+  "subject": "[Board paper machine] Run report: 20 Oct 2026, 10 dates, 5 packs, 1 org needs attention",
+  "id": "runreport:20261020:dave",
+  "ok": true,
+  "err": ""
+ }
+]

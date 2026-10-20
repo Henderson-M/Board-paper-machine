@@ -1,3 +1,45 @@
+## 2026-10-20: Full sweep, Dave's machine. 5 packs analysed, 10 dates sent, 1 withdrawal. 10/10 emails sent live
+
+Run from Dave's machine, started 15:31. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RPC Queen Victoria Hospital, host times out or refuses every fetcher), 0 stale, 0 not checked.**
+Mid Cheshire (RBT), degraded on 18 Oct, read fine this time.
+
+**Pre-scan** resolved 176 of 239 orgs in 43 seconds. 46 went to four Sonnet date agents (all matched state, nothing
+new, nothing contradicted), one Sonnet pack hunter covered the 15 meetings in the new 29 Sep to 30 Oct window, and
+one Sonnet watchlist agent read the 11 watchlist orgs the pre-scan could not; the other 9 were cleared from pre-scan
+links. Pre-scan false positives rejected again: print/review stamps (Royal Free, MKUH, UH Sussex, Bristol, Salisbury's
+today-date banner), LLR/Northants question deadline and mis-yeared 15 Oct 2027, GM locality and committee dates,
+George Eliot registration deadline, Medway governors, UHB governors, BWC and LPT mis-yeared tokens, YAS job advert,
+Central East "papers published by".
+
+**Dates.** New: SaTH Boards in Common 2027/28 (7 dates, Caitlin); Christie 22 Oct (pack already online) and 26 Nov
+(from the pack's "date and time of the next meeting"), Nick; Liverpool group board 19 Nov (REM and RBQ, sent once to
+Zoe). Liverpool's 12 Nov is no longer on the group page: retracted for both trusts and withdrawn (Zoe).
+South Tyneside and Sunderland's 1 Oct was actually held 8 Oct per the pack agenda: 1 Oct retracted, 8 Oct added
+(past, no alert). Re-verification: 120 checked, 92 confirmed, 16 unverifiable, 7 unreadable, 5 contradicted (the
+same known matcher artefacts as 18 Oct: BWC, Black Country ICB, Blackpool x2, Central East ICB; none alerted, kept).
+
+**Packs.** 5 analysed on Fable in two waves: 33 LEAD, 40 WORTH WATCHING, 25 FOI. Christie 22 Oct; and four late
+uploads the old 2-day window would have missed: WWL 7 Oct, Blackpool 1 Oct, HCT 13 Oct, South Tyneside and Sunderland
+8 Oct. Headline figures spot-checked against pack text; Blackpool summary amended to give both run-rate deteriorations
+in the pack (£12.3m vs planned exit, £11.7m vs medium-term plan).
+
+**Aged out without papers.** First run of the new report: 95 meetings (May to Sep) more than 21 days past with no
+analysed pack in state. All listed in the run report to Dave and stamped `papers_missing_reported`.
+
+**Fixes.** compose_alerts.py now uses the Step 10 "papers now published ... the pack went online late" opener for
+past meetings. Subscription snapshots rebuilt.
+
+**Not done / handed back:**
+- Henry's 19 Oct catch-up summaries (ROH 8 Jul, UHB 24 Sep, Wye Valley 3 Sep, Sheffield Children's 8 Sep, Rotherham
+  2 Sep) have no send record and state was not updated. Left untouched to avoid a duplicate; Henry to confirm.
+- SCAS 28 Oct: page now annotates it "(Annual Members Meeting 17:00-18:30)" and says next Board meeting is 5 Nov.
+  Still literally listed under board meetings, so not withdrawn.
+- In-window meetings with no papers yet: Barnsley 1 Oct, GOSH 30 Sep, Humber 30 Sep, Pennine 7 Oct, Alder Hey 1 Oct,
+  Lewisham and Greenwich 27 Oct, York, Plymouth, Mersey and West Lancs, WMAS 28 Oct, EMAS 29 Oct.
+- WWL's bundle is flagged as not yet the fully accessible version; a replacement file may appear.
+- An HCT papers URL I first hand-typed into state (404) was corrected to the org record's /our-board/ before sending.
+
 ## 2026-10-19: One-off catch-up (Henry). RJAH 7 Oct pack analysed and sent to Caitlin; skill fixed for late packs and watchlist packs. 2/2 emails sent live
 
 Prompted by Caitlin: she gets date emails for RJAH and ROH but never a papers summary. No sweep was run.

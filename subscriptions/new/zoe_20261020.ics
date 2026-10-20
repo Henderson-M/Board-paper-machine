@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:REM-2026-11-19@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:University Hospitals of Liverpool Group (Liverpool University Hospitals and Liverpool Heart and Chest) — Group Board meeting in public\, 9.30am-1pm (replaces 12 November)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+URL:https://www.uhliverpool.nhs.uk/about-us/meet-our-board/trust-board-meetings
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,62 @@
+[
+ {
+  "id": "papers:R0B_2026-10-08:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] South Tyneside and Sunderland NHS Foundation Trust board — Thursday 8 October 2026 — 5 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_matt-mathers_papers_R0B_2026-10-08.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/R0B_2026-10-08.md"
+  ],
+  "_meeting_ids": [
+   "R0B:2026-10-08"
+  ]
+ },
+ {
+  "id": "papers:RBV_2026-10-22:nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] The Christie NHS Foundation Trust board — Thursday 22 October 2026 — 5 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_nick_papers_RBV_2026-10-22.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RBV_2026-10-22.md"
+  ],
+  "_meeting_ids": [
+   "RBV:2026-10-22"
+  ]
+ },
+ {
+  "id": "papers:RRF_2026-10-07:nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust board — Wednesday 7 October 2026 — 9 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_nick_papers_RRF_2026-10-07.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RRF_2026-10-07.md"
+  ],
+  "_meeting_ids": [
+   "RRF:2026-10-07"
+  ]
+ },
+ {
+  "id": "papers:RXL_2026-10-01:zoe",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Blackpool Teaching Hospitals NHS Foundation Trust board — Thursday 1 October 2026 — 8 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_zoe_papers_RXL_2026-10-01.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RXL_2026-10-01.md"
+  ],
+  "_meeting_ids": [
+   "RXL:2026-10-01"
+  ]
+ },
+ {
+  "id": "papers:RY4_2026-10-13:emily",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] Hertfordshire Community NHS Trust board — Tuesday 13 October 2026 — 6 leads",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_emily_papers_RY4_2026-10-13.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/summaries/RY4_2026-10-13.md"
+  ],
+  "_meeting_ids": [
+   "RY4:2026-10-13"
+  ]
+ }
+]

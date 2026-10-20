@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXW-2027-12-09@board-paper-machine.hsj
+DTSTAMP:20261020T143947Z
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

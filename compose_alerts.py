@@ -106,9 +106,15 @@ def main():
                 print(f"  [skip] {rec}: no email")
                 continue
             fn = first_name(fullnames.get(rec, rec))
+            # Step 10.5: a pack caught by the 21-day lookback is still new to the reader
+            if t["date"] < datetime.date.today().isoformat():
+                opener = (f"Papers now published for {t['org_name']}'s board meeting on {human(t['date'])} "
+                          "(the meeting has already taken place; the pack went online late).\n")
+            else:
+                opener = f"New papers detected for {t['org_name']}'s board meeting on {human(t['date'])}.\n"
             body = (
                 f"Hi {fn},\n\n"
-                f"New papers detected for {t['org_name']}'s board meeting on {human(t['date'])}.\n"
+                f"{opener}"
                 f"The pack-analyser found {nl} LEAD / {nw} WORTH WATCHING / {nf} FOI items.\n\n"
                 "Full summary below (also attached as markdown).\n\n"
                 "---\n\n"

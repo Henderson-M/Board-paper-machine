@@ -1,0 +1,45 @@
+[
+ {
+  "id": "dates:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 7 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_caitlin_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/caitlin_20261020.ics"
+  ],
+  "_meeting_ids": [
+   "RXW:2027-04-08",
+   "RXW:2027-06-10",
+   "RXW:2027-08-12",
+   "RXW:2027-10-14",
+   "RXW:2027-12-09",
+   "RXW:2028-02-10",
+   "RXW:2028-04-13"
+  ]
+ },
+ {
+  "id": "dates:nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_nick_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/nick_20261020.ics"
+  ],
+  "_meeting_ids": [
+   "RBV:2026-10-22",
+   "RBV:2026-11-26"
+  ]
+ },
+ {
+  "id": "dates:zoe",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "body_file": "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/outbox/20261020_zoe_dates.md",
+  "attach": [
+   "C:/Users/davew/OneDrive - HSJ Information Ltd/Claude code assistant/HSJ projects/Board-paper-machine/subscriptions/new/zoe_20261020.ics"
+  ],
+  "_meeting_ids": [
+   "REM:2026-11-19"
+  ]
+ }
+]

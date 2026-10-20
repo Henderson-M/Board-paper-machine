@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RXW-2027-04-08@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2027-06-10@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2027-08-12@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2027-10-14@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2027-12-09@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2028-02-10@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2028-04-13@board-paper-machine.hsj
+DTSTAMP:20261020T145355Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:Shrewsbury and Telford Hospital Trust — Boards in Common
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

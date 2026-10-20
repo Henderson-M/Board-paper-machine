@@ -1,0 +1,15 @@
+[
+ {
+  "id": "withdraw:zoe:20261020",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn: please delete from your calendar",
+  "body_file": "outbox/20261020_zoe_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/zoe_20261020.ics"
+  ],
+  "_meeting_ids": [
+   "REM:2026-11-12",
+   "RBQ:2026-11-12"
+  ]
+ }
+]
