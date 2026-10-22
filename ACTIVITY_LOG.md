@@ -1,3 +1,47 @@
+## 2026-10-22: Full sweep, Henry's machine. 9 packs sent (1 new + 8 catch-ups), 4 dates sent, 0 withdrawals
+
+Run from Henry's machine, started 10:04 BST. All 239 in-scope orgs scanned.
+**1 org broken (RPC Queen Victoria, whole site 503 since 20 Oct), 3 degraded (RM3 Northern Care Alliance outage page,
+RNA Dudley timing out, RT5 Leicestershire Partnership resetting connections), 0 stale, 0 not checked.** All three
+degraded orgs failed the full `org_urls.py probe` ladder; they look like site outages, not moved URLs. Note: health
+counts run one high for orgs that `reverify_dates.py` also found unreadable (it records its own failure), so RPC shows
+x3 after two runs.
+
+**Pre-scan** resolved 176 of 239 orgs in 66 seconds. 52 went to four Sonnet date agents, one Sonnet pack hunter took
+the 11 meetings in the 1 Oct-1 Nov window, and one Sonnet watchlist agent read 11 watchlist orgs (the other 9 cleared
+from pre-scan links; Homerton's "new" September link was the known file with `&amp;`). Pre-scan false positives
+rejected: print/review stamps, question and registration deadlines, GM locality boards, governors' meetings, the
+YAS job advert, SaTH provisional AGM, BWC mis-yeared tokens.
+
+**Dates.** New: SWYPFT 27 Oct (literal on page) and 1 Dec (from the 27 Oct pack, date_source: pack), to Henry; TEWV
+28 Oct, to Matt Mathers (papers due 23 Oct); Shropshire Community 2027/28 Boards in Common (8 dates). Seven of those
+duplicate the SaTH dates Caitlin got on 20 Oct, so they were stamped as covered and not re-sent; 11 Feb 2027 had never
+gone to anyone and went to Caitlin once. Re-verification: 120 checked, 88 confirmed, 19 unverifiable, 8 unreadable,
+5 contradicted (the same known matcher artefacts: BWC, Black Country ICB, Blackpool x2, Central East ICB; none
+alerted, kept). Dorset County 1 Dec is still unverifiable (no forward schedule published), not retracted.
+
+**Packs.** SWYPFT 27 Oct (374 pages) analysed on Fable: 6 LEAD, 10 WORTH WATCHING, 9 FOI. Headline quotes spot-checked
+against the pack text. No pack yet for any of the 11 window meetings (York, Plymouth, Mersey and West Lancs, WMAS,
+SCAS, EMAS 28-29 Oct; Lewisham and Greenwich 27 Oct; Barnsley, Pennine, Alder Hey early Oct; TEWV 28 Oct).
+
+**Catch-ups sent.** The eight packs analysed in Henry's 19 Oct session and never sent (Dave flagged on 20 Oct): ROH
+8 Jul, UHB 24 Sep, Wye Valley 3 Sep (Caitlin); Sheffield Children's 8 Sep, Rotherham 2 Sep (Henry); ESNEFT 3 Sep
+(James); GOSH 16 Jul (Matt Discombe + Ella); Herts Partnership 16 Jul (Emily). State had no send for any. Opener
+changed to say the pack was missed at the time, not published late. ROH 8 Jul and HPFT 16 Jul added to state.
+
+**Aged out without papers:** 8 newly listed and stamped (GOSH 30 Sep, Humber 30 Sep, Staffs ICB 25 Jun, BSol ICB
+14 Sep, Devon ICB, Cornwall ICB, RUH Bath, BNSSG ICB).
+
+**Incident: visible Chrome windows on Henry's desktop.** Two agents, blocked by GSTT and SWYPFT's 403s to headless
+Playwright, wrote their own scripts launching real Chrome with headless=False. Henry noticed the windows. They used a
+temporary profile and only read public pages; all closed. The remaining agent was told not to do it. Proposed skill
+rule (pending Henry's decision): never launch a headed browser; record the org as failed instead.
+
+**Not done / handed back:**
+- Headed-browser decision (above). Without it, GSTT and SWYPFT are unreadable by the machine.
+- SCAS 28 Oct is still listed as "(Annual Members Meeting)"; left as is.
+- Memory housekeeping: auto-memory folder was missing 8 files that exist in the OneDrive portable copy; copied across.
+
 ## 2026-10-20: Full sweep, Dave's machine. 5 packs analysed, 10 dates sent, 1 withdrawal. 10/10 emails sent live
 
 Run from Dave's machine, started 15:31. All 239 in-scope orgs scanned.

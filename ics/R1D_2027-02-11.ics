@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R1D-2027-02-11@board-paper-machine.hsj
+DTSTAMP:20261022T093004Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Shropshire Community Health NHS Trust — Boards in Common with SaTH
+DESCRIPTION:Detected by Board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+URL:https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+END:VEVENT
+END:VCALENDAR

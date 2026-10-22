@@ -90,7 +90,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
@@ -110,7 +110,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
@@ -130,7 +130,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
@@ -221,7 +221,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T12:45:48Z",
     "papers": null,
@@ -644,7 +644,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -664,7 +664,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -684,7 +684,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -764,14 +764,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RPC:2026-07-09",
@@ -1427,7 +1427,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -1721,7 +1721,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -1849,7 +1849,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -1869,7 +1869,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -1998,7 +1998,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -2072,7 +2072,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -2194,14 +2194,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RHA:2026-05-28",
@@ -2308,7 +2308,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -2406,14 +2406,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RNQ:2026-12-10",
@@ -2531,14 +2531,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RNS:2026-12-10",
@@ -2853,7 +2853,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -2873,7 +2873,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -2893,7 +2893,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3095,7 +3095,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3115,7 +3115,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3339,14 +3339,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RTG:2027-01-12",
@@ -3359,7 +3359,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3379,7 +3379,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3446,14 +3446,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RWD:2027-01-05",
@@ -3466,7 +3466,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3486,7 +3486,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3598,7 +3598,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
     "papers": null,
@@ -3685,14 +3685,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RX1:2027-01-14",
@@ -3705,7 +3705,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3725,7 +3725,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3798,7 +3798,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -3806,7 +3806,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://www.derbyshirehealthcareft.nhs.uk/about-us/our-board-directors/board-meetings",
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RY8:2026-06-04",
@@ -3896,7 +3896,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -3981,7 +3981,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4139,7 +4139,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4334,7 +4334,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4403,17 +4403,25 @@
    "title": "Wye Valley NHS Trust Board Meeting",
    "source_url": "https://www.wyevalley.nhs.uk/about-us/the-trust-board.aspx",
    "papers_url": "https://www.wyevalley.nhs.uk/about-us/the-trust-board/trust-board-papers-2026.aspx",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.wyevalley.nhs.uk/about-us/the-trust-board/trust-board-papers-2026.aspx",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": null,
-   "last_verified": "2026-09-01T09:59:35Z"
+   "notes": "[2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
+   "last_verified": "2026-09-01T09:59:35Z",
+   "summary_path": "summaries/RLQ_2026-09-03.md"
   },
   {
    "id": "RLQ:2026-10-01",
@@ -4454,7 +4462,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4582,7 +4590,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4656,14 +4664,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RLY:2027-01-14",
@@ -4676,7 +4684,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4696,7 +4704,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4797,7 +4805,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4871,14 +4879,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-10-12] Board table lists '4 Nov 2026 (Wed) 6 Jan 2027 (Wed) 3 Mar 2027 (Wed)'. In state since the 27 May seed but never date-alerted; sent with the 22 Oct / 26 Jan withdrawal.",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "TAJ:2027-01-06",
@@ -4891,7 +4899,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-12T13:57:41Z",
     "papers": null,
@@ -4911,7 +4919,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-12T13:57:41Z",
     "papers": null,
@@ -4993,14 +5001,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RJ6:2027-01-13",
@@ -5013,7 +5021,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5033,7 +5041,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5155,14 +5163,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RCB:2026-11-25",
@@ -5175,7 +5183,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5195,7 +5203,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5215,7 +5223,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5235,7 +5243,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5347,7 +5355,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5422,7 +5430,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5442,7 +5450,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5462,7 +5470,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5499,17 +5507,25 @@
    "title": "Board of Directors Meeting",
    "source_url": "https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.sheffieldchildrens.nhs.uk/about-us/board-of-directors/",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": null,
-   "last_verified": "2026-09-07T11:03:09Z"
+   "notes": "[2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
+   "last_verified": "2026-09-07T11:03:09Z",
+   "summary_path": "summaries/RCU_2026-09-08.md"
   },
   {
    "id": "RCU:2026-11-03",
@@ -5522,14 +5538,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RFR:2026-07-03",
@@ -5654,7 +5670,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5728,14 +5744,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RWY:2026-07-09",
@@ -5801,14 +5817,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXE:2026-05-28",
@@ -5899,7 +5915,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5919,7 +5935,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5939,7 +5955,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6254,7 +6270,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6275,7 +6291,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6296,7 +6312,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6374,18 +6390,26 @@
    "title": "ESNEFT Trust Board of Directors Meeting",
    "source_url": "https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.esneft.nhs.uk/about-us/how-we-work/board-of-directors-meetings/2026-to-2027-board-meetings-papers/september-2026-esneft-board-meeting-papers/",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": null,
+   "notes": "[2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
    "last_verified": "2026-09-01T09:59:35Z",
-   "papers_missing_reported": "2026-10-20"
+   "papers_missing_reported": "2026-10-20",
+   "summary_path": "summaries/RDE_2026-09-03.md"
   },
   {
    "id": "RDE:2026-11-05",
@@ -6398,14 +6422,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RDE:2027-01-07",
@@ -6418,7 +6442,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6438,7 +6462,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6570,14 +6594,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RGM:2026-12-03",
@@ -6590,7 +6614,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6692,7 +6716,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6863,7 +6887,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6937,14 +6961,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RD1:2026-06-03",
@@ -7042,14 +7066,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RH5:2027-01-12",
@@ -7062,7 +7086,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7082,7 +7106,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7155,14 +7179,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RJ8:2027-01-14",
@@ -7175,7 +7199,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7195,7 +7219,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7315,14 +7339,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RK9:2026-11-25",
@@ -7335,7 +7359,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7518,7 +7542,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7801,7 +7825,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7821,7 +7845,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7841,7 +7865,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7994,14 +8018,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RAN:2027-03-04",
@@ -8014,7 +8038,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8034,7 +8058,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8071,17 +8095,25 @@
    "title": "Trust Board Meeting",
    "source_url": "https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.gosh.nhs.uk/about-us/who-we-are/organisational-structure/trust-board/trust-board-meetings/",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": null,
-   "papers_missing_reported": "2026-10-20"
+   "notes": "[2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
+   "papers_missing_reported": "2026-10-20",
+   "summary_path": "summaries/RP4_2026-07-16.md"
   },
   {
    "id": "RP4:2026-09-30",
@@ -8101,7 +8133,8 @@
     "summary": null
    },
    "notes": "[2026-10-01] No papers published as of 1 Oct: the 30 September entry on the trust board meetings page has no document link (latest pack on the page is 16 July 2026).",
-   "last_verified": "2026-09-28T19:27:11Z"
+   "last_verified": "2026-09-28T19:27:11Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "RP4:2026-11-19",
@@ -8114,7 +8147,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8187,7 +8220,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8207,7 +8240,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8360,7 +8393,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8460,7 +8493,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8553,7 +8586,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8573,7 +8606,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8593,7 +8626,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8666,7 +8699,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8789,7 +8822,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8809,7 +8842,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8829,7 +8862,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8927,7 +8960,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8947,7 +8980,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9015,14 +9048,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RHM:2026-07-09",
@@ -9088,14 +9121,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RHM:2027-01-14",
@@ -9108,7 +9141,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9128,7 +9161,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9223,7 +9256,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9271,7 +9304,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9365,7 +9398,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9660,7 +9693,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9680,7 +9713,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9700,7 +9733,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9798,7 +9831,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9818,7 +9851,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9892,7 +9925,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10109,7 +10142,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10129,7 +10162,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10232,7 +10265,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10333,7 +10366,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10462,7 +10495,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10482,7 +10515,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10555,14 +10588,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXV:2027-01-14",
@@ -10575,7 +10608,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10595,7 +10628,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10662,14 +10695,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RBN:2026-06-24",
@@ -10766,14 +10799,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RBN:2026-11-25",
@@ -10786,7 +10819,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10806,7 +10839,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10826,7 +10859,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10846,7 +10879,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10975,7 +11008,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10996,7 +11029,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11100,7 +11133,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11121,7 +11154,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11305,7 +11338,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11324,7 +11357,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11343,7 +11376,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11992,14 +12025,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QUA:2026-12-08",
@@ -12081,7 +12114,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12101,7 +12134,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12121,7 +12154,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12197,7 +12230,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12217,7 +12250,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12237,7 +12270,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12307,7 +12340,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12327,7 +12360,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12347,7 +12380,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12421,7 +12454,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12441,7 +12474,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12461,7 +12494,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12487,7 +12520,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "QNC:2026-09-24",
@@ -12528,14 +12562,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-08-17T20:00:00Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QNC:2027-01-28",
@@ -12548,14 +12582,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-08-17T20:00:00Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QNC:2027-03-25",
@@ -12568,14 +12602,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-08-17T20:00:00Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "T6Y0W:2026-07-15",
@@ -12672,7 +12706,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12692,7 +12726,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13080,14 +13114,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QKS:2026-07-21",
@@ -13160,7 +13194,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13180,7 +13214,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13200,7 +13234,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13220,7 +13254,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13543,7 +13577,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13647,7 +13681,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-09-10T08:15:22Z"
+   "last_verified": "2026-09-10T08:15:22Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "QHL:2026-11-09",
@@ -13660,14 +13695,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QJK:2026-07-30",
@@ -13743,7 +13778,8 @@
     "summary": null
    },
    "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "QJK:2026-11-26",
@@ -13756,7 +13792,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13776,7 +13812,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13796,7 +13832,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13879,7 +13915,8 @@
     "summary": null
    },
    "notes": "swpboard.nhs.uk returns HTTP 403 to requests, Playwright and a browser download alike - the PDFs exist but cannot be read by this tool. Links passed through unanalysed.",
-   "last_verified": "2026-09-24T10:44:31Z"
+   "last_verified": "2026-09-24T10:44:31Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "QT6:2026-11-26",
@@ -13892,7 +13929,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13912,7 +13949,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13932,7 +13969,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14029,7 +14066,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14049,7 +14086,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14069,7 +14106,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14148,7 +14185,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14256,7 +14293,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14276,7 +14313,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14296,7 +14333,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14461,7 +14498,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14481,7 +14518,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14501,7 +14538,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14575,7 +14612,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14647,14 +14684,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "R1F:2026-06-03",
@@ -14748,7 +14785,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14883,7 +14920,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14950,14 +14987,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RA7:2027-01-12",
@@ -14970,7 +15007,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14990,7 +15027,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15069,7 +15106,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15143,14 +15180,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RBD:2026-08-11",
@@ -15253,7 +15290,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15273,7 +15310,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15436,7 +15473,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15456,7 +15493,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15553,7 +15590,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15641,7 +15678,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15661,7 +15698,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15681,7 +15718,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15784,7 +15821,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15901,7 +15938,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15921,7 +15958,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15941,7 +15978,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16045,7 +16082,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16375,7 +16412,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16395,7 +16432,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16415,7 +16452,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16468,7 +16505,8 @@
     "summary": null
    },
    "notes": "[2026-10-01] Date confirmed ('Wednesday 30 September 2026 - 10.00am') but no pack published as of 1 Oct: the public board papers page lists only 28 May 2025 and 29 July 2026 (same via requests and Playwright).",
-   "last_verified": "2026-09-28T19:15:42Z"
+   "last_verified": "2026-09-28T19:15:42Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "RV9:2026-11-25",
@@ -16481,7 +16519,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16547,7 +16585,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16567,7 +16605,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16587,7 +16625,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16653,14 +16691,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RVR:2027-01-07",
@@ -16673,7 +16711,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16693,7 +16731,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16790,7 +16828,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16965,7 +17003,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17052,7 +17090,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17072,7 +17110,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17118,7 +17156,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17309,7 +17347,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17329,7 +17367,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17349,7 +17387,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17513,7 +17551,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17533,7 +17571,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17553,7 +17591,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17649,14 +17687,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXL:2026-12-03",
@@ -17707,7 +17745,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17959,7 +17997,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17979,7 +18017,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17999,7 +18037,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18101,7 +18139,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18242,7 +18280,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18262,9 +18300,9 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-10-22T09:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -18336,14 +18374,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RY5:2027-01-05",
@@ -18356,7 +18394,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18376,7 +18414,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18499,7 +18537,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18585,14 +18623,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RYE:2027-03-04",
@@ -18605,7 +18643,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18742,7 +18780,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18762,7 +18800,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18871,7 +18909,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18891,7 +18929,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18911,7 +18949,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19028,7 +19066,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19048,7 +19086,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19068,7 +19106,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19185,7 +19223,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19205,7 +19243,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19225,7 +19263,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:18:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19326,7 +19364,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19429,7 +19467,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19660,7 +19698,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19680,7 +19718,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19700,7 +19738,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19847,7 +19885,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19867,7 +19905,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -19961,7 +19999,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20318,14 +20356,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RKB:2026-06-04",
@@ -20412,7 +20450,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20533,7 +20571,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20608,7 +20646,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20628,7 +20666,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20648,7 +20686,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20668,7 +20706,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20904,14 +20942,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:42:22Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via PDF fallback (agenda PDF).",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RVJ:2027-01-12",
@@ -20924,7 +20962,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:42:22Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20944,7 +20982,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:42:22Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21212,14 +21250,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "REN:2026-12-02",
@@ -21232,7 +21270,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21252,7 +21290,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21272,7 +21310,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21351,7 +21389,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21430,7 +21468,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21578,7 +21616,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21639,7 +21677,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21818,14 +21856,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (pdf_filename).",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QF7:2027-01-06",
@@ -21838,7 +21876,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21858,7 +21896,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21992,7 +22030,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -22060,14 +22098,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXR:2027-01-13",
@@ -22080,7 +22118,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -22100,7 +22138,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -22117,17 +22155,25 @@
    "title": "Annual General Meeting (AGM)",
    "source_url": "https://www.uhb.nhs.uk/get-involved/public-meetings/",
    "papers_url": "https://www.uhb.nhs.uk/get-involved/public-meetings/",
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://docs.uhb.nhs.uk/index.php/s/prTEizKrRnYnjaD",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-09-24T10:44:31Z"
+   "notes": "Detected via Group C re-extraction (visible_text). | [2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
+   "last_verified": "2026-09-24T10:44:31Z",
+   "summary_path": "summaries/RRK_2026-09-24.md"
   },
   {
    "id": "RPA:2027-01-06",
@@ -22140,7 +22186,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-28T11:08:46Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-28T11:10:30Z",
     "papers": null,
@@ -22160,7 +22206,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-28T11:08:46Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-05-28T11:10:30Z",
     "papers": null,
@@ -22260,7 +22306,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:09:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:10:58Z",
     "papers": null,
@@ -22280,7 +22326,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:09:52Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:10:58Z",
     "papers": null,
@@ -22347,14 +22393,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RYA:2026-11-25",
@@ -22393,7 +22439,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22469,7 +22515,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22550,7 +22596,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22570,7 +22616,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22728,14 +22774,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "R1H:2027-01-13",
@@ -22748,7 +22794,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22768,7 +22814,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22970,14 +23016,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QOP:2027-01-18",
@@ -22990,14 +23036,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QOP:2027-02-17",
@@ -23010,14 +23056,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QOP:2027-03-17",
@@ -23030,14 +23076,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RW4:2027-07-22",
@@ -23050,13 +23096,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RW4:2027-09-23",
@@ -23069,13 +23116,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RW4:2027-11-18",
@@ -23088,13 +23136,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXL:2026-06-04",
@@ -23556,14 +23605,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RC9:2027-02-03",
@@ -23576,7 +23625,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -23737,14 +23786,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RD8:2027-01-07",
@@ -23757,7 +23806,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -23777,7 +23826,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -23828,7 +23877,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -23901,14 +23950,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RYF:2026-07-02",
@@ -23975,7 +24024,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -23983,7 +24032,7 @@
    },
    "notes": "",
    "_previous_source_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RYF:2027-01-07",
@@ -23996,7 +24045,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24017,7 +24066,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24066,7 +24115,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24163,14 +24212,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RY4:2026-06-09",
@@ -24280,7 +24329,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24300,7 +24349,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24320,7 +24369,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24414,7 +24463,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24434,7 +24483,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24509,7 +24558,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24576,7 +24625,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -25197,14 +25246,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
     "summary": null
    },
    "_previous_source_url": "https://www.swlstg.nhs.uk/our-board",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RQX:2026-07-31",
@@ -25337,7 +25386,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
@@ -25457,7 +25506,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-11T18:04:05.857911+00:00",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-11T18:09:11.460120+00:00",
     "papers": null,
@@ -25583,7 +25632,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
@@ -25650,14 +25699,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RJ7:2027-01-07",
@@ -25670,7 +25719,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
@@ -25690,7 +25739,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
@@ -25882,7 +25931,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
@@ -25902,7 +25951,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
@@ -25955,7 +26004,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26002,7 +26051,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26258,7 +26307,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26335,7 +26384,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26355,7 +26404,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26595,7 +26644,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-09-28T19:27:11Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26615,7 +26664,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-09-28T19:27:11Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26635,7 +26684,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-09-28T19:27:11Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -26944,7 +26993,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -27078,7 +27127,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
@@ -27086,7 +27135,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://www.enherts-tr.nhs.uk/about/board/board-meetings/",
-   "last_verified": "2026-10-01T13:59:21Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RWR:2026-09-17",
@@ -27449,7 +27498,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
@@ -27469,7 +27518,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
@@ -28325,7 +28374,8 @@
     "summary": "2026-09-10T22:01:10Z"
    },
    "id": "RD1:2026-09-03",
-   "last_verified": "2026-09-01T09:59:35Z"
+   "last_verified": "2026-09-01T09:59:35Z",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "ods_code": "RD1",
@@ -28337,14 +28387,14 @@
    "status": "date_found",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
     "summary": null
    },
    "id": "RD1:2026-11-05",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "ods_code": "RD1",
@@ -28356,7 +28406,7 @@
    "status": "date_found",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
@@ -28375,7 +28425,7 @@
    "status": "date_found",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
@@ -29089,7 +29139,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "papers_missing_reported": "2026-10-22"
   },
   {
    "id": "RLT:2026-08-05",
@@ -29775,7 +29826,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29795,7 +29846,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29815,7 +29866,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29835,7 +29886,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29855,7 +29906,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29875,7 +29926,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29895,7 +29946,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29915,7 +29966,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29973,7 +30024,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29993,7 +30044,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30013,7 +30064,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30033,7 +30084,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30053,7 +30104,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30073,7 +30124,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30093,7 +30144,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30113,7 +30164,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30133,7 +30184,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30153,7 +30204,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30173,7 +30224,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30193,7 +30244,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30213,7 +30264,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30233,7 +30284,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30253,7 +30304,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30273,7 +30324,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30293,7 +30344,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -30416,7 +30467,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30461,17 +30512,25 @@
    "title": "Public Board Meeting",
    "source_url": "https://www.therotherhamft.nhs.uk/about-us/board-meetings",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.therotherhamft.nhs.uk/about-us/board-meetings",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-09-21T14:27:13Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
    },
-   "notes": null,
-   "last_verified": "2026-09-01T09:59:35Z"
+   "notes": "[2026-10-22] Catch-up pack analysed 19 Oct (Henry), sent this run.",
+   "last_verified": "2026-09-01T09:59:35Z",
+   "summary_path": "summaries/RFR_2026-09-02.md"
   },
   {
    "id": "RFR:2026-11-04",
@@ -30484,14 +30543,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RFR:2027-01-06",
@@ -30504,7 +30563,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30524,7 +30583,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30625,7 +30684,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30645,7 +30704,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30665,7 +30724,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30685,7 +30744,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
@@ -30888,7 +30947,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -30900,7 +30959,7 @@
     "literal_source_verified": true
    },
    "_previous_source_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers/",
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RFF:2026-09-29",
@@ -31005,7 +31064,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31016,7 +31075,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "TAD:2027-01-14",
@@ -31053,7 +31112,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31102,7 +31161,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31126,7 +31185,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31150,7 +31209,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31568,14 +31627,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RX9:2026-10-29",
@@ -31588,14 +31647,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RY3:2026-11-18",
@@ -31608,7 +31667,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31628,7 +31687,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31648,7 +31707,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31688,7 +31747,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31708,7 +31767,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31755,7 +31814,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31775,7 +31834,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31795,7 +31854,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31882,7 +31941,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-27T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
     "papers": null,
@@ -31902,7 +31961,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-27T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
     "papers": null,
@@ -31986,7 +32045,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-27T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
     "papers": null,
@@ -32006,7 +32065,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-27T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
     "papers": null,
@@ -32390,7 +32449,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-31T12:07:06Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-31T12:07:06Z",
     "papers": null,
@@ -32410,13 +32469,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-31T12:07:06Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-31T12:07:06Z",
     "papers": null,
     "summary": null
    },
-   "notes": null
+   "notes": null,
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "QKK:2027-01-27",
@@ -32429,7 +32489,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-31T12:07:06Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-07-31T12:07:06Z",
     "papers": null,
@@ -32992,14 +33052,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 4 November 2026, 09:00 - 12:30 Boardroom, Education Centre, Arrowe Park Hospital",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "REM:2026-11-12",
@@ -33038,7 +33098,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33058,7 +33118,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33078,7 +33138,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33098,7 +33158,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33118,7 +33178,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33138,7 +33198,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33158,7 +33218,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -33296,14 +33356,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RTX:2027-02-16",
@@ -33316,7 +33376,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
@@ -33336,13 +33396,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RH5:2027-11-09",
@@ -33355,13 +33416,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RH5:2028-01-11",
@@ -33374,13 +33436,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RH5:2028-01-14",
@@ -33393,13 +33456,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
     "summary": null
    },
-   "notes": ""
+   "notes": "",
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RLT:2027-02-03",
@@ -33412,7 +33476,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-17T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
@@ -33432,7 +33496,7 @@
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "status": "date_found",
    "first_seen": "2026-08-17T16:00:00Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-08-17T16:00:00Z",
     "papers": null,
@@ -33482,7 +33546,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-08-24T11:51:34Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -33557,7 +33621,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -33632,7 +33696,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-08T11:29:41Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-01T20:03:23Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -33946,8 +34010,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-08-24T11:51:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
@@ -33966,7 +34030,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-08-24T11:51:34Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34070,7 +34134,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34090,7 +34154,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34110,7 +34174,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34130,7 +34194,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34150,7 +34214,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
@@ -34218,7 +34282,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34238,7 +34302,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34258,7 +34322,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34278,7 +34342,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34298,7 +34362,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34318,7 +34382,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34338,7 +34402,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34358,7 +34422,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34378,7 +34442,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34398,7 +34462,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34418,7 +34482,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34438,7 +34502,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34458,8 +34522,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-10-20T14:33:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34478,8 +34542,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-10-20T14:33:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34498,8 +34562,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-10-20T14:33:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34570,7 +34634,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-07T11:35:16Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
@@ -34616,7 +34680,7 @@
    "source_url": "https://www.mpft.nhs.uk/about-us/board-papers/",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-10T08:25:34Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
@@ -34631,8 +34695,8 @@
    "source_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-09-10T08:25:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    }
@@ -34646,8 +34710,8 @@
    "source_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-09-10T08:25:34Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    },
@@ -34662,7 +34726,7 @@
    "source_url": "https://www.westlondon.nhs.uk/about-us/trust-board/board-meetings",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-10T08:25:34Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
@@ -34703,8 +34767,8 @@
    "source_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-20T14:39:47Z",
-   "last_verified": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    }
@@ -34820,7 +34884,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34840,7 +34904,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34860,7 +34924,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34880,7 +34944,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34900,7 +34964,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34970,7 +35034,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -34990,7 +35054,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -35010,7 +35074,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -35030,8 +35094,8 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
-   "last_verified": "2026-09-15T12:00:00Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
     "papers": null,
@@ -35134,7 +35198,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -35154,7 +35218,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -35174,7 +35238,7 @@
    "papers_url": null,
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-15T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -35250,7 +35314,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35272,7 +35336,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35294,7 +35358,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35316,7 +35380,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35338,7 +35402,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35360,7 +35424,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35382,7 +35446,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -35492,7 +35556,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T15:59:44Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T15:59:44Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -37779,7 +37843,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T16:00:58Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T16:00:58Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -37823,7 +37887,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T17:55:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T17:55:00Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -37843,7 +37907,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-17T17:55:00Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-09-17T17:55:00Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
@@ -37863,7 +37927,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-09-22T11:19:37Z",
     "papers": null,
@@ -37872,7 +37936,7 @@
    "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ntexperience@nhs.net . Upcoming Board meetings List of news 5 November 2026 Board Meeting Previous Board meetings List of news 17 Septe",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-10-20T14:33:34Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RYR:2026-11-12",
@@ -37885,7 +37949,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-09-22T11:19:37Z",
     "papers": null,
@@ -37894,7 +37958,7 @@
    "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ing. Important: Next Trust Board meeting in public Thursday 12 November 2026 : 10:00am to 1.15pm Location: Boardroom, 2nd Floor, Washing",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-09-21T14:27:13Z"
+   "last_verified": "2026-10-22T09:07:15Z"
   },
   {
    "id": "RXE:2026-09-24",
@@ -37976,7 +38040,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-24T17:34:29Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-09-24T18:01:28Z",
     "papers": null,
@@ -38059,7 +38123,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-24T17:34:29Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-09-24T18:01:28Z",
     "papers": null,
@@ -38293,7 +38357,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-28T19:27:11Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-09-28T20:53:13Z",
     "papers": null,
@@ -38341,7 +38405,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-01T14:09:36Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-01T20:02:58Z",
     "papers": null,
@@ -38361,7 +38425,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-01T14:09:36Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-01T20:02:58Z",
     "papers": null,
@@ -38381,7 +38445,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-01T14:09:36Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-01T20:02:58Z",
     "papers": null,
@@ -38521,7 +38585,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38541,7 +38605,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38561,7 +38625,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38581,7 +38645,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38601,13 +38665,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-10-05T09:27:48Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "notes": "[2026-10-05] detected via prescan literal HTML (run-20261005-100838); literal evidence: \"Our next In Public Board Meeting will take place on Wednesday 11th November 2026\""
   },
   {
@@ -38621,7 +38685,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38641,7 +38705,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38661,7 +38725,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-05T09:27:48Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-05T11:29:13Z",
     "papers": null,
@@ -38781,13 +38845,13 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-08T11:29:41Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-08T11:55:36Z",
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-10-20T14:33:34Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "notes": "[2026-10-08] detected via prescan literal HTML (run-20261008-121729); page lists \"The dates of the planned Public Board meetings\" under year headings 2026 / 2027, after stating that from July 2026 the BSW Hospitals Group Board replaced the Salisbury trust board. Literal: \"10 November 2026\". NB RUH Bath (RD1) page lists the group board as Thursday 5 November 2026, not 10 November - conflict flagged to correspondent."
   },
   {
@@ -38801,7 +38865,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-08T11:29:41Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-08T11:55:36Z",
     "papers": null,
@@ -38821,7 +38885,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-08T11:29:41Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "alerts_sent": {
     "date": "2026-10-08T11:55:36Z",
     "papers": null,
@@ -38841,7 +38905,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-12T13:43:20Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-12T13:43:20Z",
    "alerts_sent": {
     "date": "2026-10-12T13:57:41Z",
@@ -38917,7 +38981,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -38937,7 +39001,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -38957,7 +39021,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -38977,7 +39041,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -38997,7 +39061,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39017,7 +39081,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39065,7 +39129,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39085,7 +39149,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39105,7 +39169,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39125,7 +39189,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-18T10:58:59Z",
-   "last_checked": "2026-10-18T10:58:59Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-18T10:58:59Z",
    "alerts_sent": {
     "date": "2026-10-18T14:47:42Z",
@@ -39145,7 +39209,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39165,7 +39229,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39192,8 +39256,8 @@
    ],
    "status": "analysed",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
-   "last_verified": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:07:15Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
     "papers": "2026-10-20T15:04:36Z",
@@ -39233,7 +39297,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39253,7 +39317,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39273,7 +39337,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39293,7 +39357,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39313,7 +39377,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39333,7 +39397,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39353,7 +39417,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-10-20T14:39:47Z",
+   "last_checked": "2026-10-22T09:30:04Z",
    "last_verified": "2026-10-20T14:39:47Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -39389,6 +39453,290 @@
    },
    "notes": "[2026-10-20] pack agenda: 'MEETING OF THE BOARD OF DIRECTORS IN PUBLIC Date: Thursday 8 October 2026 Time: 3.00 pm'. Dates page still says 1 Oct.",
    "summary_path": "summaries/R0B_2026-10-08.md"
+  },
+  {
+   "id": "R1D:2027-02-11",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-02-11",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-22T09:42:32Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-02-11). Never alerted for either trust; date alert sent once this run."
+  },
+  {
+   "id": "R1D:2027-04-08",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-04-08",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-04-08). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2027-06-10",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-06-10",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-06-10). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2027-08-12",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-08-12",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-08-12). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2027-10-14",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-10-14",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-10-14). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2027-12-09",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2027-12-09",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2027-12-09). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2028-02-10",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2028-02-10",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2028-02-10). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "R1D:2028-04-13",
+   "ods_code": "R1D",
+   "org_type": "trust",
+   "date": "2028-04-13",
+   "title": "Boards in Common with SaTH",
+   "source_url": "https://www.shropscommunityhealth.nhs.uk/board-meeting-dates",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-20T15:04:36Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal on R1D page under '2027 / 2028 (venues to be confirmed)'. Boards in Common with SaTH (RXW:2028-04-13). Same meeting already date-alerted to Caitlin via RXW on 2026-10-20; not re-sent."
+  },
+  {
+   "id": "RX3:2026-10-28",
+   "ods_code": "RX3",
+   "org_type": "trust",
+   "date": "2026-10-28",
+   "title": "Trust Board (public)",
+   "source_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
+   "papers_url": "https://www.tewv.nhs.uk/about/board/papers-previous-board-meetings/",
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-22T09:42:32Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] Literal: 'The next meeting will be held on Wednesday 28 October at 09.30am. Questions to be submitted by 10am on Friday 23 October 2026. The papers for this meeting will be published here on Friday 23 October 2026.'"
+  },
+  {
+   "id": "RXG:2026-10-27",
+   "ods_code": "RXG",
+   "org_type": "trust",
+   "date": "2026-10-27",
+   "title": "Trust Board (business and risk), in public",
+   "source_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+   "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.southwestyorkshire.nhs.uk/wp-content/uploads/2026/10/Public-agenda-and-papers-27.10.26.pdf",
+     "title": "Public agenda and papers 27.10.26 (374 pages)",
+     "kind": "pdf",
+     "first_seen": "2026-10-22T09:30:04Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-22T09:42:32Z",
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
+   },
+   "notes": "[2026-10-22] Literal on page: 'Next meeting: Tuesday 27 October 2026 at 9:30am, Kendray Hospital'; pack cover: 'Tuesday 27 October 2026 at 9.30am'. Page 403s headless fetchers; read this run via a headed Chrome launch (see ACTIVITY_LOG).",
+   "summary_path": "summaries/RXG_2026-10-27.md"
+  },
+  {
+   "id": "RXG:2026-12-01",
+   "ods_code": "RXG",
+   "org_type": "trust",
+   "date": "2026-12-01",
+   "title": "Trust Board (in public)",
+   "source_url": "https://www.southwestyorkshire.nhs.uk/wp-content/uploads/2026/10/Public-agenda-and-papers-27.10.26.pdf",
+   "papers_url": "https://www.southwestyorkshire.nhs.uk/about-us-2/how-were-run/our-trust-board/meeting-papers/",
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": "2026-10-22T09:42:32Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-10-22] date_source: pack. 27 Oct pack agenda item 16 (pp.4-5): 'The next Trust Board meeting held in public will be held on 1 December 2026'. Not on the schedule page, so Step 5b will report it unverifiable, not contradicted."
+  },
+  {
+   "id": "RRJ:2026-07-08",
+   "ods_code": "RRJ",
+   "org_type": "trust",
+   "date": "2026-07-08",
+   "title": "Meeting book (public board)",
+   "source_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
+   "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
+   "pack_files": [
+    {
+     "url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
+   },
+   "notes": "[2026-10-22] Added from 19 Oct catch-up analysis (date literal in pack). Past meeting, no date alert.",
+   "summary_path": "summaries/RRJ_2026-07-08.md"
+  },
+  {
+   "id": "RWR:2026-07-16",
+   "ods_code": "RWR",
+   "org_type": "trust",
+   "date": "2026-07-16",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "papers_url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+   "pack_files": [
+    {
+     "url": "https://www.hpft.nhs.uk/about-us/corporate-information-and-governance/",
+     "title": "catch-up analysis 2026-10-19 (see summary for files)",
+     "kind": "other",
+     "first_seen": "2026-10-19T16:00:00Z"
+    }
+   ],
+   "status": "analysed",
+   "first_seen": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-22T09:30:04Z",
+   "last_verified": "2026-10-22T09:30:04Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": "2026-10-22T09:42:32Z",
+    "summary": "2026-10-22T09:42:32Z"
+   },
+   "notes": "[2026-10-22] Added from 19 Oct catch-up analysis (date literal in pack). Past meeting, no date alert.",
+   "summary_path": "summaries/RWR_2026-07-16.md"
   }
  ],
  "_scan_errors": [
@@ -40502,7 +40850,7 @@
    "error": "Four future dates (17 Jun / 5 Aug / 7 Oct / 2 Dec 2026) retracted as unverifiable - sourced from the dead 2018 board page and inconsistent with the trust's real Thursday, monthly, no-August pattern. Correction sent to Zoe."
   }
  ],
- "_last_full_scan": "2026-10-20T14:39:47Z",
+ "_last_full_scan": "2026-10-22T09:30:04Z",
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
   "ts": "2026-08-06T09:58:24Z",
