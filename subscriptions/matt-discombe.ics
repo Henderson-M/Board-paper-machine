@@ -407,4 +407,49 @@ SUMMARY:West and North London ICB — West and North London Board of Members
 DESCRIPTION:Detected by Board paper machine. Source: https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
 URL:https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/meetings/w-plus-nl-board-meetings
 END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2027-05-12@board-paper-machine.hsj
+DTSTAMP:20261026T093626Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Barts Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2027-07-14@board-paper-machine.hsj
+DTSTAMP:20261026T093626Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:Barts Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2027-11-10@board-paper-machine.hsj
+DTSTAMP:20261026T093626Z
+DTSTART;VALUE=DATE:20271110
+DTEND;VALUE=DATE:20271111
+SUMMARY:Barts Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2028-01-12@board-paper-machine.hsj
+DTSTAMP:20261026T093626Z
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:Barts Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:R1H-2028-03-08@board-paper-machine.hsj
+DTSTAMP:20261026T093626Z
+DTSTART;VALUE=DATE:20280308
+DTEND;VALUE=DATE:20280309
+SUMMARY:Barts Health NHS Trust — Trust Board Meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bartshealth.nhs.uk/board-meetings
+URL:https://www.bartshealth.nhs.uk/board-meetings
+END:VEVENT
 END:VCALENDAR

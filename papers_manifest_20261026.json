@@ -1,0 +1,50 @@
+[
+ {
+  "id": "papers:RCB_2026-10-28:henry",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] York and Scarborough Teaching Hospitals NHS Foundation Trust board — Wednesday 28 October 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_henry_papers_RCB_2026-10-28.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RCB_2026-10-28.md"
+  ],
+  "_meeting_ids": [
+   "RCB:2026-10-28"
+  ]
+ },
+ {
+  "id": "papers:RK9_2026-10-28:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Plymouth NHS Trust board — Wednesday 28 October 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_joe_papers_RK9_2026-10-28.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RK9_2026-10-28.md"
+  ],
+  "_meeting_ids": [
+   "RK9:2026-10-28"
+  ]
+ },
+ {
+  "id": "papers:RX9_2026-10-29:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board — Thursday 29 October 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_annabelle_papers_RX9_2026-10-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX9_2026-10-29.md"
+  ],
+  "_meeting_ids": [
+   "RX9:2026-10-29"
+  ]
+ },
+ {
+  "id": "papers:RX9_2026-10-29:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] East Midlands Ambulance Service NHS Trust board — Thursday 29 October 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_alison_papers_RX9_2026-10-29.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX9_2026-10-29.md"
+  ],
+  "_meeting_ids": [
+   "RX9:2026-10-29"
+  ]
+ }
+]

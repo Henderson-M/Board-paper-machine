@@ -1,3 +1,38 @@
+## 2026-10-26: Full sweep, Henry's machine. 3 packs sent, 5 dates sent, 0 withdrawals. 7/7 emails sent live
+
+Run from Henry's machine, started 09:07 UTC. All 239 in-scope orgs scanned.
+**0 orgs broken, 0 degraded, 0 stale, 0 not checked.** The four orgs that failed on 22 Oct (RPC Queen Victoria,
+RM3 Northern Care Alliance, RNA Dudley, RT5 Leicestershire Partnership) all read cleanly via plain requests.
+
+**Pre-scan** resolved 177 of 239 orgs in 34 seconds. 62 went to three Sonnet date agents (all read, 82 dates found,
+every one already in state, none contradicted). Two Sonnet pack hunters covered the 45 meetings in the 5 Oct-5 Nov
+window; one Sonnet watchlist agent read the 8 watchlist orgs the pre-scan could not clear (the other 10 cleared from
+pre-scan links). No headed browser used. Pre-scan false positives rejected: print/review stamps (Royal Free, MKUH, CUH,
+Bristol x2, Shropshire Community), LLR/Northants question deadline and mis-yeared 15 Oct 2027, GM locality boards,
+George Eliot registration deadline, UH Sussex question deadline, Medway governors, Kent and Medway ICP, BWC/St George's/
+LPT mis-yeared tokens, YAS job advert, SaTH provisional AGM, Central East "papers published by", Salisbury today-date banner.
+
+**Dates.** New: Barts (R1H) 12 May, 14 Jul, 10 Nov 2027, 12 Jan, 8 Mar 2028 (literal on board page), to Matt Discombe +
+Ella (override live to 28 Oct). Barts also lists 18 Sep 2027, a Saturday: dropped by the weekday guard and flagged in the
+email. Re-verification: 120 checked, 89 confirmed, 20 unverifiable, 6 unreadable, 5 contradicted (the same known matcher
+artefacts: BWC, Black Country ICB, Blackpool x2, Central East ICB; none alerted, kept).
+
+**Packs.** Analysed on Fable, quotes checked against the pack text:
+- York and Scarborough (RCB) 28 Oct, 400-page pack + 3 late papers: 6 LEAD / 11 WW / 8 FOI, to Henry.
+- Plymouth (RK9) 28 Oct, 246 pages: 7 LEAD / 10 WW / 6 FOI, to Joe.
+- EMAS (RX9) 29 Oct, PARTIAL (10 files; PB/26/192-196 incl. Thirlwall and BAF not yet linked): 4 LEAD / 7 WW / 5 FOI,
+  to Annabelle + Alison. Left as papers_found so the next run re-checks; a supplementary alert is intended (see meeting note).
+Not yet out: Sheffield Teaching (RHQ) 3 Nov lists papers A-X as unlinked text; WMAS 28 Oct agenda only, papers on request.
+
+**Aged out without papers:** Barnsley 1 Oct (probed the usual unlinked sites/default/files patterns, all 404; June
+control URL fine) and Alder Hey 1 Oct. Stamped papers_missing_reported.
+
+**Fixes:** QF7 4 Nov meeting papers_url pointed at a board-dates PDF; cleared so the org url is used.
+
+**Not done / handed back:**
+- Barnsley 1 Oct pack: Henry to ask the trust if wanted.
+- merge_scan.py (14 Sep one-off) still untracked in the repo root; left alone.
+
 ## 2026-10-22: Full sweep, Henry's machine. 9 packs sent (1 new + 8 catch-ups), 4 dates sent, 0 withdrawals
 
 Run from Henry's machine, started 10:04 BST. All 239 in-scope orgs scanned.

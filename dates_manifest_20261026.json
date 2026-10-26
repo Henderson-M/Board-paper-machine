@@ -1,0 +1,34 @@
+[
+ {
+  "id": "dates:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_ella_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/ella_20261026.ics"
+  ],
+  "_meeting_ids": [
+   "R1H:2027-05-12",
+   "R1H:2027-07-14",
+   "R1H:2027-11-10",
+   "R1H:2028-01-12",
+   "R1H:2028-03-08"
+  ]
+ },
+ {
+  "id": "dates:matt-discombe",
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261026_matt-discombe_dates.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/subscriptions/new/matt-discombe_20261026.ics"
+  ],
+  "_meeting_ids": [
+   "R1H:2027-05-12",
+   "R1H:2027-07-14",
+   "R1H:2027-11-10",
+   "R1H:2028-01-12",
+   "R1H:2028-03-08"
+  ]
+ }
+]
