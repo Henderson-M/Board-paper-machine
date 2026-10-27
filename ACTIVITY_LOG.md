@@ -1,3 +1,33 @@
+## 2026-10-27: Full sweep, Dave's machine. 2 packs sent, 0 dates, 0 withdrawals. 3/3 emails sent live
+
+Run from Dave's machine, started 14:42 UTC, one day after Henry's 26 Oct sweep. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RJ1 Guy's and St Thomas': headless Chromium gets "Access forbidden"), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 182 of 239 orgs in 61 seconds. 57 went to three Sonnet date agents; two Sonnet pack hunters
+covered the 48 meetings in the 6 Oct-6 Nov window; one Sonnet watchlist agent read the 9 watchlist orgs the pre-scan
+could not (the other 9 cleared from pre-scan links, no new files). No headed browser used.
+
+**Dates.** None new. Pre-scan candidates were all the known false positives (print/review stamps, question and
+registration deadlines, Medway governors, Kent and Medway ICP, GM locality boards, mis-yeared BWC/St George's/LPT
+tokens, YAS job advert, SaTH provisional AGM, Barts Saturday). Herts Partnership's extra 17 Dec / 25 Feb rows are
+Private sessions per the table's type column. Re-verification: 120 checked, 91 confirmed, 20 unverifiable, 4
+unreadable, 5 contradicted (same known matcher artefacts: BWC, Black Country ICB, Blackpool x2, Central East ICB;
+none alerted, kept).
+
+**Packs.** Analysed on Fable from pre-extracted text, quotes checked against the pack:
+- TEWV (RX3) 28 Oct, 221-page meeting book: 8 LEAD / 8 WW / 5 FOI, to Matt Mathers.
+- Mersey and West Lancashire (RBN) 28 Oct, 223-page pack: 4 LEAD / 9 WW / 5 FOI, to Zoe. (IPR pages had no text
+  layer; the analyser read them as page images.)
+Not yet out: EMAS 29 Oct supplementary PB/26/192-196 (Thirlwall, BAF) still unlinked; Sheffield Teaching 3 Nov
+papers A-X still unlinked text; WMAS agenda only; Pennine 7 Oct still nothing; Sheffield Children's site timing out.
+SCAS: page says 28 Oct is the Annual Members Meeting and the next board is 5 Nov (noted on the 28 Oct entry, not
+retracted). RBN 28 Oct had never had a date alert; superseded by the papers alert.
+
+**Aged out without papers:** none newly.
+
+**Not done / handed back:** GSTT unreadable without a headed browser (same decision as 22 Oct). SCAS 28 Oct entry
+probably not a board meeting.
+
 ## 2026-10-26: Full sweep, Henry's machine. 3 packs sent, 5 dates sent, 0 withdrawals. 7/7 emails sent live
 
 Run from Henry's machine, started 09:07 UTC. All 239 in-scope orgs scanned.

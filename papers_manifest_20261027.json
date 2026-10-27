@@ -1,0 +1,26 @@
+[
+ {
+  "id": "papers:RX3_2026-10-28:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Tees, Esk and Wear Valleys NHS Foundation Trust board - 28 Oct 2026 - 8 leads",
+  "body_file": "outbox/20261027_matt-mathers_papers_RX3_2026-10-28.md",
+  "attach": [
+   "summaries/RX3_2026-10-28.md"
+  ],
+  "_meeting_ids": [
+   "RX3:2026-10-28"
+  ]
+ },
+ {
+  "id": "papers:RBN_2026-10-28:zoe",
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Mersey and West Lancashire Teaching Hospitals NHS Trust board - 28 Oct 2026 - 4 leads",
+  "body_file": "outbox/20261027_zoe_papers_RBN_2026-10-28.md",
+  "attach": [
+   "summaries/RBN_2026-10-28.md"
+  ],
+  "_meeting_ids": [
+   "RBN:2026-10-28"
+  ]
+ }
+]
