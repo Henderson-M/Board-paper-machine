@@ -838,9 +838,10 @@
   "ics": "South East London",
   "correspondent": "Ella",
   "url": "https://www.lewishamandgreenwich.nhs.uk/board-meetings",
-  "notes": "[2026-09-10] A forward date is now published: 27 October 2026 (University Hospital Lewisham), row title 'Board 1 (Held in public)'. Prior notes (Jul 2026) said only past Jan/Apr dates were listed with no forward schedule — that has now changed. | [2026-07-21] URL CORRECTED: /board-papers holds only past packs and repeatedly produced false no-forward-dates | [2026-07-13] Only dates listed are 28 Jan 2026 and 28 Apr 2026, both now past. No forward 2026-27 dates published yet on this page; needs re-check for new schedule. [2026-07-16] Only past 2026 dates (28 Jan, 28 Apr) listed; no forward schedule published yet. || [2026-09-17] YEAR CORRECTED: WebFetch's built-in tool mis-resolved all four dates as 2027 (hallucinated year, contradicted by the page). The page literally has the heading 'Meeting dates 2026' directly above the list 'Board 1 (Held in public), 10am to 12 midday: 27 January / 28 April / 28 July / 27 October'. Correct year is 2026 throughout. Only 27 October 2026 is forward; the other three are past. No 2027 schedule published yet.",
+  "notes": "[2026-10-29] papers_url set to https://www.lewishamandgreenwich.nhs.uk/board-papers (probe: ok_no_schedule). Previous: none | [2026-09-10] A forward date is now published: 27 October 2026 (University Hospital Lewisham), row title 'Board 1 (Held in public)'. Prior notes (Jul 2026) said only past Jan/Apr dates were listed with no forward schedule — that has now changed. | [2026-07-21] URL CORRECTED: /board-papers holds only past packs and repeatedly produced false no-forward-dates | [2026-07-13] Only dates listed are 28 Jan 2026 and 28 Apr 2026, both now past. No forward 2026-27 dates published yet on this page; needs re-check for new schedule. [2026-07-16] Only past 2026 dates (28 Jan, 28 Apr) listed; no forward schedule published yet. || [2026-09-17] YEAR CORRECTED: WebFetch's built-in tool mis-resolved all four dates as 2027 (hallucinated year, contradicted by the page). The page literally has the heading 'Meeting dates 2026' directly above the list 'Board 1 (Held in public), 10am to 12 midday: 27 January / 28 April / 28 July / 27 October'. Correct year is 2026 throughout. Only 27 October 2026 is forward; the other three are past. No 2027 schedule published yet.",
   "_previous_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers/",
-  "schedule_url": null
+  "schedule_url": null,
+  "papers_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers"
  },
  {
   "ods_code": "RJ6",
@@ -914,8 +915,8 @@
   "ics": "North Central London",
   "correspondent": "Ella",
   "url": "https://www.moorfields.nhs.uk/about-us/our-organisation/corporate-publications/board-reports/board-papers-2026",
-  "notes": "[2026-07-21] Publishes no forward calendar; packs appear only retrospectively. | [2026-07-13] Confirmed: page lists only past 2026 board packs (Feb, Mar, Jun). No forward calendar published. Meets monthly except Aug/Dec; new packs appear here as meetings approach. [2026-07-16] Page lists only past 2026 packs (Feb, Mar, Jun); no forward calendar published. Meets monthly except Aug/Dec.",
-  "schedule_url": null
+  "notes": "[2026-10-29] schedule_url set to https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board (probe: ok_schedule). Previous: none | [2026-07-21] Publishes no forward calendar; packs appear only retrospectively. | [2026-07-13] Confirmed: page lists only past 2026 board packs (Feb, Mar, Jun). No forward calendar published. Meets monthly except Aug/Dec; new packs appear here as meetings approach. [2026-07-16] Page lists only past 2026 packs (Feb, Mar, Jun); no forward calendar published. Meets monthly except Aug/Dec.",
+  "schedule_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board"
  },
  {
   "ods_code": "RPY",
@@ -1881,8 +1882,8 @@
   "ics": "North East London",
   "correspondent": "Matt Discombe",
   "url": "https://www.homerton.nhs.uk/board-papers/",
-  "notes": "[2026-07-21] HARD-BLOCK WEBFETCH. Third consecutive run fabricating dates from paper FILENAMES (papers-january-2026.pdf -> 2027-01-01). Page publishes no dates at all. Playwright only. | [2026-07-13] Page shows board papers as year accordions (2026/2025/2024) only; no meeting dates in page text. WebFetch hallucinated a 2027-01-01 date - discarded. No future public board dates listed. [2026-07-16] Board papers page shows year accordions only; no future public board dates listed. | [2026-08-17] Homerton lists board packs under MONTH-ONLY headings (January/March/May/July 2026) with no day and publishes NO forward schedule. Earlier runs day-defaulted these to the 1st and also carried three dates that appear nowhere on the page - all retracted. Do not record a Homerton date without a literal day on the page. On the papers watchlist.",
-  "schedule_url": null
+  "notes": "[2026-10-29] schedule_url set to https://www.homerton.nhs.uk/board-of-directors (probe: stale_content). Previous: none | [2026-07-21] HARD-BLOCK WEBFETCH. Third consecutive run fabricating dates from paper FILENAMES (papers-january-2026.pdf -> 2027-01-01). Page publishes no dates at all. Playwright only. | [2026-07-13] Page shows board papers as year accordions (2026/2025/2024) only; no meeting dates in page text. WebFetch hallucinated a 2027-01-01 date - discarded. No future public board dates listed. [2026-07-16] Board papers page shows year accordions only; no future public board dates listed. | [2026-08-17] Homerton lists board packs under MONTH-ONLY headings (January/March/May/July 2026) with no day and publishes NO forward schedule. Earlier runs day-defaulted these to the 1st and also carried three dates that appear nowhere on the page - all retracted. Do not record a Homerton date without a literal day on the page. On the papers watchlist.",
+  "schedule_url": "https://www.homerton.nhs.uk/board-of-directors"
  },
  {
   "ods_code": "RRV",

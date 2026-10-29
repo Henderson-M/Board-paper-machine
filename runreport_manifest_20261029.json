@@ -1,0 +1,9 @@
+[
+ {
+  "id": "runreport",
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report \u2014 29 Oct \u2014 12 dates, 4 packs, 1 org needs attention",
+  "body_file": "outbox/20261029_runreport.md",
+  "attach": []
+ }
+]

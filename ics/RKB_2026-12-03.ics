@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RKB-2026-12-03@board-paper-machine.hsj
+DTSTAMP:20261029T130410Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:University Hospitals Coventry and Warwickshire NHS Trust — Public Board of Directors meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhcw.nhs.uk/about-us/board-of-directors/
+URL:https://www.uhcw.nhs.uk/about-us/board-of-directors/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,58 @@
+[
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates_james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.discombe@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_matt-discombe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 2 new meeting date(s) detected",
+  "id": "dates_caitlin",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 3 new meeting date(s) detected",
+  "id": "dates_ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Doncaster and Bassetlaw Teaching Hospitals board \u2014 3 November 2026 \u2014 8 leads",
+  "id": "papers_RP5_2026-11-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Sheffield Teaching Hospitals board \u2014 3 November 2026 \u2014 5 leads",
+  "id": "papers_RHQ_2026-11-03",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] Cumbria, Northumberland, Tyne and Wear board \u2014 4 November 2026 \u2014 5 leads",
+  "id": "papers_RX4_2026-11-04",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] Lewisham and Greenwich board \u2014 27 October 2026 \u2014 7 leads",
+  "id": "papers_RJ2_2026-10-27",
+  "ok": true,
+  "err": ""
+ }
+]

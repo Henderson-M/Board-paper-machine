@@ -1,3 +1,50 @@
+## 2026-10-29: Full sweep, Henry's machine. 4 packs sent, 12 dates sent (4 alerts), 0 withdrawals. 8/8 emails sent live
+
+Run started 12:41 UTC, two days after Dave's 27 Oct sweep. All 239 in-scope orgs scanned.
+**0 orgs broken, 1 degraded (RJ1 Guy's and St Thomas', 2nd consecutive headless block), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 183 of 239 orgs in 30 seconds. 56 went to three Sonnet date agents; two Sonnet pack hunters
+covered the 45 meetings in the 8 Oct-8 Nov window plus the two meetings found mid-run; the 18 watchlist orgs were
+cleared deterministically (12 from pre-scan links, 5 by direct fetch using each org's documented quirk, RJ1 blocked).
+No headed browser used. The Ella-shadows-Matt-Discombe override expired 28 Oct and lapsed this run.
+
+**Dates.** 12 new entries sent in 4 alerts:
+- NWUHG group board 2 Nov (RCX/RGP/RM1, one event), 10am MS Teams, agenda already up — to James.
+- Norfolk and Suffolk ICB (T6Y0W) SPECIAL board 4 Nov, single decision item "Norfolk and Waveney Hospital University
+  Group Case for Change"; its agenda also discloses a new 16 Dec board — both to James.
+- Whittington (RKE) 17 Dec, page marks it "(new date)"; the 26 Nov entry it replaces was retracted quietly (never
+  alerted). The pre-scan's "28 Oct meeting" turned out to be the page footer's last-updated stamp — not recorded.
+- Homerton (RQX) 25 Nov (schedule_url corrected to /board-of-directors; org_urls probe mis-called the page stale and
+  was overridden after manual verification) — to Matt Discombe with RKE.
+- UHCW (RKB) 3 Dec + 4 Feb (literal but split across HTML tags, so the parser misses them) — to Caitlin.
+- Moorfields (RP6) 26 Nov, 4 Feb, 25 Mar (schedule_url corrected to the trust-board page) — to Ella.
+RP6 and RKB left the papers watchlist (verified future dates). Re-verification: 120 checked, 98 confirmed, 14
+unverifiable, 3 unreadable, 5 contradicted — the same five known matcher artefacts as the last two runs (BWC, Black
+Country ICB, Blackpool x2, Central East ICB; none alerted, kept). The date agents' one contradiction claim (NENC ICB
+25 Nov) was checked by hand and is FALSE — the page still says "next Board meeting... Wednesday 25 November"; its
+separate "Future meetings" list just omits it. Confirmed, not retracted. Dartford's 3 Dec/4 Feb dates queried by an
+agent as possible cross-contamination are genuine (sourced from Dartford's own October pack agenda).
+
+**Packs.** Analysed on Fable from pre-extracted text, quotes checked against the pack:
+- DBTH (RP5) 3 Nov, 1.4m-char meeting book: 8 LEAD / 3 WW / 3 FOI, to Henry. Exceptionally rich: £50.5m underlying
+  deficit estimate, NHSE emergency cash support application, Q2 DSF withheld, CQC s29A warning notice, 187 MARS
+  applications, three-trust shared leadership, maternity MOSS level 1.
+- Sheffield Teaching (RHQ) 3 Nov, 21 of 23 papers now live: 5 LEAD / 5 WW / 2 FOI, to Henry. Paper D (IPR) and
+  Paper U (Audit & Risk) still unlinked text — re-check next run. Papers W and X no longer listed.
+- CNTW (RX4) 4 Nov, 287-page pack: 5 LEAD / 6 WW / 3 FOI, to Matt Mathers.
+- Lewisham and Greenwich (RJ2) 27 Oct (late publication, incl AGM): 7 LEAD / 5 WW / 3 FOI, to Ella. NOF segment 4,
+  KPMG called in over cancer-data error, SEL acute services review in pack. papers_url corrected to /board-papers.
+Not yet out: EMAS 29 Oct supplementary PB/26/192-196 (Thirlwall, BAF) still unlinked (meeting today, stays in
+window); NWUHG 2 Nov full pack (agenda only); RYA WMAS agenda-only/on-request; RD1 Bath 5 Nov papers link present
+but commented out in the HTML; everything else in the window shows September or no documents yet.
+
+**Aged out without papers:** Pennine Care (RT2) 7 Oct — stamped papers_missing_reported. The trust never published
+the pack; nothing new was found on 5 checks since 7 Oct.
+
+**Not done / handed back:** GSTT (RJ1) unreadable without a headed browser, second consecutive run — same decision
+as 22 and 27 Oct; flagged to Henry in the run report. Mid Cheshire (RBT) watchlist poll still yields 0 links under
+every fetcher (known limitation; date page read fine via agent).
+
 ## 2026-10-27: Full sweep, Dave's machine. 2 packs sent, 0 dates, 0 withdrawals. 3/3 emails sent live
 
 Run from Dave's machine, started 14:42 UTC, one day after Henry's 26 Oct sweep. All 239 in-scope orgs scanned.

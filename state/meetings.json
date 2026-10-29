@@ -652,7 +652,7 @@
     "summary": null
    },
    "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 — verify.",
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QOQ:2027-01-20",
@@ -765,14 +765,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RPC:2026-07-09",
@@ -838,7 +838,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RPC:2027-01-21",
@@ -2202,7 +2202,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RHA:2026-05-28",
@@ -2316,7 +2316,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RNQ:2026-06-11",
@@ -2407,14 +2407,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RNQ:2026-12-10",
@@ -2532,14 +2532,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RNS:2026-12-10",
@@ -3347,7 +3347,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RTG:2027-01-12",
@@ -3447,14 +3447,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RWD:2027-01-05",
@@ -3693,7 +3693,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RX1:2027-01-14",
@@ -3989,7 +3989,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "R1D:2026-06-01",
@@ -4147,7 +4147,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RJC:2026-06-03",
@@ -4342,7 +4342,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RLQ:2026-06-04",
@@ -4672,7 +4672,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RLY:2027-01-14",
@@ -4813,7 +4813,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "TAJ:2026-07-01",
@@ -4880,14 +4880,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-10-12T13:57:41Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-10-12] Board table lists '4 Nov 2026 (Wed) 6 Jan 2027 (Wed) 3 Mar 2027 (Wed)'. In state since the 27 May seed but never date-alerted; sent with the 22 Oct / 26 Jan withdrawal.",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "TAJ:2027-01-06",
@@ -5009,7 +5009,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RJ6:2027-01-13",
@@ -5457,14 +5457,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RCF:2027-01-13",
@@ -5565,14 +5565,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RFR:2026-07-03",
@@ -5768,17 +5768,24 @@
    "title": "Board of Directors Meeting",
    "source_url": "https://www.dbth.nhs.uk/board/",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.dbth.nhs.uk/wp-content/uploads/2026/10/Board-of-Directors-Public-3-November-2026.pdf",
+     "title": "Board of Directors Public - 3 November 2026 (combined meeting book)",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:57:40Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-29T14:04:45Z",
+    "summary": "2026-10-29T14:04:45Z"
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z",
+   "summary_path": "summaries/RP5_2026-11-03.md"
   },
   {
    "id": "RWY:2026-07-09",
@@ -5851,7 +5858,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXE:2026-05-28",
@@ -5949,7 +5956,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RY6:2027-01-21",
@@ -6449,14 +6456,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RDE:2027-01-07",
@@ -6621,14 +6628,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RGM:2026-12-03",
@@ -6988,14 +6995,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RD1:2026-06-03",
@@ -7100,7 +7107,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RH5:2027-01-12",
@@ -7213,7 +7220,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RJ8:2027-01-14",
@@ -7858,15 +7865,15 @@
    "source_url": "https://www.whittington.nhs.uk/default.asp?c=20208",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-22T09:30:04Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": "[2026-10-29] RETRACTED: the Whittington page's 'Meetings in 2026' list now shows '17 December 2026 (new date)' and no longer lists 26 November; 17 Dec added as replacement. Never alerted, so no withdrawal owed. Verified by direct fetch this run.",
    "last_verified": "2026-10-05T09:10:52Z"
   },
   {
@@ -8053,14 +8060,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RAN:2027-03-04",
@@ -8189,7 +8196,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RRU:2026-06-18",
@@ -9083,14 +9090,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RHM:2026-07-09",
@@ -9163,7 +9170,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RHM:2027-01-14",
@@ -10034,14 +10041,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RM3:2027-01-13",
@@ -10388,7 +10395,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-05T09:10:52Z",
+   "papers_missing_reported": "2026-10-29"
   },
   {
    "id": "RT2:2026-12-02",
@@ -10630,7 +10638,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXV:2027-01-14",
@@ -10730,14 +10738,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RBN:2026-06-24",
@@ -12077,7 +12085,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QUA:2026-12-08",
@@ -12166,7 +12174,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-20T14:39:47Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QJ2:2027-01-21",
@@ -12282,7 +12290,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QJM:2027-01-21",
@@ -12392,7 +12400,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QT1:2027-01-21",
@@ -13159,14 +13167,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QKS:2026-07-21",
@@ -13747,7 +13755,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QJK:2026-07-30",
@@ -14118,7 +14126,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "S0E4D:2027-01-20",
@@ -14736,7 +14744,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "R1F:2026-06-03",
@@ -15039,7 +15047,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RA7:2027-01-12",
@@ -15225,14 +15233,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RBD:2026-08-11",
@@ -15335,14 +15343,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "REF:2027-01-07",
@@ -16208,7 +16216,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RNA:2027-01-20",
@@ -16340,7 +16348,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16637,7 +16645,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-08T11:21:37Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RVN:2027-01-13",
@@ -16736,14 +16744,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RVR:2027-01-07",
@@ -17142,7 +17150,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RWV:2027-01-19",
@@ -17198,18 +17206,25 @@
    "title": "Board Meeting 2026",
    "source_url": "https://www.cntw.nhs.uk/about-us/trust/our-board-and-governors",
    "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "pack_files": [
+    {
+     "url": "https://www.cntw.nhs.uk/download_file/c5c37e59-7e04-4b7e-8593-14fe4a07cccc/258",
+     "title": "CNTW Public Board Papers - 4 November 2026",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:57:40Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-29T14:04:45Z",
+    "summary": "2026-10-29T14:04:45Z"
    },
    "notes": null,
    "_previous_source_url": "https://www.cntw.nhs.uk/events/",
-   "last_verified": "2026-08-17T20:00:00Z"
+   "last_verified": "2026-10-29T12:47:06Z",
+   "summary_path": "summaries/RX4_2026-11-04.md"
   },
   {
    "id": "RX6:2026-09-17",
@@ -17399,7 +17414,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RX6:2027-01-21",
@@ -17603,7 +17618,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXK:2027-01-20",
@@ -17732,14 +17747,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXL:2026-12-03",
@@ -18419,14 +18434,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RY5:2027-01-05",
@@ -18668,14 +18683,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RYE:2027-03-04",
@@ -20397,18 +20412,125 @@
    "date": "2026-11-03",
    "title": "Board meeting",
    "source_url": "https://www.sth.nhs.uk/about-us/board-meetings/",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.sth.nhs.uk/about-us/2026-board-papers/",
+   "pack_files": [
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/0%20-%2020261103%20-%20Public%20Board%20of%20Directors%20Meeting%20Agenda.pdf",
+     "title": "Agenda",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/A%20-%202026%2009%2008%20-%20Public%20BoD%20Minutes%20Final.pdf",
+     "title": "Paper A - Minutes of the Previous Meeting held on Tuesday 8 September 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/B%20-%20Chair's%20Report(1).pdf",
+     "title": "Paper B - Chair’s Report",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/C%20-%20Chief%20Executive's%20Matters.pdf",
+     "title": "Paper C - Chief Executive’s Matters",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/E%20-%20Quarter%202%20Capital%20Plan.pdf",
+     "title": "Paper E - Quarter Two Capital Plan",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/F%20-%20Finance%20and%20Performance%20Committee%20Meeting%20Assurance%20Report.pdf",
+     "title": "Paper F - Finance and Performance Committee Meeting Assurance Reports from the meetings held on 14 September and 12 October 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/G%20-%20Winter%20Plan.pdf",
+     "title": "Paper G - Winter Plan",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/H%20-%20Thirlwall%20Update.pdf",
+     "title": "Paper H - Thirlwall Update",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/I%20-%20Quality%20Committee%20Meeting%20Assurance%20Report%20-%20September%20and%20October%202026.pdf",
+     "title": "Paper I - Quality Committee Meeting Assurance Reports from the meetings held on 21 September and 19 October 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/J%20-%20Learning%20from%20Deaths%20Report.pdf",
+     "title": "Paper J - Learning from Deaths Report",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/K%20-%20Equality%2C%20Diversity%20and%20Inclusion%20Annual%20Report.pdf",
+     "title": "Paper K - Equality, Diversity and Inclusion Annual Report",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/L%20-%20STH%20Community%20Activity%20and%20Delivery%20Locations.pdf",
+     "title": "Paper L - STH Community Activity and Delivery Locations",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/M%20-%20Interim%20Research%20and%20Innovation%20Strategy%202027-29.pdf",
+     "title": "Paper M - Interim Research and Innovation Strategy",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/N%20-%20Research%20and%20Innovation%20Meeting%20Assurance%20Report.pdf",
+     "title": "Paper N - Research and Innovation Committee Meeting Assurance Report from the meeting held on 19 October 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/O%20-%20People%20Committee%20Meeting%20Assurance%20Report%20-%20September%20and%20October.pdf",
+     "title": "Paper O - People Committee Meeting Assurance Reports from the meetings held on 23 September and 12 October 2026",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/P%20-%20Workforce%20Race%20Equality%20Standard%20and%20Workforce%20Disability%20Equality%20Standard.pdf",
+     "title": "Paper P - Workforce Race Equality Standard (WRES) and Workforce Disability Equality Standard (WDES)",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/Q%20-%20Corporate%20Strategy%20Update.pdf",
+     "title": "Paper Q - Corporate Strategy Update",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/R%20-%20Reservation%20of%20Powers%20(Scheme%20of%20Delegation)%20and%20Standing%20Financial%20Instructions%20Policy.pdf",
+     "title": "Paper R - Policy for Approval: Reservation of Powers (Scheme of Delegation) and Standing Financial Instructions",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/S%20-%20System%20and%20Partnership%20Update.pdf",
+     "title": "Paper S - System and Partnership Update",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/T%20-%20Board%20Out%20and%20About%20Visits.pdf",
+     "title": "Paper T - Board Out and About Visits",
+     "kind": "pdf"
+    },
+    {
+     "url": "https://www.sth.nhs.uk/download/clientfiles/files/V%20-%20Action%20Log.pdf",
+     "title": "Paper V - Action Log",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:57:40Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-29T14:04:45Z",
+    "summary": "2026-10-29T14:04:45Z"
    },
-   "notes": "Detected via Playwright fallback (WebFetch was blocked). [2026-10-26] 3 Nov section of https://www.sth.nhs.uk/about-us/2026-board-papers/ lists agenda and Papers A-X as plain text, no links yet (items incl. Winter Plan, Thirlwall update, Lord Mann Review response). Re-check next run.",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "notes": "Detected via Playwright fallback (WebFetch was blocked). [2026-10-26] 3 Nov section of https://www.sth.nhs.uk/about-us/2026-board-papers/ lists agenda and Papers A-X as plain text, no links yet (items incl. Winter Plan, Thirlwall update, Lord Mann Review response). Re-check next run. | [2026-10-29] Papers A-C, E-T, V live (21 files); Paper D (Integrated Performance Report) and Paper U (Audit & Risk Cttee report) still unlinked text; W and X no longer listed. Re-check next run for D and U.",
+   "last_verified": "2026-10-29T12:47:06Z",
+   "summary_path": "summaries/RHQ_2026-11-03.md"
   },
   {
    "id": "RKB:2026-06-04",
@@ -20698,7 +20820,7 @@
     "summary": null
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked).",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RW4:2027-01-21",
@@ -20994,7 +21116,7 @@
     "summary": null
    },
    "notes": "Detected via PDF fallback (agenda PDF).",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RVJ:2027-01-12",
@@ -21295,14 +21417,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "REN:2026-12-02",
@@ -21901,14 +22023,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T16:02:50Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (pdf_filename). [2026-10-26] Meeting papers_url pointed at a syics.co.uk PDF of 2026-27 board dates, not a papers page; cleared so the org url (meetings-and-papers) is used.",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QF7:2027-01-06",
@@ -22150,7 +22272,7 @@
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (visible_text).",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXR:2027-01-13",
@@ -22438,7 +22560,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -22826,7 +22948,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "R1H:2027-01-13",
@@ -23068,7 +23190,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-22T09:07:15Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QOP:2027-01-18",
@@ -23650,14 +23772,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RC9:2027-02-03",
@@ -23831,14 +23953,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RD8:2027-01-07",
@@ -24002,7 +24124,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RYF:2026-07-02",
@@ -24069,7 +24191,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
@@ -24077,7 +24199,7 @@
    },
    "notes": "",
    "_previous_source_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RYF:2027-01-07",
@@ -24264,7 +24386,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RY4:2026-06-09",
@@ -25298,7 +25420,7 @@
     "summary": null
    },
    "_previous_source_url": "https://www.swlstg.nhs.uk/our-board",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RQX:2026-07-31",
@@ -25744,14 +25866,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-15T12:00:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-06-15T12:00:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-26T09:08:25Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RJ7:2027-01-07",
@@ -27180,7 +27302,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://www.enherts-tr.nhs.uk/about/board/board-meetings/",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RWR:2026-09-17",
@@ -28432,14 +28554,14 @@
    "status": "date_found",
    "pack_files": [],
    "first_seen": "2026-07-01T11:48:28Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
     "papers": null,
     "summary": null
    },
    "id": "RD1:2026-11-05",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "ods_code": "RD1",
@@ -29852,7 +29974,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -29878,7 +30000,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QSL:2026-11-16",
@@ -29898,7 +30020,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QVV:2026-11-16",
@@ -29918,7 +30040,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QGH:2026-11-18",
@@ -29938,7 +30060,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QWU:2026-11-18",
@@ -29958,7 +30080,7 @@
     "summary": null
    },
    "notes": "detected in full sweep 2026-07-13",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "QUY:2026-11-25",
@@ -30588,14 +30710,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-16T10:06:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RFR:2027-01-06",
@@ -30988,15 +31110,21 @@
    "date": "2026-10-27",
    "title": "Trust Board meeting (public)",
    "source_url": "https://www.lewishamandgreenwich.nhs.uk/board-meetings",
-   "papers_url": null,
-   "pack_files": [],
-   "status": "date_found",
+   "papers_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers",
+   "pack_files": [
+    {
+     "url": "https://www.lewishamandgreenwich.nhs.uk/download/2026-10-27-trust-board-part-1-public-packpdf.pdf?ver=46064&doc=docm93jijm4n23607.pdf",
+     "title": "Trust Board Part 1 (Public) - 27 October 2026 (incl AGM)",
+     "kind": "pdf"
+    }
+   ],
+   "status": "analysed",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:57:40Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-10-29T14:04:45Z",
+    "summary": "2026-10-29T14:04:45Z"
    },
    "detection": {
     "run": "2026-07-20",
@@ -31004,7 +31132,8 @@
     "literal_source_verified": true
    },
    "_previous_source_url": "https://www.lewishamandgreenwich.nhs.uk/board-papers/",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-27T14:46:08Z",
+   "summary_path": "summaries/RJ2_2026-10-27.md"
   },
   {
    "id": "RFF:2026-09-29",
@@ -31109,7 +31238,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -31120,7 +31249,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "TAD:2027-01-14",
@@ -31672,7 +31801,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -31753,14 +31882,14 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": "2026-10-26T10:14:39Z",
     "summary": "2026-10-26T10:14:39Z"
    },
    "notes": "[2026-10-26] PARTIAL pack analysed: agenda + PB/26/183-191 (10 files). PB/26/192-196 (Audit Cttee record, NHS Staff Standards, Thirlwall Inquiry report, Governance report, BAF) listed on agenda but not yet linked. Status left papers_found so the next run re-checks and analyses the remaining papers. NOTE FOR NEXT RUN: alerts_sent.papers is stamped for the partial pack (26 Oct). When PB/26/192-196 appear, analyse them and send a SUPPLEMENTARY papers alert to Annabelle + Alison; the Step 11 pre-send guard will flag it as already alerted, so treat it as an intended follow-up, not a duplicate.",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "summary_path": "summaries/RX9_2026-10-29.md"
   },
   {
@@ -31781,7 +31910,7 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RX9:2026-11-26",
@@ -33159,14 +33288,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 4 November 2026, 09:00 - 12:30 Boardroom, Education Centre, Arrowe Park Hospital",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "REM:2026-11-12",
@@ -33212,7 +33341,7 @@
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: 18 November 2026",
-   "last_verified": "2026-10-05T09:10:52Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RAJ:2026-11-26",
@@ -33470,7 +33599,7 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RTX:2027-02-16",
@@ -33653,14 +33782,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
-   "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-26T09:08:25Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "last_verified": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page."
+   "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page. | [2026-10-29] Confirmed literal: 'The next Board meeting is scheduled to take place on Wednesday 25 November' on schedule page (the separate 'Future meetings' list omits it — do not retract off that list alone)."
   },
   {
    "id": "RNQ:2026-09-10",
@@ -34118,7 +34247,7 @@
    "status": "date_found",
    "first_seen": "2026-08-24T11:51:34Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
     "papers": null,
@@ -34629,8 +34758,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-27T15:40:00Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34649,8 +34778,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-27T15:40:00Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34669,8 +34798,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-07T11:35:16Z",
-   "last_checked": "2026-10-27T15:40:00Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
     "papers": null,
@@ -34803,7 +34932,7 @@
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    }
@@ -34818,7 +34947,7 @@
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    },
@@ -34874,8 +35003,8 @@
    "source_url": "https://trust.eastcheshire.nhs.uk/board/reports-and-meetings/meetings",
    "status": "date_found",
    "detected": "2026-09-10T08:25:34Z",
-   "last_checked": "2026-10-27T15:40:00Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-10T22:01:10Z"
    }
@@ -35202,7 +35331,7 @@
    "pack_files": [],
    "first_seen": "2026-09-15T12:00:00Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
     "papers": null,
@@ -38034,7 +38163,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-09-21T14:27:13Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-10-29T13:01:39Z",
    "alerts_sent": {
     "date": "2026-09-22T11:19:37Z",
     "papers": null,
@@ -38043,7 +38172,7 @@
    "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ntexperience@nhs.net . Upcoming Board meetings List of news 5 November 2026 Board Meeting Previous Board meetings List of news 17 Septe",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RYR:2026-11-12",
@@ -38065,7 +38194,7 @@
    "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ing. Important: Next Trust Board meeting in public Thursday 12 November 2026 : 10:00am to 1.15pm Location: Boardroom, 2nd Floor, Washing",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-10-27T14:46:08Z"
+   "last_verified": "2026-10-29T12:47:06Z"
   },
   {
    "id": "RXE:2026-09-24",
@@ -38779,7 +38908,7 @@
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "notes": "[2026-10-05] detected via prescan literal HTML (run-20261005-100838); literal evidence: \"Our next In Public Board Meeting will take place on Wednesday 11th November 2026\""
   },
   {
@@ -38959,7 +39088,7 @@
     "papers": null,
     "summary": null
    },
-   "last_verified": "2026-10-27T14:46:08Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "notes": "[2026-10-08] detected via prescan literal HTML (run-20261008-121729); page lists \"The dates of the planned Public Board meetings\" under year headings 2026 / 2027, after stating that from July 2026 the BSW Hospitals Group Board replaced the Salisbury trust board. Literal: \"10 November 2026\". NB RUH Bath (RD1) page lists the group board as Thursday 5 November 2026, not 10 November - conflict flagged to correspondent."
   },
   {
@@ -39318,7 +39447,7 @@
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-20T14:39:47Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
     "papers": null,
@@ -39338,7 +39467,7 @@
    "status": "date_found",
    "first_seen": "2026-10-20T14:39:47Z",
    "last_checked": "2026-10-22T09:30:04Z",
-   "last_verified": "2026-10-20T14:39:47Z",
+   "last_verified": "2026-10-29T12:47:06Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
     "papers": null,
@@ -39955,6 +40084,270 @@
     "summary": null
    },
    "notes": "[2026-10-26] Literal on board page (pre-scan, raw HTML): 'e board secretary. 8 March 2028 11am St Bartholomew's Hospital (room TBC) If you have parti'"
+  },
+  {
+   "id": "RCX:2026-11-02",
+   "ods_code": "RCX",
+   "org_type": "trust",
+   "date": "2026-11-02",
+   "title": "Public Group Board meeting (MS Teams)",
+   "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+   "papers_url": null,
+   "pack_files": [
+    {
+     "url": "https://nw-uhg.org.uk/assets/5772c785/group_board_in_public_agenda_-_02.11.26.pdf",
+     "title": "Group Board in public agenda - 02.11.26",
+     "kind": "pdf"
+    }
+   ],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RGP:2026-11-02",
+   "ods_code": "RGP",
+   "org_type": "trust",
+   "date": "2026-11-02",
+   "title": "Public Group Board meeting (MS Teams)",
+   "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+   "papers_url": null,
+   "pack_files": [
+    {
+     "url": "https://nw-uhg.org.uk/assets/5772c785/group_board_in_public_agenda_-_02.11.26.pdf",
+     "title": "Group Board in public agenda - 02.11.26",
+     "kind": "pdf"
+    }
+   ],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RM1:2026-11-02",
+   "ods_code": "RM1",
+   "org_type": "trust",
+   "date": "2026-11-02",
+   "title": "Public Group Board meeting (MS Teams)",
+   "source_url": "https://nw-uhg.org.uk/p/about-us/meetings-and-agendas",
+   "papers_url": null,
+   "pack_files": [
+    {
+     "url": "https://nw-uhg.org.uk/assets/5772c785/group_board_in_public_agenda_-_02.11.26.pdf",
+     "title": "Group Board in public agenda - 02.11.26",
+     "kind": "pdf"
+    }
+   ],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "T6Y0W:2026-11-04",
+   "ods_code": "T6Y0W",
+   "org_type": "icb",
+   "date": "2026-11-04",
+   "title": "Special ICB Board meeting (online, 4.30pm)",
+   "source_url": "https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/",
+   "papers_url": "https://www.norfolkandsuffolk.icb.nhs.uk/documents/4-november-2026-special-board-meeting/",
+   "pack_files": [
+    {
+     "url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/10/0.-NSICB-Agenda-November-2026.docx",
+     "title": "Agenda – 4 November 2026 (docx)",
+     "kind": "other"
+    }
+   ],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Special meeting; single decision item: 'Norfolk and Waveney Hospital University Group Case for Change (to follow)' per agenda. Detected 2026-10-29 (run-20261029-124159); literal on page ('Special Board meeting agenda, 4 November 2026').",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "T6Y0W:2026-12-16",
+   "ods_code": "T6Y0W",
+   "org_type": "icb",
+   "date": "2026-12-16",
+   "title": "ICB Board Meeting (online, 2pm)",
+   "source_url": "https://www.norfolkandsuffolk.icb.nhs.uk/wp-content/uploads/2026/10/0.-NSICB-Agenda-November-2026.docx",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "date_source: pack — literal in 4 Nov special meeting agenda: 'Wednesday 16 December 2026 – 2pm Online'. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RKE:2026-12-17",
+   "ods_code": "RKE",
+   "org_type": "trust",
+   "date": "2026-12-17",
+   "title": "Trust Board Meeting",
+   "source_url": "https://www.whittington.nhs.uk/default.asp?c=20208",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal on page: '17 December 2026 (new date)'. Replaces 26 Nov 2026, which the page no longer lists (26 Nov retracted this run, never alerted). Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RKB:2026-12-03",
+   "ods_code": "RKB",
+   "org_type": "trust",
+   "date": "2026-12-03",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.uhcw.nhs.uk/about-us/board-of-directors/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal in page's 2026-27 list ('3rd December 2026'); day/suffix/month split across HTML tags, which is why the deterministic parser missed it. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RKB:2027-02-04",
+   "ods_code": "RKB",
+   "org_type": "trust",
+   "date": "2027-02-04",
+   "title": "Public Board of Directors meeting",
+   "source_url": "https://www.uhcw.nhs.uk/about-us/board-of-directors/",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal in page's 2026-27 list ('4th February 2027'). Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RP6:2026-11-26",
+   "ods_code": "RP6",
+   "org_type": "trust",
+   "date": "2026-11-26",
+   "title": "Trust Board meeting",
+   "source_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal on trust-board page list ('26 November 2026 / 4 February 2027 / 25 March 2027'). schedule_url corrected to this page this run. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RP6:2027-02-04",
+   "ods_code": "RP6",
+   "org_type": "trust",
+   "date": "2027-02-04",
+   "title": "Trust Board meeting",
+   "source_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal on trust-board page list ('26 November 2026 / 4 February 2027 / 25 March 2027'). schedule_url corrected to this page this run. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RP6:2027-03-25",
+   "ods_code": "RP6",
+   "org_type": "trust",
+   "date": "2027-03-25",
+   "title": "Trust Board meeting",
+   "source_url": "https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal on trust-board page list ('26 November 2026 / 4 February 2027 / 25 March 2027'). schedule_url corrected to this page this run. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
+  },
+  {
+   "id": "RQX:2026-11-25",
+   "ods_code": "RQX",
+   "org_type": "trust",
+   "date": "2026-11-25",
+   "title": "Board of Directors meeting in public",
+   "source_url": "https://www.homerton.nhs.uk/board-of-directors",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-10-29T13:01:39Z",
+   "last_checked": "2026-10-29T13:01:39Z",
+   "alerts_sent": {
+    "date": "2026-10-29T14:04:45Z",
+    "papers": null,
+    "summary": null
+   },
+   "notes": "Literal on page under heading '2026 Meeting dates': '25 November' (year from heading; last Wednesday cadence stated on page). schedule_url corrected this run. Detected 2026-10-29 (run-20261029-124159).",
+   "last_verified": "2026-10-29T13:01:39Z"
   }
  ],
  "_scan_errors": [

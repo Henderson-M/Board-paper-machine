@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RP6-2026-11-26@board-paper-machine.hsj
+DTSTAMP:20261029T130410Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Moorfields Eye Hospital NHS Foundation Trust — Trust Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board
+URL:https://www.moorfields.nhs.uk/about-us/our-organisation/trust-board
+END:VEVENT
+END:VCALENDAR

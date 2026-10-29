@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RGP-2026-11-02@board-paper-machine.hsj
+DTSTAMP:20261029T130410Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:James Paget University Hospitals NHS Foundation Trust — Public Group Board meeting (MS Teams)
+DESCRIPTION:Detected by Board paper machine. Source: https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+URL:https://nw-uhg.org.uk/p/about-us/meetings-and-agendas
+END:VEVENT
+END:VCALENDAR

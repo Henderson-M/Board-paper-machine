@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:T6Y0W-2026-11-04@board-paper-machine.hsj
+DTSTAMP:20261029T130410Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Norfolk and Suffolk ICB — Special ICB Board meeting (online, 4.30pm)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+URL:https://www.norfolkandsuffolk.icb.nhs.uk/about/governance/board-meetings/
+END:VEVENT
+END:VCALENDAR
