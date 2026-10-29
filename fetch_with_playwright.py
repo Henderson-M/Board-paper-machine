@@ -12,8 +12,20 @@ Two modes:
   --html       Print the rendered HTML to stdout.
   --download   Treat the URL as a file (e.g. PDF); save bytes to --out.
 
+--headed opens a VISIBLE Chrome window instead of headless (real installed
+Chrome preferred over bundled Chromium). Henry approved visible windows on
+operator machines (2026-10-29), for his runs and Dave's alike — the window
+opens and closes by itself; the operator just shouldn't be surprised by it.
+Only use it after headless has failed.
+
+Known limitation: GSTT (RJ1) still serves "Access forbidden" on its whole
+/about-us/our-board section even to a headed real Chrome (tested 2026-10-29),
+while the rest of the site renders — so --headed does NOT fix RJ1. Do not
+escalate beyond this (no referrer spoofing / cookie click-through); ask the
+operator to open the page in their own browser instead.
+
 Usage:
-    python fetch_with_playwright.py URL [--text|--html|--download] [--out FILE] [--timeout SEC]
+    python fetch_with_playwright.py URL [--text|--html|--download] [--out FILE] [--timeout SEC] [--headed]
 """
 import argparse
 import sys
@@ -45,17 +57,28 @@ USER_AGENT = (
 )
 
 
-def render(url, *, mode="text", out_path=None, timeout=30):
+def render(url, *, mode="text", out_path=None, timeout=30, headed=False):
     from playwright.sync_api import sync_playwright
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
+        launch_kwargs = dict(
+            headless=not headed,
             args=[
                 "--disable-blink-features=AutomationControlled",
                 "--no-sandbox",
             ],
         )
+        if headed:
+            # Headed implies a WAF that profiles the browser build itself, so
+            # prefer the real installed Chrome over bundled Chromium — several
+            # WAFs pass the former and block the latter. Fall back silently if
+            # no system Chrome is installed.
+            try:
+                browser = p.chromium.launch(channel="chrome", **launch_kwargs)
+            except Exception:
+                browser = p.chromium.launch(**launch_kwargs)
+        else:
+            browser = p.chromium.launch(**launch_kwargs)
         ctx = browser.new_context(
             user_agent=USER_AGENT,
             viewport={"width": 1280, "height": 800},
@@ -110,6 +133,11 @@ def main():
     g.add_argument("--download", action="store_true", help="Download bytes (use --out)")
     ap.add_argument("--out", help="Output file for --download")
     ap.add_argument("--timeout", type=int, default=30, help="Seconds")
+    ap.add_argument(
+        "--headed",
+        action="store_true",
+        help="Open a visible Chrome window (for WAFs that block headless, e.g. GSTT)",
+    )
     args = ap.parse_args()
 
     mode = "html" if args.html else "download" if args.download else "text"
@@ -118,7 +146,9 @@ def main():
         return 2
 
     try:
-        result = render(args.url, mode=mode, out_path=args.out, timeout=args.timeout)
+        result = render(
+            args.url, mode=mode, out_path=args.out, timeout=args.timeout, headed=args.headed
+        )
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1

@@ -273,6 +273,8 @@ Then process the rendered text the same way (extract dates manually or via a sub
 
 Record in the org's `notes` that Playwright was used (e.g. `"detected via playwright"`) so future runs go straight to step 4b instead of wasting a WebFetch call.
 
+**Headed fallback (escalation 1b — approved by Henry 2026-10-29, applies to any operator's machine, Dave included).** If headless Playwright itself gets blocked, retry once with `--headed`: it opens a **visible Chrome window** on the operator's screen (real installed Chrome where available), loads the page, and closes itself. That is expected behaviour, not a malfunction — recall beats tidiness. Use it only after headless has failed, and record `"needs headed browser"` in the org's `notes` when it is what worked. **Do not escalate beyond a plain headed fetch** — no referrer spoofing, cookie click-through simulation or other bot-check circumvention; if a headed fetch still gets a block page, the org is unreadable by machine: record the failure and ask the operator to open the page in their own browser. Known case: **GSTT (RJ1) is NOT fixed by `--headed`** — its whole `/about-us/our-board` section serves "Access forbidden" even to a headed real Chrome (tested 2026-10-29) while the rest of the site renders. Until an operator confirms what the page does in a normal browser, keep recording RJ1 as blocked rather than burning fetches on it.
+
 #### 4c — PDF fallback (escalation 2)
 
 When both 4a and 4b return no dates (the page renders but lists no forward schedule — common when the trust publishes an annual board calendar PDF rather than HTML dates), escalate to `fetch_pdf_text.py`:
