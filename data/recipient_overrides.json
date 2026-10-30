@@ -10,6 +10,16 @@
       "expires": "2026-10-28",
       "reason": "Henry asked (2026-07-28) to copy Ella on all bpm emails that would normally go to Matt Discombe, for three months.",
       "created": "2026-07-28"
+    },
+    {
+      "id": "ella-shadow-discombe-open-ended",
+      "when_recipient": "Matt Discombe",
+      "add_recipients": ["Ella"],
+      "applies_to": ["date", "papers"],
+      "start": "2026-10-30",
+      "expires": "2099-12-31",
+      "reason": "Henry asked (2026-10-30) to reinstate the Ella-shadows-Matt-Discombe copy with no end date — it runs until Henry cancels it. The far-future expiry is deliberate; do not treat it as a mistake. To cancel, delete this rule or set expires to a past date.",
+      "created": "2026-10-30"
     }
   ]
 }
