@@ -770,7 +770,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -779,7 +779,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RPA_2026-11-04.md"
   },
   {
    "id": "RPC:2026-07-09",
@@ -4914,7 +4915,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -4923,7 +4924,8 @@
     "summary": null
    },
    "notes": "[2026-10-12] Board table lists '4 Nov 2026 (Wed) 6 Jan 2027 (Wed) 3 Mar 2027 (Wed)'. In state since the 27 May seed but never date-alerted; sent with the 22 Oct / 26 Jan withdrawal.",
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/TAJ_2026-11-04.md"
   },
   {
    "id": "TAJ:2027-01-06",
@@ -24160,7 +24162,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -24169,7 +24171,8 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RC9_2026-11-04.md"
   },
   {
    "id": "RC9:2027-02-03",
