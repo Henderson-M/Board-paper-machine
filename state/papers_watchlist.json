@@ -18,7 +18,7 @@
   {
    "ods_code": "RBS",
    "papers_url": "https://www.alderhey.nhs.uk/about/publications/?type=board-papers",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.alderhey.nhs.uk/about/publications/extraordinary-trust-board-27th-june-2023/",
@@ -1346,7 +1346,7 @@
   {
    "ods_code": "RJ1",
    "papers_url": "https://www.guysandstthomas.nhs.uk/about-us/our-board/agenda-and-papers",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.guysandstthomas.nhs.uk/media/15030/Board%2Bof%2BDirectors%2Bmeeting%2Bagenda%2B-%2BWednesday%2B22%2BJuly%2B2026",
@@ -1527,192 +1527,9 @@
    "notes": "[2026-08-17] Guy's and St Thomas' - publishes one forward date at a time. Added because every future date we hold for it is unverifiable. known_files is deliberately EMPTY - baseline on the first poll and raise NO alert on that pass (see Step 7b). | [2026-09-15] [2026-09-15] No new files - latest remains 22 Jul 2026. FETCH ROUTE: use WebFetch for this org. requests returns HTTP 403 and fetch_with_playwright.py returns the site's /access-forbidden page while reporting success (same 791,379-byte body whatever the URL), so extract_board_html.py reports 0 links and a live page looks dead. Baseline extended from 14 to 31 files - the 2023 and 2024 meetings plus an 'IT critical incident review' document were previously unrecorded. Next meeting 21 Oct 2026; papers not yet published. || 2026-09-17: poll returned ZERO document links even after Playwright + --follow-landing; this org holds 31 known files, so an empty read is a fetch failure, not evidence that papers were withdrawn. No alert raised and no baseline written from this read. | [2026-10-01] Deterministic poll returned 0 links (access-forbidden shell). Date agent read the page with headed real Chrome: next meeting 21 October 2026, no new papers. | [2026-10-18] 2026-10-18: 21 Oct 2026 agenda (media/15187) and papers (media/15188) now published. | [2026-10-29] Poll blocked again (Access forbidden to headless Chromium)."
   },
   {
-   "ods_code": "RJZ",
-   "papers_url": "https://www.kch.nhs.uk/about/how-we-are-organised/board-of-directors/minutes-and-agendas/",
-   "last_checked": "2026-10-29T13:01:52Z",
-   "known_files": [
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/09/KCH-Public-Board-pack-16-September-2026-v3.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/07/KCH-Public-Board-pack-15-July-2026-v2.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/05/KCH-PUBLIC-Board-meeting-pack-14-May-2026-v3.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/03/KCH-PUBLIC-Board-meeting-pack-12-March-2026-new.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/01/KCH-Board-of-Directors-Meeting-pack-15-January-2026.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/11/KCH-Public-Board-of-Directors-meeting-13-November-2025-v3.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/09/11-September-2025-Public-Board-Bundle.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/07/Kings-College-Hospital-NHS-FT-Board-of-Directors-PUBLIC-meeting-pack-17-July-2025-1.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/05/Kings-College-Hospital-Board-meeting-pack-PUBLIC-8-May-2025.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/03/13032025-Board-of-Directors-meeting-pack.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2025/01/Kings-College-Hospital-NHS-FT-Public-Board-Meeting-pack-16-January-2025-v2.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/KCH-Board-of-Directors-Meeting-Public-5-December-2024_FINAL.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/09/KCH-PUBLIC-Board-Papers-3-October-2024-2.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/07/KCH-Board-Papers-July-11th-2024-v2.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/05/KCH-Board-Papers-May-9th-2024.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/03/Board-of-Directors-Bundle-14-March-2024-FINAL.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/11/Board-of-Directors-Bundle-9-November-2023-FINAL-2.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/09/Board-of-Directors-Bundle-28-September-2023-FINAL.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/07/Board-of-Directors-Public-13-July-2023-FINAL.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/05/11052023-BOD-Full-Pack-compressed.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2023/03/Board-of-Directors-Bundle-9-March-2023.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-704.1-bod-agenda-and-papers-dec-08-2022.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-703.1-bod-agenda-and-papers-sep-29-2022.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-694.1-bod-agenda-and-papers-jun-16-2022.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-689.6-bod-agenda-and-papers-mar-10-2022.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-686.1-bod-agenda-and-papers-dec-09-2021.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-682.1-bod-agenda-and-papers-sept-09-2021.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-676.3-bod-agenda-and-papers-jun-10-2021.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2022/12/corp-674.3-bod-agenda-and-papers-mar-11-2021.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-672.1-bod-agenda-and-papers-dec-10-2020.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-663.3-bod-agenda-and-papers-sep-10-2020.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-661.1-bod-agenda-and-papers-jun-18-2020.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-659.1-bod-agenda-and-papers-mar-12-2020.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-655.2-bod-agenda-and-papers-dec-12-2019.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    },
-    {
-     "url": "https://www.kch.nhs.uk/wp-content/uploads/2024/12/corp-653.1-bod-agenda-and-papers-oct-17-2019.pdf",
-     "title": "Download",
-     "first_seen": "2026-09-17T17:32:12"
-    }
-   ],
-   "notes": "added 2026-09-17 by run-20260917-162940: no future-dated meeting in state after this sweep. known_files is EMPTY - the next poll must baseline it before raising any alert, or every document on the page will look new. | [2026-10-01] No change: 35 links, all known."
-  },
-  {
    "ods_code": "RN3",
    "papers_url": "https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.gwh.nhs.uk/media/2kjjakla/150126-trust-board-agenda-papers.pdf",
@@ -1990,7 +1807,7 @@
   {
    "ods_code": "RN7",
    "papers_url": "https://www.dgt.nhs.uk/about-us/trust-management/trust-boardmanagement/trust-board-minutesagendas/navigate/68487/27541",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.dgt.nhs.uk/download_file/27376/289",
@@ -2023,7 +1840,7 @@
   {
    "ods_code": "RNZ",
    "papers_url": "https://www.salisbury.nhs.uk/about-us/the-trust-board/trust-board-meetings/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.salisbury.nhs.uk/media/fcgdest2/8-january-2026-public-trust-board-agenda.pdf",
@@ -2086,7 +1903,7 @@
   {
    "ods_code": "RQX",
    "papers_url": "https://www.homerton.nhs.uk/board-papers/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.homerton.nhs.uk/download/papers-january-2026.pdf?ver=47050&amp;doc=docm93jijm4n19127.pdf",
@@ -2192,6 +2009,51 @@
      "url": "https://www.homerton.nhs.uk/download/september-2026.pdf?ver=50070&doc=docm93jijm4n20261.pdf",
      "title": "September",
      "first_seen": "2026-09-28T19:27:11Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/papers-january-2025pdf.pdf?ver=42666&doc=docm93jijm4n17357.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/march-2025pdf.pdf?ver=43453&doc=docm93jijm4n17676.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/may-2025pdf.pdf?ver=44047&doc=docm93jijm4n17896.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/july-2025.pdf?ver=44944&doc=docm93jijm4n18225.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/september-2025.pdf?ver=45535&doc=docm93jijm4n18474.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/november-2025.pdf?ver=46299&doc=docm93jijm4n18816.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/july-paperspdf.pdf?ver=39112&doc=docm93jijm4n16223.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/sept-2024pdf.pdf?ver=39903&doc=docm93jijm4n16502.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
+    },
+    {
+     "url": "https://www.homerton.nhs.uk/download/papers-november-2024pdf.pdf?ver=41818&doc=docm93jijm4n17051.pdf",
+     "title": "",
+     "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
    "notes": "[2026-08-17] Added after all five future dates were retracted. Publishes month-only headings (Jan/Mar/May/Jul 2026, all past) and no forward schedule. known_files deliberately empty - baseline on first poll and do NOT alert on that first pass. | [2026-09-15] [2026-09-15] No change: 15 links, latest still July 2026 (public-board-pack-final-22-july-2026). requests fetch works. Note known_files holds each July/Jan/Mar/May 2026 URL twice, once with &amp; and once with & - dedupe on HTML-unescaped URL. | [2026-10-01] No change: latest pack September 2026 (30 Sep meeting), already analysed. | [2026-10-08] \"september-2026.pdf\" reappeared under a new ?ver= query string; it is the 30 Sep 2026 pack already analysed and alerted on 28 Sep. Baselined, no alert."
@@ -2199,7 +2061,7 @@
   {
    "ods_code": "RR7",
    "papers_url": "https://www.gatesheadhealth.nhs.uk/news/resources_type/board-papers/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.gatesheadhealth.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-Part-1-29-July-2026-v2.pdf",
@@ -2237,7 +2099,7 @@
   {
    "ods_code": "RRJ",
    "papers_url": "https://roh.nhs.uk/about-us/corporate-information/statutory-documents",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://roh.nhs.uk/doc-men-hidden/corporate-information/board-papers/2026-board-papers/462-01-meeting-book-trust-board-public-website-february-2026",
@@ -2950,7 +2812,7 @@
   {
    "ods_code": "RXE",
    "papers_url": "https://www.rdash.nhs.uk/document-sections/board-of-directors/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.rdash.nhs.uk/wp-content/uploads/2026/07/Board-of-Directors-30.07.2026-Agenda-Pack-A.pdf",
@@ -3103,7 +2965,7 @@
   {
    "ods_code": "RBV",
    "papers_url": "https://www.christie.nhs.uk/about-us/the-foundation-trust/about-the-trust/board-of-directors-meetings",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.christie.nhs.uk/media/eh4pymcu/christie-public-board-papers-24092026.pdf",
@@ -3277,7 +3139,7 @@
   {
    "ods_code": "RX7",
    "papers_url": "https://www.nwas.nhs.uk/about/directors/board-meetings/",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.nwas.nhs.uk/wp-content/uploads/2026/09/BoD-Part-1-Meeting-Pack-30.09.2026.pdf",
@@ -3460,7 +3322,7 @@
   {
    "ods_code": "RBT",
    "papers_url": "https://www.mcht.nhs.uk/about-us/board-directors/board-papers-and-minutes",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.mcht.nhs.uk/download_file/9425a926-03c5-46b4-92b2-4c6bbb8533d5/228",
@@ -3558,7 +3420,7 @@
   {
    "ods_code": "RYC",
    "papers_url": "https://www.eastamb.nhs.uk/about-us/trust-board/public-board-meetings-and-papers",
-   "last_checked": "2026-10-29T13:01:52Z",
+   "last_checked": "2026-11-02T12:05:00Z",
    "known_files": [
     {
      "url": "https://www.eastamb.nhs.uk/about-us/trust-board/in-public-board-minutes-february-2026",
@@ -3622,272 +3484,6 @@
     }
    ],
    "notes": "[2026-10-01] Added: no future-dated meeting in state. The trust does not publish packs online in advance (papers on request), and the page carried no document links on this poll, so known_files is EMPTY: baseline before alerting if links ever appear."
-  },
-  {
-   "ods_code": "RBD",
-   "papers_url": "https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/",
-   "last_checked": "2026-10-29T13:01:52Z",
-   "known_files": [
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/08/Board-in-Common-Part-1-Paper-Pack-V2.pdf",
-     "title": "Tuesday, 11 August, 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/06/Board-in-Common-Part-1-Paper-Pack-17-June-2026.pdf",
-     "title": "Wednesday, 17 June 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/04/April-2026-Board-in-Common-Part-1-Paper-Pack.pdf",
-     "title": "Wednesday, 8 April 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/02/2026-02-10-Board-in-Common-part-1-papers.pdf",
-     "title": "Tuesday, 10 February 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/11/2025-02-11-Board-of-Directors-part-1-papers-redacted.pdf",
-     "title": "Tuesday, 11 February 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/04/DCH-Board-of-Directors-8-04-2025-part-1.pdf",
-     "title": "Tuesday, 8 April 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/11/2025-06-10-Part-1-Board-papers-v2-redacted.pdf",
-     "title": "Tuesday, 10 June 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/11/2025-08-12-DCH-Board-of-Directors-Part-1-papers-without-mins-redacted.pdf",
-     "title": "Tuesday, 12 August 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/10/2025-10-07-Board-in-Common-Part-1-Paper-Pack-V3.pdf",
-     "title": "Tuesday, 7 October 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/12/9-12-25-Board-in-Common-Part-1-Full-Paper-Pack.pdf",
-     "title": "Tuesday, 9 December 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/12/Annual-Safe-Staffing-Report-Nov-2025-Final-December-Trust-Board.pdf",
-     "title": "Annual Safe Staffing Report",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/12/Front-sheet-DCH-Safe-Staffing-Annual-Report-November-2025-December-Trust-Board.pdf",
-     "title": "Annual Safe Staffing Report Front Sheet",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2024/02/Board-of-Directors-Part-1-31.01.2024-e-version-v3.pdf",
-     "title": "Wednesday, 31 January 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2024/03/2024-03-27-Board-Part-1-papers-v3.pdf",
-     "title": "Wednesday, 27 March 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2024/05/2024-05-29-Board-of-Directors-Part-1-v2.pdf",
-     "title": "Wednesday, 29 May 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2024/07/2024-07-31-Board-of-Directors-Part-1-papers-v2.pdf",
-     "title": "Wednesday, 31 July 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2024/10/2024-10-09-Board-of-Directors-part-1-papers-v1.pdf",
-     "title": "Wednesday, 9 October 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2025/01/Board-of-Directors-10-12-24-Part-1-V2.pdf",
-     "title": "Tuesday, 10 December 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/01/Board-of-Directors-25.01.2023-Part-1-e-version.pdf",
-     "title": "Wednesday, 25 January 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/03/Board-of-Directors-Part-1-29.03.2023-e-version-v2.1.pdf",
-     "title": "Wednesday, 29 March 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/05/Board-of-Directors-31.05.2023-Part-1-e-version.pdf",
-     "title": "Wednesday, 31 May 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/07/BoardofDirectors-Part-1-26.07.2023-e-version.pdf",
-     "title": "Wednesday, 26 July 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/10/Board-of-Directors-part-1-27.09.2023.pdf",
-     "title": "Wednesday, 27 September 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2023/11/Board-of-Directors-Part-1-29.11.2023-e-version-v2.pdf",
-     "title": "Wednesday, 29 November 2023",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/01/Board-of-Directors-Part-1-26.01.2022.pdf",
-     "title": "Wednesday, 26 January 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/04/Board-of-Directors-Part-1-30.03.2022.pdf",
-     "title": "Wednesday, 30 March 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/05/Board-of-Directors-Part-1-25.05.2022.pdf",
-     "title": "Wednesday, 25 May 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/07/Board-of-Directors-Part-1-27-07-2022-e-version.pdf",
-     "title": "Wednesday, 27 July 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/09/Board-of-Directors-Part-One-28-09-22-e-version.pdf",
-     "title": "Wednesday, 28 September 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2022/11/Board-of-Directors-Part-1-30.11.2022-e-version.pdf",
-     "title": "Wednesday, 30 November 2022",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://dchft.nhs.uk/wp-content/uploads/2026/10/Oct-26-Board-of-Directors-in-Common-Part-1.pdf",
-     "title": "Tuesday, 13 October, 2026",
-     "first_seen": "2026-10-12T13:43:20Z"
-    }
-   ],
-   "notes": "[2026-10-01] Added: every future date held is unverified (7 Oct looks like the 2025 list carried forward) and the page's 2026 list stops at 11 August. Baselined 30 links without alerting; latest pack is the 11 August Board in Common."
-  },
-  {
-   "ods_code": "RDY",
-   "papers_url": "https://www.dorsethealthcare.nhs.uk/about-us/trust-board",
-   "last_checked": "2026-10-29T13:01:52Z",
-   "known_files": [
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/fd19add4-21ae-4e29-8b51-d7838cce701b/282",
-     "title": "the structure and responsibilities of the Board",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e416c400-6e80-4cc1-b36f-8c64b5b9a755/282",
-     "title": "Trust Board - Board in Common agenda and papers, August 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/1c266e7d-6f7d-4e8f-a453-4235e8b6fe63/282",
-     "title": "Trust Board - Board in Common agenda and papers, June 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/220fa9ab-01e0-43d6-b9ca-17547b32ed75/282",
-     "title": "Trust Board - Board in Common agenda and papers, April 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/f485351b-0dae-472f-9e09-7b8fb39cb1ae/282",
-     "title": "Trust Board - Board in Common agenda and papers, February 2026",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/33090eb0-c031-4a94-96ee-c63a97815d52/282",
-     "title": "Trust Board - Board in Common December 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/d99a0933-b2b1-4566-b914-dc72ac437d8f/282",
-     "title": "Trust Board - Board in Common - Paper Pack October 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/e810bd9b-9c1a-417a-ae03-a6ca1578e52c/282",
-     "title": "Trust Board - agendas and papers August 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1717/4963/4140/DHC_June_Board_Part_1_Paper_Pack.pdf",
-     "title": "Trust Board - agendas and papers June 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9017/4963/4140/DHC_April_Part_1_Board_of_Directors_Final_Paper_Pack.pdf",
-     "title": "Trust Board - agendas and papers April 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/5517/4963/4140/DHC_Board_of_Directors_February_2025_Part_1_Boardbook.pdf",
-     "title": "Trust Board - agendas and papers February 2025",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/8517/4963/3967/DHC_Board_of_Directors_-_Agenda_and_Papers_-_Part_1_-_11_December_2024.pdf",
-     "title": "Trust Board - agendas and papers December 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4317/4963/3985/Trust_board_agenda_and_papers_-_October_2024.pdf",
-     "title": "Trust Board - agendas and papers October 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1917/4963/3967/Combined_Agenda_and_Papers_Board_070824_website_ver_2.pdf",
-     "title": "Trust Board - agendas and papers August 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/4817/4963/3967/Board_Papers_05_June_2024.pdf",
-     "title": "Trust Board - agendas and papers June 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/1617/4963/3966/Board_of_Directors_Papers_-_3_April_2024.pdf",
-     "title": "Trust Board - agendas and papers April 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/application/files/9217/4963/3985/Trust_Board_Agenda_and_Papers_February_2024.pdf",
-     "title": "Trust Board - agendas and papers February 2024",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.england.nhs.uk/wp-content/uploads/2023/03/PRN00191-nhs-provider-licence-v4.pdf",
-     "title": "Read the full licence, with all conditions",
-     "first_seen": "2026-10-01T14:15:58Z"
-    },
-    {
-     "url": "https://www.dorsethealthcare.nhs.uk/download_file/view/fac70496-df95-4056-b9ca-9dbc229e90c2/282",
-     "title": "Trust Board - Board in Common agenda and papers, October 2026",
-     "first_seen": "2026-10-12T13:43:20Z"
-    }
-   ],
-   "notes": "[2026-10-01] Added: future dates held are day-defaulted ('month only, verify day') and no forward schedule is published. Baselined 18 links without alerting; latest pack is 'Board in Common agenda and papers, August 2026'. Shares its board with RBD."
   }
  ],
  "_last_updated": "2026-10-01T20:03:23Z",
