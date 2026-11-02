@@ -3473,7 +3473,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -3482,7 +3482,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RY5_2026-11-03.md"
   },
   {
    "id": "RWD:2027-01-05",
@@ -10096,7 +10097,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -10105,7 +10106,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RM3_2026-11-04.md"
   },
   {
    "id": "RM3:2027-01-13",
@@ -10443,17 +10445,23 @@
    "source_url": "https://www.penninecare.nhs.uk/boardmeetings",
    "papers_url": null,
    "pack_files": [],
-   "status": "date_found",
+   "status": "retracted",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-10-27T15:40:00Z",
+   "last_checked": "2026-11-02T13:10:00Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": null,
+   "notes": " | [2026-11-02] RETRACTED by run-20261102-105043: no 7 Oct meeting ever took place - the board meets bi-monthly (Jul/Sep/Nov; 4 Nov 2026 pack agenda p.5 and 2 Sep minutes p.26 confirm next meetings 4 Nov 2026 then 20 Jan 2027). The 'aged out without papers' finding on 29 Oct was a wrong expected date in state, not a withheld pack. Past date, no withdrawal owed.",
    "last_verified": "2026-10-05T09:10:52Z",
-   "papers_missing_reported": "2026-10-29"
+   "papers_missing_reported": "2026-10-29",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-11-02T13:10:00Z",
+    "run": "run-20261102-105043",
+    "evidence": "4 Nov 2026 agenda p.5 + 2 Sep 2026 minutes p.26: bi-monthly cycle, no October meeting."
+   }
   },
   {
    "id": "RT2:2026-12-02",
@@ -18638,7 +18646,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -18647,7 +18655,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RY5_2026-11-03.md"
   },
   {
    "id": "RY5:2027-01-05",
@@ -40993,7 +41002,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-11-02T12:05:00Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -41002,7 +41011,8 @@
     "summary": null
    },
    "notes": "[2026-11-02] run-20261102-105043: literal on board meetings page: 'Wednesday 4 November 2026 1pm'",
-   "last_verified": "2026-11-02T12:05:00Z"
+   "last_verified": "2026-11-02T12:05:00Z",
+   "summary_path": "summaries/RT2_2026-11-04.md"
   },
   {
    "id": "RYE:2027-01-07",
@@ -41223,6 +41233,26 @@
    },
    "notes": "[2026-11-02] run-20261102-105043: Same Boards in Common pack as RBD:2026-12-08 (shared meeting). | date_source: pack",
    "last_verified": "2026-11-02T12:05:00Z"
+  },
+  {
+   "id": "RT2:2027-01-20",
+   "ods_code": "RT2",
+   "org_type": "trust",
+   "date": "2027-01-20",
+   "title": "Trust board meeting",
+   "source_url": "https://www.penninecare.nhs.uk/boardmeetings",
+   "papers_url": null,
+   "pack_files": [],
+   "status": "date_found",
+   "first_seen": "2026-11-02T13:10:00Z",
+   "last_checked": "2026-11-02T13:10:00Z",
+   "last_verified": "2026-11-02T13:10:00Z",
+   "alerts_sent": {
+    "date": null,
+    "papers": null,
+    "summary": null
+   },
+   "notes": "[2026-11-02] run-20261102-105043: date_source: pack - 4 Nov 2026 pack agenda p.5 names the next meeting as 20 January 2027 (bi-monthly cycle)."
   }
  ],
  "_scan_errors": [
