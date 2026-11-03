@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RBD-2026-12-08@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Dorset County Hospital NHS Foundation Trust - Board of Directors in Common (with Dorset HealthCare)
+DESCRIPTION:Detected by Board paper machine. Source: https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+URL:https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RDY-2026-12-08@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Dorset Healthcare University NHS Foundation Trust - Board of Directors in Common (with Dorset County)
+DESCRIPTION:Detected by Board paper machine. Source: https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+URL:https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-05-27@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-07-29@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-09-30@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTE-2027-11-25@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+END:VCALENDAR

@@ -2420,7 +2420,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -2429,7 +2429,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RNQ_2026-11-06.md"
   },
   {
    "id": "RNQ:2026-12-10",
@@ -2552,7 +2553,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T13:09:43Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -2561,7 +2562,8 @@
     "summary": null
    },
    "notes": "RNQ + RNS appear to share most meeting dates — University Hospitals of Northamptonshire joint board. Worth adding a cluster_id.",
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RNQ_2026-11-06.md"
   },
   {
    "id": "RNS:2026-12-10",
@@ -15540,7 +15542,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -15549,7 +15551,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-10-29T12:47:06Z"
+   "last_verified": "2026-10-29T12:47:06Z",
+   "summary_path": "summaries/REF_2026-11-05.md"
   },
   {
    "id": "REF:2027-01-07",
@@ -35191,7 +35194,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-09-07T11:35:16Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "last_verified": "2026-11-02T10:51:19Z",
@@ -35200,7 +35203,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-09-07; verified as literal text on the source page."
+   "notes": "Detected 2026-09-07; verified as literal text on the source page.",
+   "summary_path": "summaries/RF4_2026-11-05.md"
   },
   {
    "id": "RPG:2026-11-05",

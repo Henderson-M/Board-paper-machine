@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RTE-2027-09-30@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Gloucestershire Hospitals NHS Foundation Trust - Public board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+URL:https://www.gloshospitals.nhs.uk/about-us/our-board/board-meeting-dates/
+END:VEVENT
+END:VCALENDAR

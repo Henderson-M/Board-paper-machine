@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RBD-2026-12-08@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Dorset County Hospital NHS Foundation Trust - Board of Directors in Common (with Dorset HealthCare)
+DESCRIPTION:Detected by Board paper machine. Source: https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+URL:https://dchft.nhs.uk/about-us/trust-board/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

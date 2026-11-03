@@ -1,3 +1,40 @@
+## 2026-11-03: Full sweep, Henry's machine. DRY RUN - no emails sent. 21 packs analysed, 13 dates found, 1 withdrawal prepared
+
+Run started 2 Nov 10:50 UTC but hit the 5-hour usage limit mid-analysis (three agents cut off); resumed and finished
+the morning of 3 Nov. All 239 in-scope orgs scanned. **1 broken (RJ1 GSTT, standing block, 3rd run), 1 degraded
+(RXX Surrey and Borders - whole site serving HTTP 500), 0 stale, 0 not checked.**
+
+**Pre-scan** resolved 181 of 239 in 24 seconds; 57 went to three Sonnet date agents (RJ1 excluded per standing
+decision); three Sonnet pack hunters covered the 78 meetings in the 12 Oct-12 Nov window and the 16 watchlist orgs
+(8 cleared deterministically). Headed Chrome used twice (RXR East Lancs - worked; RXX - did not help).
+Re-verification: 120 checked, 99 confirmed, 4 contradicted (all the known BWC/Black Country/Blackpool matcher
+artefacts - kept), 13 unverifiable, 4 unreadable.
+
+**Dates (13 sent-ready, in 7 alerts).** Pennine Care 4 Nov + 20 Jan (its "missed" 7 Oct pack turned out to be a
+date that never existed - board is bi-monthly; 7 Oct retracted, never alerted); Gloucestershire's six 2027 dates;
+SCAS 7 Jan; TEWV 26 Nov (from its own pack); King's College 17 Nov (from its Sept agenda; leaves the watchlist);
+Dorset County + Dorset HealthCare 8 Dec (from the Boards in Common pack) REPLACING the alerted 1 Dec pair ->
+retracted, withdrawal alert prepared for Joe; WMAS 25 Nov REINSTATED (withdrawn in Sept; the trust's own 28 Oct
+agenda names it) with an explanatory note to Caitlin/Alison. RBD/RDY also leave the watchlist.
+
+**Packs - 21 analysed on Fable, 24 papers alerts prepared.** Unusually heavy week (November meeting season):
+Henry x4 (South Yorkshire ICB incl NHSE mid-year letter + exit-package governance escalation; Sheffield Children's
+worst-case GBP8.6m deficit + departing chair; Sheffield Teaching supplementary papers D+U incl GBP6.07m deficit vs
+surplus plan; Bradford District Care - Therese Patten seconded to NLAG as interim CEO). Other highlights: BHRUT
+GBP75.1m forecast deficit + GBP25.3m emergency cash request; Torbay fire-service enforcement + CQC s29A on Tower
+Block + ED corridor death; NCA Q3 DSF withheld + neonatal outbreak death; UHN possible KGH licence revocation +
+NGH maternity MOSS 2; Royal Cornwall Capsticks PSII on the 7,715-staff data breach; Kingston "could run out of
+cash within a year"; Medway GBP9k above minimum cash. WMAS 28 Oct agenda-only analysed (papers on request).
+
+**Dry-run output:** 32 emails in dry_run_output/20261103-1200_* (7 date alerts, 24 papers alerts, 1 withdrawal to
+Joe), manifests in tmp_scan/run-20261102-105043/. To send live: build send_batch.py call from those three
+manifests. alerts_sent deliberately NOT stamped (stamps only on ok:true send results).
+
+**Handed back:** RXX site-wide HTTP 500 (watch; known 2026-12-08 date unverifiable meanwhile); RJ1 still needs a
+human to open the page in a browser; NWUHG 2 Nov full pack never appeared (agenda only); EMAS supplementaries
+PB/26/192-196 still unlinked; RD1 Bath papers link still commented out in the page HTML; QUA/QHL 9 Nov papers not
+yet linked. RNQ Sept IPR is image-based slides (unreadable text) - detail taken from minutes instead.
+
 ## 2026-10-29: Full sweep, Henry's machine. 4 packs sent, 12 dates sent (4 alerts), 0 withdrawals. 8/8 emails sent live
 
 Run started 12:41 UTC, two days after Dave's 27 Oct sweep. All 239 in-scope orgs scanned.

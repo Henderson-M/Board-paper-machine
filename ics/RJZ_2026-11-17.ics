@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJZ-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20261103T120000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:King's College Hospital NHS Foundation Trust - Board of Directors
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kch.nhs.uk/about/get-to-know-us/our-board-of-directors/board-meetings/
+URL:https://www.kch.nhs.uk/about/get-to-know-us/our-board-of-directors/board-meetings/
+END:VEVENT
+END:VCALENDAR
