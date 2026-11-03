@@ -13347,7 +13347,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -13356,7 +13356,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/QRL_2026-11-04.md"
   },
   {
    "id": "QKS:2026-07-21",
@@ -24351,7 +24352,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -24360,7 +24361,8 @@
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RD8_2026-11-05.md"
   },
   {
    "id": "RD8:2027-01-07",
@@ -35231,7 +35233,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-09-07T11:35:16Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "last_verified": "2026-11-02T10:51:19Z",
@@ -35240,7 +35242,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "Detected 2026-09-07; verified as literal text on the source page."
+   "notes": "Detected 2026-09-07; verified as literal text on the source page.",
+   "summary_path": "summaries/RTX_2026-11-04.md"
   },
   {
    "id": "RY3:2026-09-30",
