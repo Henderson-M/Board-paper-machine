@@ -1,3 +1,14 @@
+## 2026-11-03 (afternoon): Live send for run-20261102-105043. 34/34 emails delivered. GSTT and Surrey and Borders fixed
+
+All 33 batch emails sent (7 date alerts, 24 papers alerts, 1 withdrawal to Joe, run report to Henry), then 1
+follow-up date alert to Ella (GSTT 27 Jan 2027). alerts_sent stamped from ok:true results only.
+
+**GSTT (RJ1) SOLVED:** the site 403s every local fetcher (incl. headed Chrome) but serves pages AND /media/ PDFs
+to Anthropic's WebFetch. Route recorded in the org notes; papers_url set to /about-us/our-board/agenda-and-papers;
+27 Jan 2027 harvested from the trust's own 21 Oct agenda and alerted to Ella. Health cleared (was broken x3).
+**Surrey and Borders (RXX):** the 2 Nov site-wide HTTP 500 was a transient outage - requests works again, 8 Dec
+2026 verified on the page, nothing was missed (14 Oct pack was alerted on 12 Oct). Health cleared.
+
 ## 2026-11-03: Full sweep, Henry's machine. DRY RUN - no emails sent. 21 packs analysed, 13 dates found, 1 withdrawal prepared
 
 Run started 2 Nov 10:50 UTC but hit the 5-hour usage limit mid-analysis (three agents cut off); resumed and finished
