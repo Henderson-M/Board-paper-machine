@@ -16558,7 +16558,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -16567,7 +16567,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-08-24T11:48:16Z"
+   "last_verified": "2026-08-24T11:48:16Z",
+   "summary_path": "summaries/RQ3_2026-11-05.md"
   },
   {
    "id": "RR8:2026-05-28",
@@ -30390,7 +30391,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-07-13T12:00:00Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -30398,7 +30399,8 @@
     "papers": null,
     "summary": null
    },
-   "notes": "detected in full sweep 2026-07-13"
+   "notes": "detected in full sweep 2026-07-13",
+   "summary_path": "summaries/RW5_2026-11-05.md"
   },
   {
    "id": "QOX:2026-11-16",
@@ -38801,7 +38803,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-09-21T14:27:13Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -38812,7 +38814,8 @@
    "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ntexperience@nhs.net . Upcoming Board meetings List of news 5 November 2026 Board Meeting Previous Board meetings List of news 17 Septe",
    "date_review": null,
    "superseded_by": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/QE1_2026-11-05.md"
   },
   {
    "id": "RYR:2026-11-12",
