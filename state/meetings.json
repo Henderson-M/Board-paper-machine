@@ -7046,7 +7046,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -7055,7 +7055,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RA9_2026-11-05.md"
   },
   {
    "id": "RD1:2026-06-03",
@@ -15421,7 +15422,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -15430,7 +15431,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RAX_2026-11-05.md"
   },
   {
    "id": "RBD:2026-08-11",
@@ -31659,7 +31661,7 @@
      "first_seen": "2026-11-02T12:05:00Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-07-20T15:26:43Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -31672,7 +31674,8 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/TAD_2026-11-05.md"
   },
   {
    "id": "TAD:2027-01-14",
