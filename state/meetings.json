@@ -2213,7 +2213,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": null,
@@ -5515,7 +5515,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": null,
@@ -6764,7 +6764,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": null,
@@ -6944,7 +6944,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": null,
@@ -7438,7 +7438,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": " | [2026-11-05] Boardbooks here are 2 parts (Part 1 + Part 2) - our pack-detection only caught Part 1 this run; the pack-analyser agent found Part 2 at the same URL stem. Worth teaching the scanner this trust publishes multi-part boardbooks.",
@@ -23576,7 +23576,8 @@
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-11-05T16:40:06Z"
    },
    "notes": "",
    "last_verified": "2026-11-05T10:17:36Z",
@@ -24927,7 +24928,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "",
@@ -25123,7 +25124,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": " | [2026-11-05] Only the agenda (230KB) is up via the per-meeting landing page /board-papers/november-2026-board-meeting/ - full pack not yet published. Correcting an earlier false pack-found that had wrongly recorded the generic board-papers page itself as a pack file.",
@@ -29319,7 +29320,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": "2026-07-01T12:00:00Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "id": "RD1:2026-11-05",
@@ -31500,7 +31501,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-07-16T10:22:00Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": null,
@@ -35606,7 +35607,7 @@
    "last_verified": "2026-11-05T10:17:36Z",
    "alerts_sent": {
     "date": "2026-09-07T11:56:32Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "Detected 2026-09-07; verified as literal text on the source page. | [2026-11-05] Corrected: earlier pass wrongly recorded the generic /board-papers listing page itself as the pack file. Real file is the combined 7MB November 2026 pack.",
@@ -41177,7 +41178,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-10-29T14:04:45Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
@@ -41234,7 +41235,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-10-29T14:04:45Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
@@ -41291,7 +41292,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-10-29T14:04:45Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "NWUHG Group Board — joint with the other 2 trusts in the group. Detected 2026-10-29 (run-20261029-124159), literal on page ('2 November 2026 Time: 10am MS Teams'). Agenda published; full pack not yet up (7 Oct pattern: separate 'full pack' PDF).",
@@ -41330,7 +41331,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": "2026-10-29T14:04:45Z",
-    "papers": null,
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "Special meeting; single decision item: 'Norfolk and Waveney Hospital University Group Case for Change (to follow)' per agenda. Detected 2026-10-29 (run-20261029-124159); literal on page ('Special Board meeting agenda, 4 November 2026').",
@@ -41804,7 +41805,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41823,7 +41824,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41842,7 +41843,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41861,7 +41862,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41880,7 +41881,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41899,7 +41900,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41918,7 +41919,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41937,7 +41938,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41975,7 +41976,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -41994,7 +41995,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42013,7 +42014,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42051,7 +42052,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42070,7 +42071,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42089,7 +42090,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42108,7 +42109,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42127,7 +42128,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42146,7 +42147,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42191,7 +42192,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42244,7 +42245,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42263,7 +42264,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42282,7 +42283,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42301,7 +42302,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42320,7 +42321,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42340,7 +42341,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42378,7 +42379,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42398,7 +42399,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42417,7 +42418,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42463,7 +42464,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42495,8 +42496,8 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
-    "papers": null,
+    "date": "2026-11-05T16:39:46Z",
+    "papers": "2026-11-05T16:39:57Z",
     "summary": null
    },
    "notes": "",
@@ -42516,7 +42517,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42535,7 +42536,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
@@ -42554,7 +42555,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:39:46Z",
     "papers": null,
     "summary": null
    },
