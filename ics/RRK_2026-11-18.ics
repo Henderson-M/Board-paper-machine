@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RRK-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:University Hospitals Birmingham NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhb.nhs.uk/news-and-events/events
+URL:https://www.uhb.nhs.uk/news-and-events/events
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QF7-2027-07-07@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QF7-2027-09-01@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QF7-2027-11-03@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QF7-2028-01-05@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20280105
+DTEND;VALUE=DATE:20280106
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QF7-2028-03-01@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2027-05-27@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2027-07-22@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2027-09-30@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2027-11-25@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2028-01-27@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20280127
+DTEND;VALUE=DATE:20280128
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RAE-2028-03-30@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20280330
+DTEND;VALUE=DATE:20280331
+SUMMARY:Bradford Teaching Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+URL:https://www.bradfordhospitals.nhs.uk/our-trust/bod-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RFR-2027-11-04@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:The Rotherham NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.therotherhamft.nhs.uk/about-us/board-meetings
+URL:https://www.therotherhamft.nhs.uk/about-us/board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RP5-2027-03-02@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust — Board of Directors meeting - Doncaster Royal Infirmary
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dbth.nhs.uk/board/
+URL:https://www.dbth.nhs.uk/board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2027-02-01@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RT5-2027-11-24@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+SUMMARY:Leicestershire Partnership NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.leicspart.nhs.uk/about-us/trust-board/
+URL:https://www.leicspart.nhs.uk/about-us/trust-board/
+END:VEVENT
+END:VCALENDAR

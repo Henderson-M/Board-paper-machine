@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ7-2027-11-06@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
+SUMMARY:St George's University Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.stgeorges.nhs.uk/about/our-board/board-meetings/
+URL:https://www.stgeorges.nhs.uk/about/our-board/board-meetings/
+END:VEVENT
+END:VCALENDAR

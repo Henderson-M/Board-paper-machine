@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QKS-2027-03-10@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Kent and Medway ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentandmedway.icb.nhs.uk/events-calender
+URL:https://www.kentandmedway.icb.nhs.uk/events-calender
+END:VEVENT
+BEGIN:VEVENT
+UID:RPA-2027-01-27@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Medway NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.medway.nhs.uk/about-us/board-meetings/
+URL:https://www.medway.nhs.uk/about-us/board-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2026-11-17@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RX8-2027-02-01@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Yorkshire Ambulance Service NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.yas.nhs.uk/about-us/the-trust-board/
+URL:https://www.yas.nhs.uk/about-us/the-trust-board/
+END:VEVENT
+END:VCALENDAR

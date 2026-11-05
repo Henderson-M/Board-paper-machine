@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QF7-2027-11-03@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:South Yorkshire ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+URL:https://southyorkshire.icb.nhs.uk/our-information/meetings-and-papers
+END:VEVENT
+END:VCALENDAR

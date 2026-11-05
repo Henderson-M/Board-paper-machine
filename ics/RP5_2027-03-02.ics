@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RP5-2027-03-02@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust — Board of Directors meeting - Doncaster Royal Infirmary
+DESCRIPTION:Detected by Board paper machine. Source: https://www.dbth.nhs.uk/board/
+URL:https://www.dbth.nhs.uk/board/
+END:VEVENT
+END:VCALENDAR

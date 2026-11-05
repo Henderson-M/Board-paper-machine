@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R1D-2027-05-17@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Shropshire Community Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+URL:https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:RLT-2026-11-30@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:George Eliot Hospital NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+URL:https://www.geh.nhs.uk/about-us/trust-board/public-board-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:RQ3-2027-11-05@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271106
+SUMMARY:Birmingham Women's and Children's NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://bwc.nhs.uk/board-meetings-and-minutes/
+URL:https://bwc.nhs.uk/board-meetings-and-minutes/
+END:VEVENT
+BEGIN:VEVENT
+UID:RRK-2026-11-18@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:University Hospitals Birmingham NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhb.nhs.uk/news-and-events/events
+URL:https://www.uhb.nhs.uk/news-and-events/events
+END:VEVENT
+BEGIN:VEVENT
+UID:RXW-2027-09-23@board-paper-machine.hsj
+DTSTAMP:20261105T145341Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:The Shrewsbury and Telford Hospital NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+URL:https://www.sath.nhs.uk/about-us/trust-information/trust-board-meetings/
+END:VEVENT
+END:VCALENDAR

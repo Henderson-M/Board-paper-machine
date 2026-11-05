@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RN3-2026-11-05@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Great Western Hospitals NHS Foundation Trust — BSW Hospitals Group Board
+DESCRIPTION:Detected by Board paper machine. Source: https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/
+URL:https://www.gwh.nhs.uk/about-us/trust-board/board-meetings/
+END:VEVENT
+END:VCALENDAR

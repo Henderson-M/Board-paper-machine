@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RWR-2026-12-17@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Board of Directors meeting (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.hpft.nhs.uk/about-us/our-board-of-directors/
+URL:https://www.hpft.nhs.uk/about-us/our-board-of-directors/
+END:VEVENT
+END:VCALENDAR

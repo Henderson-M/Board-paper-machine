@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:R1D-2027-05-17@board-paper-machine.hsj
+DTSTAMP:20261105T101511Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Shropshire Community Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+URL:https://www.shropscommunityhealth.nhs.uk/board-meeting-dates
+END:VEVENT
+END:VCALENDAR
