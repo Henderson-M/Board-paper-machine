@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:RWR-2026-12-17@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Board of Directors meeting (public)
@@ -13,7 +13,7 @@ URL:https://www.hpft.nhs.uk/about-us/our-board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:RWR-2027-02-25@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Hertfordshire Partnership University NHS Foundation Trust — Board of Directors meeting (public)
@@ -22,7 +22,7 @@ URL:https://www.hpft.nhs.uk/about-us/our-board-of-directors/
 END:VEVENT
 BEGIN:VEVENT
 UID:S1Y5D-2026-12-04@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Central East ICB — Board meeting

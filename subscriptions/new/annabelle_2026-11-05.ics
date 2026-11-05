@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:QK1-2026-12-14@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Leicester, Leicestershire and Rutland ICB — Board meeting
@@ -13,7 +13,7 @@ URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QK1-2027-10-15@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271016
 SUMMARY:Leicester, Leicestershire and Rutland ICB — Board meeting
@@ -22,7 +22,7 @@ URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QPM-2026-12-14@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Northamptonshire ICB — Board meeting
@@ -31,7 +31,7 @@ URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
 UID:QPM-2027-10-15@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271016
 SUMMARY:Northamptonshire ICB — Board meeting
@@ -39,17 +39,8 @@ DESCRIPTION:Detected by Board paper machine. Source: https://leicesterleicesters
 URL:https://leicesterleicestershireandrutland.icb.nhs.uk/about/board-meetings/
 END:VEVENT
 BEGIN:VEVENT
-UID:RFS-2026-11-05@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:Chesterfield Royal Hospital NHS Foundation Trust — Board meeting
-DESCRIPTION:Detected by Board paper machine. Source: https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes
-URL:https://www.chesterfieldroyal.nhs.uk/about-us/our-board-directors/board-directors-papers-meetings-and-minutes
-END:VEVENT
-BEGIN:VEVENT
 UID:RT5-2027-11-24@board-paper-machine.hsj
-DTSTAMP:20261105T145341Z
+DTSTAMP:20261105T152024Z
 DTSTART;VALUE=DATE:20271124
 DTEND;VALUE=DATE:20271125
 SUMMARY:Leicestershire Partnership NHS Trust — Board meeting

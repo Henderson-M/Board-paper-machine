@@ -11106,7 +11106,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -11115,7 +11115,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RBL_2026-11-04.md"
   },
   {
    "id": "RBN:2026-06-24",
@@ -19212,7 +19213,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
@@ -19221,7 +19222,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-05T10:17:36Z"
+   "last_verified": "2026-11-05T10:17:36Z",
+   "summary_path": "summaries/RYE_2026-11-05.md"
   },
   {
    "id": "RYE:2027-03-04",
@@ -24919,7 +24921,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-06-09T18:31:30",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
@@ -24929,7 +24931,8 @@
    },
    "notes": "",
    "_previous_source_url": "https://www.swast.nhs.uk/our-board/board-meeting-schedule-and-public-papers",
-   "last_verified": "2026-11-05T10:17:36Z"
+   "last_verified": "2026-11-05T10:17:36Z",
+   "summary_path": "summaries/RYF_2026-11-05.md"
   },
   {
    "id": "RYF:2027-01-07",
@@ -31491,7 +31494,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-07-16T10:06:00Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -31500,7 +31503,8 @@
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/RFR_2026-11-04.md"
   },
   {
    "id": "RFR:2027-01-06",
@@ -41320,7 +41324,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-10-29T13:01:39Z",
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
@@ -41329,7 +41333,8 @@
     "summary": null
    },
    "notes": "Special meeting; single decision item: 'Norfolk and Waveney Hospital University Group Case for Change (to follow)' per agenda. Detected 2026-10-29 (run-20261029-124159); literal on page ('Special Board meeting agenda, 4 November 2026').",
-   "last_verified": "2026-11-02T10:51:19Z"
+   "last_verified": "2026-11-02T10:51:19Z",
+   "summary_path": "summaries/T6Y0W_2026-11-04.md"
   },
   {
    "id": "T6Y0W:2026-12-16",
@@ -42207,7 +42212,7 @@
      "first_seen": "2026-11-05T10:33:21Z"
     }
    ],
-   "status": "papers_found",
+   "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
@@ -42215,8 +42220,15 @@
     "papers": null,
     "summary": null
    },
-   "notes": "",
-   "last_verified": "2026-11-05T10:17:36Z"
+   "notes": "Fabricated by this run's own date-scan misreading a document posting-date as a meeting date. Retracted same run, never alerted. See RFS:2026-11-10 for the real meeting and its analysis.",
+   "last_verified": "2026-11-05T10:17:36Z",
+   "superseded_by": "RFS:2026-11-10",
+   "date_review": {
+    "action": "retracted",
+    "reviewed": "2026-11-05T15:20:04Z",
+    "run": "2026-11-05",
+    "evidence": "False positive: '05/11/2026' on the page is the DATE POSTED column for a document whose own cover sheet reads 'BOARD OF DIRECTORS MEETING ON 10 November 2026' - the same file already tracked as RFS:2026-11-10's pack (byte-identical, same URL). Never a real separate meeting. Caught by the pack-analyser during Step 8."
+   }
   },
   {
    "id": "RJ7:2027-11-06",
