@@ -10313,7 +10313,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:44:28Z",
     "summary": null
    },
    "notes": null,
@@ -11112,7 +11112,7 @@
    "last_checked": "2026-11-02T12:05:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:44:28Z",
     "summary": null
    },
    "notes": null,
@@ -19219,7 +19219,7 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-05T16:44:28Z",
     "summary": null
    },
    "notes": null,
@@ -33037,7 +33037,8 @@
    "alerts_sent": {
     "date": "2026-07-27T12:20:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-11-05T16:44:28Z"
    },
    "notes": "[2026-07-13] WebFetch OK, extracted 4 forward dates. Earlier no_dates flag was a false positive. [2026-07-16] Only past 2026 meeting packs (Mar-Jul 2026) now listed; forward dates from earlier run have all passed and none newly published. Re-check for Aug/Sep 2026 onward.",
    "last_verified": "2026-11-05T10:17:36Z",
@@ -34400,7 +34401,8 @@
    "alerts_sent": {
     "date": "2026-08-17T12:00:00Z",
     "papers": null,
-    "summary": null
+    "summary": null,
+    "withdrawn": "2026-11-05T16:44:28Z"
    },
    "notes": " | [2026-11-05] Retracted - was a Council of Governors meeting date mistaken for a Trust Board date when first added (17 Aug 2026).",
    "last_verified": "2026-11-05T10:17:36Z",
@@ -35840,7 +35842,8 @@
    "last_checked": "2026-11-05T10:14:03Z",
    "last_verified": "2026-11-05T10:17:36Z",
    "alerts_sent": {
-    "date": "2026-09-10T22:01:10Z"
+    "date": "2026-09-10T22:01:10Z",
+    "papers": "2026-11-05T16:44:28Z"
    },
    "pack_files": [
     {
@@ -41957,7 +41960,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:44:28Z",
     "papers": null,
     "summary": null
    },
@@ -42033,7 +42036,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:44:28Z",
     "papers": null,
     "summary": null
    },
@@ -42360,7 +42363,7 @@
    "first_seen": "2026-11-05T10:14:03Z",
    "last_checked": "2026-11-05T10:14:03Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-05T16:44:28Z",
     "papers": null,
     "summary": null
    },
