@@ -848,7 +848,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-05-27T13:07:43Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -3388,7 +3388,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-05-27T13:09:43Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -4728,7 +4728,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -5090,7 +5090,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -7603,7 +7603,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -8457,7 +8457,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -9567,7 +9567,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -11064,7 +11064,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -12532,7 +12532,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -15349,7 +15349,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -17609,7 +17609,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -22214,7 +22214,7 @@
       "last_checked": "2026-11-10T17:25:47.563952+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "Detected via PDF fallback (agenda PDF).",
@@ -23517,7 +23517,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "Detected via Group C re-extraction (visible_text). | [2026-11-10] Pack detected but unreadable: Incapsula hard block on every route (curl, headed Playwright, WebFetch) as of 10 Nov, despite headed Chrome working on 3 Nov. Needs operator to open in a normal browser and re-run pack-analyser against a manually-saved copy if it downloads.",
@@ -24224,7 +24224,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-06-05T08:56:10Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "",
@@ -26740,7 +26740,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-06-11T18:09:11.460120+00:00",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "_previous_source_url": "https://www.swlstg.nhs.uk/our-board",
@@ -28635,7 +28635,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-06-24T10:35:49Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": null,
@@ -31372,7 +31372,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
@@ -31399,7 +31399,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
@@ -31426,7 +31426,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
@@ -34712,7 +34712,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-08-03T15:55:00Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 4 November 2026, 09:00 - 12:30 Boardroom, Education Centre, Arrowe Park Hospital",
@@ -35745,7 +35745,7 @@
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-08-24T13:51:36Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page.",
@@ -39924,7 +39924,7 @@
       "last_checked": "2026-11-10T16:57:55.472540+00:00",
       "alerts_sent": {
         "date": "2026-09-22T11:19:37Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "notes": "[2026-09-21] detected via prescan (run-20260921-151157); literal evidence: ing. Important: Next Trust Board meeting in public Thursday 12 November 2026 : 10:00am to 1.15pm Location: Boardroom, 2nd Floor, Washing",
@@ -40648,7 +40648,7 @@
       "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-10-05T11:29:13Z",
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "last_verified": "2026-11-10T11:46:01Z",
@@ -43524,7 +43524,7 @@
       ],
       "alerts_sent": {
         "date": null,
-        "papers": null,
+        "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
       "first_seen": "2026-11-10T11:40:00Z",

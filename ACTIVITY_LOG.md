@@ -1,3 +1,13 @@
+## 2026-11-10 (live send): All 25 papers alerts sent for real - 0 failures
+
+Henry asked to send the 25 dry-run papers alerts from the continuation run above. Re-synced with origin
+first (0 ahead/behind, no meeting already alerted by anyone else), built a send manifest from the dry-run
+files, and sent via `send_batch.py` staggered 30-60s apart. All 25/25 sent successfully (results in
+`tmp_scan/run-20261110-113740/send_results.json`, not committed - gitignored scratch). `alerts_sent.papers`
+stamped on all 22 meetings plus the two QOX cluster members (QSL, QVV) that share the one cluster alert,
+driven strictly by the `ok:true` results as the skill requires. Operator (Henry) run report sent separately
+by email per Step 13B.
+
 ## 2026-11-10 (continuation, finished): All 22 packs analysed, 25 dry-run papers alerts written, nothing live-sent
 
 Picked back up after the 5-hour usage limit reset. Resumed the three agents killed mid-task (RVR, RHM, RJ6 -
