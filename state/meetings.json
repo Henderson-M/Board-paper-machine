@@ -15861,13 +15861,13 @@
       ],
       "status": "papers_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:25:47.563952+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
-      "notes": null,
+      "notes": "[2026-11-10] Pack is identical to RVJ (same merged board, same URL) - filed for audit only, not separately analysed or alerted. See summaries/RVJ_2026-11-10.md.",
       "last_verified": "2026-11-10T11:46:01Z"
     },
     {
@@ -22209,16 +22209,17 @@
           "kind": "docx"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T15:42:22Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:25:47.563952+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": "Detected via PDF fallback (agenda PDF).",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RVJ_2026-11-10.md"
     },
     {
       "id": "RVJ:2027-01-12",

@@ -1,3 +1,40 @@
+## 2026-11-10 (continuation, finished): All 22 packs analysed, 25 dry-run papers alerts written, nothing live-sent
+
+Picked back up after the 5-hour usage limit reset. Resumed the three agents killed mid-task (RVR, RHM, RJ6 -
+all finished cleanly with no lost work) and ran the remaining packs (R0D, RQY, RYC, RWE, RXV, QOX, and finally
+the 42-file Bristol/RVJ merger pack) in further waves of Sonnet/Fable agents. Every one of the 22 packs queued
+after detection is now analysed - see the list below.
+
+**Composed and wrote 25 dry-run papers alerts** to `dry_run_output/` (one per recipient per pack - several
+packs have two recipients, including the open-ended "Ella shadows Matt Discombe" override that's been live
+since 2026-10-30 and caught both his packs, RAN and R1H). Nothing was sent live - this remains a dry run.
+Two alerts needed non-standard wording rather than the routine template: Bolton (RMC), where the matched
+document is the AGM agenda not board papers, and East Lancashire (RXR), where the pack could not be read at
+all (Incapsula block) - both framed honestly rather than as "0 leads found".
+
+**Strongest leads across the batch, for a quick skim:** Barts Health (£25.6m month-6 deficit, PFI cash-support
+talk with NHSE), UH Sussex (£30m+ cash support request, trust-wide recruitment freeze, NHSE-ordered neonatal
+review at PRH), Croydon (2023/24 AND 2024/25 accounts still not signed off, restated after a Grant Thornton
+draft report, year-end cash warning), Epsom & St Helier (St Helier E Block maternity reconfiguration decision
+delayed to 3 Dec, a CQC-flagged care-related death), Greater Manchester MH (three s29A notices in ten weeks,
+four interim executives since September, Level 3 enhanced oversight), SWL & St George's MH (adult ADHD median
+wait 98.4 weeks, BAF admits tolerating risk above its own stated appetite), Leicester (a new dialysis unit shut
+by the fire service within two months because the design code was switched without the trust's knowledge),
+UH Dorset (baby-tagging security weaknesses found in an abduction exercise, £57m deficit), Bristol/RVJ (first
+board pack since the July merger - exec restructure, savings £30.5m short of plan).
+
+**Data corrections made this run:** set `cluster_id: BRISTOL-FT` on RA7 and RVJ so the merged trust's board
+pack is never independently detected and double-alerted again (it nearly was this run - both org records
+found the same 42-file pack before the fix). RMC and RXR notes updated per above.
+
+**Scan health:** 3 broken (QJK, QT6, RTK - carried over from the earlier no-WebFetch session, likely false
+positives per their own history), 12 degraded (mix of the same earlier false positives plus three genuine new
+ones from this session's full-tooling pack-detection round: Frimley/RDU and Blackpool/RXL both hard-blocked
+by Incapsula, Nottingham/RX1 blocked by an AJAX-loaded folder tree). `python org_urls.py recheck --write` is
+the suggested next step to clear the stale false positives.
+
+State committed and pushed after each wave throughout, confirmed level with origin each time.
+
 ## 2026-11-10 (continuation): Finished pack detection for the rest of the patches; pack analysis 10 of 20 done, then hit the 5-hour usage limit
 
 Picked up where the morning's sub-agent run left off, with full Agent-dispatch and WebFetch available this time.
