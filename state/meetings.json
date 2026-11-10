@@ -5085,16 +5085,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RJ6_2026-11-11.md"
     },
     {
       "id": "RJ6:2027-01-13",
@@ -9561,16 +9562,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RHM_2026-11-12.md"
     },
     {
       "id": "RHM:2027-01-14",
@@ -11057,16 +11059,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RXV_2026-11-12.md"
     },
     {
       "id": "RXV:2027-01-14",
@@ -15341,16 +15344,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/R0D_2026-11-11.md"
     },
     {
       "id": "R1F:2026-06-03",
@@ -17600,16 +17604,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-05T10:17:36Z"
+      "last_verified": "2026-11-05T10:17:36Z",
+      "summary_path": "summaries/RVR_2026-11-06.md"
     },
     {
       "id": "RVR:2027-01-07",
@@ -26729,16 +26734,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-06-11T18:04:05.857911+00:00",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-06-11T18:09:11.460120+00:00",
         "papers": null,
         "summary": null
       },
       "_previous_source_url": "https://www.swlstg.nhs.uk/our-board",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RQY_2026-11-12.md"
     },
     {
       "id": "RQX:2026-07-31",
@@ -31360,16 +31366,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-07-13T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
         "papers": null,
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/QOX_2026-11-16.md"
     },
     {
       "id": "QSL:2026-11-16",
@@ -31386,16 +31393,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-07-13T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
         "papers": null,
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/QOX_2026-11-16.md"
     },
     {
       "id": "QVV:2026-11-16",
@@ -31412,16 +31420,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-07-13T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
         "papers": null,
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/QOX_2026-11-16.md"
     },
     {
       "id": "QGH:2026-11-18",
@@ -35729,16 +35738,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-08-24T11:51:34Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-08-24T13:51:36Z",
         "papers": null,
         "summary": null
       },
-      "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page."
+      "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page.",
+      "summary_path": "summaries/RWE_2026-11-12.md"
     },
     {
       "id": "RWE:2027-02-11",
@@ -40632,16 +40642,17 @@
           "kind": "pdf"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-10-05T09:27:48Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-10T17:19:23.355722+00:00",
       "alerts_sent": {
         "date": "2026-10-05T11:29:13Z",
         "papers": null,
         "summary": null
       },
       "last_verified": "2026-11-10T11:46:01Z",
-      "notes": "[2026-10-05] detected via prescan literal HTML (run-20261005-100838); literal evidence: \"Our next In Public Board Meeting will take place on Wednesday 11th November 2026\""
+      "notes": "[2026-10-05] detected via prescan literal HTML (run-20261005-100838); literal evidence: \"Our next In Public Board Meeting will take place on Wednesday 11th November 2026\"",
+      "summary_path": "summaries/RYC_2026-11-11.md"
     },
     {
       "id": "RYC:2027-02-10",
