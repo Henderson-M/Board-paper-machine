@@ -1,3 +1,46 @@
+## 2026-11-10 (continuation): Finished pack detection for the rest of the patches; pack analysis 10 of 20 done, then hit the 5-hour usage limit
+
+Picked up where the morning's sub-agent run left off, with full Agent-dispatch and WebFetch available this time.
+
+**Pack detection (Step 7), the ~69 in-window meetings for correspondents other than Henry:** ran as 6 Sonnet-tier
+agents in one wave, each checking ~12 meetings' papers pages with the usual ladder (WebFetch, Playwright fallback,
+deterministic cross-check, two-hop/many-files handling). Result: 25 new packs found, 40 confirmed nothing new yet,
+3 genuinely blocked (Frimley/RDU and Blackpool/RXL - Incapsula WAF; Nottingham/RX1 - AJAX folder tree not reachable
+without click-interaction), 1 already-known pack (RJ7 St George's).
+
+Caught and fixed a live duplicate-alert risk: University Hospitals Bristol and Weston (RA7) and North Bristol (RVJ)
+merged into one trust on 1 July but were still two separate, un-clustered org records - both independently
+"detected" the same 42-file board pack. Set `cluster_id: BRISTOL-FT` on both so this self-corrects from now on;
+kept RVJ as the alerting record per the org notes, RA7 gets the pack filed for audit only, no duplicate alert.
+Also collapsed the BSW/Dorset/Somerset cluster ICB pack (QOX/QSL/QVV - already clustered) to one analysis unit.
+
+**Pack analysis (Step 8), Fable tier, waves of 3:** pre-extracted text for all 86 pack files first (85 ok, 1 hard
+block - see below). Completed 10 of the resulting 22 analysis units before the account's 5-hour usage window ran
+out mid-wave-5 (three agents - Epsom & St Helier/RVR, Southampton/RHM, Croydon/RJ6 - were killed by the API rate
+limit with nothing written; cleanly retryable once the window resets ~16:30). Still to do: RVR, RHM, RJ6 (retry),
+plus R0D (Dorset), RQY (SWL & St George's MH), RWE (Leicester), RXV (Greater Manchester MH), QOX (BSW cluster),
+and RYC (East of England Ambulance - flagged for a wave in planning but never actually dispatched, my error,
+needs picking up next).
+
+Analysed and genuinely newsworthy, most LEAD-tier: Cornwall Partnership (CQC s.29A warning notice, CEO absent
+since July), Black Country ICB (NHSE deferred the BSOL/Black Country merger to 2028), East & North Herts (£7.6m
+deficit forecast, radiology in internal special measures, new CEO/CFO), Queen Victoria Hospital (formal
+absorption into ASPH/Royal Surrey group), North Staffs Combined (CEO admits can't meet NHSE's out-of-area
+trajectory), Wirral Community/WUTH joint board (£14.9m funding gap, 40-hour corridor trolley case), UH Sussex
+(£30m+ cash support request, trust-wide recruitment freeze, NHSE-ordered neonatal review), UHDB (chair retiring,
+£25-39m deficit range, coroner PFD to NHSE/DHSC), Barts Health (£25.6m month-6 deficit, considering PFI cash
+support from NHSE, workforce plan 25 of 463 WTE delivered), RNOH (deputy CEO/CMO departing, Epic RTT data error).
+
+**Correction found, not yet alerted:** Bolton (RMC) - the pack matched to 11 Nov was the Annual Members Meeting
+agenda, not board papers. Flagged in its own summary and in state notes; the real Board meeting is 26 Nov with
+no papers yet. East Lancashire (RXR) - pack genuinely unreadable, Incapsula hard-blocks every route including
+headed Chrome, which worked as recently as 3 Nov; needs a human to open it in a normal browser.
+
+**Not yet alerted to correspondents** - none of this round's papers alerts have been composed or sent (dry-run or
+otherwise); that's the next step once the remaining packs are analysed, so nobody gets a partial/incomplete batch.
+
+State committed and pushed immediately per the run-budget's "if the limit is hit anyway" rule.
+
 ## 2026-11-10: Full sweep, DRY RUN - no emails sent. 28 new dates, 2 new packs analysed (1 new, 1 a duplicate catch)
 
 Run executed by Claude Code as a sub-agent without access to the Agent-dispatch tooling or the WebFetch tool
