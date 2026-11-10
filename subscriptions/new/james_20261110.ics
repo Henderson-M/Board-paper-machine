@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RGT-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Cambridge University Hospitals NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/2026-board-of-directors-meetings/
+URL:https://www.cuh.nhs.uk/about-us/board-directors/board-of-directors-meetings/2026-board-of-directors-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2027-05-05@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2027-07-08@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2027-09-01@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2027-11-03@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20271103
+DTEND;VALUE=DATE:20271104
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2028-01-12@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280113
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RT1-2028-03-01@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280301
+DTEND;VALUE=DATE:20280302
+SUMMARY:Cambridgeshire and Peterborough NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cpft.nhs.uk/board-of-directors/
+URL:https://www.cpft.nhs.uk/board-of-directors/
+END:VEVENT
+END:VCALENDAR

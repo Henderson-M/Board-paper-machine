@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RAL-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Royal Free London NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+URL:https://www.royalfree.nhs.uk/about-us/trust-board/trust-board-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2027-03-11@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2027-05-13@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2027-07-08@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2027-09-09@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2027-11-11@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2028-01-13@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280113
+DTEND;VALUE=DATE:20280114
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+BEGIN:VEVENT
+UID:RQY-2028-03-09@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:South West London and St George's Mental Health NHS Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://swlstg.nhs.uk/our-board
+URL:https://swlstg.nhs.uk/our-board
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RMC-2026-11-10@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Bolton NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
+URL:https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
+END:VEVENT
+BEGIN:VEVENT
+UID:RMC-2026-11-11@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Bolton NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
+URL:https://www.boltonft.nhs.uk/about-us/our-board/board-of-directors-meetings/
+END:VEVENT
+END:VCALENDAR

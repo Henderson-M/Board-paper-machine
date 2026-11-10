@@ -1,3 +1,33 @@
+## 2026-11-10: Full sweep, DRY RUN - no emails sent. 28 new dates, 2 new packs analysed (1 new, 1 a duplicate catch)
+
+Run executed by Claude Code as a sub-agent without access to the Agent-dispatch tooling or the WebFetch tool
+this session - prescan and the deterministic scripts ran as normal, but the usual Sonnet-tier date-scan and
+Fable-tier pack-analyser agent waves could not be launched. Dates and the Henry-patch/watchlist packs below were
+done by hand instead; **pack detection/analysis for the other ~68 in-window meetings (correspondents other than
+Henry) was NOT attempted this run** and still needs a normal agent-dispatched sweep.
+
+**Dates:** prescan.py resolved 169/239 orgs deterministically; 28 new meeting dates found (7 recipients), 519
+existing refreshed. 5 dates dropped by the weekend-sanity guard (literal text didn't name the weekend day).
+reverify_dates.py checked 122 meetings: 112 confirmed, 5 unverifiable, 4 unreadable, 1 CONTRADICTED (RYA/WMAS
+25 Nov - NOT retracted a third time; same stale events-page conflict with the trust's own 28 Oct agenda item that
+two prior runs already judged in the agenda's favour; flagged below for a closer-to-the-date human check).
+
+**Packs:** Calderdale & Huddersfield (RWY) 12 Nov pack analysed - £5.3m adverse at Month 6, Turnaround/CIP risk
+language, two new NED appointments in train, CQC reports pending (2 LEAD/4 WATCH/1 FOI). Papers watchlist poll
+surfaced a genuinely new Homerton (RQX) document - a KPMG FY2024/25 audit completion certificate dated 9 Jan
+2026, confirming the audit ran 6+ months late pending the NAO's sign-off of DHSC's own accounts - alerted to
+Matt Discombe + Ella as a standalone document, not tied to a meeting. The watchlist also flagged what looked
+like 2 new BSW Group Board (RN3) files, but those were already caught, analysed and sent on 2026-11-05 - not
+re-alerted, just a stale watchlist baseline now corrected.
+
+**Scan health:** 227 ok, 12 fail. **3 now BROKEN (3+ consecutive runs): Devon ICB (QJK), Cornwall & Isles of
+Scilly ICB (QT6), Ashford & St Peter's (RTK)** - all failing with the same Playwright HTTP/2 protocol error this
+session; prior-run notes say WebFetch or a browser-UA curl normally reads these fine, so this may well clear on
+a normal session with WebFetch rather than being a real site-side change - worth a quick recheck before treating
+it as a new block. 9 degraded for the same reason (RJ1, RAJ, RBT, RRJ, REF, QMF, RX7, RCF, RXE) - all first/second
+failures this run specifically because this session's fetch ladder was shorter than usual (no WebFetch tool, no
+raw network fetch permission), not necessarily a site-side problem.
+
 ## 2026-11-03 (afternoon): Live send for run-20261102-105043. 34/34 emails delivered. GSTT and Surrey and Borders fixed
 
 All 33 batch emails sent (7 date alerts, 24 papers alerts, 1 withdrawal to Joe, run report to Henry), then 1

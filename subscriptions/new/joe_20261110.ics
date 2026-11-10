@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ8-2027-05-13@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-07-08@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-09-09@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-09-22@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2027-11-11@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2028-01-13@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280113
+DTEND;VALUE=DATE:20280114
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RJ8-2028-03-09@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2026-11-25@board-paper-machine.hsj
+DTSTAMP:20261110T140500Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+END:VCALENDAR
