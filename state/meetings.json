@@ -645,7 +645,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T12:45:48Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -2332,7 +2332,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T13:09:43Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-05-27T13:09:43Z",
         "papers": null,
@@ -3740,7 +3740,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T13:09:43Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-05-27T13:09:43Z",
         "papers": null,
@@ -4036,7 +4036,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -4194,7 +4194,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -4389,7 +4389,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -4867,7 +4867,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -6058,7 +6058,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -8584,7 +8584,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -9485,13 +9485,13 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
-      "notes": null,
+      "notes": " | [2026-11-12] Row for 6 Nov 2026 meeting found on page but carries no pack link yet.",
       "last_verified": "2026-11-05T10:17:36Z"
     },
     {
@@ -12619,7 +12619,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -12735,7 +12735,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -12845,7 +12845,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T14:16:11Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -14316,7 +14316,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -14687,7 +14687,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -15859,16 +15859,17 @@
           "kind": "docx"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T17:25:47.563952+00:00",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
       "notes": "[2026-11-10] Pack is identical to RVJ (same merged board, same URL) - filed for audit only, not separately analysed or alerted. See summaries/RVJ_2026-11-10.md.",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RA7_2026-11-10.md"
     },
     {
       "id": "RA7:2027-01-12",
@@ -17046,7 +17047,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -17489,7 +17490,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -18006,7 +18007,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -18270,7 +18271,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -18474,7 +18475,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -18610,7 +18611,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:02:01Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -21704,7 +21705,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T15:20:55Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
@@ -22520,13 +22521,13 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-05-27T16:02:50Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": null,
         "summary": null
       },
-      "notes": "Detected via Group C re-extraction (visible_text).",
+      "notes": "Detected via Group C re-extraction (visible_text). | [2026-11-12] Papers page checked: row for 4 Nov 2026 exists but carries no pack link yet. (Initial automated match flagged an unrelated 24 Nov 2021 'Agenda and papers' link via date substring overlap — discarded on verification; genuinely no pack yet.)",
       "last_verified": "2026-11-02T10:51:19Z"
     },
     {
@@ -23514,13 +23515,13 @@
       ],
       "status": "papers_found",
       "first_seen": "2026-05-27T16:02:50Z",
-      "last_checked": "2026-11-10T16:57:55.472540+00:00",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": null,
         "papers": "2026-11-10T17:51:31.308111+00:00",
         "summary": null
       },
-      "notes": "Detected via Group C re-extraction (visible_text). | [2026-11-10] Pack detected but unreadable: Incapsula hard block on every route (curl, headed Playwright, WebFetch) as of 10 Nov, despite headed Chrome working on 3 Nov. Needs operator to open in a normal browser and re-run pack-analyser against a manually-saved copy if it downloads.",
+      "notes": "Detected via Group C re-extraction (visible_text). | [2026-11-10] Pack detected but unreadable: Incapsula hard block on every route (curl, headed Playwright, WebFetch) as of 10 Nov, despite headed Chrome working on 3 Nov. Needs operator to open in a normal browser and re-run pack-analyser against a manually-saved copy if it downloads. | [2026-11-12] Re-attempted (headless + headed Playwright download): still Incapsula hard block, same as 10 Nov. Operator needs to open the page in a normal browser and save a copy for the analyser.",
       "last_verified": "2026-11-10T11:46:01Z"
     },
     {
@@ -24464,7 +24465,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-06-05T08:52:37Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-06-05T08:56:10Z",
         "papers": null,
@@ -25414,7 +25415,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-06-09T18:31:30",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-06-09T19:10:18",
         "papers": null,
@@ -27196,16 +27197,17 @@
           "first_seen": "2026-11-05T10:33:21Z"
         }
       ],
-      "status": "papers_found",
+      "status": "analysed",
       "first_seen": "2026-06-15T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-06-15T12:00:00Z",
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-05T10:17:36Z"
+      "last_verified": "2026-11-05T10:17:36Z",
+      "summary_path": "summaries/RJ7_2026-11-06.md"
     },
     {
       "id": "RJ7:2027-01-07",
@@ -31441,17 +31443,69 @@
       "title": "Joint C&W / H&W ICB Board in Common",
       "source_url": "https://herefordshireandworcestershire.icb.nhs.uk/meetings",
       "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "pack_files": [
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2018%20November%2026%20FINAL.pdf",
+          "title": "Agenda 00 Public Board 18 November 26 FINAL",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2004%20Public%20Board%20Minutes%2016%20Sept%2026%20draft.pdf",
+          "title": "Agenda 04 Public Board Minutes 16 Sept 26 draft",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20Governance%20Log%202026-27.xlsx",
+          "title": "Agenda 05 Governance Log 2026-27",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report%20(November%202026)%20FINAL.pdf",
+          "title": "Agenda 08 CEO report (November 2026) FINAL",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20Spotlight%20UEC%20Winter%20Preparedness.pdf",
+          "title": "Agenda 09 Spotlight UEC Winter Preparedness",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20Thirlwall%20Inquiry.pdf",
+          "title": "Agenda 10 Thirlwall Inquiry",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20Integrated%20Quality%20%26%20Performance%20Report.pdf",
+          "title": "Agenda 11 Integrated Quality & Performance Report",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20Financial%20Plan%20%26%20Delivery.pdf",
+          "title": "Agenda 12 Financial Plan & Delivery",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20BAF%2026%2027.pdf",
+          "title": "Agenda 13 BAF 26 27",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20Cttee%20Highlight%20Report.pdf",
+          "title": "Agenda 14 Cttee Highlight Report",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-07-13T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
         "papers": null,
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/QGH_2026-11-18.md"
     },
     {
       "id": "QWU:2026-11-18",
@@ -31461,17 +31515,69 @@
       "title": "Joint C&W / H&W ICB Board in Common",
       "source_url": "https://www.happyhealthylives.uk/integrated-care-board/about-us/icb-board-meetings/",
       "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "pack_files": [
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2000%20Public%20Board%2018%20November%2026%20FINAL.pdf",
+          "title": "Agenda 00 Public Board 18 November 26 FINAL",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2004%20Public%20Board%20Minutes%2016%20Sept%2026%20draft.pdf",
+          "title": "Agenda 04 Public Board Minutes 16 Sept 26 draft",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2005%20Governance%20Log%202026-27.xlsx",
+          "title": "Agenda 05 Governance Log 2026-27",
+          "kind": "other"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2008%20CEO%20report%20(November%202026)%20FINAL.pdf",
+          "title": "Agenda 08 CEO report (November 2026) FINAL",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2009%20Spotlight%20UEC%20Winter%20Preparedness.pdf",
+          "title": "Agenda 09 Spotlight UEC Winter Preparedness",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2010%20Thirlwall%20Inquiry.pdf",
+          "title": "Agenda 10 Thirlwall Inquiry",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2011%20Integrated%20Quality%20%26%20Performance%20Report.pdf",
+          "title": "Agenda 11 Integrated Quality & Performance Report",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2012%20Financial%20Plan%20%26%20Delivery.pdf",
+          "title": "Agenda 12 Financial Plan & Delivery",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2013%20BAF%2026%2027.pdf",
+          "title": "Agenda 13 BAF 26 27",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://www.happyhealthylives.uk/download/clientfiles/files/Agenda%2014%20Cttee%20Highlight%20Report.pdf",
+          "title": "Agenda 14 Cttee Highlight Report",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-07-13T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-07-13T12:20:45Z",
         "papers": null,
         "summary": null
       },
       "notes": "detected in full sweep 2026-07-13",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/QWU_2026-11-18.md"
     },
     {
       "id": "QUY:2026-11-25",
@@ -33208,13 +33314,13 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-07-23T17:15:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-07-23T17:40:00Z",
         "papers": null,
         "summary": null
       },
-      "notes": "[2026-10-27] SCAS page lists 28 Oct as the Annual Members Meeting and says the next Board meeting is 5 Nov; consider retracting as a board entry.",
+      "notes": "[2026-10-27] SCAS page lists 28 Oct as the Annual Members Meeting and says the next Board meeting is 5 Nov; consider retracting as a board entry. | [2026-11-12] Papers page checked (Playwright): no pack for 28 Oct 2026. Most recent published packs are dated 3 Sep 2026 and 5 Nov 2026 — an 8-day gap between a 28 Oct meeting and a 5 Nov pack is inconsistent with this org's roughly-bimonthly cadence. The recorded 28 Oct date may be wrong; needs the next date-scan/reverify run to check against the schedule page, not corrected here (packs-only run).",
       "last_verified": "2026-10-27T14:46:08Z"
     },
     {
@@ -33307,17 +33413,104 @@
       "title": "Trust Board Meeting in Public",
       "source_url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers",
       "papers_url": "https://eastofenglandcommunityhealthandcare.nhs.uk/about-us/our-board/board-meetings-and-reports/#board-papers",
-      "pack_files": [],
-      "status": "date_found",
+      "pack_files": [
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/o5qgllci/00-2026-11-18-trust-board-meeting-in-public-agenda.pdf",
+          "title": "Agenda",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/n0zn3udi/30-2026-09-30-trust-board-meeting-in-public_draft.pdf",
+          "title": "Draft minutes 30 Sept 2026 board",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/srujszpc/31-2026-09-30-annual-general-meeting-in-public_draft.pdf",
+          "title": "Draft minutes AGM 30 Sept 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/c4hbylrs/60-chief-executives-report-november-2026.pdf",
+          "title": "Chief Executive's report November 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/omkbg5fx/70-annual-plan-update.pdf",
+          "title": "Annual plan update",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/gvdfcwkx/71-appendix-1-annual-plan.pdf",
+          "title": "Appendix 1 - Annual plan",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/mt3b0kcj/72-appendix-2-merger-benefits.pdf",
+          "title": "Appendix 2 - Merger benefits",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/vpykcsh0/73-appendix-3-ptip.pdf",
+          "title": "Appendix 3 - PTIP",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/es5ndsku/90-trust-integrated-governance-and-performance-report.pdf",
+          "title": "Trust Integrated Governance and Performance Report",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/nchdclkh/91-trust-integrated-governance-and-performance-report.pdf",
+          "title": "Trust Integrated Governance and Performance Report (continued)",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/4xeltav4/100-2026-11-18-thirlwall-inquiry.pdf",
+          "title": "Thirlwall Inquiry",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/00xpzcjk/101-appendix-a-thirlwell-inquiry.pdf",
+          "title": "Appendix A - Thirlwall Inquiry",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/ef3f5my3/110-key-matters-and-escalation-report-to-the-trust-board_audit-and-risk-committee.pdf",
+          "title": "Key matters and escalation report - Audit and Risk Committee",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/mmqn2sgp/120-key-matters-and-escalation-report-to-the-trust-board_remuneration-committee.pdf",
+          "title": "Key matters and escalation report - Remuneration Committee",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/dbraiq3r/130-eprr-core-standards-assurance-2026-27.pdf",
+          "title": "EPRR core standards assurance 2026/27",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/weedjotd/140-trust-board-assurance-framework-november-2026.pdf",
+          "title": "Trust Board Assurance Framework November 2026",
+          "kind": "pdf"
+        },
+        {
+          "url": "https://eastofenglandcommunityhealthandcare.nhs.uk/media/br3jr232/annex-61-cqc-statement-of-purpose.pdf",
+          "title": "Annex 6.1 - CQC Statement of Purpose",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-07-23T17:15:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-07-23T17:40:00Z",
         "papers": null,
         "summary": null
       },
       "notes": null,
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RY3_2026-11-18.md"
     },
     {
       "id": "RX9:2026-11-26",
@@ -34753,17 +34946,24 @@
       "title": "Trust Board (public)",
       "source_url": "https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/",
       "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "pack_files": [
+        {
+          "url": "https://www.kentcht.nhs.uk/wp-content/uploads/2026/11/Board-papers-18-November-2026-1.pdf",
+          "title": "Board papers 18 November 2026",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-08-03T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-08-03T15:55:00Z",
         "papers": null,
         "summary": null
       },
       "notes": "[2026-08-03] detected via deterministic; literal evidence: 18 November 2026",
-      "last_verified": "2026-11-10T11:46:01Z"
+      "last_verified": "2026-11-10T11:46:01Z",
+      "summary_path": "summaries/RYY_2026-11-18.md"
     },
     {
       "id": "RAJ:2026-11-26",
@@ -36451,7 +36651,7 @@
       "source_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
       "status": "date_found",
       "detected": "2026-09-10T08:25:34Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-09-10T22:01:10Z"
@@ -36466,7 +36666,7 @@
       "source_url": "https://www.nlg.nhs.uk/about/events/?cat=board-meetings",
       "status": "date_found",
       "detected": "2026-09-10T08:25:34Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-09-10T22:01:10Z"
@@ -36860,7 +37060,7 @@
       "papers_url": null,
       "pack_files": [],
       "first_seen": "2026-09-15T12:00:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-09-15T13:00:00Z",
@@ -40826,7 +41026,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-10-08T11:29:41Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-10-08T11:55:36Z",
         "papers": null,
@@ -41190,7 +41390,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-10-20T14:39:47Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-10-20T15:04:36Z",
@@ -41210,7 +41410,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-10-20T14:39:47Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:46:01Z",
       "alerts_sent": {
         "date": "2026-10-20T15:04:36Z",
@@ -42401,17 +42601,24 @@
       "title": "Board of Directors",
       "source_url": "https://www.kch.nhs.uk/about/get-to-know-us/our-board-of-directors/board-meetings/",
       "papers_url": null,
-      "pack_files": [],
-      "status": "date_found",
+      "pack_files": [
+        {
+          "url": "https://www.kch.nhs.uk/wp-content/uploads/2026/11/Kings-College-Hospital-PUBLIC-Board-meeting-pack-17-November-2026.pdf",
+          "title": "PUBLIC Board meeting pack 17 November 2026",
+          "kind": "pdf"
+        }
+      ],
+      "status": "analysed",
       "first_seen": "2026-11-02T12:05:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-11-03T14:05:00Z",
         "papers": null,
         "summary": null
       },
       "notes": "[2026-11-02] run-20261102-105043: 16 Sep 2026 agenda: 'The next meeting will be held on Tuesday 17 November 2026 at 1400-1630' | date_source: pack",
-      "last_verified": "2026-11-05T10:17:36Z"
+      "last_verified": "2026-11-05T10:17:36Z",
+      "summary_path": "summaries/RJZ_2026-11-17.md"
     },
     {
       "id": "RBD:2026-12-08",
@@ -43021,13 +43228,13 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-11-05T10:14:03Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-11-05T16:39:46Z",
         "papers": null,
         "summary": null
       },
-      "notes": "",
+      "notes": " | [2026-11-12] Papers page (schedule listing) has no PDF links; found a per-meeting event page (uhb.nhs.uk/news-and-events/events/meeting-of-the-board-of-directors-17/?month=11&year=2026) that may carry the pack closer to the meeting - worth checking directly next run.",
       "last_verified": "2026-11-10T11:46:01Z"
     },
     {
@@ -43079,7 +43286,7 @@
       "pack_files": [],
       "status": "date_found",
       "first_seen": "2026-11-05T10:14:03Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "alerts_sent": {
         "date": "2026-11-05T16:39:46Z",
         "papers": null,
@@ -43280,7 +43487,7 @@
         "summary": null
       },
       "first_seen": "2026-11-10T11:40:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:40:00Z",
       "notes": "",
       "detected_method": "prescan_literal"
@@ -43302,7 +43509,7 @@
         "summary": null
       },
       "first_seen": "2026-11-10T11:40:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:40:00Z",
       "notes": "",
       "detected_method": "prescan_literal"
@@ -43324,7 +43531,7 @@
         "summary": null
       },
       "first_seen": "2026-11-10T11:40:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:40:00Z",
       "notes": "",
       "detected_method": "prescan_literal"
@@ -43500,7 +43707,7 @@
         "summary": null
       },
       "first_seen": "2026-11-10T11:40:00Z",
-      "last_checked": "2026-11-10T12:14:39.637092Z",
+      "last_checked": "2026-11-12T12:46:05.098681+00:00",
       "last_verified": "2026-11-10T11:40:00Z",
       "notes": "",
       "detected_method": "prescan_literal"

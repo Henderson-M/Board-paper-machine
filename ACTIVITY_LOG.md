@@ -1,3 +1,45 @@
+## 2026-11-12: Packs-only check - 6 new/pending packs analysed, 7 dry-run papers alerts written
+
+Henry asked for a packs-only run (checking for and analysing papers already in the system, no date
+scanning). Synced clean with origin first (0 ahead/behind). Checked papers pages for all 48 meetings
+currently in the detection window (21 days back to 10 days forward) that had no pack yet or an
+unanalysed one, using the deterministic extractor first and escalating to Playwright (headless, then
+headed once) where pages came back empty.
+
+**Found and analysed 6 packs:** St George's/Epsom & St Helier joint board (RJ7, 6 Nov - deputy chief
+people officer departure, 14 consultants' collective FTSU concern over bed closures, ILD review finding
+a death "may have been associated with shortcomings in care"), King's College Hospital (RJZ, 17 Nov - a
+Carnall Farrar review projecting the SE London acute system deficit hitting £1bn by 2030/31, deputy CEO
+departure to GSTT with the post abolished, an HTA mortuary inspection with 38 shortfalls, 4 critical MHRA
+findings), Kent Community Health (RYY, 18 Nov - first pack since the Medway Community Healthcare merger),
+Bristol NHS FT (RA7, 10 Nov - a finance director change and what reads like an unauthorised-access
+investigation), East of England Community Health and Care (RY3, 18 Nov - chair recruitment under way with
+no reason given for the departure, two merger-integration risks raised), and the shared Coventry &
+Warwickshire / Herefordshire & Worcestershire ICB board (QWU/QGH, 18 Nov, one pack covering both ICBs).
+
+**Caught one false positive and one under-read before they went out.** Clatterbridge (REN) initially
+matched as having a new 4 Nov pack, but the "match" was an unrelated 24 Nov **2021** document picked up by
+a sloppy date-substring check - verified against the actual row pairing, which shows no pack attached
+yet. East of England (RY3) is the trust flagged in the skill's own notes for under-reading via filename
+date-matching (3 of 18 files recovered back in September) - this run found the page's accordion structure
+and recovered the full 17-document pack rather than repeating that failure.
+
+**RXR (East Lancashire Hospitals) remains unreadable** - still a hard Incapsula block on the pack
+download, headless and headed Playwright both re-tried, same result as 10 November. Recorded as degraded
+in org health; needs a human to open it in a normal browser.
+
+**Data-quality flag, not corrected (out of scope for a packs-only run):** South Central Ambulance's
+recorded 28 October meeting has no pack, and the most recent packs on its page are dated 3 September and
+5 November - an 8-day gap to the next pack is inconsistent with its cadence. A note from 27 Oct had
+already flagged this date as possibly being the Annual Members Meeting, not a board meeting, and queued
+for retraction - this just adds today's confirmation. Needs the next date-scan/reverify run to action.
+
+**Wrote 7 dry-run papers alerts** to `dry_run_output/` - one per recipient per pack (Ella x2, Alison, Joe,
+James, Caitlin, Henry). Nothing sent live.
+
+**Scan health:** 2 broken (RJ1 Guy's and St Thomas' - known unfixable even headed, RRJ Royal Orthopaedic -
+stale archive URL), 1 degraded (RXR, above), of 240 orgs tracked.
+
 ## 2026-11-10 (live send): All 25 papers alerts sent for real - 0 failures
 
 Henry asked to send the 25 dry-run papers alerts from the continuation run above. Re-synced with origin
