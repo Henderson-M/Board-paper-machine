@@ -516,6 +516,18 @@ The sub-skill will:
 
 After each pack is analysed, update the meeting in state: status to `analysed`, append summary path under a new field `summary_path`.
 
+**If a pack cannot be read, say so — never let it come out as "0 leads".** A pack can be *detected* (a link or filename exists on the papers page) without being *readable*: a bot-block like Incapsula on the download itself, a corrupted/empty PDF, a password-gated file. The pack-analyser returning nothing in that situation looks identical, in the auto-composed Step 10 template, to a pack that was genuinely read and happened to contain nothing reportable — the correspondent cannot tell the difference, and "0 leads" reads as "checked, nothing there" when the truth is "never checked." Worked case, 2026-11-12 (RXR, East Lancashire): a pack was detected but every fetch route — plain `requests`, headless Playwright, headed real-Chrome Playwright — was Incapsula-blocked on both the papers page and the PDF link itself, despite the same approach working as recently as 3 Nov. Henry then opened the same page and PDF in a normal browser and it worked fine, confirming the block was bot-only.
+
+When this happens:
+
+1. Do **not** use the normal Step 10 template for this meeting — it asserts a lead count that was never actually counted.
+2. Send each recipient (same Step 2 lookup as Step 10) an honest alert instead:
+   - Subject: `[Board paper machine] {org name} ({ods_code}) — a pack was found but could not be read — can you check?`
+   - Body: say plainly that a pack was detected, name exactly what was tried and how it failed (so the correspondent knows this is a tooling block, not missing papers), give the direct link to the papers page (and the PDF link if known) so they can open it themselves, and ask them to tell you what they find if it matters for a story.
+3. Record `org_health.py record --ods {ods} --result fail --kind blocked --detail "pack detected but unreadable: {what was tried}"` — this is a real failure to read, distinct from `no_schedule_published`, and should keep showing up on the ACTION REQUIRED list rather than silently resolving.
+4. If the correspondent later confirms the page/pack opens fine for them, that confirms a bot-only block (not a site problem) — note that in `data/trust_urls.json`'s `notes` for the org so the next run doesn't waste time treating it as a possible URL change, but the failure stays recorded: there is still no automated route to the content.
+5. Do **not** mark `alerts_sent.papers` from this alert as if it were a normal papers alert — the correspondent was not sent a summary, they were asked to do the reading themselves. If the pack is later read by any means (correspondent forwards the PDF, a future run gets through), send the real Step 10 alert then and set `alerts_sent.papers` at that point.
+
 ### Step 8b — Compose WITHDRAWAL alerts (meetings that have gone away)
 
 **A meeting you have already told someone about, and which then disappears, MUST be withdrawn. Silently changing its status in state is not enough — the correspondent's calendar still has it.** This step is the mirror of Step 9: Step 9 tells people a meeting exists, this one tells them it doesn't.
