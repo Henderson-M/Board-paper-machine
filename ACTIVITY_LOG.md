@@ -1,3 +1,25 @@
+## 2026-11-12: RJ1 and RRJ resolved - org health down to 0 broken, 1 degraded
+
+Of the 15 orgs flagged needing attention after the big sweep, 2 were left needing a human to
+actually look at the page (not just re-run a script): RJ1 (Guy's & St Thomas') and RRJ (Royal
+Orthopaedic Hospital). Asked Henry to get Ella/Caitlin to check manually with concrete
+instructions on what to look for. Both came back:
+
+- **RJ1**: Henry confirmed the page works fine in a normal browser. The correct papers URL is
+  `/about-us/our-board/agenda-and-papers` (not `/board-meetings`, which only has dates) - this
+  was already the stored URL from an earlier fix on 2026-11-03, so no change needed. Recorded
+  `ok` in org_health; the "broken" flag was a false positive from the non-WebFetch recheck
+  tooling, consistent with the existing trust_urls.json notes.
+- **RRJ**: Caitlin confirmed the candidate URL (`roh.nhs.uk/doc-men-hidden/corporate-information/board-papers`)
+  is correct - it shows real board papers behind a year-dropdown, last meeting July 2026. She
+  also asked the trust directly: they confirmed they don't publish forthcoming board meeting
+  dates anywhere. Force-wrote this URL over the automated probe's "stale_content" objection
+  (the probe can't drive the dropdown) and recorded `ok`/`no_schedule_published` in org_health,
+  with a note that date-scan finding nothing forward for RRJ is expected, not a fault.
+
+Net result: scan health is now 0 broken, 1 degraded (RXR, the known Incapsula block already
+flagged to Zoe on 2026-11-10) - down from 15 at the end of the big sweep.
+
 ## 2026-11-12: Packs-only check - 6 new/pending packs analysed, 7 dry-run papers alerts written
 
 Henry asked for a packs-only run (checking for and analysing papers already in the system, no date
