@@ -1,3 +1,17 @@
+## 2026-11-16 (live send): All 18 emails sent for real - 0 failures
+
+Henry reviewed the dry-run below and said "pls send." Re-synced with origin first (0 ahead/behind,
+nothing already alerted by anyone else), built manifests from the dry-run files, and sent via
+`send_batch.py` staggered 30-60s apart from the foreground session once the send permission was
+approved there. All 18/18 sent successfully (results in
+`tmp_scan/run-20261116-105038/send_results_live.json`, not committed - gitignored scratch):
+9 date alerts, 7 papers alerts, the RXA (Cheshire and Wirral) unreadable-pack alert to Zoe, and
+the operator run report to Henry. `alerts_sent.date` stamped on all 12 new-date meetings and
+`alerts_sent.papers` on all 8 analysed-pack meetings (including the RXK cluster twin of RNA),
+driven strictly by the `ok:true` results as the skill requires - the RXA special alert and the
+operator report are not meeting-level and were left unstamped, matching Step 8's rule that an
+unreadable pack must never look like a normal checked-and-clean papers alert.
+
 ## 2026-11-16: Full dry-run sweep - 12 new dates, 7 packs analysed, nothing sent live
 
 Ran a full sweep (dry-run, no --live-emails) at Henry's request. Synced clean with origin first

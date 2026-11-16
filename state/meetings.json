@@ -4876,7 +4876,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": null,
@@ -6074,7 +6074,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": null,
@@ -17070,7 +17070,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": null,
@@ -17520,7 +17520,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": null,
@@ -18512,7 +18512,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": null,
@@ -23485,7 +23485,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": "Detected via Group C re-extraction (websearch_fallback).",
@@ -37118,7 +37118,7 @@
    "last_verified": "2026-11-10T11:46:01Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": "detected 2026-09-15",
@@ -44163,7 +44163,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44184,7 +44184,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44206,7 +44206,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44228,7 +44228,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44249,7 +44249,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44271,7 +44271,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44313,7 +44313,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44335,7 +44335,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44357,7 +44357,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44379,7 +44379,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44400,7 +44400,7 @@
    "first_seen": "2026-11-16T10:55:00Z",
    "last_checked": "2026-11-16T10:55:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-16T14:05:00Z",
     "papers": null,
     "summary": null
    },
@@ -44428,7 +44428,7 @@
    "last_checked": "2026-11-16T13:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
+    "papers": "2026-11-16T14:05:00Z",
     "summary": null
    },
    "notes": "[2026-11-16] Added from papers_watchlist poll - RKB had no future-dated meeting in state; date harvested literally from the pack filename (\"Public Board Papers 18 November 2026\"). date_source: pack.",
