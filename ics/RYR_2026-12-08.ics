@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYR-2026-12-08@board-paper-machine.hsj
+DTSTAMP:20261116T130000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:University Hospitals Sussex NHS Foundation Trust — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.uhsussex.nhs.uk/about/board/board-meetings/
+URL:https://www.uhsussex.nhs.uk/about/board/board-meetings/
+END:VEVENT
+END:VCALENDAR

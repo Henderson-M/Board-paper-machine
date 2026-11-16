@@ -1,3 +1,84 @@
+## 2026-11-16: Full dry-run sweep - 12 new dates, 7 packs analysed, nothing sent live
+
+Ran a full sweep (dry-run, no --live-emails) at Henry's request. Synced clean with origin first
+(0 ahead/behind). This run had no Agent-dispatch tooling available (fork constraint, same as
+10 Nov) and also no WebFetch, so date/pack detection relied on `prescan.py`'s deterministic
+extraction plus direct Playwright/curl-via-script fetches for the handful of orgs prescan
+couldn't resolve on its own.
+
+**12 new meeting dates** added across 10 orgs (Greater Manchester ICB, Royal Free London,
+Milton Keynes, Barnsley, Cambridge University Hospitals, Somerset x2, Croydon, Salisbury,
+Tees Esk and Wear Valleys x2, University Hospitals Sussex x2) - dry-run date alerts written for
+all 9 affected correspondents (Ella included on the Royal Free alert per the standing
+Matt Discombe shadow rule). Caught and fixed a near-miss before writing files: a first pass
+named both Matt Discombe's and Matt Mathers' output `..._Matt_dates.md` by first name alone -
+exactly the bug a past incident already flagged - corrected to the full slugified key before
+anything was written twice.
+
+**5 extracted dates dropped as suspect** before they could reach anyone: two "6 November 2027"
+hits at Bristol/RA7 and RVJ turned out to be a "next review due" date, not a meeting; a Royal
+London (R1H) Saturday date and a Croydon (RJ7) Saturday-coincidence date had no weekend
+confirmation on the page; and a Gloucestershire (TAH) "Wednesday 24 January 2027" is actually a
+Sunday by the calendar, an internal inconsistency on the trust's own page - none were recorded.
+
+**Reverify audit (`reverify_dates.py`, 145 meetings checked):** 129 confirmed, 9 unverifiable
+(no forward schedule - normal), 5 unreadable (all known WebFetch-only hosts this run's tooling
+can't reach: QJK, QT6, RTK, RXN, plus a new one, North London NHS FT). 2 flagged CONTRADICTED -
+both hand-checked against the matcher's own evidence and NOT retracted: Blackpool (RXL) is a
+matcher false positive (a bare "3 December" in an inline list, year correctly inferred from the
+surrounding sequence); West Midlands Ambulance (RYA) is the same stale-events-page-vs-fresher-
+board-agenda conflict already documented and left alone on 02/05/10 Nov runs - now 9 days from
+the meeting and still needs a human check.
+
+**Papers watchlist:** added Hertfordshire (RWH) and Calderdale & Huddersfield (RWY), both of
+which have lapsed past their single next-published date with no roll-forward yet. Removed
+East of England Ambulance (RYC) and Maidstone & Tunbridge Wells (RWF) - both now have a
+verified future date. Caught two watchlist false-"new"s before alerting: King's College (RJZ)
+and East of England Ambulance's apparent new packs were byte-identical to packs already
+analysed under different meeting dates.
+
+**7 packs analysed** (dry-run papers alerts written, nothing sent): Mid Yorkshire (RXF, 12 Nov -
+£21.2m year-end deficit £13m worse than plan, £57.3m/6%-of-income savings target, £8.87m spent
+on 148 redundancies, first full surgery CQC inspection since 2017, board only "partially assured"
+on its Lord Mann antisemitism-review gap analysis); Leeds Community Healthcare (RY6, 19 Nov -
+a board paper naming the health secretary directly on NHS England/DHSC transfer mechanics,
+specifically that regional NHS England teams will NOT move into DHSC after all and will sit in a
+temporary Special Health Authority instead - directly relevant to Henry's own NHSE/DHSC transfer
+reporting, worth independently checking how public this framing already is; also progress on the
+Leeds Partnership FT merger with LYPFT); the Dudley Group/Sandwell and West Birmingham joint
+board (RNA/RXK, 18 Nov - Sandwell maternity/neonatal services still under NHS England intensive
+support following the Baroness Amos investigation, a new externally-led review of all 2025
+stillbirths just commissioned, neonatal mortality still "special-cause concern", Sandwell's
+underlying deficit now assessed at £64.6m); Coventry & Warwickshire Partnership (RYG, 17 Nov -
+a qualified audit opinion on fair pay disclosures despite an unqualified opinion overall, three
+CQC "Requires Improvement" service ratings against an overall "Good" well-led rating, an
+unexplained Coroner's Prevention of Future Deaths report); Avon and Wiltshire Mental Health
+Partnership (RVN, 18 Nov - two PHSO-upheld complaints over care escalation failures, a board risk
+register naming the Chair and Chief Finance Officer's planned retirement as a continuity risk);
+and two agenda-only thin packs (UHCW/RKB, Maidstone & Tunbridge Wells/RWF - full packs not yet
+published, the latter flagging an unexplained Thirlwall Inquiry update item).
+
+**One pack detected but unreadable, not treated as a routine "0 leads":** Cheshire and Wirral
+Partnership's (RXA) 25 Nov agenda link 403'd on both requests and headless Playwright. Sent Zoe
+an honest "found but couldn't read it" alert instead of a normal papers alert, recorded
+org_health fail/blocked rather than leaving it looking checked-and-clean.
+
+**Pack matching false positives caught before attaching:** five candidate matches from the
+row-pairing pass turned out to carry a different year or a different meeting's date entirely
+(Leicestershire Partnership 2020, Harrogate 2015/2020, Bolton 2020, Tees Esk and Wear Valleys'
+own Oct pack mismatched to a Nov date) - none were attached to the wrong meeting.
+
+**Scope not covered this run, flagged rather than silently skipped:** ~95 of the 107 in-window
+meetings had no prescan-matched pack (mostly dated 17-26 Nov, too early for most trusts to have
+published yet); RCF, REF and RBT (Airedale, Royal Cornwall, Mid Cheshire) were not independently
+re-checked (WebFetch-only hosts per their own notes, unreachable by this run's tooling - last
+good attempt 11 Nov, unchanged); the full per-correspondent subscription snapshot rebuild
+(Step 7's audit/reseed `.ics` files) was skipped as lower-priority and not safety-relevant.
+
+Committed and pushed state (`<<COMMIT_HASH>>`). Scan health: 0 broken, 6 degraded (all expected
+WebFetch-only hosts - QJK, QT6, RJ1, RTK, RXG, RXN), 3 not independently checked this run
+(RBT, RCF, REF), of 240 orgs tracked.
+
 ## 2026-11-12: RJ1 and RRJ resolved - org health down to 0 broken, 1 degraded
 
 Of the 15 orgs flagged needing attention after the big sweep, 2 were left needing a human to
