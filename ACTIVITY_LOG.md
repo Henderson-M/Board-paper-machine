@@ -75,9 +75,9 @@ re-checked (WebFetch-only hosts per their own notes, unreachable by this run's t
 good attempt 11 Nov, unchanged); the full per-correspondent subscription snapshot rebuild
 (Step 7's audit/reseed `.ics` files) was skipped as lower-priority and not safety-relevant.
 
-Committed and pushed state (`<<COMMIT_HASH>>`). Scan health: 0 broken, 6 degraded (all expected
-WebFetch-only hosts - QJK, QT6, RJ1, RTK, RXG, RXN), 3 not independently checked this run
-(RBT, RCF, REF), of 240 orgs tracked.
+Committed and pushed state (`babf435`). Scan health: 0 broken, 7 degraded (6 expected
+WebFetch-only hosts - QJK, QT6, RJ1, RTK, RXG, RXN - plus RXA for the unreadable pack above),
+3 not independently checked this run (RBT, RCF, REF), of 240 orgs tracked.
 
 ## 2026-11-12: RJ1 and RRJ resolved - org health down to 0 broken, 1 degraded
 
