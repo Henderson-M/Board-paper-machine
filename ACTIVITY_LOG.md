@@ -1,3 +1,7 @@
+## 2026-11-19 (live send): All 22 emails sent - 0 failures
+
+Henry approved the send after the push (the push had to be run from his own terminal; the session safety check refused it). Re-fetched origin first (0 ahead/behind, nothing already alerted by anyone else), then sent via `send_batch.py`: 6 date alerts, 15 papers alerts and the operator run report to Henry, 22/22 ok (`send_results_20261119.json`). `alerts_sent.date` and `alerts_sent.papers` stamped from the ok:true rows only. The "needs a human check" items went to Henry in the run report; the individual correspondents were NOT separately told.
+
 ## 2026-11-19: Full dry-run sweep - 27 new dates, 15 packs analysed, nothing sent
 
 Ran a full sweep (dry-run, no --live-emails) at Henry's request. Fetched origin first and was

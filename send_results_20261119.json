@@ -1,0 +1,156 @@
+[
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[Board paper machine] 8 new meeting date(s) detected",
+  "id": "dates:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "id": "dates:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "james.illman@hsj.co.uk",
+  "subject": "[Board paper machine] 1 new meeting date(s) detected",
+  "id": "dates:james",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[Board paper machine] 7 new meeting date(s) detected",
+  "id": "dates:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[Board paper machine] 5 new meeting date(s) detected",
+  "id": "dates:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] North East and North Cumbria ICB board \u2014 Wednesday 25 November 2026 \u2014 4 leads",
+  "id": "papers:QHM_2026-11-25:matt-mathers",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] South East London ICB board \u2014 Tuesday 24 November 2026 \u2014 6 leads",
+  "id": "papers:QKK_2026-11-24:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] Greater Manchester ICB board \u2014 Wednesday 18 November 2026 \u2014 7 leads",
+  "id": "papers:QOP_2026-11-18:nick",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Humber and North Yorkshire ICB board \u2014 Wednesday 18 November 2026 \u2014 9 leads",
+  "id": "papers:QOQ_2026-11-18:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] South West London ICB board \u2014 Wednesday 25 November 2026 \u2014 5 leads",
+  "id": "papers:QWE_2026-11-25:ella",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[PAPERS] Northern Lincolnshire and Goole NHS Foundation Trust and Hull University Teaching Hospitals NHS Trust (joint board) board \u2014 Thursday 12 November 2026 \u2014 10 leads",
+  "id": "papers:RJL_2026-11-12:henry",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Countess of Chester Hospital NHS Foundation Trust board \u2014 Tuesday 24 November 2026 \u2014 4 leads",
+  "id": "papers:RJR_2026-11-24:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Leicestershire Partnership NHS Trust board \u2014 Tuesday 24 November 2026 \u2014 4 leads",
+  "id": "papers:RT5_2026-11-24:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "zoe.tidman@hsj.co.uk",
+  "subject": "[PAPERS] Mersey Care NHS Foundation Trust board \u2014 Thursday 19 November 2026 \u2014 5 leads",
+  "id": "papers:RW4_2026-11-19:zoe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[PAPERS] West Hertfordshire Teaching Hospitals NHS Trust board \u2014 Thursday 12 November 2026 \u2014 3 leads",
+  "id": "papers:RWG_2026-11-12:emily",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Devon Partnership NHS Trust board \u2014 Tuesday 17 November 2026 \u2014 10 leads",
+  "id": "papers:RWV_2026-11-17:joe",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Nottingham University Hospitals NHS Trust board \u2014 Thursday 12 November 2026 \u2014 8 leads",
+  "id": "papers:RX1_2026-11-12:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Derbyshire Healthcare NHS Foundation Trust board \u2014 Tuesday 24 November 2026 \u2014 3 leads",
+  "id": "papers:RXM_2026-11-24:annabelle",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Thames Valley ICB board \u2014 Wednesday 18 November 2026 \u2014 6 leads",
+  "id": "papers:S0E4D_2026-11-18:mimi",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Surrey and Sussex ICB board \u2014 Wednesday 25 November 2026 \u2014 6 leads",
+  "id": "papers:S9B9J_2026-11-25:alison",
+  "ok": true,
+  "err": ""
+ },
+ {
+  "to": "henry.anderson@hsj.co.uk",
+  "subject": "[Board paper machine] Run report - 2026-11-19 - 27 dates, 15 packs, 2 orgs need attention",
+  "id": "runreport:henry",
+  "ok": true,
+  "err": ""
+ }
+]

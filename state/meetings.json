@@ -784,8 +784,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "Slug says '11-nov-2026' but date returned was 2026-11-18 — verify. | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is. | slug on the papers page says 11-nov-2026 but the agenda is the 18 Nov 2026 board; date confirmed.",
    "last_verified": "2026-11-16T10:59:06Z",
@@ -3414,8 +3414,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-19T10:57:24Z",
@@ -3908,8 +3908,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-10T11:46:01Z",
@@ -4028,8 +4028,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "_previous_source_url": "https://www.derbyshirehealthcareft.nhs.uk/about-us/our-board-directors/board-meetings",
@@ -14494,8 +14494,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-19T10:57:24Z",
@@ -14990,8 +14990,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-16T10:59:06Z",
@@ -16894,8 +16894,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-19T10:57:24Z",
@@ -18358,8 +18358,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-16T10:59:06Z",
@@ -22070,8 +22070,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": null,
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "Detected via Playwright fallback (WebFetch was blocked). | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-19T10:57:24Z",
@@ -24844,8 +24844,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-16T10:59:06Z",
@@ -25801,8 +25801,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": " | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-10T11:46:01Z",
@@ -35921,8 +35921,8 @@
    "last_verified": "2026-11-19T10:57:24Z",
    "alerts_sent": {
     "date": "2026-08-24T13:51:36Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "Detected 2026-08-24 full sweep; literal-source verified against the org schedule page. | [2026-10-29] Confirmed literal: 'The next Board meeting is scheduled to take place on Wednesday 25 November' on schedule page (the separate 'Future meetings' list omits it — do not retract off that list alone). | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "summary_path": "summaries/QHM_2026-11-25.md"
@@ -37161,7 +37161,9 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "last_verified": "2026-11-10T11:46:01Z",
    "alerts_sent": {
-    "date": "2026-09-10T22:01:10Z"
+    "date": "2026-09-10T22:01:10Z",
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "pack_files": [
     {
@@ -37185,7 +37187,9 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "last_verified": "2026-11-10T11:46:01Z",
    "alerts_sent": {
-    "date": "2026-09-10T22:01:10Z"
+    "date": "2026-09-10T22:01:10Z",
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "[2026-09-10] Alerted to Henry within the shared Humber Health Partnership boards-in-common entry (RJL:2026-11-12), not as a separate email. |  | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is. Joint board with RJL: one pack, one summary (copy of RJL).",
    "pack_files": [
@@ -37827,8 +37831,8 @@
    "last_verified": "2026-11-19T10:57:24Z",
    "alerts_sent": {
     "date": "2026-09-17T17:53:09Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "detected 2026-09-17 via prescan; literal source text: \"25 November 2026\" | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "date_review": null,
@@ -40766,8 +40770,8 @@
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
     "date": "2026-09-24T18:01:28Z",
-    "papers": null,
-    "summary": null
+    "papers": "2026-11-19T12:42:32Z",
+    "summary": "2026-11-19T12:42:32Z"
    },
    "notes": "detected 2026-11-24 via prescan; literal source: 24 November 2026 | [2026-11-19] Pack detected + analysed (run-20261119-105510). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers deliberately left null until it is.",
    "last_verified": "2026-11-19T10:57:24Z",
@@ -44946,7 +44950,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -44967,7 +44971,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -44988,7 +44992,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45009,7 +45013,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45030,7 +45034,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45051,7 +45055,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45072,7 +45076,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45093,7 +45097,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45114,7 +45118,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45135,7 +45139,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45156,7 +45160,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45177,7 +45181,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45198,7 +45202,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45219,7 +45223,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45240,7 +45244,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45261,7 +45265,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45282,7 +45286,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45303,7 +45307,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45324,7 +45328,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45345,7 +45349,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45366,7 +45370,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45387,7 +45391,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45408,7 +45412,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45429,7 +45433,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45450,7 +45454,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45471,7 +45475,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
@@ -45492,7 +45496,7 @@
    "first_seen": "2026-11-19T12:00:00Z",
    "last_checked": "2026-11-19T12:00:00Z",
    "alerts_sent": {
-    "date": null,
+    "date": "2026-11-19T12:42:32Z",
     "papers": null,
     "summary": null
    },
