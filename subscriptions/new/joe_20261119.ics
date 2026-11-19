@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RJ8-2027-03-10@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Cornwall Partnership NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.cornwallft.nhs.uk/board-papers/
+URL:https://www.cornwallft.nhs.uk/board-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-01-28@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-03-25@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-05-27@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-07-29@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-09-30@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+BEGIN:VEVENT
+UID:RTQ-2027-11-25@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Gloucestershire Health and Care NHS Foundation Trust — Trust Board (public)
+DESCRIPTION:Detected by Board paper machine. Source: https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+URL:https://www.ghc.nhs.uk/who-we-are/board-and-governors/
+END:VEVENT
+END:VCALENDAR

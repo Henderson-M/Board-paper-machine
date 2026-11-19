@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:QE1-2027-01-14@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Lancashire and South Cumbria ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2027-03-04@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Lancashire and South Cumbria ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2027-05-06@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Lancashire and South Cumbria ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2027-07-08@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Lancashire and South Cumbria ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:QE1-2027-09-09@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:Lancashire and South Cumbria ICB — Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+URL:https://www.lancashireandsouthcumbria.icb.nhs.uk/about-us/board/meetings-and-papers
+END:VEVENT
+END:VCALENDAR

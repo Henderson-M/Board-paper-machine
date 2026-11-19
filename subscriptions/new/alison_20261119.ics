@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HSJ//Board paper machine//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:RYY-2027-01-20@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2027-03-17@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2027-05-19@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2027-07-21@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2027-09-15@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2027-11-17@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20271117
+DTEND;VALUE=DATE:20271118
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2028-01-19@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20280119
+DTEND;VALUE=DATE:20280120
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+BEGIN:VEVENT
+UID:RYY-2028-03-15@board-paper-machine.hsj
+DTSTAMP:20261119T114011Z
+DTSTART;VALUE=DATE:20280315
+DTEND;VALUE=DATE:20280316
+SUMMARY:Kent Community Health NHS Foundation Trust — Public Board meeting
+DESCRIPTION:Detected by Board paper machine. Source: https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+URL:https://www.kentcht.nhs.uk/about-us/who-we-are/the-board/
+END:VEVENT
+END:VCALENDAR

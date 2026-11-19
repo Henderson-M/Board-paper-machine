@@ -1,3 +1,39 @@
+## 2026-11-19: Full dry-run sweep - 27 new dates, 15 packs analysed, nothing sent
+
+Ran a full sweep (dry-run, no --live-emails) at Henry's request. Fetched origin first and was
+level (0 ahead/0 behind). `prescan.py` resolved 162 of 239 orgs from raw HTML in 50 seconds; 77
+needed a closer look, of which 49 are simply orgs that publish no forward schedule (not a
+failure). Agents (Sonnet for scanning, Fable for analysis, never more than 6 at once) covered the
+27 genuinely unresolved orgs, then 4 more scanned the 32 orgs with an in-window meeting but zero
+visible document links.
+
+**27 new dates**: Lancashire and South Cumbria ICB x5, South East London ICB, East Suffolk and
+North Essex, Cornwall Partnership, Humber Teaching x5, Kent Community x8 (running into 2028, all
+literal on the page), Gloucestershire Health and Care x6 (2027 list under a literal "2027" heading).
+Left out: Humber Teaching's "Wednesday 25 July 2027" (that date is a Sunday - page is internally
+inconsistent) and eight prescan hits that were print dates / page-review dates, not meetings.
+
+**1 retraction**: Gloucestershire 25 Nov 2026 was a mis-parse (the page's "25th November" is in the
+2027 list). Never alerted, so no withdrawal owed.
+
+**15 packs analysed** (16 summary files; Hull and NLAG share one pack): Humber and North
+Yorkshire ICB, Greater Manchester ICB, Mersey Care, Leicestershire Partnership, Derbyshire
+Healthcare, South East London ICB, Countess of Chester, Surrey and Sussex ICB, NENC ICB, South West
+London ICB, Devon Partnership, Thames Valley ICB, Nottingham University Hospitals, West Herts,
+NLAG/Hull joint board. Alerts composed in `outbox/` with manifests `papers_manifest_20261119.json`
+and `dates_manifest_20261119.json`. `alerts_sent` is deliberately left null on all of them
+until they are actually sent - status is already `analysed`, so a later run will NOT re-pick them
+up; they must go out from these manifests.
+
+**Needs a human**: WMAS (RYA) 25 Nov - reverify flagged it missing for the fifth time; trust's
+28 Oct agenda still says next meeting is 25 Nov; no pack yet. UHB (RRK) 18 Nov looks like a
+cancer event, not a board. Salisbury 16 Nov and Cambridge 10 and 16 Nov are not on the trusts' own
+schedule pages. Hertfordshire Partnership 17 Dec 2026 / 25 Feb 2027 have no source on the page.
+Bridgewater (RY2) page does not name Bridgewater. RYE 28 Oct aged out with no papers.
+Dartford and Gravesham (RN7) returns HTTP 500 on every route; GSTT (RJ1) still blocked.
+Analyser caveats: several summaries contain figures read from low-resolution images or
+tracked-changes text and say "check against PDF" beside them (RJR, RWV, S9B9J, RXM).
+
 ## 2026-11-16 (live send): All 18 emails sent for real - 0 failures
 
 Henry reviewed the dry-run below and said "pls send." Re-synced with origin first (0 ahead/behind,
