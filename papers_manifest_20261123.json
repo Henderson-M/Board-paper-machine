@@ -24,6 +24,18 @@
   ]
  },
  {
+  "id": "papers:QKS_2026-11-24:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] Kent and Medway ICB board — Tuesday 24 November 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_alison_papers_QKS_2026-11-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QKS_2026-11-24.md"
+  ],
+  "_meeting_ids": [
+   "QKS:2026-11-24"
+  ]
+ },
+ {
   "id": "papers:QMF_2026-11-25:matt-discombe",
   "to": "matt.discombe@hsj.co.uk",
   "subject": "[PAPERS] North East London ICB board — Wednesday 25 November 2026 — 5 leads",
@@ -45,6 +57,19 @@
   ],
   "_meeting_ids": [
    "QMF:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:QUY_2026-11-25:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] Bristol, North Somerset and South Gloucestershire ICB board — Wednesday 25 November 2026 — 1 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_joe_papers_QUY_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QUY_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "QUY:2026-11-25",
+   "QR1:2026-11-25"
   ]
  },
  {
@@ -154,6 +179,18 @@
   ],
   "_meeting_ids": [
    "RTK:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:RV5_2026-11-24:ella",
+  "to": "ella.devereux@hsj.co.uk",
+  "subject": "[PAPERS] South London and Maudsley NHS Foundation Trust board — Tuesday 24 November 2026 — 6 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_ella_papers_RV5_2026-11-24.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RV5_2026-11-24.md"
+  ],
+  "_meeting_ids": [
+   "RV5:2026-11-24"
   ]
  },
  {

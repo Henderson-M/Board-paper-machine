@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:R1A-2027-01-21@board-paper-machine.hsj
-DTSTAMP:20261123T135713Z
+DTSTAMP:20261123T140037Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Herefordshire and Worcestershire Health and Care NHS Trust — Trust Board (public)
@@ -13,7 +13,7 @@ URL:https://www.hacw.nhs.uk/board-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:R1A-2027-03-18@board-paper-machine.hsj
-DTSTAMP:20261123T135713Z
+DTSTAMP:20261123T140037Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Herefordshire and Worcestershire Health and Care NHS Trust — Trust Board (public)
