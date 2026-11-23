@@ -4,7 +4,7 @@ PRODID:-//HSJ//Board paper machine//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:QMF-2027-05-26@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:North East London ICB — North East London ICB Board Meeting
@@ -13,7 +13,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2027-07-28@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270729
 SUMMARY:North East London ICB — North East London ICB Board Meeting
@@ -22,7 +22,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2027-09-29@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20270929
 DTEND;VALUE=DATE:20270930
 SUMMARY:North East London ICB — North East London ICB Board Meeting
@@ -31,7 +31,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2027-11-24@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20271124
 DTEND;VALUE=DATE:20271125
 SUMMARY:North East London ICB — North East London ICB Board Meeting
@@ -40,7 +40,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2028-01-26@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20280126
 DTEND;VALUE=DATE:20280127
 SUMMARY:North East London ICB — North East London ICB Board Meeting
@@ -49,7 +49,7 @@ URL:https://northeastlondon.icb.nhs.uk/board-meetings/north-east-london-icb-boar
 END:VEVENT
 BEGIN:VEVENT
 UID:QMF-2028-03-29@board-paper-machine.hsj
-DTSTAMP:20261123T140709Z
+DTSTAMP:20261123T141023Z
 DTSTART;VALUE=DATE:20280329
 DTEND;VALUE=DATE:20280330
 SUMMARY:North East London ICB — North East London ICB Board Meeting

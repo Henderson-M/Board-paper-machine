@@ -24,6 +24,32 @@
   ]
  },
  {
+  "id": "papers:QHL_2026-11-09:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Birmingham and Solihull ICB board — Monday 9 November 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_caitlin_papers_QHL_2026-11-09.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QHL_2026-11-09.md"
+  ],
+  "_meeting_ids": [
+   "QHL:2026-11-09"
+  ]
+ },
+ {
+  "id": "papers:QJM_2026-11-19:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Lincolnshire ICB board — Thursday 19 November 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_annabelle_papers_QJM_2026-11-19.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QJM_2026-11-19.md"
+  ],
+  "_meeting_ids": [
+   "QJM:2026-11-19",
+   "QT1:2026-11-19",
+   "QJ2:2026-11-19"
+  ]
+ },
+ {
   "id": "papers:QKS_2026-11-24:alison",
   "to": "alison.moore@hsj.co.uk",
   "subject": "[PAPERS] Kent and Medway ICB board — Tuesday 24 November 2026 — 5 leads",
@@ -57,6 +83,19 @@
   ],
   "_meeting_ids": [
    "QMF:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:QOC_2026-11-26:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Shropshire, Telford and Wrekin ICB board — Thursday 26 November 2026 — 3 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_caitlin_papers_QOC_2026-11-26.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/QOC_2026-11-26.md"
+  ],
+  "_meeting_ids": [
+   "QOC:2026-11-26",
+   "QNC:2026-11-26"
   ]
  },
  {
@@ -143,6 +182,18 @@
   ],
   "_meeting_ids": [
    "RGD:2026-11-26"
+  ]
+ },
+ {
+  "id": "papers:RHA_2026-11-19:annabelle",
+  "to": "annabelle.collins@hsj.co.uk",
+  "subject": "[PAPERS] Nottinghamshire Healthcare NHS Foundation Trust board — Thursday 19 November 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_annabelle_papers_RHA_2026-11-19.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RHA_2026-11-19.md"
+  ],
+  "_meeting_ids": [
+   "RHA:2026-11-19"
   ]
  },
  {
