@@ -134,6 +134,30 @@
   ]
  },
  {
+  "id": "papers:RK9_2026-11-25:joe",
+  "to": "joe.talora@hsj.co.uk",
+  "subject": "[PAPERS] University Hospitals Plymouth NHS Trust board — Wednesday 25 November 2026 — 3 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_joe_papers_RK9_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RK9_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "RK9:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:RNU_2026-11-25:mimi",
+  "to": "mimi.launder@hsj.co.uk",
+  "subject": "[PAPERS] Oxford Health NHS Foundation Trust board — Wednesday 25 November 2026 — 7 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_mimi_papers_RNU_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RNU_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "RNU:2026-11-25"
+  ]
+ },
+ {
   "id": "papers:RR8_2026-11-26:henry",
   "to": "henry.anderson@hsj.co.uk",
   "subject": "[PAPERS] Leeds Teaching Hospitals NHS Trust board — Thursday 26 November 2026 — 9 leads",
@@ -215,6 +239,30 @@
   ],
   "_meeting_ids": [
    "RX3:2026-11-26"
+  ]
+ },
+ {
+  "id": "papers:RX7_2026-11-25:nick",
+  "to": "nick.kituno@hsj.co.uk",
+  "subject": "[PAPERS] North West Ambulance Service NHS Trust board — Wednesday 25 November 2026 — 2 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_nick_papers_RX7_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX7_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "RX7:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:RX7_2026-11-25:alison",
+  "to": "alison.moore@hsj.co.uk",
+  "subject": "[PAPERS] North West Ambulance Service NHS Trust board — Wednesday 25 November 2026 — 2 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_alison_papers_RX7_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RX7_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "RX7:2026-11-25"
   ]
  },
  {
