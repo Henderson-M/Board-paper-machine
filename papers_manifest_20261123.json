@@ -85,6 +85,18 @@
   ]
  },
  {
+  "id": "papers:R1A_2026-11-19:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] Herefordshire and Worcestershire Health and Care NHS Trust board — Thursday 19 November 2026 — 2 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_caitlin_papers_R1A_2026-11-19.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/R1A_2026-11-19.md"
+  ],
+  "_meeting_ids": [
+   "R1A:2026-11-19"
+  ]
+ },
+ {
   "id": "papers:RCB_2026-11-25:henry",
   "to": "henry.anderson@hsj.co.uk",
   "subject": "[PAPERS] York and Scarborough Teaching Hospitals NHS Foundation Trust board — Wednesday 25 November 2026 — 5 leads",
@@ -143,6 +155,31 @@
   ],
   "_meeting_ids": [
    "RK9:2026-11-25"
+  ]
+ },
+ {
+  "id": "papers:RL4_2026-11-17:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[PAPERS] The Royal Wolverhampton NHS Trust board — Tuesday 17 November 2026 — 5 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_caitlin_papers_RL4_2026-11-17.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RL4_2026-11-17.md"
+  ],
+  "_meeting_ids": [
+   "RL4:2026-11-17",
+   "RBK:2026-11-17"
+  ]
+ },
+ {
+  "id": "papers:RNN_2026-11-25:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[PAPERS] North Cumbria Integrated Care NHS Foundation Trust board — Wednesday 25 November 2026 — 4 leads",
+  "body_file": "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/outbox/20261123_matt-mathers_papers_RNN_2026-11-25.md",
+  "attach": [
+   "C:/Users/henry.anderson/OneDrive - HSJ Information Ltd/Documents/My assistant/projects/Board-paper-machine/summaries/RNN_2026-11-25.md"
+  ],
+  "_meeting_ids": [
+   "RNN:2026-11-25"
   ]
  },
  {
