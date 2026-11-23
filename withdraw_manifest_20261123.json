@@ -1,0 +1,39 @@
+[
+ {
+  "id": "withdrawn:caitlin",
+  "to": "caitlin.tilley@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "outbox/20261123_caitlin_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/caitlin_20261123.ics"
+  ],
+  "_meeting_ids": [
+   "RLT:2026-11-30"
+  ]
+ },
+ {
+  "id": "withdrawn:emily",
+  "to": "emily.townsend@hsj.co.uk",
+  "subject": "[Board paper machine] 2 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "outbox/20261123_emily_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/emily_20261123.ics"
+  ],
+  "_meeting_ids": [
+   "RWR:2026-12-17",
+   "RWR:2027-02-25"
+  ]
+ },
+ {
+  "id": "withdrawn:matt-mathers",
+  "to": "matt.mathers@hsj.co.uk",
+  "subject": "[Board paper machine] 1 meeting(s) withdrawn — please delete from your calendar",
+  "body_file": "outbox/20261123_matt-mathers_withdrawn.md",
+  "attach": [
+   "subscriptions/withdrawn/matt-mathers_20261123.ics"
+  ],
+  "_meeting_ids": [
+   "RX3:2026-11-23"
+  ]
+ }
+]
