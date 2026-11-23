@@ -802,14 +802,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QOQ:2027-03-17",
@@ -822,14 +822,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T12:45:48Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RPA:2026-07-01",
@@ -1801,7 +1801,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T13:07:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-05-27T13:07:43Z",
     "papers": null,
@@ -2698,7 +2698,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -3365,7 +3365,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T13:09:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-05-27T13:09:43Z",
     "papers": null,
@@ -4555,7 +4555,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4719,7 +4719,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -4920,7 +4920,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -5840,7 +5840,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6025,7 +6025,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -6130,14 +6130,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RCF:2027-03-04",
@@ -6364,7 +6364,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -7108,7 +7108,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8492,7 +8492,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -8681,7 +8681,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9184,14 +9184,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RAN:2027-05-06",
@@ -9204,14 +9204,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RP4:2026-06-18",
@@ -9738,7 +9738,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -9857,7 +9857,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -10581,7 +10581,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -11000,16 +11000,18 @@
      "kind": "pdf"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-11-23] Pack detected (run-20261123-130926), analysis pending.",
-   "last_verified": "2026-11-23T13:12:00Z"
+   "notes": "[2026-11-23] Pack detected (run-20261123-130926), analysis pending. | [2026-11-23] Pack detected + analysed (run-20261123-130926). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers left null until it is.",
+   "last_verified": "2026-11-23T13:12:00Z",
+   "summary_path": "summaries/RTH_2026-11-25.md",
+   "_analysed_run": "run-20261123-130926"
   },
   {
    "id": "RTH:2027-01-27",
@@ -12371,7 +12373,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12379,7 +12381,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RWW:2027-02-03",
@@ -12392,7 +12394,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12400,7 +12402,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://whh.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RY2:2026-06-03",
@@ -12496,7 +12498,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12504,7 +12506,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RY2:2027-02-03",
@@ -12517,7 +12519,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -12525,7 +12527,7 @@
    },
    "notes": null,
    "_previous_source_url": "https://bridgewater.nhs.uk/about-us/how-we-work/board-meetings-and-papers/",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RX8:2026-07-24",
@@ -12707,7 +12709,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13510,14 +13512,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QJ2:2027-03-18",
@@ -13530,14 +13532,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QJM:2026-07-16",
@@ -13612,7 +13614,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13728,7 +13730,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13848,7 +13850,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -13962,7 +13964,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -14716,7 +14718,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T14:16:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15330,7 +15332,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15433,7 +15435,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15453,14 +15455,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QJK:2027-03-25",
@@ -15473,14 +15475,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QT6:2026-07-30",
@@ -15576,7 +15578,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15596,14 +15598,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QT6:2027-03-25",
@@ -15616,14 +15618,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RXY:2026-05-28",
@@ -15953,7 +15955,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -15973,14 +15975,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QMF:2027-03-31",
@@ -15993,14 +15995,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QR1:2026-07-29",
@@ -16194,7 +16196,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -16312,16 +16314,18 @@
      "kind": "pdf"
     }
    ],
-   "status": "papers_found",
+   "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
-   "notes": "[2026-11-23] Pack detected (run-20261123-130926), analysis pending.",
-   "last_verified": "2026-11-23T13:35:36Z"
+   "notes": "[2026-11-23] Pack detected (run-20261123-130926), analysis pending. | [2026-11-23] Pack detected + analysed (run-20261123-130926). DRY-RUN: papers alert composed in outbox/ but NOT sent; alerts_sent.papers left null until it is.",
+   "last_verified": "2026-11-23T13:35:36Z",
+   "summary_path": "summaries/R0A_2026-11-25.md",
+   "_analysed_run": "run-20261123-130926"
   },
   {
    "id": "R0D:2026-07-08",
@@ -16670,7 +16674,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -17288,14 +17292,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "REF:2027-03-07",
@@ -17698,14 +17702,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RJR:2027-03-23",
@@ -17718,14 +17722,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RK5:2026-06-04",
@@ -18444,7 +18448,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -18559,7 +18563,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -20226,14 +20230,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RXW:2026-07-09",
@@ -21023,7 +21027,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:02:01Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -21818,7 +21822,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -22816,7 +22820,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-05-27T15:20:55Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -25152,7 +25156,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-06-05T08:52:37Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-05T08:56:10Z",
     "papers": null,
@@ -27169,14 +27173,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RAN:2027-11-04",
@@ -27189,14 +27193,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-09T18:31:30",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-09T19:10:18",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RMC:2026-07-30",
@@ -29130,14 +29134,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-24T09:49:55Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-24T10:35:49Z",
     "papers": null,
     "summary": null
    },
    "notes": null,
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RJ8:2026-07-01",
@@ -30538,14 +30542,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RBT:2027-03-25",
@@ -30558,14 +30562,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-06-29T09:18:15Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-06-29T10:06:26Z",
     "papers": null,
     "summary": null
    },
    "notes": "",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RBT:2027-05-27",
@@ -32853,7 +32857,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-07-13T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-13T12:20:45Z",
     "papers": null,
@@ -34038,7 +34042,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -34049,7 +34053,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "TAD:2027-03-04",
@@ -34062,7 +34066,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -34073,7 +34077,7 @@
     "verified_via": "playwright_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RWR:2026-09-24",
@@ -34111,7 +34115,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -34122,7 +34126,7 @@
     "verified_via": "pdf_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RWR:2027-01-28",
@@ -34135,7 +34139,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -34146,7 +34150,7 @@
     "verified_via": "pdf_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RWR:2027-03-24",
@@ -34159,7 +34163,7 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-07-20T15:26:43Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-21T10:31:26Z",
     "papers": null,
@@ -34170,7 +34174,7 @@
     "verified_via": "pdf_text",
     "literal_source_verified": true
    },
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RBQ:2026-09-17",
@@ -34838,7 +34842,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-07-23T17:15:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-07-23T17:40:00Z",
     "papers": null,
@@ -36297,7 +36301,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
@@ -36337,14 +36341,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-03] detected via playwright; literal evidence: January 2027 calendar grid, Thursday column, day 28 cell labelled 'Board of Directors public meetings'",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RY7:2027-02-03",
@@ -36357,14 +36361,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-03] detected via deterministic; literal evidence: Wednesday 3 February 2027, 09:00 - 12:30 Clinical Skills Lab, St Catherine's Health Centre",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "REM:2027-03-11",
@@ -36397,14 +36401,14 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-08-03T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-08-03T15:55:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-03] detected via playwright; literal evidence: March 2027 calendar grid, Thursday column, day 25 cell labelled 'Board of Directors public meetings'",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "QYG:2026-07-30",
@@ -36682,14 +36686,14 @@
    "source_url": "https://royalcornwallhospitals.nhs.uk/organisation/board-meetings/",
    "status": "date_found",
    "first_seen": "2026-08-17T16:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-08-17T16:00:00Z",
     "papers": null,
     "summary": null
    },
    "notes": "[2026-08-17] Corrects the retracted REF:2027-03-07. Page reads 'Thursday 4 March 2027'.",
-   "last_verified": "2026-11-23T13:40:03Z"
+   "last_verified": "2026-11-23T13:50:25Z"
   },
   {
    "id": "RDY:2026-08-11",
@@ -38380,7 +38384,7 @@
     }
    ],
    "first_seen": "2026-09-15T12:00:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-23T13:12:00Z",
    "alerts_sent": {
     "date": "2026-09-15T13:00:00Z",
@@ -42027,7 +42031,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-09-28T19:27:11Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-09-28T20:53:13Z",
     "papers": null,
@@ -42893,7 +42897,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-19T10:57:24Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -42919,7 +42923,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-19T10:57:24Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -42973,7 +42977,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-10-20T14:39:47Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-23T13:12:00Z",
    "alerts_sent": {
     "date": "2026-10-20T15:04:36Z",
@@ -44105,7 +44109,7 @@
    ],
    "status": "analysed",
    "first_seen": "2026-11-02T12:05:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-03T14:05:00Z",
     "papers": null,
@@ -44214,8 +44218,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-03T13:30:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-03T14:06:00Z",
     "papers": null,
@@ -44695,7 +44699,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-05T16:39:46Z",
     "papers": null,
@@ -44756,7 +44760,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-05T16:39:46Z",
     "papers": null,
@@ -44817,7 +44821,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-05T16:39:46Z",
     "papers": null,
@@ -44978,7 +44982,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-05T16:39:46Z",
     "papers": null,
@@ -45000,7 +45004,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-05T10:14:03Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-05T16:39:46Z",
     "papers": null,
@@ -45028,7 +45032,7 @@
     "summary": null
    },
    "first_seen": "2026-11-10T11:40:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-10T11:40:00Z",
    "notes": "[2026-11-23] Retracted (run-20261123-130926): page-print date artefact ('This page was printed on ...'), not a meeting",
    "detected_method": "prescan_literal",
@@ -45053,7 +45057,7 @@
     "summary": null
    },
    "first_seen": "2026-11-10T11:40:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-10T11:40:00Z",
    "notes": "[2026-11-23] Retracted (run-20261123-130926): page 'Printed at' date artefact, not a meeting; the trust's November board was 5 Nov 2026",
    "detected_method": "prescan_literal",
@@ -45078,7 +45082,7 @@
     "summary": null
    },
    "first_seen": "2026-11-10T11:40:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-10T11:40:00Z",
    "notes": "[2026-11-19] Pack scan: CUH 2026 page shows 11 Mar, 10 Jun, 9 Sep, 9 Dec only - no November meeting on page. NOT retracted; needs check. | [2026-11-23] Retracted (run-20261123-130926): 'correct at the time of printing' date artefact; the CUH 2026 page lists 11 Mar, 10 Jun, 9 Sep, 9 Dec only",
    "detected_method": "prescan_literal",
@@ -45257,7 +45261,7 @@
     "summary": null
    },
    "first_seen": "2026-11-10T11:40:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-10T11:40:00Z",
    "notes": "[2026-11-23] Retracted (run-20261123-130926): page-last-reviewed date artefact; the page lists the board on Thursday 26 November 2026 (and an annual members' meeting on 11 November)",
    "detected_method": "prescan_literal",
@@ -45679,7 +45683,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -45704,7 +45708,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -45750,7 +45754,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -45817,7 +45821,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -45842,7 +45846,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -45867,7 +45871,7 @@
    "pack_files": [],
    "status": "retracted",
    "first_seen": "2026-11-16T10:55:00Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": "2026-11-16T14:05:00Z",
     "papers": null,
@@ -46582,7 +46586,7 @@
    ],
    "status": "papers_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
    "last_verified": "2026-11-23T13:35:36Z",
    "alerts_sent": {
     "date": null,
@@ -46605,8 +46609,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -46628,8 +46632,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -46651,8 +46655,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -46674,8 +46678,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -46697,8 +46701,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -46720,8 +46724,8 @@
    "pack_files": [],
    "status": "date_found",
    "first_seen": "2026-11-23T13:35:36Z",
-   "last_checked": "2026-11-23T13:40:03Z",
-   "last_verified": "2026-11-23T13:40:03Z",
+   "last_checked": "2026-11-23T13:50:25Z",
+   "last_verified": "2026-11-23T13:50:25Z",
    "alerts_sent": {
     "date": null,
     "papers": null,
@@ -47843,7 +47847,7 @@
    "error": "Four future dates (17 Jun / 5 Aug / 7 Oct / 2 Dec 2026) retracted as unverifiable - sourced from the dead 2018 board page and inconsistent with the trust's real Thursday, monthly, no-August pattern. Correction sent to Zoe."
   }
  ],
- "_last_full_scan": "2026-11-23T13:40:03Z",
+ "_last_full_scan": "2026-11-23T13:50:25Z",
  "_test_scan_note": "Initial test scan covered 3 orgs only: RAE, RFF, QOQ. Full scan covers all 296.",
  "_last_partial_scan": {
   "ts": "2026-08-06T09:58:24Z",
@@ -47897,7 +47901,7 @@
   "note": "Merged onto colleague 27 Jul run. Added 5 fresh dates + 8 fresh packs (RN5/RCD/RDR/RGR/RXT/RBN/RHW/RP6). The other 20 packs + 6 dates were already alerted 27 Jul (duplicate emails sent by my run on stale state — not re-stamped).",
   "duplicate_note": "~22 papers + ~1 date emails on 2026-07-30 duplicated the 27 Jul send"
  },
- "_last_updated": "2026-11-23T13:40:03Z",
+ "_last_updated": "2026-11-23T13:50:25Z",
  "_run_2026_11_10": {
   "run_id": "run-20261110-113740",
   "new_dates": 29,
